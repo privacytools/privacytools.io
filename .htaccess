@@ -1,0 +1,8 @@
+Options +FollowSymLinks 
+RewriteEngine On
+
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteCond %{HTTP_HOST} !^www\.privacytools\.io$
+RewriteRule ^(.*)$ https://www.privacytools.io/$1 [L,R=301]
