@@ -1,5 +1,6 @@
 # [privacytools.io](https://www.privacytools.io/)
-encryption against global mass surveillance
+
+Encryption against global mass surveillance.
 
 #Contributing
 
