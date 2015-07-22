@@ -21,3 +21,10 @@ It's important for a website like privacytools.io to be up-to-date. Keep an eye 
 ## Hyperlinks
 
 - Please add the `target="_blank"` attribute to links ([example](https://github.com/privacytoolsIO/privacytools.io/blob/01af55ae9d03e9bb453f7891093704aaade80ec4/index.html#L136)).
+
+#Support Us
+
+- [Donate.](https://www.privacytools.io/donate.html)
+- [Spread the word.](https://www.privacytools.io/#participate)
+- [Make suggestions on reddit.](https://www.reddit.com/r/privacytoolsIO/)
+- View and edit our website source code here on GitHub.
