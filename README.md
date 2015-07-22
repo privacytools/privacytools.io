@@ -1,6 +1,6 @@
-# [privacytools.io](https://www.privacytools.io/)
+[![](https://www.privacytools.io/img/layout/logo.png)](http://privacytools.io)
 
-Encryption against global mass surveillance.
+_Encryption against global mass surveillance._
 
 #Contributing
 
