@@ -1,4 +1,4 @@
-# privacytools.io
+# [privacytools.io](https://www.privacytools.io/)
 encryption against global mass surveillance
 
 #### logo size for provider
