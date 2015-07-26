@@ -1,0 +1,1 @@
+Please refer to the **Contributing** and **Contributing Guidelines** sections of our [readme](https://github.com/privacytoolsIO/privacytools.io/blob/master/README.md) for the most up-to-date guidelines. Thank you.
