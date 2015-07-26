@@ -1,4 +1,4 @@
-[![](https://www.privacytools.io/img/layout/logo.png)](http://privacytools.io)
+[![](https://www.privacytools.io/img/layout/logo.png)](https://www.privacytools.io/)
 
 _Encryption against global mass surveillance._
 
@@ -8,7 +8,7 @@ It's important for a website like privacytools.io to be up-to-date. Keep an eye 
 
 **Talk to us please.** Join our [subreddit](https://www.reddit.com/r/privacytoolsIO/) and start a discussion. This is a community project and we're aiming to deliver the best information available for a better privacy. We are also using [/r/privacy](https://www.reddit.com/r/privacy). Thank you for participating.
 
-**Please do not submit suggestions here on GitHub - this is only for developing the website. Please submit them to our [subreddit](https://www.reddit.com/r/privacytoolsIO/) instead. Thanks you.**
+Please do not submit suggestions here on GitHub - this is only for developing the website. Please submit them to our [subreddit](https://www.reddit.com/r/privacytoolsIO/) instead. Thank you.
 
 
 #Contributing Guidelines
@@ -22,7 +22,7 @@ It's important for a website like privacytools.io to be up-to-date. Keep an eye 
 
 - Please add the `target="_blank"` attribute to links ([example](https://github.com/privacytoolsIO/privacytools.io/blob/01af55ae9d03e9bb453f7891093704aaade80ec4/index.html#L136)).
 
-#Support Us
+#Support privacytools.io
 
 - [Donate.](https://www.privacytools.io/donate.html)
 - [Spread the word.](https://www.privacytools.io/#participate)
