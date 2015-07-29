@@ -12,8 +12,10 @@ Please do not submit suggestions here on GitHub - this is only for developing th
 
 
 #Contributing Guidelines
+Please read this before contributing.
 
 ##Quality over Quantity
+
 We're trying to keep it simple and promote the best tools not all of them. Maximum are three software choices, but it's possible to add more under "Worth Mentioning" headlines. ([example](https://www.privacytools.io/#im)) 
 
 ##Images
@@ -23,7 +25,7 @@ We're trying to keep it simple and promote the best tools not all of them. Maxim
 
 ## Hyperlinks
 
-- Please add the `target="_blank"` attribute to links ([example](https://github.com/privacytoolsIO/privacytools.io/blob/01af55ae9d03e9bb453f7891093704aaade80ec4/index.html#L136)).
+- Please add the `target="_blank"` attribute to links ([example](https://github.com/privacytoolsIO/privacytools.io/blob/01af55ae9d03e9bb453f7891093704aaade80ec4/index.html#L136))
 
 #Support privacytools.io
 
