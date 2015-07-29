@@ -13,6 +13,9 @@ Please do not submit suggestions here on GitHub - this is only for developing th
 
 #Contributing Guidelines
 
+##Quality over Quantity
+We're trying to keep it simple and promote the best tools not all of them. Maximum are three software choices, but it's possible to add more under "Worth Mentioning" headlines. ([example](https://www.privacytools.io/#im)) 
+
 ##Images
 
 - Provider logos should be exactly 200 x 70 ([example](https://www.privacytools.io/img/provider/AirVPN.gif))
