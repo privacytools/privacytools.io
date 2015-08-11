@@ -33,3 +33,6 @@ We're trying to keep it simple and promote the best tools not all of them. Maxim
 - [Spread the word.](https://www.privacytools.io/#participate)
 - [Make suggestions on reddit.](https://www.reddit.com/r/privacytoolsIO/)
 - View and edit our website source code here on GitHub.
+
+#License
+[GNU General Public License v3.0](https://github.com/privacytoolsIO/privacytools.io/blob/master/LICENSE.txt)
