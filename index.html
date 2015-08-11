@@ -685,24 +685,33 @@ Highly customizable plugin to selectively allow Javascript, Java, and Flash to r
 <div class="alert alert-success" role="alert">
 This is a collection of privacy related <strong>about:config</strong> tweaks. We'll show you how to enhance the privacy of your Firefox browser.
 </div>
+
 <p></p><h3>Preparation:</h3><p></p>
+
 <ol>
 <li>Enter "about:config" in the firefox address bar and press enter.</li>
 <li>Press the button "I'll be careful, I promise!"</li>
 <li>Follow the instructions below...</li>
 </ol>
+
 <p></p><h3>Getting started:</h3><p></p>
+
 <ol>
 <li>privacy.trackingprotection.enabled = true</li>
 <ul><li>This is Mozilla’s new built in tracking protection.</li></ul>
+
 <li>geo.enabled = false</li>
 <ul><li>Disables geolocation.</li></ul>
+
 <li>browser.safebrowsing.enabled = false</li>
 <ul><li>Disable Google Safe Browsing and phishing protection. Security risk, but privacy improvement.</li></ul>
+
 <li>browser.safebrowsing.malware.enabled = false</li>
 <ul><li>Disable Google Safe Browsing malware checks. Security risk, but privacy improvement.</li></ul>
+
 <li>dom.event.clipboardevents.enabled = false</li>
 <ul><li>Disable that websites can get notifications if you copy, paste, or cut something from a web page, and it lets them know which part of the page had been selected.</li></ul>
+
 <li>network.cookie.cookieBehavior = 1</li>
 <ul>
 <li>Disable cookies</li>
@@ -710,6 +719,7 @@ This is a collection of privacy related <strong>about:config</strong> tweaks. We
 <li>1 = only accept from the originating site (block third party cookies)</li>
 <li>2 = block all cookies by default</li>
 </ul>
+
 <li>network.cookie.lifetimePolicy = 2</li>
 <ul>
 <li>cookies are deleted at the end of the session</li>
@@ -718,15 +728,23 @@ This is a collection of privacy related <strong>about:config</strong> tweaks. We
 <li>2 = Accept for current session only</li>
 <li>3 = Accept for N days</li>
 </ul>
+
 <li>browser.cache.offline.enable = false</li>
 <ul><li>Disables offline cache.</li></ul>
+
 <li>browser.send_pings = false</li>
 <ul><li>The attribute would be useful for letting websites track visitors’ clicks. </li></ul>
+
 <li>webgl.disabled = true</li>
 <ul><li>WebGL is a potential security risk. <a href="http://security.stackexchange.com/questions/13799/is-webgl-a-security-concern" target="_blank">Source</a></li></ul>
+
+<li>dom.battery.enabled = false</li>
+<ul><li>Website owners can track the battery status of your device. <a href="https://www.reddit.com/r/privacytoolsIO/comments/3fzbgy/you_may_be_tracked_by_your_battery_status_of_your/" target="_blank">Source</a></li></ul>
 </ol>
-<p>Source and thanks to reddit users <a href="https://www.reddit.com/r/privacy/comments/2uaent/tips_to_tune_your_firefox/" target="_blank">aboutconfig_tips</a> and <a href="https://www.reddit.com/r/privacytoolsIO/comments/317bq9/a_few_more_firefox_tweaks/" target="_blank">FreddyFredG</a></p>
+
 <p><a href="http://kb.mozillazine.org/Category:Security_and_privacy-related_preferences" target="_blank">Security and privacy-related preferences</a> by mozillazine.org.</p>
+
+
 <a class="anchor" name="email"></a>
 <div class="page-header">
 <h1>Privacy-Conscious Email Providers - No Affiliates</h1>
