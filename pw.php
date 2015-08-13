@@ -142,7 +142,7 @@ $pws8 = SecurePasswordGenerator(8,false,luds);
 <br/>
 
 <p>
-	Open Source Code: <a href="" target="_blank"></a>
+	Open Source Code: <a href="https://github.com/privacytoolsIO/privacytools.io/blob/master/pw.php" target="_blank">https://github.com/privacytoolsIO/privacytools.io/blob/master/pw.php</a>
 </p>
 
 </div>
