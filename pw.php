@@ -54,7 +54,7 @@ function SecurePasswordGenerator($length = 9, $add_dashes = false, $available_se
 <body>
 
 <div style="margin:30px 0 0 30px;width:600px;">
-<h1><a href="https://www.privacytools.io/"><img src="img/layout/logo.png" class="img-responsive" alt="privacytools.io"></a></h1>	
+<h1><a href="https://www.privacytools.io/"><img src="img/layout/logo.png" class="img-responsive" alt="privacytools.io"></a></h1>
 <h1>Secure Password Generator <a href="https://www.privacytools.io/pw.php" style="margin-left:25px;" class="btn btn-warning btn-sm"><span class="glyphicon glyphicon-lock"></span> Generate</a></h1>
 
 <p style="margin:20px 0 20px 0;">
@@ -67,18 +67,18 @@ such as i, l, 1, o, 0, etc. Every time this page is displayed, our secure server
 
 <?php
 //Without special characters
-$pw64 = SecurePasswordGenerator(64,false,lud);
-$pw32 = SecurePasswordGenerator(32,false,lud);
-$pw24 = SecurePasswordGenerator(24,false,lud);
-$pw16 = SecurePasswordGenerator(16,false,lud);
-$pw8 = SecurePasswordGenerator(8,false,lud);
+$pw64 = SecurePasswordGenerator(64,false,'lud');
+$pw32 = SecurePasswordGenerator(32,false,'lud');
+$pw24 = SecurePasswordGenerator(24,false,'lud');
+$pw16 = SecurePasswordGenerator(16,false,'lud');
+$pw8 = SecurePasswordGenerator(8,false,'lud');
 
 //With special characters
-$pws64 = SecurePasswordGenerator(64,false,luds);
-$pws32 = SecurePasswordGenerator(32,false,luds);
-$pws24 = SecurePasswordGenerator(24,false,luds);
-$pws16 = SecurePasswordGenerator(16,false,luds);
-$pws8 = SecurePasswordGenerator(8,false,luds);
+$pws64 = SecurePasswordGenerator(64,false,'luds');
+$pws32 = SecurePasswordGenerator(32,false,'luds');
+$pws24 = SecurePasswordGenerator(24,false,'luds');
+$pws16 = SecurePasswordGenerator(16,false,'luds');
+$pws8 = SecurePasswordGenerator(8,false,'luds');
 ?>
 
 <p>
