@@ -53,7 +53,7 @@ function SecurePasswordGenerator($length = 9, $add_dashes = false, $available_se
 
 <body>
 
-<div style="margin:30px 0 0 30px;width:600px;"	
+<div style="margin:30px 0 0 30px;width:600px;">
 <h1><a href="https://www.privacytools.io/"><img src="img/layout/logo.png" class="img-responsive" alt="privacytools.io"></a></h1>	
 <h1>Secure Password Generator <a href="https://www.privacytools.io/pw.php" style="margin-left:25px;" class="btn btn-warning btn-sm"><span class="glyphicon glyphicon-lock"></span> Generate</a></h1>
 
