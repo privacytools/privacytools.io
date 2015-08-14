@@ -1,5 +1,8 @@
 var passwordGenerator = (function() {
   var generateRandomNum = function (max) {
+    if (!window.crypto || !window.crypto.getRandomValues) {
+      throw new Error('Unsupported browser.');
+    }
     var array = new Uint8Array(1);
     window.crypto.getRandomValues(array);
     var range = max + 1;
