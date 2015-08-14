@@ -1,6 +1,12 @@
 var passwordGenerator = (function() {
   var generateRandomNum = function (max) {
-    return Math.floor(Math.random() * max);
+    var array = new Uint8Array(1);
+    window.crypto.getRandomValues(array);
+    var range = max + 1;
+    var max_range = 256;
+    if (array[0] >= Math.floor(max_range / range) * range)
+        return generateRandomNum(max);
+    return (array[0] % range);
   };
 
   var generatePassword = function (options) {
