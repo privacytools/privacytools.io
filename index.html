@@ -360,23 +360,30 @@ This open source tool uses some known methods that attempt to disable major trac
 <h1>VPN providers with extra layers of privacy - No Affiliates</h1>
 </div>
 <div class="alert alert-success" role="alert">
-<strong>All providers listed here are outside the US, accept Bitcoin and support OpenVPN. The table is sortable.</strong>
+<strong>All providers listed here are outside the US, use encryption, accept Bitcoin and support OpenVPN. The table is sortable.</strong>
 </div>
 
 <br>
+
+<!-- START VPN TABLE -->
+	
+<!-- *START LEFT & RIGHT* -->
+<div class="container">
+<div class="row">
+<!-- *LEFT* -->
+<div class="col-md-6" style="width:580px;">
+	
+<h2>Part 1: A - M</h2>	
+
+<br/>
 
 <table class="sortable-theme-bootstrap" data-sortable>
 <thead>
 <tr>
 <th data-sortable="true">VPN Service</th>
-<th data-sortable="true">Jurisdiction</th>
-<th data-sortable="false">Logs</th>
-<th data-sortable="true">Encoding</th>
-<th data-sortable="false">Bitcoin</th>
+<th data-sortable="true">Country</th>
 <th data-sortable="true" title="Number of Servers">Servers</th>
-<th data-sortable="false" title="Is Filesharing allowed?">P2P</th>
 <th data-sortable="true">Price / Year</th>
-<th data-sortable="false">Warrant Canary</th>
 </tr>
 </thead>
 <tbody>
@@ -384,125 +391,119 @@ This open source tool uses some known methods that attempt to disable major trac
 <tr>
 <td data-value="AirVPN"><a href="https://airvpn.org/" target="_blank"><img src="img/provider/AirVPN.gif" width="200" height="70"><br />AirVPN.org</a></td>
 <td>Italy</td>
-<td><span class="label label-info">No</span></td>
-<td>RSA-4096 / AES-256</td>
-<td><span class="label label-success">Accepted</span></td>
 <td>76</td>
-<td><span class="label label-success">Allowed</span></td>
 <td data-value="54">54 €</td>
-<td><a data-toggle="tooltip" data-placement="top" data-original-title="No, we don’t. While a warrant canary’s effectiveness is questionable, we recommend to use technical means to solve the problem at its roots. When a customer can’t afford to trust us for the sensitivity of his/her activities, he/she can simply use Tor over OpenVPN, or OpenVPN over Tor, to get an immediate protection which a warrant canary, not even if updated every day, will never be able to provide.">Statement</a></td>
+</tr>
+
+<tr>
+<td data-value="AzireVPN"><a href="https://www.azirevpn.com/" target="_blank"><img src="img/provider/AzireVPN.gif" width="200" height="70"><br />AzireVPN.com</a></td>
+<td>Sweden</td>
+<td>3</td>
+<td data-value="54">45 €</td>
 </tr>
 
 <tr>
 <td data-value="blackVPN"><a href="https://www.blackvpn.com/" target="_blank"><img src="img/provider/blackVPN.gif" width="200" height="70"><br />blackVPN.com</a></td>
 <td>Hong Kong</td>
-<td><span class="label label-info">No</span></td>
-<td>RSA-4096 / AES-256</td>
-<td><span class="label label-success">Accepted</span></td>
 <td>25</td>
-<td><span class="label label-success">Allowed</span></td>
 <td data-value="54">99 €</td>
-<td><a data-toggle="tooltip" data-placement="top" data-original-title="Hong Kong does not have an equivalent to America’s NSLs and is unable to legally issue a gag order. Since none of the BlackVPN team are in Hong Kong it’s difficult for them to intimidate us that way. We do not have a warrant canary as we’ve never seen one used effectively. In the worst case scenario we would simply “do a Lavabit” and hit the kill switch to shutdown all our systems until the authorities or the offender went away.">Statement</a></td>
 </tr>
 
 <tr>
 <td data-value="Cryptostorm"><a href="https://cryptostorm.is/" target="_blank"><img src="img/provider/Cryptostorm.gif" width="200" height="70"><br />Cryptostorm.is</a></td>
 <td>Iceland</td>
-<td><span class="label label-info">No</span></td>
-<td data-value="9999"><a data-toggle="tooltip" data-placement="top" data-original-title="RSA-2048 asymmetric key encryption, CBC 256-bit AES encryption, SHA-512 hash authentication">RSA / CBC / SHA</a></td>
-<td><span class="label label-success">Accepted</span></td>
 <td>13</td>
-<td><span class="label label-success">Allowed</span></td>
 <td data-value="52">$ 52</td>
-<td><a data-toggle="tooltip" data-placement="top" data-original-title="We have been involved in the technical and theoretical work of developing the concept and implementation of warrant canaries since prior to their currently-seen popularity as a marketing tool. Indeed, we coined the term “privacy seppuku” itself, which is a closely related subject.">Statement</a></td>
 </tr>
 
 <tr>
 <td data-value="FrootVPN"><a href="https://www.frootvpn.com/" target="_blank"><img src="img/provider/FrootVPN.gif" width="200" height="70"><br />FrootVPN.com</a></td>
 <td>Sweden</td>
-<td><span class="label label-info">No</span></td>
-<td>RSA-2048 / AES-256</td>
-<td><span class="label label-success">Accepted</span></td>
 <td>27</td>
-<td><span class="label label-success">Allowed</span></td>
 <td data-value="36">$ 36</td>
-<td><a data-toggle="tooltip" data-placement="top" data-original-title="No.">Statement</a></td>
 </tr>
 
 <tr>
 <td data-value="hide.me"><a href="https://hide.me/" target="_blank"><img src="img/provider/hide.me.gif" width="200" height="70"><br />hide.me</a></td>
 <td>Malaysia</td>
-<td><span class="label label-info">No</span></td>
-<td>RSA-4096 / AES-256</td>
-<td><span class="label label-success">Accepted</span></td>
 <td>85</td>
-<td><span class="label label-success">Allowed</span></td>
 <td data-value="65">$ 65</td>
-<td><a data-toggle="tooltip" data-placement="top" data-original-title="Since we are not operating under US law, in Malaysia there is no such thing as the Patriot Act. So far we haven’t been served with a court order or any governmental request and if it was the case we would be transparent with our customers that might have been affected by such court order.">Statement</a></td>
 </tr>
 
 <tr>
 <td data-value="IVPN"><a href="https://www.ivpn.net/" target="_blank"><img src="img/provider/IVPN.gif" width="200" height="70"><br />IVPN.net</a></td>
 <td>Gibraltar</td>
-<td><span class="label label-info">No</span></td>
-<td>RSA-4096 / AES-256</td>
-<td><span class="label label-success">Accepted</span></td>
 <td>15</td>
-<td><span class="label label-success">Allowed</span></td>
 <td data-value="100">$ 100</td>
-<td><a data-toggle="tooltip" data-placement="top" data-original-title="Yes absolutely, we’ve published a canary since August 2014.">Statement</a></td>
 </tr>
+
+</tbody>
+</table>
+
+</div>
+
+<!-- *RIGHT* -->
+<div class="col-md-6" style="width:580px;"><span class="pull-right">
+	
+<h2>Part 2: M - Z</h2>	
+
+<br/>
+
+<table class="sortable-theme-bootstrap" data-sortable>
+<thead>
+<tr>
+<th data-sortable="true">VPN Service</th>
+<th data-sortable="true">Country</th>
+<th data-sortable="true" title="Number of Servers">Servers</th>
+<th data-sortable="true">Price / Year</th>
+</tr>
+</thead>
+<tbody>
 
 <tr>
 <td data-value="Mullvad"><a href="https://mullvad.net/" target="_blank"><img src="img/provider/Mullvad.gif" width="200" height="70"><br />Mullvad.net</a></td>
 <td>Sweden</td>
-<td><span class="label label-info">No</span></td>
-<td>RSA-2048 / AES-256</td>
-<td><span class="label label-success">Accepted</span></td>
 <td>23</td>
-<td><span class="label label-success">Allowed</span></td>
 <td data-value="60">60 €</td>
-<td><a data-toggle="tooltip" data-placement="top" data-original-title="Under current Swedish law there is no way for them to force us to secretly act against our users so a warrant canary would serve no purpose. Also, we would not continue to operate under such conditions anyway.">Statement</a></td>
 </tr>
 
 <tr>
 <td data-value="NordVPN"><a href="https://nordvpn.com/" target="_blank"><img src="img/provider/NordVPN.gif" width="200" height="70"><br />NordVPN.com</a></td>
 <td>Panama</td>
-<td><span class="label label-info">No</span></td>
-<td>RSA-2048 / AES-256</td>
-<td><span class="label label-success">Accepted</span></td>
 <td>52</td>
-<td><span class="label label-success">Allowed</span></td>
 <td data-value="48">$ 48</td>
-<td><a data-toggle="tooltip" data-placement="top" data-original-title="We do not have a warrant canary or any other alert system, because as it was mentioned above, we operate under the laws of Panama and we guarantee that any information about our customers will not be distributed to any third party.">Statement</a></td>
 </tr>
 
 <tr>
 <td data-value="Perfect Privacy"><a href="https://www.perfect-privacy.com/" target="_blank"><img src="img/provider/Perfect-Privacy.gif" width="200" height="70"><br />Perfect-Privacy.com</a></td>
 <td>Panama<br />Switzerland<br />New Zealand</td>
-<td><span class="label label-info">No</span></td>
-<td>RSA-4096 / AES-256</td>
-<td><span class="label label-success">Accepted</span></td>
 <td>40</td>
-<td><span class="label label-success">Allowed</span></td>
 <td data-value="150">150 €</td>
-<td><a data-toggle="tooltip" data-placement="top" data-original-title="Since we are not bound by U.S. law, gag orders like National Security Letters do not apply to us. We would outright disclose any information of a possible problem to our users. As a last resort we would shut down our service before allowing our users to be compromised (e.g. like LavaBit).">Statement</a></td>
+</tr>
+
+<tr>
+<td data-value="Privatoria"><a href="https://privatoria.net/" target="_blank"><img src="img/provider/Privatoria.gif" width="200" height="70"><br />Privatoria.net</a></td>
+<td>Czech Republic</td>
+<td>10</td>
+<td data-value="90">$ 22,8</td>
 </tr>
 
 <tr>
 <td data-value="Proxy.sh"><a href="https://proxy.sh/" target="_blank"><img src="img/provider/Proxy.sh.gif" width="200" height="70"><br />Proxy.sh</a></td>
 <td>Seychelles</td>
-<td><span class="label label-info">No</span></a></td>
-<td>RSA-4096 / AES-256</td>
-<td><span class="label label-success">Accepted</span></td>
 <td>288</td>
-<td><span class="label label-success">Allowed</span></td>
 <td data-value="90">$ 90</td>
-<td><a data-toggle="tooltip" data-placement="top" data-original-title="Yes, proxy.sh/canary.">Statement</a></td>
 </tr>
 
 </tbody>
 </table>
+
+</span></div>
+</div>
+</div>
+<!-- *END LEFT & RIGHT* -->	
+
+<!-- END VPN TABLE -->	
 
 <br>
 
