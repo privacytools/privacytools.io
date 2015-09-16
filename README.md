@@ -25,7 +25,7 @@ We're trying to keep it simple and promote the best tools not all of them. Maxim
 
 ## Hyperlinks
 
-- Please add the `target="_blank"` attribute to links ([example](https://github.com/privacytoolsIO/privacytools.io/blob/01af55ae9d03e9bb453f7891093704aaade80ec4/index.html#L136))
+Please add the `target="_blank"` attribute to links ([example](https://github.com/privacytoolsIO/privacytools.io/blob/01af55ae9d03e9bb453f7891093704aaade80ec4/index.html#L136))
 
 #Support privacytools.io
 
@@ -33,6 +33,9 @@ We're trying to keep it simple and promote the best tools not all of them. Maxim
 - [Spread the word.](https://www.privacytools.io/#participate)
 - [Make suggestions on reddit.](https://www.reddit.com/r/privacytoolsIO/)
 - View and edit our website source code here on GitHub.
+
+#Contact
+[Tox ID:](https://tox.chat/) 6186C58A4A9B49A631DC326AE89ECCEDFDBE50F6778AEB400248A291563EB21322DDB1DA6685
 
 #License
 [GNU General Public License v3.0](https://github.com/privacytoolsIO/privacytools.io/blob/master/LICENSE.txt)
