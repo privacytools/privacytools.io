@@ -34,8 +34,5 @@ Please add the `target="_blank"` attribute to links ([example](https://github.co
 - [Make suggestions on reddit.](https://www.reddit.com/r/privacytoolsIO/)
 - View and edit our website source code here on GitHub.
 
-#Contact
-[Tox ID:](https://tox.chat/) 6186C58A4A9B49A631DC326AE89ECCEDFDBE50F6778AEB400248A291563EB21322DDB1DA6685
-
 #License
 [GNU General Public License v3.0](https://github.com/privacytoolsIO/privacytools.io/blob/master/LICENSE.txt)
