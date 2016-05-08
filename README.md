@@ -23,10 +23,6 @@ We're trying to keep it simple and promote the best tools not all of them. Maxim
 - Provider logos should be exactly 200 x 70 ([example](https://www.privacytools.io/img/provider/AirVPN.gif))
 - Tool logos should be exactly 120 x 120 ([example](https://www.privacytools.io/img/tools/ChatSecure.png))
 
-## Hyperlinks
-
-Please add the `target="_blank"` attribute to links ([example](https://github.com/privacytoolsIO/privacytools.io/blob/01af55ae9d03e9bb453f7891093704aaade80ec4/index.html#L136))
-
 #Support privacytools.io
 
 - [Donate.](https://www.privacytools.io/donate.html)
