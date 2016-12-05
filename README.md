@@ -16,7 +16,16 @@ Please read this before contributing.
 
 ##Quality over Quantity
 
-We're trying to keep it simple and promote the best tools not all of them. Maximum are three software choices, but it's possible to add more under "Worth Mentioning" headlines. ([example](https://www.privacytools.io/#im)) 
+We're trying to keep it simple and promote the best tools, not all of them. Maximum are three software choices, but it's possible to add more under "Worth Mentioning" headlines. ([example](https://www.privacytools.io/#im)) 
+
+##Software Criteria
+
+- Open Source
+- Cross-platform
+- Easy to use
+- Privacy respecting
+
+There can be exeptions if no software is available that meet the criteria.
 
 ##Images
 
