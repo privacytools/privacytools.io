@@ -14,6 +14,12 @@ You can submit your suggestions here on GitHub [(Issues)](https://github.com/pri
 #Contributing Guidelines
 Please read this before contributing.
 
+##Rules:
+
+- Be nice and respectful.
+- English only.
+- Be constructive.
+
 ##Quality over Quantity
 
 We're trying to keep it simple and promote the best tools, not all of them. Maximum are three software choices, but it's possible to add more under "Worth Mentioning" headlines. ([example](https://www.privacytools.io/#im)) 
