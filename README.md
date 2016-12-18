@@ -1,6 +1,6 @@
 [![](https://www.privacytools.io/img/layout/logo.png)](https://www.privacytools.io/)
 
-_Encryption against global mass surveillance._
+_Encryption Against Global Mass Surveillance._
 
 #Contributing
 
@@ -44,6 +44,10 @@ There can be exeptions if no software is available that meet the criteria.
 - [Spread the word.](https://www.privacytools.io/#participate)
 - [Make suggestions on reddit.](https://www.reddit.com/r/privacytoolsIO/)
 - View and edit our website source code here on GitHub.
+
+#Community Translations
+- [Español](https://victorhck.gitlab.io/privacytools-es/) - [GitLab](https://gitlab.com/victorhck/privacytools-es)
+- [Deutsch](https://privacytools.it-sec.rocks/) - [GitHub](https://github.com/Anon215/privacytools.it-sec.rocks)
 
 #License
 [GNU General Public License v3.0](https://github.com/privacytoolsIO/privacytools.io/blob/master/LICENSE.txt)
