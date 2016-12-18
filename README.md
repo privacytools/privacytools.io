@@ -14,7 +14,7 @@ You can submit your suggestions here on GitHub [(Issues)](https://github.com/pri
 #Contributing Guidelines
 Please read this before contributing.
 
-##Rules:
+##Rules
 
 - Be nice and respectful.
 - English only.
