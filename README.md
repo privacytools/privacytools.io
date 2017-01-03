@@ -1,6 +1,6 @@
 [![](https://www.privacytools.io/img/layout/logo.png)](https://www.privacytools.io/)
 
-_Encryption against global mass surveillance._
+_Encryption Against Global Mass Surveillance._
 
 #Contributing
 
@@ -14,9 +14,24 @@ You can submit your suggestions here on GitHub [(Issues)](https://github.com/pri
 #Contributing Guidelines
 Please read this before contributing.
 
+##Rules
+
+- Be nice and respectful.
+- English only.
+- Be constructive.
+
 ##Quality over Quantity
 
-We're trying to keep it simple and promote the best tools not all of them. Maximum are three software choices, but it's possible to add more under "Worth Mentioning" headlines. ([example](https://www.privacytools.io/#im)) 
+We're trying to keep it simple and promote the best tools, not all of them. Maximum are three software choices, but it's possible to add more under "Worth Mentioning" headlines. ([example](https://www.privacytools.io/#im)) 
+
+##Software Criteria
+
+- Open Source
+- Cross-platform
+- Easy to use
+- Privacy respecting
+
+There can be exeptions if no software is available that meet the criteria.
 
 ##Images
 
@@ -29,6 +44,11 @@ We're trying to keep it simple and promote the best tools not all of them. Maxim
 - [Spread the word.](https://www.privacytools.io/#participate)
 - [Make suggestions on reddit.](https://www.reddit.com/r/privacytoolsIO/)
 - View and edit our website source code here on GitHub.
+
+#Community Translations
+- [繁体中文 / Chinese](https://github.com/twngo/privacytools-zh) - [GitHub](https://github.com/twngo/privacytools-zh)
+- [Español / Spanish](https://victorhck.gitlab.io/privacytools-es/) - [GitLab](https://gitlab.com/victorhck/privacytools-es)
+- [Deutsch / German](https://privacytools.it-sec.rocks/) - [GitHub](https://github.com/Anon215/privacytools.it-sec.rocks)
 
 #License
 [GNU General Public License v3.0](https://github.com/privacytoolsIO/privacytools.io/blob/master/LICENSE.txt)
