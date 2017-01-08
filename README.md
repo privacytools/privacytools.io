@@ -39,9 +39,7 @@ There can be exeptions if no software is available that meet the criteria.
 - Tool logos should be exactly 120 x 120 ([example](https://www.privacytools.io/img/tools/ChatSecure.png))
 
 # Run local using Docker
-You can simple run this project local or on your server with Docker. Run ```docker-compose up```. Yours Apache server is now running.
-
-The site is acceible local on [localhost:8180](http://localhost:8180)
+You can simple run this project local on your server with Docker. When you run ```docker-compose up``` the site will be accessible on [localhost:8180](http://localhost:8180).
 
 ## Variables
 There are some variables you can change in the ```docker-compose.yml```. Over here are the variables.
@@ -50,7 +48,6 @@ There are some variables you can change in the ```docker-compose.yml```. Over he
 |-------------------|------------------------|----------------------------------------------------|
 |port               |8180:80                 |The port where the apache server is accessible on.  |
 |volumes            |/public:/var/www/html   |The folder that is attached to the docker container.|  
-
 
 # Support privacytools.io
 
