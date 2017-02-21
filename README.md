@@ -46,7 +46,8 @@ There can be exeptions if no software is available that meet the criteria.
 - View and edit our website source code here on GitHub.
 
 #Community Translations
-- [繁体中文 / Chinese](https://github.com/twngo/privacytools-zh) - [GitHub](https://github.com/twngo/privacytools-zh)
+- [繁體中文 / Traditional Chinese](https://github.com/twngo/privacytools-zh) - [GitHub](https://github.com/twngo/privacytools-zh)
+- [简体中文 / Simplified Chinese](https://paperbag.github.io/privacytools.io/) - [GitHub](https://github.com/paperbag/privacytools.io/tree/gh-pages)
 - [Español / Spanish](https://victorhck.gitlab.io/privacytools-es/) - [GitLab](https://gitlab.com/victorhck/privacytools-es)
 - [Deutsch / German](https://privacytools.it-sec.rocks/) - [GitHub](https://github.com/Anon215/privacytools.it-sec.rocks)
 
