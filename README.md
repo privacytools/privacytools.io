@@ -38,6 +38,14 @@ There can be exeptions if no software is available that meet the criteria.
 - Provider logos should be exactly 200 x 70 ([example](https://www.privacytools.io/img/provider/AirVPN.gif))
 - Tool logos should be exactly 120 x 120 ([example](https://www.privacytools.io/img/tools/ChatSecure.png))
 
+#Testing
+Before submitting any pullrequests please test your changes. You can easily do this through the website 
+[https://htmlpreview.github.io/?https://github.com/**privactoolsIO**/privacytools.io/blob/**branch**/index.html#**section**](https://htmlpreview.github.io/?https://github.com/privacytoolsIO/privacytools.io/blob/master/index.html#mobile_os)
+
+Replace privacytoolsIO with your Github username, branch with the branchname (default replacement is master), section with the corresponding section id, yet not required. 
+
+When submitting a pull request then it would be helpful for maintainers to have this link included in the content to test it.
+
 #Support privacytools.io
 
 - [Donate.](https://www.privacytools.io/donate.html)
