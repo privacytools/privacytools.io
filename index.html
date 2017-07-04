@@ -404,17 +404,6 @@
 							</tr>
 
 							<tr>
-								<td data-value="Doublehop.me">
-									<a href="https://doublehop.me/"><img src="img/provider/Doublehop.me.gif" width="200" height="70"></a>
-								</td>
-								<td data-value="33">$ 33</td>
-								<td><span class="label label-warning">No</span></td>
-								<td>6</td>
-								<td><span class="flag-icon flag-icon-sc"></span> Seychelles</td>
-								<td><a href="https://doublehop.me/">Doublehop.me</a></td>
-							</tr>
-
-							<tr>
 								<td data-value="EarthVPN">
 									<a href="http://www.earthvpn.com/"><img src="img/provider/EarthVPN.gif" width="200" height="70"></a>
 								</td>
@@ -948,7 +937,7 @@
 		<ol>
 			<li>privacy.trackingprotection.enabled = true</li>
 			<ul>
-				<li>This is Mozilla’s new built in tracking protection.</li>
+				<li>This is Mozilla’s new built in tracking protection. It uses Disconnect.me filter list, which is redundant if you are already using uBlock Origin 3rd party filters, therefore you should set it to false if you are using the add-on functionalities.</li>
 			</ul>
 
 			<li>geo.enabled = false</li>
@@ -1002,6 +991,11 @@
 			<ul>
 				<li>WebGL is a potential security risk. <a href="http://security.stackexchange.com/questions/13799/is-webgl-a-security-concern">Source</a></li>
 			</ul>
+			
+			<li>media.navigator.enabled = false</li>
+			<ul>
+                                <li>Websites can track the microphone and camera status of your device.</li>
+                        </ul>
 
 			<li>dom.battery.enabled = false</li>
 			<ul>
@@ -1208,7 +1202,7 @@
 							<td><span class="flag-icon flag-icon-nl"></span> Netherlands</td>
 							<td data-value="10000">10 GB</td>
 							<td data-value="60">$ 59.95</td>
-							<td data-value="0"><span class="label label-primary">No</span></td>
+							<td data-value="0"><span class="label label-success">Accepted</span></td>
 							<td data-value="1"><span class="label label-success">Built-in</span></td>
 							<td data-value="0"><span class="label label-success">Yes</span></td>
 						</tr>
@@ -1492,8 +1486,7 @@
 			</li>
 
 			<li>
-				<a href="https://www.ixquick.eu/">ixquick.eu</a> - Returns the top ten results from multiple search engines. Based in the
-				USA and the Netherlands.
+				<a href="https://www.ixquick.eu/">ixquick.eu</a> - Returns the top results from multiple search engines. Based in the Netherlands.
 			</li>
 		</ul>
 
@@ -1533,14 +1526,16 @@
 						<h3 class="panel-title">Wire</h3>
 					</div>
 					<div class="panel-body">
-						<p><img src="img/tools/wire.png" alt="WIRE SWISS GmbH" align="right" style="margin-left:5px;">Wire is an app developed by <a href="https://wire.com">WIRE SWISS GmbH</a>.
-       The Wire app allows users to exchange end-to-end encrypted instant messages, as well as make voice and video calls. Wire is free and open source, enabling anyone to verify its security by auditing the code. The development team is backed by Iconical and they will monetize in the future with premium features/services.</p>
+						<p><img src="img/tools/wire.png" alt="WIRE SWISS GmbH" align="right" style="margin-left:5px;">Wire is an app developed by Wire Swiss GmbH.
+							The Wire app allows users to exchange end-to-end encrypted instant messages, as well as make voice and video calls. Wire is free and open source, enabling anyone to verify its security by auditing the code. 
+							The development team is backed by Iconical and they will monetize in the future with premium features/services.<br> 
+							<b>Caution:</b> The company keeps a list of all the users you contact until you delete your account.</p>
 						<p>
 							<a href="https://get.wire.com">
 								<button type="button" class="btn btn-info">Download: get.wire.com</button>
 							</a>
 						</p>
-						<p>OS: Android, iOS, macOS, Windows, Web</p>
+						<p>OS: Android, iOS, macOS, Windows, Linux, Web</p>
 					</div>
 				</div>
 			</div>
@@ -1568,7 +1563,7 @@
 		</div>
 		<h3>Worth Mentioning</h3>
 		<ul>
-   <li><a href="https://www.chatsecure.org">ChatSecure</a> - ChatSecure is a free and open source messaging app that features OTR encryption over XMPP. </li>
+   			<li><a href="https://www.chatsecure.org">ChatSecure</a> - ChatSecure is a free and open source messaging app that features OTR encryption over XMPP. </li>
 			<li><a href="https://crypto.cat/">Cryptocat</a> - Encrypted open source messenger. Supports file sharing and multiple devices. Available for Windows, Linux and Mac.</li>
 			<li><a href="http://kontalk.org/">Kontalk</a> - A community-driven instant messaging network. Supports end-to-end encryption. Both client-to-server and server-to-server channels are fully encrypted.</li>
 			<li><a href="https://play.google.com/store/apps/details?id=eu.siacs.conversations">Conversations</a> - An open source Jabber/XMPP client for Android 4.0+ smart phones. Supports end-to-end encryption with either OMEMO, OTR or openPGP.</li>
@@ -1580,6 +1575,7 @@
 			<li><a href="https://motherboard.vice.com/read/ricochet-encrypted-messenger-tackles-metadata-problem-head-on">Ricochet, the Messenger That Beats Metadata, Passes Security Audit | Motherboard</a></li>
 			<li><a href="https://firstlook.org/theintercept/2015/07/14/communicating-secret-watched/">Chatting in Secret While We're All Being Watched - firstlook.org</a></li>
 			<li><a href="https://signal.org/android/apk/">Advanced users with special needs can download the Signal APK directly. Most users should not do this under normal circumstances.</a></li>
+			<li><a href="https://motherboard.vice.com/en_us/article/secure-messaging-app-wire-stores-everyone-youve-ever-contacted-in-plain-text">Secure Messaging App Wire Stores Everyone You've Ever Contacted in Plain Text | Motherboard</a></li>
 		</ul>
 
 		<a class="anchor" name="voip"></a>
@@ -1616,14 +1612,16 @@
 						<h3 class="panel-title">Wire</h3>
 					</div>
 					<div class="panel-body">
-						<p><img src="img/tools/wire.png" alt="WIRE SWISS GmbH" align="right" style="margin-left:5px;">Wire is a app developed by <a href="https://wire.com">WIRE SWISS GmbH</a>.
-       The Wire app allows users to exchange end-to-end encrypted instant messages, as well as make voice and video calls. Wire is free and open source, enabling anyone to verify its security by auditing the code. The development team is backed by Iconical and they will monetize in the future with premium features/services.</p>
+						<p><img src="img/tools/wire.png" alt="WIRE SWISS GmbH" align="right" style="margin-left:5px;">Wire is an app developed by Wire Swiss GmbH.
+							The Wire app allows users to exchange end-to-end encrypted instant messages, as well as make voice and video calls. Wire is free and open source, enabling anyone to verify its security by auditing the code. 
+							The development team is backed by Iconical and they will monetize in the future with premium features/services.<br> 
+							<b>Caution:</b> The company keeps a list of all the users you contact until you delete your account.</p>
 						<p>
 							<a href="https://get.wire.com">
 								<button type="button" class="btn btn-info">Download: get.wire.com</button>
 							</a>
 						</p>
-						<p>OS: Android, iOS, macOS, Windows, Web</p>
+						<p>OS: Android, iOS, macOS, Windows, Linux, Web</p>
 					</div>
 				</div>
 			</div>
@@ -1659,6 +1657,7 @@
 		<h3>Related Information</h3>
 		<ul>
 			<li><a href="https://signal.org/android/apk/">Advanced users with special needs can download the Signal APK directly. Most users should not do this under normal circumstances.</a></li>
+			<li><a href="https://motherboard.vice.com/en_us/article/secure-messaging-app-wire-stores-everyone-youve-ever-contacted-in-plain-text">Secure Messaging App Wire Stores Everyone You've Ever Contacted in Plain Text | Motherboard</a></li>
 		</ul>
 
 		<a class="anchor" name="cloud"></a>
@@ -2028,8 +2027,8 @@
 							or the entire storage device with pre-boot authentication. VeraCrypt is a fork of the discontinued TrueCrypt project. It was initially released on June 22, 2013. According to its developers, security improvements have been implemented and issues
 							raised by the initial TrueCrypt code audit have been addressed.</p>
 						<p>
-							<a href="https://veracrypt.codeplex.com/">
-								<button type="button" class="btn btn-success">Website: veracrypt.codeplex.com</button>
+							<a href="https://veracrypt.fr/">
+								<button type="button" class="btn btn-success">Website: veracrypt.fr</button>
 							</a>
 						</p>
 						<p>OS: Windows, Mac, Linux.</p>
@@ -2164,16 +2163,16 @@
 	  		<div class="col-sm-4">
 	    			<div class="panel panel-success">
 			  		<div class="panel-heading">
-          					<h3 class="panel-title">Bitcoin</h3>
+          					<h3 class="panel-title">Monero</h3>
 			  		</div>
 					<div class="panel-body">
-						<p><img src="img/tools/Bitcoin.png" alt="Bitcoin" align="right" style="margin-left:5px;">Bitcoin is a pseudonymous cryptocurrency that allows anyone to transact online without registering or giving away any personal information.</p>
+						<p><img src="img/tools/Monero.png" alt="Monero" align="right" style="margin-left:5px;">Monero focuses strictly on protecting user's privacy and mandates all transactions are private by default. Monero is open-source, completely decentralized and has three layers of privacy through Ring Signatures, Ring Confidential Transactions and Stealth Addresses.</p>
 						<p>
-							<a href="https://bitcoin.org/">
-								<button type="button" class="btn btn-success">Website: bitcoin.org</button>
+							<a href="https://getmonero.org/">
+								<button type="button" class="btn btn-success">Website: getmonero.org</button>
 							</a>
 						</p>
-						<p>OS: Windows, Mac, Linux, BSD, Android, iOS.</p>
+						<p>OS: Windows, Mac, Linux.</p>
 					</div>
 				</div>
 			</div>
@@ -2183,7 +2182,7 @@
 						<h3 class="panel-title">Zcash</h3>
 					</div>
 					<div class="panel-body">
-						<p><img src="img/tools/zcash.png" alt="Zcash" align="right" style="margin-left:5px;">Zcash offers total payment confidentiality, while still maintaining a decentralized network using a public blockchain. Unlike Bitcoin, Zcash transactions automatically hide the sender, recipient, and value of all transactions on the blockchain.</p>
+						<p><img src="img/tools/zcash.png" alt="Zcash" align="right" style="margin-left:5px;">Zcash offers total payment confidentiality, while still maintaining a decentralized network using a public blockchain. Unlike Bitcoin, Zcash transactions can optionally hide the sender, recipient, and value of transactions in z-addresses.</p>
 						<p>
 							<a href="https://www.z.cash/">
 								<button type="button" class="btn btn-info">Website: z.cash</button>
@@ -2196,26 +2195,20 @@
 			<div class="col-sm-4">
 				<div class="panel panel-warning">
 					<div class="panel-heading">
-						<h3 class="panel-title">ShadowCash</h3>
+						<h3 class="panel-title">Bitcoin</h3>
 					</div>
 					<div class="panel-body">
-						<p><img src="img/tools/ShadowCash.png" alt="ShadowCash" align="right" style="margin-left:5px;">ShadowCash is an anonymous cryptocurrency built on Bitcoin's codebase featuring additional cryptographic techniques allowing untraceable and unlinkable transactions meaning malicious attackers are unable to identify sender or receiver. Also includes decentralized encrypted messaging similar to BitMessage.</p>
+						<p><img src="img/tools/Bitcoin.png" alt="Bitcoin" align="right" style="margin-left:5px;">Bitcoin is a pseudonymous cryptocurrency that allows anyone to transact online without registering or giving away any personal information.</p>
 						<p>
-							<a href="https://shadowproject.io/">
-								<button type="button" class="btn btn-warning">Website: shadowproject.io</button>
+							<a href="https://bitcoin.org/">
+								<button type="button" class="btn btn-warning">Website: bitcoin.org</button>
 							</a>
 						</p>
-						<p>OS: Windows, Mac, Linux.</p>
+						<p>OS: Windows, Mac, Linux, BSD, Android, iOS.</p>
 					</div>
 				</div>
 			</div>
 		</div>
-
-		<h3>Worth Mentioning</h3>
-		<ul>
-			<li><a href="https://www.dash.org/">Dash</a> - An open sourced, privacy-centric digital currency with instant transactions. It allows you to keep your finances private as you make transactions without waits.</li>
-			<li><a href="https://getmonero.org/">Monero</a> Monero is a secure, private, untraceable currency. It is open-source and freely available to all.</li>
-		</ul>
 
 		<a class="anchor" name="social"></a>
 		<div class="page-header">
@@ -2373,25 +2366,25 @@
 						<p>OS: Windows, Mac, Linux, Android.</p>
 					</div>
 				</div>
-			</div>
-
-			<div class="col-sm-4">
-				<div class="panel panel-warning">
-					<div class="panel-heading">
-						<h3 class="panel-title">Simplenote</h3>
-					</div>
-					<div class="panel-body">
-						<p><img src="img/tools/Simplenote.png" width="120" height="120" alt="Simplenote" align="right" style="margin-left:5px;">Simplenote is an easy way to keep notes, lists, ideas and more. Your notes stay in sync with all of your devices for free. The Simplenote experience is all about speed and efficiency. Open it, write some thoughts, and you're done. <a href="https://simplenote.com/help/#encryption">Does not support client-side encryption.</a></p>
-						<p>
-							<a href="https://simplenote.com/">
-								<button type="button" class="btn btn-warning">Website: simplenote.com</button>
-							</a>
-						</p>
-						<p>OS: Windows, Mac, Linux, Android, iOS.</p>
-					</div>
-				</div>
-			</div>
-
+        
+			</div>			
+			
+            <div class="col-sm-4">
+                <div class="panel panel-warning">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Standard Notes</h3>
+                    </div>
+                    <div class="panel-body">
+                        <p><img src="img/tools/StandardNotes.png" alt="StandardNotes" align="right" style="margin-left:5px;">Standard Notes is a simple and private notes app that makes your notes easy and available everywhere you are. Features end-to-end encryption on every platform, and a powerful desktop experience with themes and custom editors.<p>
+                        <p>
+                            <a href="https://standardnotes.org/">
+                                <button type="button" class="btn btn-warning">Website: standardnotes.org</button>
+                            </a>
+                        </p>
+                        <p>OS: Windows, Mac, Linux, iOS, Android, Web.</p>
+                    </div>
+                </div>
+            </div>
 
 		</div>
 
@@ -2655,14 +2648,14 @@
 			<div class="col-sm-4">
 				<div class="panel panel-success">
 					<div class="panel-heading">
-						<h3 class="panel-title">CyanogenMod</h3>
+						<h3 class="panel-title">LineageOS</h3>
 					</div>
 					<div class="panel-body">
-						<p><img src="img/tools/CyanogenMod.png" alt="CyanogenMod" align="right" style="margin-left:5px;">CyanogenMod is an open-source operating system for smartphones and tablets, based on Android. It is developed as free and open source software based on
-							the official releases of Android by Google.</p>
+						<p><img src="img/tools/LineageOS.png" alt="LineageOS" align="right" style="margin-left:5px;">LineageOS is a free and open-source operating system for smartphones and tablets, based on 
+							the oficcial releases of Android by Google. It is the continuation of the CyanogenMod project.</p>
 						<p>
-							<a href="http://www.cyanogenmod.org/">
-								<button type="button" class="btn btn-success">Website: cyanogenmod.org</button>
+							<a href="https://www.lineageos.org/">
+								<button type="button" class="btn btn-success">Website: lineageos.org</button>
 							</a>
 						</p>
 					</div>
@@ -2672,14 +2665,13 @@
 			<div class="col-sm-4">
 				<div class="panel panel-info">
 					<div class="panel-heading">
-						<h3 class="panel-title">Ubuntu Mobile</h3>
+						<h3 class="panel-title">CopperheadOS</h3>
 					</div>
 					<div class="panel-body">
-						<p><img src="img/tools/Ubuntu-Touch.png" alt="Ubuntu Mobile" align="right" style="margin-left:5px;">Ubuntu Mobile  is a mobile version of the Ubuntu operating system developed by Canonical UK Ltd and Ubuntu Community. It is designed primarily for touchscreen
-							mobile devices such as smartphones and tablet computers.</p>
+						<p><img src="img/tools/CopperheadOS.png" alt="CopperheadOS" align="right" style="margin-left:5px;">CopperheadOS is a hardened mobile open-source operating system by Copperhead Security and based on Android. It aims to provide stronger security and privacy. It also contains a hardened kernel and sandbox features for app isolation. Available for selected Nexus devices.</p>
 						<p>
-							<a href="http://www.ubuntu.com/mobile">
-								<button type="button" class="btn btn-info">Website: ubuntu.com</button>
+							<a href="https://copperhead.co/android/">
+								<button type="button" class="btn btn-info">Website: copperhead.co</button>
 							</a>
 						</p>
 					</div>
@@ -2708,7 +2700,6 @@
 		<h3>Worth Mentioning</h3>
 		<ul>
 			<li><a href="http://www.replicant.us/">Replicant</a> - An open-source operating system based on Android, aiming to replace all proprietary components with free software.</li>
-			<li><a href="https://copperhead.co/android/downloads">Copperhead</a> - A hardened open-source operating system based on Android, available for select Nexus devices.</li>
 			<li><a href="http://omnirom.org/">OmniROM</a> - A free software operating system for smartphones and tablet computers, based on the Android mobile platform.</li>
 		</ul>
 
