@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="gutter table">
+<div id="background" class="cell">
+<div class="modal fade">
+<main>
+<a id="close" href="#"><img src="images/close.svg" alt="Close"/></a>
+<section id="loading" class="hidden invisible fade">
+<div class="table">
+<div class="cell">
+<img src="images/slow.png">
+</div>
+</div>
+</section>
+<section id="main" class="fade">
+<div id="logos"></div>
+<h1 id="headline"></h1>
+<p id="content"></p>
+<form id="form" method="post" action="https://queue.fightforthefuture.org/action" accept-charset="UTF-8">
+<input type="text" name="member[first_name]" placeholder="Full Name" title="Full Name" autocomplete="name" required>
+<input type="email" name="member[email]" placeholder="Email" title="Email" required>
+<div class="flex">
+<input type="text" name="member[street_address]" placeholder="Street Address" title="Street Address" required>
+<input id="postcode" type="text" name="member[postcode]" placeholder="Postcode" title="Postcode" required>
+</div>
+<input id="phone" type="tel" name="member[phone]" placeholder="Phone # (to volunteer)" title="Phone">
+<input type="hidden" name="subject" value="Protect Net Neutrality!"/>
+<textarea name="action_comment" title="Comment" required>The FCC's Open Internet Rules (net neutrality rules) are extremely important to me. I urge you to protect them.&#013;&#010;&#013;&#010;I don't want ISPs to have the power to block websites, slow them down, give some sites an advantage over others, or split the Internet into "fast lanes" for companies that pay and "slow lanes" for the rest.&#013;&#010;&#013;&#010;Now is not the time to let giant ISPs censor what we see and do online.&#013;&#010;&#013;&#010;Censorship by ISPs is a serious problem. Comcast has throttled Netflix, AT&T blocked FaceTime, Time Warner Cable throttled the popular game League of Legends, and Verizon admitted it will introduce fast lanes for sites that pay-and slow lanes for everyone else-if the FCC lifts the rules. This hurts consumers and businesses large and small.&#013;&#010;&#013;&#010;Courts have made clear that if the FCC ends Title II classification, the FCC must let ISPs offer "fast lanes" to websites for a fee.&#013;&#010;&#013;&#010;Chairman Pai has made clear that he intends to do exactly this.&#013;&#010;&#013;&#010;But if some companies can pay our ISPs to have their content load faster, startups and small businesses that can't pay those fees won't be able to compete. You will kill the open marketplace that has enabled millions of small businesses and created the 5 most valuable companies in America-just to further enrich a few much less valuable cable giants famous for sky-high prices and abysmal customer service.&#013;&#010;&#013;&#010;Internet providers will be able to impose a private tax on every sector of the American economy.&#013;&#010;&#013;&#010;Moreover, under Chairman Pai's plan, ISPs will be able to make it more difficult to access political speech that they don't like. They'll be able to charge fees for website delivery that would make it harder for blogs, nonprofits, artists, and others who can't pay up to have their voices heard.&#013;&#010;&#013;&#010;I'm sending this to the FCC's open proceeding, but I worry that Chairman Pai, a former Verizon lawyer, has made his plans and will ignore me and millions of other Americans.&#013;&#010;&#013;&#010;So I'm also sending this to my members of Congress. Please publicly support the FCC's existing net neutrality rules based on Title II, and denounce Chairman Pai's plans. Do whatever you can to dissuade him.&#013;&#010;&#013;&#010;Thank you!</textarea>
+<input type="submit" value="Send Letter"/>
+<div class="disclaimer">
+ 
+<p id="rotation"></p>
+<p><a href="https://www.battleforthenet.com/privacy/" target="_blank">Privacy Policy</a> | <a href="https://github.com/fightforthefuture/battleforthenet-widget#how-to-install-the-widget">Get the code <img class="github" src="images/github.svg" alt="GitHub"/></a> | <a href="https://github.com/fightforthefuture/battleforthenet-widget/issues">Issues?</a></p>
+</div>
+ 
+<input class="hidden" type="checkbox" checked="checked" name="hp_enabled"/>
+<input class="hidden" type="checkbox" name="hp_disabled"/>
+<input class="hidden" type="text" name="guard"/>
+ 
+<input type="hidden" name="contact_congress" value="1"/>
+<input type="hidden" name="fcc_ecfs_docket" value="17-108"/>
+ 
+<input type="hidden" name="an_tags" value="[&quot;net-neutrality&quot;]"/>
+<input type="hidden" name="an_petition_id" value="5de97f0d-fd08-4b3a-904d-f808e380dbd6"/>
+<input id="source" type="hidden" name="subscription[source]" value=""/>
+</form>
+</section>
+<section id="prompt" class="prompt hidden invisible fade">
+<h1>Thanks for emailing them!<br/>Now, can you call?</h1>
+<p>Enter your number and we'll connect you to Congress and the FCC. (We'll also give you suggestions on what to say.)</p>
+<form id="call" method="post" action="https://call-congress.fightforthefuture.org/create" accept-charset="UTF-8">
+<input id="userPhone" type="phone" name="userPhone" placeholder="Phone" title="Phone" required>
+<input id="zipcode" type="hidden" name="zipcode">
+<input type="hidden" name="campaignId" value="battleforthenet-2017">
+<input type="submit" value="Call Now"/>
+<div class="disclaimer">
+<p>Your phone number will only be used to make this call. <a href="https://www.battleforthenet.com/privacy/" target="_blank">Privacy Policy</a></p>
+</div>
+</form>
+</section>
+<section id="script" class="hidden invisible fade">
+<h1>Calling you now!</h1>
+<h2>Be polite, introduce yourself, and say:</h2>
+<h2>&ldquo;I support the *existing* Title II net neutrality rules and I would like you to publicly oppose the FCC’s plan to repeal them.&rdquo;</h2>
+</section>
+</main>
+<footer id="footer" class="hidden invisible">
+<h3>Other ways to help us win...</h3>
+<ul>
+<li>
+<a href="https://www.facebook.com/sharer.php?u=https://www.battleforthenet.com/" target="_blank">
+<button class="facebook">
+<img src="images/facebook.svg"/>
+<span>Share</span>
+</button>
+</a>
+</li>
+<li>
+<a href="https://twitter.com/intent/tweet?related=fightfortheftr&text=What%0A%0A%20if%0A%0A%20the%0A%0A%20Internet%0A%0A%20was%0A%0A%20so%0A%0A%20slow%0A%0A%20it%0A%0A%20loaded%0A%0A%20one%0A%0A%20word%0A%0A%20at%0A%0A%20a%0A%0A%20time?%0A%0A%20Defend %23NetNeutrality. https://www.battleforthenet.com" target="_blank">
+<button class="twitter">
+<img src="images/twitter.svg"/>
+<span>Tweet</span>
+</button>
+</a>
+</li>
+<li>
+<a id="protest" href="https://actionnetwork.org/event_campaigns/show-up-and-speak-out-for-net-neutrality" target="_blank">
+<button class="protest">
+<img src="images/pin.svg"/>
+<span>Protest</span>
+</button>
+</a>
+</li>
+<li>
+<a id="donate" href="https://donate.fightforthefuture.org/" target="_blank">
+<button class="donate">
+<img src="images/heart.svg"/>
+<span>Donate</span>
+</button>
+</a>
+</li>
+<li>
+<a href="https://video.battleforthenet.com/" target="_blank">
+<button class="video">
+<img src="images/video.svg"/>
+<span>Send Video</span>
+</button>
+</a>
+</li>
+</ul>
+</footer>
+</div>
+</div>
+</div>
+ 
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
