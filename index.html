@@ -125,7 +125,7 @@ function preload(){for(i=0;i<preload.arguments.length;i++){images[i]=new Image()
 images[i].src=_bftn_options.iframe_base_path+'/images/'+ preload.arguments[i]
 images[i].onload=function(){preloaded++;_bftn_util.log('Preloaded '+ preloaded+' images.');if(preloaded==images.length){_bftn_util.log('DONE PRELOADING IMAGES. Starting animation in '+ _bftn_options.delay+' milliseconds.');init();}}}}
 if(!_bftn_options.always_show_widget&&window.location.href.indexOf('ALWAYS_SHOW_BFTN_WIDGET')===-1){if(_bftn_util.getCookie('_BFTN_WIDGET_SHOWN'))return;var today=new Date();if(today.getFullYear()!==_bftn_options.date.getFullYear()||today.getMonth()!==_bftn_options.date.getMonth()||today.getDate()!==_bftn_options.date.getDate()){return;}}
-_bftn_util.setCookie('_BFTN_WIDGET_SHOWN','true',365);_bftn_util.injectCSS('_bftn_iframe_css','#_bftn_wrapper { position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; z-index: 20000; -webkit-overflow-scrolling: touch; overflow-y: scroll; } #_bftn_iframe { width: 100%; height: 100%;  }');init();}
+_bftn_util.setCookie('_BFTN_WIDGET_SHOWN','true',1);_bftn_util.injectCSS('_bftn_iframe_css','#_bftn_wrapper { position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; z-index: 20000; -webkit-overflow-scrolling: touch; overflow-y: scroll; } #_bftn_iframe { width: 100%; height: 100%;  }');init();}
 switch(document.readyState){case'complete':case'loaded':case'interactive':onDomContentLoaded();break;default:if(typeof document.addEventListener==='function'){document.addEventListener('DOMContentLoaded',onDomContentLoaded,false);}}})();</script>
 
 </head>
