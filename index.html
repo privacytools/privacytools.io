@@ -951,6 +951,16 @@
 			<ul>
 				<li>This is Mozilla’s new built in tracking protection. It uses Disconnect.me filter list, which is redundant if you are already using uBlock Origin 3rd party filters, therefore you should set it to false if you are using the add-on functionalities.</li>
 			</ul>
+			
+			<li>privacy.resistFingerprinting = true</li>
+			<ul>
+				<li>A result of the <a href="https://wiki.mozilla.org/Security/Tor_Uplift">Tor Uplift</a> effort, this preference makes Firefox more resistant to browser fingerprinting.</li>
+			</ul>
+
+			<li>privacy.firstparty.isolate = true</li>
+			<ul>
+				<li>A result of the <a href="https://wiki.mozilla.org/Security/Tor_Uplift">Tor Uplift</a> effort, this preference isolates all browser identifier sources (e.g. cookies) to the first party domain, with the goal of preventing tracking across different domains.</li>
+			</ul>
 
 			<li>geo.enabled = false</li>
 			<ul>
