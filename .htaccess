@@ -1,14 +1,10 @@
 Options +FollowSymLinks 
 RewriteEngine On
 
-#RewriteCond %{HTTP:X-Forwarded-Proto} =http
-#RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+RewriteCond %{HTTP:X-Forwarded-Proto} =http
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
-#Redirect from HTTPS to HTTP
-RewriteCond %{HTTPS} on
-RewriteRule (.*) http://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
-
-#RewriteCond %{HTTP_HOST} !^www\.privacytools\.io$
-#RewriteRule ^(.*)$ https://www.privacytools.io/$1 [L,R=301]
+RewriteCond %{HTTP_HOST} !^www\.privacytools\.io$
+RewriteRule ^(.*)$ https://www.privacytools.io/$1 [L,R=301]
 
 RewriteRule ^pw.php$ /password.html [R=301,L]
