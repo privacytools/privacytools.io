@@ -8,10 +8,13 @@
 	<!-- tags for Search Engine Optimization -->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=1024">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 	<meta name="keywords" content="privacy, anonymity, privacy tools, surveillance, encryption, edward snowden, nsa, tor, bitcoin">
 	<meta name="description" content="You are being watched! Knowledge, encryption and privacy tools to protect you against global mass surveillance.">
 
+	<!-- referrer policy -->
+	<meta http-equiv="Referrer-Policy" content="no-referrer">
+	
 	<!-- title -->
 	<title>Privacy Tools - Encryption Against Global Mass Surveillance</title>
 
@@ -119,10 +122,10 @@
 							<li><a href="#voip">Video & Voice Messenger</a></li>
 							<li><a href="#pw">Password Manager</a></li>
 							<li><a href="#encrypt">File Encryption</a></li>
+							<li><a href="#filesharing">File Sharing</a></li>
 							<li><a href="#sync">Secure File Sync</a></li>
 							<li><a href="password.html">Secure Password Generator</a></li>
-							<li><a href="#network">Self-contained Networks</a></li>
-							<li><a href="#cryptocurrency">Cryptocurrencies</a></li>
+							<li><a href="#darknets">Self-contained Networks</a></li>
 							<li><a href="#mycloud">Self-Hosted Cloud Server</a></li>
 							<li><a href="#notebook">Digital Notebook</a></li>
 							<li><a href="#paste">Paste Services</a></li>
@@ -139,6 +142,7 @@
 							<li><a href="#live_os">Live CD OS</a></li>
 							<li><a href="#mobile_os">Mobile OS</a></li>
 							<li><a href="#firmware">Router Firmware</a></li>
+							<li><a href="#hardware">Secure Hardware</a></li>
 						</ul>
 					</li>
 
@@ -386,7 +390,7 @@
 									<a href="https://www.blackvpn.com/"><img src="img/provider/blackVPN.gif" width="200" height="70"></a>
 								</td>
 								<td data-value="105">99 €</td>
-								<td><span class="label label-warning">No</span></td>
+								<td><span class="label label-success">Yes</span></td>
 								<td>27</td>
 								<td><span class="flag-icon flag-icon-hk"></span> Hong Kong</td>
 								<td><a href="https://www.blackvpn.com/">blackVPN.com</a></td>
@@ -412,6 +416,17 @@
 								<td>432</td>
 								<td><span class="flag-icon flag-icon-cy"></span> Northern Cyprus</td>
 								<td><a href="http://www.earthvpn.com/">EarthVPN.com</a></td>
+							</tr>
+
+							<tr>
+								<td data-value="ExpressVPN">
+									<a href="https://www.expressvpn.com/"><img src="img/provider/ExpressVPN.gif" width="200" height="70"></a>
+								</td>
+								<td data-value="99.95">$ 99.95</td> <!-- USD on March 21, 2017 -->
+								<td><span class="label label-success">Yes</span></td>
+								<td>145</td>
+								<td><span class="flag-icon flag-icon-vg"></span> British Virgin Islands</td>
+								<td><a href="https://www.expressvpn.com/">ExpressVPN.com</a></td>
 							</tr>
 
 							<tr>
@@ -596,7 +611,7 @@
 				<div class="col-md-6"><span class="pull-right">
 <h3>Related VPN information</h3>
 <ul>
-	<li><a href="https://torrentfreak.com/vpn-anonymous-review-160220/">Which VPN Services Take Your Anonymity Seriously? 2016</a><br />(<strong>Note:</strong> The providers listed first in the TorrentFreaks article are sponsored)</li>
+	<li><a href="https://torrentfreak.com/vpn-services-anonymous-review-2017-170304/">Which VPN Services Keep You Anonymous in 2017?</a><br />(<strong>Note:</strong> The providers listed first in the TorrentFreaks article are sponsored)</li>
 	<li><a href="http://torrentfreak.com/how-to-make-vpns-even-more-secure-120419/">How To Make VPNs Even More Secure</a></li>
 	<li><a href="https://blog.spideroak.com/20140124105217-vpn-privacy-anonymity">VPN, privacy and anonymity - SpiderOak</a></li>
 	<li><a href="https://vikingvpn.com/blogs/off-topic/beware-of-vpn-marketing-and-affiliate-programs">Beware of False Reviews - VPN Marketing and Affiliate Programs</a></li>
@@ -632,6 +647,7 @@
 		<ul>
 			<li><a href="https://www.eff.org/de/deeplinks/2014/04/warrant-canary-faq">Warrant Canary Frequently Asked Questions</a></li>
 			<li><a href="http://en.wikipedia.org/wiki/Warrant_canary#Companies_and_organizations_with_warrant_canaries">Companies and organizations with warrant canaries</a></li>
+			<li><a href="https://www.schneier.com/blog/archives/2015/03/australia_outla.html">Warrant canary criticism by Bruce Schneier and an example of a law against warrant canaries.</a></li>
 		</ul>
 
 		<!-- browsers -->
@@ -642,9 +658,30 @@
 
 		<div class="row">
 
-			<!-- browsers - firefox -->
+			<!-- browsers - tor browser -->
 			<div class="col-sm-4">
 				<div class="panel panel-success">
+					<div class="panel-heading">
+						<h3 class="panel-title">Tor Browser</h3>
+					</div>
+					<div class="panel-body">
+						<p><img src="img/tools/Tor-Project.png" align="right" style="margin-left:5px;">Tor Browser is your choice if you need an extra layer of anonymity. It's a modified version of Firefox, it comes with pre-installed privacy add-ons, encryption and an advanced
+							proxy.
+						</p>
+						<p>
+							<a href="https://www.torproject.org/">
+								<button type="button" class="btn btn-success">Download: torproject.org</button>
+							</a>
+							<a data-toggle="tooltip" data-placement="bottom" data-original-title="http://expyuzz4wqqyqhjn.onion. Requires specific software to access: torproject.org" href="http://expyuzz4wqqyqhjn.onion"><img src="img/layout/tor.png" width="35"></img></a>
+						</p>
+						<p>OS: Windows, Mac, Linux, <a href="https://mike.tig.as/onionbrowser/">iOS</a>, <a href="https://www.torproject.org/docs/android.html.en">Android</a>, <a href="https://github.com/torbsd/openbsd-ports">OpenBSD.</a></p>
+					</div>
+				</div>
+			</div>
+
+			<!-- browsers - firefox -->
+			<div class="col-sm-4">
+				<div class="panel panel-info">
 					<div class="panel-heading">
 						<h3 class="panel-title">Mozilla Firefox</h3>
 					</div>
@@ -653,7 +690,7 @@
 							recommendations: <a href="#webrtc"><span class="glyphicon glyphicon-link"></span> WebRTC</a> and <a href="#about_config"><span class="glyphicon glyphicon-link"></span> about:config</a> and get the <a href="#addons"><span class="glyphicon glyphicon-link"></span> privacy add-ons</a>.</p>
 						<p>
 							<a href="https://www.firefox.com/">
-								<button type="button" class="btn btn-success">Download: firefox.com</button>
+								<button type="button" class="btn btn-info">Download: firefox.com</button>
 							</a>
 						</p>
 						<p>OS: Windows, Mac, Linux, Android, BSD.</p>
@@ -663,7 +700,7 @@
 
 			<!-- browsers - brave -->
 			<div class="col-sm-4">
-				<div class="panel panel-info">
+				<div class="panel panel-warning">
 					<div class="panel-heading">
 						<h3 class="panel-title">Brave</h3>
 					</div>
@@ -671,7 +708,7 @@
 						<p><img src="img/tools/Brave.png" align="right" style="margin-left:5px;">The new open source browser "Brave" automatically blocks ads and trackers, making it faster and safer than your current browser. Brave is based on Chromium.</p>
 						<p>
 							<a href="https://www.brave.com/">
-								<button type="button" class="btn btn-info">Download: brave.com</button>
+								<button type="button" class="btn btn-warning">Download: brave.com</button>
 							</a>
 						</p>
 						<p>OS: Windows, Mac, Linux, Android, iOS.</p>
@@ -694,28 +731,7 @@
 </div>
 -->
 
-			<!-- browsers - tor browser bundle -->
-			<div class="col-sm-4">
-				<div class="panel panel-warning">
-					<div class="panel-heading">
-						<h3 class="panel-title">Tor Browser</h3>
-					</div>
-					<div class="panel-body">
-						<p><img src="img/tools/Tor-Project.png" align="right" style="margin-left:5px;">Tor Browser is your choice if you need an extra layer of anonymity. It's a modified version of Firefox, it comes with pre-installed privacy add-ons, encryption and an advanced
-							proxy.
-						</p>
-						<p>
-							<a href="https://www.torproject.org/">
-								<button type="button" class="btn btn-warning">Download: torproject.org</button>
-							</a>
-						</p>
-						<p>OS: Windows, Mac, Linux, <a href="https://mike.tig.as/onionbrowser/">iOS</a>, <a href="https://www.torproject.org/docs/android.html.en">Android</a>, <a href="https://github.com/torbsd/openbsd-ports">OpenBSD.</a></p>
-					</div>
-				</div>
-			</div>
-
 		</div>
-
 
 		<!-- Browser Fingerprint -->
 		<a class="anchor" name="fingerprint"></a>
@@ -833,22 +849,13 @@
 		</div>
 
 
-		<!--
-		<h3>Stop tracking with "Disconnect"</h3>
-
+		
+		<h3>Stop Tracking with "Privacy Badger"</h3>
 		<img src="img/addons/Privacy-Badger.gif" class="img-responsive pull-left" alt="Privacy Badger" style="margin-right:30px;">
-		<p><strong>Privacy Badger</strong> is a browser add-on that stops advertisers and other third-party trackers from secretly tracking where you go and what pages you look at on the web. Privacy Badger automatically blocks that advertiser from loading any more content in your browser.
+		<p><strong>Privacy Badger</strong> is a browser add-on that stops advertisers and other third-party trackers from secretly tracking where you go and what pages you look at on the web. Privacy Badger learns about trackers as you browse by inspecting external resources websites request.
 		<br />
-		<a href="https://addons.mozilla.org/firefox/addon/privacy-badger-firefox/">https://addons.mozilla.org/firefox/addon/privacy-badger-firefox/</a></p>
-		<br />
+		<a href="https://www.eff.org/privacybadger">https://www.eff.org/privacybadger/</a></p>
 
-
-		<img src="img/addons/Disconnect.gif" class="img-responsive pull-left" alt="Disconnect" style="margin-right:30px;">
-		<p>Founded in 2011 by former Google engineers and a consumer-and privacy-rights attorney. The addon is open source and loads the pages you go to 27% faster and stops tracking by 2,000+ third-party sites. It also keeps your searches private. If you are planning to install "uBlock Origin" make sure to install "Disconnect" first. <strong>Alternative to Disconnect:</strong> <a href="https://addons.mozilla.org/firefox/addon/privacy-badger-firefox/">Privacy Badger by EFF</a>
-			<br />
-			<a href="https://addons.mozilla.org/firefox/addon/disconnect/">https://addons.mozilla.org/firefox/addon/disconnect/</a>
-			</p>
--->
 		<h3>Block Ads and Trackers with "uBlock Origin"</h3>
 		<img src="img/addons/uBlock.gif" class="img-responsive pull-left" alt="uBlock" style="margin-right:30px;">
 		<p>An efficient <a href="https://github.com/gorhill/uBlock/wiki/Blocking-mode">wide-spectrum-blocker</a> that's easy on memory, and yet can load and enforce thousands more filters than other popular blockers out there. It has no monetization strategy and
@@ -857,19 +864,25 @@
 			<a href="https://addons.mozilla.org/firefox/addon/ublock-origin/">https://addons.mozilla.org/firefox/addon/ublock-origin/</a>
 		</p>
 
-<!--
+		<!--
+		<img src="img/addons/Disconnect.gif" class="img-responsive pull-left" alt="Disconnect" style="margin-right:30px;">
+		<p>Founded in 2011 by former Google engineers and a consumer-and privacy-rights attorney. The addon is open source and loads the pages you go to 27% faster and stops tracking by 2,000+ third-party sites. It also keeps your searches private. If you are planning to install "uBlock Origin" make sure to install "Disconnect" first. <strong>Alternative to Disconnect:</strong> <a href="https://addons.mozilla.org/firefox/addon/privacy-badger-firefox/">Privacy Badger by EFF</a>
+			<br />
+			<a href="https://addons.mozilla.org/firefox/addon/disconnect/">https://addons.mozilla.org/firefox/addon/disconnect/</a>
+			</p>
+
 		<h3>Hinder Browser Fingerprinting with "Random Agent Spoofer"</h3>
 		<img src="img/addons/Random-Agent-Spoofer.gif" class="img-responsive pull-left" alt="Random Agent Spoofer" style="margin-right:30px;">
 		<p>A privacy enhancing firefox addon which aims to hinder browser fingerprinting. It does this by changing the browser/device profile on a timer. Source code: <a href="https://github.com/dillbyrne/random-agent-spoofer">GitHub.</a>
 			<br />
 			<a href="https://addons.mozilla.org/firefox/addon/random-agent-spoofer/">https://addons.mozilla.org/firefox/addon/random-agent-spoofer/</a></p>
--->			
+		-->			
 
-		<h3>Automatically Delete Cookies with "Self-Destructing Cookies"</h3>
-		<img src="img/addons/Self-Destructing-Cookies.gif" class="img-responsive pull-left" alt="Self-Destructing Cookies" style="margin-right:30px;">
+		<h3>Automatically Delete Cookies with "Cookie AutoDelete"</h3>
+		<img src="img/addons/Cookie-AutoDelete.gif" class="img-responsive pull-left" alt="Cookie AutoDelete" style="margin-right:30px;">
 		<p>Automatically removes cookies when they are no longer used by open browser tabs. With the cookies, lingering sessions, as well as information used to spy on you, will be expunged.
 			<br />
-			<a href="https://addons.mozilla.org/firefox/addon/self-destructing-cookies/">https://addons.mozilla.org/firefox/addon/self-destructing-cookies/</a></p>
+			<a href="https://addons.mozilla.org/firefox/addon/cookie-autodelete">https://addons.mozilla.org/firefox/addon/cookie-autodelete/</a></p>
 
 
 		<h3>Encryption with "HTTPS Everywhere"</h3>
@@ -897,7 +910,7 @@
 <a href="https://requestpolicycontinued.github.io/">https://requestpolicycontinued.github.io/</a>
 </p>
 -->
-		<h3>Stop cross-site requests with uMatrix</h3>
+		<h3>Stop cross-site requests with "uMatrix"</h3>
 		<img src="img/addons/uMatrix.gif" class="img-responsive pull-left" alt="uMatrix" style="margin-right:30px;">
 		<p>Many websites integrate features which let other websites track you, such as Facebook Like Buttons or Google Analytics. uMatrix gives you control over the requests that websites make to other websites. This gives you greater and more fine grained control
 			over the information that you leak online.
@@ -938,6 +951,16 @@
 			<li>privacy.trackingprotection.enabled = true</li>
 			<ul>
 				<li>This is Mozilla’s new built in tracking protection. It uses Disconnect.me filter list, which is redundant if you are already using uBlock Origin 3rd party filters, therefore you should set it to false if you are using the add-on functionalities.</li>
+			</ul>
+			
+			<li>privacy.resistFingerprinting = true</li>
+			<ul>
+				<li>A result of the <a href="https://wiki.mozilla.org/Security/Tor_Uplift">Tor Uplift</a> effort, this preference makes Firefox more resistant to browser fingerprinting.</li>
+			</ul>
+
+			<li>privacy.firstparty.isolate = true</li>
+			<ul>
+				<li>A result of the <a href="https://wiki.mozilla.org/Security/Tor_Uplift">Tor Uplift</a> effort, this preference isolates all browser identifier sources (e.g. cookies) to the first party domain, with the goal of preventing tracking across different domains.</li>
 			</ul>
 
 			<li>geo.enabled = false</li>
@@ -1050,8 +1073,8 @@
 						<img src="img/provider/ProtonMail.ch.gif" width="200" height="70">
 					</td>
 					<td>
-						<a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.protonmail.ch" href="https://www.protonmail.ch"><img src="img/layout/www.svg" width="40"></img></a>
-						<a data-toggle="tooltip" data-placement="bottom" data-original-title="https://protonirockerxow.onion. Requires specific software to access: torproject.org" href="https://protonirockerxow.onion"><img src="img/layout/tor.svg" width="40"></img></a>
+						<a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.protonmail.ch" href="https://www.protonmail.ch"><img src="img/layout/www.png" width="35"></img></a>
+						<a data-toggle="tooltip" data-placement="bottom" data-original-title="https://protonirockerxow.onion. Requires specific software to access: torproject.org" href="https://protonirockerxow.onion"><img src="img/layout/tor.png" width="35"></img></a>
 					</td>
 					<td data-value="2013">2013</td>
 					<td><span class="flag-icon flag-icon-ch"></span> Switzerland</td>
@@ -1080,7 +1103,7 @@
 						<img src="img/provider/Tutanota.gif" width="200" height="70">
 					</td>
 					<td>
-						<a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.tutanota.com" href="https://www.tutanota.com"><img src="img/layout/www.svg" width="40"></img></a>
+						<a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.tutanota.com" href="https://www.tutanota.com"><img src="img/layout/www.png" width="35"></img></a>
 					</td>
 					<td data-value="2011">2011</td>
 					<td><span class="flag-icon flag-icon-de"></span> Germany</td>
@@ -1096,7 +1119,7 @@
 						<img src="img/provider/Mailfence.gif" width="200" height="70">
 					</td>
 					<td>
-						<a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.mailfence.com" href="https://www.mailfence.com"><img src="img/layout/www.svg" width="40"></img></a>
+						<a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.mailfence.com" href="https://www.mailfence.com"><img src="img/layout/www.png" width="35"></img></a>
 					</td>
 					<td data-value="2013">2013</td>
 					<td><span class="flag-icon flag-icon-be"></span> Belgium</td>
@@ -1114,7 +1137,7 @@
 
 						</td>
 						<td>
-							<a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.mailbox.org" href="https://www.mailbox.org"><img src="img/layout/www.svg" width="40"></img></a>
+							<a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.mailbox.org" href="https://www.mailbox.org"><img src="img/layout/www.png" width="35"></img></a>
 						</td>
 						<td data-value="2014">2014</td>
 						<td><span class="flag-icon flag-icon-de"></span> Germany</td>
@@ -1131,7 +1154,7 @@
 								<img src="img/provider/Posteo.gif" width="200" height="70">
 							</td>
 							<td>
-								<a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.posteo.de" href="https://www.posteo.de"><img src="img/layout/www.svg" width="40"></img></a>
+								<a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.posteo.de" href="https://www.posteo.de"><img src="img/layout/www.png" width="35"></img></a>
 							</td>
 							<td data-value="2009">2009</td>
 							<td><span class="flag-icon flag-icon-de"></span> Germany</td>
@@ -1148,7 +1171,7 @@
 
 							</td>
 							<td>
-								<a data-toggle="tooltip" data-placement="bottom" data-original-title="https://runbox.com" href="https://runbox.com"><img src="img/layout/www.svg" width="40"></img></a>
+								<a data-toggle="tooltip" data-placement="bottom" data-original-title="https://runbox.com" href="https://runbox.com"><img src="img/layout/www.png" width="35"></img></a>
 							</td>
 							<td data-value="1999">1999</td>
 							<td><span class="flag-icon flag-icon-no"></span> Norway</td>
@@ -1164,7 +1187,7 @@
 								<img src="img/provider/Neomailbox.gif" width="200" height="70">
 							</td>
 							<td>
-								<a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.neomailbox.com" href="https://www.neomailbox.com"><img src="img/layout/www.svg" width="40"></img></a>
+								<a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.neomailbox.com" href="https://www.neomailbox.com"><img src="img/layout/www.png" width="35"></img></a>
 							</td>
 							<td data-value="2003">2003</td>
 							<td><span class="flag-icon flag-icon-ch"></span> Switzerland</td>
@@ -1176,27 +1199,11 @@
 						</tr>
 
 						<tr>
-							<td data-value="CounterMail">
-								<img src="img/provider/CounterMail.gif" width="200" height="70">
-							</td>
-							<td>
-								<a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.countermail.com" href="https://www.countermail.com"><img src="img/layout/www.svg" width="40"></img></a>
-							</td>
-							<td data-value="2010">2010</td>
-							<td><span class="flag-icon flag-icon-se"></span> Sweden</td>
-							<td data-value="500">500 MB</td>
-							<td data-value="59">$ 59</td>
-							<td data-value="1"><span class="label label-success">Accepted</span></td>
-							<td data-value="1"><span class="label label-success">Built-in</span></td>
-							<td data-value="1"><span class="label label-success">Yes</span></td>
-						</tr>
-
-						<tr>
 							<td data-value="StartMail">
 								<img src="img/provider/StartMail.gif" width="200" height="70">
 							</td>
 							<td>
-								<a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.startmail.com" href="https://www.startmail.com"><img src="img/layout/www.svg" width="40"></img></a>
+								<a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.startmail.com" href="https://www.startmail.com"><img src="img/layout/www.png" width="35"></img></a>
 							</td>
 							<td data-value="2014">2014</td>
 							<td><span class="flag-icon flag-icon-nl"></span> Netherlands</td>
@@ -1212,7 +1219,7 @@
 								<img src="img/provider/Kolab-Now.gif" width="200" height="70">
 							</td>
 							<td>
-								<a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.kolabnow.com" href="https://www.kolabnow.com"><img src="img/layout/www.svg" width="40"></img></a>
+								<a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.kolabnow.com" href="https://www.kolabnow.com"><img src="img/layout/www.png" width="35"></img></a>
 							</td>
 							<td data-value="2010">2010</td>
 							<td><span class="flag-icon flag-icon-ch"></span> Switzerland</td>
@@ -1223,24 +1230,6 @@
 							<td data-value="1"><span class="label label-success">Yes</span></td>
 						</tr>
 
-						<tr>
-							<td data-value="CryptoHeaven">
-								<img src="img/provider/CryptoHeaven.gif" width="200" height="70">
-							</td>
-							<td>
-								<a data-toggle="tooltip" data-placement="bottom" data-original-title="http://www.cryptoheaven.com" href="http://www.cryptoheaven.com"><img src="img/layout/www.svg" width="40"></img></a>
-							</td>
-							<td data-value="2001">2001</td>
-							<td><span class="flag-icon flag-icon-ca"></span> Canada</td>
-							<td data-value="200">200 MB</td>
-							<td data-value="66">$ 66</td>
-							<td data-value="0"><span class="label label-primary">No</span></td>
-							<td data-value="1"><span class="label label-success">Built-in</span></td>
-							<td data-value="1"><span class="label label-success">Yes</span></td>
-						</tr>
-
-					</tr>
-				</tr>
 			</tbody>
 </table>
 
@@ -1427,6 +1416,7 @@
               <p>
 	              <a href="https://searx.me/"><button type="button" class="btn btn-success">Website: searx.me</button></a>
 	              <a href="https://github.com/asciimoo/searx/wiki/Searx-instances"><button type="button" class="btn btn-success">List of Instances</button></a>
+	              <a data-toggle="tooltip" data-placement="bottom" data-original-title="http://ulrn6sryqaifefld.onion. Requires specific software to access: torproject.org" href="http://ulrn6sryqaifefld.onion"><img src="img/layout/tor.png" width="35"></img></a>
               </p>
 
             </div>
@@ -1487,6 +1477,9 @@
 
 			<li>
 				<a href="https://www.ixquick.eu/">ixquick.eu</a> - Returns the top results from multiple search engines. Based in the Netherlands.
+			</li>
+			<li>
+				<a href="https://duckduckgo.com/">DuckDuckGo</a> - A private search engine that does not track you. <span class="flag-icon flag-icon-us"></span> <a href="https://github.com/privacytoolsIO/privacytools.io/issues/84" data-toggle="tooltip" data-placement="top" data-original-title="Interesting discussion on GitHub regarding DuckDuckGo">US based service</a>
 			</li>
 		</ul>
 
@@ -1576,6 +1569,8 @@
 			<li><a href="https://firstlook.org/theintercept/2015/07/14/communicating-secret-watched/">Chatting in Secret While We're All Being Watched - firstlook.org</a></li>
 			<li><a href="https://signal.org/android/apk/">Advanced users with special needs can download the Signal APK directly. Most users should not do this under normal circumstances.</a></li>
 			<li><a href="https://motherboard.vice.com/en_us/article/secure-messaging-app-wire-stores-everyone-youve-ever-contacted-in-plain-text">Secure Messaging App Wire Stores Everyone You've Ever Contacted in Plain Text | Motherboard</a></li>
+			<li><a href="https://security.stackexchange.com/a/49802">Telegram encryption isn't secure.</a></li>
+			<li><a href="https://www.reddit.com/r/privacytoolsIO/comments/6r655i/telegram_isnt_safe/">Telegram is marketed as a private messenger, but it's not private by default.</a></li>
 		</ul>
 
 		<a class="anchor" name="voip"></a>
@@ -1660,6 +1655,33 @@
 			<li><a href="https://motherboard.vice.com/en_us/article/secure-messaging-app-wire-stores-everyone-youve-ever-contacted-in-plain-text">Secure Messaging App Wire Stores Everyone You've Ever Contacted in Plain Text | Motherboard</a></li>
 		</ul>
 
+
+		<a class="anchor" name="filesharing"></a>
+		<div class="page-header">
+			<h1><a href="#filesharing" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> File Sharing</h1>
+		</div>
+		<div class="row">
+			
+			<div class="col-sm-4">
+				<div class="panel panel-success">
+					<div class="panel-heading">
+						<h3 class="panel-title">OnionShare</h3>
+					</div>
+					<div class="panel-body">
+						<p><img src="img/tools/OnionShare.png" alt="OnionShare" align="right" style="margin-left:5px; ">OnionShare is an open source tool that lets you securely and anonymously share a file of any size.
+							 It works by starting a web server, making it accessible as a Tor onion service, and generating an unguessable URL to access and download the files. It doesn't require setting up a server on the internet somewhere or using a third party filesharing service. You host the file on your own computer and use a Tor onion service to make it temporarily accessible over the internet.</p>
+						<p>
+							<a href="https://onionshare.org/">
+								<button type="button" class="btn btn-success">Website: onionshare.org</button>
+							</a>
+							<a data-toggle="tooltip" data-placement="bottom" data-original-title="http://elx57ue5uyfplgva.onion/. Requires specific software to access: torproject.org" href="http://elx57ue5uyfplgva.onion/"><img src="img/layout/tor.png" width="35"></img></a>
+						</p>
+						<p>OS: Windows, Mac, Linux.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<a class="anchor" name="cloud"></a>
 		<div class="page-header">
 			<h1><a href="#cloud" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Encrypted Cloud Storage Services</h1>
@@ -1725,6 +1747,11 @@
 			</div>
 
 		</div>
+
+		<h3>Worth Mentioning</h3>
+		<ul>
+			<li><a href="http://muonium.io">Muonium</a> - Free encrypted cloud storage for your files.</li>
+		</ul>
 
 		<h3>Related Information</h3>
 		<ul>
@@ -1796,6 +1823,7 @@
 			<li>
 				<a href="https://nextcloud.com/">Nextcloud</a> - Free and open-source, allows anyone to install and operate it for free on a private server, with no limits on storage space or the number of connected clients.
 			</li>
+			<li><a href="http://muonium.io">Muonium</a> - Free encrypted cloud storage for your files.</li>
 		</ul>
 		<a class="anchor" name="sync"></a>
 		<div class="page-header">
@@ -1897,7 +1925,7 @@
 					</div>
 					<div class="panel-body">
 						<p><img src="img/tools/KeePass.png" alt="KeePass" align="right" style="margin-left:5px;">KeePass is a free open source password manager, which helps you to manage your passwords in a secure way. All passwords in one database, which is locked with one
-							master key or a key file. The databases are encrypted using the best and most secure encryption algorithms currently known: AES and Twofish. See also: <a href="http://www.keepassx.org/">KeePassX</a>.</p>
+							master key or a key file. The databases are encrypted using the best and most secure encryption algorithms currently known: AES and Twofish. See also: <a href="http://www.keepassx.org/">KeePassX (not regularly updated)</a> and <a href="https://keepassxc.org/">KeePassXC</a>.</p>
 						<p>
 							<a href="http://keepass.info/download.html">
 								<button type="button" class="btn btn-info">Website: keepass.info</button>
@@ -1907,8 +1935,25 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		
 
+			<div class="col-sm-4">
+				<div class="panel panel-warning">
+					<div class="panel-heading">
+						<h3 class="panel-title">LessPass - Browser</h3>
+					</div>
+					<div class="panel-body">
+						<p><img src="img/tools/LessPass.png" alt="LessPass" align="right" style="margin-left:5px;">LessPass is a free and open source password manager that generates unique passwords for websites, email accounts, or anything else based on a master password and information you know. No sync needed. Uses PBKDF2 and SHA-256. It's adviced to use the browser addons for more security.</p>
+						<p>
+							<a href="https://lesspass.com">
+								<button type="button" class="btn btn-warning">Website: lesspass.com</button>
+							</a>
+						</p>
+						<p>OS: Windows, Mac, Linux, Android</p>
+					</div>
+				</div>
+			</div>
+		</div>
 		<h3>Worth Mentioning</h3>
 		<ul>
 			<li>
@@ -1960,13 +2005,14 @@
 					<div class="panel-body">
 						1. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Antigua_and_Barbuda">Antigua and Barbuda</a> <div class="pull-right"><span class="flag-icon flag-icon-ag"></span></div>
 						<br /> 2. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Australia">Australia</a> <div class="pull-right"><span class="flag-icon flag-icon-au"></span></div>
-						<br /> 3. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Belgium">Belgium</a> <div class="pull-right"><span class="flag-icon flag-icon-be"></span></div>
+						<br /> 3. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Belgium">Belgium *</a> <div class="pull-right"><span class="flag-icon flag-icon-be"></span></div>
 						<br /> 4. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Canada">Canada</a> <div class="pull-right"><span class="flag-icon flag-icon-ca"></span></div>
 						<br /> 5. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Finland">Finland</a> <div class="pull-right"><span class="flag-icon flag-icon-fi"></span></div>
 						<br /> 6. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#France">France</a> <div class="pull-right"><span class="flag-icon flag-icon-fr"></span></div>
 						<br /> 7. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#India">India</a> <div class="pull-right"><span class="flag-icon flag-icon-in"></span></div>
 						<br /> 8. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#South_Africa">South Africa</a> <div class="pull-right"><span class="flag-icon flag-icon-za"></span></div>
 						<br /> 9. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#United_Kingdom">United Kingdom</a> <div class="pull-right"><span class="flag-icon flag-icon-gb"></span></div>
+						<br /> 10. <a href="https://edri.org/norway-introduces-forced-biometric-authentication/">Norway</a> <div class="pull-right"><span class="flag-icon flag-icon-no"></span></div>
 					</div>
 				</div>
 			</div>			
@@ -1979,7 +2025,7 @@
 					<div class="panel-body">
 						1. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#New_Zealand">New Zealand</a> (unclear) <div class="pull-right"><span class="flag-icon flag-icon-nz"></span></div>
 						<br /> 2. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Sweden">Sweden</a> (proposed) <div class="pull-right"><span class="flag-icon flag-icon-se"></span></div>
-						<br /> 3. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#The_Netherlands">The Netherlands</a> (people who know how to access a system may be ordered to share their knowledge, <strong>however, this doesn't apply to the suspect itself</strong>) <div class="pull-right"><span class="flag-icon flag-icon-nl"></span></div>
+						<br /> 3. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#The_Netherlands">The Netherlands (*)</a> <div class="pull-right"><span class="flag-icon flag-icon-nl"></span></div>
 						<br /> 4. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#United_States">United States</a> (see related information) <div class="pull-right"><span class="flag-icon flag-icon-us"></span></div>
 					</div>
 				</div>
@@ -2001,6 +2047,7 @@
 		</div>
 		<!-- end Chart of key disclosure law in some countries -->
 
+		<p> * (people who know how to access a system may be ordered to share their knowledge, <strong>however, this doesn't apply to the suspect itself or family members.</strong>)</p>
 
 		<h3>Related Information</h3>
 		<ul>
@@ -2081,9 +2128,9 @@
 			<li><a href="https://diskcryptor.net/">DiskCryptor</a> - A full disk and partition encryption system for Windows including the ability to encrypt the partition and disk on which the OS is installed.</li>
 		</ul>
 
-		<a class="anchor" name="network"></a>
+		<a class="anchor" name="darknets"></a>
 		<div class="page-header">
-			<h1><a href="#network" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Self-contained Networks</h1>
+			<h1><a href="#darknets" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Self-contained Networks</h1>
 		</div>
 		<div class="alert alert-warning" role="alert">
 			<strong>If you are currently browsing the <a href="https://en.wikipedia.org/wiki/Surface_Web">Clearnet</a> and you want to access the <a href="https://en.wikipedia.org/wiki/Dark_web">Dark web</a> this section is for you.</strong>
@@ -2101,6 +2148,7 @@
 							<a href="https://www.torproject.org/">
 								<button type="button" class="btn btn-success">Website: torproject.org</button>
 							</a>
+							<a data-toggle="tooltip" data-placement="bottom" data-original-title="http://expyuzz4wqqyqhjn.onion. Requires specific software to access: torproject.org" href="http://expyuzz4wqqyqhjn.onion"><img src="img/layout/tor.png" width="35"></img></a>
 						</p>
 						<p>OS: Windows, Mac, Linux, <a href="https://mike.tig.as/onionbrowser/">iOS</a>, <a href="https://www.torproject.org/docs/android.html.en">Android</a>, <a href="https://github.com/torbsd/openbsd-ports">OpenBSD.</a></p>
 					</div>
@@ -2150,66 +2198,10 @@
 		
 		<h3>Worth Mentioning</h3>
 		<ul>
+			<li><a href="https://zeronet.io/">ZeroNet</a> - Open, free and uncensorable websites, using Bitcoin cryptography and BitTorrent network.</li>
 			<li><a href="http://retroshare.net/">RetroShare</a> - Open Source cross-platform, Friend-2-Friend and secure decentralised communication platform.</li>
 			<li><a href="https://gnunet.org/">GNUnet</a> - GNUnet provides a strong foundation of free software for a global, distributed network that provides security and privacy.</li>
 		</ul>
-
- 		<a class="anchor" name="cryptocurrency"></a>
-  		<div class="page-header">
-	  		<h1><a href="#cryptocurrency" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Cryptocurrencies</h1>
-		</div>
-
-
-  		<div class="row">
-			<div class="col-sm-4">
-				<div class="panel panel-success">
-					<div class="panel-heading">
-						<h3 class="panel-title">Bitcoin</h3>
-					</div>
-					<div class="panel-body">
-						<p><img src="img/tools/Bitcoin.png" alt="Bitcoin" align="right" style="margin-left:5px;">Bitcoin is a pseudonymous cryptocurrency that allows anyone to transact online without registering or giving away any personal information. <b>Caution: </b> Bitcoin does not provide payment anonymity: the usage of third party mixing services is required to obfuscate the transaction history. </p>
-						<p>
-							<a href="https://bitcoin.org/">
-								<button type="button" class="btn btn-success">Website: bitcoin.org</button>
-							</a>
-						</p>
-						<p>OS: Windows, Mac, Linux, BSD, Android, iOS.</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-4">
-				<div class="panel panel-info">
-					<div class="panel-heading">
-						<h3 class="panel-title">Zcash</h3>
-					</div>
-					<div class="panel-body">
-						<p><img src="img/tools/Zcash.png" alt="Zcash" align="right" style="margin-left:5px;">Zcash offers total payment confidentiality, while still maintaining a decentralized network using a public blockchain. Unlike Bitcoin, Zcash transactions can optionally hide the sender, recipient, and value of transactions in z-addresses.</p>
-						<p>
-							<a href="https://www.z.cash/">
-								<button type="button" class="btn btn-info">Website: z.cash</button>
-							</a>
-						</p>
-						<p>OS: Windows, Mac, Linux.</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-4">
-	    			<div class="panel panel-warning">
-			  		<div class="panel-heading">
-          					<h3 class="panel-title">Monero</h3>
-			  		</div>
-					<div class="panel-body">
-						<p><img src="img/tools/Monero.png" alt="Monero" align="right" style="margin-left:5px;">Monero focuses strictly on protecting user's privacy and mandates all transactions are private by default. Monero is open-source, completely decentralized and provides privacy through Ring Confidential Transactions and Stealth Addresses.</p>
-						<p>
-							<a href="https://getmonero.org/">
-								<button type="button" class="btn btn-warning">Website: getmonero.org</button>
-							</a>
-						</p>
-						<p>OS: Windows, Mac, Linux.</p>
-					</div>
-				</div>
-			</div>
-		</div>
 		
 		
 		<a class="anchor" name="social"></a>
@@ -2246,8 +2238,8 @@
 						<p><img src="img/tools/Friendica.png" alt="Friendica" align="right" style="margin-left:5px;">Friendica has an emphasis on extensive privacy settings and easy server installation. It aims to federate with as many other social networks as possible. Currently,
 							Friendica users can integrate contacts from Facebook, Twitter, Diaspora, GNU social, App.net, Pump.io and other services in their social streams.</p>
 						<p>
-							<a href="http://friendica.com/">
-								<button type="button" class="btn btn-info">Website: friendica.com</button>
+							<a href="http://friendi.ca/">
+								<button type="button" class="btn btn-info">Website: friendi.ca</button>
 							</a>
 						</p>
 					</div>
@@ -2270,6 +2262,11 @@
 				</div>
 			</div>
 		</div>
+
+                <h3>Worth Mentioning</h3>
+		<ul>
+			<li><a href="https://mastodon.social/about">Mastodon</a> - An open sourced, free and decentralized social network built on top of GNU Social.</li>
+		</ul>
 
 		<h3>Related Information</h3>
 		<ul>
@@ -2409,7 +2406,7 @@
             <div class="panel-body">
               <p><img src="img/tools/Ghostbin.png" alt="Ghostbin" align="right" style="margin-left:5px;">Ghostbin supports encryption, expiration, sessions, grant users to edit your notes and pastes up to one megabyte. You can also create your own account to keep track of your pastes.</p>
               
-              <p><a href="https://ghostbin.com/" target="_blank"><button type="button" class="btn btn-success">Website: ghostbin.com</button></a></p>          
+              <p><a href="https://ghostbin.com/"><button type="button" class="btn btn-success">Website: ghostbin.com</button></a></p>          
             </div>
           </div>
         </div><!-- /.col-sm-4 -->  
@@ -2421,7 +2418,7 @@
             <div class="panel-body">
               <p><img src="img/tools/PrivateBin.png" alt="PrivateBin" align="right" style="margin-left:5px;">PrivateBin is a minimalist, open source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256bit AES.</p>
               
-              <p><a href="https://privatebin.info/" target="_blank"><button type="button" class="btn btn-info">Website: privatebin.info</button></a></p>         
+              <p><a href="https://privatebin.info/"><button type="button" class="btn btn-info">Website: privatebin.info</button></a></p>         
             </div>
           </div>
         </div><!-- /.col-sm-4 -->            
@@ -2433,7 +2430,7 @@
             <div class="panel-body">
               <p><img src="img/tools/0bin.png" alt="0bin" align="right" style="margin-left:5px;">0bin is a client side encrypted pastebin that can run without a database. 0bin allows anybody to host a pastebin while welcoming any type of content to be pasted in it.</p>
               
-              <p><a href="https://0bin.net/" target="_blank"><button type="button" class="btn btn-warning">Website: 0bin.net</button></a></p>          
+              <p><a href="https://0bin.net/"><button type="button" class="btn btn-warning">Website: 0bin.net</button></a></p>          
             </div>
           </div>
         </div><!-- /.col-sm-4 -->  
@@ -2441,7 +2438,7 @@
 
   <h3>Worth Mentioning</h3>
   <ul>
-	  <li><a href="https://hastebin.com/" target="_blank">hastebin.com</a> - Haste is an open-source pastebin software written in node.js, which is easily installable in any network.</li>          
+	  <li><a href="https://hastebin.com/">hastebin.com</a> - Haste is an open-source pastebin software written in node.js, which is easily installable in any network.</li>          
   </ul>
 
 
@@ -2530,6 +2527,7 @@
 							<a href="https://www.qubes-os.org/">
 								<button type="button" class="btn btn-success">Website: qubes-os.org</button>
 							</a>
+							<a data-toggle="tooltip" data-placement="bottom" data-original-title="http://qubesos4rrrrz6n4.onion. Requires specific software to access: torproject.org" href="http://qubesos4rrrrz6n4.onion"><img src="img/layout/tor.png" width="35"></img></a>
 						</p>
 					</div>
 				</div>
@@ -2547,6 +2545,7 @@
 							<a href="https://www.debian.org/">
 								<button type="button" class="btn btn-info">Website: debian.org</button>
 							</a>
+							<a data-toggle="tooltip" data-placement="bottom" data-original-title="http://sejnfjrq6szgca7v.onion. Requires specific software to access: torproject.org" href="http://sejnfjrq6szgca7v.onion"><img src="img/layout/tor.png" width="35"></img></a>
 						</p>
 					</div>
 				</div>
@@ -2580,7 +2579,9 @@
 			<li><a href="https://www.archlinux.org/">Arch Linux</a> - A simple, lightweight Linux distribution. It is composed predominantly of free and open-source software, and supports community involvement. <a href="https://www.parabola.nu/">Parabola</a> is a
 				completely open source version of Arch Linux.</li>
 			<li><a href="https://www.whonix.org/">Whonix</a> - A Debian GNU/Linux based security-focused Linux distribution. It aims to provide privacy, security and anonymity on the internet. The operating system consists of two virtual machines, a "Workstation"
-				and a Tor "Gateway". All communication are forced through the Tor network to accomplish this..</li>
+				and a Tor "Gateway". All communication are forced through the Tor network to accomplish this.</li>
+			<li><a href="https://subgraph.com/">Subgraph OS</a> - Another Debian based Linux distribution, it features security hardening which makes it more resistant to security vulnerabilities. Subgraph runs many desktop applications in a security sandbox to limit their risk in case of compromise.
+				By default, it anonymizes Internet traffic by sending it through the Tor network. Note: It is still in alpha, and much testing and bug fixing still has to be done.</li>
 		</ul>
 
 		<a class="anchor" name="live_os"></a>
@@ -2654,7 +2655,7 @@
 					</div>
 					<div class="panel-body">
 						<p><img src="img/tools/LineageOS.png" alt="LineageOS" align="right" style="margin-left:5px;">LineageOS is a free and open-source operating system for smartphones and tablets, based on 
-							the oficcial releases of Android by Google. It is the continuation of the CyanogenMod project.</p>
+							the official releases of Android by Google. It is the continuation of the CyanogenMod project.</p>
 						<p>
 							<a href="https://www.lineageos.org/">
 								<button type="button" class="btn btn-success">Website: lineageos.org</button>
@@ -2670,7 +2671,7 @@
 						<h3 class="panel-title">CopperheadOS</h3>
 					</div>
 					<div class="panel-body">
-						<p><img src="img/tools/CopperheadOS.png" alt="CopperheadOS" align="right" style="margin-left:5px;">CopperheadOS is a hardened mobile open-source operating system by Copperhead Security and based on Android. It aims to provide stronger security and privacy. It also contains a hardened kernel and sandbox features for app isolation. Available for selected Nexus devices.</p>
+						<p><img src="img/tools/CopperheadOS.png" alt="CopperheadOS" align="right" style="margin-left:5px;">CopperheadOS is a hardened mobile open-source operating system by Copperhead Security and based on Android. It aims to provide stronger security and privacy. It also contains a hardened kernel and sandbox features for app isolation. Available for select Pixel and Nexus devices.</p>
 						<p>
 							<a href="https://copperhead.co/android/">
 								<button type="button" class="btn btn-info">Website: copperhead.co</button>
@@ -2765,6 +2766,62 @@
 			<li><a href="http://www.openbsd.org/">OpenBSD</a> - A project that produces a free, multi-platform 4.4BSD-based UNIX-like operating system. Emphasizes portability, standardization, correctness, proactive security and integrated cryptography.</li>
 			<li><a href="http://www.dd-wrt.com/">DD-WRT</a> - A is Linux-based firmware for wireless routers and wireless access points. It is compatible with several models of routers and access points.</li>
 		</ul>
+
+
+<a class="anchor" name="hardware"></a>    
+      <div class="page-header">
+        <h1><a href="#hardware" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Secure Hardware</h1> 
+      </div>
+
+      <div class="row">
+	      
+        <div class="col-sm-4">
+          <div class="panel panel-success">
+            <div class="panel-heading">
+              <h3 class="panel-title">Purism - Laptop</h3>
+            </div>
+            <div class="panel-body">
+              <p><img src="img/tools/Purism.png" alt="Purism" align="right" style="margin-left:5px;">High-quality privacy, security, and freedom focused computers and software. A convenient hardware and software product.</p>
+              <p><a href="https://puri.sm/"><button type="button" class="btn btn-success">Website: puri.sm</button></a></p>         
+            </div>
+          </div>
+        </div><!-- /.col-sm-4 -->  
+        <div class="col-sm-4">
+          <div class="panel panel-info">
+            <div class="panel-heading">
+              <h3 class="panel-title">ORWL - Desktop</h3>
+            </div>
+            <div class="panel-body">
+              <p><img src="img/tools/ORWL.png" alt="ORWL" align="right" style="margin-left:5px;">The only open source consumer device using secure NFC protection and requiring two factors of authentication, a key and password.</p>
+              <p><a href="https://orwl.org/"><button type="button" class="btn btn-info">Website: orwl.org</button></a></p>
+            </div>
+          </div>
+        </div><!-- /.col-sm-4 -->            
+        <div class="col-sm-4">
+          <div class="panel panel-warning">
+            <div class="panel-heading">
+              <h3 class="panel-title">USB armory - USB</h3>
+            </div>
+            <div class="panel-body">
+              <p><img src="img/tools/USB-armory.png" alt="USB armory" align="right" style="margin-left:5px;">An open source USB stick computer for security applications. Usage ideas: OpenSSH client, VPN tunneling, Tor bridge, electronic wallet.</p>
+              <p><a href="https://inversepath.com/usbarmory.html"><button type="button" class="btn btn-warning">Website: inversepath.com</button></a></p>        
+            </div>
+          </div>
+        </div><!-- /.col-sm-4 -->  
+        
+      </div>      
+
+<h3>Worth Mentioning</h3>
+<ul>
+	<li>Modified ThinkPads with Libreboot and Trisquel: <a href="https://shop.libiquity.com/product/taurinus-x200">Libiquity.com</a> (US), <a href="https://tehnoetic.com/tet-x200">Technoethical</a> (Romania) and <a href="https://store.vikings.net/libre-friendly-hardware">Vikings.net</a> (Germany)</li>
+	<li><a href="https://minifree.org/">Ministry of Freedom</a> - Minifree provides secure, privacy-respecting computers with 100% free (as in freedom) software, including the Libreboot BIOS replacement and GNU+Linux operating system, certified by FSF under their Respects Your Freedom certification program. Shipping worldwide.
+</ul>
+
+<h3>Related Information</h3>
+<ul>
+	<li><a href="https://www.fsf.org/resources/hw">Free Software Foundation</a> - Hardware Devices that Support GNU/Linux.</li>
+	<li><a href="https://h-node.org/">h-node.org</a> - Collection about hardware that works with a fully free operating system.</li>
+</ul>
 
 
 		<a class="anchor" name="win10"></a>
@@ -3080,7 +3137,6 @@ Windows 10 Sends Your Data 5500 Times Every Day Even After Tweaking Privacy Sett
 			</p>
 
 			<p><em>privacytools.io is a socially motivated website that provides information for protecting your data security and privacy. never trust any company with your privacy, always encrypt.</em></p>
-		</p>
 	</div>
 
 	<!-- add jQuery, Bootstrap, Sortable, and tooltip libraries  -->
