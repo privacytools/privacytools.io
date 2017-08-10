@@ -940,29 +940,24 @@
 		<h3>Getting started:</h3>
 
 		<ol>
-			<li>privacy.trackingprotection.enabled = true</li>
-			<ul>
-				<li>This is Mozilla’s new built in tracking protection. It uses Disconnect.me filter list, which is redundant if you are already using uBlock Origin 3rd party filters, therefore you should set it to false if you are using the add-on functionalities.</li>
-			</ul>
-			
-			<li>privacy.resistFingerprinting = true</li>
-			<ul>
-				<li>A result of the <a href="https://wiki.mozilla.org/Security/Tor_Uplift">Tor Uplift</a> effort, this preference makes Firefox more resistant to browser fingerprinting.</li>
-			</ul>
-
 			<li>privacy.firstparty.isolate = true</li>
 			<ul>
 				<li>A result of the <a href="https://wiki.mozilla.org/Security/Tor_Uplift">Tor Uplift</a> effort, this preference isolates all browser identifier sources (e.g. cookies) to the first party domain, with the goal of preventing tracking across different domains.</li>
 			</ul>
 
-			<li>geo.enabled = false</li>
+			<li>privacy.resistFingerprinting = true</li>
 			<ul>
-				<li>Disables geolocation.</li>
+				<li>A result of the <a href="https://wiki.mozilla.org/Security/Tor_Uplift">Tor Uplift</a> effort, this preference makes Firefox more resistant to browser fingerprinting.</li>
 			</ul>
 
-			<li>browser.safebrowsing.phishing.enabled = false</li>
+			<li>privacy.trackingprotection.enabled = true</li>
 			<ul>
-				<li>Disable Google Safe Browsing and phishing protection. Security risk, but privacy improvement.</li>
+				<li>This is Mozilla’s new built in tracking protection. It uses Disconnect.me filter list, which is redundant if you are already using uBlock Origin 3rd party filters, therefore you should set it to false if you are using the add-on functionalities.</li>
+			</ul>
+
+			<li>browser.cache.offline.enable = false</li>
+			<ul>
+				<li>Disables offline cache.</li>
 			</ul>
 
 			<li>browser.safebrowsing.malware.enabled = false</li>
@@ -970,9 +965,39 @@
 				<li>Disable Google Safe Browsing malware checks. Security risk, but privacy improvement.</li>
 			</ul>
 
+			<li>browser.safebrowsing.phishing.enabled = false</li>
+			<ul>
+				<li>Disable Google Safe Browsing and phishing protection. Security risk, but privacy improvement.</li>
+			</ul>
+
+			<li>browser.send_pings = false</li>
+			<ul>
+				<li>The attribute would be useful for letting websites track visitors’ clicks. </li>
+			</ul>
+
+			<li>browser.sessionstore.max_tabs_undo = 0</li>
+			<ul>
+				<li>Even with Firefox set to not remember history, your closed tabs are stored temporarily at Menu -&gt; History -&gt; Recently Closed Tabs.</li>
+			</ul>
+
+			<li>dom.battery.enabled = false</li>
+			<ul>
+				<li>Website owners can track the battery status of your device. <a href="https://www.reddit.com/r/privacytoolsIO/comments/3fzbgy/you_may_be_tracked_by_your_battery_status_of_your/">Source</a></li>
+			</ul>
+
 			<li>dom.event.clipboardevents.enabled = false</li>
 			<ul>
 				<li>Disable that websites can get notifications if you copy, paste, or cut something from a web page, and it lets them know which part of the page had been selected.</li>
+			</ul>
+
+			<li>geo.enabled = false</li>
+			<ul>
+				<li>Disables geolocation.</li>
+			</ul>
+
+			<li>media.navigator.enabled = false</li>
+			<ul>
+				<li>Websites can track the microphone and camera status of your device.</li>
 			</ul>
 
 			<li>network.cookie.cookieBehavior = 1</li>
@@ -992,34 +1017,9 @@
 				<li>3 = Accept for N days</li>
 			</ul>
 
-			<li>browser.cache.offline.enable = false</li>
-			<ul>
-				<li>Disables offline cache.</li>
-			</ul>
-
-			<li>browser.send_pings = false</li>
-			<ul>
-				<li>The attribute would be useful for letting websites track visitors’ clicks. </li>
-			</ul>
-
 			<li>webgl.disabled = true</li>
 			<ul>
 				<li>WebGL is a potential security risk. <a href="http://security.stackexchange.com/questions/13799/is-webgl-a-security-concern">Source</a></li>
-			</ul>
-			
-			<li>media.navigator.enabled = false</li>
-			<ul>
-                                <li>Websites can track the microphone and camera status of your device.</li>
-                        </ul>
-
-			<li>dom.battery.enabled = false</li>
-			<ul>
-				<li>Website owners can track the battery status of your device. <a href="https://www.reddit.com/r/privacytoolsIO/comments/3fzbgy/you_may_be_tracked_by_your_battery_status_of_your/">Source</a></li>
-			</ul>
-
-			<li>browser.sessionstore.max_tabs_undo = 0</li>
-			<ul>
-				<li>Even with Firefox set to not remember history, your closed tabs are stored temporarily at Menu -&gt; History -&gt; Recently Closed Tabs.</li>
 			</ul>
 		</ol>
 
