@@ -191,14 +191,6 @@
 			<span class="flag-icon flag-icon-es" style="margin-left:5px;"></span> <a href="https://victorhck.gitlab.io/privacytools-es/">Español</a>
 			
 			<span class="flag-icon flag-icon-de" style="margin-left:5px;"></span> <a href="https://privacytools.it-sec.rocks/">Deutsch</a>
-
-			<span style="margin-left:15px;">Darknet:</span>
-			
-			<a data-toggle="tooltip" data-placement="bottom" data-original-title="Requires specific software to access: torproject.org" href="http://privacyh3rsehm64.onion/">Tor</a>, 
-			
-			<a data-toggle="tooltip" data-placement="bottom" data-original-title="Requires specific software to access: geti2p.net" href="http://privacytools.i2p/?i2paddresshelper=5GOHmoHjcG3c55VitD6OZmDHFpDfetZkwsgLUsq4EgM5SgJIFYYgxeDXFLJSrrUxjgD70bC-ZUKzGZ-hf8l4RUUrM7aUGCSC3Yk~tAZMIVMni6hDCw269GQRJUYrOeGX9Ufze2ln~gWssUsH8BErV1HHJ-FS2oKQZYR-rROEGRJ3ptR5LiZmsKgfcObU3Y4pBfK~yq9s~V7XV-7YD8v8eEjiEeyBVKKddeoguj~Uq9N2NsR4rm~FclpAZi2HS50wD4Ph96di7DxgKdk96uDHFeIQJzvdK6VPuvuX6jZUA-LVbwlnLM~~mh4hv5jT7w~KaJPkTFWRRO1~lrrhiS4WLjjBnhfAty7PZ4W4GSuJKPPGhLPF65Yz7Ji--T3p2ZLLkpjPbNpgokNAKHfOkr~uR7F1rjnkcRTi3ZzYciiALCJNwNgLEOXowuAbdLyM5GO3gXm27~PZpsttxvCBlHkmD8L2xinybADaDvrAe3ReWbi9zd9WMGm5zc2sfZ1G~1E1BQAEAAEAAA%3d%3d">I2P</a>, 
-			
-			<a data-toggle="tooltip" data-placement="bottom" data-original-title="Requires specific software to access: zeronet.io" href="http://127.0.0.1:43110/14gSEpfWfF5Go7u5y7UidZQCnGa6eSBYZ9/">ZeroNet</a>
 		</p>	
 <!-- end language and darknet selection -->
 
@@ -519,6 +511,16 @@
 								<td><a href="https://privatoria.net/">Privatoria.net</a></td>
 							</tr>
 -->
+                            <tr>
+                                 <td data-value="ProtonVPN">
+                                     <a href="https://protonvpn.com/"><img src="img/provider/ProtonVPN.png" width="200" height="70"></a     >
+                                 </td>
+                                 <td data-value="0">Free</td>
+                                 <td><span class="label label-success">Yes</span></td>
+                                 <td>112</td>
+                                 <td><span class="flag-icon flag-icon-ch"></span> Switzerland</td>
+                                 <td><a href="https://protonvpn.com/">ProtonVPN.com</a></td>
+                            </tr>
 
 							<tr>
 								<td data-value="Proxy.sh">
@@ -948,29 +950,24 @@
 		<h3>Getting started:</h3>
 
 		<ol>
-			<li>privacy.trackingprotection.enabled = true</li>
-			<ul>
-				<li>This is Mozilla’s new built in tracking protection. It uses Disconnect.me filter list, which is redundant if you are already using uBlock Origin 3rd party filters, therefore you should set it to false if you are using the add-on functionalities.</li>
-			</ul>
-			
-			<li>privacy.resistFingerprinting = true</li>
-			<ul>
-				<li>A result of the <a href="https://wiki.mozilla.org/Security/Tor_Uplift">Tor Uplift</a> effort, this preference makes Firefox more resistant to browser fingerprinting.</li>
-			</ul>
-
 			<li>privacy.firstparty.isolate = true</li>
 			<ul>
 				<li>A result of the <a href="https://wiki.mozilla.org/Security/Tor_Uplift">Tor Uplift</a> effort, this preference isolates all browser identifier sources (e.g. cookies) to the first party domain, with the goal of preventing tracking across different domains.</li>
 			</ul>
 
-			<li>geo.enabled = false</li>
+			<li>privacy.resistFingerprinting = true</li>
 			<ul>
-				<li>Disables geolocation.</li>
+				<li>A result of the <a href="https://wiki.mozilla.org/Security/Tor_Uplift">Tor Uplift</a> effort, this preference makes Firefox more resistant to browser fingerprinting.</li>
 			</ul>
 
-			<li>browser.safebrowsing.phishing.enabled = false</li>
+			<li>privacy.trackingprotection.enabled = true</li>
 			<ul>
-				<li>Disable Google Safe Browsing and phishing protection. Security risk, but privacy improvement.</li>
+				<li>This is Mozilla’s new built in tracking protection. It uses Disconnect.me filter list, which is redundant if you are already using uBlock Origin 3rd party filters, therefore you should set it to false if you are using the add-on functionalities.</li>
+			</ul>
+
+			<li>browser.cache.offline.enable = false</li>
+			<ul>
+				<li>Disables offline cache.</li>
 			</ul>
 
 			<li>browser.safebrowsing.malware.enabled = false</li>
@@ -978,9 +975,44 @@
 				<li>Disable Google Safe Browsing malware checks. Security risk, but privacy improvement.</li>
 			</ul>
 
+			<li>browser.safebrowsing.phishing.enabled = false</li>
+			<ul>
+				<li>Disable Google Safe Browsing and phishing protection. Security risk, but privacy improvement.</li>
+			</ul>
+
+			<li>browser.send_pings = false</li>
+			<ul>
+				<li>The attribute would be useful for letting websites track visitors’ clicks. </li>
+			</ul>
+
+			<li>browser.sessionstore.max_tabs_undo = 0</li>
+			<ul>
+				<li>Even with Firefox set to not remember history, your closed tabs are stored temporarily at Menu -&gt; History -&gt; Recently Closed Tabs.</li>
+			</ul>
+
+			<li>browser.urlbar.speculativeConnect.enabled = false</li>
+			<ul>
+				<li>Disable preloading of autocomplete URLs. Firefox preloads URLs that autocomplete when a user types into the address bar, which is a concern if URLs are suggested that the user does not want to connect to. <a href="https://www.ghacks.net/2017/07/24/disable-preloading-firefox-autocomplete-urls/">Source</a></li>
+			</ul>
+
+			<li>dom.battery.enabled = false</li>
+			<ul>
+				<li>Website owners can track the battery status of your device. <a href="https://www.reddit.com/r/privacytoolsIO/comments/3fzbgy/you_may_be_tracked_by_your_battery_status_of_your/">Source</a></li>
+			</ul>
+
 			<li>dom.event.clipboardevents.enabled = false</li>
 			<ul>
 				<li>Disable that websites can get notifications if you copy, paste, or cut something from a web page, and it lets them know which part of the page had been selected.</li>
+			</ul>
+
+			<li>geo.enabled = false</li>
+			<ul>
+				<li>Disables geolocation.</li>
+			</ul>
+
+			<li>media.navigator.enabled = false</li>
+			<ul>
+				<li>Websites can track the microphone and camera status of your device.</li>
 			</ul>
 
 			<li>network.cookie.cookieBehavior = 1</li>
@@ -1000,34 +1032,9 @@
 				<li>3 = Accept for N days</li>
 			</ul>
 
-			<li>browser.cache.offline.enable = false</li>
-			<ul>
-				<li>Disables offline cache.</li>
-			</ul>
-
-			<li>browser.send_pings = false</li>
-			<ul>
-				<li>The attribute would be useful for letting websites track visitors’ clicks. </li>
-			</ul>
-
 			<li>webgl.disabled = true</li>
 			<ul>
 				<li>WebGL is a potential security risk. <a href="http://security.stackexchange.com/questions/13799/is-webgl-a-security-concern">Source</a></li>
-			</ul>
-			
-			<li>media.navigator.enabled = false</li>
-			<ul>
-                                <li>Websites can track the microphone and camera status of your device.</li>
-                        </ul>
-
-			<li>dom.battery.enabled = false</li>
-			<ul>
-				<li>Website owners can track the battery status of your device. <a href="https://www.reddit.com/r/privacytoolsIO/comments/3fzbgy/you_may_be_tracked_by_your_battery_status_of_your/">Source</a></li>
-			</ul>
-
-			<li>browser.sessionstore.max_tabs_undo = 0</li>
-			<ul>
-				<li>Even with Firefox set to not remember history, your closed tabs are stored temporarily at Menu -&gt; History -&gt; Recently Closed Tabs.</li>
 			</ul>
 		</ol>
 
@@ -1085,18 +1092,21 @@
 					<td data-value="1"><span class="label label-success">Yes</span></td>
 				</tr>
 
-				<!-- removed ruggedinbox: ssl certificate expired
-<tr>
-<td data-value="RuggedInbox"><a href="https://ruggedinbox.com/"><img src="img/provider/RuggedInbox.gif" width="200" height="70"><br />RuggedInbox.com</a></td>
-<td data-value="2014">2014</td>
-<td>Bulgaria</td>
-<td data-value="200">200 MB</td>
-<td data-value="0"><span class="label label-warning">Free</span></td>
-<td><span class="label label-success">Accepted</span></td>
-<td><span class="label label-primary">No</span></td>
-<td><span class="label label-primary">No</span></td>
-</tr>
--->
+				<tr>
+					<td data-value="disroot.org">
+						<img src="img/provider/disroot.org.gif" width="200" height="70">
+					</td>
+					<td>
+						<a data-toggle="tooltip" data-placement="bottom" data-original-title="https://disroot.org" href="https://disroot.org"><img src="img/layout/www.png" width="35"></img></a>
+					</td>
+					<td data-value="2015">2015</td>
+					<td><span class="flag-icon flag-icon-nl"></span> Netherlands</td>
+					<td data-value="4000">4 GB</td>
+					<td data-value="1"><span class="label label-warning">Free</span></td>
+					<td data-value="1"><span class="label label-success">Accepted</span></td>
+					<td data-value="1"><span class="label label-success">Built-in</span></td>
+					<td data-value="1"><span class="label label-warning">No</span></td>
+				</tr>
 
 				<tr>
 					<td data-value="Tutanota">
@@ -1985,7 +1995,7 @@
 		</div>
 
 
-		<h3>Key disclosure law - Who is required to hand over the encryption keys to authorities?</h3>
+		<h3>Who is required to hand over the encryption keys to authorities?</h3>
 		<p>Mandatory <a href="https://en.wikipedia.org/wiki/Key_disclosure_law">key disclosure laws</a> require individuals to turn over encryption keys to law enforcement conducting a criminal investigation. How these laws are implemented (who may be legally compelled to assist) vary from nation to nation, but a warrant
 			is generally required. Defenses against key disclosure laws include steganography and encrypting data in a way that provides plausible deniability.</p>
 
@@ -2438,7 +2448,8 @@
 
   <h3>Worth Mentioning</h3>
   <ul>
-	  <li><a href="https://hastebin.com/">hastebin.com</a> - Haste is an open-source pastebin software written in node.js, which is easily installable in any network.</li>          
+	  <li><a href="https://disroot.org/">disroot.org</a> - Free privacy friendly service that offers PrivateBin and other applications.</li>
+	  <li><a href="https://hastebin.com/">hastebin.com</a> - Haste is an open-source pastebin software written in node.js, which is easily installable in any network.</li>
   </ul>
 
 
@@ -2502,6 +2513,7 @@
 
 		<h3>Worth Mentioning</h3>
 		<ul>
+			<li><a href="https://disroot.org/">disroot.org</a> - Free privacy friendly service that offers Etherpad, EtherCalc and PrivateBin.</li>
 			<li><a href="https://dudle.inf.tu-dresden.de/privacy/">dudle</a> - An online scheduling application, which is free and OpenSource. Schedule meetings or make small online polls. No email collection or the need of registration.</li>
 		</ul>
 
@@ -3148,6 +3160,28 @@ Windows 10 Sends Your Data 5500 Times Every Day Even After Tweaking Privacy Sett
 			$("[data-toggle='tooltip']").tooltip();
 		});
 	</script>
+
+<!--
+Piwik is the leading open-source analytics platform:
+- Free open-source software
+- 100% data ownership
+- User privacy protection
+-->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//piwik.privacytools.io/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="//piwik.privacytools.io/piwik.php?idsite=1&rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
 
 </body>
 
