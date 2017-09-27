@@ -1031,6 +1031,30 @@
 				<li>3 = Accept for N days</li>
 			</ul>
 
+      <li>network.http.referer.trimmingPolicy = 2</li>
+      <ul>
+        <li>Send only the scheme, host, and port in the <code>Referer</code> header</li>
+        <li>0 = Send the full URL in the <code>Referer</code> header</li>
+        <li>1 = Send the URL without its query string in the <code>Referer</code> header</li>
+        <li>2 = Send only the scheme, host, and port in the <code>Referer</code> header</li>
+      </ul>
+
+      <li>network.http.referer.XOriginPolicy = 2</li>
+      <ul>
+        <li>Only send <code>Referer</code> header when the full hostnames match. (Note: if you notice significant breakage, you might try <code>1</code> combined with an <code>XOriginTrimmingPolicy</code> tweak below.) <a href="https://feeding.cloud.geek.nz/posts/tweaking-referrer-for-privacy-in-firefox/">Source</a></li>
+        <li>0 = Send <code>Referer</code> in all cases</li>
+        <li>1 = Send <code>Referer</code> to same eTLD sites</li>
+        <li>2 = Send <code>Referer</code> only when the full hostnames match</li>
+      </ul>
+
+      <li>network.http.referer.XOriginTrimmingPolicy = 2</li>
+      <ul>
+        <li>When sending <code>Referer</code> across origins, only send scheme, host, and port in the <code>Referer</code> header of cross-origin requests. <a href="https://feeding.cloud.geek.nz/posts/tweaking-referrer-for-privacy-in-firefox/">Source</a></li>
+        <li>0 = Send full url in <code>Referer</code></li>
+        <li>1 = Send url without query string in <code>Referer</code></li>
+        <li>2 = Only send scheme, host, and port in <code>Referer</code></li>
+      </ul>
+
 			<li>webgl.disabled = true</li>
 			<ul>
 				<li>WebGL is a potential security risk. <a href="http://security.stackexchange.com/questions/13799/is-webgl-a-security-concern">Source</a></li>
