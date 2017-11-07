@@ -31,7 +31,7 @@ We're trying to keep it simple and promote the best tools, not all of them. Maxi
 - Easy to use
 - Privacy respecting
 
-There can be exeptions if no software is available that meet the criteria.
+There can be exceptions if no software is available that meet the criteria.
 
 ## Images
 
