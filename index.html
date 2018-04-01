@@ -867,6 +867,8 @@
 			is completely <a href="https://github.com/gorhill/uBlock/">open source</a>. We recommend Firefox but uBlock Origin also works in other browsers such as Safari, Opera, and Chromium. Unlike AdBlock Plus, uBlock does not allow so-called <a href="https://adblockplus.org/acceptable-ads">"acceptable ads"</a>.
 			<br />
 			<a href="https://addons.mozilla.org/firefox/addon/ublock-origin/">https://addons.mozilla.org/firefox/addon/ublock-origin/</a>
+      <br />
+      (Note: uBlock Origin sends list update requests to <a href="https://github.com/gorhill/uBlock/blob/257dd27e5dfe79b57a532f448f4668055dc339dd/assets/ublock/filter-lists.json">Dropbox, GitHub, AWS, and other domains</a>.)
 		</p>
 
 		<!--
@@ -973,16 +975,6 @@
 				<li>Disables offline cache.</li>
 			</ul>
 
-			<li>browser.safebrowsing.malware.enabled = false</li>
-			<ul>
-				<li>Disable Google Safe Browsing malware checks. Security risk, but privacy improvement.</li>
-			</ul>
-
-			<li>browser.safebrowsing.phishing.enabled = false</li>
-			<ul>
-				<li>Disable Google Safe Browsing and phishing protection. Security risk, but privacy improvement.</li>
-			</ul>
-
 			<li>browser.send_pings = false</li>
 			<ul>
 				<li>The attribute would be useful for letting websites track visitors’ clicks. </li>
@@ -1063,6 +1055,21 @@
 			<ul>
 				<li>WebGL is a potential security risk. <a href="http://security.stackexchange.com/questions/13799/is-webgl-a-security-concern">Source</a></li>
 			</ul>
+
+      <div class="alert alert-warning" role="alert">
+        <strong>Note: Disabling the following SafeBrowsing checks is a security risk.</strong>
+      </div>
+
+			<li>browser.safebrowsing.malware.enabled = false</li>
+			<ul>
+        <li>Disable Google Safe Browsing malware checks. (<a href="https://feeding.cloud.geek.nz/posts/how-safe-browsing-works-in-firefox/">Fetches list updates from Google.</a>)</li>
+			</ul>
+
+			<li>browser.safebrowsing.phishing.enabled = false</li>
+			<ul>
+				<li>Disable Google Safe Browsing and phishing protection. (<a href="https://feeding.cloud.geek.nz/posts/how-safe-browsing-works-in-firefox/">Fetches list updates from Google.</a>)</li>
+			</ul>
+
 		</ol>
 
 		<!-- related information -->
