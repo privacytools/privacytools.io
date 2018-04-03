@@ -1064,9 +1064,17 @@
 				<li>WebGL is a potential security risk. <a href="http://security.stackexchange.com/questions/13799/is-webgl-a-security-concern">Source</a></li>
 			</ul>
 
-			<li>test = true</li>
+			<li>browser.sessionstore.privacy_level = 2</li>
 			<ul>
-				<li>WebGL is a potential security risk. <a href="http://security.stackexchange.com/questions/13799/is-webgl-a-security-concern">Source</a></li>
+				<li>This preference controls when to store extra information about a session: contents of forms, scrollbar positions, cookies, and POST data. <a href="http://kb.mozillazine.org/Browser.sessionstore.privacy_level">more information</a></li>
+				<li>0 = Store extra session data for any site. (Default starting with Firefox 4.)</li>
+        <li>1 = Store extra session data for unencrypted (non-HTTPS) sites only. (Default before Firefox 4.)</li>
+        <li>2 = Never store extra session data.</li>
+			</ul>
+
+			<li>network.IDN_show_punycode = true</li>
+			<ul>
+				<li>Not rendering IDNs as their punycode equivalent leaves you open to phishing attacks that can be very difficult to notice. <a href="https://krebsonsecurity.com/2018/03/look-alike-domains-and-visual-confusion/#more-42636">Source</a></li>
 			</ul>
 		</ol>
 
