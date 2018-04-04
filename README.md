@@ -22,7 +22,7 @@ Please read this before contributing.
 
 ## Quality over Quantity
 
-We're trying to keep it simple and promote the best tools, not all of them. Maximum are three software choices, but it's possible to add more under "Worth Mentioning" headlines. ([example](https://privacytoolsio.github.io/privacytools.io/#im)) 
+We're trying to keep it simple and promote the best tools, not all of them. Maximum are three software choices, but it's possible to add more under "Worth Mentioning" headlines. ([example](https://privacytoolsio.github.io/privacytools.io/#im))
 
 ## Software Criteria
 
@@ -49,6 +49,7 @@ There can be exceptions if no software is available that meet the criteria.
 - [繁体中文 / Chinese](https://github.com/twngo/privacytools-zh) - [GitHub](https://github.com/twngo/privacytools-zh)
 - [Español / Spanish](https://victorhck.gitlab.io/privacytools-es/) - [GitLab](https://gitlab.com/victorhck/privacytools-es)
 - [Deutsch / German](https://privacytools.it-sec.rocks/) - [GitHub](https://github.com/Anon215/privacytools.it-sec.rocks)
+- [Русский / Russian](https://privacytools.ru) - [GitHub](https://github.com/c0rdis/privacytools.ru)
 
 # License
 [GNU General Public License v3.0](https://github.com/privacytoolsIO/privacytools.io/blob/master/LICENSE.txt)
