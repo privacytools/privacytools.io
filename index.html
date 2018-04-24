@@ -958,7 +958,7 @@
 		<ol>
 			<li>privacy.firstparty.isolate = true</li>
 			<ul>
-				<li>A result of the <a href="https://wiki.mozilla.org/Security/Tor_Uplift">Tor Uplift</a> effort, this preference isolates all browser identifier sources (e.g. cookies) to the first party domain, with the goal of preventing tracking across different domains. (Don't do this if you are using the Firefox Addon "Cookie AutoDelete".)</li>
+				<li>A result of the <a href="https://wiki.mozilla.org/Security/Tor_Uplift">Tor Uplift</a> effort, this preference isolates all browser identifier sources (e.g. cookies) to the first party domain, with the goal of preventing tracking across different domains. (Don't do this if you are using the Firefox Addon "Cookie AutoDelete" with Firefox v58 or below.)</li>
 			</ul>
 
 			<li>privacy.resistFingerprinting = true</li>
@@ -1616,7 +1616,7 @@
    			<li><a href="https://www.chatsecure.org">ChatSecure</a> - ChatSecure is a free and open source messaging app that features OTR encryption over XMPP. </li>
 			<li><a href="https://crypto.cat/">Cryptocat</a> - Encrypted open source messenger. Supports file sharing and multiple devices. Available for Windows, Linux and macOS.</li>
 			<li><a href="http://kontalk.org/">Kontalk</a> - A community-driven instant messaging network. Supports end-to-end encryption. Both client-to-server and server-to-server channels are fully encrypted.</li>
-			<li><a href="https://play.google.com/store/apps/details?id=eu.siacs.conversations">Conversations</a> - An open source Jabber/XMPP client for Android 4.0+ smart phones. Supports end-to-end encryption with either OMEMO, OTR or openPGP.</li>
+			<li><a href="https://play.google.com/store/apps/details?id=eu.siacs.conversations">Conversations</a> - An open source Jabber/XMPP client for Android 4.4+ smart phones. Supports end-to-end encryption with either OMEMO or openPGP. There is also <a href="https://play.google.com/store/apps/details?id=eu.siacs.conversations.legacy">Conversations Legacy</a> which still supports OTR.</li>
 			<li><a href="https://en.wikipedia.org/wiki/Off-the-Record_Messaging#Client_support">List of OTR Clients - Wikipedia</a></li>
 		</ul>
 
@@ -2469,9 +2469,11 @@
 						<p><img src="img/tools/DNSCrypt.png" alt="DNSCrypt" align="right" style="margin-left:5px;">A protocol for securing communications between a client and a DNS resolver. The DNSCrypt protocol uses high-speed high-security elliptic-curve cryptography and
 							is very similar to DNSCurve, but focuses on securing communications between a client and its first-level resolver.</p>
 						<p>
-							<b> Please refrain from using DNSCrypt until further notice (DNSCrypt v2 in development, no official website yet). </b>
+							<a href="https://dnscrypt.info/">
+								<button type="button" class="btn btn-info">Website: dnscrypt.info</button>
+							</a>
 						</p>
-						<p>OS: Windows, macOS, Linux, iOS with Jailbreak.</p>
+						<p>OS: Windows, macOS, Linux, iOS, Android, BSD</p>
 					</div>
 				</div>
 			</div>
@@ -2571,6 +2573,9 @@
 		<ul>
 			<li><a href="http://paperwork.rocks/">Paperwork</a> - Open source and self-hosted solution. For PHP / MySQL servers.</li>
 		</ul>
+		<ul>
+                        <li><a href="https://orgmode.org">Org-mode</a> - A major mode for GNU Emacs. Org-mode is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system. </li>
+                </ul>
 
 <a class="anchor" name="paste"></a>
       <div class="page-header">
@@ -2648,17 +2653,17 @@
 			<div class="col-sm-4">
 				<div class="panel panel-info">
 					<div class="panel-heading">
-						<h3 class="panel-title">EtherCalc</h3>
+						<h3 class="panel-title">Write.as</h3>
 					</div>
 					<div class="panel-body">
-						<p><img src="img/tools/EtherCalc.png" alt="EtherCalc" align="right" style="margin-left:5px;">EtherCalc is a web spreadsheet. Data is saved on the web, and people can edit the same document at the same time. Changes are instantly reflected on all screens.
-							Work together on inventories, survey forms, list management, brainstorming sessions..</p>
+						<p><img src="img/tools/WriteAs.png" alt="Write.as" align="right" style="margin-left:5px;">Write.as is a cross-platform, privacy-oriented blogging platform. It's anonymous by default, letting you publish without signing up. If you create an account, it doesn't require any personal information. No ads, distraction-free, and built on a sustainable business model.</p>
 						<p>
-							<a href="https://ethercalc.net/">
-								<button type="button" class="btn btn-info">Website: ethercalc.net</button>
+							<a href="https://write.as/">
+								<button type="button" class="btn btn-info">Website: write.as</button>
 							</a>
+							<a data-toggle="tooltip" data-placement="bottom" data-original-title="http://writeas7pm7rcdqg.onion. Requires specific software to access: torproject.org" href="http://writeas7pm7rcdqg.onion"><img src="img/layout/tor.png" width="35"></img></a>
 						</p>
-						<p>OS: Windows, macOS, GNU/Linux, FreeBSD, Browser.</p>
+						<p>OS: Windows, macOS, Linux, Android, iOS, Chrome OS, Web.</p>
 					</div>
 				</div>
 			</div>
@@ -2683,6 +2688,7 @@
 
 		<h3>Worth Mentioning</h3>
 		<ul>
+			<li><a href="https://ethercalc.net/">EtherCalc</a> - EtherCalc is a web spreadsheet. Data is saved on the web, and people can edit the same document at the same time. Changes are instantly reflected on all screens. Work together on inventories, survey forms, list management, brainstorming sessions.</li>
 			<li><a href="https://disroot.org/">disroot.org</a> - Free privacy friendly service that offers Etherpad, EtherCalc and PrivateBin.</li>
 			<li><a href="https://dudle.inf.tu-dresden.de/privacy/">dudle</a> - An online scheduling application, which is free and OpenSource. Schedule meetings or make small online polls. No email collection or the need of registration.</li>
 		</ul>
@@ -2963,14 +2969,16 @@
 			<div class="col-sm-4">
 				<div class="panel panel-warning">
 					<div class="panel-heading">
-						<h3 class="panel-title">LibreWRT</h3>
+						<h3 class="panel-title">LibreCMC</h3>
 					</div>
 					<div class="panel-body">
-						<p><img src="img/tools/LibreWRT.png" alt="LibreWRT" align="right" style="margin-left:5px;">LibreWRT is a GNU/Linux-libre distribution for computers with minimal resources, such as the Ben Nanonote, ath9k based wifi routers, and other hardware that
-							respects your freedom with emphasis on free software. It is used by the Free Software Foundation on their access point and router which provides network connectivity to portable computers in their office.</p>
+						<p><img src="img/tools/LibreCMC.png" alt="LibreCMC" align="right" style="margin-left:5px;">
+							LibreCMC is a GNU/Linux-libre distribution for computers with minimal resources, such as the Ben Nanonote, ath9k-based Wi-Fi routers, and other hardware with emphasis on free software. 
+							The project's current goal is to aim for compliance with the GNU Free System Distribution Guidelines (GNU FSDG) and ensure that the project continues to meet these requirements set forth by the Free Software Foundation (FSF).
+						</p>
 						<p>
-							<a href="http://librewrt.org/">
-								<button type="button" class="btn btn-warning">Website: librewrt.org</button>
+							<a href="https://librecmc.org">
+								<button type="button" class="btn btn-warning">Website: librecmc.org</button>
 							</a>
 						</p>
 					</div>
