@@ -52,6 +52,37 @@
       <script src="js/respond.min.js"></script>
 <![endif]-->
 
+	<script>
+        function scrollToTop(scrollDuration) {
+			const scrollHeight = window.scrollY,
+			scrollStep = Math.PI / ( scrollDuration / 15 ),
+			cosParameter = scrollHeight / 2;
+			var scrollCount = 0,
+			scrollMargin,
+			scrollInterval = setInterval( function() {
+			if ( window.scrollY != 0 ) {
+				scrollCount = scrollCount + 1;
+				scrollMargin = cosParameter - cosParameter * Math.cos( scrollCount * scrollStep );
+				window.scrollTo( 0, ( scrollHeight - scrollMargin ) );
+			}
+			else clearInterval(scrollInterval);
+			}, 15 );
+		}
+	</script>
+
+	<!-- When the user scrolls down, show the arrow. When the user scrolls up, hide the arrow -->
+	<script>
+		window.onscroll = function() {scrollFunction()};
+		function scrollFunction() {
+		if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			document.getElementById("scrollToTop_arrow").style.display = "block";
+		}
+		else {
+			document.getElementById("scrollToTop_arrow").style.display = "none";
+		}
+	}
+	</script>
+
 	<!-- Open Graph Protocol tags for SEO -->
 	<meta property="og:title" content="Privacy Tools | Encryption against global mass surveillance" />
 	<meta property="og:type" content="website" />
@@ -3315,6 +3346,12 @@ as published by Sam Hocevar."><img src="img/layout/wtfpl.png" style="margin-righ
 			</p>
 
 			<p><em>privacytools.io is a socially motivated website that provides information for protecting your data security and privacy. never trust any company with your privacy, always encrypt.</em></p>
+	</div>
+
+	<div id="scrollToTop_arrow" style="position: fixed; bottom: 10px; right: 10px; overflow-x: hidden; display: none;">
+		<div onclick="scrollToTop(600);">
+			<img src="img/misc/scrolltotop.png">
+		</div>
 	</div>
 
 	<!-- add jQuery, Bootstrap, Sortable, and tooltip libraries  -->
