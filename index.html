@@ -1019,6 +1019,17 @@
 				<li>Disables geolocation.</li>
 			</ul>
 
+			<li>media.eme.enabled = false</li>
+			<ul>
+				<li>Disables playback of DRM-controlled HTML5 content, which, if enabled, automatically downloads the Widevine Content Decryption Module provided by Google Inc. <a href="https://support.mozilla.org/en-US/kb/enable-drm#w_opt-out-of-cdm-playback-uninstall-cdms-and-stop-all-cdm-downloads">Details</a></li>
+				<li>DRM-controlled content that requires the Adobe Flash or Microsoft Silverlight NPAPI plugins will still play, if installed and enabled in Firefox.</li>
+			</ul>
+
+			<li>media.gmp-widevinecdm.enabled = false</li>
+			<ul>
+				<li>Disables the Widevine Content Decryption Module provided by Google Inc., used for the playback of DRM-controlled HTML5 content. <a href="https://support.mozilla.org/en-US/kb/enable-drm#w_disable-the-google-widevine-cdm-without-uninstalling">Details</a></li>
+			</ul>
+
 			<li>media.navigator.enabled = false</li>
 			<ul>
 				<li>Websites can track the microphone and camera status of your device.</li>
@@ -1072,7 +1083,7 @@
 
 			<li>browser.sessionstore.privacy_level = 2</li>
 			<ul>
-				<li>This preference controls when to store extra information about a session: contents of forms, scrollbar positions, cookies, and POST data. <a href="http://kb.mozillazine.org/Browser.sessionstore.privacy_level">more information</a></li>
+				<li>This preference controls when to store extra information about a session: contents of forms, scrollbar positions, cookies, and POST data. <a href="http://kb.mozillazine.org/Browser.sessionstore.privacy_level">Details</a></li>
 				<li>0 = Store extra session data for any site. (Default starting with Firefox 4.)</li>
         <li>1 = Store extra session data for unencrypted (non-HTTPS) sites only. (Default before Firefox 4.)</li>
         <li>2 = Never store extra session data.</li>
