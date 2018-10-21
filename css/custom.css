@@ -24,6 +24,11 @@ a.titleanchor {
   font-size:0.7em;
 }
 
+.panel-item {
+  float: right;
+  margin-left: 5px;
+}
+
 .jumbotron {
     padding: 10px 0px;
 }
