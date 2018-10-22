@@ -17,6 +17,45 @@ body {
   width: auto;
 }
 
+#navbar {
+  max-height: 100%;
+}
+
+.navbar-nav {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .navbar-collapse > .navbar-nav > #donate {
+    float: none;
+    padding: 0;
+  }
+
+  .navbar-collapse > .navbar-nav > #donate > a {
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width: 992px) {
+  nav > .container {
+    width: 100%;
+  }
+}
+
+#donate {
+  float: right;
+}
+
+#donate-icon {
+  color: red;
+  margin-left: 5px;
+}
+
+#donate > a {
+  padding: 15px 0;
+  color: white;
+}
+
 a.anchor {
   display: block; position: relative; top: -50px; visibility: hidden;
 }
