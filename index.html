@@ -958,142 +958,165 @@
 		<!-- Getting started list -->
 		<h3>Getting started:</h3>
 
-		<ol>
-			<li>privacy.firstparty.isolate = true</li>
-			<ul>
-				<li>A result of the <a href="https://wiki.mozilla.org/Security/Tor_Uplift">Tor Uplift</a> effort, this preference isolates all browser identifier sources (e.g. cookies) to the first party domain, with the goal of preventing tracking across different domains. (Don't do this if you are using the Firefox Addon "Cookie AutoDelete" with Firefox v58 or below.)</li>
-			</ul>
+                <ol>
+                    <li>privacy.firstparty.isolate = true
+                        <ul>
+                            <li>A result of the <a href="https://wiki.mozilla.org/Security/Tor_Uplift">Tor Uplift</a> effort, this preference isolates all browser identifier sources (e.g. cookies) to the first party domain, with the goal of preventing tracking across different domains. (Don't do this if you are using the Firefox Addon "Cookie AutoDelete" with Firefox v58 or below.)</li>
+                        </ul>
+                    </li>
 
-			<li>privacy.resistFingerprinting = true</li>
-			<ul>
-				<li>A result of the <a href="https://wiki.mozilla.org/Security/Tor_Uplift">Tor Uplift</a> effort, this preference makes Firefox more resistant to browser fingerprinting.</li>
-			</ul>
+                    <li>privacy.resistFingerprinting = true
+                        <ul>
+                            <li>A result of the <a href="https://wiki.mozilla.org/Security/Tor_Uplift">Tor Uplift</a> effort, this preference makes Firefox more resistant to browser fingerprinting.</li>
+                        </ul>
+                    </li>
 
-			<li>privacy.trackingprotection.enabled = true</li>
-			<ul>
-				<li>This is Mozilla’s new built in tracking protection. It uses Disconnect.me filter list, which is redundant if you are already using uBlock Origin 3rd party filters, therefore you should set it to false if you are using the add-on functionalities.</li>
-			</ul>
+                    <li>privacy.trackingprotection.enabled = true
+                        <ul>
+                            <li>This is Mozilla’s new built in tracking protection. It uses Disconnect.me filter list, which is redundant if you are already using uBlock Origin 3rd party filters, therefore you should set it to false if you are using the add-on functionalities.</li>
+                        </ul>
+                    </li>
 
-			<li>browser.cache.offline.enable = false</li>
-			<ul>
-				<li>Disables offline cache.</li>
-			</ul>
+                    <li>browser.cache.offline.enable = false
+                        <ul>
+                            <li>Disables offline cache.</li>
+                        </ul>
+                    </li>
 
-			<li>browser.safebrowsing.malware.enabled = false</li>
-			<ul>
-				<li>Disable Google Safe Browsing malware checks. Security risk, but privacy improvement.</li>
-			</ul>
+                    <li>browser.safebrowsing.malware.enabled = false
+                        <ul>
+                            <li>Disable Google Safe Browsing malware checks. Security risk, but privacy improvement.</li>
+                        </ul>
+                    </li>
 
-			<li>browser.safebrowsing.phishing.enabled = false</li>
-			<ul>
-				<li>Disable Google Safe Browsing and phishing protection. Security risk, but privacy improvement.</li>
-			</ul>
+                    <li>browser.safebrowsing.phishing.enabled = false
+                        <ul>
+                            <li>Disable Google Safe Browsing and phishing protection. Security risk, but privacy improvement.</li>
+                        </ul>
+                    </li>
 
-			<li>browser.send_pings = false</li>
-			<ul>
-				<li>The attribute would be useful for letting websites track visitors’ clicks. </li>
-			</ul>
+                    <li>browser.send_pings = false
+                        <ul>
+                            <li>The attribute would be useful for letting websites track visitors’ clicks. </li>
+                        </ul>
+                    </li>
 
-			<li>browser.sessionstore.max_tabs_undo = 0</li>
-			<ul>
-				<li>Even with Firefox set to not remember history, your closed tabs are stored temporarily at Menu -&gt; History -&gt; Recently Closed Tabs.</li>
-			</ul>
+                    <li>browser.sessionstore.max_tabs_undo = 0
+                        <ul>
+                            <li>Even with Firefox set to not remember history, your closed tabs are stored temporarily at Menu -&gt; History -&gt; Recently Closed Tabs.</li>
+                        </ul>
+                    </li>
 
-			<li>browser.urlbar.speculativeConnect.enabled = false</li>
-			<ul>
-				<li>Disable preloading of autocomplete URLs. Firefox preloads URLs that autocomplete when a user types into the address bar, which is a concern if URLs are suggested that the user does not want to connect to. <a href="https://www.ghacks.net/2017/07/24/disable-preloading-firefox-autocomplete-urls/">Source</a></li>
-			</ul>
+                    <li>browser.urlbar.speculativeConnect.enabled = false
+                        <ul>
+                            <li>Disable preloading of autocomplete URLs. Firefox preloads URLs that autocomplete when a user types into the address bar, which is a concern if URLs are suggested that the user does not want to connect to. <a href="https://www.ghacks.net/2017/07/24/disable-preloading-firefox-autocomplete-urls/">Source</a></li>
+                        </ul>
+                    </li>
 
-			<li>dom.battery.enabled = false</li>
-			<ul>
-				<li>Website owners can track the battery status of your device. <a href="https://www.reddit.com/r/privacytoolsIO/comments/3fzbgy/you_may_be_tracked_by_your_battery_status_of_your/">Source</a></li>
-			</ul>
+                    <li>dom.battery.enabled = false
+                        <ul>
+                            <li>Website owners can track the battery status of your device. <a href="https://www.reddit.com/r/privacytoolsIO/comments/3fzbgy/you_may_be_tracked_by_your_battery_status_of_your/">Source</a></li>
+                        </ul>
+                    </li>
 
-			<li>dom.event.clipboardevents.enabled = false</li>
-			<ul>
-				<li>Disable that websites can get notifications if you copy, paste, or cut something from a web page, and it lets them know which part of the page had been selected.</li>
-			</ul>
+                    <li>dom.event.clipboardevents.enabled = false
+                        <ul>
+                            <li>Disable that websites can get notifications if you copy, paste, or cut something from a web page, and it lets them know which part of the page had been selected.</li>
+                        </ul>
+                    </li>
 
-			<li>geo.enabled = false</li>
-			<ul>
-				<li>Disables geolocation.</li>
-			</ul>
+                    <li>geo.enabled = false
+                        <ul>
+                            <li>Disables geolocation.</li>
+                        </ul>
+                    </li>
 
-			<li>media.eme.enabled = false</li>
-			<ul>
-				<li>Disables playback of DRM-controlled HTML5 content, which, if enabled, automatically downloads the Widevine Content Decryption Module provided by Google Inc. <a href="https://support.mozilla.org/en-US/kb/enable-drm#w_opt-out-of-cdm-playback-uninstall-cdms-and-stop-all-cdm-downloads">Details</a></li>
-				<li>DRM-controlled content that requires the Adobe Flash or Microsoft Silverlight NPAPI plugins will still play, if installed and enabled in Firefox.</li>
-			</ul>
+                    <li>media.eme.enabled = false
+                        <ul>
+                            <li>Disables playback of DRM-controlled HTML5 content, which, if enabled, automatically downloads the Widevine Content Decryption Module provided by Google Inc. <a href="https://support.mozilla.org/en-US/kb/enable-drm#w_opt-out-of-cdm-playback-uninstall-cdms-and-stop-all-cdm-downloads">Details</a></li>
+                            <li>DRM-controlled content that requires the Adobe Flash or Microsoft Silverlight NPAPI plugins will still play, if installed and enabled in Firefox.</li>
+                        </ul>
+                    </li>
 
-			<li>media.gmp-widevinecdm.enabled = false</li>
-			<ul>
-				<li>Disables the Widevine Content Decryption Module provided by Google Inc., used for the playback of DRM-controlled HTML5 content. <a href="https://support.mozilla.org/en-US/kb/enable-drm#w_disable-the-google-widevine-cdm-without-uninstalling">Details</a></li>
-			</ul>
+                    <li>media.gmp-widevinecdm.enabled = false
+                        <ul>
+                            <li>Disables the Widevine Content Decryption Module provided by Google Inc., used for the playback of DRM-controlled HTML5 content. <a href="https://support.mozilla.org/en-US/kb/enable-drm#w_disable-the-google-widevine-cdm-without-uninstalling">Details</a></li>
+                        </ul>
+                    </li>
 
-			<li>media.navigator.enabled = false</li>
-			<ul>
-				<li>Websites can track the microphone and camera status of your device.</li>
-			</ul>
+                    <li>media.navigator.enabled = false
+                        <ul>
+                            <li>Websites can track the microphone and camera status of your device.</li>
+                        </ul>
+                    </li>
 
-			<li>network.cookie.cookieBehavior = 1</li>
-			<ul>
-				<li>Disable cookies</li>
-				<li>0 = Accept all cookies by default</li>
-				<li>1 = Only accept from the originating site (block third party cookies)</li>
-				<li>2 = Block all cookies by default</li>
-			</ul>
+                    <li>network.cookie.cookieBehavior = 1
+                        <ul>
+                            <li>Disable cookies</li>
+                            <li>0 = Accept all cookies by default</li>
+                            <li>1 = Only accept from the originating site (block third party cookies)</li>
+                            <li>2 = Block all cookies by default</li>
+                        </ul>
+                    </li>
 
-			<li>network.cookie.lifetimePolicy = 2</li>
-			<ul>
-				<li>cookies are deleted at the end of the session</li>
-				<li>0 = Accept cookies normally</li>
-				<li>1 = Prompt for each cookie</li>
-				<li>2 = Accept for current session only</li>
-				<li>3 = Accept for N days</li>
-			</ul>
+                    <li>network.cookie.lifetimePolicy = 2
+                        <ul>
+                            <li>cookies are deleted at the end of the session</li>
+                            <li>0 = Accept cookies normally</li>
+                            <li>1 = Prompt for each cookie</li>
+                            <li>2 = Accept for current session only</li>
+                            <li>3 = Accept for N days</li>
+                        </ul>
+                    </li>
 
-      <li>network.http.referer.trimmingPolicy = 2</li>
-      <ul>
-        <li>Send only the scheme, host, and port in the <code>Referer</code> header</li>
-        <li>0 = Send the full URL in the <code>Referer</code> header</li>
-        <li>1 = Send the URL without its query string in the <code>Referer</code> header</li>
-        <li>2 = Send only the scheme, host, and port in the <code>Referer</code> header</li>
-      </ul>
+                    <li>network.http.referer.trimmingPolicy = 2
+                        <ul>
+                            <li>Send only the scheme, host, and port in the <code>Referer</code> header</li>
+                            <li>0 = Send the full URL in the <code>Referer</code> header</li>
+                            <li>1 = Send the URL without its query string in the <code>Referer</code> header</li>
+                            <li>2 = Send only the scheme, host, and port in the <code>Referer</code> header</li>
+                        </ul>
+                    </li>
 
-      <li>network.http.referer.XOriginPolicy = 2</li>
-      <ul>
-        <li>Only send <code>Referer</code> header when the full hostnames match. (Note: if you notice significant breakage, you might try <code>1</code> combined with an <code>XOriginTrimmingPolicy</code> tweak below.) <a href="https://feeding.cloud.geek.nz/posts/tweaking-referrer-for-privacy-in-firefox/">Source</a></li>
-        <li>0 = Send <code>Referer</code> in all cases</li>
-        <li>1 = Send <code>Referer</code> to same eTLD sites</li>
-        <li>2 = Send <code>Referer</code> only when the full hostnames match</li>
-      </ul>
+                    <li>network.http.referer.XOriginPolicy = 2
+                        <ul>
+                            <li>Only send <code>Referer</code> header when the full hostnames match. (Note: if you notice significant breakage, you might try <code>1</code> combined with an <code>XOriginTrimmingPolicy</code> tweak below.) <a href="https://feeding.cloud.geek.nz/posts/tweaking-referrer-for-privacy-in-firefox/">Source</a></li>
+                            <li>0 = Send <code>Referer</code> in all cases</li>
+                            <li>1 = Send <code>Referer</code> to same eTLD sites</li>
+                            <li>2 = Send <code>Referer</code> only when the full hostnames match</li>
+                        </ul>
+                    </li>
 
-      <li>network.http.referer.XOriginTrimmingPolicy = 2</li>
-      <ul>
-        <li>When sending <code>Referer</code> across origins, only send scheme, host, and port in the <code>Referer</code> header of cross-origin requests. <a href="https://feeding.cloud.geek.nz/posts/tweaking-referrer-for-privacy-in-firefox/">Source</a></li>
-        <li>0 = Send full url in <code>Referer</code></li>
-        <li>1 = Send url without query string in <code>Referer</code></li>
-        <li>2 = Only send scheme, host, and port in <code>Referer</code></li>
-      </ul>
+                    <li>network.http.referer.XOriginTrimmingPolicy = 2
+                        <ul>
+                            <li>When sending <code>Referer</code> across origins, only send scheme, host, and port in the <code>Referer</code> header of cross-origin requests. <a href="https://feeding.cloud.geek.nz/posts/tweaking-referrer-for-privacy-in-firefox/">Source</a></li>
+                            <li>0 = Send full url in <code>Referer</code></li>
+                            <li>1 = Send url without query string in <code>Referer</code></li>
+                            <li>2 = Only send scheme, host, and port in <code>Referer</code></li>
+                        </ul>
+                    </li>
 
-			<li>webgl.disabled = true</li>
-			<ul>
-				<li>WebGL is a potential security risk. <a href="http://security.stackexchange.com/questions/13799/is-webgl-a-security-concern">Source</a></li>
-			</ul>
+                    <li>webgl.disabled = true
+                        <ul>
+                            <li>WebGL is a potential security risk. <a href="http://security.stackexchange.com/questions/13799/is-webgl-a-security-concern">Source</a></li>
+                        </ul>
+                    </li>
 
-			<li>browser.sessionstore.privacy_level = 2</li>
-			<ul>
-				<li>This preference controls when to store extra information about a session: contents of forms, scrollbar positions, cookies, and POST data. <a href="http://kb.mozillazine.org/Browser.sessionstore.privacy_level">Details</a></li>
-				<li>0 = Store extra session data for any site. (Default starting with Firefox 4.)</li>
-        <li>1 = Store extra session data for unencrypted (non-HTTPS) sites only. (Default before Firefox 4.)</li>
-        <li>2 = Never store extra session data.</li>
-			</ul>
+                    <li>browser.sessionstore.privacy_level = 2
+                        <ul>
+                            <li>This preference controls when to store extra information about a session: contents of forms, scrollbar positions, cookies, and POST data. <a href="http://kb.mozillazine.org/Browser.sessionstore.privacy_level">Details</a></li>
+                            <li>0 = Store extra session data for any site. (Default starting with Firefox 4.)</li>
+                            <li>1 = Store extra session data for unencrypted (non-HTTPS) sites only. (Default before Firefox 4.)</li>
+                            <li>2 = Never store extra session data.</li>
+                        </ul>
+                    </li>
 
-			<li>network.IDN_show_punycode = true</li>
-			<ul>
-				<li>Not rendering IDNs as their punycode equivalent leaves you open to phishing attacks that can be very difficult to notice. <a href="https://krebsonsecurity.com/2018/03/look-alike-domains-and-visual-confusion/#more-42636">Source</a></li>
-			</ul>
-		</ol>
+                    <li>network.IDN_show_punycode = true
+                        <ul>
+                            <li>Not rendering IDNs as their punycode equivalent leaves you open to phishing attacks that can be very difficult to notice. <a href="https://krebsonsecurity.com/2018/03/look-alike-domains-and-visual-confusion/#more-42636">Source</a></li>
+                        </ul>
+                    </li>
+                </ol>
 
 		<!-- related information -->
 		<h3>Related Information</h3>
@@ -2985,71 +3008,72 @@
 
 		<img src="img/layout/Windows-10-Privacy.jpg" class="img-responsive pull-right" alt="Windows 10 Privacy" style="margin-left:10px;">
 
-		<ol>
-			<strong><li>Data syncing is by default enabled.</li></strong>
-			<ul>
-				<li>Browsing history and open websites.</li>
-			</ul>
-			<ul>
-				<li>Apps settings.</li>
-			</ul>
-			<ul>
-				<li>WiFi hotspot names and passwords.</li>
-			</ul>
+                <ol>
+                    <li><strong>Data syncing is by default enabled.</strong>
+                        <ul>
+                            <li>Browsing history and open websites.</li>
+                            <li>Apps settings.</li>
+                            <li>WiFi hotspot names and passwords.</li>
+                        </ul>
+                    </li>
 
-			<strong><li>Your device is by default tagged with a unique advertising ID.</li></strong>
-			<ul>
-				<li>Used to serve you with personalized advertisements by third-party advertisers and ad networks.</li>
-			</ul>
+                    <li><strong>Your device is by default tagged with a unique advertising ID.</strong>
+                        <ul>
+                            <li>Used to serve you with personalized advertisements by third-party advertisers and ad networks.</li>
+                        </ul>
+                    </li>
 
-			<strong><li>Cortana can collect any of your data.</li></strong>
-			<ul>
-				<li>Your keystrokes, searches and mic input.</li>
-			</ul>
-			<ul>
-				<li>Calendar data.</li>
-			</ul>
-			<ul>
-				<li>Music you listen to.</li>
-			</ul>
-			<ul>
-				<li>Credit Card information.</li>
-			</ul>
-			<ul>
-				<li>Purchases.</li>
-			</ul>
+                    <li><strong>Cortana can collect any of your data.</strong>
+                        <ul>
+                            <li>Your keystrokes, searches and mic input.</li>
+                        </ul>
+                        <ul>
+                            <li>Calendar data.</li>
+                        </ul>
+                        <ul>
+                            <li>Music you listen to.</li>
+                        </ul>
+                        <ul>
+                            <li>Credit Card information.</li>
+                        </ul>
+                        <ul>
+                            <li>Purchases.</li>
+                        </ul>
+                    </li>
 
-			<strong><li>Microsoft can collect any personal data.</li></strong>
-			<ul>
-				<li>Your identity.</li>
-			</ul>
-			<ul>
-				<li>Passwords.</li>
-			</ul>
-			<ul>
-				<li>Demographics.</li>
-			</ul>
-			<ul>
-				<li>Interests and habits.</li>
-			</ul>
-			<ul>
-				<li>Usage data.</li>
-			</ul>
-			<ul>
-				<li>Contacts and relationships.</li>
-			</ul>
-			<ul>
-				<li>Location data.</li>
-			</ul>
-			<ul>
-				<li>Content like emails, instant messages, caller list, audio and video recordings.</li>
-			</ul>
+                    <li><strong>Microsoft can collect any personal data.</strong>
+                        <ul>
+                            <li>Your identity.</li>
+                        </ul>
+                        <ul>
+                            <li>Passwords.</li>
+                        </ul>
+                        <ul>
+                            <li>Demographics.</li>
+                        </ul>
+                        <ul>
+                            <li>Interests and habits.</li>
+                        </ul>
+                        <ul>
+                            <li>Usage data.</li>
+                        </ul>
+                        <ul>
+                            <li>Contacts and relationships.</li>
+                        </ul>
+                        <ul>
+                            <li>Location data.</li>
+                        </ul>
+                        <ul>
+                            <li>Content like emails, instant messages, caller list, audio and video recordings.</li>
+                        </ul>
+                    </li>
 
-			<strong><li>Your data can be shared.</li></strong>
-			<ul>
-				<li>When downloading Windows 10, you are authorizing Microsoft to share any of above mentioned data with any third-party, with or without your consent.</li>
-			</ul>
-		</ol>
+                    <li><strong>Your data can be shared.</strong>
+                        <ul>
+                            <li>When downloading Windows 10, you are authorizing Microsoft to share any of above mentioned data with any third-party, with or without your consent.</li>
+                        </ul>
+                    </li>
+                </ol>
 
 
 			<p>
