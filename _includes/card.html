@@ -1,14 +1,25 @@
-<div class="card">
-    <div class="card-header card-{{include.color}}">
-        <h3 class="card-title">{{include.title}}</h3>
-    </div>
-    <div class="card-body">
-        <p><img src="{{include.image}}" alt="Nextcloud" class="panel-item">{{include.description}}</p>
-        <p>
-        <a class="btn btn-{{include.color}}" href="{{include.url}}">
-            {{include.website}}
-        </a>
-        </p>
-        <p>{{include.footer}}</p>
+<div class="col-xl-4 col-lg-6 col-md-12 mb-2">
+    <div class="card card-{{include.color}}">
+        {% if include.color == "warning" %}
+        <div class="card-header text-dark bg-{{include.color}}">
+        {% else %}
+        <div class="card-header text-white bg-{{include.color}}">
+        {% endif %}
+        <h3 class="h5">{{include.title}}</h3>
+        </div>
+        <div class="card-body">
+            <p><img src="{{include.image}}" alt="{{include.title}}" class="panel-item">{{include.description}}</p>
+            <div class="card-bottom">
+            <p><a class="btn btn-{{include.color}}" href="{{include.url}}">
+                {% if include.website %}
+                    {{include.website}}
+                {% else %}
+                    Website: {{ include.url | remove: "https://" | remove: "http://" | remove: "www." | remove: "/" }}
+                {% endif %}
+            </a>
+            </p>
+            <p>{{include.footer}}</p>
+            </div>
+        </div>
     </div>
 </div>

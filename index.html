@@ -1634,46 +1634,39 @@ layout: default
     <strong>If you are currently using Cloud Storage Services like Dropbox, Google Drive, Microsoft OneDrive or Apple iCloud you should pick an alternative here.</strong>
 </div>
 
-<div class="row">
+<div class="row mb-4">
 
-    <div class="col-sm-4">
-    {% include card.html color="success" title="Nextcloud - Choose your hoster" image="img/provider/Nextcloud.png" description="Similar functionally to the widely used Dropbox, with the difference being that Nextcloud is free and open-source, and thereby allowing anyone to install and operate it without charge on a private server, with no limits on storage space or the number of connected clients." url="https://nextcloud.com/" website="Website: nextcloud.com" footer="Client OS: Windows, macOS, Linux, BSD, Unix, iOS, Android, Fire OS. Server: Linux." %}
-    </div>
+    {% include card.html color="success"
+    title="Nextcloud - Choose your hoster"
+    image="img/provider/Nextcloud.png"
+    
+    description="Similar functionally to the widely used Dropbox, with the difference being that Nextcloud is free and open-source, and thereby allowing anyone to install and operate it without charge on a private server, with no limits on storage space or the number of connected clients."
+    
+    url="https://nextcloud.com/"
+    website="Website: nextcloud.com"
+    footer="Client OS: Windows, macOS, Linux, BSD, Unix, iOS, Android, Fire OS. Server: Linux." %}
 
-    <div class="col-sm-4">
-        <div class="panel panel-info">
-            <div class="panel-heading">
-                <h3 class="panel-title">Least Authority S4 - For Experts</h3>
-            </div>
-            <div class="panel-body">
-                <p><img src="img/provider/S4.jpg" alt="S4" class="panel-item">S4 (Simple Secure Storage Service) is Least Authority's verifiably secure off-site backup system for individuals and businesses. 100% client-side encryption and open
-                    source transparency. 250GB for $9.95/month or 5TB for $25.95/month. Servers are hosted with Amazon S3 in the US.</p>
-                <p>
-                                        <a class="btn btn-info" href="https://leastauthority.com/">
-                                            Website: leastauthority.com
-                                        </a>
-                </p>
-                <p>OS: <a href="https://tahoe-lafs.org/trac/tahoe-lafs/wiki/Installation">Linux</a>, <a href="https://tahoe-lafs.org/trac/tahoe-lafs/browser/trunk/docs/quickstart.rst"> Windows, macOS, OpenSolaris, BSD.</a> (Installation for advanced users)</p>
-            </div>
-        </div>
-    </div>
 
-    <div class="col-sm-4">
-        <div class="panel panel-warning">
-            <div class="panel-heading">
-                <h3 class="panel-title">Muonium</h3>
-            </div>
-            <div class="panel-body">
-                <p><img src="img/provider/Muonium.jpg" alt="Muonium" class="panel-item">Free encrypted cloud storage for your files.</p>
-                <p>
-                                        <a class="btn btn-warning" href="https://muonium.io/">
-                                            Website: muonium.io
-                                        </a>
-                </p>
-                <p>Client: Webclient. Server: Linux</p>
-            </div>
-        </div>
-    </div>
+
+    {% include card.html color="primary"
+    title="Least Authority S4 - For Experts"
+    image="img/provider/S4.jpg"
+
+    description="S4 (Simple Secure Storage Service) is Least Authority's verifiably secure off-site backup system for individuals and businesses. 100% client-side encryption and open source transparency. 250GB for $9.95/month or 5TB for $25.95/month. Servers are hosted with Amazon S3 in the US."
+
+    url="https://leastauthority.com/"
+    footer='OS: <a href="https://tahoe-lafs.org/trac/tahoe-lafs/wiki/Installation">Linux</a>, <a href="https://tahoe-lafs.org/trac/tahoe-lafs/browser/trunk/docs/quickstart.rst"> Windows, macOS, OpenSolaris, BSD.</a> (Installation for advanced users)'
+    %}
+
+    
+    
+    {% include card.html color="warning"
+    title="Muonium"
+    image="img/provider/Muonium.jpg"
+    description="Free encrypted cloud storage for your files."
+    url="https://muonium.io/"
+    footer="Client: Webclient. Server: Linux"
+    %}
 
 </div>
 

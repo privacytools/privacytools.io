@@ -8,7 +8,7 @@
 	<!-- tags for Search Engine Optimization -->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="keywords" content="privacy, anonymity, privacy tools, surveillance, encryption, edward snowden, nsa, tor">
 	<meta name="description" content="{{ site.description }}">
 
@@ -66,6 +66,13 @@
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:site_name" content="privacytools.io" />
 
+    <script>
+        function extractDomain(data) {
+            var a = document.createElement('a');
+            a.href = data;
+            return a.hostname;
+        }
+    </script>
 </head>
 
 <body>

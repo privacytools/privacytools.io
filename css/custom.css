@@ -1,7 +1,23 @@
 /* BS4 */
 
-.card-success {
-  background-color: rgba(40, 167, 69, 0.5)!important;
+.card {
+  box-shadow: 0 3px 10px 0 rgba(150,150,150,0.2) !important;
+}
+
+.card-bottom {
+  /* todo */
+}
+
+.card-success, .card-success .card-header {
+  border-color: rgba(40, 167, 69, 0.5) !important;
+}
+
+.card-primary, .card-primary .card-header {
+  border-color: rgba(0, 123, 255, 0.5) !important;
+}
+
+.card-warning, .card-warning .card-header {
+  border-color: rgba(255, 193, 7, 0.5) !important;
 }
 
 
