@@ -1,5 +1,12 @@
+/* BS4 */
+
+.card-success {
+  background-color: rgba(40, 167, 69, 0.5)!important;
+}
+
+
+
 body {
-  padding-top: 70px;
   padding-bottom: 30px;
 }
 
@@ -27,10 +34,6 @@ a.titleanchor {
 .panel-item {
   float: right;
   margin-left: 5px;
-}
-
-.jumbotron {
-    padding: 10px 0px;
 }
 
 .share-btn {

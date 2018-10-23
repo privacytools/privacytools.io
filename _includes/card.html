@@ -1,0 +1,14 @@
+<div class="card">
+    <div class="card-header card-{{include.color}}">
+        <h3 class="card-title">{{include.title}}</h3>
+    </div>
+    <div class="card-body">
+        <p><img src="{{include.image}}" alt="Nextcloud" class="panel-item">{{include.description}}</p>
+        <p>
+        <a class="btn btn-{{include.color}}" href="{{include.url}}">
+            {{include.website}}
+        </a>
+        </p>
+        <p>{{include.footer}}</p>
+    </div>
+</div>
