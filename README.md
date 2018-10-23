@@ -5,6 +5,7 @@ _Encryption Against Global Mass Surveillance._
 # BS4 Transition checklist
 
 - [ ] Remove unnecessary files from css/ and js/
+- [ ] Use `primary` or `info` for the second card?
 
 # Contributing
 
