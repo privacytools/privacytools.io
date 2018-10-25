@@ -1867,60 +1867,31 @@ layout: default
     <h1><a href="#dns" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Domain Name System (DNS)</h1>
 </div>
 
-<div class="row">
+<div class="row mb-2">
 
-    <div class="col-sm-4">
-        <div class="panel panel-success">
-            <div class="panel-heading">
-                <h3 class="panel-title">Njalla - Domain Registration</h3>
-            </div>
-            <div class="panel-body">
-                <p><img src="img/provider/Njalla.png" alt="Njalla" class="panel-item">Njalla only needs your email or an jabber address in order to register a domain name for you. Created by people from The Pirate Bay and IPredator VPN. Accepted Payments: Bitcoin, Litecoin, Monero, DASH, Bitcoin Cash and PayPal. A privacy-aware domain registration service.</p>
-                <p>
-                                        <a class="btn btn-success" href="https://njal.la/">
-                                            Website: njal.la
-                                        </a>
-                    <a data-toggle="tooltip" data-placement="bottom" data-original-title="http://njalladnspotetti.onion. Requires specific software to access: torproject.org" href="http://njalladnspotetti.onion/"><img alt="Tor" src="img/layout/tor.png" width="35"></a>
-                </p>
-            </div>
-        </div>
-    </div>
+    {% include card.html color="success"
+    title="Njalla - Domain Registration"
+    image="img/provider/Njalla.png"
+    url="https://njal.la/"
+    tor="http://njalladnspotetti.onion"
+    description="Njalla only needs your email or jabber address in order to register a domain name for you. Created by people from The Pirate Bay and IPredator VPN. Accepted Payments: Bitcoin, Litecoin, Monero, DASH, Bitcoin Cash and PayPal. A privacy-aware domain registration service."
+    %}
 
-    <div class="col-sm-4">
-        <div class="panel panel-info">
-            <div class="panel-heading">
-                <h3 class="panel-title">DNSCrypt - Tool</h3>
-            </div>
-            <div class="panel-body">
-                <p><img src="img/tools/DNSCrypt.png" alt="DNSCrypt" class="panel-item">A protocol for securing communications between a client and a DNS resolver. The DNSCrypt protocol uses high-speed high-security elliptic-curve cryptography and
-                    is very similar to DNSCurve, but focuses on securing communications between a client and its first-level resolver.</p>
-                <p>
-                                        <a class="btn btn-info" href="https://dnscrypt.info/">
-                                            Website: dnscrypt.info
-                                        </a>
-                </p>
-                <p>OS: Windows, macOS, Linux, iOS, Android, BSD</p>
-            </div>
-        </div>
-    </div>
+    {% include card.html color="primary"
+    title="DNSCrypt - Tool"
+    image="img/tools/DNSCrypt.png"
+    url="https://dnscrypt.info/"
+    description="A protocol for securing communications between a client and a DNS resolver. The DNSCrypt protocol uses high-speed high-security elliptic-curve cryptography and
+                is very similar to DNSCurve, but focuses on securing communications between a client and its first-level resolver."
+    %}
 
-    <div class="col-sm-4">
-        <div class="panel panel-warning">
-            <div class="panel-heading">
-                <h3 class="panel-title">OpenNIC - Service</h3>
-            </div>
-            <div class="panel-body">
-                <p><img src="img/tools/OpenNIC.png" alt="OpenNIC" class="panel-item">OpenNIC is an alternate network information center/alternative DNS root which lists itself as an alternative to ICANN and its registries. Like all alternative
-                    root DNS systems, OpenNIC-hosted domains are unreachable to the vast majority of the Internet. Only specific configuration in one's DNS resolver makes these reachable, and very few Internet service providers have this configuration.</p>
-                <p>
-                                        <a class="btn btn-warning" href="http://www.opennicproject.org/">
-                                            Website: opennicproject.org
-                                        </a>
-                </p>
-            </div>
-        </div>
-    </div>
-
+    {% include card.html color="warning"
+    title="OpenNIC - Service"
+    image="img/tools/OpenNIC.png"
+    url="http://www.opennicproject.org/"
+    description="OpenNIC is an alternate network information center/alternative DNS root which lists itself as an alternative to ICANN and its registries. Like all alternative
+                root DNS systems, OpenNIC-hosted domains are unreachable to the vast majority of the Internet. Only specific configuration in one's DNS resolver makes these reachable, and very few Internet service providers have this configuration."
+    %}
 
 </div>
 
@@ -1940,58 +1911,31 @@ layout: default
     <strong>If you are currently using an application like Evernote, Google Keep or Microsoft OneNote you should pick an alternative here.</strong>
 </div>
 
-<div class="row">
-    <div class="col-sm-4">
-        <div class="panel panel-success">
-            <div class="panel-heading">
+<div class="row mb-2">
 
-                <h3 class="panel-title">Laverna</h3>
-            </div>
-            <div class="panel-body">
-                <p><img src="img/tools/Laverna.png" alt="Laverna" class="panel-item">Laverna is a JavaScript note-taking web application with a Markdown editor and encryption support. The application stores all your notes in your browser databases, which is good for security and privacy reasons, because only you have access.</p>
-                <p>
-                                        <a class="btn btn-success" href="https://laverna.cc/">
-                                            Website: laverna.cc
-                                        </a>
-                </p>
-                <p>OS: Windows, macOS, Linux, Web.</p>
-            </div>
-        </div>
-    </div>
+    {% include card.html color="success"
+    title="Laverna"
+    image="img/tools/Laverna.png"
+    url="https://laverna.cc/"
+    footer="OS: Windows, macOS, Linux, Web."
+    description="Laverna is a JavaScript note-taking web application with a Markdown editor and encryption support. The application stores all your notes in your browser databases, which is good for security and privacy reasons, because only you have access."
+    %}
 
-    <div class="col-sm-4">
-        <div class="panel panel-info">
-            <div class="panel-heading">
-                <h3 class="panel-title">Turtl</h3>
-            </div>
-            <div class="panel-body">
-                <p><img src="img/tools/Turtl.png" alt="Turtl" class="panel-item">Turtl lets you take notes, bookmark websites, and store documents for sensitive projects. From sharing passwords with your coworkers to tracking research on an article you're writing, Turtl keeps it all safe from everyone but you and those you share with. </p>
-                <p>
-                                        <a class="btn btn-info" href="https://turtlapp.com/">
-                                            Website: turtlapp.com
-                                        </a>
-                </p>
-                <p>OS: Windows, macOS, Linux, Android.</p>
-            </div>
-        </div>
-    </div>
+    {% include card.html color="primary"
+    title="Standard Notes"
+    image="img/tools/StandardNotes.png"
+    url="https://standardnotes.org/"
+    footer="OS: Windows, macOS, Linux, iOS, Android, Web."
+    description="Standard Notes is a simple and private notes app that makes your notes easy and available everywhere you are. Features end-to-end encryption on every platform, and a powerful desktop experience with themes and custom editors."
+    %}
 
-    <div class="col-sm-4">
-        <div class="panel panel-warning">
-            <div class="panel-heading">
-                <h3 class="panel-title">Standard Notes</h3>
-            </div>
-            <div class="panel-body">
-                <p><img src="img/tools/StandardNotes.png" alt="StandardNotes" class="panel-item">Standard Notes is a simple and private notes app that makes your notes easy and available everywhere you are. Features end-to-end encryption on every platform, and a powerful desktop experience with themes and custom editors.<p>
-                <p>
-                <a class="btn btn-warning" href="https://standardnotes.org/">
-                    Website: standardnotes.org
-                </a>
-                </p>
-                <p>OS: Windows, macOS, Linux, iOS, Android, Web.</p>
-            </div>
-        </div>
-    </div>
+    {% include card.html color="warning"
+    title="Turtl"
+    image="img/tools/Turtl.png"
+    url="https://turtlapp.com/"
+    footer="OS: Windows, macOS, Linux, Android."
+    description="Turtl lets you take notes, bookmark websites, and store documents for sensitive projects. From sharing passwords with your coworkers to tracking research on an article you're writing, Turtl keeps it all safe from everyone but you and those you share with."
+    %}
 
 
 </div>
