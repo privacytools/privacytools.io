@@ -88,8 +88,3 @@ a.titleanchor {
 .share-btn.linkedin    { background: #4875B4; }
 .share-btn.email { background: #444444; }
 .share-btn.diaspora { background: #2f3537; }
-
-.navbar-inverse .navbar-nav > li > a {
-	color:#3498DB;
-	font-weight: bold;
-}
