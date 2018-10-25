@@ -10,15 +10,21 @@
         <div class="card-body">
             <p><img src="{{include.image}}" alt="{{include.title}}" class="panel-item">{{include.description}}</p>
             <div class="card-bottom">
-            <p><a class="btn btn-{{include.color}}" href="{{include.url}}">
-                {% if include.website %}
-                    {{include.website}}
-                {% else %}
-                    Website: {{ include.url | remove: "https://" | remove: "http://" | remove: "www." | remove: "/" }}
+            <p>
+                <a class="btn btn-{{include.color}}" href="{{include.url}}">Website: 
+                    {% if include.website %}
+                        {{include.website}}
+                    {% else %}
+                        {{ include.url | remove: "https://" | remove: "http://" | remove: "www." | remove: "/" }}
+                    {% endif %}
+                </a>
+                {% if include.tor %}
+                <a data-toggle="tooltip" data-placement="bottom" data-original-title="{{include.tor}}. Requires specific software to access: torproject.org" href="{{include.tor}}"><img alt="Tor" src="img/layout/tor.png" width="35"></a>
                 {% endif %}
-            </a>
             </p>
-            <p>{{include.footer}}</p>
+            {% if include.footer %}
+                <p>{{include.footer}}</p>
+            {% endif %}
             </div>
         </div>
     </div>

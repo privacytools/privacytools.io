@@ -1582,24 +1582,15 @@ layout: default
     <h1><a href="#filesharing" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> File Sharing</h1>
 </div>
 <div class="row">
-    <div class="col-sm-4">
-        <div class="panel panel-success">
-            <div class="panel-heading">
-                <h3 class="panel-title">OnionShare</h3>
-            </div>
-            <div class="panel-body">
-                <p><img src="img/tools/OnionShare.png" alt="OnionShare" class="panel-item">OnionShare is an open source tool that lets you securely and anonymously share a file of any size.
-                        It works by starting a web server, making it accessible as a Tor onion service, and generating an unguessable URL to access and download the files. It doesn't require setting up a server on the internet somewhere or using a third party filesharing service. You host the file on your own computer and use a Tor onion service to make it temporarily accessible over the internet.</p>
-                <p>
-                                        <a class="btn btn-success" href="https://onionshare.org/">
-                                            Website: onionshare.org
-                                        </a>
-                    <a data-toggle="tooltip" data-placement="bottom" data-original-title="http://elx57ue5uyfplgva.onion/. Requires specific software to access: torproject.org" href="http://elx57ue5uyfplgva.onion/"><img alt="Tor" src="img/layout/tor.png" width="35"></a>
-                </p>
-                <p>OS: Windows, macOS, Linux.</p>
-            </div>
-        </div>
-    </div>
+    {% include card.html
+    color="success"
+    title="OnionShare"
+    image="img/tools/OnionShare.png"
+    url="https://onionshare.org/"
+    tor="http://elx57ue5uyfplgva.onion/"
+    footer="OS: Windows, macOS, Linux."
+    description="OnionShare is an open source tool that lets you securely and anonymously share a file of any size. It works by starting a web server, making it accessible as a Tor onion service, and generating an unguessable URL to access and download the files. It doesn't require setting up a server on the internet somewhere or using a third party filesharing service. You host the file on your own computer and use a Tor onion service to make it temporarily accessible over the internet."
+    %}
     <div class="col-sm-4">
         <div class="panel panel-info">
             <div class="panel-heading">
@@ -1643,7 +1634,7 @@ layout: default
     description="Similar functionally to the widely used Dropbox, with the difference being that Nextcloud is free and open-source, and thereby allowing anyone to install and operate it without charge on a private server, with no limits on storage space or the number of connected clients."
     
     url="https://nextcloud.com/"
-    website="Website: nextcloud.com"
+    website="nextcloud.com"
     footer="Client OS: Windows, macOS, Linux, BSD, Unix, iOS, Android, Fire OS. Server: Linux."
     %}
 
