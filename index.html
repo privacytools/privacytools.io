@@ -494,63 +494,30 @@ layout: default
 
 <div class="row">
 
-    <!-- browsers - tor browser -->
-    <div class="col-sm-4">
-        <div class="panel panel-success">
-            <div class="panel-heading">
-                <h3 class="panel-title">Tor Browser</h3>
-            </div>
-            <div class="panel-body">
-                <p><img alt="Tor project" src="img/tools/Tor-Project.png" class="panel-item">Tor Browser is your choice if you need an extra layer of anonymity. It's a modified version of Firefox, it comes with pre-installed privacy add-ons, encryption and an advanced
-                    proxy.
-                </p>
-                <p>
-                    <a class="btn btn-success" href="https://www.torproject.org/">
-                                                    Download: torproject.org
-                    </a>
-                    <a data-toggle="tooltip" data-placement="bottom" data-original-title="http://expyuzz4wqqyqhjn.onion. Requires specific software to access: torproject.org" href="http://expyuzz4wqqyqhjn.onion"><img alt="Tor logo" src="img/layout/tor.png" width="35"></a>
-                </p>
-                <p>OS: Windows, macOS, Linux, <a href="https://mike.tig.as/onionbrowser/">iOS</a>, <a href="https://www.torproject.org/docs/android.html.en">Android</a>, <a href="https://github.com/torbsd/openbsd-ports">OpenBSD.</a></p>
-            </div>
-        </div>
-    </div>
+    {% include card.html color="success"
+    title="Tor Browser"
+    image="img/tools/Tor-Project.png"
+    url="https://www.torproject.org/"
+    footer='OS: Windows, macOS, Linux, <a href="https://mike.tig.as/onionbrowser/">iOS</a>, <a href="https://www.torproject.org/docs/android.html.en">Android</a>, <a href="https://github.com/torbsd/openbsd-ports">OpenBSD.</a>'
+    description="Tor Browser is your choice if you need an extra layer of anonymity. It's a modified version of Firefox, it comes with pre-installed privacy add-ons, encryption and an advanced proxy."
+    %}
 
-    <!-- browsers - firefox -->
-    <div class="col-sm-4">
-        <div class="panel panel-info">
-            <div class="panel-heading">
-                <h3 class="panel-title">Mozilla Firefox</h3>
-            </div>
-            <div class="panel-body">
-                <p><img alt="Firefox" src="img/tools/Firefox.png" class="panel-item">Firefox is fast, reliable, open source and respects your privacy. Don't forget to adjust the settings according to our
-                    recommendations: <a href="#webrtc"><span class="glyphicon glyphicon-link"></span> WebRTC</a> and <a href="#about_config"><span class="glyphicon glyphicon-link"></span> about:config</a> and get the <a href="#addons"><span class="glyphicon glyphicon-link"></span> privacy add-ons</a>.</p>
-                <p>
-                                        <a class="btn btn-info" href="https://www.firefox.com/">
-                                            Download: firefox.com
-                                        </a>
-                </p>
-                <p>OS: Windows, macOS, Linux, Android, iOS, BSD.</p>
-            </div>
-        </div>
-    </div>
+    {% include card.html color="primary"
+    title="Mozilla Firefox"
+    image="img/tools/Firefox.png"
+    url="https://www.firefox.com/"
+    footer="OS: Windows, macOS, Linux, Android, iOS, BSD."
+    description='Firefox is fast, reliable, open source and respects your privacy. Don\'t forget to adjust the settings according to our
+                recommendations: <a href="#webrtc"><span class="glyphicon glyphicon-link"></span> WebRTC</a> and <a href="#about_config"><span class="glyphicon glyphicon-link"></span> about:config</a> and get the <a href="#addons"><span class="glyphicon glyphicon-link"></span> privacy add-ons</a>.'
+    %}
 
-    <!-- browsers - brave -->
-    <div class="col-sm-4">
-        <div class="panel panel-warning">
-            <div class="panel-heading">
-                <h3 class="panel-title">Brave</h3>
-            </div>
-            <div class="panel-body">
-                <p><img alt="Brave browser" src="img/tools/Brave.png" class="panel-item">The new open source browser "Brave" automatically blocks ads and trackers, making it faster and safer than your current browser. Brave is based on Chromium.</p>
-                <p>
-                                        <a class="btn btn-warning" href="https://www.brave.com/">
-                                            Download: brave.com
-                                        </a>
-                </p>
-                <p>OS: Windows, macOS, Linux, Android, iOS.</p>
-            </div>
-        </div>
-    </div>
+    {% include card.html color="warning"
+    title="Brave"
+    image="img/tools/Brave.png"
+    url="https://www.brave.com/"
+    footer="OS: Windows, macOS, Linux, Android, iOS."
+    description="The new open source browser \"Brave\" automatically blocks ads and trackers, making it faster and safer than your current browser. Brave is based on Chromium."
+    %}
 
     <!-- IceCat removed
 <div class="col-sm-4">
@@ -1185,41 +1152,23 @@ layout: default
 </div>
 <div class="row">
 
-    <div class="col-sm-4">
-        <div class="panel panel-success">
-            <div class="panel-heading">
-                <h3 class="panel-title">Thunderbird</h3>
-            </div>
-            <div class="panel-body">
-                <p><img src="img/tools/Thunderbird.png" alt="Thunderbird" class="panel-item">Mozilla Thunderbird is a free, open source, cross-platform email, news, and chat client developed by the Mozilla Foundation. Thunderbird is an email, newsgroup,
-                    news feed, and chat (XMPP, IRC, Twitter) client.</p>
-                <p>
-                                        <a class="btn btn-success" href="https://mozilla.org/thunderbird">
-                                            Website: mozilla.org
-                                        </a>
-                </p>
-                <p>OS: Windows, macOS, Linux, BSD.</p>
-            </div>
-        </div>
-    </div>
+    {% include card.html color="success"
+    title="Thunderbird"
+    image="img/tools/Thunderbird.png"
+    url="https://mozilla.org/thunderbird"
+    website="mozilla.org"
+    footer="OS: Windows, macOS, Linux, BSD."
+    description="Mozilla Thunderbird is a free, open source, cross-platform email, news, and chat client developed by the Mozilla Foundation. Thunderbird is an email, newsgroup, news feed, and chat (XMPP, IRC, Twitter) client."
+    %}
 
-    <div class="col-sm-4">
-        <div class="panel panel-info">
-            <div class="panel-heading">
-                <h3 class="panel-title">Claws Mail</h3>
-            </div>
-            <div class="panel-body">
-                <p><img src="img/tools/Claws-Mail.png" alt="Claws Mail" class="panel-item">Claws Mail is a free and open source, GTK+-based email and news client. It offers easy configuration and an abundance of features. It is included with Gpg4win,
-                    an encryption suite for Windows.</p>
-                <p>
-                                        <a class="btn btn-info" href="http://www.claws-mail.org/">
-                                            Website: claws-mail.org
-                                        </a>
-                </p>
-                <p>OS: Windows, macOS, Linux, BSD, Solaris, Unix.</p>
-            </div>
-        </div>
-    </div>
+
+    {% include card.html color="primary"
+    title="Claws Mail"
+    image="img/tools/Claws-Mail.png"
+    url="http://www.claws-mail.org/"
+    footer="OS: Windows, macOS, Linux, BSD, Solaris, Unix."
+    description="Claws Mail is a free and open source, GTK+-based email and news client. It offers easy configuration and an abundance of features. It is included with Gpg4win, an encryption suite for Windows."
+    %}
 
 
     <!--
@@ -1252,58 +1201,32 @@ layout: default
 </div>
 <div class="row">
 
-    <div class="col-sm-4">
-        <div class="panel panel-success">
-            <div class="panel-heading">
-                <h3 class="panel-title">I2P-Bote</h3>
-            </div>
-            <div class="panel-body">
-                <p><img src="img/tools/I2P.png" alt="I2P-Bote" class="panel-item">I2P-Bote is a fully decentralized and distributed email system. It supports different identities and does not expose email headers. Currently (2015), it is still
-                    in beta version and can be accessed via its web application interface or IMAP and SMTP. All bote-mails are transparently end-to-end encrypted and, optionally, signed by the sender's private key.</p>
-                <p>
-                                        <a class="btn btn-success" href="https://i2pbote.xyz/">
-                                            Website: i2pbote.xyz
-                                        </a>
-                </p>
-                <p>OS: Windows, macOS, Linux, Android, BSD / Solaris.</p>
-            </div>
-        </div>
-    </div>
+    {% include card.html color="success"
+    title="I2P-Bote"
+    image="img/tools/I2P.png"
+    url="https://i2pbote.xyz/"
+    footer="OS: Windows, macOS, Linux, Android, BSD / Solaris."
+    description="I2P-Bote is a fully decentralized and distributed email system. It supports different identities and does not expose email headers. Currently (2015), it is still
+                in beta version and can be accessed via its web application interface or IMAP and SMTP. All bote-mails are transparently end-to-end encrypted and, optionally, signed by the sender's private key."
+    %}
 
-    <div class="col-sm-4">
-        <div class="panel panel-info">
-            <div class="panel-heading">
-                <h3 class="panel-title">Bitmessage</h3>
-            </div>
-            <div class="panel-body">
-                <p><img src="img/tools/Bitmessage.png" alt="Bitmessage" class="panel-item">Bitmessage is a P2P communications protocol used to send encrypted messages to another person or to many subscribers. It is decentralized and trustless,
-                    meaning that you need-not inherently trust any entities like root certificate authorities. It uses strong authentication which means that the sender of a message cannot be spoofed, and it aims to hide "non-content" data.</p>
-                <p>
-                                        <a class="btn btn-info" href="https://bitmessage.org/">
-                                            Website: bitmessage.org
-                                        </a>
-                </p>
-                <p>OS: Windows, macOS, Linux.</p>
-            </div>
-        </div>
-    </div>
+    {% include card.html color="primary"
+    title="Bitmessage"
+    image="img/tools/Bitmessage.png"
+    url="https://bitmessage.org/"
+    footer="OS: Windows, macOS, Linux."
+    description="Bitmessage is a P2P communications protocol used to send encrypted messages to another person or to many subscribers. It is decentralized and trustless,
+                meaning that you need-not inherently trust any entities like root certificate authorities. It uses strong authentication which means that the sender of a message cannot be spoofed, and it aims to hide \"non-content\" data."
+    %}
 
-    <div class="col-sm-4">
-        <div class="panel panel-warning">
-            <div class="panel-heading">
-                <h3 class="panel-title">RetroShare</h3>
-            </div>
-            <div class="panel-body">
-                <p><img src="img/tools/RetroShare.png" alt="RetroShare" class="panel-item">Retroshare creates encrypted connections to your friends. Nobody can spy on you. Retroshare is completely decentralized. This means there are no central servers. It is entirely Open-Source and free. There are no costs, no ads and no Terms of Service.</p>
-                <p>
-                                        <a class="btn btn-warning" href="http://retroshare.net">
-                                            Website: retroshare.net
-                                        </a>
-                </p>
-                <p>OS: Windows, macOS, Linux.</p>
-            </div>
-        </div>
-    </div>
+
+    {% include card.html color="warning"
+    title="RetroShare"
+    image="img/tools/RetroShare.png"
+    url="http://retroshare.net"
+    footer="OS: Windows, macOS, Linux."
+    description="Retroshare creates encrypted connections to your friends. Nobody can spy on you. Retroshare is completely decentralized. This means there are no central servers. It is entirely Open-Source and free. There are no costs, no ads and no Terms of Service."
+    %}
 </div>
 
 <a class="anchor" name="search"></a>
@@ -1320,7 +1243,7 @@ layout: default
     {% include card.html color="success"
     title="searx"
     image="img/provider/searx.jpg"
-    url="ttps://searx.me/"
+    url="https://searx.me/"
     tor="http://ulrn6sryqaifefld.onion"
     extra_button='<a class="btn btn-success mb-1" href="https://github.com/asciimoo/searx/wiki/Searx-instances">List of Instances</a>'
     description='An <a href="https://github.com/asciimoo/searx">open source</a> metasearch engine, aggregating the results of other search engines while not storing information about its users. No logs, no ads and no tracking.'
@@ -1567,57 +1490,31 @@ layout: default
 </div>
 <div class="row">
 
-    <div class="col-sm-4">
-        <div class="panel panel-success">
-            <div class="panel-heading">
-                <h3 class="panel-title">Pydio</h3>
-            </div>
-            <div class="panel-body">
-                <p><img src="img/tools/Pydio.png" alt="Pydio" class="panel-item">Pydio is open source software that turns instantly any server (on premise, NAS, cloud IaaS or PaaS) into a file sharing platform for your company. It is an alternative
-                    to SaaS Boxes and Drives, with more control, safety and privacy, and favorable TCOs.</p>
-                <p>
-                                        <a class="btn btn-success" href="https://pydio.com/">
-                                            Website: pydio.com
-                                        </a>
-                </p>
-                <p>OS: Windows, macOS, Linux, iOS, Android.</p>
-            </div>
-        </div>
-    </div>
-    <div class="col-sm-4">
-        <div class="panel panel-info">
-            <div class="panel-heading">
-                <h3 class="panel-title">Tahoe-LAFS</h3>
-            </div>
-            <div class="panel-body">
-                <p><img src="img/tools/Tahoe-LAFS.png" alt="Tahoe-LAFS" class="panel-item">Tahoe-LAFS is a Free and Open decentralized cloud storage system. It distributes your data across multiple servers. Even if some of the servers fail or are
-                    taken over by an attacker, the entire file store continues to function correctly, preserving your privacy and security.</p>
-                <p>
-                                        <a class="btn btn-info" href="https://www.tahoe-lafs.org/">
-                                            Website: tahoe-lafs.org
-                                        </a>
-                </p>
-                <p>OS: Windows, macOS, Linux.</p>
-            </div>
-        </div>
-    </div>
+    {% include card.html color="success"
+    title="Pydio"
+    image="img/tools/Pydio.png"
+    url="https://pydio.com/"
+    footer="OS: Windows, macOS, Linux, iOS, Android."
+    description="Pydio is open source software that turns instantly any server (on premise, NAS, cloud IaaS or PaaS) into a file sharing platform for your company. It is an alternative
+                to SaaS Boxes and Drives, with more control, safety and privacy, and favorable TCOs."
+    %}
 
-    <div class="col-sm-4">
-        <div class="panel panel-warning">
-            <div class="panel-heading">
-                <h3 class="panel-title">Nextcloud</h3>
-            </div>
-            <div class="panel-body">
-                <p><img src="img/provider/Nextcloud.png" alt="Nextcloud" class="panel-item">Similar functionally to the widely used Dropbox, with the difference being that Nextcloud is free and open-source, and thereby allowing anyone to install and operate it without charge on a private server, with no limits on storage space or the number of connected clients.</p>
-                <p>
-                                        <a class="btn btn-warning" href="https://nextcloud.com/">
-                                            Website: nextcloud.com
-                                        </a>
-                </p>
-                <p>Client OS: Windows, macOS, Linux, BSD, Unix, iOS, Android, Fire OS. Server: Linux.</p>
-            </div>
-        </div>
-    </div>
+    {% include card.html color="primary"
+    title="Tahoe-LAFS"
+    image="img/tools/Tahoe-LAFS.png"
+    url="https://www.tahoe-lafs.org/"
+    footer="OS: Windows, macOS, Linux."
+    description="Tahoe-LAFS is a Free and Open decentralized cloud storage system. It distributes your data across multiple servers. Even if some of the servers fail or are
+                taken over by an attacker, the entire file store continues to function correctly, preserving your privacy and security."
+    %}
+
+    {% include card.html color="warning"
+    title="Nextcloud"
+    image="img/provider/Nextcloud.png"
+    url="https://nextcloud.com/"
+    footer="Client OS: Windows, macOS, Linux, BSD, Unix, iOS, Android, Fire OS. Server: Linux."
+    description="Similar functionally to the widely used Dropbox, with the difference being that Nextcloud is free and open-source, and thereby allowing anyone to install and operate it without charge on a private server, with no limits on storage space or the number of connected clients."
+    %}
 
 </div>
 <h3>Worth Mentioning</h3>
@@ -1629,40 +1526,27 @@ layout: default
     <h1><a href="#sync" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Secure File Sync Software</h1>
 </div>
 <div class="row">
-    <div class="col-sm-4">
-        <div class="panel panel-success">
-            <div class="panel-heading">
-                <h3 class="panel-title">SparkleShare</h3>
-            </div>
-            <div class="panel-body">
-                <p><img src="img/tools/SparkleShare.png" alt="SparkleShare" class="panel-item">SparkleShare creates a special folder on your computer. You can add remotely hosted folders (or "projects") to this folder. These projects will be automatically
-                    kept in sync with both the host and all of your peers when someone adds, removes or edits a file.</p>
-                <p>
-                                        <a class="btn btn-success" href="http://sparkleshare.org/">
-                                            Website: sparkleshare.org
-                                        </a>
-                </p>
-                <p>OS: Windows, macOS, Linux.</p>
-            </div>
-        </div>
-    </div>
-    <div class="col-sm-4">
-        <div class="panel panel-info">
-            <div class="panel-heading">
-                <h3 class="panel-title">Syncthing</h3>
-            </div>
-            <div class="panel-body">
-                <p><img src="img/tools/Syncthing.png" alt="Syncthing" class="panel-item">Syncthing replaces proprietary sync and cloud services with something open, trustworthy and decentralized. Your data is your data alone and you deserve to
-                    choose where it is stored, if it is shared with some third party and how it's transmitted over the Internet.</p>
-                <p>
-                                        <a class="btn btn-info" href="https://syncthing.net/">
-                                            Website: syncthing.net
-                                        </a>
-                </p>
-                <p>OS: Windows, macOS, Linux, Android, BSD, Solaris.</p>
-            </div>
-        </div>
-    </div>
+
+    {% include card.html color="success"
+    title="SparkleShare"
+    image="img/tools/SparkleShare.png"
+    url="http://sparkleshare.org/"
+    footer="OS: Windows, macOS, Linux."
+    description="SparkleShare creates a special folder on your computer. You can add remotely hosted folders (or \"projects\") to this folder. These projects will be automatically
+                kept in sync with both the host and all of your peers when someone adds, removes or edits a file."
+    %}
+
+
+    {% include card.html color="primary"
+    title="Syncthing"
+    image="img/tools/Syncthing.png"
+    url="https://syncthing.net/"
+    footer="OS: Windows, macOS, Linux, Android, BSD, Solaris."
+    description="Syncthing replaces proprietary sync and cloud services with something open, trustworthy and decentralized. Your data is your data alone and you deserve to
+                choose where it is stored, if it is shared with some third party and how it's transmitted over the Internet."
+    %}
+
+
 </div>
 <h3>Worth Mentioning</h3>
 <ul>
