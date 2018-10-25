@@ -2921,51 +2921,31 @@ layout: default
 <br>
 
 <div class="row">
-    <div class="col-sm-4">
-        <div class="panel panel-success">
-            <div class="panel-heading">
-                <h3 class="panel-title">Make suggestions on reddit</h3>
-            </div>
-            <div class="panel-body">
-                <p><img src="img/icons/reddit.png" alt="reddit" class="panel-item">Our active community subreddit to stay up to date or to make suggestions. Join now! <a data-toggle="tooltip" data-placement="top" data-original-title="Warrant Canary has been removed by reddit">(Info)</a></p>
-                <p>
-                                        <a class="btn btn-success" href="https://www.reddit.com/r/privacytoolsIO/">
-                                            Website: reddit.com
-                                        </a>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="col-sm-4">
-        <div class="panel panel-info">
-            <div class="panel-heading">
-                <h3 class="panel-title">Follow on Twitter</h3>
-            </div>
-            <div class="panel-body">
-                <p><img src="img/icons/twitter.png" alt="Twitter" class="panel-item">Get the latest privacy related updates from our Twitter Feed. Follow now!</p>
-                <p>
-                                        <a class="btn btn-info" href="https://twitter.com/privacytoolsIO">
-                                            Website: twitter.com
-                                        </a>
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="col-sm-4">
-        <div class="panel panel-warning">
-            <div class="panel-heading">
-                <h3 class="panel-title">Develop on GitHub</h3>
-            </div>
-            <div class="panel-body">
-                <p><img src="img/icons/github.png" alt="GitHub" class="panel-item">The complete website source code is available on GitHub. Join our developer team!</p>
-                <p>
-                                        <a class="btn btn-warning" href="https://github.com/privacytoolsIO/privacytools.io">
-                                            Website: github.com
-                                        </a>
-                </p>
-            </div>
-        </div>
-    </div>
+
+    {% include card.html color="success"
+    title="Make suggestions on reddit"
+    image="img/icons/reddit.png"
+    url="https://www.reddit.com/r/privacytoolsIO/"
+    website="reddit.com"
+    description='Our active community subreddit to stay up to date or to make suggestions. Join now! <a href="#" data-toggle="tooltip" data-placement="top" data-original-title="Warrant Canary has been removed by reddit">(Info)</a>'
+    %}
+
+    {% include card.html color="primary"
+    title="Follow on Twitter"
+    image="img/icons/twitter.png"
+    url="https://twitter.com/privacytoolsIO"
+    website="twitter.com"
+    description="Get the latest privacy related updates from our Twitter Feed. Follow now!"
+    %}
+
+    {% include card.html color="warning"
+    title="Develop on GitHub"
+    image="img/icons/github.png"
+    url="https://github.com/privacytoolsIO/privacytools.io"
+    website="github.com"
+    description="The complete website source code is available on GitHub. Join our developer team!"
+    %}
+
 </div>
 
 
