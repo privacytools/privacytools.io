@@ -5,7 +5,7 @@
 }
 
 .card-bottom {
-  /* todo */
+  /* todo - make the card footer and buttons be positioned to the bottom of the card? */
 }
 
 /*.card-success, */ .card-success .card-header {
@@ -20,11 +20,18 @@
   border-color: rgba(255, 193, 7, 0.5) !important;
 }
 
-
-
-body {
-  padding-bottom: 30px;
+.blockquote {
+  border-left: 5px solid #eee;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  line-height: 1.35;
 }
+
+
+
+/* body {
+  padding-bottom: 30px;
+} */
 
 .theme-dropdown .dropdown-menu {
   position: static;
