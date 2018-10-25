@@ -76,9 +76,9 @@ a.titleanchor {
   outline: none;
 }
 
-.fa {
+/* .fa {
 	font-size: 1.8em;
-}
+} */
 
 .share-btn.twitter { background: #55acee; }
 .share-btn.google-plus { background: #dd4b39; }
