@@ -1317,62 +1317,29 @@ layout: default
 
 <div class="row">
 
+    {% include card.html color="success"
+    title="searx"
+    image="img/provider/searx.jpg"
+    url="ttps://searx.me/"
+    tor="http://ulrn6sryqaifefld.onion"
+    extra_button='<a class="btn btn-success mb-1" href="https://github.com/asciimoo/searx/wiki/Searx-instances">List of Instances</a>'
+    description='An <a href="https://github.com/asciimoo/searx">open source</a> metasearch engine, aggregating the results of other search engines while not storing information about its users. No logs, no ads and no tracking.'
+    %}
 
-<div class="col-sm-4">
-    <div class="panel panel-success">
-    <div class="panel-heading">
-        <h3 class="panel-title">searx</h3>
-    </div>
-    <div class="panel-body">
-        <p><img src="img/provider/searx.jpg" alt="searx" class="panel-item">An <a href="https://github.com/asciimoo/searx">open source</a> metasearch engine, aggregating the results of other search engines while not storing information about its users. No logs, no ads and no tracking.</p>
+    {% include card.html color="primary"
+    title="StartPage"
+    image="img/provider/StartPage.png"
+    url="https://www.startpage.com/"
+    description="Google search results, with complete privacy protection. Behind StartPage is an european company that has been obsessive about privacy since 2006."
+    %}
 
-        <p>
-            <a class="btn btn-success" href="https://searx.me/">Website: searx.me</a>
-            <a class="btn btn-success" href="https://github.com/asciimoo/searx/wiki/Searx-instances">List of Instances</a>
-            <a data-toggle="tooltip" data-placement="bottom" data-original-title="http://ulrn6sryqaifefld.onion. Requires specific software to access: torproject.org" href="http://ulrn6sryqaifefld.onion"><img alt="Tor" src="img/layout/tor.png" width="35"></a>
-        </p>
-
-    </div>
-    </div>
-</div>
-
-    <!-- /.col-sm-4 -->
-
-
-    <div class="col-sm-4">
-        <div class="panel panel-info">
-            <div class="panel-heading">
-                <h3 class="panel-title">StartPage</h3>
-            </div>
-            <div class="panel-body">
-                <p><img src="img/provider/StartPage.png" alt="StartPage" class="panel-item">Google search results, with complete privacy protection. Behind StartPage is an european company that has been obsessive about privacy since 2006.</p>
-
-                <p>
-                                        <a class="btn btn-info" href="https://www.startpage.com/">
-                                            Website: startpage.com
-                                        </a>
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-sm-4">
-        <div class="panel panel-warning">
-            <div class="panel-heading">
-                <h3 class="panel-title">DuckDuckGo</h3>
-            </div>
-            <div class="panel-body">
-                <p><img src="img/provider/DuckDuckGo.jpg" alt="DuckDuckGo" class="panel-item">The search engine that doesn't track you. Some of DuckDuckGo's code is free software hosted at <a href="https://github.com/duckduckgo">GitHub</a>, but the core is proprietary. <span class="flag-icon flag-icon-us"></span> <a href="#ukusa">The company is based in the USA.</a></p>
-
-                <p>
-                        <a class="btn btn-warning" href="https://duckduckgo.com/">
-                            Website: duckduckgo.com
-                        </a>
-                    <a data-toggle="tooltip" data-placement="bottom" data-original-title="http://3g2upl4pq6kufc4m.onion. Requires specific software to access: torproject.org" href="http://3g2upl4pq6kufc4m.onion"><img alt="Tor" src="img/layout/tor.png" width="35"></a>
-                </p>
-            </div>
-        </div>
-    </div>
+    {% include card.html color="warning"
+    title="DuckDuckGo"
+    image="img/provider/DuckDuckGo.jpg"
+    url="https://duckduckgo.com/"
+    tor="http://3g2upl4pq6kufc4m.onion"
+    description='The search engine that doesn\'t track you. Some of DuckDuckGo\'s code is free software hosted at <a href="https://github.com/duckduckgo">GitHub</a>, but the core is proprietary. <span class="flag-icon flag-icon-us"></span> <a href="#ukusa">The company is based in the USA.</a>'
+    %}
 </div>
 
 <h3>Firefox Addon</h3>
@@ -1411,67 +1378,36 @@ layout: default
 </div>
 <div class="row">
 
-    <div class="col-sm-4">
-        <div class="panel panel-success">
-            <div class="panel-heading">
-                <h3 class="panel-title">Mobile: Signal</h3>
-            </div>
-            <div class="panel-body">
-                <p>
-                    <img src="img/tools/Signal.png" alt="Signal" class="panel-item">Signal is a mobile app developed by Open Whisper Systems. The app provides instant messaging, as well as voice and video calling.
-                    All communications are end-to-end encrypted. Signal is free and open source, enabling anyone to verify its security by auditing the code. The development team is supported by community donations and grants. There are no advertisements,
-                    and it doesn't cost anything to use.<br>
-                    <b>Warning:</b> Requires a mobile number to register but you can <a href="https://infosec-handbook.eu/blog/signal-myths/#m2">securely use a disposable number</a>.
-                </p>
-                <p>
-                                        <a class="btn btn-success" href="https://signal.org">
-                                            Download: signal.org
-                                        </a>
-                </p>
-                <p>OS: Android, iOS, macOS, Windows, Debian-based Linux</p>
-            </div>
-        </div>
-    </div>
+    {% include card.html color="success"
+    title="Mobile: Signal"
+    image="img/tools/Signal.png"
+    url="https://signal.org"
+    footer="OS: Android, iOS, macOS, Windows, Linux, Web"
+    description="Signal is a mobile app developed by Open Whisper Systems. The app provides instant messaging, as well as voice and video calling.
+                All communications are end-to-end encrypted. Signal is free and open source, enabling anyone to verify its security by auditing the code. The development team is supported by community donations and grants. There are no advertisements,
+                and it doesn't cost anything to use."
+    %}
 
-<div class="col-sm-4">
-        <div class="panel panel-info">
-            <div class="panel-heading">
-                <h3 class="panel-title">Wire</h3>
-            </div>
-            <div class="panel-body">
-                <p><img src="img/tools/wire.png" alt="WIRE SWISS GmbH" class="panel-item">Wire is an app developed by Wire Swiss GmbH.
-                    The Wire app allows users to exchange end-to-end encrypted instant messages, as well as make voice and video calls. Wire is free and open source, enabling anyone to verify its security by auditing the code.
-                    The development team is backed by Iconical and they will monetize in the future with premium features/services.<br>
-                    <b>Caution:</b> The company keeps a list of all the users you contact until you delete your account.</p>
-                <p>
-                                        <a class="btn btn-info" href="https://get.wire.com">
-                                            Download: get.wire.com
-                                        </a>
-                </p>
-                <p>OS: Android, iOS, macOS, Windows, Linux, Web</p>
-            </div>
-        </div>
-    </div>
+    {% include card.html color="primary"
+    title="Wire"
+    image="img/tools/wire.png"
+    url="https://get.wire.com"
+    footer="OS: Android, iOS, macOS, Windows, Linux, Web"
+    description="Wire is an app developed by Wire Swiss GmbH.
+                The Wire app allows users to exchange end-to-end encrypted instant messages, as well as make voice and video calls. Wire is free and open source, enabling anyone to verify its security by auditing the code.
+                The development team is backed by Iconical and they will monetize in the future with premium features/services.<br>
+                <b>Caution:</b> The company keeps a list of all the users you contact until you delete your account."
+    %}
 
-
-    <div class="col-sm-4">
-        <div class="panel panel-warning">
-            <div class="panel-heading">
-                <h3 class="panel-title">Desktop: Ricochet</h3>
-            </div>
-            <div class="panel-body">
-                <p><img alt="Ricochet" src="img/tools/Ricochet.png" class="panel-item">Ricochet uses the <a href="#browser"><span class="glyphicon glyphicon-link"></span> Tor network</a> to reach your contacts without relying on messaging servers. It creates a hidden service, which is used to rendezvous with
-                    your contacts without revealing your location or IP address. Instead of a username, you get a unique address that looks like <em>ricochet:rs7ce36jsj24ogfw</em>. Other Ricochet users can use this address to send a contact request - asking to be
-                    added to your contacts list.</p>
-                <p>
-                                        <a class="btn btn-warning" href="https://ricochet.im/">
-                                            Download: ricochet.im
-                                        </a>
-                </p>
-                <p>OS: Windows, macOS, Linux.</p>
-            </div>
-        </div>
-    </div>
+    {% include card.html color="warning"
+    title="Desktop: Ricochet"
+    image="img/tools/Ricochet.png"
+    url="https://ricochet.im/"
+    footer="OS: Windows, macOS, Linux."
+    description='Ricochet uses the <a href="#browser"><span class="glyphicon glyphicon-link"></span> Tor network</a> to reach your contacts without relying on messaging servers. It creates a hidden service, which is used to rendezvous with
+                your contacts without revealing your location or IP address. Instead of a username, you get a unique address that looks like <em>ricochet:rs7ce36jsj24ogfw</em>. Other Ricochet users can use this address to send a contact request - asking to be
+                added to your contacts list.'
+    %}
 
 </div>
 <h3>Worth Mentioning</h3>
@@ -1502,63 +1438,34 @@ layout: default
     <strong>If you are currently using an Video & Voice Messenger like Skype, Viber or Google Hangouts you should pick an alternative here.</strong>
 </div>
 <div class="row">
-    <div class="col-sm-4">
-        <div class="panel panel-success">
-            <div class="panel-heading">
-                <h3 class="panel-title">Mobile: Signal</h3>
-            </div>
+    {% include card.html color="success"
+    title="Mobile: Signal"
+    image="img/tools/Signal.png"
+    url="https://signal.org"
+    footer="OS: Android, iOS, macOS, Windows, Linux, Web"
+    description="Signal is a mobile app developed by Open Whisper Systems. The app provides instant messaging, as well as voice and video calling.
+                All communications are end-to-end encrypted. Signal is free and open source, enabling anyone to verify its security by auditing the code. The development team is supported by community donations and grants. There are no advertisements,
+                and it doesn't cost anything to use."
+    %}
 
-            <div class="panel-body">
-                <p><img src="img/tools/Signal.png" alt="Signal" class="panel-item">Signal is a mobile app developed by Open Whisper Systems. The app provides instant messaging, as well as voice and video calling.
-                    All communications are end-to-end encrypted. Signal is free and open source, enabling anyone to verify its security by auditing the code. The development team is supported by community donations and grants. There are no advertisements,
-                    and it doesn't cost anything to use.</p>
-                <p>
-                                        <a class="btn btn-success" href="https://signal.org">
-                                            Download: signal.org
-                                        </a>
-                </p>
-                <p>OS: iOS, Android.</p>
-            </div>
-        </div>
-    </div>
+    {% include card.html color="primary"
+    title="Wire"
+    image="img/tools/wire.png"
+    url="https://get.wire.com"
+    footer="OS: Android, iOS, macOS, Windows, Linux, Web"
+    description="Wire is an app developed by Wire Swiss GmbH.
+                The Wire app allows users to exchange end-to-end encrypted instant messages, as well as make voice and video calls. Wire is free and open source, enabling anyone to verify its security by auditing the code.
+                The development team is backed by Iconical and they will monetize in the future with premium features/services.<br>
+                <b>Caution:</b> The company keeps a list of all the users you contact until you delete your account."
+    %}
 
-<div class="col-sm-4">
-        <div class="panel panel-info">
-            <div class="panel-heading">
-                <h3 class="panel-title">Wire</h3>
-            </div>
-            <div class="panel-body">
-                <p><img src="img/tools/wire.png" alt="WIRE SWISS GmbH" class="panel-item">Wire is an app developed by Wire Swiss GmbH.
-                    The Wire app allows users to exchange end-to-end encrypted instant messages, as well as make voice and video calls. Wire is free and open source, enabling anyone to verify its security by auditing the code.
-                    The development team is backed by Iconical and they will monetize in the future with premium features/services.<br>
-                    <b>Caution:</b> The company keeps a list of all the users you contact until you delete your account.</p>
-                <p>
-                                        <a class="btn btn-info" href="https://get.wire.com">
-                                            Download: get.wire.com
-                                        </a>
-                </p>
-                <p>OS: Android, iOS, macOS, Windows, Linux, Web</p>
-            </div>
-        </div>
-    </div>
-
-    <div class="col-sm-4">
-        <div class="panel panel-warning">
-            <div class="panel-heading">
-                <h3 class="panel-title">Linphone</h3>
-            </div>
-            <div class="panel-body">
-                <p><img src="img/tools/Linphone.png" alt="Linphone" class="panel-item">Linphone is an open source SIP Phone and a free voice over IP service, available on mobile and desktop environments and on web browsers. It supports ZRTP for
-                    end-to-end encrypted voice and video communication.</p>
-                <p>
-                                        <a class="btn btn-warning" href="http://www.linphone.org/">
-                                            Download: linphone.org
-                                        </a>
-                </p>
-                <p>OS: iOS, Android, Windows Phone, Linux, Windows, macOS, Browser (Web)</p>
-            </div>
-        </div>
-    </div>
+    {% include card.html color="warning"
+    title="Linphone"
+    image="img/tools/Linphone.png"
+    url="http://www.linphone.org/"
+    footer="OS: iOS, Android, Windows Phone, Linux, Windows, macOS, Browser (Web)"
+    description="Linphone is an open source SIP Phone and a free voice over IP service, available on mobile and desktop environments and on web browsers. It supports ZRTP for end-to-end encrypted voice and video communication."
+    %}
 
 </div>
 
@@ -1582,8 +1489,7 @@ layout: default
     <h1><a href="#filesharing" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> File Sharing</h1>
 </div>
 <div class="row">
-    {% include card.html
-    color="success"
+    {% include card.html color="success"
     title="OnionShare"
     image="img/tools/OnionShare.png"
     url="https://onionshare.org/"
@@ -1591,8 +1497,8 @@ layout: default
     footer="OS: Windows, macOS, Linux."
     description="OnionShare is an open source tool that lets you securely and anonymously share a file of any size. It works by starting a web server, making it accessible as a Tor onion service, and generating an unguessable URL to access and download the files. It doesn't require setting up a server on the internet somewhere or using a third party filesharing service. You host the file on your own computer and use a Tor onion service to make it temporarily accessible over the internet."
     %}
-    {% include card.html
-    color="primary"
+
+    {% include card.html color="primary"
     title="Magic Wormhole"
     image="img/tools/Magic-Wormhole.png"
     url="http://magic-wormhole.io/"

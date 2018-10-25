@@ -11,7 +11,7 @@
             <p><img src="{{include.image}}" alt="{{include.title}}" class="panel-item">{{include.description}}</p>
             <div class="card-bottom">
             <p>
-                <a class="btn btn-{{include.color}}" href="{{include.url}}">Website: 
+                <a class="btn btn-{{include.color}} mb-1" href="{{include.url}}">Website: 
                     {% if include.website %}
                         {{include.website}}
                     {% else %}
@@ -19,7 +19,11 @@
                     {% endif %}
                 </a>
                 {% if include.tor %}
-                <a data-toggle="tooltip" data-placement="bottom" data-original-title="{{include.tor}}. Requires specific software to access: torproject.org" href="{{include.tor}}"><img alt="Tor" src="img/layout/tor.png" width="35"></a>
+                <a class="mb-1" data-toggle="tooltip" data-placement="bottom" data-original-title="{{include.tor}}. Requires specific software to access: torproject.org" href="{{include.tor}}"><img alt="Tor" src="img/layout/tor.png" width="35"></a>
+                {% endif %}
+
+                {% if include.extra_button %}
+                    {{include.extra_button}}
                 {% endif %}
             </p>
             {% if include.footer %}
