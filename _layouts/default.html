@@ -65,14 +65,6 @@
 	/>
 	<meta property="og:locale" content="en_US" />
 	<meta property="og:site_name" content="privacytools.io" />
-
-    <script>
-        function extractDomain(data) {
-            var a = document.createElement('a');
-            a.href = data;
-            return a.hostname;
-        }
-    </script>
 </head>
 
 <body>
@@ -87,7 +79,9 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
+            {% if active_page != "Home" %}
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            {% endif %}
         </li>
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="providerDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
