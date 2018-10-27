@@ -4,8 +4,10 @@
   box-shadow: 0 3px 10px 0 rgba(150,150,150,0.2) !important;
 }
 
-.card-bottom {
-  /* todo - make the card footer and buttons be positioned to the bottom of the card? */
+/* Make links responsive */
+a {
+  word-wrap: break-word;
+  max-width: 300px;
 }
 
 /*.card-success, */ .card-success .card-header {
