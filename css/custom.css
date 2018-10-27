@@ -46,6 +46,10 @@
   margin-top: -4rem;
 }
 
+.anchor-icon {
+  font-size: 0.8em;
+}
+
 .panel-item {
   float: right;
   margin-left: 5px;
