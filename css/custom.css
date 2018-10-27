@@ -58,15 +58,15 @@ a {
 }
 
 .share-btn {
-    display: inline-block;
-    color: #ffffff;
-    border: none;
-    padding: 1em;
-    width: 8em;
-    opacity: 0.9;
-    box-shadow: 0 2px 0 0 rgba(0,0,0,0.2);
-    outline: none;
-    text-align: center;
+  display: inline-block;
+  color: #ffffff;
+  border: none;
+  padding: 1em;
+  width: 8em;
+  opacity: 0.9;
+  box-shadow: 0 2px 0 0 rgba(0,0,0,0.2);
+  outline: none;
+  text-align: center;
 }
 
 .share-btn:hover {
@@ -80,10 +80,6 @@ a {
   color: #e2e2e2;
   outline: none;
 }
-
-/* .fa {
-	font-size: 1.8em;
-} */
 
 .share-btn.twitter { background: #55acee; }
 .share-btn.google-plus { background: #dd4b39; }
