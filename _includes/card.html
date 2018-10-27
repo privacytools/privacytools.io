@@ -8,6 +8,17 @@
         <h3 class="h5">{{include.title}}</h3>
         </div>
         <div class="card-body">
+            {% if include.labels %}
+            {% assign labels = include.labels | replace:", ", "," | split:"," %}
+            <div class="mb-1">
+                {% for label in labels %}
+                    {% assign label_data = label | split:":" %}
+                    {% assign color = label_data[0] %}
+                    {% assign text = label_data[1] %}
+                    <span class="badge badge-{{color}}">{{text}}</span>
+                {% endfor %}
+            </div>
+            {% endif %}
             <p><img src="{{include.image}}" alt="{{include.title}}" class="panel-item">{{include.description}}</p>
             <div class="card-bottom">
             <p>
