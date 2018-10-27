@@ -4,8 +4,8 @@
   box-shadow: 0 3px 10px 0 rgba(150,150,150,0.2) !important;
 }
 
-/* Make links responsive */
-a {
+/* Make links and long strings responsive */
+a, long-string-list li {
   word-wrap: break-word;
   max-width: 300px;
 }
