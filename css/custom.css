@@ -7,7 +7,6 @@
 /* Make links and long strings responsive */
 a, .long-string-list li {
   word-wrap: break-word;
-  max-width: 300px;
 }
 
 /*.card-success, */ .card-success .card-header {
