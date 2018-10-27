@@ -27,12 +27,6 @@
   line-height: 1.35;
 }
 
-
-
-/* body {
-  padding-bottom: 30px;
-} */
-
 .theme-dropdown .dropdown-menu {
   position: static;
   display: block;
@@ -47,11 +41,13 @@
   width: auto;
 }
 
-a.anchor {
-  display: block; position: relative; top: -50px; visibility: hidden;
+.anchor:target {
+  padding-top: 4rem;
+  margin-top: -4rem;
 }
-a.titleanchor {
-  font-size:0.7em;
+
+.anchor-icon {
+  font-size: 0.8em;
 }
 
 .panel-item {
