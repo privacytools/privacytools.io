@@ -18,6 +18,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   You are being watched! Knowledge, encryption and privacy tools to protect you against global mass surveillance.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+sass:
+  style: compressed
 
 # Build settings
 # markdown: kramdown
