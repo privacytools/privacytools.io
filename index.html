@@ -845,6 +845,13 @@ layout: default
                     <li>Not rendering IDNs as their Punycode equivalent leaves you open to phishing attacks that can be very difficult to notice. <a href="https://krebsonsecurity.com/2018/03/look-alike-domains-and-visual-confusion/#more-42636">Source</a></li>
                 </ul>
             </li>
+            
+            <li>extensions.blocklist.url = https://blocklists.settings.services.mozilla.com/v1/blocklist/3/%20/%20/
+                <ul>
+                    <li>Limit the amount of identifiable information sent when requesting the Mozilla harmful extension blocklist.</li>
+                    <li>Optionally, the blocklist can be disabled entirely by setting <code>extensions.blocklist.enabled</code> to false for increased privacy, but decreased security. <a href="https://old.reddit.com/r/privacytoolsIO/comments/9uqeew/firefox_tip_sanitize_firefox_blocklist_url_so_it/">Source</a></li>
+                </ul>
+            </li>
         </ol>
 
 <!-- related information -->
