@@ -35,8 +35,8 @@ There can be exceptions if no software is available that meet the criteria.
 
 ## Images
 
-- Provider logos should be exactly 200 x 70 ([example](https://privacytoolsio.github.io/privacytools.io/img/provider/AirVPN.gif))
-- Tool logos should be exactly 120 x 120 ([example](https://privacytoolsio.github.io/privacytools.io/img/tools/ChatSecure.png))
+- Provider logos should be exactly 200 x 70 ([example](https://www.privacytools.io/assets/img/provider/AirVPN.gif))
+- Tool logos should be exactly 120 x 120 ([example](https://www.privacytools.io/assets/img/tools/ChatSecure.png))
 
 # Support privacytools.io
 
