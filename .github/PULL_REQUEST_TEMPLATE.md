@@ -1,9 +1,11 @@
-### Description
+<!-- PLEASE READ OUR [CONTRIBUTING GUIDELINES](https://github.com/privacytoolsIO/privacytools.io#contributing-guidelines) BEFORE SUBMITTING -->
 
+## Description
 
+Issue: #none
 
-### HTML Preview
+<!--
+## Screenshots
 
-*Replace [GITHUB_USERNAME] with your GitHub username and [BRANCH] with the branch name.*
-
-https://htmlpreview.github.io/?https://github.com/[GITHUB_USERNAME]/privacytools.io/blob/[BRANCH]/index.html
+Please add screenshots if applicable
+-->
