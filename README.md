@@ -1,4 +1,4 @@
-[![privacytools](https://privacytoolsio.github.io/privacytools.io/img/layout/logo.png)](https://www.privacytools.io/)
+[![privacytools](https://privacytools.io/assets/img/layout/logo.png)](https://www.privacytools.io/)
 
 _Encryption Against Global Mass Surveillance._
 
@@ -35,8 +35,8 @@ There can be exceptions if no software is available that meet the criteria.
 
 ## Images
 
-- Provider logos should be exactly 200 x 70 ([example](https://privacytoolsio.github.io/privacytools.io/img/provider/AirVPN.gif))
-- Tool logos should be exactly 120 x 120 ([example](https://privacytoolsio.github.io/privacytools.io/img/tools/ChatSecure.png))
+- Provider logos should be exactly 200 x 70 ([example](https://www.privacytools.io/assets/img/provider/AirVPN.gif))
+- Tool logos should be exactly 120 x 120 ([example](https://www.privacytools.io/assets/img/tools/ChatSecure.png))
 
 # Support privacytools.io
 
@@ -46,10 +46,10 @@ There can be exceptions if no software is available that meet the criteria.
 - View and edit our website source code here on GitHub.
 
 # Community Translations
-- [繁体中文 / Chinese](https://github.com/twngo/privacytools-zh) - [GitHub](https://github.com/twngo/privacytools-zh)
+- [繁体中文 / Chinese](https://privacytools.twngo.xyz/) - [GitHub](https://github.com/twngo/privacytools-zh)
 - [Español / Spanish](https://victorhck.gitlab.io/privacytools-es/) - [GitLab](https://gitlab.com/victorhck/privacytools-es)
 - [Deutsch / German](https://privacytools.it-sec.rocks/) - [GitHub](https://github.com/Anon215/privacytools.it-sec.rocks)
-- [Italiano / Italian](https://strappazzon.github.io/privacytools-it/) - [GitHub](https://github.com/Strappazzon/privacytools-it)
+- [Italiano / Italian](https://privacytools-it.github.io/) - [GitHub](https://github.com/privacytools-it/privacytools-it.github.io)
 - [Русский / Russian](https://privacytools.ru) - [GitHub](https://github.com/c0rdis/privacytools.ru)
 
 # License

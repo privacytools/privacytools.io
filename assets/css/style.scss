@@ -1,0 +1,121 @@
+---
+---
+
+@import '_vars';
+@import 'bootstrap';
+@import 'flag-icon';
+@import 'fontawesome';
+@import 'sortable-theme-bootstrap';
+
+/* BS4 */
+
+.card {
+  box-shadow: $card-shadow !important;
+}
+
+/* Make links and long strings responsive */
+a,
+.long-string-list {
+  li {
+    word-wrap: break-word;
+  }
+}
+
+/*.card-success, */
+.card-success {
+  .card-header {
+    border-color: $card-succes-border !important;
+  }
+}
+
+/*.card-primary, */
+.card-primary {
+  .card-header {
+    border-color: $card-primary-border !important;
+  }
+}
+
+/*.card-warning, */
+.card-warning  {
+  .card-header {
+    border-color: $card-warning-border !important;
+  }
+}
+
+.blockquote {
+  border-left: 5px solid $blockquote-border;
+  font-size: 1.2rem;
+  line-height: 1.35;
+  padding: 10px 20px;
+}
+
+.theme-dropdown {
+  .dropdown-menu {
+    display: block;
+    margin-bottom: 20px;
+    position: static;
+  }
+}
+
+.theme-showcase {
+  p > .btn {
+    margin: 5px 0;
+  }
+
+  .navbar {
+    .container {
+      width: auto;
+    }
+  }
+}
+
+
+.anchor {
+  &:target {
+    margin-top: -4rem;
+    padding-top: 4rem;
+  }
+}
+
+.anchor-icon {
+  font-size: .8em;
+}
+
+.panel-item {
+  float: right;
+  margin-left: 5px;
+}
+
+.share-btn {
+  border: 0;
+  box-shadow: $share-btn-shadow;
+  color: $share-btn;
+  display: inline-block;
+  opacity: .9;
+  outline: none;
+  padding: 1em;
+  text-align: center;
+  width: 8em;
+
+  &:hover {
+    color: $share-btn-hover;
+  }
+
+  &:active {
+    box-shadow: none;
+    color: $share-btn-active;
+    outline: none;
+    position: relative;
+    top: 2px;
+  }
+}
+
+.twitter { background: $twitter; }
+.google-plus { background: $google; }
+.facebook { background: $facebook; }
+.stumbleupon { background: $stumbleupon; }
+.reddit { background: $reddit; }
+.linkedin    { background: $linkedin; }
+.email { background: $email; }
+.diaspora { background: $diaspora; }
+
