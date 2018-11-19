@@ -2,7 +2,7 @@
 
 ## Description
 
-Issue: #none
+Resolves: #none <!-- The number of the issue that is resolved by this pull request. If there is none, feel free to delete this line -->
 
 <!--
 ## Screenshots
