@@ -21,6 +21,10 @@ a,
   }
 }
 
+.card-ol {
+  padding-left: 1.25rem;
+}
+
 /*.card-success, */
 .card-success {
   .card-header {
@@ -68,7 +72,6 @@ a,
     }
   }
 }
-
 
 .anchor {
   &:target {
