@@ -73,28 +73,26 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
+        {% assign prefix = "" %}
         {% if page.active_page %}
-            <li class="nav-item">
-                <a class="nav-link" href="index.html"><i class="fas fa-home"></i></a>
-            </li>
-        {% else %}
-            <li class="nav-item">
-                <a class="nav-link" href="#top"><i class="fas fa-home"></i> <span class="sr-only">Home (current)</span></a>
-            </li>
+            {% assign prefix = "index.html" %}
         {% endif %}
+        <li class="nav-item">
+            <a class="nav-link" href="{{prefix}}#top"><i class="fas fa-home"></i> <span class="sr-only">Home</span></a>
+        </li>
         <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="providerDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Provider
             </a>
             <div class="dropdown-menu" aria-labelledby="providerDropdown">
-            <a class="dropdown-item" href="#ukusa">Avoid all US and UK based services</a>
-            <a class="dropdown-item" href="#vpn">Virtual Private Network (VPN)</a>
-            <a class="dropdown-item" href="#email">Privacy Email</a>
-            <a class="dropdown-item" href="#wc">Warrant Canaries</a>
-            <a class="dropdown-item" href="#cloud">Encrypted Cloud Storage Services</a>
-            <a class="dropdown-item" href="#social">Decentralized Social Networks</a>
-            <a class="dropdown-item" href="#dns">Domain Name System (DNS)</a>
-            <a class="dropdown-item" href="#search">Privacy Respecting Search Engines</a>
+            <a class="dropdown-item" href="{{prefix}}#ukusa">Avoid all US and UK based services</a>
+            <a class="dropdown-item" href="{{prefix}}#vpn">Virtual Private Network (VPN)</a>
+            <a class="dropdown-item" href="{{prefix}}#email">Privacy Email</a>
+            <a class="dropdown-item" href="{{prefix}}#wc">Warrant Canaries</a>
+            <a class="dropdown-item" href="{{prefix}}#cloud">Encrypted Cloud Storage Services</a>
+            <a class="dropdown-item" href="{{prefix}}#social">Decentralized Social Networks</a>
+            <a class="dropdown-item" href="{{prefix}}#dns">Domain Name System (DNS)</a>
+            <a class="dropdown-item" href="{{prefix}}#search">Privacy Respecting Search Engines</a>
             </div>
         </li>
         <li class="nav-item dropdown">
@@ -102,11 +100,11 @@
                 Browser
             </a>
             <div class="dropdown-menu" aria-labelledby="browserDropdown">
-                <a class="dropdown-item" href="#browser">Recommendation</a>
-                <a class="dropdown-item" href="#fingerprint">Fingerprint</a>
-                <a class="dropdown-item" href="#webrtc">WebRTC IP Leak</a>
-                <a class="dropdown-item" href="#addons">Firefox Privacy Add-ons</a>
-                <a class="dropdown-item" href="#about_config">Privacy Related Tweaks</a>
+                <a class="dropdown-item" href="{{prefix}}#browser">Recommendation</a>
+                <a class="dropdown-item" href="{{prefix}}#fingerprint">Fingerprint</a>
+                <a class="dropdown-item" href="{{prefix}}#webrtc">WebRTC IP Leak</a>
+                <a class="dropdown-item" href="{{prefix}}#addons">Firefox Privacy Add-ons</a>
+                <a class="dropdown-item" href="{{prefix}}#about_config">Privacy Related Tweaks</a>
             </div>
         </li>
         <li class="nav-item dropdown">
@@ -114,22 +112,22 @@
                 Software
             </a>
             <div class="dropdown-menu" aria-labelledby="softwareDropdown">
-                <a class="dropdown-item" href="#clients">Email Clients</a>
-                <a class="dropdown-item" href="#messaging">Email Alternatives</a>
-                <a class="dropdown-item" href="#search">Search Engines</a>
-                <a class="dropdown-item" href="#im">Instant Messenger</a>
-                <a class="dropdown-item" href="#voip">Video & Voice Messenger</a>
-                <a class="dropdown-item" href="#pw">Password Manager</a>
-                <a class="dropdown-item" href="#calendar_contacts">Calendar and Contacts Sync</a>
-                <a class="dropdown-item" href="#encrypt">File Encryption</a>
-                <a class="dropdown-item" href="#filesharing">File Sharing</a>
-                <a class="dropdown-item" href="#sync">Secure File Sync</a>
-                <a class="dropdown-item" href="#darknets">Self-contained Networks</a>
-                <a class="dropdown-item" href="#mycloud">Self-Hosted Cloud Server</a>
-                <a class="dropdown-item" href="#notebook">Digital Notebook</a>
-                <a class="dropdown-item" href="#paste">Paste Services</a>
-                <a class="dropdown-item" href="#productivity">Productivity Tools</a>
-                <a class="dropdown-item" href="#win10">Don't use Windows 10</a>
+                <a class="dropdown-item" href="{{prefix}}#clients">Email Clients</a>
+                <a class="dropdown-item" href="{{prefix}}#messaging">Email Alternatives</a>
+                <a class="dropdown-item" href="{{prefix}}#search">Search Engines</a>
+                <a class="dropdown-item" href="{{prefix}}#im">Instant Messenger</a>
+                <a class="dropdown-item" href="{{prefix}}#voip">Video & Voice Messenger</a>
+                <a class="dropdown-item" href="{{prefix}}#pw">Password Manager</a>
+                <a class="dropdown-item" href="{{prefix}}#calendar_contacts">Calendar and Contacts Sync</a>
+                <a class="dropdown-item" href="{{prefix}}#encrypt">File Encryption</a>
+                <a class="dropdown-item" href="{{prefix}}#filesharing">File Sharing</a>
+                <a class="dropdown-item" href="{{prefix}}#sync">Secure File Sync</a>
+                <a class="dropdown-item" href="{{prefix}}#darknets">Self-contained Networks</a>
+                <a class="dropdown-item" href="{{prefix}}#mycloud">Self-Hosted Cloud Server</a>
+                <a class="dropdown-item" href="{{prefix}}#notebook">Digital Notebook</a>
+                <a class="dropdown-item" href="{{prefix}}#paste">Paste Services</a>
+                <a class="dropdown-item" href="{{prefix}}#productivity">Productivity Tools</a>
+                <a class="dropdown-item" href="{{prefix}}#win10">Don't use Windows 10</a>
             </div>
         </li>
         <li class="nav-item dropdown">
@@ -137,11 +135,11 @@
                 OS
             </a>
             <div class="dropdown-menu" aria-labelledby="osDropdown">
-                <a class="dropdown-item" href="#os">PC OS</a>
-                <a class="dropdown-item" href="#live_os">Live CD OS</a>
-                <a class="dropdown-item" href="#mobile_os">Mobile OS</a>
-                <a class="dropdown-item" href="#aaddons">Android Privacy Add-ons</a>
-                <a class="dropdown-item" href="#firmware">Router Firmware</a>
+                <a class="dropdown-item" href="{{prefix}}#os">PC OS</a>
+                <a class="dropdown-item" href="{{prefix}}#live_os">Live CD OS</a>
+                <a class="dropdown-item" href="{{prefix}}#mobile_os">Mobile OS</a>
+                <a class="dropdown-item" href="{{prefix}}#aaddons">Android Privacy Add-ons</a>
+                <a class="dropdown-item" href="{{prefix}}#firmware">Router Firmware</a>
             </div>
         </li>
         <li class="nav-item">
@@ -169,7 +167,7 @@
         <ul class="navbar-nav">
         {% if page.active_page == "donate" %}
             <li class="nav-item active">
-                <a class="nav-link" href="#">Donate <i class="fas fa-heart text-danger"></i>  <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#">Donate <i class="fas fa-heart text-danger"></i></a>
             </li>
         {% else %}
             <li class="nav-item">
