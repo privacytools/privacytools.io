@@ -21,6 +21,10 @@ a,
   }
 }
 
+.card-ol {
+  padding-left: 1.25rem;
+}
+
 /*.card-success, */
 .card-success {
   .card-header {
@@ -69,7 +73,6 @@ a,
   }
 }
 
-
 .anchor {
   &:target {
     margin-top: -4rem;
@@ -111,7 +114,7 @@ a,
 }
 
 .twitter { background: $twitter; }
-.google-plus { background: $google; }
+.mastodon { background: $mastodon; }
 .facebook { background: $facebook; }
 .stumbleupon { background: $stumbleupon; }
 .reddit { background: $reddit; }
