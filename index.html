@@ -97,6 +97,69 @@ layout: default
 </div>
 <!-- end Chart of Five Eyes, Nine Eyes, and Fourteen Eyes -->
 
+<!-- Key disclosure law -->
+<h1 id="kdl" class="anchor"><a href="#kdl"><i class="fas fa-link anchor-icon"></i></a> Key Disclosure Law</h1>
+
+
+<h3>Who is required to hand over the encryption keys to authorities?</h3>
+<p>Mandatory <a href="https://en.wikipedia.org/wiki/Key_disclosure_law">key disclosure laws</a> require individuals to turn over encryption keys to law enforcement conducting a criminal investigation. How these laws are implemented (who may be legally compelled to assist) vary from nation to nation, but a warrant
+    is generally required. Defenses against key disclosure laws include steganography and encrypting data in a way that provides plausible deniability.</p>
+
+
+<p><a href="https://en.wikipedia.org/wiki/Steganography">Steganography</a> involves hiding sensitive information (which may be encrypted) inside of ordinary data (for example, encrypting an image file and then hiding it in an audio file). With plausible deniability, data is encrypted in a way that prevents an
+    adversary from being able to prove that the information they are after exists (for example, one password may decrypt benign data and another password, used on the same file, could decrypt sensitive data).</p>
+
+<!-- Chart of key disclosure law in some countries -->
+<div class="row mb-2">
+
+    {% include panel.html color="danger"
+    title="Key disclosure laws apply"
+    body='
+    <ol class="card-ol">
+      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Antigua_and_Barbuda">Antigua and Barbuda</a> <div class="float-right"><span class="flag-icon flag-icon-ag"></span></div></li>
+      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Australia">Australia</a> <div class="float-right"><span class="flag-icon flag-icon-au"></span></div></li>
+      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Canada">Canada</a> <div class="float-right"><span class="flag-icon flag-icon-ca"></span></div></li>
+      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#France">France</a> <div class="float-right"><span class="flag-icon flag-icon-fr"></span></div></li>
+      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#India">India</a> <div class="float-right"><span class="flag-icon flag-icon-in"></span></div></li>
+      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Ireland">Ireland</a> <div class="float-right"><span class="flag-icon flag-icon-ie"></span></div></li>
+      <li><a href="https://edri.org/norway-introduces-forced-biometric-authentication/">Norway</a> <div class="float-right"><span class="flag-icon flag-icon-no"></span></div></li>
+      <li><a href="https://www.bloomberg.com/news/articles/2018-03-20/telegram-loses-bid-to-stop-russia-from-getting-encryption-keys">Russia</a> <div class="float-right"><span class="flag-icon flag-icon-ru"></span></div></li>
+      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#South_Africa">South Africa</a> <div class="float-right"><span class="flag-icon flag-icon-za"></span></div></li>
+      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#United_Kingdom">United Kingdom</a> <div class="float-right"><span class="flag-icon flag-icon-gb"></span></div></li>
+    </ol>
+    '
+    %}
+
+    {% include panel.html color="warning"
+    title="Key disclosure laws may apply"
+    body='
+    <ol class="card-ol">
+      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Belgium">Belgium *</a> <div class="float-right"><span class="flag-icon flag-icon-be"></span></div></li>
+      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Finland">Finland *</a> <div class="float-right"><span class="flag-icon flag-icon-fi"></span></div></li>
+      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#New_Zealand">New Zealand</a> (unclear) <div class="float-right"><span class="flag-icon flag-icon-nz"></span></div></li>
+      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Sweden">Sweden</a> (proposed) <div class="float-right"><span class="flag-icon flag-icon-se"></span></div></li>
+      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#The_Netherlands">The Netherlands *</a> <div class="float-right"><span class="flag-icon flag-icon-nl"></span></div></li>
+      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#United_States">United States</a> (see related information) <div class="float-right"><span class="flag-icon flag-icon-us"></span></div></li>
+    </ol>
+    '
+    %}
+
+    {% include panel.html color="success"
+    title="Key disclosure laws don't apply"
+    body='
+    <ol class="card-ol">
+      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Czech_Republic">Czech Republic</a> <div class="float-right"><span class="flag-icon flag-icon-cz"></span></div></li>
+      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Germany">Germany</a> <div class="float-right"><span class="flag-icon flag-icon-de"></span></div></li>
+      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Poland">Poland</a> <div class="float-right"><span class="flag-icon flag-icon-pl"></span></div></li>
+    </ol>
+    '
+    %}
+
+</div>
+
+<p> * (people who know how to access a system may be ordered to share their knowledge, <strong>however, this doesn't apply to the suspect itself or family members.</strong>)</p>
+<!-- end Chart of key disclosure law in some countries -->
+
 <h3 id="usa" class="anchor">Why is it not recommended to choose a US-based service?</h3>
 
 <img src="assets/img/layout/USA.png" class="img-fluid float-right" alt="USA" style="margin-left:10px;">
@@ -1550,70 +1613,6 @@ layout: default
     </li>
 </ul>
 
-
-<!-- Key disclosure law -->
-<h1 id="kdl" class="anchor"><a href="#kdl"><i class="fas fa-link anchor-icon"></i></a> Key disclosure law</h1>
-
-
-<h3>Who is required to hand over the encryption keys to authorities?</h3>
-<p>Mandatory <a href="https://en.wikipedia.org/wiki/Key_disclosure_law">key disclosure laws</a> require individuals to turn over encryption keys to law enforcement conducting a criminal investigation. How these laws are implemented (who may be legally compelled to assist) vary from nation to nation, but a warrant
-    is generally required. Defenses against key disclosure laws include steganography and encrypting data in a way that provides plausible deniability.</p>
-
-
-<p><a href="https://en.wikipedia.org/wiki/Steganography">Steganography</a> involves hiding sensitive information (which may be encrypted) inside of ordinary data (for example, encrypting an image file and then hiding it in an audio file). With plausible deniability, data is encrypted in a way that prevents an
-    adversary from being able to prove that the information they are after exists (for example, one password may decrypt benign data and another password, used on the same file, could decrypt sensitive data).</p>
-
-<!-- Chart of key disclosure law in some countries -->
-<div class="row mb-2">
-
-    {% include panel.html color="danger"
-    title="Key disclosure laws apply"
-    body='
-    <ol class="card-ol">
-      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Antigua_and_Barbuda">Antigua and Barbuda</a> <div class="float-right"><span class="flag-icon flag-icon-ag"></span></div></li>
-      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Australia">Australia</a> <div class="float-right"><span class="flag-icon flag-icon-au"></span></div></li>
-      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Canada">Canada</a> <div class="float-right"><span class="flag-icon flag-icon-ca"></span></div></li>
-      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#France">France</a> <div class="float-right"><span class="flag-icon flag-icon-fr"></span></div></li>
-      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#India">India</a> <div class="float-right"><span class="flag-icon flag-icon-in"></span></div></li>
-      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Ireland">Ireland</a> <div class="float-right"><span class="flag-icon flag-icon-ie"></span></div></li>
-      <li><a href="https://edri.org/norway-introduces-forced-biometric-authentication/">Norway</a> <div class="float-right"><span class="flag-icon flag-icon-no"></span></div></li>
-      <li><a href="https://www.bloomberg.com/news/articles/2018-03-20/telegram-loses-bid-to-stop-russia-from-getting-encryption-keys">Russia</a> <div class="float-right"><span class="flag-icon flag-icon-ru"></span></div></li>
-      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#South_Africa">South Africa</a> <div class="float-right"><span class="flag-icon flag-icon-za"></span></div></li>
-      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#United_Kingdom">United Kingdom</a> <div class="float-right"><span class="flag-icon flag-icon-gb"></span></div></li>
-    </ol>
-    '
-    %}
-
-    {% include panel.html color="warning"
-    title="Key disclosure laws may apply"
-    body='
-    <ol class="card-ol">
-      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Belgium">Belgium *</a> <div class="float-right"><span class="flag-icon flag-icon-be"></span></div></li>
-      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Finland">Finland *</a> <div class="float-right"><span class="flag-icon flag-icon-fi"></span></div></li>
-      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#New_Zealand">New Zealand</a> (unclear) <div class="float-right"><span class="flag-icon flag-icon-nz"></span></div></li>
-      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Sweden">Sweden</a> (proposed) <div class="float-right"><span class="flag-icon flag-icon-se"></span></div></li>
-      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#The_Netherlands">The Netherlands *</a> <div class="float-right"><span class="flag-icon flag-icon-nl"></span></div></li>
-      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#United_States">United States</a> (see related information) <div class="float-right"><span class="flag-icon flag-icon-us"></span></div></li>
-    </ol>
-    '
-    %}
-
-    {% include panel.html color="success"
-    title="Key disclosure laws don't apply"
-    body='
-    <ol class="card-ol">
-      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Czech_Republic">Czech Republic</a> <div class="float-right"><span class="flag-icon flag-icon-cz"></span></div></li>
-      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Germany">Germany</a> <div class="float-right"><span class="flag-icon flag-icon-de"></span></div></li>
-      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Poland">Poland</a> <div class="float-right"><span class="flag-icon flag-icon-pl"></span></div></li>
-    </ol>
-    '
-    %}
-
-</div>
-<!-- end Chart of key disclosure law in some countries -->
-
-<p> * (people who know how to access a system may be ordered to share their knowledge, <strong>however, this doesn't apply to the suspect itself or family members.</strong>)</p>
-
 <h3>Related Information</h3>
 <ul>
     <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law">Wikipedia page on key disclosure law</a></li>
@@ -1719,6 +1718,14 @@ layout: default
 <div class="row mb-2">
 
     {% include card.html color="success"
+    title="Mastodon"
+    image="assets/img/tools/Mastodon.png"
+    url="https://joinmastodon.org"
+    website="mastodon.social"
+    description='Mastodon is a social network based on open web protocols and free, open-source software. It is decentralized like e-mail. It also has the most users, and the most diverse (in terms of interests) users, looks good, and is easy to setup.'
+    %}
+
+    {% include card.html color="primary"
     title="diaspora*"
     image="assets/img/tools/diaspora.png"
     url="https://diasporafoundation.org/"
@@ -1726,7 +1733,7 @@ layout: default
                 networks by allowing users set up their own server (or \"pod\") to host content; pods can then interact to share status updates, photographs, and other social data."
     %}
 
-    {% include card.html color="primary"
+    {% include card.html color="warning"
     title="Friendica"
     image="assets/img/tools/Friendica.png"
     url="http://friendi.ca/"
@@ -1734,20 +1741,11 @@ layout: default
                 Friendica users can integrate contacts from Facebook, Twitter, Diaspora, GNU social, App.net, Pump.io and other services in their social streams."
     %}
 
-    {% include card.html color="warning"
-    title="GNU social"
-    image="assets/img/tools/GNU-social.png"
-    url="https://gnu.io/social/try/"
-    website="gnu.io"
-    description='While offering functionality similar to Twitter, GNU social seeks to provide the potential for open, inter-service and distributed communications between
-                microblogging communities. Enterprises and individuals can install and control their own services and data. Notable public deployments are <a href="https://quitter.se/">quitter.se</a> and <a href="https://gnusocial.no">gnusocial.no</a>.'
-    %}
-
 </div>
 
         <h3>Worth Mentioning</h3>
 <ul>
-    <li><a href="https://mastodon.social/about">Mastodon</a> - An open sourced, free and decentralized social network built on top of GNU Social.</li>
+    <li><a href="https://gnu.io/social/try/">GNU Social</a> - An open sourced, free and decentralized social network compatible with Mastodon and Friendica.</li>
 </ul>
 
 <h3>Related Information</h3>

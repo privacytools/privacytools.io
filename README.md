@@ -10,6 +10,10 @@ It's important for a website like privacytools.io to be up-to-date. Keep an eye 
 
 You can submit your suggestions here on GitHub [(Issues)](https://github.com/privacytoolsIO/privacytools.io/issues) and also in our [subreddit](https://www.reddit.com/r/privacytoolsIO/). Thank you.
 
+## Building
+1. Install Ruby
+2. `bundle install`
+3. `bundle exec jekyll serve` # Live refresh.
 
 # Contributing Guidelines
 Please read this before contributing.
