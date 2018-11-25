@@ -7,6 +7,6 @@ about: Suggest new software that enhances privacy.
 
 **Name:**
 **Category:**
-**Information URL:**
+**URL:**
 
 ### Description
