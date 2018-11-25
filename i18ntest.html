@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<div class="content">
+
+{% capture kdl %}
+    {% include content/kdl.md lang="it" %}
+{% endcapture %}
+{{ kdl | markdownify }}
+
+</div>
