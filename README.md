@@ -8,7 +8,7 @@ It's important for a website like privacytools.io to be up-to-date. Keep an eye 
 
 **Talk to us please.** Join our [subreddit](https://www.reddit.com/r/privacytoolsIO/) and start a discussion. This is a community project and we're aiming to deliver the best information available for a better privacy. We are also using [/r/privacy](https://www.reddit.com/r/privacy). Thank you for participating.
 
-You can submit your suggestions here on GitHub [(Issues)](https://github.com/privacytoolsIO/privacytools.io/issues) and also in our [subreddit](https://www.reddit.com/r/privacytoolsIO/). Please refer to the [Contributing Guidelines](.github/CONTRIBUTING.md) for the most up-to-date guidelines. Thank you.
+You can submit your suggestions here on GitHub [(Issues)](https://github.com/privacytoolsIO/privacytools.io/issues) and also in our [subreddit](https://www.reddit.com/r/privacytoolsIO/). Please refer to the [Contributing Guidelines](.github/CONTRIBUTING.md) before submitting. Thank you.
 
 ## Building
 
