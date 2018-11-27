@@ -97,6 +97,69 @@ layout: default
 </div>
 <!-- end Chart of Five Eyes, Nine Eyes, and Fourteen Eyes -->
 
+<!-- Key disclosure law -->
+<h1 id="kdl" class="anchor"><a href="#kdl"><i class="fas fa-link anchor-icon"></i></a> Key Disclosure Law</h1>
+
+
+<h3>Who is required to hand over the encryption keys to authorities?</h3>
+<p>Mandatory <a href="https://en.wikipedia.org/wiki/Key_disclosure_law">key disclosure laws</a> require individuals to turn over encryption keys to law enforcement conducting a criminal investigation. How these laws are implemented (who may be legally compelled to assist) vary from nation to nation, but a warrant
+    is generally required. Defenses against key disclosure laws include steganography and encrypting data in a way that provides plausible deniability.</p>
+
+
+<p><a href="https://en.wikipedia.org/wiki/Steganography">Steganography</a> involves hiding sensitive information (which may be encrypted) inside of ordinary data (for example, encrypting an image file and then hiding it in an audio file). With plausible deniability, data is encrypted in a way that prevents an
+    adversary from being able to prove that the information they are after exists (for example, one password may decrypt benign data and another password, used on the same file, could decrypt sensitive data).</p>
+
+<!-- Chart of key disclosure law in some countries -->
+<div class="row mb-2">
+
+    {% include panel.html color="danger"
+    title="Key disclosure laws apply"
+    body='
+    <ol class="card-ol">
+      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Antigua_and_Barbuda">Antigua and Barbuda</a> <div class="float-right"><span class="flag-icon flag-icon-ag"></span></div></li>
+      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Australia">Australia</a> <div class="float-right"><span class="flag-icon flag-icon-au"></span></div></li>
+      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Canada">Canada</a> <div class="float-right"><span class="flag-icon flag-icon-ca"></span></div></li>
+      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#France">France</a> <div class="float-right"><span class="flag-icon flag-icon-fr"></span></div></li>
+      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#India">India</a> <div class="float-right"><span class="flag-icon flag-icon-in"></span></div></li>
+      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Ireland">Ireland</a> <div class="float-right"><span class="flag-icon flag-icon-ie"></span></div></li>
+      <li><a href="https://edri.org/norway-introduces-forced-biometric-authentication/">Norway</a> <div class="float-right"><span class="flag-icon flag-icon-no"></span></div></li>
+      <li><a href="https://www.bloomberg.com/news/articles/2018-03-20/telegram-loses-bid-to-stop-russia-from-getting-encryption-keys">Russia</a> <div class="float-right"><span class="flag-icon flag-icon-ru"></span></div></li>
+      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#South_Africa">South Africa</a> <div class="float-right"><span class="flag-icon flag-icon-za"></span></div></li>
+      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#United_Kingdom">United Kingdom</a> <div class="float-right"><span class="flag-icon flag-icon-gb"></span></div></li>
+    </ol>
+    '
+    %}
+
+    {% include panel.html color="warning"
+    title="Key disclosure laws may apply"
+    body='
+    <ol class="card-ol">
+      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Belgium">Belgium *</a> <div class="float-right"><span class="flag-icon flag-icon-be"></span></div></li>
+      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Finland">Finland *</a> <div class="float-right"><span class="flag-icon flag-icon-fi"></span></div></li>
+      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#New_Zealand">New Zealand</a> (unclear) <div class="float-right"><span class="flag-icon flag-icon-nz"></span></div></li>
+      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#The_Netherlands">The Netherlands *</a> <div class="float-right"><span class="flag-icon flag-icon-nl"></span></div></li>
+      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#United_States">United States</a> (see related information) <div class="float-right"><span class="flag-icon flag-icon-us"></span></div></li>
+    </ol>
+    '
+    %}
+
+    {% include panel.html color="success"
+    title="Key disclosure laws don't apply"
+    body='
+    <ol class="card-ol">
+      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Czech_Republic">Czech Republic</a> <div class="float-right"><span class="flag-icon flag-icon-cz"></span></div></li>
+      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Germany">Germany</a> <div class="float-right"><span class="flag-icon flag-icon-de"></span></div></li>
+      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Poland">Poland</a> <div class="float-right"><span class="flag-icon flag-icon-pl"></span></div></li>
+      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Sweden">Sweden</a> (proposed) <div class="float-right"><span class="flag-icon flag-icon-se"></span></div></li>
+    </ol>
+    '
+    %}
+
+</div>
+
+<p> * (people who know how to access a system may be ordered to share their knowledge, <strong>however, this doesn't apply to the suspect itself or family members.</strong>)</p>
+<!-- end Chart of key disclosure law in some countries -->
+
 <h3 id="usa" class="anchor">Why is it not recommended to choose a US-based service?</h3>
 
 <img src="assets/img/layout/USA.png" class="img-fluid float-right" alt="USA" style="margin-left:10px;">
@@ -543,9 +606,7 @@ layout: default
 
 <!-- orange "Test your Browser now" button -->
 <p>
-        <a class="btn btn-warning" href="webrtc.html">
-            Test your Browser now
-        </a>
+        <a class="btn btn-warning" target="_blank" rel="noopener noreferrer" href="https://ipleak.net">Test your Browser now</a>
 </p>
 
 <!-- heading: How to disable WRTC in Firefox? -->
@@ -573,9 +634,7 @@ layout: default
 
 <!-- the "Test your Browser again" button -->
 <p>
-    <a class="btn btn-primary" href="webrtc.html">
-                    Test your Browser again
-    </a>
+    <a class="btn btn-primary" target="_blank" rel="noopener noreferrer" href="https://ipleak.net">Test your Browser again</a>
 </p>
 
 <!-- steps to manually disable WebRTC in Chrome -->
@@ -1235,13 +1294,16 @@ layout: default
     %}
 
     {% include card.html color="primary"
-    title="Riot.im"
-    image="assets/img/tools/riot.png"
-    url="https://riot.im/"
+    title="Wire"
+    image="assets/img/tools/wire.png"
+    url="https://get.wire.com"
     footer="OS: Android, iOS, macOS, Windows, Linux, Web"
-    description="Riot.im is a client for the martix protocole. A distributed chat client that offers E2E. A successor of IRC and XMPP"
+    description="Wire is an app developed by Wire Swiss GmbH.
+                The Wire app allows users to exchange end-to-end encrypted instant messages, as well as make voice and video calls. Wire is free and open source, enabling anyone to verify its security by auditing the code.
+                The development team is backed by Iconical and they will monetize in the future with premium features/services.<br>
+                <b>Caution:</b> The company keeps a list of all the users you contact until you delete your account."
     %}
-    
+
     {% include card.html color="warning"
     title="Desktop: Ricochet"
     image="assets/img/tools/Ricochet.png"
@@ -1260,6 +1322,7 @@ layout: default
     <li><a href="http://kontalk.org/">Kontalk</a> - A community-driven instant messaging network. Supports end-to-end encryption. Both client-to-server and server-to-server channels are fully encrypted.</li>
     <li><a href="https://play.google.com/store/apps/details?id=eu.siacs.conversations">Conversations</a> - An open source Jabber/XMPP client for Android 4.4+ smartphones. Supports end-to-end encryption with either OMEMO or openPGP. There is also <a href="https://play.google.com/store/apps/details?id=eu.siacs.conversations.legacy">Conversations Legacy</a> which still supports OTR.</li>
     <li><a href="https://en.wikipedia.org/wiki/Off-the-Record_Messaging#Client_support">List of OTR Clients - Wikipedia</a></li>
+    <li><a href="https://matrix.org/">The Matrix protocol</a> and it's various clients such as <a href="https://about.riot.im/">Riot.im</a>. A successor of XMPP.</li>
 </ul>
 
 <h3>Related Information</h3>
@@ -1443,6 +1506,41 @@ layout: default
         whether due to limitations in memory, time, or disk space.
     </li>
 </ul>
+
+<h1 id="sync" class="anchor"><a href="#sync"><i class="fas fa-link anchor-icon"></i></a> Secure Hosting Provider</h1>
+<div class="row mb-2">
+
+    {% include card.html color="success"
+    title="BAHNHOF"
+    image="assets/img/tools/bahnhof.png"
+    url="https://www.bahnhof.net/"
+    footer="OS: Windows, macOS, Linux."
+    description="BAHNHOF is a widely known "bullet-proof" hosting company utilized by Wikileaks."
+    
+    %}
+
+
+    {% include card.html color="primary"
+    title="Colocation: DataCell"
+    image="assets/img/tools/datacell.png"
+    url="https://datacell.is/"
+    footer="OS: Windows, macOS, Linux, Android, BSD, Solaris."
+    description="DataCell is a data center providing high levels of privacy."
+    %}
+    
+
+    {% include card.html color="primary"
+    title="VPS/Web Hosting: Orange Website"
+    image="assets/img/tools/orange_hosting.png"
+    url="https://www.orangewebsite.com/"
+    footer="OS: Windows, macOS, Linux, Android, BSD, Solaris."
+    description="Orange Website is an Icelandic web hosting provider that prides themselves in protecting online privacy and free speech."
+    %}
+
+
+</div>
+
+
 <h1 id="pw" class="anchor"><a href="#pw"><i class="fas fa-link anchor-icon"></i></a>Password Manager Software</h1>
 <div class="alert alert-warning" role="alert">
     <strong>If you are currently using a password manager software like 1Password, LastPass, Roboform or iCloud Keychain, you should pick an alternative here.</strong>
@@ -1545,70 +1643,6 @@ layout: default
         <a href="#cloud">cloud backups</a> - consider regularly exporting your calendar and or contacts and backing them up on a separate storage drive or uploading them to cloud storage (ideally after <a href="#encrypt">encrypting</a> them).
     </li>
 </ul>
-
-
-<!-- Key disclosure law -->
-<h1 id="kdl" class="anchor"><a href="#kdl"><i class="fas fa-link anchor-icon"></i></a> Key disclosure law</h1>
-
-
-<h3>Who is required to hand over the encryption keys to authorities?</h3>
-<p>Mandatory <a href="https://en.wikipedia.org/wiki/Key_disclosure_law">key disclosure laws</a> require individuals to turn over encryption keys to law enforcement conducting a criminal investigation. How these laws are implemented (who may be legally compelled to assist) vary from nation to nation, but a warrant
-    is generally required. Defenses against key disclosure laws include steganography and encrypting data in a way that provides plausible deniability.</p>
-
-
-<p><a href="https://en.wikipedia.org/wiki/Steganography">Steganography</a> involves hiding sensitive information (which may be encrypted) inside of ordinary data (for example, encrypting an image file and then hiding it in an audio file). With plausible deniability, data is encrypted in a way that prevents an
-    adversary from being able to prove that the information they are after exists (for example, one password may decrypt benign data and another password, used on the same file, could decrypt sensitive data).</p>
-
-<!-- Chart of key disclosure law in some countries -->
-<div class="row mb-2">
-
-    {% include panel.html color="danger"
-    title="Key disclosure laws apply"
-    body='
-    <ol class="card-ol">
-      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Antigua_and_Barbuda">Antigua and Barbuda</a> <div class="float-right"><span class="flag-icon flag-icon-ag"></span></div></li>
-      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Australia">Australia</a> <div class="float-right"><span class="flag-icon flag-icon-au"></span></div></li>
-      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Canada">Canada</a> <div class="float-right"><span class="flag-icon flag-icon-ca"></span></div></li>
-      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#France">France</a> <div class="float-right"><span class="flag-icon flag-icon-fr"></span></div></li>
-      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#India">India</a> <div class="float-right"><span class="flag-icon flag-icon-in"></span></div></li>
-      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Ireland">Ireland</a> <div class="float-right"><span class="flag-icon flag-icon-ie"></span></div></li>
-      <li><a href="https://edri.org/norway-introduces-forced-biometric-authentication/">Norway</a> <div class="float-right"><span class="flag-icon flag-icon-no"></span></div></li>
-      <li><a href="https://www.bloomberg.com/news/articles/2018-03-20/telegram-loses-bid-to-stop-russia-from-getting-encryption-keys">Russia</a> <div class="float-right"><span class="flag-icon flag-icon-ru"></span></div></li>
-      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#South_Africa">South Africa</a> <div class="float-right"><span class="flag-icon flag-icon-za"></span></div></li>
-      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#United_Kingdom">United Kingdom</a> <div class="float-right"><span class="flag-icon flag-icon-gb"></span></div></li>
-    </ol>
-    '
-    %}
-
-    {% include panel.html color="warning"
-    title="Key disclosure laws may apply"
-    body='
-    <ol class="card-ol">
-      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Belgium">Belgium *</a> <div class="float-right"><span class="flag-icon flag-icon-be"></span></div></li>
-      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Finland">Finland *</a> <div class="float-right"><span class="flag-icon flag-icon-fi"></span></div></li>
-      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#New_Zealand">New Zealand</a> (unclear) <div class="float-right"><span class="flag-icon flag-icon-nz"></span></div></li>
-      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Sweden">Sweden</a> (proposed) <div class="float-right"><span class="flag-icon flag-icon-se"></span></div></li>
-      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#The_Netherlands">The Netherlands *</a> <div class="float-right"><span class="flag-icon flag-icon-nl"></span></div></li>
-      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#United_States">United States</a> (see related information) <div class="float-right"><span class="flag-icon flag-icon-us"></span></div></li>
-    </ol>
-    '
-    %}
-
-    {% include panel.html color="success"
-    title="Key disclosure laws don't apply"
-    body='
-    <ol class="card-ol">
-      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Czech_Republic">Czech Republic</a> <div class="float-right"><span class="flag-icon flag-icon-cz"></span></div></li>
-      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Germany">Germany</a> <div class="float-right"><span class="flag-icon flag-icon-de"></span></div></li>
-      <li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Poland">Poland</a> <div class="float-right"><span class="flag-icon flag-icon-pl"></span></div></li>
-    </ol>
-    '
-    %}
-
-</div>
-<!-- end Chart of key disclosure law in some countries -->
-
-<p> * (people who know how to access a system may be ordered to share their knowledge, <strong>however, this doesn't apply to the suspect itself or family members.</strong>)</p>
 
 <h3>Related Information</h3>
 <ul>
@@ -1715,6 +1749,14 @@ layout: default
 <div class="row mb-2">
 
     {% include card.html color="success"
+    title="Mastodon"
+    image="assets/img/tools/Mastodon.png"
+    url="https://joinmastodon.org"
+    website="mastodon.social"
+    description='Mastodon is a social network based on open web protocols and free, open-source software. It is decentralized like e-mail. It also has the most users, and the most diverse (in terms of interests) users, looks good, and is easy to setup.'
+    %}
+
+    {% include card.html color="primary"
     title="diaspora*"
     image="assets/img/tools/diaspora.png"
     url="https://diasporafoundation.org/"
@@ -1722,7 +1764,7 @@ layout: default
                 networks by allowing users set up their own server (or \"pod\") to host content; pods can then interact to share status updates, photographs, and other social data."
     %}
 
-    {% include card.html color="primary"
+    {% include card.html color="warning"
     title="Friendica"
     image="assets/img/tools/Friendica.png"
     url="http://friendi.ca/"
@@ -1730,20 +1772,11 @@ layout: default
                 Friendica users can integrate contacts from Facebook, Twitter, Diaspora, GNU social, App.net, Pump.io and other services in their social streams."
     %}
 
-    {% include card.html color="warning"
-    title="GNU social"
-    image="assets/img/tools/GNU-social.png"
-    url="https://gnu.io/social/try/"
-    website="gnu.io"
-    description='While offering functionality similar to Twitter, GNU social seeks to provide the potential for open, inter-service and distributed communications between
-                microblogging communities. Enterprises and individuals can install and control their own services and data. Notable public deployments are <a href="https://quitter.se/">quitter.se</a> and <a href="https://gnusocial.no">gnusocial.no</a>.'
-    %}
-
 </div>
 
         <h3>Worth Mentioning</h3>
 <ul>
-    <li><a href="https://mastodon.social/about">Mastodon</a> - An open sourced, free and decentralized social network built on top of GNU Social.</li>
+    <li><a href="https://gnu.io/social/try/">GNU Social</a> - An open sourced, free and decentralized social network compatible with Mastodon and Friendica.</li>
 </ul>
 
 <h3>Related Information</h3>
@@ -2239,6 +2272,9 @@ This tool uses some known methods that attempt to disable major tracking feature
     <li><a href="https://pack.resetthenet.org/"><strong>Reset The Net - Privacy Pack</strong></a> - Help fight to end mass surveillance. Get these tools to protect yourself and your friends.</li>
     <li><a href="http://www.secfirst.org/"><strong>Security First</strong></a> - Umbrella is an Android app that provides all the advice needed to operate safely in a hostile environment.</li>
     <li><a href="https://addons.mozilla.org/en-US/firefox/addon/block-cloudflare-mitm-attack/"><strong>Block Cloudflare MiTM Attack</strong></a> - Firefox add-on to detect and block corporate MITM attack.
+    <li><a href="https://www.osalt.com/"><strong>Osalt</strong></a> - A directroy to help you find open source alternatives to proprietary tools.</li>
+    <li><a href="https://alternativeto.net/"><strong>AlternativeTo</strong></a> - A directry to help find alternatives to other software, with the option to only show open source software</li>
+    <p> Note: Just being open source does not make software secure! </p>
 </ul>
 
 <h1 id="participate" class="anchor"><a href="#participate"><i class="fas fa-link anchor-icon"></i></a> Spread the word and help your friends</h1>
