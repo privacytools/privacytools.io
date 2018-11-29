@@ -1,20 +1,21 @@
----
-layout: default
----
+{% assign language = site.data.lang.[include.lang].general %}
+{% assign english = site.data.lang.en.general %}
+{% assign selected = include.lang %}
+
 <div class="container" role="main">
 
 
 <div class="jumbotron p-5">
     <!-- header just below the navigation bar -->
-    <h1 class="display-4"><a href="https://www.privacytools.io/" title="privacytools.io"><img src="assets/img/layout/logo.png" class="img-fluid" alt="privacytools.io"></a></h1>
-    <p class="lead">You are being watched. Private and state-sponsored organizations are monitoring and recording your online activities. privacytools.io provides knowledge and tools to protect your privacy against global mass surveillance.</p>
+    <h1 class="display-4"><a href="https://www.privacytools.io/" title="privacytools.io"><img src="/assets/img/layout/logo.png" class="img-fluid" alt="privacytools.io"></a></h1>
+    <p class="lead">{{ language.subheading | default: english.subheading }}</p>
     <!-- end header just below the navigation bar -->
 </div>
 
 <!-- start language and darknet selection -->
 <p>
 
-    <a data-toggle="tooltip" data-placement="bottom" data-original-title="Translations of privacytools.io were done by volunteers. They might be not up to date.">Language:</a>
+    <a data-toggle="tooltip" data-placement="bottom" data-original-title="{{ language.translations_disclaimer | default: english.translations_disclaimer }}">{{ language['Language'] | default: english['Language'] }}:</a>
 
     <span class="flag-icon flag-icon-tw" style="margin-left:5px;"></span> <a href="https://privacytools.twngo.xyz/">繁體中文</a>
 
@@ -29,19 +30,10 @@ layout: default
 <!-- end language and darknet selection -->
 
 <!-- quote by Glenn Greenwald located below the header -->
-<div class="page-header">
-    <h1>Privacy? I don't have anything to hide.</h1>
-</div>
-<blockquote class="blockquote">
-    <p>
-        <a href="http://www.ted.com/talks/glenn_greenwald_why_privacy_matters" title="Glenn Greenwald - Why privacy matters - TED Talk"><img src="assets/img/layout/Glenn-Greenwald-Why-privacy-matters.jpg" class="img-fluid float-right ml-2" alt="Glenn Greenwald: Why privacy matters"></a>
-        Over the last 16 months, as I've debated this issue around the world, every single time somebody has said to me, "I don't really worry about invasions of privacy because I don't have anything to hide." I always say the same thing to them. I get out a
-        pen, I write down my email address. I say, "Here's my email address. What I want you to do when you get home is email me the passwords to all of your email accounts, not just the nice, respectable work one in your name, but all of them, because I
-        want to be able to just troll through what it is you're doing online, read what I want to read and publish whatever I find interesting. After all, if you're not a bad person, if you're doing nothing wrong, you should have nothing to hide." <strong>Not a single person has taken me up on that offer.</strong></p>
-    <footer class="blockquote-footer">Glenn Greenwald in <cite title="Why privacy matters - TED Talk"><a href="http://www.ted.com/talks/glenn_greenwald_why_privacy_matters">Why privacy matters - TED Talk</a></cite></footer>
-</blockquote>
 
-<h4>Read also:</h4>
+{% include content/nothing_to_hide.html lang=selected %}
+
+<h4>{{ language['Read also'] | default: english['Read also'] }}</h4>
 
 <ul>
     <li><a href="https://en.wikipedia.org/wiki/Nothing_to_hide_argument">Nothing to hide argument (Wikipedia)</a></li>
@@ -54,7 +46,7 @@ layout: default
 
 <h1 id="ukusa" class="anchor"><a href="#ukusa"><i class="fas fa-link anchor-icon"></i></a> Global Mass Surveillance - The Fourteen Eyes</h1>
 
-<img src="assets/img/layout/UKUSA.png" class="img-fluid float-right" alt="UKUSA Agreement" style="margin-left:10px;">
+<img src="/assets/img/layout/UKUSA.png" class="img-fluid float-right" alt="UKUSA Agreement" style="margin-left:10px;">
 
 <p>The UKUSA Agreement is an agreement between the United Kingdom, United States, Australia, Canada, and New Zealand to cooperatively collect, analyze, and share intelligence. Members of this group, known as the <a href="http://www.giswatch.org/en/communications-surveillance/unmasking-five-eyes-global-surveillance-practices">Five Eyes</a>,
     focus on gathering and analyzing intelligence from different parts of the world. While Five Eyes countries have agreed to <a href="http://www.pbs.org/newshour/rundown/an-exclusive-club-the-five-countries-that-dont-spy-on-each-other/">not spy on each other</a>			as adversaries, leaks by Snowden have revealed that some Five Eyes members monitor each other’s citizens and <a href="http://www.theguardian.com/uk/2013/jun/21/gchq-cables-secret-world-communications-nsa">share intelligence</a> to <a href="http://www.theguardian.com/politics/2013/jun/10/nsa-offers-intelligence-british-counterparts-blunkett">avoid breaking domestic laws</a>			that prohibit them from spying on their own citizens. The Five Eyes alliance also cooperates with groups of third-party countries to share intelligence (forming the Nine Eyes and Fourteen Eyes), however Five Eyes and third-party countries can and do
@@ -62,7 +54,7 @@ layout: default
 
 <!-- Chart of Five Eyes, Nine Eyes, and Fourteen Eyes -->
 <div class="row mb-3">
-    {% include panel.html color="danger"
+    {% include components/panel.html color="danger"
     title="Five Eyes"
     body='
     <li>1. Australia <div class="float-right"><span class="flag-icon flag-icon-au"></span></div></li>
@@ -73,7 +65,7 @@ layout: default
     '
     %}
 
-    {% include panel.html color="warning"
+    {% include components/panel.html color="warning"
     title="Nine Eyes"
     body='
         6. Denmark <div class="float-right"><span class="flag-icon flag-icon-dk"></span></div>
@@ -84,7 +76,7 @@ layout: default
     '
     %}
 
-    {% include panel.html color="secondary"
+    {% include components/panel.html color="secondary"
     title="Fourteen Eyes"
     body='
         10. Belgium <div class="float-right"><span class="flag-icon flag-icon-be"></span></div>
@@ -112,7 +104,7 @@ layout: default
 <!-- Chart of key disclosure law in some countries -->
 <div class="row mb-2">
 
-    {% include panel.html color="danger"
+    {% include components/panel.html color="danger"
     title="Key disclosure laws apply"
     body='
     <ol class="card-ol">
@@ -130,7 +122,7 @@ layout: default
     '
     %}
 
-    {% include panel.html color="warning"
+    {% include components/panel.html color="warning"
     title="Key disclosure laws may apply"
     body='
     <ol class="card-ol">
@@ -144,7 +136,7 @@ layout: default
     '
     %}
 
-    {% include panel.html color="success"
+    {% include components/panel.html color="success"
     title="Key disclosure laws don't apply"
     body='
     <ol class="card-ol">
@@ -162,7 +154,7 @@ layout: default
 
 <h3 id="usa" class="anchor">Why is it not recommended to choose a US-based service?</h3>
 
-<img src="assets/img/layout/USA.png" class="img-fluid float-right" alt="USA" style="margin-left:10px;">
+<img src="/assets/img/layout/USA.png" class="img-fluid float-right" alt="USA" style="margin-left:10px;">
 
 <p>Services based in the United States are not recommended because of the country’s surveillance programs, use of <a href="https://www.eff.org/issues/national-security-letters/faq">National Security Letters</a> (NSLs) and accompanying gag orders, which
     forbid the recipient from talking about the request. This combination allows the government to <a href="https://www.schneier.com/blog/archives/2013/08/more_on_the_nsa.html">secretly force</a> companies to grant complete access to customer data and
@@ -210,7 +202,7 @@ layout: default
 <tbody>
 <tr>
     <td data-value="AirVPN">
-        <a href="https://airvpn.org/"><img alt="AirVPN" src="assets/img/provider/AirVPN.png" width="200" height="70"></a></td>
+        <a href="https://airvpn.org/"><img alt="AirVPN" src="/assets/img/provider/AirVPN.png" width="200" height="70"></a></td>
     <td data-value="70">54 €</td>
     <td><span class="label label-success">Yes</span></td>
     <td>162</td>
@@ -220,7 +212,7 @@ layout: default
 
 <tr>
     <td data-value="AzireVPN">
-        <a href="https://www.azirevpn.com/"><img alt="AzireVPN" src="assets/img/provider/AzireVPN.png" width="200" height="70"></a>
+        <a href="https://www.azirevpn.com/"><img alt="AzireVPN" src="/assets/img/provider/AzireVPN.png" width="200" height="70"></a>
     </td>
     <td data-value="58">45 €</td>
     <td><span class="label label-success">Yes</span></td>
@@ -231,7 +223,7 @@ layout: default
 
 <tr>
     <td data-value="blackVPN">
-        <a href="https://www.blackvpn.com/"><img alt="blackVPN" src="assets/img/provider/blackVPN.png" width="200" height="70"></a>
+        <a href="https://www.blackvpn.com/"><img alt="blackVPN" src="/assets/img/provider/blackVPN.png" width="200" height="70"></a>
     </td>
     <td data-value="128">99 €</td>
     <td><span class="label label-success">Yes</span></td>
@@ -242,7 +234,7 @@ layout: default
 
 <tr>
     <td data-value="Cryptostorm">
-        <a href="https://cryptostorm.is/"><img alt="Cryptostorm" src="assets/img/provider/Cryptostorm.png" width="200" height="70"></a>
+        <a href="https://cryptostorm.is/"><img alt="Cryptostorm" src="/assets/img/provider/Cryptostorm.png" width="200" height="70"></a>
     </td>
     <td data-value="52">$ 52</td>
     <td><span class="label label-success">Yes</span></td>
@@ -253,7 +245,7 @@ layout: default
 
 <tr>
     <td data-value="EarthVPN">
-        <a href="http://www.earthvpn.com/"><img alt="EarthVPN" src="assets/img/provider/EarthVPN.png" width="200" height="70"></a>
+        <a href="http://www.earthvpn.com/"><img alt="EarthVPN" src="/assets/img/provider/EarthVPN.png" width="200" height="70"></a>
     </td>
     <td data-value="52">39,99 €</td>
     <td><span class="label label-warning">No</span></td>
@@ -264,7 +256,7 @@ layout: default
 
 <tr>
     <td data-value="ExpressVPN">
-        <a href="https://www.expressvpn.com/"><img alt="ExpressVPN" src="assets/img/provider/ExpressVPN.png" width="200" height="70"></a>
+        <a href="https://www.expressvpn.com/"><img alt="ExpressVPN" src="/assets/img/provider/ExpressVPN.png" width="200" height="70"></a>
     </td>
     <td data-value="100">$ 99.95</td> <!-- USD on March 21, 2017 -->
     <td><span class="label label-success">Yes</span></td>
@@ -275,7 +267,7 @@ layout: default
 
 <tr>
     <td data-value="FrootVPN">
-        <a href="https://www.frootvpn.com/"><img alt="FrootVPN" src="assets/img/provider/FrootVPN.png" width="200" height="70"></a>
+        <a href="https://www.frootvpn.com/"><img alt="FrootVPN" src="/assets/img/provider/FrootVPN.png" width="200" height="70"></a>
     </td>
     <td data-value="36">$ 35.88</td>
     <td><span class="label label-warning">No</span></td>
@@ -286,7 +278,7 @@ layout: default
 
 <tr>
     <td data-value="hide.me">
-        <a href="https://hide.me/"><img alt="hide.me" src="assets/img/provider/hide.me.png" width="200" height="70"></a>
+        <a href="https://hide.me/"><img alt="hide.me" src="/assets/img/provider/hide.me.png" width="200" height="70"></a>
     </td>
     <td data-value="65">$ 65.04</td>
     <td><span class="label label-success">Yes</span></td>
@@ -297,7 +289,7 @@ layout: default
 
 <tr>
     <td data-value="IVPN">
-        <a href="https://www.ivpn.net/"><img alt="IVPN" src="assets/img/provider/IVPN.png" width="200" height="70"></a>
+        <a href="https://www.ivpn.net/"><img alt="IVPN" src="/assets/img/provider/IVPN.png" width="200" height="70"></a>
     </td>
     <td data-value="100">$ 100</td>
     <td><span class="label label-success">Yes</span></td>
@@ -308,7 +300,7 @@ layout: default
 
 <tr>
     <td data-value="Mullvad">
-        <a href="https://mullvad.net/"><img alt="Mullvad" src="assets/img/provider/Mullvad.png" width="200" height="70"></a>
+        <a href="https://mullvad.net/"><img alt="Mullvad" src="/assets/img/provider/Mullvad.png" width="200" height="70"></a>
     </td>
     <td data-value="78">60 €</td>
     <td><span class="label label-success">Yes</span></td>
@@ -319,7 +311,7 @@ layout: default
 
 <tr>
     <td data-value="NordVPN">
-        <a href="https://nordvpn.com/"><img alt="NordVPN" src="assets/img/provider/NordVPN.png" width="200" height="70"></a>
+        <a href="https://nordvpn.com/"><img alt="NordVPN" src="/assets/img/provider/NordVPN.png" width="200" height="70"></a>
     </td>
     <td data-value="69">$ 69</td>
     <td><span class="label label-success">Yes</span></td>
@@ -330,7 +322,7 @@ layout: default
 
 <tr>
     <td data-value="OVPN.com">
-        <a href="https://www.ovpn.com/"><img alt="OVPN.com" src="assets/img/provider/OVPN.png" width="200" height="70"></a>
+        <a href="https://www.ovpn.com/"><img alt="OVPN.com" src="/assets/img/provider/OVPN.png" width="200" height="70"></a>
     </td>
     <td data-value="84">$ 84</td>
     <td><span class="label label-success">Yes</span></td>
@@ -341,7 +333,7 @@ layout: default
 
 <tr>
     <td data-value="Perfect Privacy">
-        <a href="https://www.perfect-privacy.com/"><img alt="Perfect Privacy" src="assets/img/provider/Perfect-Privacy.png" width="200" height="70"></a>
+        <a href="https://www.perfect-privacy.com/"><img alt="Perfect Privacy" src="/assets/img/provider/Perfect-Privacy.png" width="200" height="70"></a>
     </td>
     <td data-value="162">124.95 €</td>
     <td><span class="label label-warning">No</span></td>
@@ -354,7 +346,7 @@ layout: default
 "Warning: It has come to our attention that Privatoria are no longer supporting their service – its advised to try some other VPN provider." Source: https://www.deepdotweb.com/2016/01/03/privatoria-review/
 <tr>
     <td data-value="Privatoria">
-        <a href="https://privatoria.net/"><img src="assets/img/provider/Privatoria.png" width="200" height="70"></a>
+        <a href="https://privatoria.net/"><img src="/assets/img/provider/Privatoria.png" width="200" height="70"></a>
     </td>
     <td data-value="23">$ 22.8</td>
     <td><span class="label label-success">Yes</span></td>
@@ -365,7 +357,7 @@ layout: default
 -->
 <tr>
         <td data-value="ProtonVPN">
-            <a href="https://protonvpn.com/"><img alt="ProtonVPN" src="assets/img/provider/ProtonVPN.png" width="200" height="70"></a     >
+            <a href="https://protonvpn.com/"><img alt="ProtonVPN" src="/assets/img/provider/ProtonVPN.png" width="200" height="70"></a     >
         </td>
         <td data-value="0">Free</td>
         <td><span class="label label-success">Yes</span></td>
@@ -376,7 +368,7 @@ layout: default
 
 <tr>
     <td data-value="Proxy.sh">
-        <a href="https://proxy.sh/"><img alt="Proxy.sh" src="assets/img/provider/Proxy.sh.png" width="200" height="70"></a>
+        <a href="https://proxy.sh/"><img alt="Proxy.sh" src="/assets/img/provider/Proxy.sh.png" width="200" height="70"></a>
     </td>
     <td data-value="90">$ 90</td>
     <td><span class="label label-warning">No</span></td>
@@ -387,7 +379,7 @@ layout: default
 
 <tr>
     <td data-value="Trust.Zone">
-        <a href="https://trust.zone/"><img alt="Trust.Zone" src="assets/img/provider/Trust.Zone.png" width="200" height="70"></a>
+        <a href="https://trust.zone/"><img alt="Trust.Zone" src="/assets/img/provider/Trust.Zone.png" width="200" height="70"></a>
     </td>
     <td data-value="40">$ 39.95</td>
     <td><span class="label label-success">Yes</span></td>
@@ -397,7 +389,7 @@ layout: default
 </tr>
 <tr>
     <td data-value="VPN.ht">
-        <a href="https://vpn.ht/"><img alt="VPN.ht" src="assets/img/provider/VPN.ht.png" width="200" height="70"></a>
+        <a href="https://vpn.ht/"><img alt="VPN.ht" src="/assets/img/provider/VPN.ht.png" width="200" height="70"></a>
     </td>
     <td data-value="40">$ 39.99</td>
     <td><span class="label label-warning">No</span></td>
@@ -407,7 +399,7 @@ layout: default
 </tr>
 <tr>
     <td data-value="VPNArea">
-        <a href="https://vpnarea.com/"><img alt="VPNArea" src="assets/img/provider/vpnarea.png" width="200" height="70"></a>
+        <a href="https://vpnarea.com/"><img alt="VPNArea" src="/assets/img/provider/vpnarea.png" width="200" height="70"></a>
     </td>
     <td data-value="59">$ 59.00</td>
     <td><span class="label label-success">Yes</span></td>
@@ -417,7 +409,7 @@ layout: default
 </tr>
 <tr>
     <td data-value="VPNTunnel">
-        <a href="https://vpntunnel.com/"><img alt="VPNTunnel" src="assets/img/provider/VPNTunnel.png" width="200" height="70"></a>
+        <a href="https://vpntunnel.com/"><img alt="VPNTunnel" src="/assets/img/provider/VPNTunnel.png" width="200" height="70"></a>
     </td>
     <td data-value="36">$ 35.88</td>
     <td><span class="label label-warning">No</span></td>
@@ -486,7 +478,7 @@ layout: default
 
 <!-- warrant canary -->
 <h1 id="wc" class="anchor"><a href="#wc"><i class="fas fa-link anchor-icon"></i></a> What is a warrant canary?</h1>
-<img src="assets/img/layout/warrant-canary.jpg" class="img-fluid float-right" alt="Warrant Canary Example" style="margin-left:20px;">
+<img src="/assets/img/layout/warrant-canary.jpg" class="img-fluid float-right" alt="Warrant Canary Example" style="margin-left:20px;">
 <p>A warrant canary is a posted document stating that an organization has not received any secret subpoenas during a specific period of time. If this document fails to be updated during the specified time then the user is to assume that the service has
     received such a subpoena and should stop using the service.</p>
 <h4>Warrant Canary Examples:</h4>
@@ -510,27 +502,27 @@ layout: default
 
 <div class="row mb-2">
 
-    {% include card.html color="success"
+    {% include components/card.html color="success"
     title="Tor Browser"
-    image="assets/img/tools/Tor-Project.png"
+    image="/assets/img/tools/Tor-Project.png"
     url="https://www.torproject.org/"
     tor="http://expyuzz4wqqyqhjn.onion"
     footer='OS: Windows, macOS, Linux, <a href="https://mike.tig.as/onionbrowser/">iOS</a>, <a href="https://www.torproject.org/docs/android.html.en">Android</a>, <a href="https://github.com/torbsd/openbsd-ports">OpenBSD.</a>'
     description="Tor Browser is your choice if you need an extra layer of anonymity. It's a modified version of Firefox, it comes with pre-installed privacy add-ons, encryption and an advanced proxy."
     %}
 
-    {% include card.html color="primary"
+    {% include components/card.html color="primary"
     title="Mozilla Firefox"
-    image="assets/img/tools/Firefox.png"
+    image="/assets/img/tools/Firefox.png"
     url="https://www.firefox.com/"
     footer="OS: Windows, macOS, Linux, Android, iOS, BSD."
     description='Firefox is fast, reliable, open source and respects your privacy. Don\'t forget to adjust the settings according to our
                 recommendations: <a href="#webrtc"><i class="fas fa-link"></i> WebRTC</a> and <a href="#about_config"><i class="fas fa-link"></i> about:config</a> and get the <a href="#addons"><i class="fas fa-link"></i> privacy add-ons</a>.'
     %}
 
-    {% include card.html color="warning"
+    {% include components/card.html color="warning"
     title="Brave"
-    image="assets/img/tools/Brave.png"
+    image="/assets/img/tools/Brave.png"
     url="https://www.brave.com/"
     footer="OS: Windows, macOS, Linux, Android, iOS."
     description="The new open source browser \"Brave\" automatically blocks ads and trackers, making it faster and safer than your current browser. Brave is based on Chromium."
@@ -543,7 +535,7 @@ layout: default
 <h3 class="panel-title">GNU IceCat</h3>
 </div>
 <div class="panel-body">
-<p><img src="assets/img/tools/IceCat.png" align="right" style="margin-left:5px;">GNU IceCat is a good choice for privacy related matters. It is a free software rebranding of the Mozilla Firefox web browser distributed by the GNU Project. IceCat comes with pre-installed privacy add-ons.</p>
+<p><img src="/assets/img/tools/IceCat.png" align="right" style="margin-left:5px;">GNU IceCat is a good choice for privacy related matters. It is a free software rebranding of the Mozilla Firefox web browser distributed by the GNU Project. IceCat comes with pre-installed privacy add-ons.</p>
 <p><a href="http://www.gnu.org/software/gnuzilla/"><button type="button" class="btn btn-info">Download: www.gnu.org</button></a></p>
 <p>OS: Windows, macOS, Linux, Android.</p>
 </div>
@@ -562,7 +554,7 @@ layout: default
 </div>
 
 <!-- fingerprint image to the right of the paragraphs -->
-<img src="assets/img/layout/browser-fingerprint.jpg" class="img-fluid float-right" alt="Fingerprint image" style="margin-left:20px;">
+<img src="/assets/img/layout/browser-fingerprint.jpg" class="img-fluid float-right" alt="Fingerprint image" style="margin-left:20px;">
 
 <!-- first paragraph -->
 <p>When you visit a web page, your browser voluntarily sends information about its configuration, such as available fonts, browser type, and add-ons. If this combination of information is unique, it may be possible to identify and track you without using
@@ -655,13 +647,13 @@ layout: default
 
 
 <h3>Stop Tracking with "Privacy Badger"</h3>
-<img src="assets/img/addons/Privacy-Badger.png" class="img-fluid float-left" alt="Privacy Badger" style="margin-right:30px;">
+<img src="/assets/img/addons/Privacy-Badger.png" class="img-fluid float-left" alt="Privacy Badger" style="margin-right:30px;">
 <p><strong>Privacy Badger</strong> is a browser add-on that stops advertisers and other third-party trackers from secretly tracking where you go and what pages you look at on the web. Privacy Badger learns about trackers as you browse by inspecting external resources websites request. Please be aware that Google Analytics is considered first-party by Privacy Badger, which means that Google Analytics will not be blocked if you do not use another blocker, such as uBlock Origin.
 
 <a href="https://www.eff.org/privacybadger">https://www.eff.org/privacybadger/</a></p>
 
 <h3>Block Ads and Trackers with "uBlock Origin"</h3>
-<img src="assets/img/addons/uBlock.png" class="img-fluid float-left" alt="uBlock" style="margin-right:30px;">
+<img src="/assets/img/addons/uBlock.png" class="img-fluid float-left" alt="uBlock" style="margin-right:30px;">
 <p>An efficient <a href="https://github.com/gorhill/uBlock/wiki/Blocking-mode">wide-spectrum-blocker</a> that's easy on memory, and yet can load and enforce thousands more filters than other popular blockers out there. It has no monetization strategy and
     is completely <a href="https://github.com/gorhill/uBlock/">open source</a>. We recommend Firefox but uBlock Origin also works in other browsers such as Safari, Opera, and Chromium. Unlike AdBlock Plus, uBlock does not allow so-called <a href="https://adblockplus.org/acceptable-ads">"acceptable ads"</a>.
     <br />
@@ -669,33 +661,33 @@ layout: default
 </p>
 
 <!--
-<img src="assets/img/addons/Disconnect.png" class="img-fluid float-left" alt="Disconnect" style="margin-right:30px;">
+<img src="/assets/img/addons/Disconnect.png" class="img-fluid float-left" alt="Disconnect" style="margin-right:30px;">
 <p>Founded in 2011 by former Google engineers and a consumer-and privacy-rights attorney. The addon is open source and loads the pages you go to 27% faster and stops tracking by 2,000+ third-party sites. It also keeps your searches private. If you are planning to install "uBlock Origin" make sure to install "Disconnect" first. <strong>Alternative to Disconnect:</strong> <a href="https://addons.mozilla.org/firefox/addon/privacy-badger-firefox/">Privacy Badger by EFF</a>
     <br />
     <a href="https://addons.mozilla.org/firefox/addon/disconnect/">https://addons.mozilla.org/firefox/addon/disconnect/</a>
     </p>
 <h3>Hinder Browser Fingerprinting with "Random Agent Spoofer"</h3>
-<img src="assets/img/addons/Random-Agent-Spoofer.png" class="img-fluid float-left" alt="Random Agent Spoofer" style="margin-right:30px;">
+<img src="/assets/img/addons/Random-Agent-Spoofer.png" class="img-fluid float-left" alt="Random Agent Spoofer" style="margin-right:30px;">
 <p>A privacy enhancing firefox addon which aims to hinder browser fingerprinting. It does this by changing the browser/device profile on a timer. Source code: <a href="https://github.com/dillbyrne/random-agent-spoofer">GitHub.</a>
     <br />
     <a href="https://addons.mozilla.org/firefox/addon/random-agent-spoofer/">https://addons.mozilla.org/firefox/addon/random-agent-spoofer/</a></p>
 -->
 
 <h3>Automatically Delete Cookies with "Cookie AutoDelete"</h3>
-<img src="assets/img/addons/Cookie-AutoDelete.png" class="img-fluid float-left" alt="Cookie AutoDelete" style="margin-right:30px;">
+<img src="/assets/img/addons/Cookie-AutoDelete.png" class="img-fluid float-left" alt="Cookie AutoDelete" style="margin-right:30px;">
 <p>Automatically removes cookies when they are no longer used by open browser tabs. With the cookies, lingering sessions, as well as information used to spy on you, will be expunged.
     <br />
     <a href="https://addons.mozilla.org/firefox/addon/cookie-autodelete">https://addons.mozilla.org/firefox/addon/cookie-autodelete/</a></p>
 
 
 <h3>Encryption with "HTTPS Everywhere"</h3>
-<img src="assets/img/addons/HTTPS-Everywhere.png" class="img-fluid float-left" alt="HTTPS Everywhere" style="margin-right:30px;">
+<img src="/assets/img/addons/HTTPS-Everywhere.png" class="img-fluid float-left" alt="HTTPS Everywhere" style="margin-right:30px;">
 <p>A Firefox, Chrome, and Opera extension that encrypts your communications with many major websites, making your browsing more secure. A collaboration between The Tor Project and the Electronic Frontier Foundation.
     <br />
     <a href="https://www.eff.org/https-everywhere">https://www.eff.org/https-everywhere</a></p>
 
 <h3>Block Content Delivery Networks with "Decentraleyes"</h3>
-<img src="assets/img/addons/Decentraleyes.png" class="img-fluid float-left" alt="Decentraleyes" style="margin-right:30px;">
+<img src="/assets/img/addons/Decentraleyes.png" class="img-fluid float-left" alt="Decentraleyes" style="margin-right:30px;">
 <p>Emulates Content Delivery Networks locally by intercepting requests, finding the required resource and injecting it into the environment. This all happens instantaneously, automatically, and no prior configuration is required. <i>Source code: <a href="https://git.synz.io/Synzvato/decentraleyes">GitLab (self-hosted)</a>.</i>
     <br />
     <a href="https://addons.mozilla.org/firefox/addon/decentraleyes/">https://addons.mozilla.org/firefox/addon/decentraleyes/</a></p>
@@ -707,14 +699,14 @@ layout: default
 </div>
 <!--
 <h3>Stop cross-site requests with "Request Policy"</h3>
-<img src="assets/img/addons/Request-Policy.png" class="img-fluid float-left" alt="Request Policy" style="margin-right:30px;">
+<img src="/assets/img/addons/Request-Policy.png" class="img-fluid float-left" alt="Request Policy" style="margin-right:30px;">
 <p>Many websites integrate features which let other websites track you, such as Facebook Like Buttons or Google Analytics. Request Policy gives you control over the requests that websites make to other websites. This gives you greater and more fine grained control over the information that you leak online.
 <br />
 <a href="https://requestpolicycontinued.github.io/">https://requestpolicycontinued.github.io/</a>
 </p>
 -->
 <h3>Stop cross-site requests with "uMatrix"</h3>
-<img src="assets/img/addons/uMatrix.png" class="img-fluid float-left" alt="uMatrix" style="margin-right:30px;">
+<img src="/assets/img/addons/uMatrix.png" class="img-fluid float-left" alt="uMatrix" style="margin-right:30px;">
 <p>Many websites integrate features which let other websites track you, such as Facebook Like Buttons or Google Analytics. uMatrix gives you control over the requests that websites make to other websites. This gives you greater and more fine-grained control
     over the information that you leak online.
     <br />
@@ -722,7 +714,7 @@ layout: default
 </p>
 
 <h3>Be in total control with "NoScript Security Suite"</h3>
-<img src="assets/img/addons/NoScript.png" class="img-fluid float-left" alt="NoScript" style="margin-right:30px;">
+<img src="/assets/img/addons/NoScript.png" class="img-fluid float-left" alt="NoScript" style="margin-right:30px;">
 <p>
     Highly customizable plugin to selectively allow Javascript, Java, and Flash to run only on websites you trust. Not for casual users, it requires technical knowledge to configure.
     <br />
@@ -950,11 +942,11 @@ layout: default
 
         <tr>
             <td data-value="ProtonMail">
-                <img alt="Protonmail" src="assets/img/provider/ProtonMail.ch.png" width="200" height="70">
+                <img alt="Protonmail" src="/assets/img/provider/ProtonMail.ch.png" width="200" height="70">
             </td>
             <td>
-                <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.protonmail.ch" href="https://www.protonmail.ch"><img alt="WWW" src="assets/img/layout/www.png" width="35"></a>
-                <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://protonirockerxow.onion. Requires specific software to access: torproject.org" href="https://protonirockerxow.onion"><img alt="Tor" src="assets/img/layout/tor.png" width="35"></a>
+                <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.protonmail.ch" href="https://www.protonmail.ch"><img alt="WWW" src="/assets/img/layout/www.png" width="35"></a>
+                <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://protonirockerxow.onion. Requires specific software to access: torproject.org" href="https://protonirockerxow.onion"><img alt="Tor" src="/assets/img/layout/tor.png" width="35"></a>
             </td>
             <td data-value="2013">2013</td>
             <td><span class="flag-icon flag-icon-ch"></span> Switzerland</td>
@@ -967,10 +959,10 @@ layout: default
 
         <tr>
             <td data-value="disroot.org">
-                <img alt="Disroot" src="assets/img/provider/disroot.org.png" width="200" height="70">
+                <img alt="Disroot" src="/assets/img/provider/disroot.org.png" width="200" height="70">
             </td>
             <td>
-                <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://disroot.org" href="https://disroot.org"><img alt="WWW" src="assets/img/layout/www.png" width="35"></a>
+                <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://disroot.org" href="https://disroot.org"><img alt="WWW" src="/assets/img/layout/www.png" width="35"></a>
             </td>
             <td data-value="2015">2015</td>
             <td><span class="flag-icon flag-icon-nl"></span> Netherlands</td>
@@ -983,10 +975,10 @@ layout: default
 
         <tr>
             <td data-value="Tutanota">
-                <img alt="Tutanota" src="assets/img/provider/Tutanota.png" width="200" height="70">
+                <img alt="Tutanota" src="/assets/img/provider/Tutanota.png" width="200" height="70">
             </td>
             <td>
-                <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.tutanota.com" href="https://www.tutanota.com"><img alt="WWW" src="assets/img/layout/www.png" width="35"></a>
+                <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.tutanota.com" href="https://www.tutanota.com"><img alt="WWW" src="/assets/img/layout/www.png" width="35"></a>
             </td>
             <td data-value="2011">2011</td>
             <td><span class="flag-icon flag-icon-de"></span> Germany</td>
@@ -999,10 +991,10 @@ layout: default
 
         <tr>
             <td data-value="Mailfence">
-                <img alt="Mailfence" src="assets/img/provider/Mailfence.png" width="200" height="70">
+                <img alt="Mailfence" src="/assets/img/provider/Mailfence.png" width="200" height="70">
             </td>
             <td>
-                <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.mailfence.com" href="https://www.mailfence.com"><img alt="WWW" src="assets/img/layout/www.png" width="35"></a>
+                <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.mailfence.com" href="https://www.mailfence.com"><img alt="WWW" src="/assets/img/layout/www.png" width="35"></a>
             </td>
             <td data-value="2013">2013</td>
             <td><span class="flag-icon flag-icon-be"></span> Belgium</td>
@@ -1015,11 +1007,11 @@ layout: default
 
         <tr>
             <td data-value="mailbox.org">
-                <img alt="mailbox.org" src="assets/img/provider/mailbox.org.png" width="200" height="70">
+                <img alt="mailbox.org" src="/assets/img/provider/mailbox.org.png" width="200" height="70">
 
             </td>
             <td>
-                <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.mailbox.org" href="https://www.mailbox.org"><img alt="WWW" src="assets/img/layout/www.png" width="35"></a>
+                <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.mailbox.org" href="https://www.mailbox.org"><img alt="WWW" src="/assets/img/layout/www.png" width="35"></a>
             </td>
             <td data-value="2014">2014</td>
             <td><span class="flag-icon flag-icon-de"></span> Germany</td>
@@ -1032,10 +1024,10 @@ layout: default
 
         <tr>
             <td data-value="Posteo">
-                <img alt="Posteo" src="assets/img/provider/Posteo.png" width="200" height="70">
+                <img alt="Posteo" src="/assets/img/provider/Posteo.png" width="200" height="70">
             </td>
             <td>
-                <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.posteo.de" href="https://www.posteo.de"><img alt="WWW" src="assets/img/layout/www.png" width="35"></a>
+                <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.posteo.de" href="https://www.posteo.de"><img alt="WWW" src="/assets/img/layout/www.png" width="35"></a>
             </td>
             <td data-value="2009">2009</td>
             <td><span class="flag-icon flag-icon-de"></span> Germany</td>
@@ -1048,11 +1040,11 @@ layout: default
 
         <tr>
             <td data-value="Runbox">
-                <img alt="Runbox" src="assets/img/provider/runbox.png" width="200" height="70">
+                <img alt="Runbox" src="/assets/img/provider/runbox.png" width="200" height="70">
 
             </td>
             <td>
-                <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://runbox.com" href="https://runbox.com"><img alt="WWW" src="assets/img/layout/www.png" width="35"></a>
+                <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://runbox.com" href="https://runbox.com"><img alt="WWW" src="/assets/img/layout/www.png" width="35"></a>
             </td>
             <td data-value="1999">1999</td>
             <td><span class="flag-icon flag-icon-no"></span> Norway</td>
@@ -1065,10 +1057,10 @@ layout: default
 
         <tr>
             <td data-value="Neomailbox">
-                <img alt="Neomailbox" src="assets/img/provider/Neomailbox.png" width="200" height="70">
+                <img alt="Neomailbox" src="/assets/img/provider/Neomailbox.png" width="200" height="70">
             </td>
             <td>
-                <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.neomailbox.com" href="https://www.neomailbox.com"><img alt="WWW" src="assets/img/layout/www.png" width="35"></a>
+                <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.neomailbox.com" href="https://www.neomailbox.com"><img alt="WWW" src="/assets/img/layout/www.png" width="35"></a>
             </td>
             <td data-value="2003">2003</td>
             <td><span class="flag-icon flag-icon-ch"></span> Switzerland</td>
@@ -1081,10 +1073,10 @@ layout: default
 
         <tr>
             <td data-value="StartMail">
-                <img alt="StartMail" src="assets/img/provider/StartMail.png" width="200" height="70">
+                <img alt="StartMail" src="/assets/img/provider/StartMail.png" width="200" height="70">
             </td>
             <td>
-                <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.startmail.com" href="https://www.startmail.com"><img alt="WWW" src="assets/img/layout/www.png" width="35"></a>
+                <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.startmail.com" href="https://www.startmail.com"><img alt="WWW" src="/assets/img/layout/www.png" width="35"></a>
             </td>
             <td data-value="2014">2014</td>
             <td><span class="flag-icon flag-icon-nl"></span> Netherlands</td>
@@ -1097,10 +1089,10 @@ layout: default
 
         <tr>
             <td data-value="Kolab Now">
-                <img alt="Kolab Now" src="assets/img/provider/Kolab-Now.png" width="200" height="70">
+                <img alt="Kolab Now" src="/assets/img/provider/Kolab-Now.png" width="200" height="70">
             </td>
             <td>
-                <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.kolabnow.com" href="https://www.kolabnow.com"><img alt="WWW" src="assets/img/layout/www.png" width="35"></a>
+                <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.kolabnow.com" href="https://www.kolabnow.com"><img alt="WWW" src="/assets/img/layout/www.png" width="35"></a>
             </td>
             <td data-value="2010">2010</td>
             <td><span class="flag-icon flag-icon-ch"></span> Switzerland</td>
@@ -1125,7 +1117,7 @@ layout: default
 
 
 <h3>Become Your Own Email Provider with Mail-in-a-Box</h3>
-<a href="https://mailinabox.email/"><img src="assets/img/provider/Mail-in-a-Box.png" class="img-fluid float-left" alt="Mail-in-a-Box" style="margin-right:10px;"></a>
+<a href="https://mailinabox.email/"><img src="/assets/img/provider/Mail-in-a-Box.png" class="img-fluid float-left" alt="Mail-in-a-Box" style="margin-right:10px;"></a>
 <p>Take it a step further and get control of your email with this easy-to-deploy mail server in a box. Mail-in-a-Box lets you become your own mail service provider in a few easy steps. It’s sort of like making your own Gmail, but one you control from top
     to bottom. Technically, Mail-in-a-Box turns a fresh cloud computer into a working mail server. But you don’t need to be a technology expert to set it up. <strong>More: <a href="https://mailinabox.email/">https://mailinabox.email/</a></strong></p>
 
@@ -1150,9 +1142,9 @@ layout: default
 <h1 id="clients" class="anchor"><a href="#clients"><i class="fas fa-link anchor-icon"></i></a> Email Clients</h1>
 <div class="row mb-2">
 
-    {% include card.html color="success"
+    {% include components/card.html color="success"
     title="Thunderbird"
-    image="assets/img/tools/Thunderbird.png"
+    image="/assets/img/tools/Thunderbird.png"
     url="https://mozilla.org/thunderbird"
     website="mozilla.org"
     footer="OS: Windows, macOS, Linux, BSD."
@@ -1160,9 +1152,9 @@ layout: default
     %}
 
 
-    {% include card.html color="primary"
+    {% include components/card.html color="primary"
     title="Claws Mail"
-    image="assets/img/tools/Claws-Mail.png"
+    image="/assets/img/tools/Claws-Mail.png"
     url="http://www.claws-mail.org/"
     footer="OS: Windows, macOS, Linux, BSD, Solaris, Unix."
     description="Claws Mail is a free and open source, GTK+-based email and news client. It offers easy configuration and an abundance of features. It is included with Gpg4win, an encryption suite for Windows."
@@ -1176,7 +1168,7 @@ layout: default
 <h3 class="panel-title">Whiteout Mail</h3>
 </div>
 <div class="panel-body">
-<p><img src="assets/img/tools/Whiteout-Mail.png" alt="Whiteout Mail" align="right" style="margin-left:5px;">Whiteout Mail is an open source  email solution with strong end-to-end encryption that is really easy to use and runs on all of your devices. Keeping your emails safe has never been so easy. You can also get a new email address.</p>
+<p><img src="/assets/img/tools/Whiteout-Mail.png" alt="Whiteout Mail" align="right" style="margin-left:5px;">Whiteout Mail is an open source  email solution with strong end-to-end encryption that is really easy to use and runs on all of your devices. Keeping your emails safe has never been so easy. You can also get a new email address.</p>
 <p><a href="https://whiteout.io/"><button type="button" class="btn btn-warning">Website: whiteout.io</button></a></p>
 <p>OS: Chrome, Android, iOS, Web.</p>
 </div>
@@ -1196,18 +1188,18 @@ layout: default
 <h1 id="messaging" class="anchor"><a href="#messaging"><i class="fas fa-link anchor-icon"></i></a> Email Alternatives</h1>
 <div class="row mb-2">
 
-    {% include card.html color="success"
+    {% include components/card.html color="success"
     title="I2P-Bote"
-    image="assets/img/tools/I2P.png"
+    image="/assets/img/tools/I2P.png"
     url="https://i2pbote.xyz/"
     footer="OS: Windows, macOS, Linux, Android, BSD / Solaris."
     description="I2P-Bote is a fully decentralized and distributed email system. It supports different identities and does not expose email headers. Currently (2015), it is still
                 in beta version and can be accessed via its web application interface or IMAP and SMTP. All bote-mails are transparently end-to-end encrypted and, optionally, signed by the sender's private key."
     %}
 
-    {% include card.html color="primary"
+    {% include components/card.html color="primary"
     title="Bitmessage"
-    image="assets/img/tools/Bitmessage.png"
+    image="/assets/img/tools/Bitmessage.png"
     url="https://bitmessage.org/"
     footer="OS: Windows, macOS, Linux."
     description="Bitmessage is a P2P communications protocol used to send encrypted messages to another person or to many subscribers. It is decentralized and trustless,
@@ -1215,9 +1207,9 @@ layout: default
     %}
 
 
-    {% include card.html color="warning"
+    {% include components/card.html color="warning"
     title="RetroShare"
-    image="assets/img/tools/RetroShare.png"
+    image="/assets/img/tools/RetroShare.png"
     url="http://retroshare.net"
     footer="OS: Windows, macOS, Linux."
     description="Retroshare creates encrypted connections to your friends. Nobody can spy on you. Retroshare is completely decentralized. This means there are no central servers. It is entirely Open-Source and free. There are no costs, no ads and no Terms of Service."
@@ -1232,25 +1224,25 @@ layout: default
 
 <div class="row mb-2">
 
-    {% include card.html color="success"
+    {% include components/card.html color="success"
     title="searx"
-    image="assets/img/provider/searx.jpg"
+    image="/assets/img/provider/searx.jpg"
     url="https://searx.me/"
     tor="http://ulrn6sryqaifefld.onion"
     extra_button='<a class="btn btn-success mb-1" href="https://github.com/asciimoo/searx/wiki/Searx-instances">List of Instances</a>'
     description='An <a href="https://github.com/asciimoo/searx">open source</a> metasearch engine, aggregating the results of other search engines while not storing information about its users. No logs, no ads and no tracking.'
     %}
 
-    {% include card.html color="primary"
+    {% include components/card.html color="primary"
     title="StartPage"
-    image="assets/img/provider/StartPage.png"
+    image="/assets/img/provider/StartPage.png"
     url="https://www.startpage.com/"
     description="Google search results, with complete privacy protection. Behind StartPage is a european company that has been obsessive about privacy since 2006."
     %}
 
-    {% include card.html color="warning"
+    {% include components/card.html color="warning"
     title="DuckDuckGo"
-    image="assets/img/provider/DuckDuckGo.jpg"
+    image="/assets/img/provider/DuckDuckGo.jpg"
     url="https://duckduckgo.com/"
     tor="http://3g2upl4pq6kufc4m.onion"
     description='The search engine that doesn\'t track you. Some of DuckDuckGo\'s code is free software hosted at <a href="https://github.com/duckduckgo">GitHub</a>, but the core is proprietary. <span class="flag-icon flag-icon-us"></span> <a href="#ukusa">The company is based in the USA.</a>'
@@ -1283,9 +1275,9 @@ layout: default
 </div>
 <div class="row mb-2">
 
-    {% include card.html color="success"
+    {% include components/card.html color="success"
     title="Mobile: Signal"
-    image="assets/img/tools/Signal.png"
+    image="/assets/img/tools/Signal.png"
     url="https://signal.org"
     footer="OS: Android, iOS, macOS, Windows, Linux"
     description="Signal is a mobile app developed by Open Whisper Systems. The app provides instant messaging, as well as voice and video calling.
@@ -1293,9 +1285,9 @@ layout: default
                 and it doesn't cost anything to use."
     %}
 
-    {% include card.html color="primary"
+    {% include components/card.html color="primary"
     title="Wire"
-    image="assets/img/tools/wire.png"
+    image="/assets/img/tools/wire.png"
     url="https://get.wire.com"
     footer="OS: Android, iOS, macOS, Windows, Linux, Web"
     description="Wire is an app developed by Wire Swiss GmbH.
@@ -1304,9 +1296,9 @@ layout: default
                 <b>Caution:</b> The company keeps a list of all the users you contact until you delete your account."
     %}
 
-    {% include card.html color="warning"
+    {% include components/card.html color="warning"
     title="Desktop: Ricochet"
-    image="assets/img/tools/Ricochet.png"
+    image="/assets/img/tools/Ricochet.png"
     url="https://ricochet.im/"
     footer="OS: Windows, macOS, Linux."
     description='Ricochet uses the <a href="#browser"><i class="fas fa-link"></i> Tor network</a> to reach your contacts without relying on messaging servers. It creates a hidden service, which is used to rendezvous with
@@ -1340,9 +1332,9 @@ layout: default
     <strong>If you are currently using a Video & Voice Messenger like Skype, Viber or Google Hangouts, you should pick an alternative here.</strong>
 </div>
 <div class="row mb-2">
-    {% include card.html color="success"
+    {% include components/card.html color="success"
     title="Mobile: Signal"
-    image="assets/img/tools/Signal.png"
+    image="/assets/img/tools/Signal.png"
     url="https://signal.org"
     footer="OS: Android, iOS, macOS, Windows, Linux"
     description="Signal is a mobile app developed by Open Whisper Systems. The app provides instant messaging, as well as voice and video calling.
@@ -1350,9 +1342,9 @@ layout: default
                 and it doesn't cost anything to use."
     %}
 
-    {% include card.html color="primary"
+    {% include components/card.html color="primary"
     title="Wire"
-    image="assets/img/tools/wire.png"
+    image="/assets/img/tools/wire.png"
     url="https://get.wire.com"
     footer="OS: Android, iOS, macOS, Windows, Linux, Web"
     description="Wire is an app developed by Wire Swiss GmbH.
@@ -1361,9 +1353,9 @@ layout: default
                 <b>Caution:</b> The company keeps a list of all the users you contact until you delete your account."
     %}
 
-    {% include card.html color="warning"
+    {% include components/card.html color="warning"
     title="Linphone"
-    image="assets/img/tools/Linphone.png"
+    image="/assets/img/tools/Linphone.png"
     url="http://www.linphone.org/"
     footer="OS: iOS, Android, Windows Phone, Linux, Windows, macOS, Browser (Web)"
     description="Linphone is an open source SIP Phone and a free voice over IP service, available on mobile and desktop environments and on web browsers. It supports ZRTP for end-to-end encrypted voice and video communication."
@@ -1388,18 +1380,18 @@ layout: default
 
 <h1 id="filesharing" class="anchor"><a href="#filesharing"><i class="fas fa-link anchor-icon"></i></a> File Sharing</h1>
 <div class="row mb-2">
-    {% include card.html color="success"
+    {% include components/card.html color="success"
     title="OnionShare"
-    image="assets/img/tools/OnionShare.png"
+    image="/assets/img/tools/OnionShare.png"
     url="https://onionshare.org/"
     tor="http://elx57ue5uyfplgva.onion/"
     footer="OS: Windows, macOS, Linux."
     description="OnionShare is an open source tool that lets you securely and anonymously share a file of any size. It works by starting a web server, making it accessible as a Tor onion service, and generating an unguessable URL to access and download the files. It doesn't require setting up a server on the internet somewhere or using a third-party filesharing service. You host the file on your own computer and use a Tor onion service to make it temporarily accessible over the internet."
     %}
 
-    {% include card.html color="primary"
+    {% include components/card.html color="primary"
     title="Magic Wormhole"
-    image="assets/img/tools/Magic-Wormhole.png"
+    image="/assets/img/tools/Magic-Wormhole.png"
     url="http://magic-wormhole.io/"
     footer='OS: cross-platform <a href="https://github.com/warner/magic-wormhole#license-compatibility">(python)</a>'
     description='Get things from one computer to another, safely.This package provides a library and a command-line tool named wormhole, which makes it possible to get arbitrary-sized files and directories (or short pieces of text) from one computer to another. The two endpoints are identified by using identical "wormhole codes": in general, the sending machine generates and displays the code, which must then be typed into the receiving machine. The codes are short and human-pronounceable, using a phonetically-distinct wordlist. The receiving side offers tab-completion on the codewords, so usually only a few characters must be typed. Wormhole codes are single-use and do not need to be memorized.'
@@ -1414,9 +1406,9 @@ layout: default
 
 <div class="row mb-4">
 
-    {% include card.html color="success"
+    {% include components/card.html color="success"
     title="Nextcloud - Choose your hoster"
-    image="assets/img/provider/Nextcloud.png"
+    image="/assets/img/provider/Nextcloud.png"
     
     description="Similar functionally to the widely used Dropbox, with the difference being that Nextcloud is free and open-source, and thereby allowing anyone to install and operate it without charge on a private server, with no limits on storage space or the number of connected clients."
     
@@ -1424,9 +1416,9 @@ layout: default
     footer="Client OS: Windows, macOS, Linux, BSD, Unix, iOS, Android, Fire OS. Server: Linux."
     %}
 
-    {% include card.html color="primary"
+    {% include components/card.html color="primary"
     title="Least Authority S4 - For Experts"
-    image="assets/img/provider/S4.jpg"
+    image="/assets/img/provider/S4.jpg"
 
     description="S4 (Simple Secure Storage Service) is Least Authority's verifiably secure off-site backup system for individuals and businesses. 100% client-side encryption and open source transparency. 250GB for $9.95/month or 5TB for $25.95/month. Servers are hosted with Amazon S3 in the US."
 
@@ -1447,27 +1439,27 @@ layout: default
 </div>
 <div class="row mb-2">
 
-    {% include card.html color="success"
+    {% include components/card.html color="success"
     title="Pydio"
-    image="assets/img/tools/Pydio.png"
+    image="/assets/img/tools/Pydio.png"
     url="https://pydio.com/"
     footer="OS: Windows, macOS, Linux, iOS, Android."
     description="Pydio is open source software that turns instantly any server (on-premise, NAS, cloud IaaS or PaaS) into a file sharing platform for your company. It is an alternative
                 to SaaS Boxes and Drives, with more control, safety and privacy, and favorable TCOs."
     %}
 
-    {% include card.html color="primary"
+    {% include components/card.html color="primary"
     title="Tahoe-LAFS"
-    image="assets/img/tools/Tahoe-LAFS.png"
+    image="/assets/img/tools/Tahoe-LAFS.png"
     url="https://www.tahoe-lafs.org/"
     footer="OS: Windows, macOS, Linux."
     description="Tahoe-LAFS is a Free and Open decentralized cloud storage system. It distributes your data across multiple servers. Even if some of the servers fail or are
                 taken over by an attacker, the entire file store continues to function correctly, preserving your privacy and security."
     %}
 
-    {% include card.html color="warning"
+    {% include components/card.html color="warning"
     title="Nextcloud"
-    image="assets/img/provider/Nextcloud.png"
+    image="/assets/img/provider/Nextcloud.png"
     url="https://nextcloud.com/"
     footer="Client OS: Windows, macOS, Linux, BSD, Unix, iOS, Android, Fire OS. Server: Linux."
     description="Similar functionally to the widely used Dropbox, with the difference being that Nextcloud is free and open-source, and thereby allowing anyone to install and operate it without charge on a private server, with no limits on storage space or the number of connected clients."
@@ -1478,9 +1470,9 @@ layout: default
 <h1 id="sync" class="anchor"><a href="#sync"><i class="fas fa-link anchor-icon"></i></a> Secure File Sync Software</h1>
 <div class="row mb-2">
 
-    {% include card.html color="success"
+    {% include components/card.html color="success"
     title="SparkleShare"
-    image="assets/img/tools/SparkleShare.png"
+    image="/assets/img/tools/SparkleShare.png"
     url="http://sparkleshare.org/"
     footer="OS: Windows, macOS, Linux."
     description="SparkleShare creates a special folder on your computer. You can add remotely hosted folders (or \"projects\") to this folder. These projects will be automatically
@@ -1488,9 +1480,9 @@ layout: default
     %}
 
 
-    {% include card.html color="primary"
+    {% include components/card.html color="primary"
     title="Syncthing"
-    image="assets/img/tools/Syncthing.png"
+    image="/assets/img/tools/Syncthing.png"
     url="https://syncthing.net/"
     footer="OS: Windows, macOS, Linux, Android, BSD, Solaris."
     description="Syncthing replaces proprietary sync and cloud services with something open, trustworthy and decentralized. Your data is your data alone and you deserve to
@@ -1512,18 +1504,18 @@ layout: default
 </div>
 <div class="row mb-2">
 
-  {% include card.html color="success"
+  {% include components/card.html color="success"
   title="Bitwarden - Cloud/Self-host"
-  image="assets/img/tools/bitwarden.png"
+  image="/assets/img/tools/bitwarden.png"
   url="https://bitwarden.com/"
   footer="OS: Windows, macOS, Linux, iOS, Android, Web."
   description="Bitwarden is a free and open source password manager. It aims to solve password management problems for individuals, teams, and business organizations. Bitwarden is among the easiest and safest solutions to store all of your logins and passwords while conveniently keeping them synced between all of your devices. If you don't want to use the Bitwarden cloud, you can easily host your own Bitwarden server."
   %}
 
 
-  {% include card.html color="primary"
+  {% include components/card.html color="primary"
   title="KeePass / KeePassX - Local"
-  image="assets/img/tools/KeePass.png"
+  image="/assets/img/tools/KeePass.png"
   url="http://keepass.info/download.html"
   website="keepass.info"
   footer="OS: Windows, macOS, Linux, iOS, Android, BSD."
@@ -1531,9 +1523,9 @@ layout: default
   master key or a key file. The databases are encrypted using the best and most secure encryption algorithms currently known: AES and Twofish. See also: <a href="http://www.keepassx.org/">KeePassX (not regularly updated)</a> and <a href="https://keepassxc.org/">KeePassXC</a>.'
   %}
 
-  {% include card.html color="warning"
+  {% include components/card.html color="warning"
   title="LessPass - Browser"
-  image="assets/img/tools/LessPass.png"
+  image="/assets/img/tools/LessPass.png"
   url="https://lesspass.com/"
   footer="OS: Windows, macOS, Linux, Android."
   description="LessPass is a free and open source password manager that generates unique passwords for websites, email accounts, or anything else based on a master password and information you know. No sync needed. Uses PBKDF2 and SHA-256. It's advised to use the browser addons for more security."
@@ -1568,26 +1560,26 @@ layout: default
 </div>
 <div class="row mb-2">
 
-    {% include card.html color="success"
+    {% include components/card.html color="success"
     title="Nextcloud"
-    image="assets/img/provider/Nextcloud.png"
+    image="/assets/img/provider/Nextcloud.png"
     url="https://nextcloud.com/"
     footer="Client OS: Windows, macOS, Linux, BSD, Unix, iOS, Android, Fire OS. Server: Linux."
     description="NextCloud is a suite of client-server software for creating and using file hosting services. This includes calendar sync via CalDAV and contacts sync via CardDAV. Nextcloud is free and open-source, thereby allowing anyone to install and operate it without charge on a private server."
     %}
 
-    {% include card.html color="primary"
+    {% include components/card.html color="primary"
     title="Email Providers"
-    image="assets/img/misc/email.png"
+    image="/assets/img/misc/email.png"
     url="#email"
     website="Email Providers section"
     footer="OS: depends on email provider."
     description="Many email providers also offer calendar and or contacts sync services. Refer to the <a href=\"#email\">Email Providers section</a> to choose an email provider and check if they also offer calendar and or contacts sync."
     %}
 
-    {% include card.html color="warning"
+    {% include components/card.html color="warning"
     title="EteSync"
-    image="assets/img/provider/etesync.png"
+    image="/assets/img/provider/etesync.png"
     url="https://www.etesync.com/"
     footer="Client OS: Android, Web. Server OS: Linux."
     description="EteSync is a secure, end-to-end encrypted and journaled personal information (e.g. contacts and calendar) cloud synchronization and backup for Android and any OS that supports CalDAV/CardDAV. It costs $14 per year to use, or you can host the server yourself for free."
@@ -1622,9 +1614,9 @@ layout: default
 </div>
 <div class="row mb-2">
 
-    {% include card.html color="success"
+    {% include components/card.html color="success"
     title="VeraCrypt - Disk Encryption"
-    image="assets/img/tools/VeraCrypt.png"
+    image="/assets/img/tools/VeraCrypt.png"
     url="https://veracrypt.fr/"
     footer="OS: Windows, macOS, Linux."
     description="VeraCrypt is a source-available freeware utility used for on-the-fly encryption. It can create a virtual encrypted disk within a file or encrypt a partition
@@ -1632,9 +1624,9 @@ layout: default
                 raised by the initial TrueCrypt code audit have been addressed."
     %}
 
-    {% include card.html color="primary"
+    {% include components/card.html color="primary"
     title="GNU Privacy Guard - Email Encryption"
-    image="assets/img/tools/GnuPG.png"
+    image="/assets/img/tools/GnuPG.png"
     url="https://gpgtools.org/"
     footer="OS: Windows, macOS, Linux, Android, BSD."
     description="GnuPG is a GPL Licensed alternative to the PGP suite of cryptographic software. GnuPG is compliant with RFC 4880, which is the current IETF standards track specification
@@ -1642,9 +1634,9 @@ layout: default
                 government. <a href=\"https://gpgtools.org/\">GPGTools for macOS</a>."
     %}
 
-    {% include card.html color="warning"
+    {% include components/card.html color="warning"
     title="PeaZip - File Archive Encryption"
-    image="assets/img/tools/PeaZip.png"
+    image="/assets/img/tools/PeaZip.png"
     url="http://www.peazip.org/"
     footer="OS: Windows, Linux, BSD."
     description="PeaZip is a free and open-source file manager and file archiver made by Giorgio Tani. It supports its native PEA archive format (featuring compression, multi volume
@@ -1668,27 +1660,27 @@ layout: default
 </div>
 <div class="row mb-2">
 
-    {% include card.html color="success"
+    {% include components/card.html color="success"
     title="Tor Browser"
-    image="assets/img/tools/Tor-Project.png"
+    image="/assets/img/tools/Tor-Project.png"
     url="https://www.torproject.org/"
     tor="http://expyuzz4wqqyqhjn.onion"
     footer='OS: Windows, macOS, Linux, <a href="https://mike.tig.as/onionbrowser/">iOS</a>, <a href="https://www.torproject.org/docs/android.html.en">Android</a>, <a href="https://github.com/torbsd/openbsd-ports">OpenBSD.</a>'
     description="The Tor network is a group of volunteer-operated servers that allows people to improve their privacy and security on the Internet. Tor's users employ this network by connecting through a series of virtual tunnels rather than making a direct connection, thus allowing both organizations and individuals to share information over public networks without compromising their privacy. Tor is an effective censorship circumvention tool."
     %}
 
-    {% include card.html color="primary"
+    {% include components/card.html color="primary"
     title="I2P Anonymous Network"
-    image="assets/img/tools/I2P.png"
+    image="/assets/img/tools/I2P.png"
     url="https://geti2p.net/"
     footer="OS: Windows, macOS, Linux, Android, BSD / Solaris."
     description="The Invisible Internet Project (I2P) is a computer network layer that allows applications to send messages to each other pseudonymously and securely. Uses include anonymous
                 Web surfing, chatting, blogging and file transfers. The software that implements this layer is called an I2P router and a computer running I2P is called an I2P node. The software is free and open source and is published under multiple licenses."
     %}
 
-    {% include card.html color="warning"
+    {% include components/card.html color="warning"
     title="The Freenet Project"
-    image="assets/img/tools/Freenet.png"
+    image="/assets/img/tools/Freenet.png"
     url="https://freenetproject.org/"
     footer="OS: Windows, macOS, Linux."
     description="Freenet is a peer-to-peer platform for censorship-resistant communication. It uses a decentralized distributed data store to keep and deliver information, and
@@ -1713,25 +1705,25 @@ layout: default
 </div>
 <div class="row mb-2">
 
-    {% include card.html color="success"
+    {% include components/card.html color="success"
     title="Mastodon"
-    image="assets/img/tools/Mastodon.png"
+    image="/assets/img/tools/Mastodon.png"
     url="https://joinmastodon.org"
     website="mastodon.social"
     description='Mastodon is a social network based on open web protocols and free, open-source software. It is decentralized like e-mail. It also has the most users, and the most diverse (in terms of interests) users, looks good, and is easy to setup.'
     %}
 
-    {% include card.html color="primary"
+    {% include components/card.html color="primary"
     title="diaspora*"
-    image="assets/img/tools/diaspora.png"
+    image="/assets/img/tools/diaspora.png"
     url="https://diasporafoundation.org/"
     description="diaspora* is based on three key philosophies: Decentralization, freedom and privacy. It is intended to address privacy concerns related to centralized social
                 networks by allowing users set up their own server (or \"pod\") to host content; pods can then interact to share status updates, photographs, and other social data."
     %}
 
-    {% include card.html color="warning"
+    {% include components/card.html color="warning"
     title="Friendica"
-    image="assets/img/tools/Friendica.png"
+    image="/assets/img/tools/Friendica.png"
     url="http://friendi.ca/"
     description="Friendica has an emphasis on extensive privacy settings and easy server installation. It aims to federate with as many other social networks as possible. Currently,
                 Friendica users can integrate contacts from Facebook, Twitter, Diaspora, GNU social, App.net, Pump.io and other services in their social streams."
@@ -1756,25 +1748,25 @@ layout: default
 
 <div class="row mb-2">
 
-    {% include card.html color="success"
+    {% include components/card.html color="success"
     title="Njalla - Domain Registration"
-    image="assets/img/provider/Njalla.png"
+    image="/assets/img/provider/Njalla.png"
     url="https://njal.la/"
     tor="http://njalladnspotetti.onion"
     description="Njalla only needs your email or jabber address in order to register a domain name for you. Created by people from The Pirate Bay and IPredator VPN. Accepted Payments: Bitcoin, Litecoin, Monero, DASH, Bitcoin Cash and PayPal. A privacy-aware domain registration service."
     %}
 
-    {% include card.html color="primary"
+    {% include components/card.html color="primary"
     title="DNSCrypt - Tool"
-    image="assets/img/tools/DNSCrypt.png"
+    image="/assets/img/tools/DNSCrypt.png"
     url="https://dnscrypt.info/"
     description="A protocol for securing communications between a client and a DNS resolver. The DNSCrypt protocol uses high-speed high-security elliptic-curve cryptography and
                 is very similar to DNSCurve, but focuses on securing communications between a client and its first-level resolver."
     %}
 
-    {% include card.html color="warning"
+    {% include components/card.html color="warning"
     title="OpenNIC - Service"
-    image="assets/img/tools/OpenNIC.png"
+    image="/assets/img/tools/OpenNIC.png"
     url="http://www.opennicproject.org/"
     description="OpenNIC is an alternate network information center/alternative DNS root which lists itself as an alternative to ICANN and its registries. Like all alternative
                 root DNS systems, OpenNIC-hosted domains are unreachable to the vast majority of the Internet. Only specific configuration in one's DNS resolver makes these reachable, and very few Internet service providers have this configuration."
@@ -1797,25 +1789,25 @@ layout: default
 
 <div class="row mb-2">
 
-    {% include card.html color="success"
+    {% include components/card.html color="success"
     title="Laverna"
-    image="assets/img/tools/Laverna.png"
+    image="/assets/img/tools/Laverna.png"
     url="https://laverna.cc/"
     footer="OS: Windows, macOS, Linux, Web."
     description="Laverna is a JavaScript note-taking web application with a Markdown editor and encryption support. The application stores all your notes in your browser databases, which is good for security and privacy reasons, because only you have access."
     %}
 
-    {% include card.html color="primary"
+    {% include components/card.html color="primary"
     title="Standard Notes"
-    image="assets/img/tools/StandardNotes.png"
+    image="/assets/img/tools/StandardNotes.png"
     url="https://standardnotes.org/"
     footer="OS: Windows, macOS, Linux, iOS, Android, Web."
     description="Standard Notes is a simple and private notes app that makes your notes easy and available everywhere you are. Features end-to-end encryption on every platform, and a powerful desktop experience with themes and custom editors."
     %}
 
-    {% include card.html color="warning"
+    {% include components/card.html color="warning"
     title="Turtl"
-    image="assets/img/tools/Turtl.png"
+    image="/assets/img/tools/Turtl.png"
     url="https://turtlapp.com/"
     footer="OS: Windows, macOS, Linux, Android."
     description="Turtl lets you take notes, bookmark websites, and store documents for sensitive projects. From sharing passwords with your coworkers to tracking research on an article you're writing, Turtl keeps it all safe from everyone but you and those you share with."
@@ -1834,24 +1826,24 @@ layout: default
 
 <div class="row mb-2">
 
-    {% include card.html color="success"
+    {% include components/card.html color="success"
     title="PrivateBin"
-    image="assets/img/tools/PrivateBin.png"
+    image="/assets/img/tools/PrivateBin.png"
     url="https://privatebin.net/"
     description="PrivateBin is a minimalist, open source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256bit AES. It is the improved version of ZeroBin."
     %}
 
-    {% include card.html color="primary"
+    {% include components/card.html color="primary"
     title="Zerobin.net"
-    image="assets/img/tools/ZeroBin.png"
+    image="/assets/img/tools/ZeroBin.png"
     url="https://zerobin.net/"
     tor="http://zerobinqmdqd236y.onion"
     description="Zerobin is a minimalist, open source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256bit AES."
     %}
 
-    {% include card.html color="warning"
+    {% include components/card.html color="warning"
     title="Ghostbin"
-    image="assets/img/tools/Ghostbin.png"
+    image="/assets/img/tools/Ghostbin.png"
     url="https://ghostbin.com/"
     description="Ghostbin supports encryption, expiration, sessions, grant users to edit your notes and pastes up to one megabyte. You can also create your own account to keep track of your pastes.<br>
     The software is good but ghostbin.com's security is <a href=\"https://github.com/privacytoolsIO/privacytools.io/issues/454\">worrisome</a>."
@@ -1868,26 +1860,26 @@ layout: default
 <h1 id="productivity" class="anchor"><a href="#productivity"><i class="fas fa-link anchor-icon"></i></a> Productivity Tools</h1>
 <div class="row mb-2">
 
-    {% include card.html color="success"
+    {% include components/card.html color="success"
     title="Etherpad"
-    image="assets/img/tools/Etherpad.png"
+    image="/assets/img/tools/Etherpad.png"
     url="http://etherpad.org/"
     footer="OS: Windows, macOS, Linux."
     description="Etherpad is a highly customizable Open Source online editor providing collaborative editing in really real-time. Etherpad allows you to edit documents collaboratively in real-time, much like a live multi-player editor that runs in your browser. Write articles, press releases, to-do lists, etc."
     %}
 
-    {% include card.html color="primary"
+    {% include components/card.html color="primary"
     title="Write.as"
-    image="assets/img/tools/WriteAs.png"
+    image="/assets/img/tools/WriteAs.png"
     url="https://write.as/"
     tor="http://writeas7pm7rcdqg.onion"
     footer="OS: Windows, macOS, Linux, Android, iOS, Chrome OS, Web."
     description="Write.as is a cross-platform, privacy-oriented blogging platform. It's anonymous by default, letting you publish without signing up. If you create an account, it doesn't require any personal information. No ads, distraction-free, and built on a sustainable business model."
     %}
 
-    {% include card.html color="warning"
+    {% include components/card.html color="warning"
     title="ProtectedText"
-    image="assets/img/tools/ProtectedText.png"
+    image="/assets/img/tools/ProtectedText.png"
     url="https://www.protectedtext.com/"
     footer="OS: All Browsers."
     description="ProtectedText is an open source web application. It encrypts and decrypts text in the browser, and password (or its hash) is never sent to the server - so that text can't be decrypted even if requested by authorities. No cookies, no sessions, no registration, no users tracking."
@@ -1910,25 +1902,25 @@ layout: default
 </div>
 <div class="row mb-2">
 
-    {% include card.html color="success"
+    {% include components/card.html color="success"
     title="Qubes OS"
-    image="assets/img/tools/Qubes-OS.png"
+    image="/assets/img/tools/Qubes-OS.png"
     url="https://www.qubes-os.org/"
     tor="http://qubesos4rrrrz6n4.onion"
     description="Qubes is an open-source operating system designed to provide strong security for desktop computing. Qubes is based on Xen, the X Window System, and Linux, and can run most Linux applications and utilize most of the Linux drivers."
     %}
 
-    {% include card.html color="primary"
+    {% include components/card.html color="primary"
     title="Debian"
-    image="assets/img/tools/Debian.png"
+    image="/assets/img/tools/Debian.png"
     url="https://www.debian.org/"
     tor="http://sejnfjrq6szgca7v.onion"
     description="Debian is a Unix-like computer operating system and a Linux distribution that is composed entirely of free and open-source software, most of which is under the GNU General Public License, and packaged by a group of individuals known as the Debian project."
     %}
 
-    {% include card.html color="warning"
+    {% include components/card.html color="warning"
     title="Trisquel"
-    image="assets/img/tools/Trisquel.png"
+    image="/assets/img/tools/Trisquel.png"
     url="http://trisquel.info/"
     description="Trisquel is a Linux-based operating system derived from Ubuntu. The project aims for a fully free software system without proprietary software or firmware and uses Linux-libre, a version of the Linux kernel with the non-free code (binary blobs) removed."
     %}
@@ -1954,24 +1946,24 @@ layout: default
 <h1 id="live_os" class="anchor"><a href="#live_os"><i class="fas fa-link anchor-icon"></i></a> Live CD Operating Systems</h1>
 <div class="row mb-2">
 
-    {% include card.html color="success"
+    {% include components/card.html color="success"
     title="Tails"
-    image="assets/img/tools/Tails.png"
+    image="/assets/img/tools/Tails.png"
     url="https://tails.boum.org/"
     description="Tails is a live operating system, that starts on almost any computer from a DVD, USB stick, or SD card. It aims at preserving privacy and anonymity, and helps to: Use the Internet anonymously and circumvent censorship; Internet connections go through the Tor network; leave no trace on the computer; use state-of-the-art cryptographic tools to encrypt files, emails and instant messaging."
     %}
 
-    {% include card.html color="primary"
+    {% include components/card.html color="primary"
     title="KNOPPIX"
-    image="assets/img/tools/KNOPPIX.png"
+    image="/assets/img/tools/KNOPPIX.png"
     url="http://www.knopper.net/knoppix/"
     website="knopper.net"
     description="Knoppix is an operating system based on Debian designed to be run directly from a CD / DVD (Live CD) or a USB flash drive (Live USB), one of the first of its kind for any operating system. When starting a program, it is loaded from the removable medium and decompressed into a RAM drive. The decompression is transparent and on-the-fly."
     %}
 
-    {% include card.html color="warning"
+    {% include components/card.html color="warning"
     title="Puppy Linux"
-    image="assets/img/tools/Puppy-Linux.png"
+    image="/assets/img/tools/Puppy-Linux.png"
     url="http://puppylinux.org/"
     description="Puppy Linux operating system is a lightweight Linux distribution that focuses on ease of use and minimal memory footprint. The entire system can be run from RAM with current versions generally taking up about 210 MB, allowing the boot medium to be removed after the operating system has started."
     %}
@@ -1989,16 +1981,16 @@ layout: default
 </div>
 <div class="row mb-2">
 
-    {% include card.html color="success"
+    {% include components/card.html color="success"
     title="LineageOS"
-    image="assets/img/tools/LineageOS.png"
+    image="/assets/img/tools/LineageOS.png"
     url="https://www.lineageos.org/"
     description="LineageOS is a free and open-source operating system for smartphones and tablets, based on the official releases of Android by Google. It is the continuation of the CyanogenMod project."
     %}
 
-    {% include card.html color="primary"
+    {% include components/card.html color="primary"
     title="Sailfish OS"
-    image="assets/img/tools/Sailfish-OS.png"
+    image="/assets/img/tools/Sailfish-OS.png"
     url="https://sailfishos.org/"
     description="Sailfish OS is a mobile operating system combining the Linux kernel for a particular hardware platform use, the open-source Mer core middleware, a proprietary UI contributed by Jolla, and other third-party components."
     %}
@@ -2019,7 +2011,7 @@ layout: default
 </div>
 
 <h3>Control your traffic with "NetGuard"</h3>
-<img src="assets/img/addons/netguard.png" class="img-fluid float-left" alt="NetGuard" style="margin-right:30px;">
+<img src="/assets/img/addons/netguard.png" class="img-fluid float-left" alt="NetGuard" style="margin-right:30px;">
 <p><strong>NetGuard</strong> provides simple and advanced ways to block certain apps' access to the internet without the help of root privileges. Applications and addresses can individually be allowed or denied access to your Wi-Fi and/or mobile connection, allowing you to control which apps are able to call home or not.
 <a href="https://www.netguard.me/">https://www.netguard.me/</a></p>
 <br>
@@ -2028,7 +2020,7 @@ layout: default
 </div>
 
 <h3>Manage your apps' permissions with XPrivacyLua</h3>
-<img src="assets/img/addons/xprivacylua.png" class="img-fluid float-left" alt="XPrivacyLua" style="margin-right:30px;">
+<img src="/assets/img/addons/xprivacylua.png" class="img-fluid float-left" alt="XPrivacyLua" style="margin-right:30px;">
 <p>Revoking Android permissions from apps often let apps crash or malfunction. <strong>XPrivacyLua</strong> solves this by feeding apps fake data instead of real data.
 
 <a href="https://lua.xprivacy.eu/">https://lua.xprivacy.eu/</a></p>
@@ -2040,23 +2032,23 @@ layout: default
 <h1 id="firmware" class="anchor"><a href="#firmware"><i class="fas fa-link anchor-icon"></i></a> Open Source Router Firmware</h1>
 <div class="row mb-2">
 
-    {% include card.html color="success"
+    {% include components/card.html color="success"
     title="OpenWrt"
-    image="assets/img/tools/OpenWrt.png"
+    image="/assets/img/tools/OpenWrt.png"
     url="https://openwrt.org/"
     description="OpenWrt is an operating system (in particular, an embedded operating system) based on the Linux kernel, primarily used on embedded devices to route network traffic. The main components are the Linux kernel, util-linux, uClibc and BusyBox. All components have been optimized for size, to be small enough for fitting into the limited storage and memory available in home routers."
     %}
 
-    {% include card.html color="primary"
+    {% include components/card.html color="primary"
     title="pfSense"
-    image="assets/img/tools/pfSense.png"
+    image="/assets/img/tools/pfSense.png"
     url="https://pfsense.org/"
     description="pfSense is an open source firewall/router computer software distribution based on FreeBSD. It is installed on a computer to make a dedicated firewall/router for a network and is noted for its reliability and offering features often only found in expensive commercial firewalls. pfSense is commonly deployed as a perimeter firewall, router, wireless access point, DHCP server, DNS server, and as a VPN endpoint."
     %}
 
-    {% include card.html color="warning"
+    {% include components/card.html color="warning"
     title="LibreCMC"
-    image="assets/img/tools/LibreCMC.png"
+    image="/assets/img/tools/LibreCMC.png"
     url="https://librecmc.org"
     description="LibreCMC is a GNU/Linux-libre distribution for computers with minimal resources, such as the Ben Nanonote, ath9k-based Wi-Fi routers, and other hardware with emphasis on free software. The project's current goal is to aim for compliance with the GNU Free System Distribution Guidelines (GNU FSDG) and ensure that the project continues to meet these requirements set forth by the Free Software Foundation (FSF).."
     %}
@@ -2076,7 +2068,7 @@ layout: default
     <strong>Microsoft introduced a lot of new features in Windows 10 such as Cortana. However, most of them are violating your privacy.</strong>
 </div>
 
-<img src="assets/img/layout/Windows-10-Privacy.jpg" class="img-fluid float-right" alt="Windows 10 Privacy" style="margin-left:10px;">
+<img src="/assets/img/layout/Windows-10-Privacy.jpg" class="img-fluid float-right" alt="Windows 10 Privacy" style="margin-left:10px;">
 
 <ol>
     <li><strong>Data syncing is by default enabled.</strong>
@@ -2301,25 +2293,25 @@ This tool uses some known methods that attempt to disable major tracking feature
 
 <div class="row">
 
-    {% include card.html color="success"
+    {% include components/card.html color="success"
     title="Make suggestions on Reddit"
-    image="assets/img/icons/reddit.png"
+    image="/assets/img/icons/reddit.png"
     url="https://www.reddit.com/r/privacytoolsIO/"
     website="reddit.com"
     description='Our active community subreddit to stay up to date or to make suggestions. Join now! <a href="#" data-toggle="tooltip" data-placement="top" data-original-title="Warrant Canary has been removed by reddit">(Info)</a>'
     %}
 
-    {% include card.html color="primary"
+    {% include components/card.html color="primary"
     title="Follow on Twitter"
-    image="assets/img/icons/twitter.png"
+    image="/assets/img/icons/twitter.png"
     url="https://twitter.com/privacytoolsIO"
     website="twitter.com"
     description="Get the latest privacy-related updates from our Twitter Feed. Follow now!"
     %}
 
-    {% include card.html color="warning"
+    {% include components/card.html color="warning"
     title="Develop on GitHub"
-    image="assets/img/icons/github.png"
+    image="/assets/img/icons/github.png"
     url="https://github.com/privacytoolsIO/privacytools.io"
     website="github.com"
     description="The complete website source code is available on GitHub. Join our developer team!"
@@ -2339,11 +2331,11 @@ This tool uses some known methods that attempt to disable major tracking feature
     <p>
 
         <a href="http://www.wtfpl.net/" data-toggle="tooltip" data-placement="top" style="margin-right:30px;" data-original-title="This work is free. You can redistribute it and/or modify it under the terms of the ''Do What The Fuck You Want To Public License'', Version 2,
-as published by Sam Hocevar."><img alt="WTFPL" src="assets/img/layout/wtfpl.png" style="margin-right:15px;">WTFPL</a>
+as published by Sam Hocevar."><img alt="WTFPL" src="/assets/img/layout/wtfpl.png" style="margin-right:15px;">WTFPL</a>
 
-        <a href="http://www.kopimi.com/" data-toggle="tooltip" data-placement="top" style="margin-right:30px;" data-original-title="kopimi (copyme), symbol showing that you want to be copied. use kopimi in your own fancy. kopimi may be put on homepages or blogs, in books, in software, as sound logos in music or whatever."><img alt="kopimi" src="assets/img/layout/kopimi.png" style="margin-right:15px;">kopimi (copyme)</a>
+        <a href="http://www.kopimi.com/" data-toggle="tooltip" data-placement="top" style="margin-right:30px;" data-original-title="kopimi (copyme), symbol showing that you want to be copied. use kopimi in your own fancy. kopimi may be put on homepages or blogs, in books, in software, as sound logos in music or whatever."><img alt="kopimi" src="/assets/img/layout/kopimi.png" style="margin-right:15px;">kopimi (copyme)</a>
 
-        <a href="donate.html" data-toggle="tooltip" data-placement="top" data-original-title="Please support this project by donating Bitcoins. We are ad free and not affiliated with any providers. Your donation will cover our cost for server and domain."><img alt="Bitcoin" src="assets/img/layout/Bitcoin.png" style="margin-right:15px;">Donate:</a> <span style="margin-left:15px;">1N4bKCx3kpvUTBhsvbmthPDssN8ATPEhgt</span> or use <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5G9CBU8P6F4K2">PayPal.</a>
+        <a href="donate.html" data-toggle="tooltip" data-placement="top" data-original-title="Please support this project by donating Bitcoins. We are ad free and not affiliated with any providers. Your donation will cover our cost for server and domain."><img alt="Bitcoin" src="/assets/img/layout/Bitcoin.png" style="margin-right:15px;">Donate:</a> <span style="margin-left:15px;">1N4bKCx3kpvUTBhsvbmthPDssN8ATPEhgt</span> or use <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=5G9CBU8P6F4K2">PayPal.</a>
 
     </p>
 
