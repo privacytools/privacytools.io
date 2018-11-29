@@ -1,4 +1,4 @@
-<!-- PLEASE READ OUR [CONTRIBUTING GUIDELINES](https://github.com/privacytoolsIO/privacytools.io#contributing-guidelines) BEFORE SUBMITTING -->
+<!-- PLEASE READ OUR [CONTRIBUTING GUIDELINES](https://github.com/privacytoolsIO/privacytools.io/blob/master/.github/CONTRIBUTING.md) BEFORE SUBMITTING -->
 
 ## Description
 
