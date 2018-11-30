@@ -1,0 +1,2 @@
+{% assign lang = site.data.lang.[include.lang].[include.for] %}
+{% assign en = site.data.lang.en.[include.for] %}
