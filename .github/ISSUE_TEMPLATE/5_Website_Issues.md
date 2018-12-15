@@ -1,6 +1,8 @@
 ---
-name: "🌐 Website Issues"
-about: Report issues with the website.
+name: "🌐 Website Issue"
+about: Report an issue with the website.
+title: "🌐 Website Issue | "
+labels: 🌐 website issue, high priority
 ---
 
 ## Description

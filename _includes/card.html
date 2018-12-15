@@ -15,14 +15,21 @@
                     {% assign label_data = label | split:":" %}
                     {% assign color = label_data[0] %}
                     {% assign text = label_data[1] %}
-                    <span class="badge badge-{{color}}">{{text}}</span>
+                    {% assign tooltip = label_data[2] | default: "" %}
+                    {% assign help_icon = '<i class="far fa-question-circle"></i>' %}
+                    <span class="badge badge-{{color}}" {% if tooltip %} data-toggle="tooltip" title="{{ tooltip }}">{{text}} {{ help_icon
+                        }}
+                        {% else %}
+                        >{{text}}
+                        {% endif %}
+                    </span>
                 {% endfor %}
             </div>
             {% endif %}
             <p><img src="{{include.image}}" alt="{{include.title}}" class="panel-item">{{include.description}}</p>
             <div>
             <p>
-                <a class="btn btn-{{include.color}} mb-1" href="{{include.url}}">Website: 
+                <a class="btn btn-{{include.color}} mb-1" href="{{include.url}}">Website:
                     {% if include.website %}
                         {{include.website}}
                     {% else %}
