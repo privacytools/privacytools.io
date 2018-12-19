@@ -3,4 +3,7 @@ description: You are being watched! Knowledge, encryption and privacy tools to p
 url: "https://privacytools.io"
 sass:
   style: compressed
-
+plugins:
+  - jekyll-sitemap
+sitemap:
+file: "/sitemap.xml"
