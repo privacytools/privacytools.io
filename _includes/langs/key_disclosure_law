@@ -4,4 +4,4 @@
 {% assign apply = include.lang.apply | default: include.en.apply %}
 {% assign may_apply = include.lang.may_apply | default: include.en.may_apply %}
 {% assign dont_apply = include.lang.dont_apply | default: include.en.dont_apply %}
-{% assign note = include.lang.note | default: include.en.note %}
+{% assign footnote = include.lang.footnote | default: include.en.footnote %}

@@ -1,0 +1,1 @@
+{% assign title = include.lang.title | default: include.en.title %}

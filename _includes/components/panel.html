@@ -10,7 +10,7 @@
         {% if include.list %}
         <div class="card-body">
             <ol class="card-ol">
-                {{ include.list | markdownify | replace:"&lt;":"<" | replace:"&gt;":">" }}
+                {{ include.list | markdownify | replace:"&lt;":"<" | replace:"&gt;":">" | remove:"<ul>" | remove:"</ul>" }}
             </ol>
         </div>
         {% else %}
