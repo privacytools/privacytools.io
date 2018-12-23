@@ -11,7 +11,7 @@
   <footer class="blockquote-footer">Glenn Greenwald in <cite title="{{ talk_name }} - TED Talk"><a href="https://www.ted.com/talks/glenn_greenwald_why_privacy_matters">{{ talk_name }} - TED Talk</a></cite></footer>
 </blockquote>
 
-#### Read also:
+#### {{ read_also }}:
 
 - [Nothing to hide argument (Wikipedia)](https://en.wikipedia.org/wiki/Nothing_to_hide_argument)
 - [How do you counter the "I have nothing to hide?" argument? (reddit.com)](https://www.reddit.com/r/privacy/comments/3hynvp/how_do_you_counter_the_i_have_nothing_to_hide/)

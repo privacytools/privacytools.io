@@ -1,0 +1,5 @@
+{% assign language = site.data.lang.[include.lang].general %}
+{% assign english = site.data.lang.en.general %}
+
+{% assign subheading = language.subheading | default: english.subheading %}
+{% assign read_also = language['Read also'] | default: english['Read also'] %}

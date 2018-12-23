@@ -1,0 +1,5 @@
+{% capture md %}
+{% include content/{{include.name}}.md lang=page.lang section=include.name %}
+{% endcapture %}
+
+{{ md | markdownify }}
