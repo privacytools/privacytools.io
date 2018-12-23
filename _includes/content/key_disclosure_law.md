@@ -47,7 +47,7 @@
 
 </div>
 
-\* ({{ note }})
+\* ({{ footnote }})
 
 ### {{ related_information }}
 - <a href="https://en.wikipedia.org/wiki/Key_disclosure_law">Wikipedia page on key disclosure law</a>
