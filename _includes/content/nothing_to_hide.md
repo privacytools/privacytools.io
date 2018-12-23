@@ -1,4 +1,4 @@
-{% include _configure section=include.section lang=include.lang %}
+{% include section_config section=include.section lang=include.lang %}
 
 <div class="page-header">
   <h1>{{ title }}</h1>
