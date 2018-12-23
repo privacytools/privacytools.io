@@ -1,0 +1,5 @@
+{% assign title = include.lang.title | default: include.en.title %}
+{% assign description = include.lang.description | default: include.en.description %}
+{% assign five_eyes = include.lang.five_eyes | default: include.en.five_eyes %}
+{% assign nine_eyes = include.lang.nine_eyes | default: include.en.nine_eyes %}
+{% assign fourteen_eyes = include.lang.fourteen_eyes | default: include.en.fourteen_eyes %}

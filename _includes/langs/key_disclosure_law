@@ -1,0 +1,7 @@
+{% assign title = include.lang.title | default: include.en.title %}
+{% assign subheading = include.lang.subheading | default: include.en.subheading %}
+{% assign description = include.lang.description | default: include.en.description %}
+{% assign apply = include.lang.apply | default: include.en.apply %}
+{% assign may_apply = include.lang.may_apply | default: include.en.may_apply %}
+{% assign dont_apply = include.lang.dont_apply | default: include.en.dont_apply %}
+{% assign note = include.lang.note | default: include.en.note %}

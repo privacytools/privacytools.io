@@ -1,48 +1,40 @@
-<h1 id="ukusa" class="anchor"><a href="#ukusa"><i class="fas fa-link anchor-icon"></i></a> Global Mass Surveillance - The Fourteen Eyes</h1>
+{% include section_config section=include.section lang=include.lang %}
 
+<h1 id="ukusa" class="anchor"><a href="#ukusa"><i class="fas fa-link anchor-icon"></i></a> {{ title }} </h1>
 <img src="/assets/img/layout/UKUSA.png" class="img-fluid float-right" alt="UKUSA Agreement" style="margin-left:10px;">
-
-<p>The UKUSA Agreement is an agreement between the United Kingdom, United States, Australia, Canada, and New Zealand to cooperatively collect, analyze, and share intelligence. Members of this group, known as the <a href="https://www.giswatch.org/en/communications-surveillance/unmasking-five-eyes-global-surveillance-practices">Five Eyes</a>,
-  focus on gathering and analyzing intelligence from different parts of the world. While Five Eyes countries have agreed to <a href="https://www.pbs.org/newshour/world/an-exclusive-club-the-five-countries-that-dont-spy-on-each-other">not spy on each other</a>			as adversaries, leaks by Snowden have revealed that some Five Eyes members monitor each other’s citizens and <a href="https://www.theguardian.com/uk/2013/jun/21/gchq-cables-secret-world-communications-nsa">share intelligence</a> to <a href="https://www.theguardian.com/politics/2013/jun/10/nsa-offers-intelligence-british-counterparts-blunkett">avoid breaking domestic laws</a>			that prohibit them from spying on their own citizens. The Five Eyes alliance also cooperates with groups of third-party countries to share intelligence (forming the Nine Eyes and Fourteen Eyes), however Five Eyes and third-party countries can and do
-  spy on each other.</p>
+{{ description }}
 
 <!-- chart -->
 <div class="row mb-3">
   {% include components/panel.html color="danger"
-  title="Five Eyes"
-  body='
-  <ol class="card-ol">
-    <li>Australia <div class="float-right"><span class="flag-icon flag-icon-au"></span></div></li>
-    <li>Canada <div class="float-right"><span class="flag-icon flag-icon-ca"></span></div></li>
-    <li>New Zealand <div class="float-right"><span class="flag-icon flag-icon-nz"></span></div></li>
-    <li>United Kingdom <div class="float-right"><span class="flag-icon flag-icon-gb"></span></div></li>
-    <li>United States of America <div class="float-right"><span class="flag-icon flag-icon-us"></span></div></li>
-  </ol>
+  title=five_eyes
+  list='
+  - Australia <div class="float-right"><span class="flag-icon flag-icon-au"></span></div>
+  - Canada <div class="float-right"><span class="flag-icon flag-icon-ca"></span></div>
+  - New Zealand <div class="float-right"><span class="flag-icon flag-icon-nz"></span></div>
+  - United Kingdom <div class="float-right"><span class="flag-icon flag-icon-gb"></span></div>
+  - United States of America <div class="float-right"><span class="flag-icon flag-icon-us"></span></div>
   '
   %}
 
   {% include components/panel.html color="warning"
-  title="Nine Eyes"
-  body='
-  <ol class="card-ol">
-    <li>Denmark <div class="float-right"><span class="flag-icon flag-icon-dk"></span></div></li>
-    <li>France <div class="float-right"><span class="flag-icon flag-icon-fr"></span></div></li>
-    <li>Netherlands <div class="float-right"><span class="flag-icon flag-icon-nl"></span></div></li>
-    <li>Norway <div class="float-right"><span class="flag-icon flag-icon-no"></span></div></li>
-  </ol>
+  title=nine_eyes
+  list='
+  - Denmark <div class="float-right"><span class="flag-icon flag-icon-dk"></span></div>
+  - France <div class="float-right"><span class="flag-icon flag-icon-fr"></span></div>
+  - Netherlands <div class="float-right"><span class="flag-icon flag-icon-nl"></span></div>
+  - Norway <div class="float-right"><span class="flag-icon flag-icon-no"></span></div>
   '
   %}
 
   {% include components/panel.html color="secondary"
-  title="Fourteen Eyes"
-  body='
-  <ol class="card-ol">
-    <li>Belgium <div class="float-right"><span class="flag-icon flag-icon-be"></span></div></li>
-    <li>Germany <div class="float-right"><span class="flag-icon flag-icon-de"></span></div></li>
-    <li>Italy <div class="float-right"><span class="flag-icon flag-icon-it"></span></div></li>
-    <li>Spain <div class="float-right"><span class="flag-icon flag-icon-es"></span></div></li>
-    <li>Sweden <div class="float-right"><span class="flag-icon flag-icon-se"></span></div></li>
-  </ol>
+  title=fourteen_eyes
+  list='
+  - Belgium <div class="float-right"><span class="flag-icon flag-icon-be"></span></div>
+  - Germany <div class="float-right"><span class="flag-icon flag-icon-de"></span></div>
+  - Italy <div class="float-right"><span class="flag-icon flag-icon-it"></span></div>
+  - Spain <div class="float-right"><span class="flag-icon flag-icon-es"></span></div>
+  - Sweden <div class="float-right"><span class="flag-icon flag-icon-se"></span></div>
   '
   %}
 </div>

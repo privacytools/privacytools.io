@@ -3,3 +3,4 @@
 
 {% assign subheading = language.subheading | default: english.subheading %}
 {% assign read_also = language['Read also'] | default: english['Read also'] %}
+{% assign related_information = language['Related Information'] | default: english['Related Information'] %}

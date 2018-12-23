@@ -5,10 +5,18 @@
         {% else %}
         <div class="card-header text-white bg-{{include.color}}">
         {% endif %}
-        <h3 class="h5">{{include.title}}</h3>
+        <h3 class="h5">{{ include.title }}</h3>
         </div>
+        {% if include.list %}
         <div class="card-body">
-            {{include.body}}
+            <ol class="card-ol">
+                {{ include.list | markdownify | replace:"&lt;":"<" | replace:"&gt;":">" }}
+            </ol>
         </div>
+        {% else %}
+        <div class="card-body">
+            {{ include.body }}
+        </div>
+        {% endif %}
     </div>
 </div>
