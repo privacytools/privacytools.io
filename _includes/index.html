@@ -1155,9 +1155,9 @@
 
   <div class="alert alert-warning" role="alert">
     <strong>If you are currently using an Instant Messenger like WhatsApp, Viber, LINE, Telegram or Threema, you should pick an alternative here.</strong>
+
   </div>
   <div class="row mb-2">
-
     {% include components/card.html color="success"
     title="Mobile: Signal"
     image="/assets/img/tools/Signal.png"
@@ -1168,15 +1168,14 @@
     and it doesn't cost anything to use."
     %}
 
+
     {% include components/card.html color="primary"
-    title="Wire"
-    image="/assets/img/tools/wire.png"
-    url="https://get.wire.com"
+    title="Riot.im"
+    image="/assets/img/tools/riot.png"
+    url="https://riot.im/"
     footer="OS: Android, iOS, macOS, Windows, Linux, Web"
-    description="Wire is an app developed by Wire Swiss GmbH.
-    The Wire app allows users to exchange end-to-end encrypted instant messages, as well as make voice and video calls. Wire is free and open source, enabling anyone to verify its security by auditing the code.
-    The development team is backed by Iconical and they will monetize in the future with premium features/services.<br>
-    <b>Caution:</b> The company keeps a list of all the users you contact until you delete your account."
+    labels="warning:beta:The software is currently in beta and the mobile client states 'End-to-end encryption is in beta and may not be reliable. You should not yet trust it to secure data.'"
+    description='Riot.im is a decentralized free-software chatting application based on the <a href="https://matrix.org/">Matrix</a> protocol, a recent open protocol for real-time communication offering E2E encryption. It can bridge other communications via others protocols such as IRC too.'
     %}
 
     {% include components/card.html color="warning"
@@ -1196,16 +1195,16 @@
     <li><a href="https://crypto.cat/">Cryptocat</a> - Encrypted open source messenger. Supports file sharing and multiple devices. Available for Windows, Linux and macOS.</li>
     <li><a href="https://kontalk.org/">Kontalk</a> - A community-driven instant messaging network. Supports end-to-end encryption. Both client-to-server and server-to-server channels are fully encrypted.</li>
     <li><a href="https://play.google.com/store/apps/details?id=eu.siacs.conversations">Conversations</a> - An open source Jabber/XMPP client for Android 4.4+ smartphones. Supports end-to-end encryption with either OMEMO or openPGP. There is also <a href="https://play.google.com/store/apps/details?id=eu.siacs.conversations.legacy">Conversations Legacy</a> which still supports OTR.</li>
+    <li><a href="https://get.wire.com/">Wire</a> <span class="badge badge-warning" data-toggle="tooltip" title="Wire stores metadata such as your contacts in plaintext (= not encrypted).">experimental <i class="far fa-question-circle"></i> (<a href="https://motherboard.vice.com/en_us/article/secure-messaging-app-wire-stores-everyone-youve-ever-contacted-in-plain-text">more info</a>)</span> - A free software End-to-End Encrypted chating application that supports instant messaging, voice, and video calls.</li>
     <li><a href="https://en.wikipedia.org/wiki/Off-the-Record_Messaging#Client_support">List of OTR Clients - Wikipedia</a></li>
-    <li><a href="https://matrix.org/">The Matrix protocol</a> and it's various clients such as <a href="https://about.riot.im/">Riot.im</a>. A recent open protocol for real-time communication.</li>
-  </ul>
+</ul>
+
 
   <h3>Related Information</h3>
   <ul>
     <li><a href="https://motherboard.vice.com/read/ricochet-encrypted-messenger-tackles-metadata-problem-head-on">Ricochet, the Messenger That Beats Metadata, Passes Security Audit | Motherboard</a></li>
     <li><a href="https://firstlook.org/theintercept/2015/07/14/communicating-secret-watched/">Chatting in Secret While We're All Being Watched - firstlook.org</a></li>
     <li><a href="https://signal.org/android/apk/">Advanced users with special needs can download the Signal APK directly. Most users should not do this under normal circumstances.</a></li>
-    <li><a href="https://motherboard.vice.com/en_us/article/secure-messaging-app-wire-stores-everyone-youve-ever-contacted-in-plain-text">Secure Messaging App Wire Stores Everyone You've Ever Contacted in Plain Text | Motherboard</a></li>
     <li><a href="https://security.stackexchange.com/a/49802">Telegram encryption isn't secure.</a></li>
     <li><a href="https://www.reddit.com/r/privacytoolsIO/comments/6r655i/telegram_isnt_safe/">Telegram is marketed as a private messenger, but it's not private by default.</a></li>
   </ul>
@@ -1344,7 +1343,7 @@
 
   </div>
 
-    
+
   <h1 id="host" class="anchor"><a href="#host"><i class="fas fa-link anchor-icon"></i></a> Secure Hosting Provider</h1>
   <div class="row mb-2">
     {% include components/card.html color="success"
@@ -1359,7 +1358,7 @@
     url="https://datacell.is/"
     description="DataCell is a data center providing secure colocating in Switzerland and Iceland."
     %}
-    
+
     {% include components/card.html color="warning"
     title="VPS/Web Hosting: Orange Website"
     image="/assets/img/tools/orange_hosting.png"
@@ -1368,7 +1367,7 @@
     %}
   </div>
 
-    
+
   <h1 id="sync" class="anchor"><a href="#sync"><i class="fas fa-link anchor-icon"></i></a> Secure File Sync Software</h1>
   <div class="row mb-2">
 
@@ -1768,7 +1767,7 @@
     <li><a href="https://crypt.ee/">Cryptee</a> - Free privacy-friendly service for storing Documents, files and Photos</li>
     <li><a href="https://ethercalc.net/">EtherCalc</a> - EtherCalc is a web spreadsheet. Data is saved on the web, and people can edit the same document at the same time. Changes are instantly reflected on all screens. Work together on inventories, survey forms, list management, brainstorming sessions.</li>
     <li><a href="https://disroot.org/">disroot.org</a> - Free privacy-friendly service that offers Etherpad, EtherCalc and PrivateBin.</li>
-    <li><a href="https://dudle.inf.tu-dresden.de/privacy/">dudle</a> - An online scheduling application, which is free and OpenSource. Schedule meetings or make small online polls. No email collection or the need of registration.</li>
+    <li><a href="https://dudle.inf.tu-dresden.de/anonymous/">dudle</a> - An online scheduling application, which is free and OpenSource. Schedule meetings or make small online polls. No email collection or the need of registration.</li>
     <li><a href="https://www.libreoffice.org/">LibreOffice</a> - Free and open source office suite</li>
   </ul>
   <h1 id="os" class="anchor"><a href="#os"><i class="fas fa-link anchor-icon"></i></a> PC Operating Systems</h1>
