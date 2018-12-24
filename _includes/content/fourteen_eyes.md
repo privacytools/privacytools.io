@@ -1,4 +1,4 @@
-{% include section_config section=include.section lang=include.lang %}
+{% include section_config %}
 
 <h1 id="ukusa" class="anchor"><a href="#ukusa"><i class="fas fa-link anchor-icon"></i></a> {{ lang.title }} </h1>
 <img src="/assets/img/layout/UKUSA.png" class="img-fluid float-right" alt="UKUSA Agreement" style="margin-left:10px;">

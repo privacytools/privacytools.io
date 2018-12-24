@@ -1,4 +1,4 @@
-{% include section_config section=include.section lang=include.lang %}
+{% include section_config %}
 
 <h3 id="usa" class="anchor">{{ lang.title }}</h3>
 
