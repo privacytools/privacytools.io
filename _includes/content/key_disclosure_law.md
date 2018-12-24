@@ -1,4 +1,4 @@
-{% include section_config %}
+{% include language %}
 
 <h1 id="kdl" class="anchor"><a href="#kdl"><i class="fas fa-link anchor-icon"></i></a> {{ lang.title }}</h1>
 ### {{ lang.subheading }}
