@@ -1,3 +1,0 @@
-{% assign title = include.lang.title | default: include.en.title %}
-{% assign quote = include.lang.quote | default: include.en.quote %}
-{% assign talk_name = include.lang.talk_name | default: include.en.talk_name %}

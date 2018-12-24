@@ -1,12 +1,12 @@
 {% include section_config section=include.section lang=include.lang %}
 
-<h3 id="usa" class="anchor">{{ title }}</h3>
+<h3 id="usa" class="anchor">{{ lang.title }}</h3>
 
 <img src="/assets/img/layout/USA.png" class="img-fluid float-right" alt="USA" style="margin-left:10px;">
 
-{{ description }}
+{{ lang.description }}
 
-### {{ related_information }}
+### {{ general.related_information }}
 
 - [Avoid all US and UK based services](https://www.bestvpn.com/the-ultimate-privacy-guide/#avoidus)
 - [Proof that warrant canaries work based on the surespot example.](https://en.wikipedia.org/wiki/Surespot#History)

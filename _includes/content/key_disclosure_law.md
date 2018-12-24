@@ -1,15 +1,15 @@
 {% include section_config section=include.section lang=include.lang %}
 
-<h1 id="kdl" class="anchor"><a href="#kdl"><i class="fas fa-link anchor-icon"></i></a> {{ title }}</h1>
-### {{ subheading }}
+<h1 id="kdl" class="anchor"><a href="#kdl"><i class="fas fa-link anchor-icon"></i></a> {{ lang.title }}</h1>
+### {{ lang.subheading }}
 
-{{ description }}
+{{ lang.description }}
 
 <!-- Chart of key disclosure law in some countries -->
 <div class="row mb-2">
 
   {% include components/panel.html color="danger"
-  title=apply
+  title=lang.apply
   list='
  - [Antigua and Barbuda](https://en.wikipedia.org/wiki/Key_disclosure_law#Antigua_and_Barbuda) <div class="float-right"><span class="flag-icon flag-icon-ag"></span></div>
  - [Australia](https://en.wikipedia.org/wiki/Key_disclosure_law#Australia) <div class="float-right"><span class="flag-icon flag-icon-au"></span></div>
@@ -25,7 +25,7 @@
   %}
 
   {% include components/panel.html color="warning"
-  title=may_apply
+  title=lang.may_apply
   list='
  - [Belgium *](https://en.wikipedia.org/wiki/Key_disclosure_law#Belgium) <div class="float-right"><span class="flag-icon flag-icon-be"></span></div>
  - [Finland *](https://en.wikipedia.org/wiki/Key_disclosure_law#Finland) <div class="float-right"><span class="flag-icon flag-icon-fi"></span></div>
@@ -36,7 +36,7 @@
   %}
 
   {% include components/panel.html color="success"
-  title=dont_apply
+  title=lang.dont_apply
   list='
  - [Czech Republic](https://en.wikipedia.org/wiki/Key_disclosure_law#Czech_Republic) <div class="float-right"><span class="flag-icon flag-icon-cz"></span></div>
  - [Germany](https://en.wikipedia.org/wiki/Key_disclosure_law#Germany) <div class="float-right"><span class="flag-icon flag-icon-de"></span></div>
@@ -47,9 +47,9 @@
 
 </div>
 
-\* ({{ footnote }})
+\* ({{ lang.footnote }})
 
-### {{ related_information }}
+### {{ general.related_information }}
 - <a href="https://en.wikipedia.org/wiki/Key_disclosure_law">Wikipedia page on key disclosure law</a>
 - <a href="https://law.stackexchange.com/questions/1523/can-a-us-citizen-be-required-to-provide-the-authentication-key-for-encrypted-dat">law.stackexchange.com question about key disclosure law in US</a>
 - <a href="https://www.youtube.com/watch?v=Jt7D4AIfqlQ">DEFCON 20: Crypto and the Cops: the Law of Key Disclosure and Forced Decryption</a>

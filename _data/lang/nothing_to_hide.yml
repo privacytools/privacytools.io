@@ -1,6 +1,7 @@
 ---
-title: Privacy? I don't have anything to hide.
-quote: >
+en: &base
+    title: Privacy? I don't have anything to hide.
+    quote: >
         Over the last 16 months, as I've debated this issue around the world, 
         every single time somebody has said to me, "I don't really worry about
         invasions of privacy because I don't have anything to hide." I always
@@ -13,5 +14,11 @@ quote: >
         if you're not a bad person, if you're doing nothing wrong, you should
         have nothing to hide." <strong>Not a single person hsa taken me up on
         that offer</strong>
-talk_name: Why privacy matters
+    talk_name: Why privacy matters
+
+it:
+    <<: *base
+    title: Italian title for nothing to hide
+    quote: >
+        Italian quote
 ---

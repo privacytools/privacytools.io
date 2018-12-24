@@ -1,11 +1,11 @@
-{% include langs/_general lang=include.lang %}
+{% assign lang = site.data.lang.general.[include.lang] %}
 
 <div class="container" role="main">
 
   <div class="jumbotron p-5">
     <!-- header just below the navigation bar -->
     <h1 class="display-4"><a href="https://www.privacytools.io/" title="privacytools.io"><img src="/assets/img/layout/logo.png" class="img-fluid" alt="privacytools.io"></a></h1>
-    <p class="lead">{{ site_subheading }}</p>
+    <p class="lead">{{ lang.site_subheading }}</p>
     <!-- end header just below the navigation bar -->
   </div>
 

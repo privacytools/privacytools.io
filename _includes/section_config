@@ -1,4 +1,2 @@
-{% assign lang = site.data.lang.[include.lang].[include.section] %}
-{% assign en = site.data.lang.en.[include.section] %}
-{% include langs/_general lang=include.lang %}
-{% include langs/{{include.section}} lang=lang en=en %}
+{% assign lang = site.data.lang.[include.section].[include.lang] %}
+{% assign general = site.data.lang.general.[include.lang] %}
