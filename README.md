@@ -1,4 +1,4 @@
-[![privacytools](https://privacytoolsio.github.io/privacytools.io/img/layout/logo.png)](https://www.privacytools.io/)
+[![privacytools](https://privacytools.io/assets/img/layout/logo.png)](https://www.privacytools.io/)
 
 _Encryption Against Global Mass Surveillance._
 
@@ -8,47 +8,28 @@ It's important for a website like privacytools.io to be up-to-date. Keep an eye 
 
 **Talk to us please.** Join our [subreddit](https://www.reddit.com/r/privacytoolsIO/) and start a discussion. This is a community project and we're aiming to deliver the best information available for a better privacy. We are also using [/r/privacy](https://www.reddit.com/r/privacy). Thank you for participating.
 
-You can submit your suggestions here on GitHub [(Issues)](https://github.com/privacytoolsIO/privacytools.io/issues) and also in our [subreddit](https://www.reddit.com/r/privacytoolsIO/). Thank you.
+You can submit your suggestions here on GitHub [(Issues)](https://github.com/privacytoolsIO/privacytools.io/issues) and also in our [subreddit](https://www.reddit.com/r/privacytoolsIO/). Please refer to the [Contributing Guidelines](.github/CONTRIBUTING.md) before submitting. Thank you.
 
+## Building
 
-# Contributing Guidelines
-Please read this before contributing.
-
-## Rules
-
-- Be nice and respectful.
-- English only.
-- Be constructive.
-
-## Quality over Quantity
-
-We're trying to keep it simple and promote the best tools, not all of them. Maximum are three software choices, but it's possible to add more under "Worth Mentioning" headlines. ([example](https://www.privacytools.io/#im)) 
-
-## Software Criteria
-
-- Open Source
-- Cross-platform
-- Easy to use
-- Privacy respecting
-
-There can be exeptions if no software is available that meet the criteria.
-
-## Images
-
-- Provider logos should be exactly 200 x 70 ([example](https://www.privacytools.io/img/provider/AirVPN.gif))
-- Tool logos should be exactly 120 x 120 ([example](https://www.privacytools.io/img/tools/ChatSecure.png))
+1. Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
+1. Install [bundler](https://bundler.io/) by running `gem install bundler`.
+1. Run `bundle install` to install the required dependencies.
+1. Use `bundle exec jekyll build` to build the website. The output can be found in the `_site` directory.  Live preview is also possible by running `bundle exec jekyll serve`
 
 # Support privacytools.io
 
-- [Donate.](https://www.privacytools.io/donate.html)
-- [Spread the word.](https://www.privacytools.io/#participate)
+- [Donate.](https://privacytoolsio.github.io/privacytools.io/donate.html)
+- [Spread the word.](https://privacytoolsio.github.io/privacytools.io/#participate)
 - [Make suggestions on reddit.](https://www.reddit.com/r/privacytoolsIO/)
 - View and edit our website source code here on GitHub.
 
 # Community Translations
-- [繁体中文 / Chinese](https://github.com/twngo/privacytools-zh) - [GitHub](https://github.com/twngo/privacytools-zh)
+- [繁体中文 / Chinese](https://privacytools.twngo.xyz/) - [GitHub](https://github.com/twngo/privacytools-zh)
 - [Español / Spanish](https://victorhck.gitlab.io/privacytools-es/) - [GitLab](https://gitlab.com/victorhck/privacytools-es)
 - [Deutsch / German](https://privacytools.it-sec.rocks/) - [GitHub](https://github.com/Anon215/privacytools.it-sec.rocks)
+- [Italiano / Italian](https://privacytools-it.github.io/) - [GitHub](https://github.com/privacytools-it/privacytools-it.github.io)
+- [Русский / Russian](https://privacytools.ru) - [GitHub](https://github.com/c0rdis/privacytools.ru)
 
 # License
-[GNU General Public License v3.0](https://github.com/privacytoolsIO/privacytools.io/blob/master/LICENSE.txt)
+[Do What The Fuck You Want To Public License](https://github.com/privacytoolsIO/privacytools.io/blob/master/LICENSE.txt)

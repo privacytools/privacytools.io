@@ -1,0 +1,14 @@
+---
+layout: default
+active_page: 404
+---
+
+<div class="container text-center">
+  <h1>404</h1>
+  <p><strong>Page not found :(</strong></p>
+  <p>We're redirecting you to the home page in 5 seconds. It this doesn't work, <a href="{{ site.url }}">click here.</a></p>
+</div>
+
+<script>
+  window.setTimeout(function(){ window.location = "{{ site.url }}"; },5000);
+</script>
