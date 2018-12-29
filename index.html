@@ -195,6 +195,7 @@ layout: default
 
   <!-- START VPN TABLE -->
 
+  {% assign eur_to_usd = 1.14 %}
   <div class="table-responsive">
     <table class="table sortable-theme-bootstrap" data-sortable>
       <thead>
@@ -211,7 +212,7 @@ layout: default
         <tr>
           <td data-value="AirVPN">
             <a href="https://airvpn.org/"><img alt="AirVPN" src="assets/img/provider/AirVPN.png" width="200" height="70"></a></td>
-          <td data-value="62">54 €</td>
+          <td data-value="{{ 54 | times: eur_to_usd }}">54 €</td>
           <td><span class="label label-success">Yes</span></td>
           <td>162</td>
           <td><span class="flag-icon flag-icon-it"></span> Italy</td>
@@ -222,7 +223,7 @@ layout: default
           <td data-value="AzireVPN">
             <a href="https://www.azirevpn.com/"><img alt="AzireVPN" src="assets/img/provider/AzireVPN.png" width="200" height="70"></a>
           </td>
-          <td data-value="52">45 €</td>
+          <td data-value="{{ 45 | times: eur_to_usd }}">45 €</td>
           <td><span class="label label-success">Yes</span></td>
           <td>22</td>
           <td><span class="flag-icon flag-icon-se"></span> Sweden</td>
@@ -233,7 +234,7 @@ layout: default
           <td data-value="blackVPN">
             <a href="https://www.blackvpn.com/"><img alt="blackVPN" src="assets/img/provider/blackVPN.png" width="200" height="70"></a>
           </td>
-          <td data-value="56">49 €</td>
+          <td data-value="{{ 49 | times: eur_to_usd }}">49 €</td>
           <td><span class="label label-success">Yes</span></td>
           <td>31</td>
           <td><span class="flag-icon flag-icon-hk"></span> Hong Kong</td>
@@ -299,7 +300,7 @@ layout: default
           <td data-value="Mullvad">
             <a href="https://mullvad.net/"><img alt="Mullvad" src="assets/img/provider/Mullvad.png" width="200" height="70"></a>
           </td>
-          <td data-value="69">60 €</td>
+          <td data-value="{{ 60 | times: eur_to_usd }}">60 €</td>
           <td><span class="label label-success">Yes</span></td>
           <td>281</td>
           <td><span class="flag-icon flag-icon-se"></span> Sweden</td>
@@ -321,7 +322,7 @@ layout: default
           <td data-value="OVPN.com">
             <a href="https://www.ovpn.com/"><img alt="OVPN.com" src="assets/img/provider/OVPN.png" width="200" height="70"></a>
           </td>
-          <td data-value="96">84 €</td>
+          <td data-value="{{ 84 | times: eur_to_usd }}">84 €</td>
           <td><span class="label label-success">Yes</span></td>
           <td>67</td>
           <td><span class="flag-icon flag-icon-se"></span> Sweden</td>
@@ -332,7 +333,7 @@ layout: default
           <td data-value="Perfect Privacy">
             <a href="https://www.perfect-privacy.com/"><img alt="Perfect Privacy" src="assets/img/provider/Perfect-Privacy.png" width="200" height="70"></a>
           </td>
-          <td data-value="137">119.99 €</td>
+          <td data-value="{{ 119.99 | times: eur_to_usd }}">119.99 €</td>
           <td><span class="label label-warning">No</span></td>
           <td>54</td>
           <td><span class="flag-icon flag-icon-ch"></span> Switzerland</td>
@@ -408,7 +409,7 @@ layout: default
           <td data-value="VPNTunnel">
             <a href="https://vpntunnel.com/"><img alt="VPNTunnel" src="assets/img/provider/VPNTunnel.png" width="200" height="70"></a>
           </td>
-          <td data-value="41">35.88 €</td>
+          <td data-value="{{ 35.88 | times: eur_to_usd }}">35.88 €</td>
           <td><span class="label label-warning">No</span></td>
           <td>800+</td>
           <td><span class="flag-icon flag-icon-sc"></span> Seychelles</td>
