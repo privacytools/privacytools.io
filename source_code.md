@@ -88,7 +88,7 @@ https://github.com/privacytoolsIO/privacytools.io
  Wire: https://github.com/wireapp
 
 ## Encrypted Video & Voice Messenger
- Signal https://github.com/signalapp
+ Signal: https://github.com/signalapp
  
  Wire: https://github.com/wireapp
  
@@ -100,3 +100,97 @@ https://github.com/privacytoolsIO/privacytools.io
  Tox: https://github.com/TokTok/c-toxcore
 
  Ring/Jami: https://gerrit-ring.savoirfairelinux.com/#/q/status:open
+ 
+ ## File Sharing
+  OnionShare: https://github.com/micahflee/onionshare
+  
+  Magic Wormhole: https://github.com/warner/magic-wormhole
+  
+ ## Encrypted Cloud Storage Services
+  Nextcloud: https://github.com/nextcloud
+  
+  Least Authority S4: https://leastauthority.com/how-it-works/
+  
+   Worth Mentioning
+ Cryptomator: https://github.com/cryptomator/cryptomator
+ 
+## Self-Hosted Cloud Server Software
+ Pydio: https://github.com/pydio
+ 
+ Tahoe-LAFS: https://github.com/tahoe-lafs/tahoe-lafs
+ 
+ Nextcloud: https://github.com/nextcloud
+
+## Secure Hosting Provider
+[WIP]
+
+## Secure File Sync Software
+ SparkleShare: https://www.github.com/hbons/SparkleShare/
+ Syncthing: https://github.com/syncthing/syncthing
+ 
+   Worth Mentioning
+    git-annex: http://source.git-annex.branchable.com/?p=source.git;a=summary
+    
+## Password Manager Software
+ Bitwarden: https://github.com/bitwarden
+ KeePass: https://keepass.info/download.html
+ KeePassXC: https://github.com/keepassxreboot
+ LessPass: https://github.com/lesspass/lesspass
+ 
+   Worth Mentioning
+    Master Password: https://gitlab.com/lhunath/MasterPassword
+    Password Safe: ?
+    
+## Calendar and Contacts Sync
+  Nextcloud: https://github.com/nextcloud
+  EteSync: https://github.com/etesync
+  
+   Worth Mentioning:
+    fruux: https://fruux.com/opensource/
+    Flock: https://github.com/signalapp/Flock
+    
+## File Encryption Software
+ VeraCrypt: https://www.veracrypt.fr/en/Source%20Code.html
+ GNU Privacy Guard: https://github.com/gpg/gnupg
+ PeaZip: https://github.com/giorgiotani/PeaZip/
+ Cryptomator: https://github.com/cryptomator/cryptomator
+ 
+  Worth Mentioning:
+   miniLock: ?
+   AES Crypt: https://github.com/marcobellaccini/pyAesCrypt
+   DiskCryptor: https://github.com/smartinm/diskcryptor
+   Linux Unified Key Setup (LUKS): https://gitlab.com/cryptsetup/cryptsetup/
+   
+## Self-contained Networks
+ TorBrowser: https://gitweb.torproject.org/tor.git
+ I2p: https://github.com/i2p
+ Freenet: https://github.com/freenet/
+ 
+  Worth Mentioining:
+   ZeroNet: https://github.com/HelloZeroNet/ZeroNet
+   RetroShare: https://github.com/RetroShare
+   GNUnet: https://gnunet.org/
+   IPFS: https://ipfs.io/
+   
+## Decentralized Social Networks
+ Mastodon: https://github.com/tootsuite/mastodon
+ diaspora*: https://github.com/diaspora/diaspora/
+ Friendica: https://github.com/friendica/
+ 
+  Worth Mentioning:
+   GNU Social: https://gnu.io/source/
+   
+## Domain Name System (DNS)
+ Njalla: ?
+ DNSCrypt: https://github.com/dnscrypt
+ OpenNic: ?
+ 
+  Worth Mentioning
+   NoTrack: https://github.com/quidsup/notrack
+   Namecoin: https://github.com/namecoin
+   Pi-hole: https://github.com/pi-hole
+   
+## Digital Notebook
+ 
+ 
+## Domain Name System (DNS)
