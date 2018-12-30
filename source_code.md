@@ -191,6 +191,39 @@ https://github.com/privacytoolsIO/privacytools.io
    Pi-hole: https://github.com/pi-hole
    
 ## Digital Notebook
+ Joplin: https://github.com/laurent22/joplin
+ Standard Notes: https://github.com/standardnotes/
+ Turtl: https://github.com/turtl
  
+  Worth Mentioning
+   Paperwork: https://github.com/twostairs/paperwork
+   Org-mode: ?
+   
+## Paste Services
+ PrivateBin: https://github.com/PrivateBin/PrivateBin/
+ ZeroBin: ?
+ Ghostbin: https://github.com/kilgarth/ghostbin
  
-## Domain Name System (DNS)
+  Worth Mentioning:
+   Disroot: ?
+   
+## Productivity Tools
+ Etherpad: https://github.com/ether/etherpad-lite
+ Write.as: https://code.as/writeas
+ Protected Text: ?
+  
+  Worth Mentioning
+   Cryptee: https://github.com/cryptee
+   EtherCalc: https://github.com/audreyt/ethercalc
+   Disroot: ?
+   Dudle: https://github.com/kellerben/dudle/
+   LibreOffice: https://gerrit.libreoffice.org/
+   
+## PC Operating Systems
+ QubesOS: https://github.com/QubesOS
+ Debian: https://codesearch.debian.net/
+ Trisquel: https://devel.trisquel.info/groups/trisquel
+ 
+  Worth Mentioning:
+   OpenBSD: https://github.com/openbsd
+   [continue]
