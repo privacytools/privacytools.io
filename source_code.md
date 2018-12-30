@@ -126,6 +126,7 @@ https://github.com/privacytoolsIO/privacytools.io
 
 ## Secure File Sync Software
  SparkleShare: https://www.github.com/hbons/SparkleShare/
+
  Syncthing: https://github.com/syncthing/syncthing
  
    Worth Mentioning
@@ -133,48 +134,68 @@ https://github.com/privacytoolsIO/privacytools.io
     
 ## Password Manager Software
  Bitwarden: https://github.com/bitwarden
+ 
  KeePass: https://keepass.info/download.html
+ 
  KeePassXC: https://github.com/keepassxreboot
+ 
  LessPass: https://github.com/lesspass/lesspass
  
    Worth Mentioning
     Master Password: https://gitlab.com/lhunath/MasterPassword
+.
     Password Safe: ?
     
 ## Calendar and Contacts Sync
   Nextcloud: https://github.com/nextcloud
+  
   EteSync: https://github.com/etesync
   
    Worth Mentioning:
     fruux: https://fruux.com/opensource/
+.    
     Flock: https://github.com/signalapp/Flock
     
 ## File Encryption Software
  VeraCrypt: https://www.veracrypt.fr/en/Source%20Code.html
+ 
  GNU Privacy Guard: https://github.com/gpg/gnupg
+ 
  PeaZip: https://github.com/giorgiotani/PeaZip/
+ 
  Cryptomator: https://github.com/cryptomator/cryptomator
  
   Worth Mentioning:
+   
    miniLock: ?
+   
    AES Crypt: https://github.com/marcobellaccini/pyAesCrypt
+   
    DiskCryptor: https://github.com/smartinm/diskcryptor
+   
    Linux Unified Key Setup (LUKS): https://gitlab.com/cryptsetup/cryptsetup/
    
 ## Self-contained Networks
  TorBrowser: https://gitweb.torproject.org/tor.git
+ 
  I2p: https://github.com/i2p
+ 
  Freenet: https://github.com/freenet/
  
   Worth Mentioining:
    ZeroNet: https://github.com/HelloZeroNet/ZeroNet
+   
    RetroShare: https://github.com/RetroShare
+   
    GNUnet: https://gnunet.org/
+   
    IPFS: https://ipfs.io/
    
 ## Decentralized Social Networks
  Mastodon: https://github.com/tootsuite/mastodon
+ 
  diaspora*: https://github.com/diaspora/diaspora/
+ 
  Friendica: https://github.com/friendica/
  
   Worth Mentioning:
@@ -182,26 +203,35 @@ https://github.com/privacytoolsIO/privacytools.io
    
 ## Domain Name System (DNS)
  Njalla: ?
+ 
  DNSCrypt: https://github.com/dnscrypt
+ 
  OpenNic: ?
  
   Worth Mentioning
    NoTrack: https://github.com/quidsup/notrack
+   
    Namecoin: https://github.com/namecoin
+   
    Pi-hole: https://github.com/pi-hole
    
 ## Digital Notebook
  Joplin: https://github.com/laurent22/joplin
+ 
  Standard Notes: https://github.com/standardnotes/
+ 
  Turtl: https://github.com/turtl
  
   Worth Mentioning
    Paperwork: https://github.com/twostairs/paperwork
+   
    Org-mode: ?
    
 ## Paste Services
  PrivateBin: https://github.com/PrivateBin/PrivateBin/
+ 
  ZeroBin: ?
+ 
  Ghostbin: https://github.com/kilgarth/ghostbin
  
   Worth Mentioning:
@@ -209,21 +239,30 @@ https://github.com/privacytoolsIO/privacytools.io
    
 ## Productivity Tools
  Etherpad: https://github.com/ether/etherpad-lite
+ 
  Write.as: https://code.as/writeas
+ 
  Protected Text: ?
   
   Worth Mentioning
    Cryptee: https://github.com/cryptee
+   
    EtherCalc: https://github.com/audreyt/ethercalc
+   
    Disroot: ?
+   
    Dudle: https://github.com/kellerben/dudle/
+   
    LibreOffice: https://gerrit.libreoffice.org/
    
 ## PC Operating Systems
  QubesOS: https://github.com/QubesOS
+ 
  Debian: https://codesearch.debian.net/
+ 
  Trisquel: https://devel.trisquel.info/groups/trisquel
  
   Worth Mentioning:
    OpenBSD: https://github.com/openbsd
+   
    [continue]
