@@ -34,6 +34,7 @@ https://github.com/privacytoolsIO/privacytools.io
  Mail-in-a-Box: https://github.com/mail-in-a-box/mailinabox
 
    Privacy Email Tools:
+ 
  GPG4USB: https://github.com/gpg4usb/gpg4usb
  
  Mailvelope: https://github.com/mailvelope/mailvelope
@@ -50,6 +51,7 @@ https://github.com/privacytoolsIO/privacytools.io
  Claws Mail: https://git.claws-mail.org/
 
    Worth Mentioning:
+ 
  K-9 Mail: tps://github.com/k9mail/k-9/
  
  GNU Privacy Guard: https://github.com/gpg/gnupg
@@ -67,6 +69,7 @@ https://github.com/privacytoolsIO/privacytools.io
  SearX: https://github.com/asciimoo/searx/
 
    Worth Mentioning:
+ 
  MetaGer: https://gitlab.metager3.de/open-source/MetaGer
 
 ## Encrypted Instant Messenger
@@ -77,6 +80,7 @@ https://github.com/privacytoolsIO/privacytools.io
  Ricochet: https://github.com/ricochet-im/ricochet
 
    Worth Mentioning:
+ 
  ChatSecure: https://github.com/chatsecure
  
  Cryptocat: https://github.com/cryptocat/cryptocat
@@ -95,6 +99,7 @@ https://github.com/privacytoolsIO/privacytools.io
  Linphone: https://github.com/BelledonneCommunications/
 
    Worth Mentioning
+ 
  Jitsi: https://github.com/jitsi/jitsi-meet
 
  Tox: https://github.com/TokTok/c-toxcore
@@ -112,6 +117,7 @@ https://github.com/privacytoolsIO/privacytools.io
   Least Authority S4: https://leastauthority.com/how-it-works/
   
    Worth Mentioning
+ 
  Cryptomator: https://github.com/cryptomator/cryptomator
  
 ## Self-Hosted Cloud Server Software
@@ -130,6 +136,7 @@ https://github.com/privacytoolsIO/privacytools.io
  Syncthing: https://github.com/syncthing/syncthing
  
    Worth Mentioning
+.    
     git-annex: http://source.git-annex.branchable.com/?p=source.git;a=summary
     
 ## Password Manager Software
@@ -142,6 +149,7 @@ https://github.com/privacytoolsIO/privacytools.io
  LessPass: https://github.com/lesspass/lesspass
  
    Worth Mentioning
+.    
     Master Password: https://gitlab.com/lhunath/MasterPassword
 .
     Password Safe: ?
@@ -152,6 +160,7 @@ https://github.com/privacytoolsIO/privacytools.io
   EteSync: https://github.com/etesync
   
    Worth Mentioning:
+.    
     fruux: https://fruux.com/opensource/
 .    
     Flock: https://github.com/signalapp/Flock
@@ -183,6 +192,7 @@ https://github.com/privacytoolsIO/privacytools.io
  Freenet: https://github.com/freenet/
  
   Worth Mentioining:
+   
    ZeroNet: https://github.com/HelloZeroNet/ZeroNet
    
    RetroShare: https://github.com/RetroShare
@@ -199,6 +209,7 @@ https://github.com/privacytoolsIO/privacytools.io
  Friendica: https://github.com/friendica/
  
   Worth Mentioning:
+   
    GNU Social: https://gnu.io/source/
    
 ## Domain Name System (DNS)
@@ -209,6 +220,7 @@ https://github.com/privacytoolsIO/privacytools.io
  OpenNic: ?
  
   Worth Mentioning
+   
    NoTrack: https://github.com/quidsup/notrack
    
    Namecoin: https://github.com/namecoin
@@ -223,6 +235,7 @@ https://github.com/privacytoolsIO/privacytools.io
  Turtl: https://github.com/turtl
  
   Worth Mentioning
+   
    Paperwork: https://github.com/twostairs/paperwork
    
    Org-mode: ?
@@ -235,6 +248,7 @@ https://github.com/privacytoolsIO/privacytools.io
  Ghostbin: https://github.com/kilgarth/ghostbin
  
   Worth Mentioning:
+   
    Disroot: ?
    
 ## Productivity Tools
@@ -245,6 +259,7 @@ https://github.com/privacytoolsIO/privacytools.io
  Protected Text: ?
   
   Worth Mentioning
+   
    Cryptee: https://github.com/cryptee
    
    EtherCalc: https://github.com/audreyt/ethercalc
@@ -263,6 +278,7 @@ https://github.com/privacytoolsIO/privacytools.io
  Trisquel: https://devel.trisquel.info/groups/trisquel
  
   Worth Mentioning:
+   
    OpenBSD: https://github.com/openbsd
    
    [continue]
