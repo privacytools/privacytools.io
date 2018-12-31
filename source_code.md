@@ -29,13 +29,18 @@ https://github.com/privacytoolsIO/privacytools.io
 
 ## Privacy-Conscious Email Providers
  
- Posteo: https://github.com/posteo
-
- ProtonMail: ?
+ Posteo: https://github.com/posteo (backend & frontend)
+ Note: Credit card payments may require non-free JS
  
+ ProtonMail: 
+Frontend: https://github.com/ProtonMail/WebClient
+Backend: closed-source
+
  Disroot: ?
  
- Tutanota: ?
+ Tutanota: 
+Frontend: https://github.com/tutao/tutanota
+Backend: closed-source
  
  Mailfence: ?
  
@@ -52,7 +57,7 @@ https://github.com/privacytoolsIO/privacytools.io
  Mail-in-a-Box: https://github.com/mail-in-a-box/mailinabox
 
    Interesting Email Providers Under Development
-   Confidant Mail: 
+   Confidant Mail: ?
    
    Privacy Email Tools:
  
@@ -282,6 +287,7 @@ https://github.com/privacytoolsIO/privacytools.io
   Worth Mentioning
    
    Cryptee: https://github.com/cryptee
+Backend: Closed Source
    
    EtherCalc: https://github.com/audreyt/ethercalc
    
