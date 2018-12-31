@@ -281,4 +281,50 @@ https://github.com/privacytoolsIO/privacytools.io
    
    OpenBSD: https://github.com/openbsd
    
-   [continue]
+   Arch Linux: https://git.archlinux.org/
+   
+   Parabola: https://projects.parabola.nu/
+   
+   Whonix: https://github.com/Whonix/Whonix
+   
+   Subgraph OS: https://github.com/subgraph
+   
+## Live CD Operating Systems
+   Tails: https://tails.boum.org/contribute/git/
+   
+   KNOPPIX: ?
+   
+   PuppyLinux: ?
+   
+   Worth Mentioing
+.    
+    Tiny Core Linux: ?
+   
+## Live CD Operating Systems
+   LineageOS: https://github.com/lineageos
+.   
+    Worth Mentioning
+.     
+     Replicant: https://git.replicant.us/replicant
+.     
+     OmniROM: https://www.omnirom.org/source
+.     
+     MicroG: https://github.com/microg
+     
+## Android Privacy Add-ons
+   NetGuard: https://github.com/M66B/NetGuard/
+   XPrivacyLua: https://github.com/M66B/XPrivacyLua/
+   
+## Open Source Router Firmware
+   OpenWRT: https://git.openwrt.org/?p=openwrt/openwrt.git;a=shortlog;h=refs/tags/v18.06.1
+   pfSense: http://github.com/pfsense
+   libreCMC: https://gogs.librecmc.org/libreCMC/libreCMC
+.   
+    Worth Mentioning:
+    
+   
+   OpenBSD: https://github.com/openbsd
+   
+   DD-WRT: ?
+   
+   
