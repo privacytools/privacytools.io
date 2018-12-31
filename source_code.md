@@ -46,14 +46,17 @@ Backend: closed-source
  
  Mailbox.org: ?
  
- runbox: ?
+ runbox: 
+Runbox 7: https://github.com/runbox/Runbox7
+Backend: closed-source
  
- NEO MAILBOX: ?
+ NEO MAILBOX: largely closed-source
  
- Start Mail: ?
+ Start Mail: largely closed-source
  
  Kolab Now: ?
-
+ 
+ 
  Mail-in-a-Box: https://github.com/mail-in-a-box/mailinabox
 
    Interesting Email Providers Under Development
