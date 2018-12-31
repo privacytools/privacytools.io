@@ -9,7 +9,7 @@ https://github.com/privacytoolsIO/privacytools.io
  
  Firefox: https://github.com/mozilla
  
- Brave
+ Brave: https://github.com/brave/
 
 ## Excellent Firefox Privacy Add-ons
  
@@ -30,9 +30,30 @@ https://github.com/privacytoolsIO/privacytools.io
 ## Privacy-Conscious Email Providers
  
  Posteo: https://github.com/posteo
+
+ ProtonMail: ?
  
+ Disroot: ?
+ 
+ Tutanota: ?
+ 
+ Mailfence: ?
+ 
+ Mailbox.org: ?
+ 
+ runbox: ?
+ 
+ NEO MAILBOX: ?
+ 
+ Start Mail: ?
+ 
+ Kolab Now: ?
+
  Mail-in-a-Box: https://github.com/mail-in-a-box/mailinabox
 
+   Interesting Email Providers Under Development
+   Confidant Mail: 
+   
    Privacy Email Tools:
  
  GPG4USB: https://github.com/gpg4usb/gpg4usb
@@ -313,11 +334,14 @@ https://github.com/privacytoolsIO/privacytools.io
      
 ## Android Privacy Add-ons
    NetGuard: https://github.com/M66B/NetGuard/
+   
    XPrivacyLua: https://github.com/M66B/XPrivacyLua/
    
 ## Open Source Router Firmware
    OpenWRT: https://git.openwrt.org/?p=openwrt/openwrt.git;a=shortlog;h=refs/tags/v18.06.1
+   
    pfSense: http://github.com/pfsense
+   
    libreCMC: https://gogs.librecmc.org/libreCMC/libreCMC
 .   
     Worth Mentioning:
@@ -326,5 +350,4 @@ https://github.com/privacytoolsIO/privacytools.io
    OpenBSD: https://github.com/openbsd
    
    DD-WRT: ?
-   
    
