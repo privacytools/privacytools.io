@@ -1,3 +1,7 @@
+---
+permalink: /source_code
+---
+
 # About
 This is a list of all software projects listed on privacytools.io's source code.
 
