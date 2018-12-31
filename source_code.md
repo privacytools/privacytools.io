@@ -272,7 +272,7 @@ Backend: closed-source
 ## Paste Services
  PrivateBin: https://github.com/PrivateBin/PrivateBin/
  
- ZeroBin: ?
+ ZeroBin: https://github.com/sebsauvage/ZeroBin
  
  Ghostbin: https://github.com/kilgarth/ghostbin
  
