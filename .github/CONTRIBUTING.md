@@ -18,7 +18,7 @@ We're trying to keep it simple and promote the best tools, not all of them. Maxi
 - Cross-platform
 - Easy to use
 - Privacy respecting
-- [librejS](https://www.wikipedia.org/wiki/GNU_LibreJS) Compliant
+- WebApps must be [librejS](https://www.wikipedia.org/wiki/GNU_LibreJS) Compliant or run with JS disabled.
 
 There can be exceptions if no software is available that meet the criteria.
 
