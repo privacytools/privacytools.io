@@ -1,0 +1,11 @@
+language: ruby
+rvm:
+  - 2.4.1
+
+# Assume bundler is being used, therefore
+# the `install` step will run `bundle install` by default.
+script: ./build.sh
+
+sudo: false # route your build to the container-based infrastructure for a faster build
+
+cache: bundler # caching bundler gem packages will speed up build
