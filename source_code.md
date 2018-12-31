@@ -181,7 +181,7 @@ Backend: closed-source
 .    
     Master Password: https://gitlab.com/lhunath/MasterPassword
 .
-    Password Safe: ?
+    Password Safe: https://github.com/pwsafe/pwsafe
     
 ## Calendar and Contacts Sync
   Nextcloud: https://github.com/nextcloud
@@ -205,7 +205,7 @@ Backend: closed-source
  
   Worth Mentioning:
    
-   miniLock: ?
+   miniLock: https://github.com/kaepora/miniLock
    
    AES Crypt: https://github.com/marcobellaccini/pyAesCrypt
    
@@ -285,7 +285,9 @@ Backend: closed-source
  
  Write.as: https://code.as/writeas
  
- Protected Text: ?
+ Protected Text: 
+Frontend:?
+Backend: closed-source
   
   Worth Mentioning
    
