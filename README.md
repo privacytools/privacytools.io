@@ -32,6 +32,7 @@ You can submit your suggestions here on GitHub [(Issues)](https://github.com/pri
 - [Deutsch / German](https://privacytools.it-sec.rocks/) - [GitHub](https://github.com/Anon215/privacytools.it-sec.rocks)
 - [Italiano / Italian](https://privacytools-it.github.io/) - [GitHub](https://github.com/privacytools-it/privacytools-it.github.io)
 - [Русский / Russian](https://privacytools.ru) - [GitHub](https://github.com/c0rdis/privacytools.ru)
+- [Polski / Polska](https://privacytools.wojtekm.com/) - [GitHub](https://github.com/Habakukk/privacytools.wojtekm.com)
 
 # License
 [Do What The Fuck You Want To Public License](https://github.com/privacytoolsIO/privacytools.io/blob/master/LICENSE.txt)
