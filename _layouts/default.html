@@ -175,7 +175,13 @@
 <script>
 	$(function() {
 		$("[data-toggle='tooltip']").tooltip();
-	});
+    });
+
+    $('.navbar a').not(".dropdown-toggle").click(function (e) {
+        if ($(".navbar-toggler").is(":visible") ) {
+            $('.navbar-collapse').collapse('toggle');
+        }
+    });
 </script>
 
 <!--
