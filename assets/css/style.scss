@@ -7,8 +7,6 @@
 @import 'fontawesome';
 @import 'sortable-theme-bootstrap';
 
-/* BS4 */
-
 .card {
   box-shadow: $card-shadow !important;
 }
@@ -32,14 +30,12 @@ a,
   }
 }
 
-/*.card-primary, */
 .card-primary {
   .card-header {
     border-color: $card-primary-border !important;
   }
 }
 
-/*.card-warning, */
 .card-warning  {
   .card-header {
     border-color: $card-warning-border !important;
@@ -111,6 +107,10 @@ a,
     position: relative;
     top: 2px;
   }
+}
+
+#top {
+  margin-bottom: 3rem !important;
 }
 
 .twitter { background: $twitter; }

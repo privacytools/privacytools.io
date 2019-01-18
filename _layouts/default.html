@@ -1,19 +1,23 @@
 <!DOCTYPE html>
-
-<!-- set the default language as English -->
 <html lang="en">
-
   <head>
-
-    <!-- tags for Search Engine Optimization -->
     <meta charset="utf-8">
+    <meta name="referrer" content="no-referrer">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keywords" content="privacy, anonymity, privacy tools, surveillance, encryption, edward snowden, nsa, tor">
     <meta name="description" content="{{ site.description }}">
-
-    <!-- referrer policy -->
-    <meta name="referrer" content="no-referrer">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="assets/img/favicons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:title" content="Privacy Tools | Encryption against global mass surveillance" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.privacytools.io/" />
+    <meta property="og:image" content="https://www.privacytools.io/assets/img/layout/ogimage.jpg" />
+    <meta property="og:description" content="You are being watched! Knowledge, encryption and privacy tools to protect you against global mass surveillance."/>
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="privacytools.io" />
 
     <!-- title -->
     {% if page.title %}
@@ -38,71 +42,19 @@
     <link rel="icon" type="image/png" href="assets/img/favicons/favicon-16x16.png" sizes="16x16">
     <link rel="manifest" href="assets/img/favicons/manifest.json">
     <link rel="shortcut icon" href="assets/img/favicons/favicon.ico">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-144x144.png">
-    <meta name="msapplication-config" content="assets/img/favicons/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
 
     <!-- CSS stylesheets -->
     <link href="assets/css/style.css?v=5" rel="stylesheet">
-
-    <!-- Open Graph Protocol tags for SEO -->
-    <meta property="og:title" content="Privacy Tools | Encryption against global mass surveillance" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://www.privacytools.io/" />
-    <meta property="og:image" content="https://www.privacytools.io/assets/img/layout/ogimage.jpg" />
-    <meta property="og:description" content="You are being watched! Knowledge, encryption and privacy tools to protect you against global mass surveillance."
-                                    />
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:site_name" content="privacytools.io" />
   </head>
 
   <body data-spy="scroll" data-target="#navbar">
 
     {% include nav.html %}
 
-    <div id="top" class="py-4">
-      <div class="mb-5"></div>
-      {{ content }}
-    </div>
+    <div id="top" class="py-4"></div>
 
-    <!-- add jQuery, Popper, Bootstrap, Sortable, and tooltip libraries  -->
-    <script src="assets/js/jquery-3.3.1.min.js?v=4"></script>
-    <script src="assets/js/popper.min.js?v=4"></script>
-    <script src="assets/js/bootstrap.min.js?v=4"></script>
-    <script src="assets/js/sortable.min.js?v=4"></script>
-    <script>
-      $(function () {
-        $("[data-toggle='tooltip']").tooltip();
-      });
+    {{ content }}
 
-$('.navbar a').not(".dropdown-toggle").click(function (e) {
-  if ($(".navbar-toggler").is(":visible")) {
-    $('.navbar-collapse').collapse('toggle');
-  }
-});
-    </script>
-
-    <!--
-      Piwik is the leading open-source analytics platform:
-      - Free open-source software
-      - 100% data ownership
-      - User privacy protection
-    -->
-    <script>
-      var _paq = _paq || [];
-/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
-_paq.push(['trackPageView']);
-_paq.push(['enableLinkTracking']);
-(function() {
-  var u="//piwik.privacytools.io/";
-  _paq.push(['setTrackerUrl', u+'piwik.php']);
-  _paq.push(['setSiteId', '1']);
-  var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-  g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-})();
-    </script>
-    <noscript><p><img src="//piwik.privacytools.io/piwik.php?idsite=1&rec=1" style="border:0;" alt="" /></p></noscript>
-    <!-- End Piwik Code -->
+    {% include scripts.html %}
   </body>
 </html>
