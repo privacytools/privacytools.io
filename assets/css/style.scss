@@ -122,3 +122,9 @@ a,
 .email { background: $email; }
 .diaspora { background: $diaspora; }
 
+footer {
+  img,
+  i {
+    margin-right: 1rem;
+  }
+}
