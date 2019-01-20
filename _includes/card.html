@@ -33,7 +33,7 @@
                     {% if include.website %}
                         {{include.website}}
                     {% else %}
-                        {{ include.url | remove: "https://" | remove: "http://" | remove: "www." | remove: "/" }}
+                        {{ include.url | remove: "https://" | remove: "http://" | remove: "www." | remove: "/" | remove: "github.com" }}
                     {% endif %}
                 </a>
                 {% if include.tor %}
