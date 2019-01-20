@@ -25,45 +25,7 @@ layout: default
 
   {% include sections/email-providers.html %}
 
-  <h1 id="clients" class="anchor"><a href="#clients"><i class="fas fa-link anchor-icon"></i></a> Email Clients</h1>
-  <div class="row mb-2">
-
-    {% include card.html color="success"
-    title="Thunderbird"
-    image="assets/img/tools/Thunderbird.png"
-    url="https://mozilla.org/thunderbird"
-    website="mozilla.org"
-    footer="OS: Windows, macOS, Linux, BSD."
-    description="Mozilla Thunderbird is a free, open source, cross-platform email, news, and chat client developed by the Mozilla Foundation. Thunderbird is an email, newsgroup, news feed, and chat (XMPP, IRC, Twitter) client."
-    %}    {% include card.html color="primary"
-    title="Claws Mail"
-    image="assets/img/tools/Claws-Mail.png"
-    url="https://www.claws-mail.org/"
-    footer="OS: Windows, macOS, Linux, BSD, Solaris, Unix."
-    description="Claws Mail is a free and open source, GTK+-based email and news client. It offers easy configuration and an abundance of features. It is included with Gpg4win, an encryption suite for Windows."
-    %}    <!--
-      <div class="col-sm-4">
-      <div class="panel panel-warning">
-      <div class="panel-heading">
-      <h3 class="panel-title">Whiteout Mail</h3>
-      </div>
-      <div class="panel-body">
-      <p><img src="assets/img/tools/Whiteout-Mail.png" alt="Whiteout Mail" align="right" style="margin-left:5px;">Whiteout Mail is an open source  email solution with strong end-to-end encryption that is really easy to use and runs on all of your devices. Keeping your emails safe has never been so easy. You can also get a new email address.</p>
-      <p><a href="https://whiteout.io/"><button type="button" class="btn btn-warning">Website: whiteout.io</button></a></p>
-      <p>OS: Chrome, Android, iOS, Web.</p>
-      </div>
-      </div>
-      </div>
-    -->
-
-  </div>
-
-  <h3>Worth Mentioning</h3>
-  <ul>
-    <li><a href="https://github.com/k9mail/k-9/releases">K-9 Mail</a> - An independent mail application for Android. It supports both POP3 and IMAP mailboxes, but only supports push mail for IMAP.</li>
-    <li><a href="https://www.gnupg.org/">GNU Privacy Guard</a> - Email Encryption. GnuPG is a GPL Licensed alternative to the PGP suite of cryptographic software. <a href="https://theprivacyguide.org/tutorials/gpg.html">Tutorial.</a> Use <a href="https://gpgtools.org/">GPGTools for macOS.</a></li>
-    <li><a href="https://www.mailpile.is/">Mailpile (Beta)</a> - A modern, fast web-mail client with user-friendly encryption and privacy features.</li>
-  </ul>
+  {% include sections/email-clients.html %}
 
   <h1 id="messaging" class="anchor"><a href="#messaging"><i class="fas fa-link anchor-icon"></i></a> Email Alternatives</h1>
   <div class="row mb-2">
