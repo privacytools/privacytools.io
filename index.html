@@ -57,52 +57,7 @@ layout: default
 
   {% include sections/dns.html %}
 
-  <h1 id="notebook" class="anchor"><a href="#notebook"><i class="fas fa-link anchor-icon"></i></a> Digital Notebook</h1>
-
-  <div class="alert alert-warning" role="alert">
-    <strong>If you are currently using an application like Evernote, Google Keep or Microsoft OneNote you should pick an alternative here.</strong>
-  </div>
-
-  <div class="row mb-2">
-
-    {% include card.html color="success"
-    title="Joplin"
-    image="assets/img/tools/Laverna.png"
-    image="assets/img/tools/Joplin.png"
-    url="https://laverna.cc/"
-    url="https://joplin.cozic.net/"
-    footer="OS: Windows, macOS, Linux, Web."
-    footer="OS: Windows, macOS, Linux, iOS, Android, Firefox/Chrome (Web Clipper)."
-    description="Laverna is a JavaScript note-taking web application with a Markdown editor and encryption support. The application stores all your notes in your browser databases, which is good for security and privacy reasons, because only you have access."
-    description="Joplin is a free, open source, fully featured note taking and to-do application, which can handle a large number of markdown notes organized into notebooks and tags. It offers E2EE encryption and can sync through Nextcloud, Dropbox and more. It also offers easy import from Evernote and plain text notes."
-    %}
-
-    {% include card.html color="primary"
-    title="Standard Notes"
-    image="assets/img/tools/StandardNotes.png"
-    url="https://standardnotes.org/"
-    footer="OS: Windows, macOS, Linux, iOS, Android, Web."
-    description="Standard Notes is a simple and private notes app that makes your notes easy and available everywhere you are. Features end-to-end encryption on every platform, and a powerful desktop experience with themes and custom editors."
-    %}
-
-    {% include card.html color="warning"
-    title="Turtl"
-    image="assets/img/tools/Turtl.png"
-    url="https://turtlapp.com/"
-    footer="OS: Windows, macOS, Linux, Android."
-    description="Turtl lets you take notes, bookmark websites, and store documents for sensitive projects. From sharing passwords with your coworkers to tracking research on an article you're writing, Turtl keeps it all safe from everyone but you and those you share with."
-    %}  </div>
-
-  <h3>Warning</h3>
-  <ul>
-    <li>Note: As of Dec 2018, Joplin does not support password/pin protection for the application itself or individual notes/notebooks. Data is still encrypted in transit and at sync location using your master key. See <a href='https://github.com/laurent22/joplin/issues/289'>open issue</a>.</li>
-  </ul>
-
-  <h3>Worth Mentioning</h3>
-  <ul>
-    <li><a href="http://paperwork.rocks/">Paperwork</a> - Open source and self-hosted solution. For PHP / MySQL servers.</li>
-    <li><a href="https://orgmode.org">Org-mode</a> - A major mode for GNU Emacs. Org-mode is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system. </li>
-  </ul>
+  {% include sections/notebooks.html %}
 
   <h1 id="paste" class="anchor"><a href="#paste"><i class="fas fa-link anchor-icon"></i></a> Paste Services</h1>
 
