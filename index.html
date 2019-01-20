@@ -19,80 +19,8 @@ layout: default
 
   {% include sections/browser-webrtc.html %}
 
-  <h1 id="addons" class="anchor"><a href="#addons"><i class="fas fa-link anchor-icon"></i></a> Excellent Firefox Privacy Add-ons</h1>
+  {% include sections/browser-addons.html %}
 
-  <div class="alert alert-success" role="alert">
-    <strong>Improve your privacy with these excellent Firefox add-ons.</strong>
-  </div>
-  <h3>Stop Tracking with "Privacy Badger"</h3>
-  <img src="assets/img/addons/Privacy-Badger.png" class="img-fluid float-left" alt="Privacy Badger" style="margin-right:30px;">
-  <p><strong>Privacy Badger</strong> is a browser add-on that stops advertisers and other third-party trackers from secretly tracking where you go and what pages you look at on the web. Privacy Badger learns about trackers as you browse by inspecting external resources websites request. Please be aware that Google Analytics is considered first-party by Privacy Badger, which means that Google Analytics will not be blocked if you do not use another blocker, such as uBlock Origin.
-
-  <a href="https://www.eff.org/privacybadger">https://www.eff.org/privacybadger/</a></p>
-
-  <h3>Block Ads and Trackers with "uBlock Origin"</h3>
-  <img src="assets/img/addons/uBlock.png" class="img-fluid float-left" alt="uBlock" style="margin-right:30px;">
-  <p>An efficient <a href="https://github.com/gorhill/uBlock/wiki/Blocking-mode">wide-spectrum-blocker</a> that's easy on memory, and yet can load and enforce thousands more filters than other popular blockers out there. It has no monetization strategy and
-  is completely <a href="https://github.com/gorhill/uBlock/">open source</a>. We recommend Firefox but uBlock Origin also works in other browsers such as Safari, Opera, and Chromium. Unlike AdBlock Plus, uBlock does not allow so-called <a href="https://adblockplus.org/acceptable-ads">"acceptable ads"</a>.
-  <br />
-  <a href="https://addons.mozilla.org/firefox/addon/ublock-origin/">https://addons.mozilla.org/firefox/addon/ublock-origin/</a>
-  </p>
-
-  <!--
-    <img src="assets/img/addons/Disconnect.png" class="img-fluid float-left" alt="Disconnect" style="margin-right:30px;">
-    <p>Founded in 2011 by former Google engineers and a consumer-and privacy-rights attorney. The addon is open source and loads the pages you go to 27% faster and stops tracking by 2,000+ third-party sites. It also keeps your searches private. If you are planning to install "uBlock Origin" make sure to install "Disconnect" first. <strong>Alternative to Disconnect:</strong> <a href="https://addons.mozilla.org/firefox/addon/privacy-badger-firefox/">Privacy Badger by EFF</a>
-    <br />
-    <a href="https://addons.mozilla.org/firefox/addon/disconnect/">https://addons.mozilla.org/firefox/addon/disconnect/</a>
-    </p>
-    <h3>Hinder Browser Fingerprinting with "Random Agent Spoofer"</h3>
-    <img src="assets/img/addons/Random-Agent-Spoofer.png" class="img-fluid float-left" alt="Random Agent Spoofer" style="margin-right:30px;">
-    <p>A privacy enhancing firefox addon which aims to hinder browser fingerprinting. It does this by changing the browser/device profile on a timer. Source code: <a href="https://github.com/dillbyrne/random-agent-spoofer">GitHub.</a>
-    <br />
-    <a href="https://addons.mozilla.org/firefox/addon/random-agent-spoofer/">https://addons.mozilla.org/firefox/addon/random-agent-spoofer/</a></p>
-  -->
-
-  <h3>Automatically Delete Cookies with "Cookie AutoDelete"</h3>
-  <img src="assets/img/addons/Cookie-AutoDelete.png" class="img-fluid float-left" alt="Cookie AutoDelete" style="margin-right:30px;">
-  <p>Automatically removes cookies when they are no longer used by open browser tabs. With the cookies, lingering sessions, as well as information used to spy on you, will be expunged.
-  <br />
-  <a href="https://addons.mozilla.org/firefox/addon/cookie-autodelete">https://addons.mozilla.org/firefox/addon/cookie-autodelete/</a></p>  <h3>Encryption with "HTTPS Everywhere"</h3>
-  <img src="assets/img/addons/HTTPS-Everywhere.png" class="img-fluid float-left" alt="HTTPS Everywhere" style="margin-right:30px;">
-  <p>A Firefox, Chrome, and Opera extension that encrypts your communications with many major websites, making your browsing more secure. A collaboration between The Tor Project and the Electronic Frontier Foundation.
-  <br />
-  <a href="https://www.eff.org/https-everywhere">https://www.eff.org/https-everywhere</a></p>
-
-  <h3>Block Content Delivery Networks with "Decentraleyes"</h3>
-  <img src="assets/img/addons/Decentraleyes.png" class="img-fluid float-left" alt="Decentraleyes" style="margin-right:30px;">
-  <p>Emulates Content Delivery Networks locally by intercepting requests, finding the required resource and injecting it into the environment. This all happens instantaneously, automatically, and no prior configuration is required. <i>Source code: <a href="https://git.synz.io/Synzvato/decentraleyes">GitLab (self-hosted)</a>.</i>
-  <br />
-  <a href="https://addons.mozilla.org/firefox/addon/decentraleyes/">https://addons.mozilla.org/firefox/addon/decentraleyes/</a></p>
-
-  <div class="alert alert-warning" role="alert">
-    <strong>The following add-ons require quite a lot of interaction from the user to get things working. Some sites will not work properly until you have configured the add-ons.</strong>
-  </div>
-  <!--
-    <h3>Stop cross-site requests with "Request Policy"</h3>
-    <img src="assets/img/addons/Request-Policy.png" class="img-fluid float-left" alt="Request Policy" style="margin-right:30px;">
-    <p>Many websites integrate features which let other websites track you, such as Facebook Like Buttons or Google Analytics. Request Policy gives you control over the requests that websites make to other websites. This gives you greater and more fine grained control over the information that you leak online.
-    <br />
-    <a href="https://requestpolicycontinued.github.io/">https://requestpolicycontinued.github.io/</a>
-    </p>
-  -->
-  <h3>Stop cross-site requests with "uMatrix"</h3>
-  <img src="assets/img/addons/uMatrix.png" class="img-fluid float-left" alt="uMatrix" style="margin-right:30px;">
-  <p>Many websites integrate features which let other websites track you, such as Facebook Like Buttons or Google Analytics. uMatrix gives you control over the requests that websites make to other websites. This gives you greater and more fine-grained control
-  over the information that you leak online.
-  <br />
-  <a href="https://addons.mozilla.org/firefox/addon/umatrix/">https://addons.mozilla.org/firefox/addon/umatrix/</a>
-  </p>
-
-  <h3>Be in total control with "NoScript Security Suite"</h3>
-  <img src="assets/img/addons/NoScript.png" class="img-fluid float-left" alt="NoScript" style="margin-right:30px;">
-  <p>
-  Highly customizable plugin to selectively allow JavaScript, Java, and Flash to run only on websites you trust. Not for casual users, it requires technical knowledge to configure.
-  <br />
-  <a href="https://addons.mozilla.org/firefox/addon/noscript/">https://addons.mozilla.org/firefox/addon/noscript/</a>
-  </p>  <!-- about:config tweaks for Firefox -->
   <h1 id="about_config" class="anchor"><a href="#about_config"><i class="fas fa-link anchor-icon"></i></a> Firefox: Privacy Related "about:config" Tweaks</h1>
 
   <div class="alert alert-success" role="alert">This is a collection of privacy-related <strong>about:config</strong> tweaks. We'll show you how to enhance the privacy of your Firefox browser.</div>
