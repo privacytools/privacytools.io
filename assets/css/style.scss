@@ -7,8 +7,6 @@
 @import 'fontawesome';
 @import 'sortable-theme-bootstrap';
 
-/* BS4 */
-
 .card {
   box-shadow: $card-shadow !important;
 }
@@ -32,14 +30,12 @@ a,
   }
 }
 
-/*.card-primary, */
 .card-primary {
   .card-header {
     border-color: $card-primary-border !important;
   }
 }
 
-/*.card-warning, */
 .card-warning  {
   .card-header {
     border-color: $card-warning-border !important;
@@ -113,6 +109,10 @@ a,
   }
 }
 
+#top {
+  margin-bottom: 3rem !important;
+}
+
 .twitter { background: $twitter; }
 .mastodon { background: $mastodon; }
 .facebook { background: $facebook; }
@@ -122,3 +122,9 @@ a,
 .email { background: $email; }
 .diaspora { background: $diaspora; }
 
+footer {
+  img,
+  i {
+    margin-right: 1rem;
+  }
+}

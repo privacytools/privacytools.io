@@ -1,0 +1,37 @@
+<script src="assets/js/jquery-3.3.1.min.js?v=4"></script>
+<script src="assets/js/popper.min.js?v=4"></script>
+<script src="assets/js/bootstrap.min.js?v=4"></script>
+<script src="assets/js/sortable.min.js?v=4"></script>
+<script>
+  $(function () {
+    $("[data-toggle='tooltip']").tooltip();
+  });
+
+  $('.navbar a').not(".dropdown-toggle").click(function (e) {
+    if ($(".navbar-toggler").is(":visible")) {
+      $('.navbar-collapse').collapse('toggle');
+    }
+  });
+</script>
+
+<!--
+  Piwik is the leading open-source analytics platform:
+  - Free open-source software
+  - 100% data ownership
+  - User privacy protection
+-->
+
+<script>
+  var _paq = _paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//piwik.privacytools.io/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><img src="https://piwik.privacytools.io/piwik.php?idsite=1&amp;rec=1" style="border:0" alt=""/></noscript>
