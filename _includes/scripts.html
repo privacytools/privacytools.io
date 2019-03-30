@@ -15,23 +15,23 @@
 </script>
 
 <!--
-  Piwik is the leading open-source analytics platform:
+  Matomo is the leading open-source analytics platform:
   - Free open-source software
   - 100% data ownership
   - User privacy protection
 -->
 
-<script>
-  var _paq = _paq || [];
+<script type="text/javascript">
+  var _paq = window._paq || [];
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
   (function() {
-    var u="//piwik.privacytools.io/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    var u="https://stats.privacytools.io/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
     _paq.push(['setSiteId', '1']);
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
-<noscript><img src="https://piwik.privacytools.io/piwik.php?idsite=1&amp;rec=1" style="border:0" alt=""/></noscript>
+<noscript><img src="https://stats.privacytools.io/matomo.php?idsite=1&amp;rec=1" style="border:0" alt=""/></noscript>
