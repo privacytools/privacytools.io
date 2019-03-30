@@ -7,6 +7,10 @@
 @import 'fontawesome';
 @import 'sortable-theme-bootstrap';
 
+body {
+  word-wrap: break-word;
+}
+
 .card {
   box-shadow: $card-shadow !important;
 }
