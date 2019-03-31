@@ -11,6 +11,10 @@ body {
   word-wrap: break-word;
 }
 
+dt {
+  overflow-wrap: break-word;
+}
+
 .card {
   box-shadow: $card-shadow !important;
 }
