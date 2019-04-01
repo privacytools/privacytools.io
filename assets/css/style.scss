@@ -78,10 +78,11 @@ a,
 }
 
 .anchor {
-  margin-top: 4rem;
+  margin-top: 3.5rem;
+  margin-bottom: 2rem;
   &:target {
     margin-top: -4rem;
-    padding-top: 8rem;
+    padding-top: 7.5rem;
   }
 }
 
@@ -92,6 +93,12 @@ a,
 .panel-item {
   float: right;
   margin-left: 5px;
+}
+
+.panel-icon {
+  float: right;
+  margin: 15px;
+  font-size: 5.5em;
 }
 
 .share-btn {
