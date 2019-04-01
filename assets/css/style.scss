@@ -77,13 +77,18 @@ a,
   }
 }
 
-.anchor {
+.anchor, .page-header h1 {
   margin-top: 3.5rem;
   margin-bottom: 2rem;
   &:target {
     margin-top: -4rem;
     padding-top: 7.5rem;
   }
+}
+
+h2, h3:not(.h5), h4, h5 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .anchor-icon {
