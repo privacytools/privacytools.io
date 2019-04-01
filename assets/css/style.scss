@@ -78,9 +78,10 @@ a,
 }
 
 .anchor {
+  margin-top: 4rem;
   &:target {
     margin-top: -4rem;
-    padding-top: 4rem;
+    padding-top: 8rem;
   }
 }
 
@@ -129,6 +130,20 @@ a,
 .linkedin    { background: $linkedin; }
 .email { background: $email; }
 .diaspora { background: $diaspora; }
+
+.footer-divider {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  border: none;
+  height: 1px;
+  background-color: #343A40;
+}
+
+.copyright-text {
+  margin-top: 1em;
+  margin-bottom: 3em;
+  text-align: justify;
+}
 
 footer {
   img,
