@@ -50,6 +50,13 @@ a,
   }
 }
 
+.card-list {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
 .blockquote {
   border-left: 5px solid $blockquote-border;
   font-size: 1.2rem;
@@ -77,11 +84,18 @@ a,
   }
 }
 
-.anchor {
+.anchor, .page-header h1 {
+  margin-top: 3.5rem;
+  margin-bottom: 2rem;
   &:target {
     margin-top: -4rem;
-    padding-top: 4rem;
+    padding-top: 7.5rem;
   }
+}
+
+h2, h3:not(.h5), h4, h5 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .anchor-icon {
@@ -91,6 +105,12 @@ a,
 .panel-item {
   float: right;
   margin-left: 5px;
+}
+
+.panel-icon {
+  float: right;
+  margin: 15px;
+  font-size: 5.5em;
 }
 
 .share-btn {
@@ -129,6 +149,20 @@ a,
 .linkedin    { background: $linkedin; }
 .email { background: $email; }
 .diaspora { background: $diaspora; }
+
+.footer-divider {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  border: none;
+  height: 1px;
+  background-color: #343A40;
+}
+
+.copyright-text {
+  margin-top: 1em;
+  margin-bottom: 3em;
+  text-align: justify;
+}
 
 footer {
   img,
