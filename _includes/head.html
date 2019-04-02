@@ -9,20 +9,21 @@
   <meta name="msapplication-TileImage" content="/assets/img/favicons/mstile-144x144.png">
   <meta name="msapplication-config" content="/assets/img/favicons/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
-  <meta property="og:title" content="Privacy Tools | Encryption against global mass surveillance" />
+
+  <!-- title -->
+  {% if page.title %}
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta property="og:title" content="{{ page.title }} | {{ site.title }}" />
+  {% else %}
+  <title>{{ site.title }}</title>
+  <meta property="og:title" content="{{ site.title }}" />
+  {% endif %}
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://www.privacytools.io/" />
   <meta property="og:image" content="https://www.privacytools.io/assets/img/layout/ogimage.jpg" />
   <meta property="og:description" content="You are being watched! Knowledge, encryption and privacy tools to protect you against global mass surveillance."/>
   <meta property="og:locale" content="en_US" />
   <meta property="og:site_name" content="privacytools.io" />
-
-  <!-- title -->
-  {% if page.title %}
-  <title>{{ page.title }} | {{ site.title }} </title>
-  {% else %}
-  <title>{{ site.title }}</title>
-  {% endif %}
 
   <!-- icons -->
   <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicons/apple-touch-icon-57x57.png">
