@@ -4,7 +4,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="privacy, anonymity, privacy tools, surveillance, encryption, edward snowden, nsa, tor">
-  <meta name="description" content="{{ site.description }}">
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="msapplication-TileImage" content="/assets/img/favicons/mstile-144x144.png">
   <meta name="msapplication-config" content="/assets/img/favicons/browserconfig.xml">
@@ -19,9 +19,9 @@
   <meta property="og:title" content="{{ site.title }}" />
   {% endif %}
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://www.privacytools.io/" />
+  <meta property="og:url" content="{{ page.permalink | prepend: site.url }}" />
   <meta property="og:image" content="https://www.privacytools.io/assets/img/layout/ogimage.jpg" />
-  <meta property="og:description" content="You are being watched! Knowledge, encryption and privacy tools to protect you against global mass surveillance."/>
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
   <meta property="og:locale" content="en_US" />
   <meta property="og:site_name" content="privacytools.io" />
 
