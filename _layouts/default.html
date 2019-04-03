@@ -1,20 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-{% include head.html %}
-<body data-spy="scroll" data-target="#navbar">
-  <header>
-  {% include nav.html %}
-  <div id="top" class="py-4"></div>
-  </header>
-  <div class="container" role="main">
-    <main>
-    {{ content }}
-    </main>
-    <footer>
-    {% include footer.html %}
-    </footer>
-  </div>
-
-  {% include scripts.html %}
-</body>
-</html>
+---
+layout: minimal
+---
+<main>
+{{ content }}
+</main>
+<footer>
+{% include footer.html %}
+</footer>
