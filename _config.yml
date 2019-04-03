@@ -7,3 +7,4 @@ plugins:
   - jekyll-sitemap
 sitemap:
 file: "/sitemap.xml"
+include: [".well-known"]
