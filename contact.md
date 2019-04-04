@@ -15,6 +15,8 @@ It's very important to us to stay up-to-date on the latest changes in the privac
 
 For complete transparency, software will only be considered for this website after discussions take place on either of the above platforms. Please do not reach out to any of our collaborators directly to discuss any editorial changes to this website.
 
+<span class="text-success"><i class="fas fa-comment"></i> New:</span> We're now on Matrix! Join us at `#general:privacytools.io` to chat with us and other members about this site and privacy in general. If you need a Matrix account, you can sign up with our own homeserver (`https://chat.privacytools.io`) using [riot.privacytools.io](https://riot.privacytools.io/) or any Matrix client!
+
 ## Services Team
 
 We take the operation of our various [services](/services/) very seriously. If you experience any issues, or have any concerns or suggestions please contact our service administrators. You may also feel free to reach out to the services team if you experience any technical issues with this website itself, as they operate the general webservers. Do not contact regarding any editorial changes.
