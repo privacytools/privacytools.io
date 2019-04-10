@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/privacytools
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://privacytools.io
+  * I am privacytools (https://keybase.io/privacytools) on keybase.
+  * I have a public key ASAkK34bChwgcSbs249aVEhWUYhfn9PYB0yx8y5hZEdLIAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120242b7e1b0a1c207126ecdb8f5a54485651885f9fd3d8074cb1f32e6164474b200a",
+      "host": "keybase.io",
+      "kid": "0120242b7e1b0a1c207126ecdb8f5a54485651885f9fd3d8074cb1f32e6164474b200a",
+      "uid": "81b38301543203013da707b866f13619",
+      "username": "privacytools"
+    },
+    "merkle_root": {
+      "ctime": 1554882176,
+      "hash": "b1089ed763e6fe4cf2cfe93f1be886f43aa5ee7ef75a2331991b9dcde10e54dddf61e574eb960f39cc2908fa446cc21ed29b2fcb69a8dc7d55f8377c8e9eb0ed",
+      "hash_meta": "ca383dcea70dddc13661e902ca2d6c5c8f335ddd497eadefa50216a2e0e52713",
+      "seqno": 5132569
+    },
+    "service": {
+      "entropy": "ceDe5MgNOJcyci7w5hFpYRQA",
+      "hostname": "privacytools.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.1.2"
+  },
+  "ctime": 1554882185,
+  "expire_in": 504576000,
+  "prev": "bbb227d03ce59c91013d19cd90629ffd66778bfbb962e3f62e3900b618a0a1d4",
+  "seqno": 9,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgJCt+GwocIHEm7NuPWlRIVlGIX5/T2AdMsfMuYWRHSyAKp3BheWxvYWTESpcCCcQgu7In0DzlnJEBPRnNkGKf/WZ3i/u5YuP2LjkAthigodTEIOM1RQxwDilO231DJV/I5nDU1jEWSvYeKeikkImIRAEXAgHCo3NpZ8RAl/Xr2YIxBQCob7KjBi8Ovs52HEkJ9vFUwpoQX+1Swp7JXf5N05FPkgsSALTTsPluNP8VOHdNpgsVENzmUsy4DqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJ/Hl9UeRihf69bfCuTV6CHIJTAh/XhZ4lA1zcAmEAwgo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/privacytools
+
+==================================================================
