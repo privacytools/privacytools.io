@@ -77,13 +77,13 @@ To do so, I am signing this object:
       "username": "jonaharagon"
     },
     "merkle_root": {
-      "ctime": 1554912710,
-      "hash": "b80d416a81aa3c1bb73e67b3214b9f5fa2ab8d7209dabe7eed7cd46ae41e07c4eae172bb3b573b7cf744a6b19a96259f180b1e8711be3a27363de6ab77934063",
-      "hash_meta": "2a62ca74acf1d04de32410f8289495de4b8c8b9f275fa0decaa741714a856e20",
-      "seqno": 5135976
+      "ctime": 1554921408,
+      "hash": "3e5c007341d4b02dbe29217419189fa111e0dda3c3e9749540f98e85d769fdc7f0587228446bebc9d114535e75c7fbe2d81dbf1d6a9998add9a9b661eabccffa",
+      "hash_meta": "d346ffeac7eb4a94ff2cd518a27ed5cb745933316b4a9e91f102fd0c01118a63",
+      "seqno": 5137134
     },
     "service": {
-      "entropy": "wPZG9iaQT8ZFHW1uab47NEQu",
+      "entropy": "3MGOPdt1pbQJ3jJphywjT9e9",
       "hostname": "privacytools.io",
       "protocol": "https:"
     },
@@ -92,18 +92,18 @@ To do so, I am signing this object:
   },
   "client": {
     "name": "keybase.io go client",
-    "version": "3.1.2"
+    "version": "3.2.1"
   },
-  "ctime": 1554912731,
+  "ctime": 1554921422,
   "expire_in": 504576000,
-  "prev": "ca3a21892cb908a73eebcbd5bb528645b5563d2930432bc5b825e39a2098de45",
-  "seqno": 156,
+  "prev": "0c6f534ada5683036a1cd98291a995386925a572742e1aa43b2eb20394879ae3",
+  "seqno": 159,
   "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgQ9imZ4lH9CjPuBs5YKzJ5ycxIOeIQ75bJxkRMYD9iHwKp3BheWxvYWTES5cCzJzEIMo6IYksuQinPuvL1btShkW1Vj0pMEMrxbgl45ogmN5FxCCGvI42DuTo/VZ4/UXFncmTPJtc4cboEVjIj4GnBBaJLwIBwqNzaWfEQJlFsFZcKDkfx8yeWZ5igmbtnxTED0PhU0pKRTR9Kvmwn04Uiyp6hxD8Fx3ZHEcUenvOVCBbDfsSiUK7Y83C0wCoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCACr5oqFGWqLjUqX7pzaISI2ZDcCcc0HvNBITWvealN8KN0YWfNAgKndmVyc2lvbgE=
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgQ9imZ4lH9CjPuBs5YKzJ5ycxIOeIQ75bJxkRMYD9iHwKp3BheWxvYWTES5cCzJ/EIAxvU0raVoMDahzZgpGplThpJaVydC4apDsusgOUh5rjxCBbnzb214v7MAMQHsGX2UxkYOPGr+WPD0WitCcDTTHkbQIBwqNzaWfEQByeB7GH1rHDvmFL8OZTS7xZ7oq8nbt/ZKJK8mFYoV0rym4akSdPiuzwP013lSH9msC3PhzpWSSTCmZk7OITtQGoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCBSTSnkhCA3soIAlMBA5R2DIINdDx0mk1xlj07KqwrwIKN0YWfNAgKndmVyc2lvbgE=
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
