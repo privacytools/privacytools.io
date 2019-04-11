@@ -21,8 +21,8 @@ You can submit your suggestions here on GitHub [(Issues)](https://github.com/pri
 
 # Support privacytools.io
 
-- [Donate.](https://privacytoolsio.github.io/privacytools.io/donate.html)
-- [Spread the word.](https://privacytoolsio.github.io/privacytools.io/#participate)
+- [Donate.](https://www.privacytools.io/donate/)
+- [Spread the word.](https://www.privacytools.io/#participate)
 - [Make suggestions on reddit.](https://www.reddit.com/r/privacytoolsIO/)
 - View and edit our website source code here on GitHub.
 
