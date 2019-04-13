@@ -30,6 +30,7 @@ You can submit your suggestions here on GitHub [(Issues)](https://github.com/pri
 - [繁体中文 / Chinese](https://privacytools.twngo.xyz/) - [GitHub](https://github.com/twngo/privacytools-zh)
 - [Español / Spanish](https://victorhck.gitlab.io/privacytools-es/) - [GitLab](https://gitlab.com/victorhck/privacytools-es)
 - [Deutsch / German](https://privacytools.it-sec.rocks/) - [GitHub](https://github.com/Anon215/privacytools.it-sec.rocks)
+- [Français / French](https://privacytools.dreads-unlock.fr/) - [GitLab](https://gitlab.com/Booteille/privacytools)
 - [Italiano / Italian](https://privacytools-it.github.io/) - [GitHub](https://github.com/privacytools-it/privacytools-it.github.io)
 - [Русский / Russian](https://privacytools.ru) - [GitHub](https://github.com/c0rdis/privacytools.ru)
 
