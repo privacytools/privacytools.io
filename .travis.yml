@@ -2,9 +2,22 @@ language: ruby
 rvm:
   - 2.4.1
 
+addons:
+  apt:
+    packages:
+      - openjdk-8-jre  # install Java8 as required by vnu.jar
+      - python3
+      - python3-pip
+      - python3-wheel
+
+install:
+  - pip3 install html5validator --user
+
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
-script: ./build.sh
+script:
+  - ./build.sh
+  - html5validator --root _site/ --also-check-css --blacklist classic
 
 sudo: false # route your build to the container-based infrastructure for a faster build
 
