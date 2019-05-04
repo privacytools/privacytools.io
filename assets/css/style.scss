@@ -7,7 +7,13 @@
 @import 'fontawesome';
 @import 'sortable-theme-bootstrap';
 
-/* BS4 */
+body {
+  word-wrap: break-word;
+}
+
+dt {
+  overflow-wrap: break-word;
+}
 
 .card {
   box-shadow: $card-shadow !important;
@@ -32,18 +38,23 @@ a,
   }
 }
 
-/*.card-primary, */
 .card-primary {
   .card-header {
     border-color: $card-primary-border !important;
   }
 }
 
-/*.card-warning, */
 .card-warning  {
   .card-header {
     border-color: $card-warning-border !important;
   }
+}
+
+.card-list {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 
 .blockquote {
@@ -73,11 +84,22 @@ a,
   }
 }
 
-.anchor {
+.anchor, .page-header h1 {
+  margin-top: 3.5rem;
+  margin-bottom: 2rem;
   &:target {
     margin-top: -4rem;
-    padding-top: 4rem;
+    padding-top: 7.5rem;
   }
+}
+
+h2, h3:not(.h5), h4, h5 {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.header-404 {
+  font-size: 10rem;
 }
 
 .anchor-icon {
@@ -87,6 +109,12 @@ a,
 .panel-item {
   float: right;
   margin-left: 5px;
+}
+
+.panel-icon {
+  float: right;
+  margin: 15px;
+  font-size: 5.5em;
 }
 
 .share-btn {
@@ -113,6 +141,10 @@ a,
   }
 }
 
+#top {
+  margin-bottom: 3rem !important;
+}
+
 .twitter { background: $twitter; }
 .mastodon { background: $mastodon; }
 .facebook { background: $facebook; }
@@ -122,3 +154,23 @@ a,
 .email { background: $email; }
 .diaspora { background: $diaspora; }
 
+.footer-divider {
+  margin-top: 3em;
+  margin-bottom: 3em;
+  border: none;
+  height: 1px;
+  background-color: #343A40;
+}
+
+.copyright-text {
+  margin-top: 1em;
+  margin-bottom: 3em;
+  text-align: justify;
+}
+
+footer {
+  img,
+  i {
+    margin-right: 1rem;
+  }
+}

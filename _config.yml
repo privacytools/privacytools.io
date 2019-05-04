@@ -1,6 +1,10 @@
 title: Privacy Tools - Encryption Against Global Mass Surveillance
-description: You are being watched! Knowledge, encryption and privacy tools to protect you against global mass surveillance.
-url: "https://privacytools.io"
+description: You are being watched. Knowledge, encryption and privacy tools to protect you against global mass surveillance.
+url: "https://www.privacytools.io"
 sass:
   style: compressed
-
+plugins:
+  - jekyll-sitemap
+sitemap:
+file: "/sitemap.xml"
+include: [".well-known"]
