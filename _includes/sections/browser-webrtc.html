@@ -1,0 +1,47 @@
+<h1 id="webrtc" class="anchor"><a href="#webrtc"><i class="fas fa-link anchor-icon"></i></a> WebRTC IP Leak Test - Is your IP address leaking?</h1>
+
+<div class="alert alert-danger" role="alert">
+  <strong>WebRTC is a new communication protocol that relies on JavaScript that can leak your actual IP address from behind your VPN.</strong>
+</div>
+
+<p>While software like NoScript prevents this, it's probably a good idea to block this protocol directly as well, just to be safe.</p>
+
+<p>
+<a class="btn btn-warning" target="_blank" rel="noopener noreferrer" href="https://ipleak.net">Test your Browser now</a>
+</p>
+
+<h3>How to disable WebRTC in Firefox?</h3>
+
+<p>In short: Set "media.peerconnection.enabled" to "false" in "about:config".</p>
+<p><strong>Explained:</strong></p>
+
+<ol class="long-string-list">
+  <li>Enter "about:config" in the firefox address bar and press enter.</li>
+  <li>Press the button "I'll be careful, I promise!"</li>
+  <li>Search for "media.peerconnection.enabled"</li>
+  <li>Double click the entry, the column "Value" should now be "false"</li>
+  <li>Done. Do the WebRTC leak test again.</li>
+</ol>
+
+<p>If you want to make sure every single WebRTC related setting is really disabled change these settings:</p>
+
+<ol class="long-string-list">
+  <li>media.peerconnection.turn.disable = true</li>
+  <li>media.peerconnection.use_document_iceservers = false</li>
+  <li>media.peerconnection.video.enabled = false</li>
+  <li>media.peerconnection.identity.timeout = 1</li>
+</ol>
+
+<p>Now you can be 100% sure WebRTC is disabled.</p>
+
+<p>
+<a class="btn btn-primary" target="_blank" rel="noopener noreferrer" href="https://ipleak.net">Test your Browser again</a>
+</p>
+
+<h3>How to fix the WebRTC Leak in Google Chrome?</h3>
+
+<p>WebRTC cannot be fully disabled in Chrome, however it is possible to change its routing settings (and prevent leaks) using an extension. Two open source solutions include <a href="https://chrome.google.com/webstore/detail/webrtc-leak-prevent/eiadekoaikejlgdbkbdfeijglgfdalml">WebRTC Leak Prevent</a> (options may need to be changed depending on the scenario), and <a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm">uBlock Origin</a> (select "Prevent WebRTC from leaking local IP addresses" in Settings).</p>
+
+<h3>What about other browsers?</h3>
+
+<p>Chrome on iOS, Internet Explorer and Safari does not implement WebRTC yet. <a href="#browser"><i class="fas fa-link"></i> But we recommend using Firefox on all devices.</a></p>
