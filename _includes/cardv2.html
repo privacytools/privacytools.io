@@ -5,16 +5,44 @@
   <div class="card-body">
     <p class="card-text">
       <img src="{{include.image}}" height="120" width="120" class="panel-pic" alt="{{include.title}}">
+
+            {% if include.labels %}
+            {% assign labels = include.labels | replace:", ", "," | split:"," %}
+            <div class="mb-1">
+                {% for label in labels %}
+                    {% assign label_data = label | split:":" %}
+                    {% assign color = label_data[0] %}
+                    {% assign text = label_data[1] %}
+                    {% assign tooltip = label_data[2] | default: "" %}
+                    {% assign help_icon = '<i class="far fa-question-circle"></i>' %}
+                    <span class="badge badge-{{color}}" {% if tooltip %} data-toggle="tooltip" title="{{ tooltip }}">{{text}} {{ help_icon
+                        }}
+                        {% else %}
+                        >{{text}}
+                        {% endif %}
+                    </span>
+                {% endfor %}
+            </div>
+            {% endif %}
+
       {{include.description}}
+
     </p>
     <a href="{{include.website}}" class="btn btn-primary"><i class="fas fa-external-link-alt fa-fw"></i> Website</a>
-    {% if include.discussion %}
-    <a href="{{include.discussion}}" class="btn btn-success"><i class="fab fa-discourse fa-fw"></i> Forum</a>
+    {% if include.forum %}
+    <a href="{{include.forum}}" class="btn btn-success"><i class="fab fa-discourse fa-fw"></i> Forum</a>
     {% endif %}
     {% if include.tor %}
     <a class="mb-1" data-toggle="tooltip" data-placement="bottom" data-original-title="Requires specific software to access: torproject.org" href="{{include.tor}}"><img alt="Tor" src="/assets/img/layout/tor.png" width="35" height="35"></a>
     {% endif %}
+
     <div class="float-right">
+        {% if include.windows %}<i class="fab fa-windows fa-2x fa-fw"></i>{% endif %}
+        {% if include.mac %}<i class="fab fa-apple fa-2x fa-fw"></i>{% endif %}
+        {% if include.linux %}<i class="fab fa-linux fa-2x fa-fw"></i>{% endif %}
+        {% if include.bsd %}<i class="fab fa-freebsd fa-2x fa-fw"></i>{% endif %}
+        {% if include.web %}<i class="fas fa-desktop fa-2x fa-fw"></i>{% endif %}
+
         {% if include.firefox %}<i class="fab fa-firefox fa-2x fa-fw"></i>{% endif %}
         {% if include.chrome %}<i class="fab fa-chrome fa-2x fa-fw"></i>{% endif %}
         {% if include.safari %}<i class="fab fa-safari fa-2x fa-fw"></i>{% endif %}
@@ -25,18 +53,16 @@
         {% if include.ios %}<i class="fab fa-app-store-ios fa-2x fa-fw"></i>{% endif %}
         {% if include.fire %}<i class="fas fa-fire fa-2x fa-fw"></i>{% endif %}
 
-        {% if include.windows %}<i class="fab fa-windows fa-2x fa-fw"></i>{% endif %}
-        {% if include.mac %}<i class="fab fa-apple fa-2x fa-fw"></i>{% endif %}
-        {% if include.linux %}<i class="fab fa-linux fa-2x fa-fw"></i>{% endif %}
-        {% if include.bsd %}<i class="fab fa-freebsd fa-2x fa-fw"></i>{% endif %}
-        {% if include.web %}<i class="fas fa-desktop fa-2x fa-fw"></i>{% endif %}
+        {{include.icon1}}
+        {{include.icon2}}
+        {{include.icon3}}
 
         {% if include.github %}<a href="{{include.github}}"><i class="fab fa-github fa-2x fa-fw"></i></a>{% endif %}
         {% if include.gitlab %}<a href="{{include.gitlab}}"><i class="fab fa-gitlab fa-2x fa-fw"></i></a>{% endif %}
         {% if include.git %}<a href="{{include.git}}"><i class="fab fa-git-square fa-2x fa-fw"></i></a>{% endif %}
 
-        {{include.icon1}}{{include.icon2}}{{include.icon3}}
     </div>
+
   </div>
 </div>
 <br>
