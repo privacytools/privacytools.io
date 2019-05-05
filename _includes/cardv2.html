@@ -1,0 +1,22 @@
+<div class="card">
+  <div class="card-header text-white bg-secondary">
+    <h3 class="h5">{{include.title}}</h3>
+  </div>
+  <div class="card-body">
+    <p class="card-text">
+      <img src="{{include.image}}" height="128" width="128" class="panel-pic" alt="{{include.title}}">
+      {{include.description}}
+    </p>
+    <a href="{{include.website}}" class="btn btn-primary"><i class="fas fa-external-link-alt fa-fw"></i> Website</a>
+    {% if include.discussion %}
+    <a href="{{include.discussion}}" class="btn btn-success"><i class="fab fa-discourse fa-fw"></i>iscussion</a>
+    {% endif %}
+    {% if include.tor %}
+    <a class="mb-1" data-toggle="tooltip" data-placement="bottom" data-original-title="Requires specific software to access: torproject.org" href="{{include.tor}}"><img alt="Tor" src="/assets/img/layout/tor.png" width="35" height="35"></a>
+    {% endif %}
+    <div class="float-right">
+        {{include.icon1}}{{include.icon2}}{{include.icon3}}{{include.icon4}}{{include.icon5}}{{include.icon6}}{{include.icon7}}{{include.icon8}}
+    </div>
+  </div>
+</div>
+<br>
