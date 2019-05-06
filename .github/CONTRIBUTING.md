@@ -17,7 +17,7 @@ We're trying to keep it simple and promote the best tools, not all of them.
 - Easy to use. Could your mother use that tool or service? Usability is most important.
 - Cross-platform / Accessible.
 - Privacy respecting.
-- Open Source / free software is preferred but not required
+- Open Source / free software is preferred but not required.
 
 There can be exceptions if no software is available that meet the criteria.
 
