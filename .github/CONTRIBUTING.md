@@ -10,19 +10,18 @@ Please read this before contributing.
 
 ## Quality over Quantity
 
-We're trying to keep it simple and promote the best tools, not all of them. Maximum are three software choices, but it's possible to add more under "Worth Mentioning" headlines. ([example](https://www.privacytools.io/#im))
+We're trying to keep it simple and promote the best tools, not all of them.
 
 ## Software Criteria
 
-- Open Source
-- Cross-platform
-- Easy to use
-- Privacy respecting
+- Easy to use. Could your mother use that tool or service? Usability is most important.
+- Cross-platform / Accessible.
+- Privacy respecting.
+- Open Source / free software is preferred but not required
 
 There can be exceptions if no software is available that meet the criteria.
 
 ## Images
 
-- Provider logos should be exactly 200 x 70 ([example](https://www.privacytools.io/assets/img/provider/AirVPN.png))
-- Tool logos should be exactly 120 x 120 ([example](https://www.privacytools.io/assets/img/tools/ChatSecure.png))
-
+- Provider logos are 200px x 70px ([example](https://www.privacytools.io/assets/img/provider/AirVPN.png))
+- Tool logos are 120px x 120px ([example](https://www.privacytools.io/assets/img/tools/ChatSecure.png))
