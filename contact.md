@@ -17,7 +17,7 @@ For complete transparency, software will only be considered for this website aft
 
 <span class="text-success"><i class="fas fa-comment"></i> New:</span> We're now on Matrix! Join us at `#general:privacytools.io` to chat with us and other members about this site and privacy in general. If you need a Matrix account, you can sign up with our own homeserver (`https://chat.privacytools.io`) using [riot.privacytools.io](https://riot.privacytools.io/) or any Matrix client! If you prefer XMPP, you're welcome to [use the Matrix.org XMPP bridge to join the discussion](https://conversations.im/j/%23general%23privacytools.io@bridge.xmpp.matrix.org).
 
-## Services Team
+## Abuse
 
 We take the operation of our various [services](/services/) very seriously. Report only <strong>abuse</strong> here: abuse at privacytools dot io.
 
