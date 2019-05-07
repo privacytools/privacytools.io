@@ -6,12 +6,12 @@ permalink: /source_code
 This is a list of all software projects listed on privacytools.io's source code.
 
 ## PrivacyTools.io
-https://github.com/privacytoolsIO/privacytools.io
+https://github.com/privacytoolsIO/
 
 ## Browser Recommendation
  TorBrowser: https://gitweb.torproject.org/tor.git
  
- Firefox: https://github.com/mozilla
+ Firefox: https://hg.mozilla.org/
  
  Brave: https://github.com/brave/
 
@@ -40,7 +40,8 @@ https://github.com/privacytoolsIO/privacytools.io
 Frontend: https://github.com/ProtonMail/WebClient
 Backend: closed-source
 
- Disroot: ?
+  Disroot: https://git.fosscommunity.in/disroot
+ Related: https://board.disroot.org/project/disroot-disroot/issue/1138
  
  Tutanota: 
 Frontend: https://github.com/tutao/tutanota
@@ -85,7 +86,7 @@ Backend: closed-source
 
    Worth Mentioning:
  
- K-9 Mail: tps://github.com/k9mail/k-9/
+ K-9 Mail: https://github.com/k9mail/k-9/
  
  GNU Privacy Guard: https://github.com/gpg/gnupg
  
