@@ -233,7 +233,7 @@ Backend: closed-source
    
    GNUnet: https://gnunet.org/
    
-   IPFS: https://ipfs.io/
+   IPFS: https://github.com/ipfs + https://github.com/ipfs-shipyard
    
 ## Decentralized Social Networks
  Mastodon: https://github.com/tootsuite/mastodon
@@ -250,8 +250,9 @@ Backend: closed-source
  Njalla: ?
  
  DNSCrypt: https://github.com/dnscrypt
+DNSCrypt-proxy: https://github.com/jedisct1/dnscrypt-proxy/
  
- OpenNic: ?
+ OpenNic: https://github.com/opennic/ (mostly)
  
   Worth Mentioning
    
@@ -283,7 +284,8 @@ Backend: closed-source
  
   Worth Mentioning:
    
-   Disroot: ?
+   Disroot: https://github.com/PrivateBin/PrivateBin via https://disroot.org/en/services/privatebin
+
    
 ## Productivity Tools
  Etherpad: https://github.com/ether/etherpad-lite
