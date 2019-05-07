@@ -273,7 +273,7 @@ DNSCrypt-proxy: https://github.com/jedisct1/dnscrypt-proxy/
    
    Paperwork: https://github.com/twostairs/paperwork
    
-   Org-mode: ?
+   Org-mode: https://code.orgmode.org/bzg/org-mode
    
 ## Paste Services
  PrivateBin: https://github.com/PrivateBin/PrivateBin/
@@ -303,7 +303,18 @@ Backend: Closed Source
    
    EtherCalc: https://github.com/audreyt/ethercalc
    
-   Disroot: ?
+   Disroot: 
+  Email:
+  Cloud: https://github.com/nextcloud/server
+  Diaspora/Social-Network: https://github.com/diaspora/
+  Forum: https://github.com/discourse/discourse
+  Chat: http://hg.prosody.im/
+  Pads: https://github.com/ether/etherpad-lite
+  Pastebin: https://github.com/PrivateBin/PrivateBin via https://disroot.org/en/services/privatebin
+  Upload: 
+  Search: 
+  Polls:
+  Project Board: 
    
    Dudle: https://github.com/kellerben/dudle/
    
