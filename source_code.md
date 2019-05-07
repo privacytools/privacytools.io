@@ -312,9 +312,13 @@ Backend: Closed Source
   Pads: https://github.com/ether/etherpad-lite
   Pastebin: https://github.com/PrivateBin/PrivateBin via https://disroot.org/en/services/privatebin
   Upload: 
+ Lufi: https://framagit.org/fiat-tux/hat-softwares/lufi
   Search: 
-  Polls:
+ Searx: https://github.com/asciimoo/searx
+  Polls: 
+ Framadate: https://git.framasoft.org/framasoft/framadate
   Project Board: 
+ Taiga: https://github.com/taigaio/
    
    Dudle: https://github.com/kellerben/dudle/
    
