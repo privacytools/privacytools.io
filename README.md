@@ -22,6 +22,7 @@ You can submit your suggestions here on GitHub [(Issues)](https://github.com/pri
 # Support privacytools.io
 
 - [Donate.](https://www.privacytools.io/donate/)
+- [Liberapay](https://liberapay.com/privacytools.io/donate) or [Patreon.](https://www.patreon.com/privacytools)
 - [Spread the word.](https://www.privacytools.io/#participate)
 - [Make suggestions on reddit.](https://www.reddit.com/r/privacytoolsIO/)
 - View and edit our website source code here on GitHub.
@@ -33,6 +34,7 @@ You can submit your suggestions here on GitHub [(Issues)](https://github.com/pri
 - [Français / French](https://privacytools.dreads-unlock.fr/) - [GitLab](https://gitlab.com/Booteille/privacytools)
 - [Italiano / Italian](https://privacytools-it.github.io/) - [GitHub](https://github.com/privacytools-it/privacytools-it.github.io)
 - [Русский / Russian](https://privacytools.ru) - [GitHub](https://github.com/c0rdis/privacytools.ru)
+- [Português / Portuguese](https://www.privacidade.digital/) - [GitHub](https://github.com/PrivacidadeDigital/privacidade.digital)
 
 # License
 [Do What The Fuck You Want To Public License](https://github.com/privacytoolsIO/privacytools.io/blob/master/LICENSE.txt)
