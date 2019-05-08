@@ -26,18 +26,35 @@
                 {% endfor %}
             </div>
             {% endif %}
-            <p><img src="{{include.image}}" alt="{{include.title}}" class="panel-item">{{include.description}}</p>
+            <p>
+              {% if include.image %}
+              <img src="{{include.image}}" width="120" height="120" alt="{{include.title}}" class="panel-item">
+              {% elsif include.icon %}
+              <i class="{{ include.icon }} panel-icon{% if include.iconcolor %} text-{{include.iconcolor}}{% endif %}"></i>
+              {% endif %}
+              {{include.description}}
+            </p>
             <div>
             <p>
+                {% if include.url %}
                 <a class="btn btn-{{include.color}} mb-1" href="{{include.url}}">Website:
                     {% if include.website %}
                         {{include.website}}
                     {% else %}
-                        {{ include.url | remove: "https://" | remove: "http://" | remove: "www." | remove: "/" }}
+                        {{ include.url | remove: "https://" | remove: "http://" | remove: "www." | remove: "/" | remove: "github.com" }}
                     {% endif %}
                 </a>
+                {% elsif include.page %}
+                <a class="btn btn-{{include.color}} mb-1" href="{{include.page}}">
+                    {% if include.moretext %}
+                        {{include.moretext}}
+                    {% else %}
+                        Learn More
+                    {% endif %}
+                </a>
+                {% endif %}
                 {% if include.tor %}
-                <a class="mb-1" data-toggle="tooltip" data-placement="bottom" data-original-title="{{include.tor}} Requires specific software to access: torproject.org" href="{{include.tor}}"><img alt="Tor" src="assets/img/layout/tor.png" width="35"></a>
+                <a class="mb-1" data-toggle="tooltip" data-placement="bottom" data-original-title="{{include.tor}} Requires specific software to access: torproject.org" href="{{include.tor}}"><img alt="Tor" src="/assets/img/layout/tor.png" width="35" height="35"></a>
                 {% endif %}
 
                 {% if include.extra_button %}
