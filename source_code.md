@@ -42,6 +42,7 @@ Backend: closed-source
 
   Disroot: https://git.fosscommunity.in/disroot
  Related: https://board.disroot.org/project/disroot-disroot/issue/1138
+ Website: https://git.fosscommunity.in/disroot/website + some other repositories https://git.fosscommunity.in/disroot/
  
  Tutanota: 
 Frontend: https://github.com/tutao/tutanota
@@ -285,6 +286,7 @@ DNSCrypt-proxy: https://github.com/jedisct1/dnscrypt-proxy/
   Worth Mentioning:
    
    Disroot: https://github.com/PrivateBin/PrivateBin via https://disroot.org/en/services/privatebin
+  website: https://git.fosscommunity.in/disroot/website + some other repositories https://git.fosscommunity.in/disroot/
 
    
 ## Productivity Tools
@@ -319,6 +321,8 @@ Backend: Closed Source
  Framadate: https://git.framasoft.org/framasoft/framadate
   Project Board: 
  Taiga: https://github.com/taigaio/
+ Website: https://git.fosscommunity.in/disroot/website + some other repositories https://git.fosscommunity.in/disroot/
+
    
    Dudle: https://github.com/kellerben/dudle/
    
