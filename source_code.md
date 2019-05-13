@@ -351,6 +351,11 @@ Backend: Closed Source
    Tails: https://tails.boum.org/contribute/git/
    
    KNOPPIX: ?
+  LXDE: https://github.com/lxde
+  MPlayer: svn://svn.mplayerhq.hu/mplayer/trunk
+  WvDial: https://github.com/wlach/wvdial
+  Gimp: https://gitlab.gnome.org/GNOME/gimp
+  LibreOffice: https://git.libreoffice.org/core
    
    PuppyLinux: ?
    
