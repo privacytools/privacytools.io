@@ -187,7 +187,7 @@ Backend: closed-source
 .    
     Master Password: https://gitlab.com/lhunath/MasterPassword
 .
-    Password Safe: https://github.com/pwsafe/pwsafe
+    Password Safe: hhttps://sourceforge.net/p/passwordsafe/git-code/ci/master/tree/
     
 ## Calendar and Contacts Sync
   Nextcloud: https://github.com/nextcloud
