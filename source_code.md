@@ -358,7 +358,7 @@ Backend: Closed Source
   Gimp: https://gitlab.gnome.org/GNOME/gimp
   LibreOffice: https://git.libreoffice.org/core
    
-   PuppyLinux: ?
+   PuppyLinux: http://puppylinux.com/woof-ce.html
    
    Worth Mentioing
 .    
