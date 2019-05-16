@@ -48,9 +48,9 @@ Backend: closed-source
 Frontend: https://github.com/tutao/tutanota
 Backend: closed-source
  
- Mailfence: ?
+ Mailfence: Non-free/Proprietary Software
  
- Mailbox.org: ?
+ Mailbox.org: Non-free/Proprietary Software
  
  runbox: 
 Runbox 7: https://github.com/runbox/Runbox7
@@ -248,7 +248,7 @@ Backend: closed-source
    GNU Social: https://gnu.io/source/
    
 ## Domain Name System (DNS)
- Njalla: ?
+ Njalla: Non-free/Proprietary Software
  
  DNSCrypt: https://github.com/dnscrypt
 DNSCrypt-proxy: https://github.com/jedisct1/dnscrypt-proxy/
