@@ -1,22 +1,31 @@
 <h1 id="clients" class="anchor"><a href="#clients"><i class="fas fa-link anchor-icon"></i></a> Email Clients</h1>
-<div class="row mb-2">
 
-  {% include card.html color="success"
-  title="Thunderbird"
-  image="/assets/img/tools/Thunderbird.png"
-  url="https://mozilla.org/thunderbird"
-  website="mozilla.org"
-  footer="OS: Windows, macOS, Linux, BSD."
-  description="Mozilla Thunderbird is a free, open source, cross-platform email, news, and chat client developed by the Mozilla Foundation. Thunderbird is an email, newsgroup, news feed, and chat (XMPP, IRC, Twitter) client."
-  %}    {% include card.html color="primary"
-  title="Claws Mail"
-  image="/assets/img/tools/Claws-Mail.png"
-  url="https://www.claws-mail.org/"
-  footer="OS: Windows, macOS, Linux, BSD, Solaris, Unix."
-  description="Claws Mail is a free and open source, GTK+-based email and news client. It offers easy configuration and an abundance of features. It is included with Gpg4win, an encryption suite for Windows."
-  %}
+{% include cardv2.html
+title="Thunderbird"
+image="/assets/img/tools/Thunderbird.png"
+description="Mozilla Thunderbird is a free, open source, cross-platform email, news, and chat client developed by the Mozilla Foundation. Thunderbird is an email, newsgroup, news feed, and chat (XMPP, IRC, Twitter) client."
+website="https://mozilla.org/thunderbird"
+forum="https://forum.privacytools.io/t/discussion-thunderbird/659"
+github="https://github.com/mozilla"
+windows=""
+mac=""
+linux=""
+bsd=""
+%}
 
-</div>
+{% include cardv2.html
+title="Claws Mail"
+image="/assets/img/tools/Claws-Mail.png"
+description="Claws Mail is a free and open source, GTK+-based email and news client. It offers easy configuration and an abundance of features. It is included with Gpg4win, an encryption suite for Windows."
+website="https://www.claws-mail.org/"
+forum="https://forum.privacytools.io/t/discussion-claws-mail/660"
+git="https://git.claws-mail.org/"
+windows=""
+mac=""
+linux=""
+bsd=""
+%}
+
 
 <h3>Privacy Email Tools</h3>
 
