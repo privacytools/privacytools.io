@@ -1,28 +1,37 @@
 <h1 id="filesharing" class="anchor"><a href="#filesharing"><i class="fas fa-link anchor-icon"></i></a> File Sharing</h1>
 
-<div class="row mb-2">
-  {% include card.html color="success"
-  title="OnionShare"
-  image="/assets/img/tools/OnionShare.png"
-  url="https://onionshare.org/"
-  tor="http://elx57ue5uyfplgva.onion/"
-  footer="OS: Windows, macOS, Linux."
-  description="OnionShare is an open source tool that lets you securely and anonymously share a file of any size. It works by starting a web server, making it accessible as a Tor onion service, and generating an unguessable URL to access and download the files. It doesn't require setting up a server on the internet somewhere or using a third-party filesharing service. You host the file on your own computer and use a Tor onion service to make it temporarily accessible over the internet."
-  %}
+{% include cardv2.html
+title="Firefox Send"
+image="/assets/img/tools/Firefox-Send.png"
+website="https://send.firefox.com/"
+description="Send uses end-to-end encryption to keep your data secure from the moment you share to the moment your file is opened. It also offers security controls that you can set. You can choose when your file link expires, the number of downloads, and whether to add an optional password for an extra layer of security."
+forum="https://forum.privacytools.io/t/discussion-firefox-send/755"
+github="https://github.com/mozilla/send"
+web=""
+android=""
+%}
 
-  {% include card.html color="primary"
-  title="Firefox Send"
-  image="/assets/img/tools/Firefox-Send.png"
-  url="https://send.firefox.com/"
-  footer='OS: Browser and Android'
-  description="Send uses end-to-end encryption to keep your data secure from the moment you share to the moment your file is opened. It also offers security controls that you can set. You can choose when your file link expires, the number of downloads, and whether to add an optional password for an extra layer of security."
-  %}
+{% include cardv2.html
+title="OnionShare"
+image="/assets/img/tools/OnionShare.png"
+website="https://onionshare.org/"
+tor="http://elx57ue5uyfplgva.onion/"
+description="OnionShare is an open source tool that lets you securely and anonymously share a file of any size. It works by starting a web server, making it accessible as a Tor onion service, and generating an unguessable URL to access and download the files."
+forum="https://forum.privacytools.io/t/discussion-onionshare/754"
+github="https://github.com/micahflee/onionshare"
+windows=""
+mac=""
+linux=""
+%}
 
-  {% include card.html color="warning"
-  title="Magic Wormhole"
-  image="/assets/img/tools/Magic-Wormhole.png"
-  url="https://github.com/warner/magic-wormhole"
-  footer="OS: cross-platform"
-  description="Get things from one computer to another, safely. This package provides a library and a command-line tool named wormhole, which makes it possible to get arbitrary-sized files and directories (or short pieces of text) from one computer to another. The two endpoints are identified by using identical wormhole codes: in general, the sending machine generates and displays the code, which must then be typed into the receiving machine."
-  %}
-</div>
+{% include cardv2.html
+title="Magic Wormhole"
+image="/assets/img/tools/Magic-Wormhole.png"
+website="https://github.com/warner/magic-wormhole"
+description="Get things from one computer to another, safely. This package provides a library and a command-line tool named wormhole, which makes it possible to get arbitrary-sized files and directories (or short pieces of text) from one computer to another."
+forum="https://forum.privacytools.io/t/discussion-magic-wormhole/756"
+github="https://github.com/warner/magic-wormhole"
+windows=""
+mac=""
+linux=""
+%}
