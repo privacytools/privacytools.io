@@ -38,4 +38,4 @@ You can submit your suggestions here on GitHub [(Issues)](https://github.com/pri
 - [Português / Portuguese](https://www.privacidade.digital/) - [GitHub](https://github.com/PrivacidadeDigital/privacidade.digital)
 
 # License
-[Creative Commons CC0 1.0](https://www.privacytools.io/LICENSE.txt)
+[Creative Commons Zero v1.0 Universal](https://www.privacytools.io/LICENSE.txt)
