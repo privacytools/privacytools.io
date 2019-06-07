@@ -1,0 +1,8 @@
+---
+layout: page
+permalink: /providers/p2p-file-sharing/
+title: "P2P File Hosting"
+description: "P2P File Hosting"
+---
+
+{% include sections/social-news-agregator.html %}
