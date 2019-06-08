@@ -1,0 +1,113 @@
+<h1 id="im" class="anchor"><a href="#im"><i class="fas fa-link anchor-icon"></i></a> Encrypted Instant Messenger</h1>
+
+<div class="alert alert-warning" role="alert">
+  <strong>If you are currently using an Instant Messenger like WhatsApp, Viber, LINE, Telegram or Threema, you should pick an alternative here.</strong>
+</div>
+
+
+{% include cardv2.html
+title="Mobile: Signal"
+image="/assets/img/tools/Signal.png"
+description="Signal is a mobile app developed by Open Whisper Systems. The app provides instant messaging, as well as voice and video calling.
+All communications are end-to-end encrypted. Signal is free and open source."
+website="https://signal.org"
+forum="https://forum.privacytools.io/t/discussion-signal/664"
+github="https://github.com/signalapp"
+android=""
+ios=""
+mac=""
+windows=""
+linux=""
+%}
+
+
+{% include cardv2.html
+title="Riot.im"
+image="/assets/img/tools/riot.png"
+description="Riot.im is a decentralized free-software chatting application based on the <a href\"https://matrix.org/\">Matrix</a> protocol, a recent open protocol for real-time communication offering E2E encryption. It can bridge other communications via others protocols such as IRC too. <span class=\"badge badge-warning\" data-toggle=\"tooltip\" title=\"The software is currently in beta and the mobile client states 'End-to-end encryption is in beta and may not be reliable. You should not yet trust it to secure data.'\">beta <i class=\"far fa-question-circle\"></i></span>"
+website="https://riot.im/"
+forum="https://forum.privacytools.io/t/discussion-riot-im/665"
+github="https://github.com/vector-im"
+android=""
+ios=""
+mac=""
+windows=""
+linux=""
+web=""
+%}
+
+{% include cardv2.html
+title="Desktop: Ricochet"
+image="/assets/img/tools/Ricochet.png"
+description='Ricochet uses the <a href="/browsers/#browser"><i class="fas fa-link"></i> Tor network</a> to reach your contacts without relying on messaging servers. It creates a hidden service, which is used to rendezvous with your contacts without revealing your location or IP address. <span class="badge badge-warning" data-toggle="tooltip" title="This software is an experiment."><a href="https://github.com/ricochet-im/ricochet#experimental">Experimental</a></span> <span class="badge badge-danger">Danger</span> <a href="#ricochetTor">Keep Tor up to date</a>'
+website="https://ricochet.im/"
+forum="https://forum.privacytools.io/t/discussion-ricochet/666"
+github="https://github.com/ricochet-im/ricochet"
+mac=""
+windows=""
+linux=""
+%}
+
+<h3>Complete Comparison</h3>
+<ul>
+	<li><a href="https://securechatguide.org/effguide.html">securechatguide.org</a> - Guide to Choosing a Messenger.</li>
+	<li><a href="https://www.securemessagingapps.com/">securemessagingapps.com</a> - Secure Messaging Apps Comparison.</li>
+  <li><a href="https://www.thinkprivacy.io/messengers.html">thinkprivacy.io</a> - Simple Secure Messaging Apps Comparison.</li>
+</ul>	
+
+
+<h3>Worth Mentioning</h3>
+
+<ul>
+  <li><a href="https://retroshare.cc/">RetroShare</a> - An E2E encrypted instant messaging and voice/video call client. RetroShare supports both TOR and I2P. </li>
+  <li><a href="https://www.chatsecure.org">ChatSecure</a> - ChatSecure is a free and open source messaging app that features OTR encryption over XMPP. </li>
+  <li><a href="https://kontalk.org/">Kontalk</a> - A community-driven instant messaging network. Supports end-to-end encryption. Both client-to-server and server-to-server channels are fully encrypted.</li>
+  <li><a href="https://play.google.com/store/apps/details?id=eu.siacs.conversations">Conversations</a> - An open source Jabber/XMPP client for Android 4.4+ smartphones. Supports end-to-end encryption with either OMEMO or openPGP. There is also <a href="https://play.google.com/store/apps/details?id=eu.siacs.conversations.legacy">Conversations Legacy</a> which still supports OTR.</li>
+  <li><a href="https://get.wire.com/">Wire</a> <span class="badge badge-warning" data-toggle="tooltip" title="Wire stores metadata such as list of your connections/conversations in plaintext (= not encrypted).">experimental <i class="far fa-question-circle"></i> (<a href="https://www.vice.com/en_us/article/gvzw5x/secure-messaging-app-wire-stores-everyone-youve-ever-contacted-in-plain-text">more info</a>)</span> - A free software End-to-End Encrypted chatting application that supports instant messaging, voice, and video calls.</li>
+  <li><a href="https://status.im/">Status</a> - <span class="badge badge-warning">Experimental</span> A free and open-source, peer-to-peer, encrypted instant messanger with support for DAPPs. </li>    
+  <li><a href="https://en.wikipedia.org/wiki/Off-the-Record_Messaging#Client_support">List of OTR Clients - Wikipedia</a></li>
+</ul>
+
+
+<h3>Related Information</h3>
+
+<ul>
+  <li><a href="https://www.vice.com/en_us/article/mg7v3a/ricochet-encrypted-messenger-tackles-metadata-problem-head-on">Ricochet, the Messenger That Beats Metadata, Passes Security Audit | Motherboard</a></li>
+  <li><a href="https://firstlook.org/theintercept/2015/07/14/communicating-secret-watched/">Chatting in Secret While We're All Being Watched - firstlook.org</a></li>
+  <li><a href="https://signal.org/android/apk/">Advanced users with special needs can download the Signal APK directly. Most users should not do this under normal circumstances.</a></li>
+</ul>
+
+<!-- Updating the Tor binary included with Ricochet -->
+<h3 id="ricochetTor" class="anchor"><a href="#ricochetTor"><i class="fas fa-link anchor-icon"></i></a> Updating the Tor binary included with Ricochet</h3>
+
+Currently there are no known vulnerabilities with Ricochet. The software is safe to use as long as you update the included Tor binary to the latest version.
+
+<ol class="long-string-list">
+  <li>Download the <a href="/browsers/#browser"><i class="fas fa-link"></i> Tor Browser</a>.</li>
+  <li>Run the Tor Browser installer or extract package for your platform. Windows (.exe), MacOSX (.dmg) and Linux (.tar.bz2).</li>
+  <li>Copy the Tor binary or create a symbolic link to it: </li>
+  <br>
+  <ul>
+      <li><strong>Windows: </strong>Copy the Tor binary included with the Tor Browser and overwrite the old one included with Ricochet.</li>
+      <ul>
+          <li>Tor Browser binary: <code>%HOMEPATH%\Desktop\Tor Browser\Browser\TorBrowser\Tor\tor.exe</code></li>
+          <li>Ricochet's included binary: <code>%HOMEPATH%\Desktop\Ricochet\tor.exe</code></li>
+      </ul>
+      <br>
+      <li><strong>MacOSX: </strong>Assuming you copied the <code>Tor Browser.app</code> and <code>Ricochet.app</code> from their respective .dmg install media to <code>/Applications</code>: <br>
+          Create a symbolic link to the Tor binary in Terminal. Ricochet will continue to use the up to date version of the Tor binary when you update the Tor Browser Bundle.</li>
+      <ul>
+          <li><code>rm ~/Applications/Ricochet.app/Contents/MacOS/tor <br>
+                    ln -s ~/Applications/Tor\ Browser.app/Contents/Resources/TorBrowser/Tor/tor \ <br>
+                          ~/Applications/Ricochet.app/Contents/MacOS/tor</code>
+          </li>
+      </ul>
+      <br>
+      <li><strong>Linux: </strong>Assuming you extracted the Tor Browser Bundle and Ricochet tarball to your home directory:</li>
+      <ul>
+          <li><code>rm ~/ricochet/tor <br>
+                    ln -s ~/tor-browser_en-US/Browser/TorBrowser/Tor/tor ~/ricochet/tor</code>
+          </li>
+      </ul>
+  <ul>
+</ol>
