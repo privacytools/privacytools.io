@@ -351,7 +351,7 @@ Backend: Closed Source
 ## Live CD Operating Systems
    Tails: https://tails.boum.org/contribute/git/
    
-   KNOPPIX: ?
+   KNOPPIX: Unknown (More info https://knopper.net/knoppix-info/index-en.html)
   LXDE: https://github.com/lxde
   MPlayer: svn://svn.mplayerhq.hu/mplayer/trunk
   WvDial: https://github.com/wlach/wvdial
