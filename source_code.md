@@ -66,7 +66,7 @@ Backend: closed-source
  Mail-in-a-Box: https://github.com/mail-in-a-box/mailinabox
 
    Interesting Email Providers Under Development
-   Confidant Mail: ?
+   Confidant Mail: List of components at https://www.confidantmail.org/docs/server_admin.html
    
    Privacy Email Tools:
  
