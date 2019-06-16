@@ -15,7 +15,7 @@ It's very important to us to stay up-to-date on the latest changes in the privac
 
 [<i class="fab fa-reddit fa-lg fa-fw"></i> Suggest something new on reddit](https://www.reddit.com/r/privacytoolsIO/)
 
-For complete transparency, software will only be considered for this website after discussions take place on either of the above platforms. 
+For complete transparency, software and providers will only be considered for this website after discussions take place on either of the above platforms. 
 
 <span class="text-success"><i class="fas fa-comment"></i> New:</span> We're now on Matrix! Join us at `#general:privacytools.io` to chat with us and other members about this site and privacy in general. If you need a Matrix account, you can sign up with our own homeserver (`https://chat.privacytools.io`) using [riot.privacytools.io](https://riot.privacytools.io/) or any Matrix client! If you prefer XMPP, you're welcome to [use the Matrix.org XMPP bridge to join the discussion](https://conversations.im/j/%23general%23privacytools.io@bridge.xmpp.matrix.org).
 
