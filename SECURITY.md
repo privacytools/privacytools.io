@@ -12,12 +12,13 @@ The administrative team will acknowledge your message within 48 hours, and will 
 
 Please report any security bugs in third-party projects to the person or team maintaining that project.
 
-The following are out of scope and should **not** be performed:
+The following are out of scope and should **not** be attacked/performed:
 
 * Excessive Automated Scans
 * Denial of Service Attacks
 * Social Engineering Attacks
 * Reports against infrastructure outside our control
+* User or admin accounts not owned by the tester
 
 ## Disclosure Policy
 
@@ -26,6 +27,8 @@ When we receive a security report, that report will be assigned to an administra
 1. Confirm the problem and determine affected services.
 2. Audit infrastructure and/or code to find any potential similar problems.
 3. Prepare fixes for all releases currently in production, which will be implemented as quickly as possible.
+
+Additionally, if user data was directly affected or compromised, we will inform affected users to the best of our ability via email and/or a website notification with more information about the incident.
 
 ## Comments on this Policy
 
