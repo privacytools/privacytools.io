@@ -1,0 +1,4 @@
+Contact: admin@privacytools.io
+Encryption: https://www.jonaharagon.com/keys/
+Preferred-Languages: en
+Canonical: https://www.privacytools.io/.well-known/security.txt
