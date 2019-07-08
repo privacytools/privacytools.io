@@ -21,9 +21,9 @@ We're trying to keep it simple and promote the best tools, not all of them.
 - Prioritize Products without Vendor Lock-in (decentralized/self-hostable).
 
 There can be exceptions if no software is available that meet the criteria.
-This criteria applies to all of privacytools.io
+NOte: This criteria applies to all of privacytools.io
 ### Proividers
-- Prioritize Products by privacy respecying nationality.
+- Prioritize Products by privacy respecting nationality.
 
 ### VPN
 - Prioritize Products by privacy respecying nationality.
@@ -39,12 +39,12 @@ This criteria applies to all of privacytools.io
 - Accessable Using Free Software (i.e IMAP)
 
 ### Hardware
-- Must be H-Node Class A or Equivlant (if applicable)
-- Must prioritize hardware certifications like RYF, OSHWA, and OSI when avalible.
+- Must be [H-Node Class A](https://h-node.org/wiki/page/en/compatibility-classes) or Equivlant (if applicable)
+- Must prioritize hardware certifications like [RYF](https://ryf.fsf.org/), [OSHWA](https://certification.oshwa.org/), and OSI when avalible.
 - Cannot lock users to a particular platform.
 
 ### Software
-- Must be able to download over encryted network (including mirrors)
+- Must be able to download over encryted network (can be a mirror)
 - Must be free software
 
 ### Encryption
