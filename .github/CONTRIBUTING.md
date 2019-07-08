@@ -21,7 +21,8 @@ We're trying to keep it simple and promote the best tools, not all of them.
 - Prioritize Products without Vendor Lock-in (decentralized/self-hostable).
 
 There can be exceptions if no software is available that meet the criteria.
-NOte: This criteria applies to all of privacytools.io
+
+Note: This criteria applies to all of privacytools.io
 ### Proividers
 - Prioritize Products by privacy respecting nationality.
 
