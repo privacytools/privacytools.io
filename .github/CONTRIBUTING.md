@@ -18,7 +18,7 @@ We're trying to keep it simple and promote the best tools, not all of them.
 - Cross-platform / Accessible.
 - Privacy respecting.
 - Open Source / free software is preferred but not required.
-- Prioritize Products without Vendor Lock-in (decentralized/self-hostable) or products that enable users with an easily way export to and use other platforms.
+- Prioritize Products without Vendor Lock-in (decentralized/self-hostable) or data interoperability.
 
 There can be exceptions if no software is available that meet the criteria.
 
