@@ -48,7 +48,7 @@ This criteria applies to all of privacytools.io
 - Must be free software
 
 ### Encryption
-- Only Free Software is encryption is to be trusted
+- Only verifiable encryption is to be trusted
 
 ### OSes
 - Must state if recommends, depends on, or offers non-free software (contrib)
