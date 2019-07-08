@@ -45,7 +45,7 @@ Note: This criteria applies to all of privacytools.io
 - Cannot lock users to a particular platform.
 
 ### Software
-- Must be able to download over encryted network (can be a mirror)
+- Must be able to download over encrypted network (can be a mirror)
 - Must be free software
 
 ### Encryption
