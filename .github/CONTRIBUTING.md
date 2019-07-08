@@ -27,7 +27,7 @@ Note: This criteria applies to all of privacytools.io
 - Prioritize Products by privacy respecting nationality.
 
 ### VPN
-- Prioritize Products by privacy respecying nationality.
+- Prioritize Products by privacy respecting nationality.
 - Cannot be based in USA or UK.
 - Must be acessable via free software (i.e OpenVPN, WireGuard)
 - Use Encryption
