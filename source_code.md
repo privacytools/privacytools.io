@@ -27,6 +27,10 @@ https://github.com/privacytoolsIO/
  
  Decentraleyes: https://git.synz.io/Synzvato/decentraleyes
  
+ Terms of Service; Didn’t Read : https://github.com/tosdr/
+ 
+ Snowflake : https://gitweb.torproject.org/pluggable-transports/snowflake.git
+ 
  uMatrix: https://github.com/gorhill/uMatrix/
  
  NoScript: https://github.com/hackademix/noscript/
