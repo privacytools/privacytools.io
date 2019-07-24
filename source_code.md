@@ -114,8 +114,6 @@ Backend: closed-source
 ## Encrypted Instant Messenger
  Signal https://github.com/signalapp
  
- Riot: https://github.com/vector-im
- 
  Ricochet: https://github.com/ricochet-im/ricochet
 
    Worth Mentioning:
