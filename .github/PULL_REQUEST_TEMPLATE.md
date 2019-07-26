@@ -7,7 +7,6 @@ Resolves: #none <!-- The number of the issue that is resolved by this pull reque
 <!--
 ## Screenshots
 
-Please add screenshots if applicable
 -->
 
 #### Check List <!-- Please add an x in each box below, like so: [x] -->
