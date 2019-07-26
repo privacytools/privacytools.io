@@ -10,12 +10,12 @@ Resolves: #none <!-- The number of the issue that is resolved by this pull reque
 Please add screenshots if applicable
 -->
 
-#### Check List
+#### Check List <!-- Please add an x in each box below, like so: [x] -->
 
-- [ ] Have read and understand [CONTRIBUTING.md](https://github.com/privacytoolsIO/privacytools.io/blob/master/.github/CONTRIBUTING.md)
+- [ ] I Have read and understand [CONTRIBUTING.md](https://github.com/privacytoolsIO/privacytools.io/blob/master/.github/CONTRIBUTING.md)
 
-- [ ] Listed Source code in [Source_Code.md](https://github.com/privacytoolsIO/privacytools.io/blob/master/source_code.md)
+- [ ] I have listed any applicable source [source_code.md](https://github.com/privacytoolsIO/privacytools.io/blob/master/source_code.md)
 
-- [ ] Project Is [Free Software](https://www.wikipedia.org/wiki/Free_software)
+- [ ] This project is [Free Software](https://www.wikipedia.org/wiki/Free_software)
 
 Code Repository (if applicable): 
