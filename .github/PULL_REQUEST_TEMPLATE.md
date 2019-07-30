@@ -15,6 +15,6 @@ Resolves: #none <!-- The number of the issue that is resolved by this pull reque
 
 - [ ] I have listed any applicable source [source_code.md](https://github.com/privacytoolsIO/privacytools.io/blob/master/source_code.md)
 
-- [ ] This project is [Free Software](https://www.wikipedia.org/wiki/Free_software)
+- [ ] This project is [free software](https://www.wikipedia.org/wiki/Free_software)
 
 Code Repository (if applicable): 
