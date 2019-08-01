@@ -98,6 +98,10 @@ h2, h3:not(.h5), h4, h5 {
   margin-bottom: 1rem;
 }
 
+.h5 {
+  margin-bottom: 0rem;
+}
+
 .header-404 {
   font-size: 10rem;
 }
@@ -109,6 +113,11 @@ h2, h3:not(.h5), h4, h5 {
 .panel-item {
   float: right;
   margin-left: 5px;
+}
+
+.panel-pic {
+  float: left;
+  margin-right: 15px;
 }
 
 .panel-icon {

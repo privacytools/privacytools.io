@@ -10,19 +10,53 @@ Please read this before contributing.
 
 ## Quality over Quantity
 
-We're trying to keep it simple and promote the best tools, not all of them. Maximum are three software choices, but it's possible to add more under "Worth Mentioning" headlines. ([example](https://www.privacytools.io/#im))
+We're trying to keep it simple and promote the best tools, not all of them.
 
 ## Software Criteria
-
-- Open Source
-- Cross-platform
-- Easy to use
-- Privacy respecting
+### Main
+- Easy to use. Could your mother use that tool or service? Usability is most important.
+- Cross-platform / Accessible.
+- Privacy respecting.
+- Open Source / free software is preferred but not required.
+- Must list source code in [source_code.md](https://github.com/privacytoolsIO/privacytools.io/blob/master/source_code.md) (if applicable)
+- Prioritize Products without Vendor Lock-in (decentralized/self-hostable) or data interoperability.
 
 There can be exceptions if no software is available that meet the criteria.
 
+Note: This criteria applies to all of privacytools.io
+### Proividers
+- Prioritize Products by privacy respecting nationality.
+
+### VPN
+- Prioritize Products by privacy respecting nationality.
+- Cannot be based in USA or UK.
+- Must be acessable via free software (i.e OpenVPN, WireGuard)
+- Use Encryption
+- Accept Cryptocurrency
+- No logging policy
+
+### Email
+- Outside of USA
+- Support SMTP SSL
+- Accessable Using Free Software (i.e IMAP)
+
+### Hardware
+- Must be [H-Node Class A](https://h-node.org/wiki/page/en/compatibility-classes) or Equivlant (if applicable)
+- Must prioritize hardware certifications like [RYF](https://ryf.fsf.org/), [OSHWA](https://certification.oshwa.org/), and OSI when avalible.
+- Cannot lock users to a particular platform.
+
+### Software
+- Must be able to download over encrypted network (can be a mirror)
+- Must be free software
+
+### Encryption
+- Only verifiable encryption is to be trusted
+
+### OSes
+- Must state if recommends, depends on, or offers non-free software (contrib)
+- No Tracking Policy (opt-in analytics is ok)
+
 ## Images
 
-- Provider logos should be exactly 200 x 70 ([example](https://www.privacytools.io/assets/img/provider/AirVPN.png))
-- Tool logos should be exactly 120 x 120 ([example](https://www.privacytools.io/assets/img/tools/ChatSecure.png))
-
+- Provider logos are 200px x 70px ([example](https://www.privacytools.io/assets/img/provider/AirVPN.png))
+- Tool logos are 120px x 120px ([example](https://www.privacytools.io/assets/img/tools/ChatSecure.png))

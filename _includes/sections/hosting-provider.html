@@ -1,29 +1,34 @@
 <h1 id="host" class="anchor"><a href="#host"><i class="fas fa-link anchor-icon"></i></a> Secure Hosting Provider</h1>
 
-<div class="row mb-2">
-  {% include card.html color="success"
-  title="BAHNHOF"
-  image="/assets/img/provider/bahnhof.png"
-  url="https://www.bahnhof.net/"
-  description="BAHNHOF is a widely known 'bullet-proof' hosting company utilized by Wikileaks."
-  %}
-  {% include card.html color="primary"
-  title="Colocation: DataCell"
-  image="/assets/img/provider/datacell.png"
-  url="https://datacell.is/"
-  description="DataCell is a data center providing secure colocating in Switzerland and Iceland."
-  %}
+{% include cardv2.html
+title="Data Center: Bahnhof"
+image="/assets/img/provider/bahnhof.png"
+description="Bahnhof is one of Sweden’s largest network operators, founded in 1994. They specialize in innovative data center construction: Extreme security coupled with low cost green energy has made us world famous."
+website="https://www.bahnhof.net/"
+forum="https://forum.privacytools.io/t/discussion-bahnhof-net/341"
+%}
 
-  {% include card.html color="warning"
-  title="VPS/Web Hosting: Orange Website"
-  image="/assets/img/provider/orange_hosting.png"
-  url="https://www.orangewebsite.com/"
-  description="Orange Website is an Icelandic web hosting provider that prides themselves in protecting online privacy and free speech."
-  %}
-</div>
+{% include cardv2.html
+title="VPS & Domain: Njalla"
+image="/assets/img/provider/Njalla.png"
+description="Created by people from The Pirate Bay and IPredator VPN. Accepted Payments: Bitcoin, Litecoin, Monero, DASH, Bitcoin Cash and PayPal. A privacy-aware domain registration service and VPS provider."
+website="https://njal.la/"
+tor="http://njalladnspotetti.onion"
+forum="https://forum.privacytools.io/t/discussion-njalla/339"
+%}
 
-<h3>Worth Mentioning</h3>
+{% include cardv2.html
+title="Colocation: DataCell"
+image="/assets/img/provider/datacell.png"
+description="DataCell is a data center providing secure colocating in Switzerland and Iceland."
+website="https://datacell.is/"
+forum="https://forum.privacytools.io/t/discussion-datacell-is/342"
+%}
 
-<ul>
-  <li><a href="https://njal.la/">Njalla</a> - Privacy-aware domain and VPS service in Sweden.</li>
-</ul>
+{% include cardv2.html
+title="VPS & Hosting: Orange Website"
+image="/assets/img/provider/orange_hosting.png"
+description="Orange Website is an Icelandic web hosting provider that prides themselves in protecting online privacy and free speech."
+website="https://www.orangewebsite.com/"
+forum="https://forum.privacytools.io/t/discussion-orange-website/343"
+%}

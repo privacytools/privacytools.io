@@ -3,37 +3,56 @@
 <div class="alert alert-warning" role="alert">
   <strong>If you are currently using a Video & Voice Messenger like Skype, Viber or Google Hangouts, you should pick an alternative here.</strong>
 </div>
-<div class="row mb-2">
-  {% include card.html color="success"
-  title="Mobile: Signal"
-  image="/assets/img/tools/Signal.png"
-  url="https://signal.org"
-  footer="OS: Android, iOS, macOS, Windows, Linux"
-  description="Signal is a mobile app developed by Open Whisper Systems. The app provides instant messaging, as well as voice and video calling.
-  All communications are end-to-end encrypted. Signal is free and open source, enabling anyone to verify its security by auditing the code. The development team is supported by community donations and grants. There are no advertisements,
-  and it doesn't cost anything to use."
-  %}
 
-  {% include card.html color="primary"
-  title="Wire"
-  image="/assets/img/tools/wire.png"
-  url="https://get.wire.com"
-  footer="OS: Android, iOS, macOS, Windows, Linux, Web"
-  description="Wire is an app developed by Wire Swiss GmbH.
-  The Wire app allows users to exchange end-to-end encrypted instant messages, as well as make voice and video calls. Wire is free and open source, enabling anyone to verify its security by auditing the code.
-  The development team is backed by Iconical and they will monetize in the future with premium features/services.<br>
-  <b>Caution:</b> The company keeps a list of all the users you contact until you delete your account."
-  %}
+{% include cardv2.html
+title="Mobile: Signal"
+image="/assets/img/tools/Signal.png"
+website="https://signal.org"
+description="Signal is a mobile app developed by Open Whisper Systems. The app provides instant messaging, as well as voice and video calling.
+All communications are end-to-end encrypted. Signal is free and open source."
+forum="https://forum.privacytools.io/t/discussion-signal/664"
+github="https://github.com/signalapp"
+android=""
+ios=""
+mac=""
+windows=""
+linux=""
+footer="OS: Android, iOS, macOS, Windows, Linux"
+%}
 
-  {% include card.html color="warning"
-  title="Linphone"
-  image="/assets/img/tools/Linphone.png"
-  url="https://www.linphone.org/"
-  footer="OS: iOS, Android, Windows Phone, Linux, Windows, macOS, Browser (Web)"
-  description="Linphone is an open source SIP Phone and a free voice over IP service, available on mobile and desktop environments and on web browsers. It supports ZRTP for end-to-end encrypted voice and video communication."
-  %}
+{% include cardv2.html
+title="Wire"
+image="/assets/img/tools/wire.png"
+website="https://wire.com/download/"
+description="Wire is an app developed by Wire Swiss GmbH.
+The Wire app allows users to exchange end-to-end encrypted instant messages, as well as make voice and video calls. Wire is free and open source. <span class=\"badge badge-warning\" data-toggle=\"tooltip\" title=\"The company keeps a list of all the users you contact until you delete your account.\">Caution <i class=\"far fa-question-circle\"></i></span>"
+forum="https://forum.privacytools.io/t/discussion-wire/750"
+github="https://github.com/wireapp"
+android=""
+ios=""
+mac=""
+windows=""
+linux=""
+web=""
+%}
 
-</div>
+{% include cardv2.html
+title="Linphone"
+image="/assets/img/tools/Linphone.png"
+website="https://www.linphone.org/"
+description="Linphone is an open source SIP Phone and a free voice over IP service, available on mobile and desktop environments and on web browsers. It supports ZRTP for end-to-end encrypted voice and video communication."
+forum="https://forum.privacytools.io/t/discussion-linphone/751"
+github="https://github.com/BelledonneCommunications"
+ios=""
+android=""
+windows=""
+linux=""
+mac=""
+web=""
+%}
+
+
+
 
 <h3>Worth Mentioning</h3>
 
@@ -47,5 +66,5 @@
 
 <ul>
   <li><a href="https://signal.org/android/apk/">Advanced users with special needs can download the Signal APK directly. Most users should not do this under normal circumstances.</a></li>
-  <li><a href="https://motherboard.vice.com/en_us/article/secure-messaging-app-wire-stores-everyone-youve-ever-contacted-in-plain-text">Secure Messaging App Wire Stores Everyone You've Ever Contacted in Plain Text | Motherboard</a></li>
+  <li><a href="https://www.vice.com/en_us/article/gvzw5x/secure-messaging-app-wire-stores-everyone-youve-ever-contacted-in-plain-text">Secure Messaging App Wire Stores Everyone You've Ever Contacted in Plain Text | Motherboard</a></li>
 </ul>
