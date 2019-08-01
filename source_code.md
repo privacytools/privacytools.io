@@ -275,6 +275,8 @@ Webpage: https://github.com/opennic/opennic-web
  
  Turtl: https://github.com/turtl
  
+ Dnote: https://github.com/dnote
+
   Worth Mentioning
    
    Paperwork: https://github.com/twostairs/paperwork
