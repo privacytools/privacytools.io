@@ -14,8 +14,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run html-beautify",
-      "pre-push": "npm run html-beautify"
+      "pre-commit": "npm run html-beautify"
     }
   },
   "repository": {
