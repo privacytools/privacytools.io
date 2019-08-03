@@ -1,0 +1,19 @@
+{
+  "name": "privacytools.io",
+  "version": "1.0.0",
+  "description": "[![privacytools](https://privacytools.io/assets/img/layout/logo.png)](https://www.privacytools.io/)",
+  "devDependencies": {
+    "js-beautify": "1.10.1"
+  },
+  "scripts": {
+    "html-beautify": "node_modules/.bin/html-beautify --editorconfig .editorconfig _includes/**/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/privacytoolsIO/privacytools.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/privacytoolsIO/privacytools.io/issues"
+  },
+  "homepage": "https://github.com/privacytoolsIO/privacytools.io#readme"
+}
