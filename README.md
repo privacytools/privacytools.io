@@ -16,8 +16,11 @@ You can submit your suggestions here on GitHub [(Issues)](https://github.com/pri
 
 1. Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
 1. Install [bundler](https://bundler.io/) by running `gem install bundler`.
-1. Run `bundle install` to install the required dependencies.
-1. Use `bundle exec jekyll build` to build the website. The output can be found in the `_site` directory.  Live preview is also possible by running `bundle exec jekyll serve`
+1. Install [Node.js](https://nodejs.org/).
+1. Run `npm install && bundle install` to install the required dependencies.
+1. Use `npm run build` to build the website. The output can be found in the `_site` directory.
+1. Use `npm run serve` for a live preview of the website.
+1. Use `npm run html-beautify` to format the HTML source code.
 
 # Support privacytools.io
 
