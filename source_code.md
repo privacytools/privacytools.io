@@ -356,8 +356,6 @@ Backend: Closed Source
 
    Whonix: https://github.com/Whonix/Whonix
 
-   Subgraph OS: https://github.com/subgraph
-
 ## Live CD Operating Systems
    Tails: https://tails.boum.org/contribute/git/
 
