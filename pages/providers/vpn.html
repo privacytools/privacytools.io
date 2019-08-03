@@ -1,8 +1,57 @@
 ---
 layout: page
 permalink: /providers/vpn/
-title: "VPN Services for Privacy and Security"
+title: "VPN Services"
 description: "Find a no-logging VPN operator who isn't out to sell or read your web traffic."
 ---
 
+<div class="card border-danger">
+  <div class="card-header text-danger"><i class="fas fa-exclamation-circle fa-fw"></i> Warning</div>
+  <div class="card-body">
+    <p class="card-text text-danger">Using a VPN will <strong>not</strong> keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.</p>
+    <p class="card-text text-danger">If you are looking for <strong>anonymity</strong>, you should use the Tor Browser <strong>instead</strong> of a VPN.</p>
+    <p class="card-text text-danger">If you're looking for added <strong>security</strong>, you should always ensure you're connecting to websites using HTTPS. A VPN is not a replacement for good security practices.</p>
+    <p class="card-text text-secondary">If you're looking for additional <strong>privacy</strong> from your ISP, on a public Wi-Fi network, or while torrenting files, a VPN may be the solution for you as long as you understand <a href="#info">the risks involved</a>.</p>
+    <a href="https://www.torproject.org/" class="btn btn-danger">Download Tor</a>
+    <a href="https://write.privacytools.io/my-thoughts-on-security/slicing-onions-part-1-myth-busting-tor" class="btn btn-outline-danger">Tor Myths &amp; FAQ</a>
+    <a href="#info" class="btn btn-outline-secondary">More Info</a>
+  </div>
+</div>
+
 {% include sections/vpn.html %}
+
+<h1 id="info" class="anchor"><a href="#info"><i class="fas fa-link anchor-icon"></i></a> Further Information and Dangers</h1>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <h3>Should I use a VPN?</h3>
+      <p>The answer to this question is not a particularly helpful one: <strong>It depends.</strong> It depends on what you're expecting a VPN to do for you, who you're trying to hide your traffic from, and what applications you're using.</p>
+      <p><strong>In most cases, VPNs do little to protect your privacy or enhance your security</strong>, unless paired with other changes.</p>
+      <p>VPNs cannot encrypt data outside of the connection between your device and the VPN server. VPN providers can see and modify your traffic the same way your ISP could. And there is no way to verify a VPN provider's "no logging" policies in any way.</p>
+      <h3>What if I need encryption?</h3>
+      <p>In most cases, your traffic is already encrypted! Over 98% of the top 3000 websites offer <strong>HTTPS</strong>, meaning your traffic is safe regardless of using a VPN. It is incredibly rare for applications that handle personal data to not support HTTPS in 2019, especially with services like Let's Encrypt offering free HTTPS certificates to any website operator.</p>
+      <p>Even if a site you visit doesn't support HTTPS, a VPN will not protect you, because a VPN cannot magically encrypt the traffic between the VPN's servers and the website's servers. Installing an extension like <a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a> and making sure every site you visit uses HTTPS is far more helpful than using a VPN.</p>
+      <h3>What if I need anonymity?</h3>
+      <p>VPNs cannot provide strong anonymity. Your VPN provider will still see your real IP address, and often has a money trail that can be linked directly back to you. You cannot rely on "no logging" policies to protect your data.</p>
+    </div>
+    <div class="col-md-6">
+      <h3>Shouldn't I hide my IP address?</h3>
+      <p>The idea that your IP address is sensitive information, or that your location is given away with all your internet traffic is <strong>fearmongering</strong> on the part of VPN providers and their marketing. Your IP address is an insignificant amount of personal data tracking companies use to identify you, because many users' IP addresses change very frequently (Dynamic IP addresses, switching networks, switching devices, etc.). Your IP address also does not give away more than the very generalized location of your Internet Service Provider. It does not give away your home address, for example, despite common perception.</p>
+      <h3>Should I use Tor <em>and</em> a VPN?</h3>
+      <p>By using a VPN with Tor, you're creating essentially a permanent entry node, often with a money trail attached. This provides 0 additional benefit to you, while increasing the attack surface of your connection dramatically. If you wish to hide your Tor usage from your ISP or your government, Tor has a built-in solution for that: Tor bridges. <a href="https://write.privacytools.io/my-thoughts-on-security/slicing-onions-part-2-onion-recipes-vpn-not-required">Read more about Tor bridges and why using a VPN is not necessary</a>.</p>
+      <h3>Are VPNs ever useful?</h3>
+      <p>A VPN may still be useful to you in a variety of scenarios, such as:</p>
+      <ol>
+        <li>Hiding your traffic from <strong>only</strong> your Internet Service Provider.</li>
+        <li>Hiding your downloads (such as Torrents) from your ISP and anti-piracy organizations.</li>
+      </ol>
+      <p>For use-cases like these, or if you have another compelling reason, the VPN providers we listed above are who we think are the most trustworthy. However, using a VPN provider still means you're <em>trusting</em> the provider. In pretty much any other scenario you should be using a secure<strong>-by-design</strong> tool such as Tor.</p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <p><strong>Sources and Further Reading</strong>: <a href="https://schub.io/blog/2019/04/08/very-precarious-narrative.html">VPN - a Very Precarious Narrative</a> by Dennis Schubert; <a href="https://gist.github.com/joepie91/5a9909939e6ce7d09e29">Don't use VPN services</a> by Sven Slootweg; <a href="https://write.privacytools.io/my-thoughts-on-security/slicing-onions-part-1-myth-busting-tor">Slicing onions: Part 1 – Myth-busting Tor</a> and <a href="https://write.privacytools.io/my-thoughts-on-security/slicing-onions-part-2-onion-recipes-vpn-not-required">Slicing Onions: Part 2 – Onion recipes; VPN not required</a> by blacklight447.<p>
+    </div>
+  </div>
+</div>
