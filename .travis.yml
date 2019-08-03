@@ -1,11 +1,22 @@
-language: ruby
-rvm:
-  - 2.4.1
+matrix:
+  include:
+  - language: ruby
+    rvm:
+      - 2.4.1
 
-# Assume bundler is being used, therefore
-# the `install` step will run `bundle install` by default.
-script: ./build.sh
+    # Assume bundler is being used, therefore
+    # the `install` step will run `bundle install` by default.
+    script: ./build.sh
 
-sudo: false # route your build to the container-based infrastructure for a faster build
+    sudo: false # route your build to the container-based infrastructure for a faster build
 
-cache: bundler # caching bundler gem packages will speed up build
+    cache: bundler # caching bundler gem packages will speed up build
+
+  - language: node_js
+    node_js:
+      - "v12.7.0"
+    branches:
+      only:
+        - master
+    script:
+      - "npm run html-beautify"
