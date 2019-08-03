@@ -4,7 +4,7 @@
   "description": "[![privacytools](https://privacytools.io/assets/img/layout/logo.png)](https://www.privacytools.io/)",
   "devDependencies": {
     "husky": "^3.0.2",
-    "js-beautify": "1.10.1"
+    "js-beautify": "^1.10.1"
   },
   "scripts": {
     "build": "bundle exec jekyll build",
