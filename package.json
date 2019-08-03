@@ -9,7 +9,7 @@
   "scripts": {
     "build": "bundle exec jekyll build",
     "serve": "bundle exec jekyll serve",
-    "html-beautify": "node_modules/.bin/html-beautify --editorconfig .editorconfig -r '**/*.html'",
+    "html-beautify": "node_modules/.bin/html-beautify --editorconfig .editorconfig -r '**/*.html'; git add \\*.html",
     "beautify-and-build": "npm run html-beautify && npm run build"
   },
   "husky": {
