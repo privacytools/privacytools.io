@@ -15,9 +15,10 @@ You can submit your suggestions here on GitHub [(Issues)](https://github.com/pri
 ## Building
 
 1. Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
-1. Install [bundler](https://bundler.io/) by running `gem install bundler`.
+1. Run `gem install bundler` to install [bundler](https://bundler.io/).
+1. Run `bundle install` to install the required Ruby dependencies.
 1. Install [Node.js](https://nodejs.org/).
-1. Run `npm install && bundle install` to install the required dependencies.
+1. Run `npm install` to install the required Node dependencies.
 1. Use `npm run build` to build the website. The output can be found in the `_site` directory.
 1. Use `npm run serve` for a live preview of the website.
 1. Use `npm run html-beautify` to format the HTML source code.
