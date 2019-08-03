@@ -114,19 +114,27 @@ Backend: closed-source
 ## Encrypted Instant Messenger
  Signal https://github.com/signalapp
 
- Ricochet: https://github.com/ricochet-im/ricochet
+ Wire: https://github.com/wireapp
 
    Worth Mentioning:
 
- ChatSecure: https://github.com/chatsecure
+ Briar: https://code.briarproject.org/briar/briar/tree/master
 
- Cryptocat: https://github.com/cryptocat/cryptocat
-
- Kontalk: https://github.com/kontalk/
+ RetroShare: https://github.com/RetroShare/RetroShare
 
  Conversations: https://github.com/siacs/Conversations
 
- Wire: https://github.com/wireapp
+ Gajim: https://dev.gajim.org/gajim/gajim
+
+ Monal: https://github.com/anurodhp/Monal
+
+ Kontalk: https://github.com/kontalk
+
+ Keybase: https://github.com/keybase/client
+
+ Status.im: https://github.com/status-im
+
+ Ricochet: https://github.com/ricochet-im/ricochet
 
 ## Encrypted Video & Voice Messenger
  Signal: https://github.com/signalapp
@@ -348,8 +356,6 @@ Backend: Closed Source
 
    Whonix: https://github.com/Whonix/Whonix
 
-   Subgraph OS: https://github.com/subgraph
-
 ## Live CD Operating Systems
    Tails: https://tails.boum.org/contribute/git/
 
@@ -363,7 +369,7 @@ Backend: Closed Source
    PuppyLinux: http://puppylinux.com/woof-ce.html
 
    Worth Mentioing
-.
+.    
     Tiny Core Linux:
     https://www.openhub.net/p/tinycorelinux/enlistments
 
@@ -396,4 +402,3 @@ Backend: Closed Source
    OpenBSD: https://github.com/openbsd
 
    DD-WRT: https://svn.dd-wrt.com//
-
