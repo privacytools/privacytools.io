@@ -11,7 +11,7 @@
     "build": "bundle exec jekyll build",
     "serve": "bundle exec jekyll serve",
     "format:html": "node bin/get-html-ls.js | xargs node_modules/.bin/html-beautify -r",
-    "format-test:html": "node bin/get-html-ls.js | xargs bash bin/html-beautify-check.sh"
+    "format-test:html": "node bin/get-html-ls.js | xargs bash ./bin/html-beautify-check.sh"
   },
   "husky": {
     "hooks": {
