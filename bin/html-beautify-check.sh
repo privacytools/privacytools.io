@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Runs html-beautify's format check and errors with 0/1 if it needs to be changed.
 APPDIR=$(readlink -f $(dirname $(dirname $0)))
