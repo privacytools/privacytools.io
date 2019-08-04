@@ -21,7 +21,7 @@ You can submit your suggestions here on GitHub [(Issues)](https://github.com/pri
 1. Run `npm install` to install the required Node dependencies.
 1. Use `npm run build` to build the website. The output can be found in the `_site` directory.
 1. Use `npm run serve` for a live preview of the website.
-1. Use `npm run html-beautify` to format the HTML source code.
+1. Use `npm run format:html` to format the HTML source code.
 
 # Support privacytools.io
 
