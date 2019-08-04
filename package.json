@@ -18,11 +18,6 @@
       "pre-commit": "node_modules/.bin/lint-staged"
     }
   },
-  "lint-staged": {
-    "**/*.html": [
-      "bin/html-beautify-check.sh"
-    ]
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/privacytoolsIO/privacytools.io.git"

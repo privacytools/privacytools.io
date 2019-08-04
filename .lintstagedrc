@@ -1,0 +1,3 @@
+{
+	"*.html": "bin/html-beautify-check.sh"
+}
