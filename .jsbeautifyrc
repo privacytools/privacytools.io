@@ -1,0 +1,6 @@
+{
+	"html": {
+		"indent_with_tabs": true,
+		"indent_handlebars": true
+	}
+}

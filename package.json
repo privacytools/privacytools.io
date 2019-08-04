@@ -1,21 +1,27 @@
 {
   "name": "privacytools.io",
   "version": "1.0.0",
-  "description": "[![privacytools](https://privacytools.io/assets/img/layout/logo.png)](https://www.privacytools.io/)",
   "devDependencies": {
+    "glob": "^7.1.4",
     "husky": "^3.0.2",
-    "js-beautify": "^1.10.1"
+    "js-beautify": "^1.10.1",
+    "lint-staged": "^9.2.1"
   },
   "scripts": {
     "build": "bundle exec jekyll build",
     "serve": "bundle exec jekyll serve",
-    "html-beautify": "node_modules/.bin/html-beautify --editorconfig .editorconfig -r '**/*.html'; git add \\*.html",
-    "beautify-and-build": "npm run html-beautify && npm run build"
+    "format:html": "node bin/get-html-ls.js | xargs node_modules/.bin/html-beautify -r",
+    "format-test:html": "node bin/get-html-ls.js | xargs bash bin/html-beautify-check.sh"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run html-beautify"
+      "pre-commit": "node_modules/.bin/lint-staged"
     }
+  },
+  "lint-staged": {
+    "**/*.html": [
+      "bin/html-beautify-check.sh"
+    ]
   },
   "repository": {
     "type": "git",
@@ -23,6 +29,5 @@
   },
   "bugs": {
     "url": "https://github.com/privacytoolsIO/privacytools.io/issues"
-  },
-  "homepage": "https://github.com/privacytoolsIO/privacytools.io#readme"
+  }
 }
