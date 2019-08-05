@@ -1,4 +1,4 @@
-[![privacytools](https://privacytools.io/assets/img/layout/logo.png)](https://www.privacytools.io/)
+[![privacytools](./assets/img/layout/logo.png)](https://www.privacytools.io/)
 
 _Encryption Against Global Mass Surveillance._
 
