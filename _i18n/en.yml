@@ -26,7 +26,6 @@ quotes:
   header: "Privacy? I don't have anything to hide."
   quotes: "Quotes"
 privacy_resources:
-  note: "Note: Just being open source does not make software secure!"
   header: "More Privacy Resources"
   guides: "Guides"
   guide1: "Surveillance Self-Defense by EFF"
@@ -77,6 +76,7 @@ privacy_resources:
   tool9_d: "A directory to help you find open source alternatives to proprietary tools."
   tool10: "AlternativeTo"
   tool10_d: "A directory to help find alternatives to other software, with the option to only show open source software."
+  note: "Note: Just being open source does not make software secure!"
 participate:
   participate: "Participate with suggestions and constructive criticism"
   up_to_date: "It's important for a website like privacytools.io to stay up-to-date."
@@ -96,3 +96,14 @@ participate:
   github_d: "The complete website source code is available on GitHub. Join our developer team!"
   contributors: "Contributor List"
   thanks: "This is a community project aiming to deliver the best information available to improve privacy online. Thank you for participating. This project needs you."
+donate:
+  cta: "Please Donate"
+  ad_free: "Our website is free of advertisements and not affiliated with any listed providers."
+  costs: "Your donation will cover our costs for servers, domains, coffee, beer, and pizza."
+  bitcoin: "We prefer Bitcoin donations to be above $5 due to the state of the network's transaction fees."
+  bitcoin2: "You are welcome to donate any smaller or larger amount on any other cryptocurrency, such as Bitcoin Cash, Ethereum, or Stellar."
+  more: "More Cryptocurrencies"
+  the: "The"
+  team: "privacytools.io team"
+  endorse: "does not necessarily endorse all of the cryptocurrencies listed on this page. Please conduct your own research before purchasing any cryptocurrencies."
+  thanks: "Thanks for your support. You are awesome!"
