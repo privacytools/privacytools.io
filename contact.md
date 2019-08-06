@@ -1,27 +1,27 @@
 ---
 layout: page
 permalink: /contact/
-title: "Contact Us"
-description: "Contact the privacytoolsIO team if you have any suggestions or are experiencing any issues."
+title: "{% t contact.title %}"
+description: "{% t contact.description %}"
 ---
 
-## Editorial Team
+## {% t contact.editorial_team %}
 
-It's very important to us to stay up-to-date on the latest changes in the privacy space. If you have a software recommendation for us, or want to request a change on this website, please don't hesitate to reach out.
+{% t contact.up_to_date %} {% t contact.reach_out %}
 
-[<i class="fab fa-discourse fa-lg fa-fw"></i> Start a discussion in our Discourse Forum](https://forum.privacytools.io/)
+[<i class="fab fa-discourse fa-lg fa-fw"></i> {% t contact.start_discussion }](https://forum.privacytools.io/)
 
-[<i class="fab fa-github fa-lg fa-fw"></i> Open an issue or pull request on GitHub](https://github.com/privacytoolsIO/privacytools.io/issues)
+[<i class="fab fa-github fa-lg fa-fw"></i> {% t contact.open_an_issue %}](https://github.com/privacytoolsIO/privacytools.io/issues)
 
-[<i class="fab fa-reddit fa-lg fa-fw"></i> Suggest something new on reddit](https://www.reddit.com/r/privacytoolsIO/)
+[<i class="fab fa-reddit fa-lg fa-fw"></i> {% t contact.reddit_suggestion %}](https://www.reddit.com/r/privacytoolsIO/)
 
-For complete transparency, software and providers will only be considered for this website after discussions take place on either of the above platforms.
+{% t contact.transparency %}
 
-<span class="text-success"><i class="fas fa-comment"></i> New:</span> We're now on Matrix! Join us at `#general:privacytools.io` to chat with us and other members about this site and privacy in general. If you need a Matrix account, you can sign up with our own homeserver (`https://chat.privacytools.io`) using [riot.privacytools.io](https://riot.privacytools.io/) or any Matrix client! If you prefer XMPP, you're welcome to [use the Matrix.org XMPP bridge to join the discussion](https://conversations.im/j/%23general%23privacytools.io@bridge.xmpp.matrix.org).
+<span class="text-success"><i class="fas fa-comment"></i> {% t global.new %}:</span> {% t contact.on_matrix %} `#general:privacytools.io` {% t contact.on_matrix2 %}. {% t contact.register_matrix %} (`https://chat.privacytools.io`) {% t contact.using %} [riot.privacytools.io](https://riot.privacytools.io/) {% t contact.or_matrix_client %}
 
 ## Abuse
 
-We take the operation of our various [services](/services/) very seriously. Report only <strong>abuse</strong> here: abuse at privacytools dot io.
+{% t contact.abuse1 %} {% t contact.abuse2 %} abuse at privacytools dot io.
 
 <div class="row">
   <div class="col-12">
@@ -30,8 +30,8 @@ We take the operation of our various [services](/services/) very seriously. Repo
         GitHub Issues
       </div>
       <ul class="list-group list-group-flush">
-        <li class="list-group-item"><strong>Searx Issues:</strong> <a href="https://github.com/privacytoolsIO/search">github.com/privacytoolsIO/search</a></li>
-        <li class="list-group-item"><strong>Website Issues:</strong> <a href="https://github.com/privacytoolsIO/privacytools.io">github.com/privacytoolsIO/privacytools.io</a></li>
+        <li class="list-group-item"><strong>{% t contaxt.searx_issues %}:</strong> <a href="https://github.com/privacytoolsIO/search">github.com/privacytoolsIO/search</a></li>
+        <li class="list-group-item"><strong>{% t contaxt.website_issues %}:</strong> <a href="https://github.com/privacytoolsIO/privacytools.io">github.com/privacytoolsIO/privacytools.io</a></li>
       </ul>
     </div>
   </div>

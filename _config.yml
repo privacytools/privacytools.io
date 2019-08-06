@@ -6,6 +6,7 @@ sass:
 plugins:
   - jekyll-sitemap
   - jekyll-multiple-languages-plugin
+plugins_dir: "./_plugins"
 sitemap:
 file: "/sitemap.xml"
 include: [".well-known"]

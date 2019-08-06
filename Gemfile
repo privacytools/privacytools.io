@@ -1,12 +1,13 @@
 source "https://rubygems.org"
 
 # Install github-pages gem (https://jekyllrb.com/docs/github-pages/)
-gem "github-pages", group: :jekyll_plugins
+gem "jekyll", group: :jekyll_plugins
 
 # Plugins
 group :jekyll_plugins do
   # example: gem "jekyll-feed", "~> 0.6"
   gem 'jekyll-multiple-languages-plugin'
+  gem 'jekyll-sitemap'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
