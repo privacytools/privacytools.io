@@ -38,7 +38,7 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
 <h1 id="icanndns" class="anchor"><a href="#icanndns"><i class="fas fa-link anchor-icon"></i></a> Encrypted ICANN DNS Providers</h1>
 
 <div class="alert alert-warning" role="alert">
-  <strong>Note: Using an encrypted DNS provider will not make you anonymous. But it will give you a better privacy. Don't rely on a "no log" policy.</strong>
+  <strong>Note: Using an encrypted DNS provider will not make you anonymous, nor hide your internet traffic from your Internet Service Provider. But it will prevent DNS hijacking and spoofing, and make your DNS queries harder to share with third parties. If you are currently using Google or your ISP's DNS resolver, you should pick an alternative here.</strong>
 </div>
 
 <div class="table-responsive">
@@ -60,7 +60,7 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
     <tbody>
       <tr>
         <td data-value="AdGuard">
-          <a href="https://adguard.com/en/adguard-dns/overview.html">AdGuard</a> <span class="badge badge-warning" data-toggle="tooltip" title="Uses Cloudflare"><i class="fas fa-exclamation-triangle"></i></a></span>
+          <a href="https://adguard.com/en/adguard-dns/overview.html">AdGuard</a> <span class="badge badge-warning" data-toggle="tooltip" title="Uses Cloudflare and Google"><i class="fas fa-exclamation-triangle"></i></a></span>
         </td>
         <td>Anycast (based in <span class="flag-icon flag-icon-cy"></span> Cyprus)</td>
         <td>
@@ -70,10 +70,10 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         </td>
         <td>Commercial</td>
         <td>N</td>
-        <td>IPv4, IPv6, DoH, DoT, DNSCrypt</td>
-        <td>N</td>
+        <td>DoH, DoT, DNSCrypt</td>
+        <td><a data-toggle="tooltip" data-placement="bottom" data-original-title="Of AdGuard's three upstream providers (Cloudflare, Google, and OpenDNS), OpenDNS does not support DNSSEC." href="https://old.reddit.com/r/Adguard/comments/bbb9md/adguard_dns_doesnt_validate_dnssec_signatures/">Partial</a></td>
         <td>Y</td>
-        <td>Y</td>
+        <td>Ads, trackers, malicious domains</td>
         <td>
           <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://github.com/AdguardTeam/AdGuardDNS/" href="https://github.com/AdguardTeam/AdGuardDNS/">
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
@@ -96,7 +96,7 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         <td>DoH, DoT, DNScrypt</td>
         <td>Y</td>
         <td>Y</td>
-        <td>Y</td>
+        <td>Ads, trackers, malicious domains <span class="badge badge-warning" data-toggle="tooltip" data-original-title="And some wildcard, IDN, and non-ASCII domains."><a href="https://github.com/ookangzheng/blahdns#default-blocked-wildcard-domain"><i class="fas fa-exclamation-triangle"></i></a></span></td>
         <td>
           <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://github.com/ookangzheng/blahdns/" href="https://github.com/ookangzheng/blahdns/">
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
@@ -114,13 +114,13 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
           </a>
         </td>
-        <td data-value="0"><a data-toggle="tooltip" data-placement="bottom" data-original-title='"CZ.NIC is an interest association of legal entities, founded in 1998 by leading providers of Internet services."' href="https://www.nic.cz/page/351/about-association/">Association</a></td>
+        <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"CZ.NIC is an interest association of legal entities, founded in 1998 by leading providers of Internet services."' href="https://www.nic.cz/page/351/about-association/">Association</a></td>
         <td>N</td>
-        <td>IPv4, IPv6, DoH, DoT</td>
+        <td>DoH, DoT</td>
         <td>Y</td>
         <td>Y</td>
-        <td>N/A</td>
-        <td>N/A</td>
+        <td>?</td>
+        <td>?</td>
       </tr>
 
       <tr>
@@ -135,11 +135,11 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         </td>
         <td>Hobby Project</td>
         <td>N</td>
-        <td>IPv4, IPv6, DoH, DoT, DNSCrypt</td>
+        <td>DoH, DoT, DNSCrypt</td>
         <td>Y</td>
         <td>Y</td>
         <td>Based on server choice</td>
-        <td>N/A</td>
+        <td>?</td>
       </tr>
 
       <tr>
@@ -158,7 +158,7 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         <td>Y</td>
         <td>Y</td>
         <td>N</td>
-        <td>N/A</td>
+        <td>?</td>
       </tr>
 
       <tr>
@@ -195,12 +195,12 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
           </a>
         </td>
         <td>Non-Profit</td>
-        <td><a href="https://quad9.net/policy/">Y</a></td>
-        <td>IPv4, IPv6, DoH, DoT, DNSCrypt</td>
+        <td><a href="https://quad9.net/policy/">Some</a></td>
+        <td>DoH, DoT, DNSCrypt</td>
         <td>Y</td>
         <td>Y</td>
-        <td>Based on server choice</td>
-        <td>N/A</td>
+        <td>Malicious domains</td>
+        <td>?</td>
       </tr>
 
       <tr>
@@ -218,8 +218,8 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         <td>DoH, DoT, DNScrypt</td>
         <td>Y</td>
         <td>Y</td>
-        <td>Y</td>
-        <td>N/A</td>
+        <td>Based on server choice</td>
+        <td>?</td>
       </tr>
 
       <tr>
@@ -234,22 +234,22 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         </td>
         <td>Hobby Project</td>
         <td>N</td>
-        <td>IPv4, IPv6, DoT</td>
+        <td>DoT</td>
         <td>Y</td>
         <td>N</td>
         <td>N</td>
-        <td>N/A</td>
+        <td>?</td>
       </tr>
     </tbody>
   </table>
 
-  <h3>Worth Mentioning</h3>
+  <h3>Worth Mentioning and additional information</h3>
 
   <ul>
     <li><a href="https://www.isc.org/blogs/qname-minimization-and-privacy/">QNAME Minimization and Your Privacy</a> by the Internet Systems Consortium (ISC)</li>
     <li><a href="https://www.isc.org/dnssec/">DNSSEC and BIND 9</a> by the ISC</li>
-    <li>Android 9 comes with a DoT client by <a href="https://android-developers.googleblog.com/2018/04/dns-over-tls-support-in-android-p.html">default</a>. <span class="badge badge-warning" data-toggle="tooltip" data-original-title="...but with some caveats"><a href="https://www.quad9.net/private-dns-quad9-android9/"><i class="fas fa-exclamation-triangle"></i></a></li>
-    <li><a href="https://apps.apple.com/app/id1452162351">DNSCloak</a> - An <a href="https://github.com/s-s/dnscloak">open-source</a> DNSCrypt and DNS over HTTPS client for iOS by <td data-value="0"><a data-toggle="tooltip" data-placement="bottom" data-original-title='"A charitable non-profit host organization for international Free Software projects."' href="https://techcultivation.org/">the Center for the Cultivation of Technology gemeinnuetzige GmbH</a>.</td>
+    <li>Android 9 comes with a DoT client by <a href="https://support.google.com/android/answer/9089903">default</a>. <span class="badge badge-warning" data-toggle="tooltip" data-original-title="...but with some caveats"><a href="https://www.quad9.net/private-dns-quad9-android9/"><i class="fas fa-exclamation-triangle"></i></a></span></li>
+    <li><a href="https://apps.apple.com/app/id1452162351">DNSCloak</a> - An <a href="https://github.com/s-s/dnscloak">open-source</a> DNSCrypt and DNS over HTTPS client for iOS by <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"A charitable non-profit host organization for international Free Software projects."' href="https://techcultivation.org/">the Center for the Cultivation of Technology gemeinnuetzige GmbH</a>.</td>
 
   </ul>
 </div>
