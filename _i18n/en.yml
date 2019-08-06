@@ -91,7 +91,7 @@ participate:
   at: "at"
   discourse: "Join our Discourse community to stay up to date on privacy news or make suggestions!"
   follow: "Follow us on"
-  mastodon: "Get the latest privacy-related updates from our Mastodon Feed. Follow us today!"
+  mastodon_follow: "Get the latest privacy-related updates from our Mastodon Feed. Follow us today!"
   github: "Develop on GitHub"
   github_d: "The complete website source code is available on GitHub. Join our developer team!"
   contributors: "Contributor List"
@@ -107,3 +107,9 @@ donate:
   team: "privacytools.io team"
   endorse: "does not necessarily endorse all of the cryptocurrencies listed on this page. Please conduct your own research before purchasing any cryptocurrencies."
   thanks: "Thanks for your support. You are awesome!"
+contact:
+  title: "Contact Us"
+  description: "Contact the privacytoolsIO team if you have any suggestions or are experiencing any issues."
+  editorial_team: "Editorial Team"
+  up_to_date: "It's very important to us to stay up-to-date on the latest changes in the privacy space."
+  reach_out: "If you have a software recommendation for us, or want to request a change on this website, please don't hesitate to reach out."
