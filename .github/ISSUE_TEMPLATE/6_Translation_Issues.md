@@ -10,7 +10,7 @@ labels: 🌐 website issue, 🇦🇶 translations
 **Domain:**
 
 <!-- Add an x to the box below if true [x] -->
-[ ] This site is listed as a translated version of the site in the privacytools.io navbar.
+- [ ] This site is listed as a translated version of the site in the privacytools.io navbar.
 
 ## Description
 
