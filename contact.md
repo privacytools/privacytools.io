@@ -9,7 +9,7 @@ description: "{% t contact.description %}"
 
 {% t contact.up_to_date %} {% t contact.reach_out %}
 
-[<i class="fab fa-discourse fa-lg fa-fw"></i> {% t contact.start_discussion }](https://forum.privacytools.io/)
+[<i class="fab fa-discourse fa-lg fa-fw"></i> {% t contact.start_discussion %}](https://forum.privacytools.io/)
 
 [<i class="fab fa-github fa-lg fa-fw"></i> {% t contact.open_an_issue %}](https://github.com/privacytoolsIO/privacytools.io/issues)
 
