@@ -5,6 +5,8 @@ sass:
   style: compressed
 plugins:
   - jekyll-sitemap
+  - jekyll-multiple-languages-plugin
 sitemap:
 file: "/sitemap.xml"
 include: [".well-known"]
+languages: ["en", "pl", "fr"]
