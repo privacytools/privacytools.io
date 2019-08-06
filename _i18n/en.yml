@@ -1,3 +1,7 @@
 pages:
   home: Home
   work: Work
+category:
+  alpha: Alpha
+  beta: Beta
+  delta: Delta
