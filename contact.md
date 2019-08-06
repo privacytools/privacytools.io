@@ -30,8 +30,8 @@ description: "{% t contact.description %}"
         GitHub Issues
       </div>
       <ul class="list-group list-group-flush">
-        <li class="list-group-item"><strong>{% t contaxt.searx_issues %}:</strong> <a href="https://github.com/privacytoolsIO/search">github.com/privacytoolsIO/search</a></li>
-        <li class="list-group-item"><strong>{% t contaxt.website_issues %}:</strong> <a href="https://github.com/privacytoolsIO/privacytools.io">github.com/privacytoolsIO/privacytools.io</a></li>
+        <li class="list-group-item"><strong>{% t contact.searx_issues %}:</strong> <a href="https://github.com/privacytoolsIO/search">github.com/privacytoolsIO/search</a></li>
+        <li class="list-group-item"><strong>{% t contact.website_issues %}:</strong> <a href="https://github.com/privacytoolsIO/privacytools.io">github.com/privacytoolsIO/privacytools.io</a></li>
       </ul>
     </div>
   </div>
