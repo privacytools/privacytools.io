@@ -38,7 +38,7 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
 <h1 id="icanndns" class="anchor"><a href="#icanndns"><i class="fas fa-link anchor-icon"></i></a> Encrypted ICANN DNS Providers</h1>
 
 <div class="alert alert-warning" role="alert">
-  <strong>Note: Using an encrypted DNS provider will not make you anonymous, nor hide your internet traffic from your Internet Service Provider. But it will prevent DNS hijacking and spoofing, and make your DNS queries harder to share with third parties. If you are currently using Google or your ISP's DNS resolver, you should pick an alternative here.</strong>
+  <strong>Note: Using an encrypted DNS provider will not make you anonymous, nor hide your internet traffic from your Internet Service Provider. But it will prevent DNS hijacking and spoofing, and make your DNS queries harder to share with third parties. If you are currently using Google as your DNS resolver, you should pick an alternative here.</strong>
 </div>
 
 <div class="table-responsive">
@@ -60,7 +60,7 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
     <tbody>
       <tr>
         <td data-value="AdGuard">
-          <a href="https://adguard.com/en/adguard-dns/overview.html">AdGuard</a> <span class="badge badge-warning" data-toggle="tooltip" title="Uses Cloudflare and Google"><i class="fas fa-exclamation-triangle"></i></a></span>
+          <a href="https://adguard.com/en/adguard-dns/overview.html">AdGuard</a>
         </td>
         <td>Anycast (based in <span class="flag-icon flag-icon-cy"></span> Cyprus)</td>
         <td>
@@ -71,7 +71,7 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         <td>Commercial</td>
         <td>N</td>
         <td>DoH, DoT, DNSCrypt</td>
-        <td><a data-toggle="tooltip" data-placement="bottom" data-original-title="Of AdGuard's three upstream providers (Cloudflare, Google, and OpenDNS), OpenDNS does not support DNSSEC." href="https://old.reddit.com/r/Adguard/comments/bbb9md/adguard_dns_doesnt_validate_dnssec_signatures/">Partial</a></td>
+        <td>Y</td>
         <td>Y</td>
         <td>Ads, trackers, malicious domains</td>
         <td>
@@ -83,7 +83,7 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
 
       <tr>
         <td data-value="BlahDNS">
-          <a href="https://blahdns.com/">BlahDNS</a> <span class="badge badge-warning" data-toggle="tooltip" title="Uses Cloudflare"><i class="fas fa-exclamation-triangle"></i></a></span>
+          <a href="https://blahdns.com/">BlahDNS</a>
         </td>
         <td><span class="flag-icon flag-icon-ch"></span> Switzerland, <span class="flag-icon flag-icon-jp"></span> Japan, <span class="flag-icon flag-icon-de"></span> Germany</td>
         <td>
@@ -93,12 +93,35 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         </td>
         <td>Hobby Project</td>
         <td>N</td>
-        <td>DoH, DoT, DNScrypt</td>
+        <td>DoH, DoT, DNSCrypt</td>
         <td>Y</td>
         <td>Y</td>
         <td>Ads, trackers, malicious domains <span class="badge badge-warning" data-toggle="tooltip" data-original-title="And some wildcard, IDN, and non-ASCII domains."><a href="https://github.com/ookangzheng/blahdns#default-blocked-wildcard-domain"><i class="fas fa-exclamation-triangle"></i></a></span></td>
         <td>
           <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://github.com/ookangzheng/blahdns/" href="https://github.com/ookangzheng/blahdns/">
+            <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
+          </a>
+        </td>
+      </tr>
+
+      <tr>
+        <td data-value="Cloudflare">
+          <a href="https://1.1.1.1/dns/">Cloudflare</a>
+        </td>
+        <td>Anycast (based in <span class="flag-icon flag-icon-us"></span> US)</td>
+        <td>
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.cloudflare.com/privacypolicy/">
+            <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
+          </a>
+        </td>
+        <td>Commercial</td>
+        <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"We will collect limited DNS query data that is sent to the resolvers. This data does not contain user IP addresses or any other personally identifiable information, and the bulk of the data is only stored for 24 hours."' href="https://developers.cloudflare.com/1.1.1.1/commitment-to-privacy/privacy-policy/privacy-policy/">Some</a></td>
+        <td>DoH, DoT, DNSCrypt</td>
+        <td>Y</td>
+        <td>Y</td>
+        <td>N</td>
+        <td>
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://github.com/cloudflare/dns" href="https://github.com/cloudflare/dns">
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
           </a>
         </td>
@@ -153,11 +176,30 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
           </a>
         </td>
         <td>Non-Profit</td>
-        <td><a href="https://appliedprivacy.net/privacy-policy/">Some</a></td>
+        <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"We do NOT log your IP address or DNS queries during normal operations. We do NOT share query data with third parties that are not directly involved with resolving the query (i.e. sending queries to authoritative nameservers for resolution)."' href="https://appliedprivacy.net/privacy-policy/">Some</a></td>
         <td>DoH, DoT, DNS-over-Onion (experimental)</td>
         <td>Y</td>
         <td>Y</td>
         <td>N</td>
+        <td>?</td>
+      </tr>
+
+      <tr>
+        <td data-value="nextdns">
+          <a href="https://www.nextdns.io/">nextdns</a>
+        </td>
+        <td>Anycast (based in <span class="flag-icon flag-icon-us"></span> US)</td>
+        <td>
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.nextdns.io/privacy" href="https://www.nextdns.io/privacy">
+            <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
+          </a>
+        </td>
+        <td>Commercial</td>
+        <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"Some of the features require some sort of data retention. In that case, we give our users the choice to granularly or completely disable those features (and associated data retention), and we follow up immediately on that promise"' href="https://www.nextdns.io/privacy">Based on user choice</a></td>
+        <td>DoH, DoT, DNSCrypt</td>
+        <td>Y</td>
+        <td>Y</td>
+        <td>Based on user choice</td>
         <td>?</td>
       </tr>
 
@@ -186,16 +228,16 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
 
       <tr>
         <td data-value="Quad9">
-          <a href="https://quad9.net/">Quad9</a> <span class="badge badge-warning" data-toggle="tooltip" title="Founders include the Global Cyber Alliance, comprised of the City of London Police and Manhattan District Attorney's Office"><i class="fas fa-exclamation-triangle"></i></a></span>
+          <a href="https://quad9.net/">Quad9</a> <span class="badge badge-warning" data-toggle="tooltip" title="Founders include the Global Cyber Alliance, comprised of the City of London Police and Manhattan District Attorney's Office"><i class="fas fa-exclamation-triangle"></i></span>
         </td>
-        <td>Anycast (based in <span class="flag-icon flag-icon-us"></span> USA)</td>
+        <td>Anycast (based in <span class="flag-icon flag-icon-us"></span> US)</td>
         <td>
           <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://quad9.net/policy/" href="https://quad9.net/policy/">
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
           </a>
         </td>
         <td>Non-Profit</td>
-        <td><a href="https://quad9.net/policy/">Some</a></td>
+        <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"Our normal course of data management does not have any IP address information or other PII logged to disk or transmitted out of the location in which the query was received."' href="https://quad9.net/policy/">Some</a></td>
         <td>DoH, DoT, DNSCrypt</td>
         <td>Y</td>
         <td>Y</td>
@@ -215,7 +257,7 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         </td>
         <td>Hobby Project</td>
         <td>N</td>
-        <td>DoH, DoT, DNScrypt</td>
+        <td>DoH, DoT, DNSCrypt</td>
         <td>Y</td>
         <td>Y</td>
         <td>Based on server choice</td>
@@ -243,13 +285,26 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
     </tbody>
   </table>
 
+  <h4>Terms</h4>
+
+  <ul>
+    <li>DNS over TLS (DoT) - a security protocol for encrypted DNS on a dedicated port 853.</li>
+    <li>DNS over HTTPS (DoH) - similar to DoT, but uses HTTPS instead, being indistinguishable from "normal" HTTPS traffic on port 443.</li>
+    <li>DNSCrypt - an older yet robust method of encrypting DNS.</li>
+  </ul>
+
   <h3>Worth Mentioning and additional information</h3>
 
   <ul>
+    <li>Firefox comes with built-in DoH support with Cloudflare set as the default resolver, but can be configured to use any DoH resolver. <span class="badge badge-warning" data-toggle="tooltip" title='"Cloudflare has agreed to collect only a limited amount of data about the DNS requests that are sent to the Cloudflare Resolver for Firefox via the Firefox browser."'><a href="https://developers.cloudflare.com/1.1.1.1/commitment-to-privacy/privacy-policy/firefox/"><i class="fas fa-exclamation-triangle"></i></a></span></li>
+    <li>Android 9 comes with a DoT client by <a href="https://support.google.com/android/answer/9089903">default</a>. <span class="badge badge-warning" data-toggle="tooltip" data-original-title="...but with some caveats"><a href="https://www.quad9.net/private-dns-quad9-android9/"><i class="fas fa-exclamation-triangle"></i></a></span></li>
+    <li>
+      <a href="https://apps.apple.com/app/id1452162351">DNSCloak</a> - An <a href="https://github.com/s-s/dnscloak">open-source</a> DNSCrypt and DoH client for iOS by <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"A charitable non-profit host organization for international Free Software projects."' href="https://techcultivation.org/">the Center for the Cultivation of Technology gemeinnuetzige GmbH</a>.
+    </li>
+    <li>
+      <a href="https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby">Stubby</a> - An <a href="https://github.com/getdnsapi/stubby">open-source</a> application for Linux, macOS, and Windows that acts as a local DNS Privacy stub resolver using DoT.
+    </li>
     <li><a href="https://www.isc.org/blogs/qname-minimization-and-privacy/">QNAME Minimization and Your Privacy</a> by the Internet Systems Consortium (ISC)</li>
     <li><a href="https://www.isc.org/dnssec/">DNSSEC and BIND 9</a> by the ISC</li>
-    <li>Android 9 comes with a DoT client by <a href="https://support.google.com/android/answer/9089903">default</a>. <span class="badge badge-warning" data-toggle="tooltip" data-original-title="...but with some caveats"><a href="https://www.quad9.net/private-dns-quad9-android9/"><i class="fas fa-exclamation-triangle"></i></a></span></li>
-    <li><a href="https://apps.apple.com/app/id1452162351">DNSCloak</a> - An <a href="https://github.com/s-s/dnscloak">open-source</a> DNSCrypt and DNS over HTTPS client for iOS by <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"A charitable non-profit host organization for international Free Software projects."' href="https://techcultivation.org/">the Center for the Cultivation of Technology gemeinnuetzige GmbH</a>.</td>
-
   </ul>
 </div>
