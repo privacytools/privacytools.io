@@ -28,9 +28,9 @@ labels: 🌐 website issue, 🗄️ DNS
 <!-- DoH and DoT are supported natively by platforms like Firefox and Android (< 9) -->
 
 * [ ] supports DoH or DoT <!-- We love DNSCrypt, but there is already https://github.com/DNSCrypt/dnscrypt-resolvers which is directly supported by dnscrypt-proxy, so we don't consider useful to list providers only supporting it.  -->
+* [ ] supports DNSSEC <!--  https://dnssec.vs.uni-due.de/ can test your current DNS provider. -->
 * [ ] no PII logs <!-- TODO: read Quad9/Cloudflare/etc. to define this! -->
 
 #### Desired features
 
-* DNSSEC support: YES or NO? <!--  https://dnssec.vs.uni-due.de/ can test your current DNS provider. -->
 * QNAME minimization: YES or NO? <!-- if you have access to the dig command, `dig +short txt qnamemintest.internet.nl` -->
