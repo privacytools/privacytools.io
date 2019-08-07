@@ -1,4 +1,4 @@
-[![privacytools](https://privacytools.io/assets/img/layout/logo.png)](https://www.privacytools.io/)
+[![privacytools](./assets/img/layout/logo.png)](https://www.privacytools.io/)
 
 _Encryption Against Global Mass Surveillance._
 
@@ -31,6 +31,7 @@ You can submit your suggestions here on GitHub [(Issues)](https://github.com/pri
 # Community Translations
 - [繁体中文 / Chinese](https://privacytools.twngo.xyz/) - [GitHub](https://github.com/twngo/privacytools-zh)
 - [Español / Spanish](https://victorhck.gitlab.io/privacytools-es/) - [GitLab](https://gitlab.com/victorhck/privacytools-es)
+- [Polski / Polish](https://pl.privacytools.io) - [Gitea](https://git.privacytools.io/pl-privacytoolsIO/pl.privacytools.io)
 - [Deutsch / German](https://privacytools.it-sec.rocks/) - [GitHub](https://github.com/Anon215/privacytools.it-sec.rocks)
 - [Français / French](https://privacytools.dreads-unlock.fr/) - [GitLab](https://gitlab.com/Booteille/privacytools)
 - [Italiano / Italian](https://privacytools-it.github.io/) - [GitHub](https://github.com/privacytools-it/privacytools-it.github.io)
