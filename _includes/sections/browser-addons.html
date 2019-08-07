@@ -1,14 +1,41 @@
-<h1 id="addons" class="anchor"><a href="#addons"><i class="fas fa-link anchor-icon"></i></a> Excellent Firefox Privacy Add-ons</h1>
+<h1 id="addons" class="anchor"><a href="#addons"><i class="fas fa-link anchor-icon"></i></a> {% t browser-addons.excellent_add_ons %}</h1>
 
 <div class="alert alert-primary" role="alert"> 
   <strong>{% t browser-addons.improve_your_privacy %}</strong>
 </div>
 
+{%- capture title1 -%}{% t browser_addons.privacy_badger_title %}{%- endcapture -%}
+{%- capture  name1 -%}{% t browser_addons.privacy_badger %}{%- endcapture -%}
+{%- capture descr1 -%}{% t browser-addons.privacy_badger_description %}{%- endcapture -%}
+{%- capture title2 -%}{% t browser_addons.ublock_origin_title %}{%- endcapture -%}
+{%- capture  name2 -%}{% t browser_addons.ublock_origin %}{%- endcapture -%}
+{%- capture descr2 -%}{% t browser-addons.ublock_origin_description %}{%- endcapture -%}
+{%- capture title3 -%}{% t browser_addons.cookie_autodelete_title %}{%- endcapture -%}
+{%- capture  name3 -%}{% t browser_addons.cookie_autodelete %}{%- endcapture -%}
+{%- capture descr3 -%}{% t browser-addons.cookie_autodelete_description %}{%- endcapture -%}
+{%- capture title4 -%}{% t browser_addons.https_everywhere_title %}{%- endcapture -%}
+{%- capture  name4 -%}{% t browser_addons.https_everywhere %}{%- endcapture -%}
+{%- capture descr4 -%}{% t browser-addons.https_everywhere_description %}{%- endcapture -%}
+{%- capture title5 -%}{% t browser_addons.decentraleyes_title %}{%- endcapture -%}
+{%- capture  name5 -%}{% t browser_addons.decentraleyes %}{%- endcapture -%}
+{%- capture descr5 -%}{% t browser-addons.decentraleyes_description %}{%- endcapture -%}
+{%- capture title6 -%}{% t browser_addons.terms_of_service_didnt_read_title %}{%- endcapture -%}
+{%- capture  name6 -%}{% t browser_addons.terms_of_service_didnt_read %}{%- endcapture -%}
+{%- capture descr6 -%}{% t browser-addons.terms_of_service_didnt_read_description %}{%- endcapture -%}
+{%- capture title7 -%}{% t browser_addons.snowflake_title %}{%- endcapture -%}
+{%- capture  name7 -%}{% t browser_addons.snowflake %}{%- endcapture -%}
+{%- capture descr7 -%}{% t browser-addons.snowflake_description %}{%- endcapture -%}
+{%- capture title8 -%}{% t browser_addons.umatrix_title %}{%- endcapture -%}
+{%- capture  name8 -%}{% t browser_addons.umatrix %}{%- endcapture -%}
+{%- capture descr8 -%}{% t browser-addons.umatrix_description %}{%- endcapture -%}
+{%- capture title9 -%}{% t browser_addons.noScript_security_suite_title %}{%- endcapture -%}
+{%- capture  name9 -%}{% t browser_addons.noScript_security_suite %}{%- endcapture -%}
+{%- capture descr9 -%}{% t browser-addons.noScript_security_suite_description %}{%- endcapture -%}
 
 {% include cardv2.html
-title="{% t browser-addons.privacy_badger_title %}"
+title=title1
 image="/assets/img/addons/privacy-badger.png"
-description="<strong>{% t browser-addons.privacy_badger %}</strong> {% t browser-addons.privacy_description %}"
+description="<strong>name1</strong> descr1"
 website="https://www.eff.org/privacybadger"
 forum="https://forum.privacytools.io/t/discussion-privacy-badger/265"
 github="https://github.com/EFForg/privacybadger"
@@ -19,9 +46,9 @@ android=""
 %}
 
 {% include cardv2.html
-title="{% t browser-addons.ublock_origin_title %}"
+title=title2
 image="/assets/img/addons/ublock-origin.png"
-description="<strong>{% t browser-addons.ublock_origin %}</strong> {% t browser-addons.ublock_origin_description %}"
+description="<strong>name2</strong> descr2"
 website="https://addons.mozilla.org/firefox/addon/ublock-origin/"
 forum="https://forum.privacytools.io/t/discussion-ublock-origin/266"
 github="https://github.com/gorhill/uBlock/"
@@ -34,9 +61,9 @@ android=""
 %}
 
 {% include cardv2.html
-title="Cookie AutoDelete: Automatically Delete Cookies"
+title=title3
 image="/assets/img/addons/cookie-autodelete.png"
-description="<strong>Cookie AutoDelete</strong> automatically removes cookies when they are no longer used by open browser tabs. With the cookies, lingering sessions, as well as information used to spy on you, will be expunged."
+description="<strong>name3</strong> descr3"
 website="https://addons.mozilla.org/firefox/addon/cookie-autodelete/"
 forum="https://forum.privacytools.io/t/discussion-cookie-autodelete/267"
 github="https://github.com/Cookie-AutoDelete/Cookie-AutoDelete"
@@ -45,9 +72,9 @@ chrome=""
 %}
 
 {% include cardv2.html
-title="HTTPS Everywhere: Secure Connections"
+title=title4
 image="/assets/img/addons/https-everywhere.png"
-description="<strong>HTTPS Everywhere</strong> encrypts your communications with many major websites, making your browsing more secure. A collaboration between The Tor Project and the Electronic Frontier Foundation."
+description="<strong>name4</strong> descr4"
 website="https://www.eff.org/https-everywhere"
 forum="https://forum.privacytools.io/t/discussion-https-everywhere/268"
 github="https://github.com/EFForg/https-everywhere"
@@ -58,9 +85,9 @@ opera=""
 %}
 
 {% include cardv2.html
-title="Decentraleyes: Block Content Delivery Networks"
+title=title5
 image="/assets/img/addons/decentraleyes.png"
-description="<strong>Decentraleyes</strong> emulates Content Delivery Networks locally by intercepting requests, finding the required resource and injecting it into the environment. This all happens instantaneously, automatically, and no prior configuration is required."
+description="<strong>name5</strong> descr5"
 website="https://decentraleyes.org/"
 forum="https://forum.privacytools.io/t/discussion-decentraleyes/269"
 gitlab="https://git.synz.io/Synzvato/decentraleyes"
@@ -70,9 +97,9 @@ opera=""
 %}
 
 {% include cardv2.html
-title="Terms of Service; Didn’t Read: Be Informed"
+title=title6
 image="/assets/img/addons/tosdr.png"
-description="<strong>Terms of Service; Didn’t Read</strong> “I have read and agree to the Terms” is the biggest lie on the web. This addon aims to fix that by grading websites based on their Terms of Service agreements and gives short summaries."
+description="<strong>name6</strong> descr6"
 website="https://tosdr.org/"
 forum="https://forum.privacytools.io/t/discussion-decentraleyes/270"
 github="https://github.com/tosdr/"
@@ -83,9 +110,9 @@ safari=""
 %}
 
 {% include cardv2.html
-title="Snowflake"
+title=title7
 image="/assets/img/addons/snowflake.png"
-description="<strong>Snowflake</strong> is a new <a href=https://2019.www.torproject.org/docs/pluggable-transports.html.en>pluggable transport</a> from the Tor Project. If you have an uncensored connection, running this extension volunteers your connection to be used as a Snowflake proxy to help users unable to connect to the Tor network. Your IP will not be visible to the sites users visit using your proxy, as this extension will not make you an exit node. If your access to the Tor network is blocked, this extension will not assist you, and you should use the <a href=https://www.torproject.org>Tor Browser</a> instead."
+description="<strong>name7</strong> descr7"
 website="https://snowflake.torproject.org"
 forum="https://forum.privacytools.io/t/discussion-snowflake/1146"
 github="https://gitweb.torproject.org/pluggable-transports/snowflake.git"
@@ -94,16 +121,16 @@ chrome=""
 %}
 
 
-<h2>For Experts Only</h2>
+<h2>{% t browser-addons.for_experts_only %}</h2>
 
 <div class="alert alert-warning" role="alert">
-  <strong>These addons require quite a lot of interaction from the user. Some sites will not work properly until you have configured the add-ons.</strong>
+  <strong>{% t browser-addons.addon_warning %}</strong>
 </div>
 
 {% include cardv2.html
-title="uMatrix: Stop Cross-Site Requests"
+title=title8
 image="/assets/img/addons/umatrix.png"
-description="<strong>uMatrix</strong> gives you control over the requests that websites make to other websites. Many websites integrate features which let other websites track you, such as Facebook Like Buttons or Google Analytics."
+description="<strong>name8</strong> descr8"
 website="https://addons.mozilla.org/firefox/addon/umatrix/"
 forum="https://forum.privacytools.io/t/discussion-umatrix/271"
 github="https://github.com/gorhill/uMatrix"
@@ -113,9 +140,9 @@ opera=""
 %}
 
 {% include cardv2.html
-title="NoScript Security Suite: Be in total control"
+title=title9
 image="/assets/img/addons/noscript.png"
-description="<strong>NoScript</strong> is a highly customizable plugin to selectively allow JavaScript, Java, and Flash to run only on websites you trust. Not for casual users, it requires technical knowledge to configure."
+description="<strong>name9</strong> descr9"
 website="https://addons.mozilla.org/firefox/addon/noscript/"
 forum="https://forum.privacytools.io/t/discussion-noscript-security-suite/272"
 github="https://github.com/hackademix/noscript"
