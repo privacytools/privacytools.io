@@ -33,6 +33,14 @@ browser:
   tweaks: "Privacy Related Tweaks"
   recommendations: "Recommendations"
   webrtc_ip_leak: "WebRTC IP Leak"
+browser-addons:
+  improve_your_privacy: "Improve your privacy with these excellent Firefox add-ons."
+  privacy_badger: "Privacy Badger"
+  privacy_badger_title: "Privacy Badger: Stop Tracking"
+  privacy_badger_description: "is a browser add-on that stops advertisers and other third-party trackers from secretly tracking where you go and what pages you look at on the web. Privacy Badger learns about trackers as you browse."
+  ublock_origin: "uBlock Origin"
+  ublock_origin_title: "uBlock Origin: Block Ads and Trackers"
+  ublock_origin_description: "is an efficient <a href=https://github.com/gorhill/uBlock/wiki/Blocking-mode>wide-spectrum-blocker</a> that's easy on memory, and yet can load and enforce thousands more filters than other popular blockers out there. It has no monetization strategy and is completely open source."
 software:
   software: "Software"
   notebook: "Digital Notebooks"
