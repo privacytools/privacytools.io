@@ -20,7 +20,7 @@ labels: 🌐 website issue, 🗄️ DNS
 
 ## Description
 
-<!-- Why should we list your suggestion? Anything else than already said, that you wish us to know? -->
+<!-- Why should we list your suggestion? Anything else, that you wish us to know? -->
 
 
 ### Required features:
