@@ -4,6 +4,7 @@
 
   {% include card.html color="success"
   title="OpenWrt"
+  labels="warning:contrib:This software may depend on or recommend non-free software."
   image="/assets/img/tools/OpenWrt.png"
   url="https://openwrt.org/"
   description="OpenWrt is an operating system (in particular, an embedded operating system) based on the Linux kernel, primarily used on embedded devices to route network traffic. The main components are the Linux kernel, util-linux, uClibc and BusyBox. All components have been optimized for size, to be small enough for fitting into the limited storage and memory available in home routers."
@@ -11,8 +12,9 @@
 
   {% include card.html color="primary"
   title="pfSense"
+  labels="warning:contrib:This software may depend on or recommend non-free software."
   image="/assets/img/tools/pfSense.png"
-  url="https://pfsense.org/"
+  url="https://www.pfsense.org/"
   description="pfSense is an open source firewall/router computer software distribution based on FreeBSD. It is installed on a computer to make a dedicated firewall/router for a network and is noted for its reliability and offering features often only found in expensive commercial firewalls. pfSense is commonly deployed as a perimeter firewall, router, wireless access point, DHCP server, DNS server, and as a VPN endpoint."
   %}
 
@@ -29,5 +31,5 @@
 
 <ul>
   <li><a href="https://www.openbsd.org/">OpenBSD</a> - A project that produces a free, multi-platform 4.4BSD-based UNIX-like operating system. Emphasizes portability, standardization, correctness, proactive security and integrated cryptography.</li>
-  <li><a href="https://dd-wrt.com/">DD-WRT</a> - A is Linux-based firmware for wireless routers and wireless access points. It is compatible with several models of routers and access points.</li>
+  <li><a href="https://dd-wrt.com/">DD-WRT</a> <span class="badge badge-warning" data-toggle="tooltip" title="This software may depend on or recommend non-free software.">contrib <i class="far fa-question-circle"></i></span> - A is Linux-based firmware for wireless routers and wireless access points. It is compatible with several models of routers and access points.</li>
 </ul>
