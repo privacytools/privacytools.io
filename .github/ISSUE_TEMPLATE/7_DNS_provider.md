@@ -25,7 +25,7 @@ labels: 🌐 website issue, 🗄️ DNS
 
 ### Required features:
 
-<!-- DoH and DoT are supported natively by platforms like Firefox and Android (< 9) -->
+<!-- DoH and DoT are supported natively by platforms like Firefox and Android 9+ -->
 
 * [ ] supports DoH or DoT <!-- We love DNSCrypt, but there is already https://github.com/DNSCrypt/dnscrypt-resolvers which is directly supported by dnscrypt-proxy, so we don't consider useful to list providers only supporting it.  -->
 * [ ] supports DNSSEC <!--  https://dnssec.vs.uni-due.de/ can test your current DNS provider. -->
