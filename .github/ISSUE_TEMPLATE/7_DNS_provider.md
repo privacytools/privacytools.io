@@ -11,7 +11,7 @@ labels: 🌐 website issue, 🗄️ DNS
 
 **Name:** 
 **Filtering:** <!-- What is being filtered? Is it opt-in with separate address or not? -->
-**Privacy policy:** <!-- link -->
+**Privacy policy:** <!-- Link, especially when there is logging -->
 **Protocols:** <!-- at least DoH or DoT? DNSCrypt? -->
 **Server/Location:** <!-- Where is the provider based? Where are their servers located? Anycast if there are multiple servers answering to the same address -->
 **Source:** <!-- link to the source code, preferred, but optional -->
@@ -29,7 +29,7 @@ labels: 🌐 website issue, 🗄️ DNS
 
 * [ ] supports DoH or DoT <!-- We love DNSCrypt, but there is already https://github.com/DNSCrypt/dnscrypt-resolvers which is directly supported by dnscrypt-proxy, so we don't consider useful to list providers only supporting it.  -->
 * [ ] supports DNSSEC <!--  https://dnssec.vs.uni-due.de/ can test your current DNS provider. -->
-* [ ] no PII logs <!-- TODO: read Quad9/Cloudflare/etc. to define this! -->
+* [ ] doesn't log IP addresses during normal operation <!-- If your suggestion logs, please compare its privacy policy with other servers on our table that keep logs. -->
 
 #### Desired features
 
