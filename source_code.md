@@ -293,6 +293,8 @@ Webpage: https://github.com/opennic/opennic-web
  ZeroBin: https://github.com/sebsauvage/ZeroBin
 
  Ghostbin: https://github.com/kilgarth/ghostbin
+ 
+ CryptPad: https://github.com/xwiki-labs/cryptpad
 
   Worth Mentioning:
 
