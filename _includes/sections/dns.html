@@ -38,7 +38,7 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
 <h1 id="icanndns" class="anchor"><a href="#icanndns"><i class="fas fa-link anchor-icon"></i></a> Encrypted ICANN DNS Providers</h1>
 
 <div class="alert alert-warning" role="alert">
-  <strong>Note: Using an encrypted DNS provider will not make you anonymous, nor hide your internet traffic from your Internet Service Provider. But it will prevent DNS hijacking and spoofing, and make your DNS queries harder to share with third parties. If you are currently using Google as your DNS resolver, you should pick an alternative here.</strong>
+  <strong>Note: Using an encrypted DNS provider will not make you anonymous, nor hide your internet traffic from your Internet Service Provider. But it will prevent DNS hijacking, and make your DNS requests harder to filter and share with third parties. If you are currently using Google as your DNS resolver, you should pick an alternative here.</strong>
 </div>
 
 <div class="table-responsive">
@@ -106,7 +106,7 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
 
       <tr>
         <td data-value="Cloudflare">
-          <a href="https://1.1.1.1/dns/">Cloudflare</a> <span class="badge badge-warning" data-toggle="tooltip" title="Cloudflare is one of the world's largest networks, and a problem considering anonymity and decentralization."><a href="https://codeberg.org/crimeflare/cloudflare-tor/"><i class="fas fa-exclamation-triangle"></i></a></span>
+          <a href="https://cloudflare-dns.com/dns/">Cloudflare</a> <span class="badge badge-warning" data-toggle="tooltip" title="Cloudflare is one of the world's largest networks, and a problem considering anonymity and decentralization."><a href="https://codeberg.org/crimeflare/cloudflare-tor/"><i class="fas fa-exclamation-triangle"></i></a></span>
         </td>
         <td>Anycast (based in <span class="flag-icon flag-icon-us"></span> US)</td>
         <td>
@@ -116,7 +116,7 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         </td>
         <td>Commercial</td>
         <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"We will collect limited DNS query data that is sent to the resolvers. This data does not contain user IP addresses or any other personally identifiable information, and the bulk of the data is only stored for 24 hours."' href="https://developers.cloudflare.com/1.1.1.1/commitment-to-privacy/privacy-policy/privacy-policy/">Some</a></td>
-        <td>DoH, DoT, DNSCrypt</td>
+        <td>DoH, DoT, DNSCrypt, DNS-over-Tor</td>
         <td>Y</td>
         <td>Y</td>
         <td>N</td>
@@ -177,7 +177,7 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         </td>
         <td>Non-Profit</td>
         <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"We do NOT log your IP address or DNS queries during normal operations. We do NOT share query data with third parties that are not directly involved with resolving the query (i.e. sending queries to authoritative nameservers for resolution)."' href="https://appliedprivacy.net/privacy-policy/">Some</a></td>
-        <td>DoH, DoT, DNS-over-Onion (experimental)</td>
+        <td>DoH, DoT, DNS-over-Tor</td>
         <td>Y</td>
         <td>Y</td>
         <td>N</td>
@@ -288,15 +288,16 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
   <h4>Terms</h4>
 
   <ul>
-    <li>DNS over TLS (DoT) - a security protocol for encrypted DNS on a dedicated port 853.</li>
-    <li>DNS over HTTPS (DoH) - similar to DoT, but uses HTTPS instead, being indistinguishable from "normal" HTTPS traffic on port 443.</li>
-    <li>DNSCrypt - an older yet robust method of encrypting DNS.</li>
+    <li>DNS-over-TLS (DoT) - A security protocol for encrypted DNS on a dedicated port 853.</li>
+    <li>DNS-over-HTTPS (DoH) - Similar to DoT, but uses HTTPS instead, being indistinguishable from "normal" HTTPS traffic on port 443.</li>
+    <li>DNS-over-Tor - An experimental security protocol for "not only protecting lookups from eavesdroppers but also providing anonymity for clients towards the resolver" (<a href="https://arxiv.org/pdf/1906.09682.pdf">more details)</a>.</li>
+    <li>DNSCrypt - On older yet robust method of encrypting DNS.</li>
   </ul>
 
   <h3>Worth Mentioning and additional information</h3>
 
   <ul>
-    <li>Firefox comes with built-in DoH support with Cloudflare set as the default resolver, but can be configured to use any DoH resolver. <span class="badge badge-warning" data-toggle="tooltip" title='"Cloudflare has agreed to collect only a limited amount of data about the DNS requests that are sent to the Cloudflare Resolver for Firefox via the Firefox browser."'><a href="https://developers.cloudflare.com/1.1.1.1/commitment-to-privacy/privacy-policy/firefox/"><i class="fas fa-exclamation-triangle"></i></a></span></li>
+    <li>Firefox comes with built-in DoH support with Cloudflare set as the default resolver, but can be configured to use any DoH resolver. <span class="badge badge-warning" data-toggle="tooltip" data-placement="bottom" data-original-title='"Cloudflare has agreed to collect only a limited amount of data about the DNS requests that are sent to the Cloudflare Resolver for Firefox via the Firefox browser."'><a href="https://developers.cloudflare.com/1.1.1.1/commitment-to-privacy/privacy-policy/firefox/"><i class="fas fa-exclamation-triangle"></i></a></span> Currently Mozilla is <a href="https://blog.mozilla.org/futurereleases/2019/07/31/dns-over-https-doh-update-detecting-managed-networks-and-user-choice/">conducting studies</a> before enabling DoH by default for all US-based Firefox users.</li>
     <li>Android 9 comes with a DoT client by <a href="https://support.google.com/android/answer/9089903">default</a>. <span class="badge badge-warning" data-toggle="tooltip" data-original-title="...but with some caveats"><a href="https://www.quad9.net/private-dns-quad9-android9/"><i class="fas fa-exclamation-triangle"></i></a></span></li>
     <li>
       <a href="https://apps.apple.com/app/id1452162351">DNSCloak</a> - An <a href="https://github.com/s-s/dnscloak">open-source</a> DNSCrypt and DoH client for iOS by <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"A charitable non-profit host organization for international Free Software projects."' href="https://techcultivation.org/">the Center for the Cultivation of Technology gemeinnuetzige GmbH</a>.
