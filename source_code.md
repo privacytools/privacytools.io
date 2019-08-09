@@ -257,6 +257,22 @@ Backend: closed-source
 
    GNU Social: https://gnu.io/source/
 
+## Social News Aggregators
+
+Aether: https://github.com/nehbit/aether
+
+Tildes: https://gitlab.com/tildes
+
+Raddle: https://gitlab.com/postmill
+
+### Worth Mentioning
+
+- Akasha: https://github.com/AkashaProject
+
+- Lemmy: https://github.com/dessalines/lemmy
+
+- notabug.io: https://github.com/notabugio/notabug
+
 ## Domain Name System (DNS)
  Njalla: Non-free/Proprietary Software
 
