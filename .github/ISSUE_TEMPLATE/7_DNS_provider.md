@@ -33,4 +33,4 @@ labels: 🌐 website issue, 🗄️ DNS
 
 #### Desired features
 
-* [ ] QNAME minimization: YES or NO? <!-- if you have access to the dig command, `dig +short txt qnamemintest.internet.nl` -->
+* [ ] supports QNAME minimization <!-- if you have access to the dig command, `dig +short txt qnamemintest.internet.nl` -->
