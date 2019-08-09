@@ -258,6 +258,7 @@ Backend: closed-source
    GNU Social: https://gnu.io/source/
 
 ## Domain Name System (DNS)
+
 Njalla: Non-free/Proprietary Software
 
 DNSCrypt: https://github.com/dnscrypt
@@ -268,13 +269,13 @@ OpenNic: https://github.com/opennic/ (mostly)
 
 Webpage: https://github.com/opennic/opennic-web
 
-Worth Mentioning
+### Worth Mentioning
 
-NoTrack: https://github.com/quidsup/notrack
+- NoTrack: https://github.com/quidsup/notrack
 
-Namecoin: https://github.com/namecoin
+- Namecoin: https://github.com/namecoin
 
-Pi-hole: https://github.com/pi-hole
+- Pi-hole: https://github.com/pi-hole
 
 ## Encrypted ICANN DNS Providers
 
