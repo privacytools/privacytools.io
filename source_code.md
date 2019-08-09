@@ -130,6 +130,12 @@ Backend: closed-source
  
  Wire: https://github.com/wireapp
 
+## Team chat
+
+ Rocket.chat: https://github.com/rocketchat/
+ 
+ Keybase: https://github.com/Keybase
+
 ## Encrypted Video & Voice Messenger
  Signal: https://github.com/signalapp
  
