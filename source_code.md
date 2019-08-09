@@ -287,6 +287,12 @@ CloudFlare DNS: https://github.com/cloudflare/dns
 
 PowerDNS: https://github.com/PowerDNS/pdns
 
+### Worth Mentioning and Additional Information
+
+- DNSCloak: https://github.com/s-s/dnscloak
+
+- Stubby: https://github.com/getdnsapi/stubby
+
 ## Digital Notebook
  Joplin: https://github.com/laurent22/joplin
 
