@@ -420,9 +420,8 @@ Backend: Closed Source
      MicroG: https://github.com/microg
 
 ## Android Privacy Add-ons
-   NetGuard: https://github.com/M66B/NetGuard/
 
-   XPrivacyLua: https://github.com/M66B/XPrivacyLua/
+NetGuard: https://github.com/M66B/NetGuard/
 
 ## Open Source Router Firmware
    OpenWRT: https://git.openwrt.org/?p=openwrt/openwrt.git;a=shortlog;h=refs/tags/v18.06.1
