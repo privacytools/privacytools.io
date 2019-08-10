@@ -328,6 +328,8 @@ PowerDNS: https://github.com/PowerDNS/pdns
  ZeroBin: https://github.com/sebsauvage/ZeroBin
 
  Ghostbin: https://github.com/kilgarth/ghostbin
+ 
+ CryptPad: https://github.com/xwiki-labs/cryptpad
 
   Worth Mentioning:
 
