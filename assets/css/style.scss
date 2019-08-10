@@ -183,3 +183,13 @@ footer {
     margin-right: 1rem;
   }
 }
+
+.pad-top-on-lg {
+  padding-top: 0px;
+}
+
+@media only screen and (min-width: 992px) {
+  .pad-top-on-lg {
+    padding-top: 50px;
+  }
+}
