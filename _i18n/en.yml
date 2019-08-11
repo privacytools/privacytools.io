@@ -233,4 +233,16 @@ contact:
   abuse2: "Report only abuse here:"
   searx_issues: "Searx Issues"
   website_issues: "Website Issues"
+services:
+  title: "Services from privacytools.io"
+  description: "The privacytools.io team is proud to introduce a suite of privacy-centric online services to connect you with other privacy-minded individuals and stay safe and secure online. No advertisers, no Google Analytics, no tracking, no third party requests of any kind."
+  we_have_the_following_services: "We currently have the following free-to-use services online now."
+  searx: "Searx - Privacy Friendly Search at search.privacytools.io"
+  mastodon: "Mastodon - Tracker Free Social Networking at social.privacytools.io"
+  matrix: "Matrix - Federated private chat at chat.privacytools.io"
+  discourse: "Discourse - Forum at forum.privacytools.io"
+  gitea: "Gitea - Git-Repository Manager at git.privacytools.io"
+  write_freely: "Write Freely - Federated minimalist blog at write.privacytools.io"
+  privatebin: "PrivateBin - Encrypted Pastebin at bin.privacytools.io"
+  more_services_on_the_way: "More services are on the way. If there's something that would be super beneficial for us to run, don't hesitate to reach out and ask. And of course, if you like our services, please consider <a href="/donate/">donating to support our server costs</a>, <em>any donation helps!</em>"
 
