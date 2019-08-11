@@ -136,6 +136,12 @@ Backend: closed-source
 
  Ricochet: https://github.com/ricochet-im/ricochet
 
+## Team chat
+
+ Rocket.chat: https://github.com/rocketchat/
+ 
+ Keybase: https://github.com/Keybase
+
 ## Encrypted Video & Voice Messenger
  Signal: https://github.com/signalapp
 
