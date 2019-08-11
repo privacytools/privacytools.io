@@ -5,6 +5,7 @@ sass:
   style: compressed
 plugins:
   - jekyll-sitemap
+  - jekyll-redirect-from
 sitemap:
 file: "/sitemap.xml"
 include: [".well-known"]
