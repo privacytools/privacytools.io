@@ -134,8 +134,6 @@ Backend: closed-source
 
  Status.im: https://github.com/status-im
 
- Ricochet: https://github.com/ricochet-im/ricochet
-
 ## Encrypted Video & Voice Messenger
  Signal: https://github.com/signalapp
 
