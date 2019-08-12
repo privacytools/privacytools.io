@@ -33,10 +33,278 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
   <li><a href="https://gitlab.com/quidsup/notrack">NoTrack</a> - A network-wide DNS server which blocks Tracking sites. Currently works in Debian and Ubuntu.</li>
   <li><a href="https://namecoin.info/">Namecoin</a> - A decentralized DNS open source information registration and transfer system based on the Bitcoin cryptocurrency.</li>
   <li><a href="https://pi-hole.net/">Pi-hole</a> - A network-wide DNS server for the Raspberry Pi.  Blocks advertising and tracking domains for all devices on your network.</li>
-  <li id="icanndns">ICANN DNS resolvers with support for encrypted DNS</li>
-  <ul>
-    <li><a href="https://adguard.com/en/adguard-dns/overview.html">AdGuard DNS</a> - A commercial, anycast DNS resolver with ad-blocking and support for DNS over HTTPS (DoH), DNS over TLS (DoT), and DNSCrypt. <span class="badge badge-warning" data-toggle="tooltip" title="Uses Cloudflare, no DNSSEC, for-profit (in Cyprus)">Warnings <i class="far fa-question-circle"></i></a></span></li>
-    <li><a href="https://blahdns.com/">BlahDNS</a> - A small hobby ad-blocking DNS project with DoH, DoT, and DNSCrypt support. Servers located in Switzerland, Japan, and Germany. <span class="badge badge-warning" data-toggle="tooltip" title="'Use at your own risk.', uses Cloudflare">Warnings <i class="far fa-question-circle"></i></a></span></li>
-    <li><a href="https://powerdns.org/">PowerDNS</a> - A best effort DoH service. Servers located in the Netherlands.</li>
-    <li><a href="https://quad9.net/">Quad9 DNS</a> - A non-profit, anycast DNS provider founded by <a href="https://www-03.ibm.com/press/us/en/pressrelease/53388.wss">IBM</a>, <a href="https://www.pch.net/">PCH</a>, and <a href=https://www.globalcyberalliance.org/quad9/"">Global Cyber Alliance</a>. Provides malicious domain filtering and supports DoH, DoT, and DNSCrypt. <span class="badge badge-warning" data-toggle="tooltip" title="Founders of Global Cyber Alliance include: City of London Police & Manhattan District Attorney's Office">Warnings <i class="far fa-question-circle"></i></a></span></li>
 </ul>
+
+<h1 id="icanndns" class="anchor"><a href="#icanndns"><i class="fas fa-link anchor-icon"></i></a> Encrypted ICANN DNS Providers</h1>
+
+<div class="alert alert-warning" role="alert">
+  <strong>Note: Using an encrypted DNS resolver will not make you anonymous, nor hide your internet traffic from your Internet Service Provider. But it will prevent DNS hijacking, and make your DNS requests harder for third parties to eavesdrop on and tamper with. If you are currently using Google's DNS resolver, you should pick an alternative here.</strong>
+</div>
+
+<div class="table-responsive">
+  <table class="table sortable-theme-bootstrap" data-sortable>
+    <thead>
+      <tr>
+        <th data-sorted="true" data-sorted-direction="descending">ICANN DNS Provider</th>
+        <th data-sortable="true">Server Locations</th>
+        <th data-sortable="false">Privacy Policy</th>
+        <th data-sortable="true">Type</th>
+        <th data-sortable="true">Logging</th>
+        <th data-sortable="true">Protocols</th>
+        <th data-sortable="true">DNSSEC</th>
+        <th data-sortable="true">QNAME Minimization</th>
+        <th data-sortable="true">Filtering</th>
+        <th data-sortable="true">Source Code</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td data-value="AdGuard">
+          <a href="https://adguard.com/en/adguard-dns/overview.html">AdGuard</a>
+        </td>
+        <td>Anycast (based in <span class="flag-icon flag-icon-cy"></span> Cyprus)</td>
+        <td>
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://adguard.com/en/privacy/dns.html" href="https://adguard.com/en/privacy/dns.html">
+            <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
+          </a>
+        </td>
+        <td>Commercial</td>
+        <td>No</td>
+        <td>DoH, DoT, DNSCrypt</td>
+        <td>Yes</td>
+        <td>Yes</td>
+        <td>Ads, trackers, malicious domains</td>
+        <td>
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://github.com/AdguardTeam/AdGuardDNS/" href="https://github.com/AdguardTeam/AdGuardDNS/">
+            <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
+          </a>
+        </td>
+      </tr>
+
+      <tr>
+        <td data-value="BlahDNS">
+          <a href="https://blahdns.com/">BlahDNS</a>
+        </td>
+        <td><span class="flag-icon flag-icon-ch"></span> Switzerland, <span class="flag-icon flag-icon-jp"></span> Japan, <span class="flag-icon flag-icon-de"></span> Germany</td>
+        <td>
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title='"No logs."'>
+            <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
+          </a>
+        </td>
+        <td>Hobby Project</td>
+        <td>No</td>
+        <td>DoH, DoT, DNSCrypt</td>
+        <td>Yes</td>
+        <td>Yes</td>
+        <td>Ads, trackers, malicious domains <span class="badge badge-warning" data-toggle="tooltip" data-original-title="And some wildcard, IDN, and non-ASCII domains."><a href="https://github.com/ookangzheng/blahdns#default-blocked-wildcard-domain"><i class="fas fa-exclamation-triangle"></i></a></span></td>
+        <td>
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://github.com/ookangzheng/blahdns/" href="https://github.com/ookangzheng/blahdns/">
+            <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
+          </a>
+        </td>
+      </tr>
+
+      <tr>
+        <td data-value="Cloudflare">
+          <a href="https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/">Cloudflare</a> <span class="badge badge-warning" data-toggle="tooltip" title="Cloudflare is one of the world's largest networks, and a problem considering anonymity and decentralization."><a href="https://codeberg.org/crimeflare/cloudflare-tor/"><i class="fas fa-exclamation-triangle"></i></a></span>
+        </td>
+        <td>Anycast (based in <span class="flag-icon flag-icon-us"></span> US)</td>
+        <td>
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.cloudflare.com/privacypolicy/" href="https://www.cloudflare.com/privacypolicy/">
+            <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
+          </a>
+        </td>
+        <td>Commercial</td>
+        <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"We will collect limited DNS query data that is sent to the resolvers. This data does not contain user IP addresses or any other personally identifiable information, and the bulk of the data is only stored for 24 hours."' href="https://developers.cloudflare.com/1.1.1.1/commitment-to-privacy/privacy-policy/privacy-policy/">Some</a></td>
+        <td>DoH, DoT, DNSCrypt</td>
+        <td>Yes</td>
+        <td>Yes</td>
+        <td>No</td>
+        <td>
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://github.com/cloudflare/dns" href="https://github.com/cloudflare/dns">
+            <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
+          </a>
+        </td>
+      </tr>
+
+      <tr>
+        <td data-value="CZ.NIC">
+          <a href="https://www.nic.cz/odvr/">CZ.NIC</a>
+        </td>
+        <td><span class="flag-icon flag-icon-cz"></span> Czech Republic</td>
+        <td>
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title='"CZ.NIC resolvers neither collect any personal data nor gather information on pages where your computer sends personal data."'>
+            <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
+          </a>
+        </td>
+        <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"CZ.NIC is an interest association of legal entities, founded in 1998 by leading providers of Internet services."' href="https://www.nic.cz/page/351/about-association/">Association</a></td>
+        <td>No</td>
+        <td>DoH, DoT</td>
+        <td>Yes</td>
+        <td>Yes</td>
+        <td data-value="No">?</td>
+        <td>?</td>
+      </tr>
+
+      <tr>
+        <td data-value="dnswarden">
+          <a href="https://github.com/bhanupratapys/dnswarden/blob/master/README.md">dnswarden</a>
+        </td>
+        <td><span class="flag-icon flag-icon-de"></span> Germany</td>
+        <td>
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://github.com/bhanupratapys/dnswarden/blob/master/README.md#privacy-policy-and-tc" href="https://github.com/bhanupratapys/dnswarden/blob/master/README.md#privacy-policy-and-tc">
+            <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
+          </a>
+        </td>
+        <td>Hobby Project</td>
+        <td>No</td>
+        <td>DoH, DoT, DNSCrypt</td>
+        <td>Yes</td>
+        <td>Yes</td>
+        <td>Based on server choice</td>
+        <td>?</td>
+      </tr>
+
+      <tr>
+        <td data-value="Foundation for Applied Privacy">
+          <a href="https://appliedprivacy.net/services/dns/">Foundation for Applied Privacy</a>
+        </td>
+        <td><span class="flag-icon flag-icon-at"></span> Austria</td>
+        <td>
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://appliedprivacy.net/privacy-policy" href="https://appliedprivacy.net/privacy-policy">
+            <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
+          </a>
+        </td>
+        <td>Non-Profit</td>
+        <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"We do NOT log your IP address or DNS queries during normal operations. We do NOT share query data with third parties that are not directly involved with resolving the query (i.e. sending queries to authoritative nameservers for resolution)."' href="https://appliedprivacy.net/privacy-policy/">Some</a></td>
+        <td>DoH, DoT</td>
+        <td>Yes</td>
+        <td>Yes</td>
+        <td>No</td>
+        <td>?</td>
+      </tr>
+
+      <tr>
+        <td data-value="nextdns">
+          <a href="https://www.nextdns.io/">nextdns</a>
+        </td>
+        <td>Anycast (based in <span class="flag-icon flag-icon-us"></span> US)</td>
+        <td>
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.nextdns.io/privacy" href="https://www.nextdns.io/privacy">
+            <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
+          </a>
+        </td>
+        <td>Commercial</td>
+        <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"Some of the features require some sort of data retention. In that case, we give our users the choice to granularly or completely disable those features (and associated data retention), and we follow up immediately on that promise"' href="https://www.nextdns.io/privacy">Based on user choice</a></td>
+        <td>DoH, DoT, DNSCrypt</td>
+        <td>Yes</td>
+        <td>Yes</td>
+        <td>Based on user choice</td>
+        <td>?</td>
+      </tr>
+
+      <tr>
+        <td data-value="PowerDNS">
+          <a href="https://powerdns.org/">PowerDNS</a>
+        </td>
+        <td><span class="flag-icon flag-icon-nl"></span> The Netherlands</td>
+        <td>
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://powerdns.org/doh/privacy.html" href="https://powerdns.org/doh/privacy.html">
+            <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
+          </a>
+        </td>
+        <td>Hobby Project</td>
+        <td>No</td>
+        <td>DoH</td>
+        <td>Yes</td>
+        <td>No</td>
+        <td>No</td>
+        <td>
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://github.com/PowerDNS/pdns" href="https://github.com/PowerDNS/pdns">
+            <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
+          </a>
+        </td>
+      </tr>
+
+      <tr>
+        <td data-value="Quad9">
+          <a href="https://quad9.net/">Quad9</a> <span class="badge badge-warning" data-toggle="tooltip" title="Founders include the Global Cyber Alliance, comprised of the City of London Police and Manhattan District Attorney's Office"><i class="fas fa-exclamation-triangle"></i></span>
+        </td>
+        <td>Anycast (based in <span class="flag-icon flag-icon-us"></span> US)</td>
+        <td>
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://quad9.net/policy/" href="https://quad9.net/policy/">
+            <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
+          </a>
+        </td>
+        <td>Non-Profit</td>
+        <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"Our normal course of data management does not have any IP address information or other PII logged to disk or transmitted out of the location in which the query was received."' href="https://quad9.net/policy/">Some</a></td>
+        <td>DoH, DoT, DNSCrypt</td>
+        <td>Yes</td>
+        <td>Yes</td>
+        <td>Malicious domains</td>
+        <td>?</td>
+      </tr>
+
+      <tr>
+        <td data-value="SecureDNS">
+          <a href="https://securedns.eu/">SecureDNS</a>
+        </td>
+        <td><span class="flag-icon flag-icon-nl"></span> The Netherlands</td>
+        <td>
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://securedns.eu/#privacy" href="https://securedns.eu/#privacy">
+            <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
+          </a>
+        </td>
+        <td>Hobby Project</td>
+        <td>No</td>
+        <td>DoH, DoT, DNSCrypt</td>
+        <td>Yes</td>
+        <td>Yes</td>
+        <td>Based on server choice</td>
+        <td>?</td>
+      </tr>
+
+      <tr>
+        <td data-value="UncensoredDNS">
+          <a href="https://blog.uncensoreddns.org/">UncensoredDNS</a>
+        </td>
+        <td>Anycast (based in <span class="flag-icon flag-icon-dk"></span> Denmark)</td>
+        <td>
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title='"Absolutely nothing is being logged, neither about the users nor the usage of this service. I do keep graphs of the total number of queries, but no personally identifiable information is saved. The data that is saved will never be sold or used for anything except capacity planning of the service."'>
+            <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
+          </a>
+        </td>
+        <td>Hobby Project</td>
+        <td>No</td>
+        <td data-value="doh">DoT</td> <!-- "hack" to group "DoT" values (when sorted) with "DoH" values -->
+        <td>Yes</td>
+        <td>No</td>
+        <td>No</td>
+        <td>?</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h4>Terms</h4>
+
+  <ul>
+    <li>DNS-over-TLS (DoT) - A security protocol for encrypted DNS on a dedicated port 853.</li>
+    <li>DNS-over-HTTPS (DoH) - Similar to DoT, but uses HTTPS instead, being indistinguishable from "normal" HTTPS traffic on port 443.</li>
+    <li>DNSCrypt - An older yet robust method of encrypting DNS.</li>
+  </ul>
+
+  <h3>Worth Mentioning and Additional Information</h3>
+
+  <ul>
+    <li>Firefox comes with built-in DoH support with Cloudflare set as the default resolver, but can be configured to use any DoH resolver. <span class="badge badge-warning" data-toggle="tooltip" data-placement="bottom" data-original-title='"Cloudflare has agreed to collect only a limited amount of data about the DNS requests that are sent to the Cloudflare Resolver for Firefox via the Firefox browser."'><a href="https://developers.cloudflare.com/1.1.1.1/commitment-to-privacy/privacy-policy/firefox/"><i class="fas fa-exclamation-triangle"></i></a></span> Currently Mozilla is <a href="https://blog.mozilla.org/futurereleases/2019/07/31/dns-over-https-doh-update-detecting-managed-networks-and-user-choice/">conducting studies</a> before enabling DoH by default for all US-based Firefox users.</li>
+    <li>Android 9 comes with a DoT client by <a href="https://support.google.com/android/answer/9089903">default</a>. <span class="badge badge-warning" data-toggle="tooltip" data-original-title="...but with some caveats"><a href="https://www.quad9.net/private-dns-quad9-android9/"><i class="fas fa-exclamation-triangle"></i></a></span></li>
+    <li>
+      <a href="https://apps.apple.com/app/id1452162351">DNSCloak</a> - An <a href="https://github.com/s-s/dnscloak">open-source</a> DNSCrypt and DoH client for iOS by <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"A charitable non-profit host organization for international Free Software projects."' href="https://techcultivation.org/">the Center for the Cultivation of Technology gemeinnuetzige GmbH</a>.
+    </li>
+    <li>
+      <a href="https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby">Stubby</a> - An <a href="https://github.com/getdnsapi/stubby">open-source</a> application for Linux, macOS, and Windows that acts as a local DNS Privacy stub resolver using DoT.
+    </li>
+    <li><a href="https://www.isc.org/blogs/qname-minimization-and-privacy/">QNAME Minimization and Your Privacy</a> by the Internet Systems Consortium (ISC)</li>
+    <li><a href="https://www.isc.org/dnssec/">DNSSEC and BIND 9</a> by the ISC</li>
+  </ul>
+</div>

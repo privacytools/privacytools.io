@@ -136,6 +136,12 @@ Backend: closed-source
 
  Ricochet: https://github.com/ricochet-im/ricochet
 
+## Team chat
+
+ Rocket.chat: https://github.com/rocketchat/
+ 
+ Keybase: https://github.com/Keybase
+
 ## Encrypted Video & Voice Messenger
  Signal: https://github.com/signalapp
 
@@ -257,22 +263,57 @@ Backend: closed-source
 
    GNU Social: https://gnu.io/source/
 
-## Domain Name System (DNS)
- Njalla: Non-free/Proprietary Software
+## Social News Aggregators
 
- DNSCrypt: https://github.com/dnscrypt
+Aether: https://github.com/nehbit/aether
+
+Tildes: https://gitlab.com/tildes
+
+Raddle: https://gitlab.com/postmill
+
+### Worth Mentioning
+
+- Akasha: https://github.com/AkashaProject
+
+- Lemmy: https://github.com/dessalines/lemmy
+
+- notabug.io: https://github.com/notabugio/notabug
+
+## Domain Name System (DNS)
+
+Njalla: Non-free/Proprietary Software
+
+DNSCrypt: https://github.com/dnscrypt
+
 DNSCrypt-proxy: https://github.com/jedisct1/dnscrypt-proxy/
 
- OpenNic: https://github.com/opennic/ (mostly)
+OpenNic: https://github.com/opennic/ (mostly)
+
 Webpage: https://github.com/opennic/opennic-web
 
-  Worth Mentioning
+### Worth Mentioning
 
-   NoTrack: https://github.com/quidsup/notrack
+- NoTrack: https://github.com/quidsup/notrack
 
-   Namecoin: https://github.com/namecoin
+- Namecoin: https://github.com/namecoin
 
-   Pi-hole: https://github.com/pi-hole
+- Pi-hole: https://github.com/pi-hole
+
+## Encrypted ICANN DNS Providers
+
+AdGuard DNS: https://github.com/AdguardTeam/AdGuardDNS/
+
+BlahDNS: https://github.com/ookangzheng/blahdns/
+
+CloudFlare DNS: https://github.com/cloudflare/dns
+
+PowerDNS: https://github.com/PowerDNS/pdns
+
+### Worth Mentioning and Additional Information
+
+- DNSCloak: https://github.com/s-s/dnscloak
+
+- Stubby: https://github.com/getdnsapi/stubby
 
 ## Digital Notebook
  Joplin: https://github.com/laurent22/joplin
@@ -293,6 +334,8 @@ Webpage: https://github.com/opennic/opennic-web
  ZeroBin: https://github.com/sebsauvage/ZeroBin
 
  Ghostbin: https://github.com/kilgarth/ghostbin
+ 
+ CryptPad: https://github.com/xwiki-labs/cryptpad
 
   Worth Mentioning:
 
@@ -385,9 +428,8 @@ Backend: Closed Source
      MicroG: https://github.com/microg
 
 ## Android Privacy Add-ons
-   NetGuard: https://github.com/M66B/NetGuard/
 
-   XPrivacyLua: https://github.com/M66B/XPrivacyLua/
+NetGuard: https://github.com/M66B/NetGuard/
 
 ## Open Source Router Firmware
    OpenWRT: https://git.openwrt.org/?p=openwrt/openwrt.git;a=shortlog;h=refs/tags/v18.06.1
