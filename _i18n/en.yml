@@ -25,6 +25,7 @@ provider:
   pastebins: "Pastebins"
   search_engines: "Search Engines"
   social_networks: "Social Networks"
+  news_aggregators: "Social News Aggregators"
   vpn: "VPN"
 browser:
   browser: "Browser"
@@ -66,6 +67,7 @@ browser_addons:
   addon_warning: "These addons require quite a lot of interaction from the user. Some sites will not work properly until you have configured the add-ons."
   excellent_add_ons: "Excellent Firefox Privacy Add-ons"
 software:
+  cal_card: "Calendar/Contacts Sync Tools"
   software: "Software"
   notebook: "Digital Notebooks"
   email_alt: "Email Alternatives"
@@ -73,6 +75,7 @@ software:
   file_encryption: "File Encryption"
   file_sharing: "File Sharing"
   im: "Instant Messengers"
+  team_chat: "Team Chat"
   password_managers: "Password Managers"
   productivity: "Productivity Tools"
   file_sync: "Secure File Sync"
