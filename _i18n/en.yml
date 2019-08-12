@@ -245,4 +245,3 @@ services:
   write_freely: "Write Freely - Federated minimalist blog at write.privacytools.io"
   privatebin: "PrivateBin - Encrypted Pastebin at bin.privacytools.io"
   more_services_on_the_way: "More services are on the way. If there's something that would be super beneficial for us to run, don't hesitate to reach out and ask. And of course, if you like our services, please consider <a href=\"/donate/\">donating to support our server costs</a>, <em>any donation helps!</em>"
-

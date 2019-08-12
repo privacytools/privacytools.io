@@ -1,41 +1,32 @@
 <h1 id="addons" class="anchor"><a href="#addons"><i class="fas fa-link anchor-icon"></i></a> {% t browser_addons.excellent_add_ons %}</h1>
 
-<div class="alert alert-primary" role="alert"> 
+<div class="alert alert-primary" role="alert">
   <strong>{% t browser_addons.improve_your_privacy %}</strong>
 </div>
 
 {%- capture title1 -%}{% t browser_addons.privacy_badger_title %}{%- endcapture -%}
-{%- capture  name1 -%}{% t browser_addons.privacy_badger %}{%- endcapture -%}
-{%- capture descr1 -%}{% t browser_addons.privacy_badger_description %}{%- endcapture -%}
+{%- capture descr1 -%}<strong>{% t browser_addons.privacy_badger %}</strong> {% t browser_addons.privacy_badger_description %}{%- endcapture -%}
 {%- capture title2 -%}{% t browser_addons.ublock_origin_title %}{%- endcapture -%}
-{%- capture  name2 -%}{% t browser_addons.ublock_origin %}{%- endcapture -%}
-{%- capture descr2 -%}{% t browser_addons.ublock_origin_description %}{%- endcapture -%}
+{%- capture descr2 -%}<strong>{% t browser_addons.ublock_origin %}</strong> {% t browser_addons.ublock_origin_description %}{%- endcapture -%}
 {%- capture title3 -%}{% t browser_addons.cookie_autodelete_title %}{%- endcapture -%}
-{%- capture  name3 -%}{% t browser_addons.cookie_autodelete %}{%- endcapture -%}
-{%- capture descr3 -%}{% t browser_addons.cookie_autodelete_description %}{%- endcapture -%}
+{%- capture descr3 -%}<strong>{% t browser_addons.cookie_autodelete %}</strong> {% t browser_addons.cookie_autodelete_description %}{%- endcapture -%}
 {%- capture title4 -%}{% t browser_addons.https_everywhere_title %}{%- endcapture -%}
-{%- capture  name4 -%}{% t browser_addons.https_everywhere %}{%- endcapture -%}
-{%- capture descr4 -%}{% t browser_addons.https_everywhere_description %}{%- endcapture -%}
+{%- capture descr4 -%}<strong>{% t browser_addons.https_everywhere %}</strong> {% t browser_addons.https_everywhere_description %}{%- endcapture -%}
 {%- capture title5 -%}{% t browser_addons.decentraleyes_title %}{%- endcapture -%}
-{%- capture  name5 -%}{% t browser_addons.decentraleyes %}{%- endcapture -%}
-{%- capture descr5 -%}{% t browser_addons.decentraleyes_description %}{%- endcapture -%}
+{%- capture descr5 -%}<strong>{% t browser_addons.decentraleyes %}</strong> {% t browser_addons.decentraleyes_description %}{%- endcapture -%}
 {%- capture title6 -%}{% t browser_addons.terms_of_service_didnt_read_title %}{%- endcapture -%}
-{%- capture  name6 -%}{% t browser_addons.terms_of_service_didnt_read %}{%- endcapture -%}
-{%- capture descr6 -%}{% t browser_addons.terms_of_service_didnt_read_description %}{%- endcapture -%}
+{%- capture descr6 -%}<strong>{% t browser_addons.terms_of_service_didnt_read %}</strong> {% t browser_addons.terms_of_service_didnt_read_description %}{%- endcapture -%}
 {%- capture title7 -%}{% t browser_addons.snowflake_title %}{%- endcapture -%}
-{%- capture  name7 -%}{% t browser_addons.snowflake %}{%- endcapture -%}
-{%- capture descr7 -%}{% t browser_addons.snowflake_description %}{%- endcapture -%}
+{%- capture descr7 -%}<strong>{% t browser_addons.snowflake %}</strong> {% t browser_addons.snowflake_description %}{%- endcapture -%}
 {%- capture title8 -%}{% t browser_addons.umatrix_title %}{%- endcapture -%}
-{%- capture  name8 -%}{% t browser_addons.umatrix %}{%- endcapture -%}
-{%- capture descr8 -%}{% t browser_addons.umatrix_description %}{%- endcapture -%}
+{%- capture descr8 -%}<strong>{% t browser_addons.umatrix %}</strong> {% t browser_addons.umatrix_description %}{%- endcapture -%}
 {%- capture title9 -%}{% t browser_addons.noScript_security_suite_title %}{%- endcapture -%}
-{%- capture  name9 -%}{% t browser_addons.noScript_security_suite %}{%- endcapture -%}
-{%- capture descr9 -%}{% t browser_addons.noScript_security_suite_description %}{%- endcapture -%}
+{%- capture descr9 -%}<strong>{% t browser_addons.noScript_security_suite %}</strong> {% t browser_addons.noScript_security_suite_description %}{%- endcapture -%}
 
 {% include cardv2.html
 title=title1
 image="/assets/img/addons/privacy-badger.png"
-description="<strong>name1</strong> descr1"
+description=descr1
 website="https://www.eff.org/privacybadger"
 forum="https://forum.privacytools.io/t/discussion-privacy-badger/265"
 github="https://github.com/EFForg/privacybadger"
@@ -48,7 +39,7 @@ android=""
 {% include cardv2.html
 title=title2
 image="/assets/img/addons/ublock-origin.png"
-description="<strong>name2</strong> descr2"
+description=descr2
 website="https://addons.mozilla.org/firefox/addon/ublock-origin/"
 forum="https://forum.privacytools.io/t/discussion-ublock-origin/266"
 github="https://github.com/gorhill/uBlock/"
@@ -63,7 +54,7 @@ android=""
 {% include cardv2.html
 title=title3
 image="/assets/img/addons/cookie-autodelete.png"
-description="<strong>name3</strong> descr3"
+description=descr3
 website="https://addons.mozilla.org/firefox/addon/cookie-autodelete/"
 forum="https://forum.privacytools.io/t/discussion-cookie-autodelete/267"
 github="https://github.com/Cookie-AutoDelete/Cookie-AutoDelete"
@@ -74,7 +65,7 @@ chrome=""
 {% include cardv2.html
 title=title4
 image="/assets/img/addons/https-everywhere.png"
-description="<strong>name4</strong> descr4"
+description=descr4
 website="https://www.eff.org/https-everywhere"
 forum="https://forum.privacytools.io/t/discussion-https-everywhere/268"
 github="https://github.com/EFForg/https-everywhere"
@@ -87,7 +78,7 @@ opera=""
 {% include cardv2.html
 title=title5
 image="/assets/img/addons/decentraleyes.png"
-description="<strong>name5</strong> descr5"
+description=descr5
 website="https://decentraleyes.org/"
 forum="https://forum.privacytools.io/t/discussion-decentraleyes/269"
 gitlab="https://git.synz.io/Synzvato/decentraleyes"
@@ -99,7 +90,7 @@ opera=""
 {% include cardv2.html
 title=title6
 image="/assets/img/addons/tosdr.png"
-description="<strong>name6</strong> descr6"
+description=descr6
 website="https://tosdr.org/"
 forum="https://forum.privacytools.io/t/discussion-decentraleyes/270"
 github="https://github.com/tosdr/"
@@ -112,7 +103,7 @@ safari=""
 {% include cardv2.html
 title=title7
 image="/assets/img/addons/snowflake.png"
-description="<strong>name7</strong> descr7"
+description=descr7
 website="https://snowflake.torproject.org"
 forum="https://forum.privacytools.io/t/discussion-snowflake/1146"
 github="https://gitweb.torproject.org/pluggable-transports/snowflake.git"
@@ -130,7 +121,7 @@ chrome=""
 {% include cardv2.html
 title=title8
 image="/assets/img/addons/umatrix.png"
-description="<strong>name8</strong> descr8"
+description=descr8
 website="https://addons.mozilla.org/firefox/addon/umatrix/"
 forum="https://forum.privacytools.io/t/discussion-umatrix/271"
 github="https://github.com/gorhill/uMatrix"
@@ -142,7 +133,7 @@ opera=""
 {% include cardv2.html
 title=title9
 image="/assets/img/addons/noscript.png"
-description="<strong>name9</strong> descr9"
+description=descr9
 website="https://addons.mozilla.org/firefox/addon/noscript/"
 forum="https://forum.privacytools.io/t/discussion-noscript-security-suite/272"
 github="https://github.com/hackademix/noscript"
