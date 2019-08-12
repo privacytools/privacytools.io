@@ -136,6 +136,12 @@ Backend: closed-source
 
  Ricochet: https://github.com/ricochet-im/ricochet
 
+## Team chat
+
+ Rocket.chat: https://github.com/rocketchat/
+ 
+ Keybase: https://github.com/Keybase
+
 ## Encrypted Video & Voice Messenger
  Signal: https://github.com/signalapp
 
@@ -328,6 +334,8 @@ PowerDNS: https://github.com/PowerDNS/pdns
  ZeroBin: https://github.com/sebsauvage/ZeroBin
 
  Ghostbin: https://github.com/kilgarth/ghostbin
+ 
+ CryptPad: https://github.com/xwiki-labs/cryptpad
 
   Worth Mentioning:
 
