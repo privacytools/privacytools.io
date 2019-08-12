@@ -1,9 +1,10 @@
 # Administration Related Files
 /.well-known/ @JonahAragon
+/nginx/ @JonahAragon
 /404.html @JonahAragon
 /.github/ @JonahAragon @BurungHantu1605
 /LICENSE.txt @JonahAragon @BurungHantu1605
-/.travis.yml @Shifterovich
+/.travis.yml @JonahAragon @Shifterovich
 /CNAME @JonahAragon
 
 # Editorial Team
