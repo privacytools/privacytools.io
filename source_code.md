@@ -136,26 +136,24 @@ Backend: closed-source
 
  Ricochet: https://github.com/ricochet-im/ricochet
 
+ Tox: https://github.com/TokTok/c-toxcore
+
+ Ring/Jami: https://git.jami.net/savoirfairelinux
+
 ## Team chat
 
  Rocket.chat: https://github.com/rocketchat/
  
  Keybase: https://github.com/Keybase
 
-## Encrypted Video & Voice Messenger
- Signal: https://github.com/signalapp
-
- Wire: https://github.com/wireapp
-
+## Video & Voice Messenger
  Linphone: https://github.com/BelledonneCommunications/
+
+ Mumble: https://github.com/mumble-voip/
 
    Worth Mentioning
 
- Jitsi: https://github.com/jitsi/jitsi-meet
-
- Tox: https://github.com/TokTok/c-toxcore
-
- Ring/Jami: https://gerrit-ring.savoirfairelinux.com/#/q/status:open
+ Jitsi Meet: https://github.com/jitsi/jitsi-meet
 
  ## File Sharing
   OnionShare: https://github.com/micahflee/onionshare
