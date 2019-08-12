@@ -88,6 +88,16 @@ os:
   mobile: "Mobile OS"
   pc_os: "PC OS"
   router: "Router Firmware"
+android_addons:
+  description: "Improve your privacy with these add-ons for Android."
+  block_ads: "Block ads with"
+  control_traffic: "Control your traffic with"
+  tor: "Use Tor on Android with"
+  blokada: "works across all of your apps, not only the browser. It doesn't require root, supports both wifi and mobile networks, and is perfectly safe and simple to use. Just turn it on, and it will do the job silently!"
+  netguard: "provides simple and advanced ways to block certain apps' access to the internet without the help of root privileges. Applications and addresses can individually be allowed or denied access to your Wi-Fi and/or mobile connection, allowing you to control which apps are able to call home or not."
+  orbot: "is a free proxy app that empowers other apps to use the internet more securely. Orbot uses Tor to encrypt your Internet traffic and then hides it by bouncing through a series of computers around the world."
+  root_mode: "Root Mode:"
+  orbot_root: "Orbot can be configured to transparently proxy all of your Internet traffic through Tor. You can also choose which specific apps you want to use through Tor."
 header:
   lead: "You are being watched. Private and state-sponsored organizations are monitoring and recording your online activities. privacytools.io provides services, tools and knowledge to protect your privacy against global mass surveillance."
   search: "Try search.privacytools.io, a Privacy-Respecting Search Engine"
