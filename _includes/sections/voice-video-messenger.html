@@ -1,4 +1,4 @@
-<h1 id="voip" class="anchor"><a href="#voip"><i class="fas fa-link anchor-icon"></i></a> Encrypted Video & Voice Messenger</h1>
+<h1 id="voip" class="anchor"><a href="#voip"><i class="fas fa-link anchor-icon"></i></a> Video & Voice Messenger</h1>
 
 <div class="alert alert-warning" role="alert">
   <strong>If you are currently using a Video & Voice Messenger like Skype, Viber or Google Hangouts, you should pick an alternative here.</strong> <em>Please note that many VoIP messengers are already listed above in instant messaging section, so we only list particularly voice/video focused ones here.</em>
@@ -19,8 +19,17 @@ mac=""
 web=""
 %}
 
-
-
+{% include cardv2.html
+title="Mumble"
+image="/assets/img/tools/Mumble.png"
+website="https://mumble.info/"
+description="Mumble is an open source, low-latency, high quality voice chat software primarily intended for use while gaming. <span class="badge badge-warning" data-toggle="tooltip" title="">Warning</span> While Mumble doesn't log messages or record by default, <a href="https://github.com/mumble-voip/mumble/issues/1813">it's missing end-to-end encryption</a>, so self-hosting is recommended."
+forum="https://forum.privacytools.io/t/discussion-mumble/1289"
+github="https://github.com/mumble-voip/"
+windows=""
+linux=""
+mac=""
+%}
 
 <h3>Worth Mentioning</h3>
 
@@ -31,5 +40,9 @@ web=""
 <h3>Related Information</h3>
 
 <ul>
-  <!-- TODO -->
+  <li>More information about Mumble:</li>
+  <ul>
+  <li><a href="https://wiki.mumble.info/wiki/Running_Murmur">Running Mumble Server</a> and <a href="https://wiki.mumble.info/wiki/Murmur.ini">its config file</a>, particularly <a href="https://wiki.mumble.info/wiki/Murmur.ini#obfuscate">obfuscating IPv4 addresses</a> and <a href="https://wiki.mumble.info/wiki/Murmur.ini#Process_Administrivia">logging</a></li>
+  <li><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO/Mumble">Torifying Mumble</a>
+  </ul>
 </ul>
