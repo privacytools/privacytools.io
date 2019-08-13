@@ -24,8 +24,16 @@ We're trying to keep it simple and promote the best tools, not all of them.
 There can be exceptions if no software is available that meet the criteria.
 
 Note: This criteria applies to all of privacytools.io
-### Proividers
+### Providers
 - Prioritize Products by privacy respecting nationality.
+
+### DNS
+
+- supports DoH or DoT (We love DNSCrypt, but there is already https://github.com/DNSCrypt/dnscrypt-resolvers which is directly supported by dnscrypt-proxy, so we don't consider useful to list providers only supporting it).
+- supports DNSSEC (https://dnssec.vs.uni-due.de/ can test your current DNS provider).
+- doesn't log IP addresses during normal operation (If your suggestion logs, please compare its privacy policy with other servers on our table that keep logs).
+- preferably supports QNAME minimization (if you have access to the dig command, `dig +short txt qnamemintest.internet.nl`)
+
 
 ### VPN
 - Prioritize Products by privacy respecting nationality.
