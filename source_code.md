@@ -76,7 +76,7 @@ Backend: closed-source
 
  GPG4USB: https://github.com/gpg4usb/gpg4usb
 
- Mailvelope: https://github.com/mailvelope/mailvelope
+ Mailvelope: https://github.com/mailvelope/mailnvelope
 
  Enigmail: https://www.enigmail.net/index.php/en/download/source-code
 
@@ -262,6 +262,12 @@ Backend: closed-source
   Worth Mentioning:
 
    GNU Social: https://gnu.io/source/
+
+## Video Streaming
+
+MediaGoblin: https://git.savannah.gnu.org/git/mediagoblin.git/
+
+Invidious: https://github.com/omarroth/invidious
 
 ## Social News Aggregators
 
