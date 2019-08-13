@@ -1,11 +1,47 @@
 <div class="card">
   <div class="card-header text-white bg-secondary">
-    <h3 class="h5">{{include.title}}</h3>
+    <h3 class="h5">
+      {% if include.badges %}
+      <span class="mr-2">{{include.title}}</span>
+      {% assign badges = include.badges | replace:", ", "," | split:"," %}
+          {% for badge in badges %}
+              {% assign badge_data = badge | split:":" %}
+              {% assign color = badge_data[0] %}
+              {% assign text = badge_data[1] %}
+              {% assign tooltip = badge_data[2] | default: false %}
+              {% assign help_icon = '<i class="far fa-question-circle"></i>' %}
+              <span class="badge badge-{{color}}" {% if tooltip %} data-toggle="tooltip" title="{{ tooltip }}">{{text}} {{ help_icon
+                  }}
+                  {% else %}
+                  >{{text}}
+                  {% endif %}
+              </span>
+          {% endfor %}
+      {% else %}
+      {{include.title}}
+      {% endif %}
+    </h3>
   </div>
   <div class="card-body">
     <p class="card-text">
       <img src="{{include.image}}" height="120" width="120" class="panel-pic" alt="{{include.title}}">
       {{include.description}}
+      {% if include.labels %}
+      {% assign labels = include.labels | replace:", ", "," | split:"," %}
+          {% for label in labels %}
+              {% assign label_data = label | split:":" %}
+              {% assign color = label_data[0] %}
+              {% assign text = label_data[1] %}
+              {% assign tooltip = label_data[2] | default: false %}
+              {% assign help_icon = '<i class="far fa-question-circle"></i>' %}
+              <span class="badge badge-{{color}}" {% if tooltip %} data-toggle="tooltip" title="{{ tooltip }}">{{text}} {{ help_icon
+                  }}
+                  {% else %}
+                  >{{text}}
+                  {% endif %}
+              </span>
+          {% endfor %}
+      {% endif %}
     </p>
     <div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
       <div class="flex-shrink-0 mr-2">
