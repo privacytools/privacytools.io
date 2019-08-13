@@ -183,3 +183,155 @@ footer {
     margin-right: 1rem;
   }
 }
+
+/*
+ * Navbar
+ */
+
+#navbar {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1140px;
+  padding: .75rem 3rem;
+  color: rgba(255,255,255,0.5);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#navbar .menu {
+  position: relative;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-anchor {
+  display: inline;
+  color: inherit;
+}
+
+.nav-anchor:hover {
+  text-decoration: none;
+}
+
+.nav-anchor:hover,
+.nav-summary:hover,
+.nav-details[open] > summary > .nav-summary {
+  color: rgba(255,255,255,0.8);
+}
+
+.nav-dropdown {
+  color: var(--dark);
+  background-color: var(--light);
+  padding: .5rem 0;
+  margin-top: .5rem;
+  position: absolute;
+  border: 1px solid #dee2e6;
+  border-radius: .25rem;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+  z-index: 10;
+}
+
+#nav-right > details > .nav-dropdown {
+  right: 0;
+}
+
+.nav-details {
+  display: inline;
+  position: relative;
+}
+
+.nav-details > summary {
+  list-style: none;
+}
+.nav-details > summary::-webkit-details-marker {
+  display: none;
+}
+
+#nav-right > .nav-details,
+#nav-right > .nav-anchor {
+  padding-left: 0.5rem;
+}
+#nav-left > .nav-details,
+#nav-left > .nav-anchor {
+  padding-right: 0.5rem;
+}
+
+input#nav-toggle,
+#nav-toggle-label {
+  display: none;
+}
+
+#nav-home-mobile {
+  display: none;
+}
+
+
+/* Mobile hamburger menu */
+
+@media only screen and (max-width: 992px) {
+  .menu,
+  .nav-details,
+  .nav-anchor {
+    display: block;
+  }
+  .menu {
+    margin-top: 0.5rem;
+  }
+  #nav-home {
+    display: none;
+  }
+  #nav-home-mobile {
+    display: inline;
+  }
+  input#nav-toggle:checked ~ .menu {
+    display: none;
+  }
+  input#nav-toggle + label {
+    display: block;
+    cursor: pointer;
+    margin-top: 0.25rem;
+    float: right;
+  }
+  .nav-dropdown {
+    display: block;
+    position: relative;
+    max-height: 15.75em;
+    overflow-y: auto;
+    left: 0;
+    right: 0;
+  }
+  #nav-right > .nav-details,
+  #nav-right > .nav-anchor,
+  #nav-left > .nav-details,
+  #nav-left > .nav-anchor {
+    padding: 0 0;
+  }
+  #navbar {
+    padding: 1rem 3rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #navbar {
+    padding: 1rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  #navbar {
+    padding: 1rem 1rem;
+  }
+}
+
+@media only screen and (max-height: 350px) {
+  .nav-dropdown {
+    max-height: 8em;
+  }
+}
