@@ -76,7 +76,7 @@ Backend: closed-source
 
  GPG4USB: https://github.com/gpg4usb/gpg4usb
 
- Mailvelope: https://github.com/mailvelope/mailnvelope
+ Mailvelope: https://github.com/mailvelope/mailvelope
 
  Enigmail: https://www.enigmail.net/index.php/en/download/source-code
 
