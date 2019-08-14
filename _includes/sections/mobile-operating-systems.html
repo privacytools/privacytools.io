@@ -4,38 +4,40 @@
   <strong>Even though the source code of the following OS is provided, installing Google Apps may compromise your setup.</strong>
 </div>
 
-<div class="row mb-2">
+{% include cardv2.html
+title="GrapheneOS"
+image="/assets/img/tools/GrapheneOS.png"
+description='GrapheneOS (formerly known as CopperheadOS) is a free and open-source security and privacy focused mobile operating system built on top of the Android Open Source Project. It currently specifically targets devices offering strong hardware security.'
+badges="info:AOSP"
+labels="warning:contrib:This software may depend on or recommend non-free software."
+website="https://grapheneos.org/"
+github="https://github.com/GrapheneOS/"
+%}
 
-  {% include card.html color="success"
-  title="LineageOS"
-  labels="warning:contrib:This software may depend on or recommend non-free software."
-  image="/assets/img/tools/LineageOS.png"
-  url="https://www.lineageos.org/"
-  description="LineageOS is a free and open-source operating system for smartphones and tablets, based on the official releases of the Android Open Source Project. It is the continuation of the CyanogenMod project."
-  %}
+{% include cardv2.html
+title="LineageOS"
+image="/assets/img/tools/LineageOS.png"
+description='LineageOS is a free and open-source operating system for smartphones and tablets, based on the official releases of the Android Open Source Project. It is the continuation of the CyanogenMod project.'
+badges="info:AOSP"
+labels="warning:contrib:This software may depend on or recommend non-free software."
+website="https://www.lineageos.org/"
+github="https://github.com/LineageOS"
+%}
 
-  {% include card.html color="primary"
-  title="Ubuntu Touch"
-  labels="warning:contrib:This software may depend on or recommend non-free software."
-  image="/assets/img/tools/Ubuntu-Touch.png"
-  url="https://ubuntu-touch.io/"
-  description="Ubuntu Touch is a free and open-source operating system for smartphones and tablets. It's an alternative to the current popular mobile operating systems on the market. Only a few devices are <a href=https://devices.ubuntu-touch.io/>supported.</a>"
-  %}
-
-  {% include card.html color="warning"
-  title="GrapheneOS"
-  labels="warning:contrib:This software may depend on or recommend non-free software."
-  image="/assets/img/tools/GrapheneOS.png"
-  url="https://grapheneos.org/"
-  description="GrapheneOS is a free and open-source security and privacy focused mobile operating system built on top of the Android Open Source Project. It currently specifically targets devices offering strong hardware security."
-  %}
-
-</div>
+{% include cardv2.html
+title="Ubuntu Touch"
+image="/assets/img/tools/Ubuntu-Touch.png"
+description="Ubuntu Touch is a free and open-source operating system for smartphones and tablets. It's an alternative to the current popular mobile operating systems on the market. Only a few devices are <a href=https://devices.ubuntu-touch.io/>supported.</a>"
+badges="info:GNU/Linux"
+labels="warning:contrib:This software may depend on or recommend non-free software."
+website="https://ubuntu-touch.io/"
+github="https://github.com/ubports"
+%}
 
 <h3>Worth Mentioning</h3>
 
 <ul>
-  <li><a href="https://www.replicant.us/">Replicant</a> - An open-source operating system based on Android, aiming to replace all proprietary components with free software.</li>
-  <li><a href="https://www.omnirom.org/">OmniROM</a> <span class="badge badge-warning" data-toggle="tooltip" title="This software may depend on or recommend non-free software.">contrib <i class="far fa-question-circle"></i></span> - A free software operating system for smartphones and tablet computers, based on the Android mobile platform.</li>
-  <li><a href="https://microg.org/">MicroG</a> <span class="badge badge-warning" data-toggle="tooltip" title="This software may depend on or recommend non-free software.">contrib <i class="far fa-question-circle"></i></span> - A project that aims to reimplement the proprietary Google Play Services in the Android operating system with a FLOSS replacement.
+  <li><a href="https://www.replicant.us/">Replicant</a> <span class="badge badge-info">AOSP</span> - An open-source operating system based on Android, aiming to replace all proprietary components with free software.</li>
+  <li><a href="https://www.omnirom.org/">OmniROM</a> <span class="badge badge-info">AOSP</span> <span class="badge badge-warning" data-toggle="tooltip" title="This software may depend on or recommend non-free software.">contrib <i class="far fa-question-circle"></i></span> - A free software operating system for smartphones and tablet computers, based on the Android mobile platform.</li>
+  <li><a href="https://microg.org/">MicroG</a> <span class="badge badge-info">Add-on Package</span> <span class="badge badge-warning" data-toggle="tooltip" title="This software may depend on or recommend non-free software.">contrib <i class="far fa-question-circle"></i></span> - A project that aims to reimplement the proprietary Google Play Services in the Android operating system with a FLOSS replacement.
 </ul>
