@@ -252,7 +252,7 @@ Backend: closed-source
 
    IPFS: https://github.com/ipfs + https://github.com/ipfs-shipyard
 
-## Decentralized Social Networks
+https://github.com/FreeTubeApp/FreeTube## Decentralized Social Networks
  Mastodon: https://github.com/tootsuite/mastodon
 
  diaspora*: https://github.com/diaspora/diaspora/
@@ -268,6 +268,10 @@ Backend: closed-source
 MediaGoblin: https://git.savannah.gnu.org/git/mediagoblin.git/
 
 Invidious: https://github.com/omarroth/invidious
+
+FreeTube: https://github.com/FreeTubeApp/FreeTube
+
+KopyKate (proprietary): https://github.com/misses-robot/KopyKate-Big 
 
 ## Social News Aggregators
 
