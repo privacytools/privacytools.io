@@ -133,7 +133,7 @@ header:
   search: "Try search.privacytools.io, a Privacy-Respecting Search Engine"
   start_search: "start search"
 footer:
-  foo: "Spread the word and help your friends"
+  spread_the_word: "Spread the word and help your friends"
   email_title: "Email"
   facebook_title: "Facebook"
   twitter_title: "Twitter"
@@ -144,7 +144,9 @@ footer:
   diaspora_title: "Diaspora*"
   copy_url_description: "Copy URL and Description"
   for_easy_copy_paste: "For easy copy and paste. Share this text snippet."
+  CC0: "CC0"
   CC0_title: "This work is free. You can redistribute it and/or modify it under the terms of the &quot;Creative Commons CC0 1.0 Universal Public Domain Dedication&quot;."
+  kopimi: "kopimi"
   kopimi_title: "kopimi (copyme), symbol showing that you want to be copied. use kopimi in your own fancy. kopimi may be put on homepages or blogs, in books, in software, as sound logos in music or whatever."
   contact: "Contact"
   donate: "Donate"
