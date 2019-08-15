@@ -134,8 +134,6 @@ Backend: closed-source
 
  Status.im: https://github.com/status-im
 
- Ricochet: https://github.com/ricochet-im/ricochet
-
 ## Team chat
 
  Rocket.chat: https://github.com/rocketchat/
