@@ -1,35 +1,45 @@
-<h1 id="firmware" class="anchor"><a href="#firmware"><i class="fas fa-link anchor-icon"></i></a> Open Source Router Firmware</h1>
+<h1 id="firmware" class="anchor"><a href="#firmware"><i class="fas fa-link anchor-icon"></i></a> {% t router.firmware %}</h1>
+
+{%- capture router_openwrt_title -%}{% t router.openwrt_title %}{%- endcapture -%}
+{%- capture router_openwrt_labels -%}{% t router.openwrt_labels %}{%- endcapture -%}
+{%- capture router_openwrt_descr -%}{% t router.openwrt_descr %}{%- endcapture -%}
+{%- capture router_pfsense_title -%}{% t router.pfsense_title %}{%- endcapture -%}
+{%- capture router_pfsense_labels -%}{% t router.pfsense_labels %}{%- endcapture -%}
+{%- capture router_pfsense_descr -%}{% t router.pfsense_descr %}{%- endcapture -%}
+{%- capture router_librecmc_title -%}{% t router.librecmc_title %}{%- endcapture -%}
+{%- capture router_librecmc_descr -%}{% t router.librecmc_descr %}{%- endcapture -%}
+
 
 <div class="row mb-2">
 
   {% include card.html color="success"
-  title="OpenWrt"
-  labels="warning:contrib:This software may depend on or recommend non-free software."
+  title=router_openwrt_title
+  labels=router_openwrt_labels
   image="/assets/img/tools/OpenWrt.png"
   url="https://openwrt.org/"
-  description="OpenWrt is an operating system (in particular, an embedded operating system) based on the Linux kernel, primarily used on embedded devices to route network traffic. The main components are the Linux kernel, util-linux, uClibc and BusyBox. All components have been optimized for size, to be small enough for fitting into the limited storage and memory available in home routers."
+  description=router_openwrt_descr
   %}
 
   {% include card.html color="primary"
-  title="pfSense"
-  labels="warning:contrib:This software may depend on or recommend non-free software."
+  title=router_pfsense_title
+  labels=router_pfsense_labels
   image="/assets/img/tools/pfSense.png"
   url="https://www.pfsense.org/"
-  description="pfSense is an open source firewall/router computer software distribution based on FreeBSD. It is installed on a computer to make a dedicated firewall/router for a network and is noted for its reliability and offering features often only found in expensive commercial firewalls. pfSense is commonly deployed as a perimeter firewall, router, wireless access point, DHCP server, DNS server, and as a VPN endpoint."
+  description=router_pfsense_descr
   %}
 
   {% include card.html color="warning"
-  title="LibreCMC"
+  title=router_librecmc_title
   image="/assets/img/tools/LibreCMC.png"
   url="https://librecmc.org"
-  description="LibreCMC is a GNU/Linux-libre distribution for computers with minimal resources, such as the Ben Nanonote, ath9k-based Wi-Fi routers, and other hardware with emphasis on free software. The project's current goal is to aim for compliance with the GNU Free System Distribution Guidelines (GNU FSDG) and ensure that the project continues to meet these requirements set forth by the Free Software Foundation (FSF).."
+  description=router_librecmc_descr
   %}
 
 </div>
 
-<h3>Worth Mentioning</h3>
+<h3>{% t router.worth_mentioning %}</h3>
 
 <ul>
-  <li><a href="https://www.openbsd.org/">OpenBSD</a> - A project that produces a free, multi-platform 4.4BSD-based UNIX-like operating system. Emphasizes portability, standardization, correctness, proactive security and integrated cryptography.</li>
-  <li><a href="https://dd-wrt.com/">DD-WRT</a> <span class="badge badge-warning" data-toggle="tooltip" title="This software may depend on or recommend non-free software.">contrib <i class="far fa-question-circle"></i></span> - A is Linux-based firmware for wireless routers and wireless access points. It is compatible with several models of routers and access points.</li>
+  <li><a href="https://www.openbsd.org/">{% t router.openbsd %}</a> {% t router.openbsd_descr %}</li>
+  <li><a href="https://dd-wrt.com/">{% t router.ddwrt %}</a> <span class="badge badge-warning" data-toggle="tooltip" title="{% t router.ddwrt_title %}">contrib <i class="far fa-question-circle"></i></span> {% t router.ddwrt_descr %}</li>
 </ul>
