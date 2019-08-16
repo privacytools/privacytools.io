@@ -9,33 +9,35 @@
 {%- capture pc_os_debian_descr -%}{% t pc_os.debian_descr %}{%- endcapture -%}
 {%- capture pc_os_trisquel_descr -%}{% t pc_os.trisquel_descr %}{%- endcapture -%}
 
-<div class="row mb-2">
+{% include cardv2.html
+title="Qubes OS"
+image="/assets/img/tools/Qubes-OS.png"
+description=pc_os_qubesos_descr
+badges="info:Xen"
+labels=pc_os_qubesos_labels
+website="https://www.qubes-os.org/"
+github="https://github.com/QubesOS"
+tor="http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion/"
+%}
 
-  {% include card.html color="success"
-  title="Qubes OS"
-  labels=pc_os_qubesos_labels
-  image="/assets/img/tools/Qubes-OS.png"
-  url="https://www.qubes-os.org/"
-  tor="http://qubesos4rrrrz6n4.onion"
-  description=pc_os_qubesos_descr
-  %}
+{% include cardv2.html
+title="Debian"
+image="/assets/img/tools/Debian.png"
+description=pc_os_debian_descr
+badges="info:GNU/Linux"
+website="https://www.debian.org/"
+git="https://salsa.debian.org/qa/debsources"
+tor="http://sejnfjrq6szgca7v.onion"
+%}
 
-  {% include card.html color="primary"
-  title="Debian"
-  image="/assets/img/tools/Debian.png"
-  url="https://www.debian.org/"
-  tor="http://sejnfjrq6szgca7v.onion"
-  description=pc_os_debian_descr
-  %}
-
-  {% include card.html color="warning"
-  title="Trisquel"
-  image="/assets/img/tools/Trisquel.png"
-  url="https://trisquel.info/"
-  description=pc_os_trisquel_descr
-  %}
-
-</div>
+{% include cardv2.html
+title="Trisquel"
+image="/assets/img/tools/Trisquel.png"
+description=pc_os_trisquel_descr
+badges="info:GNU/Linux"
+website="https://trisquel.info/"
+git="https://devel.trisquel.info/groups/trisquel"
+%}
 
 <h3>{% t pc_os.warning %}</h3>
 
@@ -46,7 +48,7 @@
 <h3>{% t pc_os.worth_mentioning %}</h3>
 
 <ul>
-  <li><a href="https://www.openbsd.org/">OpenBSD</a> - {% t pc_os.openbsd_descr %}</li>
-  <li><a href="https://www.archlinux.org/">Arch Linux</a> - {% t pc_os.arch_descr %} <a href="https://www.parabola.nu/">Parabola</a> {% t pc_os.parabola_descr %}</li>
-  <li><a href="https://www.whonix.org/">Whonix</a> <span class="badge badge-warning" data-toggle="tooltip" title="{% t global.contrib %}">contrib <i class="far fa-question-circle"></i></span> - {% t pc_os.whonix_descr %}</li>
+  <li><a href="https://www.openbsd.org/">OpenBSD</a> <span class="badge badge-info">BSD</span> - {% t pc_os.openbsd_descr %}</li>
+  <li><a href="https://www.archlinux.org/">Arch Linux</a> <span class="badge badge-info">GNU/Linux</span> - {% t pc_os.arch_descr %} <a href="https://www.parabola.nu/">Parabola</a> {% t pc_os.parabola_descr %}</li>
+  <li><a href="https://www.whonix.org/">Whonix</a> <span class="badge badge-info">GNU/Linux</span> <span class="badge badge-warning" data-toggle="tooltip" title="{% t global.contrib %}">contrib <i class="far fa-question-circle"></i></span> - {% t pc_os.whonix_descr %}</li>
 </ul>

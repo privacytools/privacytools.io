@@ -11,38 +11,40 @@
 {%- capture mobile_os_grapheneos_labels -%}warning:contrib:{% t global.contrib %}{%- endcapture -%}
 {%- capture mobile_os_grapheneos_descr -%}{% t mobile_os.grapheneos_descr %}{%- endcapture -%}
 
-<div class="row mb-2">
+{% include cardv2.html
+title="GrapheneOS"
+image="/assets/img/tools/GrapheneOS.png"
+description=mobile_os_grapheneos_descr
+badges="info:AOSP"
+labels=mobile_os_grapheneos_labels
+website="https://grapheneos.org/"
+github="https://github.com/GrapheneOS/"
+%}
 
-  {% include card.html color="success"
-  title="LineageOS"
-  labels=mobile_os_lineageos_labels
-  image="/assets/img/tools/LineageOS.png"
-  url="https://www.lineageos.org/"
-  description=mobile_os_lineageos_descr
-  %}
+{% include cardv2.html
+title="LineageOS"
+image="/assets/img/tools/LineageOS.png"
+description=mobile_os_lineageos_descr
+badges="info:AOSP"
+labels=mobile_os_lineageos_labels
+website="https://www.lineageos.org/"
+github="https://github.com/LineageOS"
+%}
 
-  {% include card.html color="primary"
-  title="Ubuntu Touch"
-  labels=mobile_os_ubuntu_touch_labels
-  image="/assets/img/tools/Ubuntu-Touch.png"
-  url="https://ubuntu-touch.io/"
-  description=mobile_os_ubuntu_touch_descr
-  %}
-
-  {% include card.html color="warning"
-  title="GrapheneOS"
-  labels=mobile_os_grapheneos_labels
-  image="/assets/img/tools/GrapheneOS.png"
-  url="https://grapheneos.org/"
-  description=mobile_os_grapheneos_descr
-  %}
-
-</div>
+{% include cardv2.html
+title="Ubuntu Touch"
+image="/assets/img/tools/Ubuntu-Touch.png"
+description=mobile_os_ubuntu_touch_descr
+badges="info:GNU/Linux"
+labels=mobile_os_ubuntu_touch_labels
+website="https://ubuntu-touch.io/"
+github="https://github.com/ubports"
+%}
 
 <h3>{% t mobile_os.worth_mentioning %}</h3>
 
 <ul>
-  <li><a href="https://www.replicant.us/">Replicant</a> - {% t mobile_os.replicant_descr %}</li>
-  <li><a href="https://www.omnirom.org/">OmniROM</a> <span class="badge badge-warning" data-toggle="tooltip" title="{% t global.contrib %}">contrib <i class="far fa-question-circle"></i></span> - {% t mobile_os.omnirom_descr %}</li>
-  <li><a href="https://microg.org/">MicroG</a> <span class="badge badge-warning" data-toggle="tooltip" title="{% t global.contrib %}">contrib <i class="far fa-question-circle"></i></span> - {% t mobile_os.microg_descr %}</li>
+  <li><a href="https://www.replicant.us/">Replicant</a> <span class="badge badge-info">AOSP</span> - {% t mobile_os.replicant_descr %}</li>
+  <li><a href="https://www.omnirom.org/">OmniROM</a> <span class="badge badge-info">AOSP</span> <span class="badge badge-warning" data-toggle="tooltip" title="{% t global.contrib %}">contrib <i class="far fa-question-circle"></i></span> - {% t mobile_os.omnirom_descr %}</li>
+  <li><a href="https://microg.org/">MicroG</a> <span class="badge badge-info">Add-on Package</span> <span class="badge badge-warning" data-toggle="tooltip" title="{% t global.contrib %}">contrib <i class="far fa-question-circle"></i></span> - {% t mobile_os.microg_descr %} {% t mobile_os.microg_lineage %} <a href="https://lineage.microg.org/">Lineage for microG</a>.</li>
 </ul>

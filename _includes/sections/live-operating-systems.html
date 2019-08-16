@@ -7,37 +7,38 @@
 {%- capture live_os_puppy_linux_labels -%}warning:contrib:{% t global.contrib %}{%- endcapture -%}
 {%- capture live_os_puppy_linux_descr -%}{% t live_os.puppy_linux_descr %}{%- endcapture -%}
 
-<div class="row mb-2">
+{% include cardv2.html
+title="Tails"
+image="/assets/img/tools/Tails.png"
+description=live_os_tails_descr
+badges="info:GNU/Linux"
+labels=live_os_tails_labels
+website="https://tails.boum.org/"
+git="https://git-tails.immerda.ch/tails/"
+%}
 
-  {% include card.html color="success"
-  title="Tails"
-  labels=live_os_tails_labels
-  image="/assets/img/tools/Tails.png"
-  url="https://tails.boum.org/"
-  description=live_os_tails_descr
-  %}
+{% include cardv2.html
+title="KNOPPIX"
+image="/assets/img/tools/KNOPPIX.png"
+description=live_os_knoppix_descr
+badges="info:GNU/Linux"
+labels=live_os_knoppix_labels
+website="https://www.knopper.net/knoppix/index-en.html"
+source="https://www.knopper.net/knoppix-info/index-en.html"
+%}
 
-  {% include card.html color="primary"
-  title="KNOPPIX"
-  labels=live_os_knoppix_labels
-  image="/assets/img/tools/KNOPPIX.png"
-  url="https://www.knopper.net/knoppix/"
-  website="knopper.net"
-  description=live_os_knoppix_descr
-  %}
-
-  {% include card.html color="warning"
-  title="Puppy Linux"
-  labels=live_os_puppy_linux_labels
-  image="/assets/img/tools/Puppy-Linux.png"
-  url="http://puppylinux.org/"
-  description=live_os_puppy_linux_descr
-  %}
-
-</div>
+{% include cardv2.html
+title="Puppy Linux"
+image="/assets/img/tools/Puppy-Linux.png"
+description=live_os_puppy_linux_descr
+badges="info:GNU/Linux"
+labels=live_os_puppy_linux_labels
+website="http://puppylinux.org/"
+source="http://distro.ibiblio.org/puppylinux/"
+%}
 
 <h3>{% t live_os.worth_mentioning %}</h3>
 
 <ul>
-  <li><a href="https://distro.ibiblio.org/tinycorelinux/">{% t live_os.tiny_core_linux %}</a> <span class="badge badge-warning" data-toggle="tooltip" title="{% t global.contrib %}">contrib <i class="far fa-question-circle"></i></span> - {% t live_os.tiny_core_linux_descr %}</li>
+  <li><a href="https://distro.ibiblio.org/tinycorelinux/">{% t live_os.tiny_core_linux %}</a> <span class="badge badge-info">GNU/Linux</span> <span class="badge badge-warning" data-toggle="tooltip" title="{% t global.contrib %}">contrib <i class="far fa-question-circle"></i></span> - {% t live_os.tiny_core_linux_descr %}</li>
 </ul>

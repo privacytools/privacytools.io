@@ -7,36 +7,39 @@
 {%- capture router_librecmc_descr -%}{% t router.librecmc_descr %}{%- endcapture -%}
 
 
-<div class="row mb-2">
+{% include cardv2.html
+title="OpenWrt"
+image="/assets/img/tools/OpenWrt.png"
+description=router_openwrt_descr
+badges="info:Linux"
+labels=router_openwrt_labels
+website="https://openwrt.org/"
+git="https://git.openwrt.org/"
+github="https://github.com/openwrt"
+%}
 
-  {% include card.html color="success"
-  title="OpenWrt"
-  labels=router_openwrt_labels
-  image="/assets/img/tools/OpenWrt.png"
-  url="https://openwrt.org/"
-  description=router_openwrt_descr
-  %}
+{% include cardv2.html
+title="pfSense"
+image="/assets/img/tools/pfSense.png"
+description=router_pfsense_descr
+badges="info:BSD"
+labels=router_pfsense_labels
+website="https://www.pfsense.org/"
+github="https://github.com/pfsense/"
+%}
 
-  {% include card.html color="primary"
-  title="pfSense"
-  labels=router_pfsense_labels
-  image="/assets/img/tools/pfSense.png"
-  url="https://www.pfsense.org/"
-  description=router_pfsense_descr
-  %}
-
-  {% include card.html color="warning"
-  title="LibreCMC"
-  image="/assets/img/tools/LibreCMC.png"
-  url="https://librecmc.org"
-  description=router_librecmc_descr
-  %}
-
-</div>
+{% include cardv2.html
+title="LibreCMC"
+image="/assets/img/tools/LibreCMC.png"
+description=router_librecmc_descr
+badges="info:GNU/Linux"
+website="https://librecmc.org"
+git="https://gogs.librecmc.org/libreCMC/libreCMC"
+%}
 
 <h3>{% t router.worth_mentioning %}</h3>
 
 <ul>
-  <li><a href="https://www.openbsd.org/">OpenBSD</a> {% t router.openbsd_descr %}</li>
-  <li><a href="https://dd-wrt.com/">DD-WRT</a> <span class="badge badge-warning" data-toggle="tooltip" title="{% t global.contrib %}">contrib <i class="far fa-question-circle"></i></span> {% t router.ddwrt_descr %}</li>
+  <li><a href="https://www.openbsd.org/">OpenBSD</a> <span class="badge badge-info">BSD</span> - {% t router.openbsd_descr %}</li>
+  <li><a href="https://dd-wrt.com/">DD-WRT</a>  <span class="badge badge-info">Linux</span> <span class="badge badge-warning" data-toggle="tooltip" title="{% t global.contrib %}">contrib <i class="far fa-question-circle"></i></span> - {% t router.ddwrt_descr %}</li>
 </ul>
