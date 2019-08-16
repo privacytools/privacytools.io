@@ -4,18 +4,15 @@
   <strong>{% t pc_os.ms_apple_warning %}</strong>
 </div>
 
-{%- capture pc_os_qubesos_title -%}{% t pc_os.qubesos_title %}{%- endcapture -%}
 {%- capture pc_os_qubesos_labels -%}warning:contrib:{% t global.contrib %}{%- endcapture -%}
 {%- capture pc_os_qubesos_descr -%}{% t pc_os.qubesos_descr %}{%- endcapture -%}
-{%- capture pc_os_debian_title -%}{% t pc_os.debian_title %}{%- endcapture -%}
 {%- capture pc_os_debian_descr -%}{% t pc_os.debian_descr %}{%- endcapture -%}
-{%- capture pc_os_trisquel_title -%}{% t pc_os.trisquel_title %}{%- endcapture -%}
 {%- capture pc_os_trisquel_descr -%}{% t pc_os.trisquel_descr %}{%- endcapture -%}
 
 <div class="row mb-2">
 
   {% include card.html color="success"
-  title=pc_os_qubesos_title
+  title="Qubes OS"
   labels=pc_os_qubesos_labels
   image="/assets/img/tools/Qubes-OS.png"
   url="https://www.qubes-os.org/"
@@ -24,7 +21,7 @@
   %}
 
   {% include card.html color="primary"
-  title=pc_os_debian_title
+  title="Debian"
   image="/assets/img/tools/Debian.png"
   url="https://www.debian.org/"
   tor="http://sejnfjrq6szgca7v.onion"
@@ -32,7 +29,7 @@
   %}
 
   {% include card.html color="warning"
-  title=pc_os_trisquel_title
+  title="Trisquel"
   image="/assets/img/tools/Trisquel.png"
   url="https://trisquel.info/"
   description=pc_os_trisquel_descr
@@ -49,7 +46,7 @@
 <h3>{% t pc_os.worth_mentioning %}</h3>
 
 <ul>
-  <li><a href="https://www.openbsd.org/">{% t pc_os.openbsd %}</a> {% t pc_os.openbsd_descr %}</li>
-  <li><a href="https://www.archlinux.org/">{% t pc_os.arch %}</a> {% t pc_os.arch_descr %} <a href="https://www.parabola.nu/">{% t pc_os.parabola %}</a> {% t pc_os.parabola_descr %}</li>
-  <li><a href="https://www.whonix.org/">{% t pc_os.whonix %}</a> <span class="badge badge-warning" data-toggle="tooltip" title="{% t global.contrib %}">contrib <i class="far fa-question-circle"></i></span> {% t pc_os.whonix_descr %}</li>
+  <li><a href="https://www.openbsd.org/">OpenBSD</a> - {% t pc_os.openbsd_descr %}</li>
+  <li><a href="https://www.archlinux.org/">Arch Linux</a> - {% t pc_os.arch_descr %} <a href="https://www.parabola.nu/">Parabola</a> {% t pc_os.parabola_descr %}</li>
+  <li><a href="https://www.whonix.org/">Whonix</a> <span class="badge badge-warning" data-toggle="tooltip" title="{% t global.contrib %}">contrib <i class="far fa-question-circle"></i></span> - {% t pc_os.whonix_descr %}</li>
 </ul>

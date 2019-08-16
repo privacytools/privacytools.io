@@ -4,20 +4,17 @@
   <strong>{% t mobile_os.google_warning %}</strong>
 </div>
 
-{%- capture mobile_os_lineageos_title -%}{% t mobile_os.lineageos_title %}{%- endcapture -%}
 {%- capture mobile_os_lineageos_labels -%}warning:contrib:{% t global.contrib %}{%- endcapture -%}
 {%- capture mobile_os_lineageos_descr -%}{% t mobile_os.lineageos_descr %}{%- endcapture -%}
-{%- capture mobile_os_ubuntu_touch_title -%}{% t mobile_os.ubuntu_touch_title %}{%- endcapture -%}
 {%- capture mobile_os_ubuntu_touch_labels -%}warning:contrib:{% t global.contrib %}{%- endcapture -%}
 {%- capture mobile_os_ubuntu_touch_descr -%}{% t mobile_os.ubuntu_touch_descr %}{%- endcapture -%}
-{%- capture mobile_os_grapheneos_title -%}{% t mobile_os.grapheneos_title %}{%- endcapture -%}
 {%- capture mobile_os_grapheneos_labels -%}warning:contrib:{% t global.contrib %}{%- endcapture -%}
 {%- capture mobile_os_grapheneos_descr -%}{% t mobile_os.grapheneos_descr %}{%- endcapture -%}
 
 <div class="row mb-2">
 
   {% include card.html color="success"
-  title=mobile_os_lineageos_title
+  title="LineageOS"
   labels=mobile_os_lineageos_labels
   image="/assets/img/tools/LineageOS.png"
   url="https://www.lineageos.org/"
@@ -25,7 +22,7 @@
   %}
 
   {% include card.html color="primary"
-  title=mobile_os_ubuntu_touch_title
+  title="Ubuntu Touch"
   labels=mobile_os_ubuntu_touch_labels
   image="/assets/img/tools/Ubuntu-Touch.png"
   url="https://ubuntu-touch.io/"
@@ -33,7 +30,7 @@
   %}
 
   {% include card.html color="warning"
-  title=mobile_os_grapheneos_title
+  title="GrapheneOS"
   labels=mobile_os_grapheneos_labels
   image="/assets/img/tools/GrapheneOS.png"
   url="https://grapheneos.org/"
@@ -45,7 +42,7 @@
 <h3>{% t mobile_os.worth_mentioning %}</h3>
 
 <ul>
-  <li><a href="https://www.replicant.us/">{% t mobile_os.replicant %}</a> {% t mobile_os.replicant_descr %}</li>
-  <li><a href="https://www.omnirom.org/">{% t mobile_os.omnirom %}</a> <span class="badge badge-warning" data-toggle="tooltip" title="{% t global.contrib %}">contrib <i class="far fa-question-circle"></i></span> {% t mobile_os.omnirom_descr %}</li>
-  <li><a href="https://microg.org/">{% t mobile_os.microg %}</a> <span class="badge badge-warning" data-toggle="tooltip" title="{% t global.contrib %}">contrib <i class="far fa-question-circle"></i></span> {% t mobile_os.microg_descr %}</li>
+  <li><a href="https://www.replicant.us/">Replicant</a> - {% t mobile_os.replicant_descr %}</li>
+  <li><a href="https://www.omnirom.org/">OmniROM</a> <span class="badge badge-warning" data-toggle="tooltip" title="{% t global.contrib %}">contrib <i class="far fa-question-circle"></i></span> - {% t mobile_os.omnirom_descr %}</li>
+  <li><a href="https://microg.org/">MicroG</a> <span class="badge badge-warning" data-toggle="tooltip" title="{% t global.contrib %}">contrib <i class="far fa-question-circle"></i></span> - {% t mobile_os.microg_descr %}</li>
 </ul>

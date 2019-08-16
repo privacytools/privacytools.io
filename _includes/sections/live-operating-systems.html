@@ -1,19 +1,16 @@
 <h1 id="live_os" class="anchor"><a href="#live_os"><i class="fas fa-link anchor-icon"></i></a> {% t live_os.live_cd %}</h1>
 
-{%- capture live_os_tails_title -%}{% t live_os.tails_title %}{%- endcapture -%}
 {%- capture live_os_tails_labels -%}warning:contrib:{% t global.contrib %}{%- endcapture -%}
 {%- capture live_os_tails_descr -%}{% t live_os.tails_descr %}{%- endcapture -%}
-{%- capture live_os_knoppix_title -%}{% t live_os.knoppix_title %}{%- endcapture -%}
 {%- capture live_os_knoppix_labels -%}warning:contrib:{% t global.contrib %}{%- endcapture -%}
 {%- capture live_os_knoppix_descr -%}{% t live_os.knoppix_descr %}{%- endcapture -%}
-{%- capture live_os_puppy_linux_title -%}{% t live_os.puppy_linux_title %}{%- endcapture -%}
 {%- capture live_os_puppy_linux_labels -%}warning:contrib:{% t global.contrib %}{%- endcapture -%}
 {%- capture live_os_puppy_linux_descr -%}{% t live_os.puppy_linux_descr %}{%- endcapture -%}
 
 <div class="row mb-2">
 
   {% include card.html color="success"
-  title=live_os_tails_title
+  title="Tails"
   labels=live_os_tails_labels
   image="/assets/img/tools/Tails.png"
   url="https://tails.boum.org/"
@@ -21,7 +18,7 @@
   %}
 
   {% include card.html color="primary"
-  title=live_os_knoppix_title
+  title="KNOPPIX"
   labels=live_os_knoppix_labels
   image="/assets/img/tools/KNOPPIX.png"
   url="https://www.knopper.net/knoppix/"
@@ -30,7 +27,7 @@
   %}
 
   {% include card.html color="warning"
-  title=live_os_puppy_linux_title
+  title="Puppy Linux"
   labels=live_os_puppy_linux_labels
   image="/assets/img/tools/Puppy-Linux.png"
   url="http://puppylinux.org/"
@@ -42,5 +39,5 @@
 <h3>{% t live_os.worth_mentioning %}</h3>
 
 <ul>
-  <li><a href="https://distro.ibiblio.org/tinycorelinux/">{% t live_os.tiny_core_linux %}</a> <span class="badge badge-warning" data-toggle="tooltip" title="{% t global.contrib %}">contrib <i class="far fa-question-circle"></i></span> {% t live_os.tiny_core_linux_descr %}</li>
+  <li><a href="https://distro.ibiblio.org/tinycorelinux/">{% t live_os.tiny_core_linux %}</a> <span class="badge badge-warning" data-toggle="tooltip" title="{% t global.contrib %}">contrib <i class="far fa-question-circle"></i></span> - {% t live_os.tiny_core_linux_descr %}</li>
 </ul>

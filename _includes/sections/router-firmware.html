@@ -1,19 +1,16 @@
 <h1 id="firmware" class="anchor"><a href="#firmware"><i class="fas fa-link anchor-icon"></i></a> {% t router.firmware %}</h1>
 
-{%- capture router_openwrt_title -%}{% t router.openwrt_title %}{%- endcapture -%}
 {%- capture router_openwrt_labels -%}warning:contrib:{% t global.contrib %}{%- endcapture -%}
 {%- capture router_openwrt_descr -%}{% t router.openwrt_descr %}{%- endcapture -%}
-{%- capture router_pfsense_title -%}{% t router.pfsense_title %}{%- endcapture -%}
 {%- capture router_pfsense_labels -%}warning:contrib:{% t global.contrib %}{%- endcapture -%}
 {%- capture router_pfsense_descr -%}{% t router.pfsense_descr %}{%- endcapture -%}
-{%- capture router_librecmc_title -%}{% t router.librecmc_title %}{%- endcapture -%}
 {%- capture router_librecmc_descr -%}{% t router.librecmc_descr %}{%- endcapture -%}
 
 
 <div class="row mb-2">
 
   {% include card.html color="success"
-  title=router_openwrt_title
+  title="OpenWrt"
   labels=router_openwrt_labels
   image="/assets/img/tools/OpenWrt.png"
   url="https://openwrt.org/"
@@ -21,7 +18,7 @@
   %}
 
   {% include card.html color="primary"
-  title=router_pfsense_title
+  title="pfSense"
   labels=router_pfsense_labels
   image="/assets/img/tools/pfSense.png"
   url="https://www.pfsense.org/"
@@ -29,7 +26,7 @@
   %}
 
   {% include card.html color="warning"
-  title=router_librecmc_title
+  title="LibreCMC"
   image="/assets/img/tools/LibreCMC.png"
   url="https://librecmc.org"
   description=router_librecmc_descr
@@ -40,6 +37,6 @@
 <h3>{% t router.worth_mentioning %}</h3>
 
 <ul>
-  <li><a href="https://www.openbsd.org/">{% t router.openbsd %}</a> {% t router.openbsd_descr %}</li>
-  <li><a href="https://dd-wrt.com/">{% t router.ddwrt %}</a> <span class="badge badge-warning" data-toggle="tooltip" title="{% t global.contrib %}">contrib <i class="far fa-question-circle"></i></span> {% t router.ddwrt_descr %}</li>
+  <li><a href="https://www.openbsd.org/">OpenBSD</a> {% t router.openbsd_descr %}</li>
+  <li><a href="https://dd-wrt.com/">DD-WRT</a> <span class="badge badge-warning" data-toggle="tooltip" title="{% t global.contrib %}">contrib <i class="far fa-question-circle"></i></span> {% t router.ddwrt_descr %}</li>
 </ul>
