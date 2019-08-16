@@ -1,10 +1,10 @@
 <h1 id="firmware" class="anchor"><a href="#firmware"><i class="fas fa-link anchor-icon"></i></a> {% t router.firmware %}</h1>
 
 {%- capture router_openwrt_title -%}{% t router.openwrt_title %}{%- endcapture -%}
-{%- capture router_openwrt_labels -%}{% t router.openwrt_labels %}{%- endcapture -%}
+{%- capture router_openwrt_labels -%}warning:contrib:{% t global.contrib %}{%- endcapture -%}
 {%- capture router_openwrt_descr -%}{% t router.openwrt_descr %}{%- endcapture -%}
 {%- capture router_pfsense_title -%}{% t router.pfsense_title %}{%- endcapture -%}
-{%- capture router_pfsense_labels -%}{% t router.pfsense_labels %}{%- endcapture -%}
+{%- capture router_pfsense_labels -%}warning:contrib:{% t global.contrib %}{%- endcapture -%}
 {%- capture router_pfsense_descr -%}{% t router.pfsense_descr %}{%- endcapture -%}
 {%- capture router_librecmc_title -%}{% t router.librecmc_title %}{%- endcapture -%}
 {%- capture router_librecmc_descr -%}{% t router.librecmc_descr %}{%- endcapture -%}
@@ -41,5 +41,5 @@
 
 <ul>
   <li><a href="https://www.openbsd.org/">{% t router.openbsd %}</a> {% t router.openbsd_descr %}</li>
-  <li><a href="https://dd-wrt.com/">{% t router.ddwrt %}</a> <span class="badge badge-warning" data-toggle="tooltip" title="{% t router.contrib_descr %}">{% t router.contrib %} <i class="far fa-question-circle"></i></span> {% t router.ddwrt_descr %}</li>
+  <li><a href="https://dd-wrt.com/">{% t router.ddwrt %}</a> <span class="badge badge-warning" data-toggle="tooltip" title="{% t global.contrib %}">contrib <i class="far fa-question-circle"></i></span> {% t router.ddwrt_descr %}</li>
 </ul>

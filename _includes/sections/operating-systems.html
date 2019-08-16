@@ -5,7 +5,7 @@
 </div>
 
 {%- capture pc_os_qubesos_title -%}{% t pc_os.qubesos_title %}{%- endcapture -%}
-{%- capture pc_os_qubesos_labels -%}{% t pc_os.qubesos_labels %}{%- endcapture -%}
+{%- capture pc_os_qubesos_labels -%}warning:contrib:{% t global.contrib %}{%- endcapture -%}
 {%- capture pc_os_qubesos_descr -%}{% t pc_os.qubesos_descr %}{%- endcapture -%}
 {%- capture pc_os_debian_title -%}{% t pc_os.debian_title %}{%- endcapture -%}
 {%- capture pc_os_debian_descr -%}{% t pc_os.debian_descr %}{%- endcapture -%}
@@ -51,5 +51,5 @@
 <ul>
   <li><a href="https://www.openbsd.org/">{% t pc_os.openbsd %}</a> {% t pc_os.openbsd_descr %}</li>
   <li><a href="https://www.archlinux.org/">{% t pc_os.arch %}</a> {% t pc_os.arch_descr %} <a href="https://www.parabola.nu/">{% t pc_os.parabola %}</a> {% t pc_os.parabola_descr %}</li>
-  <li><a href="https://www.whonix.org/">{% t pc_os.whonix %}</a> <span class="badge badge-warning" data-toggle="tooltip" title="{% t pc_os.contrib_descr %}">{% t pc_os.contrib %} <i class="far fa-question-circle"></i></span> {% t pc_os.whonix_descr %}</li>
+  <li><a href="https://www.whonix.org/">{% t pc_os.whonix %}</a> <span class="badge badge-warning" data-toggle="tooltip" title="{% t global.contrib %}">contrib <i class="far fa-question-circle"></i></span> {% t pc_os.whonix_descr %}</li>
 </ul>

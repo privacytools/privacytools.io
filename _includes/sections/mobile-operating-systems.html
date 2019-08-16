@@ -5,13 +5,13 @@
 </div>
 
 {%- capture mobile_os_lineageos_title -%}{% t mobile_os.lineageos_title %}{%- endcapture -%}
-{%- capture mobile_os_lineageos_labels -%}{% t mobile_os.lineageos_labels %}{%- endcapture -%}
+{%- capture mobile_os_lineageos_labels -%}warning:contrib:{% t global.contrib %}{%- endcapture -%}
 {%- capture mobile_os_lineageos_descr -%}{% t mobile_os.lineageos_descr %}{%- endcapture -%}
 {%- capture mobile_os_ubuntu_touch_title -%}{% t mobile_os.ubuntu_touch_title %}{%- endcapture -%}
-{%- capture mobile_os_ubuntu_touch_labels -%}{% t mobile_os.ubuntu_touch_labels %}{%- endcapture -%}
+{%- capture mobile_os_ubuntu_touch_labels -%}warning:contrib:{% t global.contrib %}{%- endcapture -%}
 {%- capture mobile_os_ubuntu_touch_descr -%}{% t mobile_os.ubuntu_touch_descr %}{%- endcapture -%}
 {%- capture mobile_os_grapheneos_title -%}{% t mobile_os.grapheneos_title %}{%- endcapture -%}
-{%- capture mobile_os_grapheneos_labels -%}{% t mobile_os.grapheneos_labels %}{%- endcapture -%}
+{%- capture mobile_os_grapheneos_labels -%}warning:contrib:{% t global.contrib %}{%- endcapture -%}
 {%- capture mobile_os_grapheneos_descr -%}{% t mobile_os.grapheneos_descr %}{%- endcapture -%}
 
 <div class="row mb-2">
@@ -46,6 +46,6 @@
 
 <ul>
   <li><a href="https://www.replicant.us/">{% t mobile_os.replicant %}</a> {% t mobile_os.replicant_descr %}</li>
-  <li><a href="https://www.omnirom.org/">{% t mobile_os.omnirom %}</a> <span class="badge badge-warning" data-toggle="tooltip" title="{% t mobile_os.contrib_descr %}">{% t mobile_os.contrib %} <i class="far fa-question-circle"></i></span> {% t mobile_os.omnirom_descr %}</li>
-  <li><a href="https://microg.org/">{% t mobile_os.microg %}</a> <span class="badge badge-warning" data-toggle="tooltip" title="{% t mobile_os.contrib_descr %}">{% t mobile_os.contrib %} <i class="far fa-question-circle"></i></span> {% t mobile_os.microg_descr %}</li>
+  <li><a href="https://www.omnirom.org/">{% t mobile_os.omnirom %}</a> <span class="badge badge-warning" data-toggle="tooltip" title="{% t global.contrib %}">contrib <i class="far fa-question-circle"></i></span> {% t mobile_os.omnirom_descr %}</li>
+  <li><a href="https://microg.org/">{% t mobile_os.microg %}</a> <span class="badge badge-warning" data-toggle="tooltip" title="{% t global.contrib %}">contrib <i class="far fa-question-circle"></i></span> {% t mobile_os.microg_descr %}</li>
 </ul>
