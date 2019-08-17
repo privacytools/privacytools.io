@@ -1,40 +1,8 @@
-<h1 id="voip" class="anchor"><a href="#voip"><i class="fas fa-link anchor-icon"></i></a> Encrypted Video & Voice Messenger</h1>
+<h1 id="voip" class="anchor"><a href="#voip"><i class="fas fa-link anchor-icon"></i></a> Video/Voice Calling</h1>
 
 <div class="alert alert-warning" role="alert">
-  <strong>If you are currently using a Video & Voice Messenger like Skype, Viber or Google Hangouts, you should pick an alternative here.</strong>
+  <strong>If you are currently using a Video/Voice Calling app like Skype, Viber or Google Hangouts, you should pick an alternative here.</strong> Please note that many of the above instant messengers also support <span class="badge badge-success">VoIP</span>. The software listed below are <em>primarily</em> Voice/Video focused.
 </div>
-
-{% include cardv2.html
-title="Mobile: Signal"
-image="/assets/img/tools/Signal.png"
-website="https://signal.org"
-description="Signal is a mobile app developed by Open Whisper Systems. The app provides instant messaging, as well as voice and video calling.
-All communications are end-to-end encrypted. Signal is free and open source."
-forum="https://forum.privacytools.io/t/discussion-signal/664"
-github="https://github.com/signalapp"
-android=""
-ios=""
-mac=""
-windows=""
-linux=""
-footer="OS: Android, iOS, macOS, Windows, Linux"
-%}
-
-{% include cardv2.html
-title="Wire"
-image="/assets/img/tools/wire.png"
-website="https://wire.com/download/"
-description="Wire is an app developed by Wire Swiss GmbH.
-The Wire app allows users to exchange end-to-end encrypted instant messages, as well as make voice and video calls. Wire is free and open source. <span class=\"badge badge-warning\" data-toggle=\"tooltip\" title=\"The company keeps a list of all the users you contact until you delete your account.\">Caution <i class=\"far fa-question-circle\"></i></span>"
-forum="https://forum.privacytools.io/t/discussion-wire/750"
-github="https://github.com/wireapp"
-android=""
-ios=""
-mac=""
-windows=""
-linux=""
-web=""
-%}
 
 {% include cardv2.html
 title="Linphone"
@@ -51,20 +19,30 @@ mac=""
 web=""
 %}
 
-
-
+{% include cardv2.html
+title="Mumble"
+image="/assets/img/tools/Mumble.png"
+website="https://mumble.info/"
+description="Mumble is an open source, low-latency, high quality voice chat software primarily intended for use while gaming. Note that while Mumble doesn't log messages or record by default, <a href=\"https://github.com/mumble-voip/mumble/issues/1813\">it's missing end-to-end encryption</a>, so self-hosting is recommended."
+forum="https://forum.privacytools.io/t/discussion-mumble/1289"
+github="https://github.com/mumble-voip/"
+windows=""
+linux=""
+mac=""
+%}
 
 <h3>Worth Mentioning</h3>
 
 <ul>
-  <li><a href="https://jitsi.org/">Jitsi</a> - Jitsi is a free and open source multiplatform voice (VoIP), videoconferencing and instant messaging application.</li>
-  <li> <a href="https://tox.chat/">Tox</a> - <span class="badge badge-warning">Experimental</span> A free and open-source, peer-to-peer, encrypted instant messaging and video calling software. </li>
-  <li><a href="https://jami.net/">Jami (formerly Ring/SFLphone)</a> - Gives you a full control over your communications and an unmatched level of privacy.</li>
+  <li><a href="https://jitsi.org/">Jitsi Meet</a> - Jitsi Meet is a free and open source multiplatform voice (VoIP), videoconferencing and instant messaging application. <span class="badge badge-warning" data-toggle="tooltip" title="Our Firefox tweaks recommend disabling WebRTC as it can be used to leak your IP address even behind a VPN, which is why Tor Browser disables it.">Requires WebRTC</span></li>
 </ul>
 
 <h3>Related Information</h3>
 
 <ul>
-  <li><a href="https://signal.org/android/apk/">Advanced users with special needs can download the Signal APK directly. Most users should not do this under normal circumstances.</a></li>
-  <li><a href="https://www.vice.com/en_us/article/gvzw5x/secure-messaging-app-wire-stores-everyone-youve-ever-contacted-in-plain-text">Secure Messaging App Wire Stores Everyone You've Ever Contacted in Plain Text | Motherboard</a></li>
+  <li>More information about Mumble:</li>
+  <ul>
+  <li><a href="https://wiki.mumble.info/wiki/Running_Murmur">Running Mumble Server</a> and <a href="https://wiki.mumble.info/wiki/Murmur.ini">its config file</a>, particularly <a href="https://wiki.mumble.info/wiki/Murmur.ini#obfuscate">obfuscating IPv4 addresses</a> and <a href="https://wiki.mumble.info/wiki/Murmur.ini#Process_Administrivia">logging</a></li>
+  <li><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO/Mumble">Torifying Mumble</a>
+  </ul>
 </ul>

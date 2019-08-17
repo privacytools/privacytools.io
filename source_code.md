@@ -134,7 +134,9 @@ Backend: closed-source
 
  Status.im: https://github.com/status-im
 
- Ricochet: https://github.com/ricochet-im/ricochet
+ Tox: https://github.com/TokTok/c-toxcore
+
+ Ring/Jami: https://git.jami.net/savoirfairelinux
 
 ## Team chat
 
@@ -142,20 +144,14 @@ Backend: closed-source
  
  Keybase: https://github.com/Keybase
 
-## Encrypted Video & Voice Messenger
- Signal: https://github.com/signalapp
-
- Wire: https://github.com/wireapp
-
+## Video & Voice Messenger
  Linphone: https://github.com/BelledonneCommunications/
+
+ Mumble: https://github.com/mumble-voip/
 
    Worth Mentioning
 
- Jitsi: https://github.com/jitsi/jitsi-meet
-
- Tox: https://github.com/TokTok/c-toxcore
-
- Ring/Jami: https://gerrit-ring.savoirfairelinux.com/#/q/status:open
+ Jitsi Meet: https://github.com/jitsi/jitsi-meet
 
  ## File Sharing
   OnionShare: https://github.com/micahflee/onionshare
@@ -191,19 +187,20 @@ Backend: closed-source
     git-annex: http://source.git-annex.branchable.com/?p=source.git;a=summary
 
 ## Password Manager Software
- Bitwarden: https://github.com/bitwarden
 
- KeePass: https://keepass.info/download.html
+Bitwarden: https://github.com/bitwarden
 
- KeePassXC: https://github.com/keepassxreboot
+KeePassXC: https://github.com/keepassxreboot
 
- LessPass: https://github.com/lesspass/lesspass
+LessPass: https://github.com/lesspass/lesspass
 
-   Worth Mentioning
-.
-    Master Password: https://gitlab.com/lhunath/MasterPassword
-.
-    Password Safe: hhttps://sourceforge.net/p/passwordsafe/git-code/ci/master/tree/
+Worth Mentioning
+
+- Master Password: https://gitlab.com/lhunath/MasterPassword
+
+- Psono: https://github.com/psono
+
+- Password Safe: https://sourceforge.net/projects/passwordsafe/files/
 
 ## Calendar and Contacts Sync
   Nextcloud: https://github.com/nextcloud
@@ -217,23 +214,22 @@ Backend: closed-source
     Flock: https://github.com/signalapp/Flock
 
 ## File Encryption Software
- VeraCrypt: https://www.veracrypt.fr/en/Source%20Code.html
 
- GNU Privacy Guard: https://github.com/gpg/gnupg
+VeraCrypt: https://www.veracrypt.fr/en/Source%20Code.html
 
- PeaZip: https://github.com/giorgiotani/PeaZip/
+GNU Privacy Guard: https://github.com/gpg/gnupg
 
- Cryptomator: https://github.com/cryptomator/cryptomator
+PeaZip: https://github.com/giorgiotani/PeaZip/
 
-  Worth Mentioning:
 
-   miniLock: https://github.com/kaepora/miniLock
+Worth Mentioning:
+- Cryptomator: https://github.com/cryptomator/cryptomator
 
-   AES Crypt: https://github.com/marcobellaccini/pyAesCrypt
+- DiskCryptor: https://github.com/smartinm/diskcryptor
 
-   DiskCryptor: https://github.com/smartinm/diskcryptor
+- Linux Unified Key Setup (LUKS): https://gitlab.com/cryptsetup/cryptsetup/
 
-   Linux Unified Key Setup (LUKS): https://gitlab.com/cryptsetup/cryptsetup/
+- Hat.sh: https://github.com/sh-dv/hat.sh
 
 ## Self-contained Networks
  TorBrowser: https://gitweb.torproject.org/tor.git
