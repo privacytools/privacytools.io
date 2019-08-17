@@ -213,23 +213,22 @@ Backend: closed-source
     Flock: https://github.com/signalapp/Flock
 
 ## File Encryption Software
- VeraCrypt: https://www.veracrypt.fr/en/Source%20Code.html
 
- GNU Privacy Guard: https://github.com/gpg/gnupg
+VeraCrypt: https://www.veracrypt.fr/en/Source%20Code.html
 
- PeaZip: https://github.com/giorgiotani/PeaZip/
+GNU Privacy Guard: https://github.com/gpg/gnupg
 
- Cryptomator: https://github.com/cryptomator/cryptomator
+PeaZip: https://github.com/giorgiotani/PeaZip/
 
-  Worth Mentioning:
 
-   miniLock: https://github.com/kaepora/miniLock
+Worth Mentioning:
+- Cryptomator: https://github.com/cryptomator/cryptomator
 
-   AES Crypt: https://github.com/marcobellaccini/pyAesCrypt
+- DiskCryptor: https://github.com/smartinm/diskcryptor
 
-   DiskCryptor: https://github.com/smartinm/diskcryptor
+- Linux Unified Key Setup (LUKS): https://gitlab.com/cryptsetup/cryptsetup/
 
-   Linux Unified Key Setup (LUKS): https://gitlab.com/cryptsetup/cryptsetup/
+- Hat.sh: https://github.com/sh-dv/hat.sh
 
 ## Self-contained Networks
  TorBrowser: https://gitweb.torproject.org/tor.git
