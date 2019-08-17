@@ -187,19 +187,20 @@ Backend: closed-source
     git-annex: http://source.git-annex.branchable.com/?p=source.git;a=summary
 
 ## Password Manager Software
- Bitwarden: https://github.com/bitwarden
 
- KeePass: https://keepass.info/download.html
+Bitwarden: https://github.com/bitwarden
 
- KeePassXC: https://github.com/keepassxreboot
+KeePassXC: https://github.com/keepassxreboot
 
- LessPass: https://github.com/lesspass/lesspass
+LessPass: https://github.com/lesspass/lesspass
 
-   Worth Mentioning
-.
-    Master Password: https://gitlab.com/lhunath/MasterPassword
-.
-    Password Safe: hhttps://sourceforge.net/p/passwordsafe/git-code/ci/master/tree/
+Worth Mentioning
+
+- Master Password: https://gitlab.com/lhunath/MasterPassword
+
+- Psono: https://github.com/psono
+
+- Password Safe: https://sourceforge.net/projects/passwordsafe/files/
 
 ## Calendar and Contacts Sync
   Nextcloud: https://github.com/nextcloud
