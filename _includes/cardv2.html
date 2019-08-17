@@ -27,7 +27,7 @@
       <img src="{{include.image}}" height="120" width="120" class="panel-pic" alt="{{include.title}}">
       {{include.description}}
       {% if include.labels %}
-      {% assign labels = include.labels | split:";" %}
+      {% assign labels = include.labels | split:"|" %}
           {% for label in labels %}
               {% assign label_data = label | split:":" %}
               {% assign color = label_data[0] %}
