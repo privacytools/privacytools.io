@@ -3,7 +3,7 @@
     <h3 class="h5">
       {% if include.badges %}
       <span class="mr-2">{{include.title}}</span>
-      {% assign badges = include.badges | replace:", ", "," | split:"," %}
+      {% assign badges = include.badges | split:"|" %}
           {% for badge in badges %}
               {% assign badge_data = badge | split:":" %}
               {% assign color = badge_data[0] %}
