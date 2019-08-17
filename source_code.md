@@ -134,8 +134,6 @@ Backend: closed-source
 
  Status.im: https://github.com/status-im
 
- Ricochet: https://github.com/ricochet-im/ricochet
-
  Tox: https://github.com/TokTok/c-toxcore
 
  Ring/Jami: https://git.jami.net/savoirfairelinux
