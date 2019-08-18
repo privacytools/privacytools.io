@@ -1,8 +1,8 @@
-<!-- PLEASE READ OUR [CONTRIBUTING GUIDELINES](https://github.com/privacytoolsIO/privacytools.io/blob/master/.github/CONTRIBUTING.md) BEFORE SUBMITTING -->
+<!-- PLEASE READ OUR CONTRIBUTING GUIDELINES (https://github.com/privacytoolsIO/privacytools.io/blob/master/.github/CONTRIBUTING.md) BEFORE SUBMITTING -->
 
 ## Description
 
-Resolves: #none <!-- The number of the issue that is resolved by this pull request. If there is none, feel free to delete this line 
+Resolves: #none <!-- The number of the issue that is resolved by this pull request. If there is none, feel free to delete this line -->
 
 #### Check List <!-- Please add an x in each box below, like so: [x] -->
 
