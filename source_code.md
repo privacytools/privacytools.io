@@ -13,8 +13,6 @@ https://github.com/privacytoolsIO/
 
  Firefox: https://hg.mozilla.org/
 
- Brave: https://github.com/brave/
-
 ## Excellent Firefox Privacy Add-ons
 
  Privacy Badger: https://github.com/EFForg/privacybadger
