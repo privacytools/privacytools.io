@@ -85,7 +85,7 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         </td>
         <td>Hobby Project</td>
         <td>No</td>
-        <td>DoH, <span data-toggle="tooltip" data-placement="bottom" data-original-title="Supports port 443 in addition to 853" class="text-success">DoT</span>, DNSCrypt</td>
+        <td data-value="dot/443">DoH, <span data-toggle="tooltip" data-placement="bottom" data-original-title="Supports port 443 in addition to 853" class="text-success"><strong>DoT</strong></span>, DNSCrypt</td>
         <td>Yes</td>
         <td>Yes</td>
         <td>Ads, trackers, malicious domains <span class="badge badge-warning" data-toggle="tooltip" data-original-title="And some wildcard, IDN, and non-ASCII domains."><a href="https://github.com/ookangzheng/blahdns#default-blocked-wildcard-domain"><i class="fas fa-exclamation-triangle"></i></a></span></td>
@@ -150,7 +150,7 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         </td>
         <td>Hobby Project</td>
         <td>No</td>
-        <td>DoH, <span data-toggle="tooltip" data-placement="bottom" data-original-title="Supports port 443 in addition to 853" class="text-success">DoT</span>, DNSCrypt</td>
+        <td data-value="dot/443">DoH, <span data-toggle="tooltip" data-placement="bottom" data-original-title="Supports port 443 in addition to 853" class="text-success"><strong>DoT</strong></span>, DNSCrypt</td>
         <td>Yes</td>
         <td>Yes</td>
         <td>Based on server choice</td>
@@ -169,7 +169,7 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         </td>
         <td>Non-Profit</td>
         <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"We do NOT log your IP address or DNS queries during normal operations. We do NOT share query data with third parties that are not directly involved with resolving the query (i.e. sending queries to authoritative nameservers for resolution)."' href="https://appliedprivacy.net/privacy-policy/">Some</a></td>
-        <td>DoH, <span data-toggle="tooltip" data-placement="bottom" data-original-title="Supports port 443 in addition to 853" class="text-success">DoT</span></td>
+        <td data-value="dot/443">DoH, <span data-toggle="tooltip" data-placement="bottom" data-original-title="Supports port 443 in addition to 853" class="text-success"><strong>DoT</strong></span></td>
         <td>Yes</td>
         <td>Yes</td>
         <td>No</td>
@@ -280,7 +280,7 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
   <h4>Terms</h4>
 
   <ul>
-    <li>DNS-over-TLS (DoT) - A security protocol for encrypted DNS on a dedicated port 853.</li>
+    <li>DNS-over-TLS (DoT) - A security protocol for encrypted DNS on a dedicated port 853. Some providers support port 443 which generally works everywhere while port 853 is often blocked by restrictive firewalls.</li>
     <li>DNS-over-HTTPS (DoH) - Similar to DoT, but uses HTTPS instead, being indistinguishable from "normal" HTTPS traffic on port 443.</li>
     <li>DNSCrypt - An older yet robust method of encrypting DNS.</li>
   </ul>
