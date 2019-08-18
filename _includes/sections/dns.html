@@ -37,7 +37,7 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
   <table class="table sortable-theme-bootstrap" data-sortable>
     <thead>
       <tr>
-        <th data-sorted="true" data-sorted-direction="descending">ICANN DNS Provider</th>
+        <th data-sorted="true" data-sorted-direction="ascending">ICANN DNS Provider</th>
         <th data-sortable="true">Server Locations</th>
         <th data-sortable="false">Privacy Policy</th>
         <th data-sortable="true">Type</th>
@@ -283,6 +283,22 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
     <li>DNS-over-TLS (DoT) - A security protocol for encrypted DNS on a dedicated port 853.</li>
     <li>DNS-over-HTTPS (DoH) - Similar to DoT, but uses HTTPS instead, being indistinguishable from "normal" HTTPS traffic on port 443.</li>
     <li>DNSCrypt - An older yet robust method of encrypting DNS.</li>
+  </ul>
+
+  <h4>How to Validate</h4>
+
+  <ul>
+    <li>DoH / DoT
+      <ul>
+        <li>Check <a href="https://www.dnsleaktest.com/">https://www.dnsleaktest.com/</a>.</li>
+        <li>Check the website of your DNS provider. They may have a page for telling "you are using X DNS." Examples include <a href="https://adguard.com/en/adguard-dns/overview.html">AdGuard</a> and <a href="https://1.1.1.1/help">Cloudflare</a>.</li>
+        <li>If using Firefox's trusted recursive resolver (TRR), navigate to <code>about:networking#dns</code>. If the TRR column says "true" for some fields, you are using DoH.</li>
+      </ul>
+    </li>
+    <li>dnscrypt-proxy - Try the above steps or attempt to stop it. If you have configured it correctly, your DNS requests will stop working (with the exception having Firefox's TRR configured).
+    </li>
+    <li>DNSSEC - Check <a href="https://dnssec.vs.uni-due.de/">https://dnssec.vs.uni-due.de/</a>.</li>
+    <li>QNAME Minimization - Run <code>dig +short txt qnamemintest.internet.nl</code> from the command-line (taken from <a href="https://nlnetlabs.nl/downloads/presentations/unbound_qnamemin_oarc24.pdf">this NLnet Labs presentation</a>). You should see this display: <code>"HOORAY - QNAME minimisation is enabled on your resolver :)!"</code></li>
   </ul>
 
   <h3>Worth Mentioning and Additional Information</h3>
