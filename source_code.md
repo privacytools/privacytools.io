@@ -338,43 +338,26 @@ PowerDNS: https://github.com/PowerDNS/pdns
 
 
 ## Productivity Tools
- Etherpad: https://github.com/ether/etherpad-lite
 
- Write.as: https://code.as/writeas
+CryptPad: https://github.com/xwiki-labs/cryptpad
 
- Protected Text:
-Frontend:?
-Backend: closed-source
+Etherpad: https://github.com/ether/etherpad-lite
 
-  Worth Mentioning
+Write.as: https://code.as/writeas
 
-   Cryptee: https://github.com/cryptee
-Backend: Closed Source
+### Worth Mentioning
 
-   EtherCalc: https://github.com/audreyt/ethercalc
+- Cryptee: https://github.com/cryptee
 
-   Disroot:
-  Email:
-  Cloud: https://github.com/nextcloud/server
-  Diaspora/Social-Network: https://github.com/diaspora/
-  Forum: https://github.com/discourse/discourse
-  Chat: http://hg.prosody.im/
-  Pads: https://github.com/ether/etherpad-lite
-  Pastebin: https://github.com/PrivateBin/PrivateBin via https://disroot.org/en/services/privatebin
-  Upload:
- Lufi: https://framagit.org/fiat-tux/hat-softwares/lufi
-  Search:
- Searx: https://github.com/asciimoo/searx
-  Polls:
- Framadate: https://git.framasoft.org/framasoft/framadate
-  Project Board:
- Taiga: https://github.com/taigaio/
- Website: https://git.fosscommunity.in/disroot/website + some other repositories https://git.fosscommunity.in/disroot/
+- EtherCalc: https://github.com/audreyt/ethercalc
 
+- Disroot: https://git.fosscommunity.in/disroot
 
-   Dudle: https://github.com/kellerben/dudle/
+- Dudle: https://github.com/kellerben/dudle/
 
-   LibreOffice: https://gerrit.libreoffice.org/
+- LibreOffice: https://gerrit.libreoffice.org/
+
+- VSCodium: https://github.com/VSCodium/vscodium
 
 ## PC Operating Systems
  QubesOS: https://github.com/QubesOS
