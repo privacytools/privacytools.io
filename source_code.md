@@ -285,6 +285,8 @@ OpenNic: https://github.com/opennic/ (mostly)
 
 Webpage: https://github.com/opennic/opennic-web
 
+Nebulo: https://git.frostnerd.com/PublicAndroidApps/smokescreen/
+
 ### Worth Mentioning
 
 - NoTrack: https://github.com/quidsup/notrack
