@@ -281,7 +281,7 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
 
   <ul>
     <li>DNS-over-TLS (DoT) - A security protocol for encrypted DNS on a dedicated port 853. Some providers support port 443 which generally works everywhere while port 853 is often blocked by restrictive firewalls.</li>
-    <li>DNS-over-HTTPS (DoH) - Similar to DoT, but uses HTTPS instead, being indistinguishable from "normal" HTTPS traffic on port 443. <span class="badge badge-warning" data-toggle="tooltip" data-original-title="DoH may leak metadata such as user-agent (which may include system information) to the DNS server"><a href="https://github.com/privacytoolsIO/privacytools.io/issues/1187#issuecomment-523313881"><i class="fas fa-exclamation-triangle"></i></a></span></li>
+    <li>DNS-over-HTTPS (DoH) - Similar to DoT, but uses HTTPS instead, being indistinguishable from "normal" HTTPS traffic on port 443. <span class="badge badge-warning" data-toggle="tooltip" data-original-title="DoH contains metadata such as user-agent (which may include system information) to the DNS server"><a href="https://tools.ietf.org/html/rfc8484#section-8.2"><i class="fas fa-exclamation-triangle"></i></a></span></li>
     <li>DNSCrypt - An older yet robust method of encrypting DNS.</li>
   </ul>
 
