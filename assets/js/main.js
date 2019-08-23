@@ -1,3 +1,9 @@
+// Tooltips
+$(function () {
+   $("[data-toggle='tooltip']").tooltip();
+});
+
+
 //
 // Navbar dropdowns
 //
