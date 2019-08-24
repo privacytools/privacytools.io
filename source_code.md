@@ -285,13 +285,9 @@ OpenNic: https://github.com/opennic/ (mostly)
 
 Webpage: https://github.com/opennic/opennic-web
 
-Nebulo: https://git.frostnerd.com/PublicAndroidApps/smokescreen/
-
 ### Worth Mentioning
 
 - NoTrack: https://github.com/quidsup/notrack
-
-- Namecoin: https://github.com/namecoin
 
 - Pi-hole: https://github.com/pi-hole
 
@@ -307,9 +303,17 @@ PowerDNS: https://github.com/PowerDNS/pdns
 
 ### Worth Mentioning and Additional Information
 
+#### Mobile
+
 - DNSCloak: https://github.com/s-s/dnscloak
 
+- Nebulo: https://git.frostnerd.com/PublicAndroidApps/smokescreen/
+
+#### Local DNS servers
+
 - Stubby: https://github.com/getdnsapi/stubby
+
+- Namecoin: https://github.com/namecoin
 
 ## Digital Notebook
  Joplin: https://github.com/laurent22/joplin
