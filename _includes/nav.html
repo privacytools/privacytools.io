@@ -1,85 +1,115 @@
-<nav id="navbar" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-  <div class="container">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{% t aria.nav_toggle %}">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+<div class="fixed-top bg-dark">
+  <nav id="navbar">
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="/index.html"><i class="fas fa-home"></i> <span class="sr-only">{% t global.home %}</span></a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="/providers/" id="providerDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            {% t provider.provider %}
-          </a>
-          <div class="dropdown-menu" aria-labelledby="providerDropdown">
-            <a class="dropdown-item" href="/providers/#ukusa"><i class="fab fa-creative-commons-nc fa-fw"></i> {% t provider.us_uk %}</a>
-            <a class="dropdown-item" href="/providers/cloud-storage/"><i class="fas fa-cloud fa-fw"></i> {% t provider.cloud_storage %}</a>
-            <a class="dropdown-item" href="/providers/dns/"><i class="fa fa-tasks fa-fw"></i> {% t provider.dns %}</a>
-            <a class="dropdown-item" href="/providers/email/"><i class="fas fa-mail-bulk fa-fw"></i> {% t provider.email %}</a>
-            <a class="dropdown-item" href="/providers/hosting/"><i class="fas fa-database fa-fw"></i> {% t provider.hosting %}</a>
-            <a class="dropdown-item" href="/providers/paste/"><i class="fas fa-paste fa-fw"></i> {% t provider.pastebins %}</a>
-            <a class="dropdown-item" href="/providers/search-engines/"><i class="fab fa-searchengin fa-fw"></i> {% t provider.search_engines %}</a>
-            <a class="dropdown-item" href="/providers/social-networks/"><i class="fas fa-expand-arrows-alt fa-fw"></i> {% t provider.social_networks %}</a>
-            <a class="dropdown-item" href="/providers/social-news-aggregator/"><i class="far fa-newspaper fa-fw"></i> {% t provider.news_aggregators %}</a>
-            <a class="dropdown-item" href="/providers/vpn/"><i class="far fa-eye-slash fa-fw"></i> {% t provider.vpn %}</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="/browsers/" id="browserDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            {% t browser.browser %}
-          </a>
-          <div class="dropdown-menu" aria-labelledby="browserDropdown">
-            <a class="dropdown-item" href="/browsers/#browser"><i class="fas fa-check fa-fw"></i> {% t browser.recommendations %}</a>
-            <a class="dropdown-item" href="/browsers/#fingerprint"><i class="fas fa-fingerprint fa-fw"></i> {% t browser.fingerprint %}</a>
-            <a class="dropdown-item" href="/browsers/#webrtc"><i class="far fa-eye fa-fw"></i> {% t browser.webrtc_ip_leak %}</a>
-            <a class="dropdown-item" href="/browsers/#addons"><i class="far fa-list-alt fa-fw"></i> {% t browser.privacy_addons %}</a>
-            <a class="dropdown-item" href="/browsers/#about_config"><i class="fas fa-wrench fa-fw"></i> {% t browser.tweaks %}</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="/software/" id="softwareDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            {% t software.software %}
-          </a>
-          <div class="dropdown-menu" aria-labelledby="softwareDropdown">
-            <a class="dropdown-item" href="/software/calendar-contacts/"><i class="fas fa-calendar fa-fw"></i> {% t software.cal_card %}</a>
-            <a class="dropdown-item" href="/software/notebooks/"><i class="far fa-sticky-note fa-fw"></i> {% t software.notebook %}</a>
-            <a class="dropdown-item" href="/software/email/#messaging"><i class="fas fa-random fa-fw"></i> {% t software.email_alt %}</a>
-            <a class="dropdown-item" href="/software/email/"><i class="fas fa-envelope fa-fw"></i> {% t software.email_clients %}</a>
-            <a class="dropdown-item" href="/software/encryption-tools/"><i class="fas fa-lock fa-fw"></i> {% t software.file_encryption %}</a>
-            <a class="dropdown-item" href="/software/file-sharing/"><i class="fas fa-file-export fa-fw"></i> {% t software.file_sharing %}</a>
-            <a class="dropdown-item" href="/software/passwords/"><i class="fas fa-user-lock fa-fw"></i> {% t software.password_managers %}</a>
-            <a class="dropdown-item" href="/software/productivity/"><i class="fas fa-briefcase fa-fw"></i> {% t software.productivity %}</a>
-            <a class="dropdown-item" href="/software/real-time-communication/"><i class="fas fa-comments fa-fw"></i> {% t software.rtc %}</a>
-            <a class="dropdown-item" href="/software/file-sync/"><i class="fas fa-copy fa-fw"></i> {% t software.file_sync %}</a>
-            <a class="dropdown-item" href="/software/networks/"><i class="fas fa-user-secret fa-fw"></i> {% t software.networks %}</a>
-            <a class="dropdown-item" href="/software/cloud/"><i class="fas fa-hdd fa-fw"></i> {% t software.cloud %}</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="/operating-systems/" id="osDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            {% t os.os %}
-          </a>
-          <div class="dropdown-menu" aria-labelledby="osDropdown">
-            <a class="dropdown-item" href="/operating-systems/#os"><i class="fas fa-th-large fa-fw"></i> {% t os.pc_os %}</a>
-            <a class="dropdown-item" href="/operating-systems/#live_os"><i class="fas fa-compact-disc fa-fw"></i> {% t os.live_cd %}</a>
-            <a class="dropdown-item" href="/operating-systems/#mobile_os"><i class="fas fa-mobile-alt fa-fw"></i> {% t os.mobile %}</a>
-            <a class="dropdown-item" href="/operating-systems/#aaddons"><i class="fas fa-th fa-fw"></i> {% t os.android_addons %}</a>
-            <a class="dropdown-item" href="/operating-systems/#firmware"><i class="fas fa-signal fa-fw"></i> {% t os.router %}</a>
-            <a class="dropdown-item" href="/operating-systems/#win10"><i class="far fa-thumbs-down fa-fw"></i> {% t os.windows_10 %}</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/index.html#participate">{% t global.participate %}</a>
-        </li>
-      </ul>
-      <ul class="navbar-nav">
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="browserDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><i class="fas fa-language text-danger"></i>
-            {% t global.language %}
-          </a>
-          <div class="dropdown-menu" aria-labelledby="servicesDropdown">
+    <input type="checkbox" id="nav-toggle" checked />
+    <label for="nav-toggle" id="nav-toggle-label" class="fas fa-bars fa-lg"></label>
+    <a id="nav-home-mobile" class="nav-anchor" href="/index.html">
+      <img src="/assets/img/layout/logo_smaller.png" width="148px" height="22px" />
+    </a>
+
+    <div class="menu">
+
+      <div id="nav-left" class="position-relative flex-col">
+        <a class="nav-anchor" href="/index.html">
+          <span id="nav-home" class="fas fa-home"></span>
+        </a>
+
+        <!-- Provider -->
+        <details class="nav-details">
+          <summary>
+            <span class="nav-summary">
+              {% t provider.provider %}
+              <span class="dropdown-toggle"></span>
+            </span>
+          </summary>
+          <span class="nav-dropdown">
+            <a class="dropdown-item" href="/providers/#ukusa"><span class="fas fa-user-secret fa-fw"></span> {% t provider.us_uk %}</a>
+            <a class="dropdown-item" href="/providers/cloud-storage/"><span class="fas fa-cloud fa-fw"></span> {% t provider.cloud_storage %}</a>
+            <a class="dropdown-item" href="/providers/dns/"><span class="fa fa-tasks fa-fw"></span> {% t provider.dns %}</a>
+            <a class="dropdown-item" href="/providers/email/"><span class="fas fa-mail-bulk fa-fw"></span> {% t provider.email %}</a>
+            <a class="dropdown-item" href="/providers/hosting/"><span class="fas fa-database fa-fw"></span> {% t provider.hosting %}</a>
+            <a class="dropdown-item" href="/providers/paste/"><span class="fas fa-paste fa-fw"></span> {% t provider.pastebins %}</a>
+            <a class="dropdown-item" href="/providers/search-engines/"><span class="fas fa-search fa-fw"></span> {% t provider.search_engines %}</a>
+            <a class="dropdown-item" href="/providers/social-networks/"><span class="fas fa-expand-arrows-alt fa-fw"></span> {% t provider.social_networks %}</a>
+            <a class="dropdown-item" href="/providers/social-news-aggregator/"><span class="far fa-newspaper fa-fw"></span> {% t provider.news_aggregators %}</a>
+            <a class="dropdown-item" href="/providers/vpn/"><span class="far fa-eye-slash fa-fw"></span> {% t provider.vpn %}</a>
+          </span>
+        </details>
+
+        <!-- Browser -->
+        <details class="nav-details">
+          <summary>
+            <span class="nav-summary">
+              {% t browser.browser %}
+              <span class="dropdown-toggle"></span>
+            </span>
+          </summary>
+          <span class="nav-dropdown">
+            <a class="dropdown-item" href="/browsers/#browser"><span class="fas fa-check fa-fw"></span> {% t browser.recommendations %}</a>
+            <a class="dropdown-item" href="/browsers/#fingerprint"><span class="fas fa-fingerprint fa-fw"></span> {% t browser.fingerprint %}</a>
+            <a class="dropdown-item" href="/browsers/#webrtc"><span class="far fa-eye fa-fw"></span> {% t browser.webrtc_ip_leak %}</a>
+            <a class="dropdown-item" href="/browsers/#addons"><span class="far fa-list-alt fa-fw"></span> {% t browser.privacy_addons %}</a>
+            <a class="dropdown-item" href="/browsers/#about_config"><span class="fas fa-wrench fa-fw"></span> {% t browser.tweaks %}</a>
+          </span>
+        </details>
+
+        <!-- Software -->
+        <details class="nav-details">
+          <summary>
+            <span class="nav-summary">
+              {% t software.software %}
+              <span class="dropdown-toggle"></span>
+            </span>
+          </summary>
+          <span class="nav-dropdown">
+            <a class="dropdown-item" href="/software/calendar-contacts/"><span class="fas fa-calendar fa-fw"></span> {% t software.cal_card %}</a>
+            <a class="dropdown-item" href="/software/notebooks/"><span class="far fa-sticky-note fa-fw"></span> {% t software.notebook %}</a>
+            <a class="dropdown-item" href="/software/email/#messaging"><span class="fas fa-random fa-fw"></span> {% t software.email_alt %}</a>
+            <a class="dropdown-item" href="/software/email/"><span class="fas fa-envelope fa-fw"></span> {% t software.email_clients %}</a>
+            <a class="dropdown-item" href="/software/encryption-tools/"><span class="fas fa-lock fa-fw"></span> {% t software.file_encryption %}</a>
+            <a class="dropdown-item" href="/software/file-sharing/"><span class="fas fa-file-export fa-fw"></span> {% t software.file_sharing %}</a>
+            <a class="dropdown-item" href="/software/passwords/"><span class="fas fa-user-lock fa-fw"></span> {% t software.password_managers %}</a>
+            <a class="dropdown-item" href="/software/productivity/"><span class="fas fa-briefcase fa-fw"></span> {% t software.productivity %}</a>
+            <a class="dropdown-item" href="/software/real-time-communication/"><span class="fas fa-comments fa-fw"></span> {% t software.rtc %}</a>
+            <a class="dropdown-item" href="/software/file-sync/"><span class="fas fa-copy fa-fw"></span> {% t software.file_sync %}</a>
+            <a class="dropdown-item" href="/software/networks/"><span class="fas fa-user-secret fa-fw"></span> {% t software.networks %}</a>
+            <a class="dropdown-item" href="/software/cloud/"><span class="fas fa-hdd fa-fw"></span> {% t software.cloud %}</a>
+          </span>
+        </details>
+
+        <!-- OS -->
+        <details class="nav-details">
+          <summary>
+            <span class="nav-summary">
+              {% t os.os %}
+              <span class="dropdown-toggle"></span>
+            </span>
+          </summary>
+          <span class="nav-dropdown">
+            <a class="dropdown-item" href="/operating-systems/#os"><span class="fas fa-th-large fa-fw"></span> {% t os.pc_os %}</a>
+            <a class="dropdown-item" href="/operating-systems/#live_os"><span class="fas fa-compact-disc fa-fw"></span> {% t os.live_cd %}</a>
+            <a class="dropdown-item" href="/operating-systems/#mobile_os"><span class="fas fa-mobile-alt fa-fw"></span> {% t os.mobile %}</a>
+            <a class="dropdown-item" href="/operating-systems/#aaddons"><span class="fas fa-th fa-fw"></span> {% t os.android_addons %}</a>
+            <a class="dropdown-item" href="/operating-systems/#firmware"><span class="fas fa-signal fa-fw"></span> {% t os.router %}</a>
+            <a class="dropdown-item" href="/operating-systems/#win10"><span class="far fa-thumbs-down fa-fw"></span> {% t os.windows_10 %}</a>
+          </span>
+        </details>
+
+        <a class="nav-anchor" href="/index.html#participate">{% t global.participate %}</a>
+      </div>
+
+      <!-- Language -->
+      <div id="nav-right">
+        <details class="nav-details">
+          <summary>
+            <span class="nav-summary">
+              <span class="fas fa-language text-danger"></span>
+              {% t global.language %}
+              <span class="dropdown-toggle"></span>
+            </span>
+          </summary>
+          <span class="nav-dropdown">
+            <a href="https://privacytools.io/" class="dropdown-item">English</a>
             <a href="https://privacytools.twngo.xyz/" class="dropdown-item">繁體中文</a>
             <a href="https://victorhck.gitlab.io/privacytools-es/" class="dropdown-item">Español</a>
             <a href="https://pl.privacytools.io/" class="dropdown-item">Polski</a>
@@ -87,27 +117,33 @@
             <a href="https://privacytools.it-sec.rocks/" class="dropdown-item">Deutsch</a>
             <a href="https://privacytools-it.github.io/" class="dropdown-item">Italiano</a>
             <a href="https://privacytools.ru" class="dropdown-item">Русский</a>
-            <a href="https://privacytools.dreads-unlock.fr" class="dropdown-item">Français</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="/services/" id="browserDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            {% t service_descriptions.services %}
-          </a>
-          <div class="dropdown-menu" aria-labelledby="servicesDropdown">
-            <a class="dropdown-item" href="https://forum.privacytools.io/"><i class="fab fa-discourse fa-fw"></i> Discourse - {% t service_descriptions.discourse %}</a>
-            <a class="dropdown-item" href="https://git.privacytools.io/"><i class="fab fa-git fa-fw"></i> Gitea - {% t service_descriptions.gitea %}</a>
-            <a class="dropdown-item" href="https://social.privacytools.io/"><i class="fas fa-retweet fa-fw"></i> Mastodon - {% t service_descriptions.mastodon %}</a>
-            <a class="dropdown-item" href="https://chat.privacytools.io/"><i class="fas fa-comment fa-fw"></i> Matrix - {% t service_descriptions.matrix %}</a>
-            <a class="dropdown-item" href="https://bin.privacytools.io/"><i class="fas fa-clipboard fa-fw"></i> PrivateBin - {% t service_descriptions.privatebin %}</a>
-            <a class="dropdown-item" href="https://search.privacytools.io/"><i class="fas fa-search fa-fw"></i> Searx - {% t service_descriptions.searx %}</a>
-            <a class="dropdown-item" href="https://write.privacytools.io/"><i class="fas fa-pen-alt fa-fw"></i> Write Freely - {% t service_descriptions.writefreely %}</a>
-          </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/donate/">{% t resources.donate %} <i class="fas fa-heart text-danger"></i></a>
-        </li>
-      </ul>
+          </span>
+        </details>
+
+        <!-- Services -->
+        <details class="nav-details">
+          <summary>
+            <span class="nav-summary">
+              Services
+              <span class="dropdown-toggle"></span>
+            </span>
+          </summary>
+          <span class="nav-dropdown">
+            <a class="dropdown-item" href="https://forum.privacytools.io/"><span class="fab fa-discourse fa-fw"></span> Discourse - {% t service_descriptions.discourse %}</a>
+            <a class="dropdown-item" href="https://git.privacytools.io/"><span class="fab fa-git fa-fw"></span> Gitea - {% t service_descriptions.gitea %}</a>
+            <a class="dropdown-item" href="https://social.privacytools.io/"><span class="fas fa-retweet fa-fw"></span> Mastodon - {% t service_descriptions.mastodon %}</a>
+            <a class="dropdown-item" href="https://chat.privacytools.io/"><span class="fas fa-comment fa-fw"></span> Matrix - {% t service_descriptions.matrix %}</a>
+            <a class="dropdown-item" href="https://bin.privacytools.io/"><span class="fas fa-clipboard fa-fw"></span> PrivateBin - {% t service_descriptions.privatebin %}</a>
+            <a class="dropdown-item" href="https://search.privacytools.io/"><span class="fas fa-search fa-fw"></span> Searx - {% t service_descriptions.searx %}</a>
+            <a class="dropdown-item" href="https://write.privacytools.io/"><span class="fas fa-pen-alt fa-fw"></span> Write Freely - {% t service_descriptions.writefreely %}</a>
+          </span>
+        </details>
+
+        <a href="https://blog.privacytools.io/" class="nav-anchor">{% t service_descriptions.blog %} </a>
+        <a href="/donate/" class="nav-anchor">
+          {% t resources.donate %} <span class="fas fa-heart text-danger"></span>
+        </a>
+      </div>
     </div>
-  </div>
-</nav>
+  </nav>
+</div>

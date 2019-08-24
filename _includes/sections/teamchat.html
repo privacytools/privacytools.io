@@ -1,13 +1,14 @@
-<h1 id="teamchat" class="anchor"><a href="#teamchat"><i class="fas fa-link anchor-icon"></i></a> Team Chat Applications</h1>
+<h1 id="teamchat" class="anchor"><a href="#teamchat"><i class="fas fa-link anchor-icon"></i></a> Team Chat Platforms</h1>
 
 <div class="alert alert-warning" role="alert">
-        <strong>If your project or organization currently uses a team chat like <a href="https://web.archive.org/web/20171029114027/https://feedback.discordapp.com/forums/326712-discord-dream-land/suggestions/17094256-implement-whispersystems-encryption-for-voice-and">Discord</a> or <a href="https://drewdevault.com/2015/11/01/Please-stop-using-slack.html">Slack</a> you should pick an alternative here.</strong>
+        <strong>If your project or organization currently uses a platform like <a href="https://web.archive.org/web/20171029114027/https://feedback.discordapp.com/forums/326712-discord-dream-land/suggestions/17094256-implement-whispersystems-encryption-for-voice-and">Discord</a> or <a href="https://drewdevault.com/2015/11/01/Please-stop-using-slack.html">Slack</a> you should pick an alternative here.</strong>
 </div>
 
 {% include cardv2.html
 title="Rocket.chat"
 image="/assets/img/tools/rocket.chat.png"
-description="Rocket.chat is an self-hostable open source platform for team communication. It has optional federation and experimental E2EE. <a href=\"https://rocket.chat/docs/user-guides/end-to-end-encryption/\"><span class=\"badge badge-warning\" data-toggle=\"tooltip\" title=\"The documentation says this of E2EE: 'Note: This feature is currently in alpha. It's also not yet supported on mobile'. There is no forward secrecy so compromised decryption password would leak all messages. The federation was also added afterwards potentially causing room for mistakes.'\">Experimental <i class=\"far fa-question-circle\"></i></a></span>"
+description="Rocket.chat is an self-hostable open source platform for team communication. It has optional federation and experimental E2EE."
+labels="warning:<a href=//rocket.chat/docs/user-guides/end-to-end-encryption/>Experimental</a>:Regarding E2EE their documentation states 'This feature is currently in alpha. It's also not yet supported on mobile'. There is no forward secrecy so compromised decryption password would leak all messages. The federation was also added afterwards potentially causing room for mistakes."
 website="https://rocket.chat/"
 forum="https://forum.privacytools.io/t/discussion-rocket-chat/1223"
 github="https://github.com/rocketchat/"
@@ -21,7 +22,8 @@ linux=""
 {% include cardv2.html
 title="Keybase"
 image="/assets/img/tools/keybase.png"
-description='Keybase provides a hosted team chat with end-to-end encryption. It has also been <a href="https://keybase.io/docs-assets/blog/NCC_Group_Keybase_KB2018_Public_Report_2019-02-27_v1.3.pdf">indepedently audited (PDF)</a>. <span class="badge badge-warning" data-toggle="tooltip" title="The server side of Keybase runs on proprietary code and is centralized">experimental <i class="far fa-question-circle"></i> (<a href="https://github.com/keybase/client/issues/6374">GitHub issue</a>)</span>'
+description='Keybase provides a hosted team chat with end-to-end encryption. It has also been <a href="https://keybase.io/docs-assets/blog/NCC_Group_Keybase_KB2018_Public_Report_2019-02-27_v1.3.pdf">indepedently audited (PDF)</a>.'
+labels="warning:<a href=//github.com/keybase/client/issues/6374>Warning</a>:The server side of Keybase runs on proprietary code and is centralized."
 website="https://keybase.io/"
 forum="https://forum.privacytools.io/t/discussion-keybase/1224"
 github="https://github.com/Keybase"
@@ -37,5 +39,5 @@ web=""
 <h3>Worth Mentioning</h3>
 
 <ul>
-  <li><a href="https://wire.com/en/products/pro-secure-team-collaboration/">Wire Pro</a> - Paid team communication with E2EE. <span class="badge badge-warning" data-toggle="tooltip" title="While the free edition of Wire is a recommended platform, we have not tested the Pro edition.">Untested<i class="far fa-question-circle"></i></span></li>
+  <li><a href="https://wire.com/en/products/pro-secure-team-collaboration/">Wire Pro</a> - Paid team communication with E2EE. <span class="badge badge-warning" data-toggle="tooltip" title="While the free edition of Wire is a recommended platform, we have not tested the Pro edition.">Untested <i class="far fa-question-circle"></i></span></li>
 </ul>

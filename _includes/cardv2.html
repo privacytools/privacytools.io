@@ -2,88 +2,254 @@
   <div class="card-header text-white bg-secondary">
     <h3 class="h5">
       {% if include.badges %}
-      <span class="mr-2">{{include.title}}</span>
-      {% assign badges = include.badges | replace:", ", "," | split:"," %}
-          {% for badge in badges %}
-              {% assign badge_data = badge | split:":" %}
-              {% assign color = badge_data[0] %}
-              {% assign text = badge_data[1] %}
-              {% assign tooltip = badge_data[2] | default: false %}
-              {% assign help_icon = '<i class="far fa-question-circle"></i>' %}
-              <span class="badge badge-{{color}}" {% if tooltip %} data-toggle="tooltip" title="{{ tooltip }}">{{text}} {{ help_icon
-                  }}
-                  {% else %}
-                  >{{text}}
-                  {% endif %}
-              </span>
-          {% endfor %}
+      <span class="mr-2">{{ include.title }}</span>
+      {% assign badges = include.badges | split:"|" %}
+        {% for badge in badges %}
+          {% assign badge_data = badge | split:":" %}
+          {% assign color = badge_data[0] %}
+          {% assign text = badge_data[1] %}
+          {% assign tooltip = badge_data[2] | default: false %}
+          {% assign help_icon = '<i class="far fa-question-circle"></i>' %}
+          <span
+            class="badge badge-{{color}}"
+            {% if tooltip %}
+              data-toggle="tooltip"
+              title="{{ tooltip }}"
+              > {{text}} {{ help_icon }}
+            {% else %}
+              > {{text}}
+            {% endif %}
+          </span>
+        {% endfor %}
       {% else %}
-      {{include.title}}
+        {{ include.title }}
       {% endif %}
     </h3>
   </div>
   <div class="card-body">
     <p class="card-text">
-      <img src="{{include.image}}" height="120" width="120" class="panel-pic" alt="{{include.title}}">
-      {{include.description}}
+      <img
+        src="{{include.image}}"
+        height="120"
+        width="120"
+        class="panel-pic"
+        alt="{{include.title}}"
+      >
+      {{ include.description }}
       {% if include.labels %}
-      {% assign labels = include.labels | replace:", ", "," | split:"," %}
-          {% for label in labels %}
-              {% assign label_data = label | split:":" %}
-              {% assign color = label_data[0] %}
-              {% assign text = label_data[1] %}
-              {% assign tooltip = label_data[2] | default: false %}
-              {% assign help_icon = '<i class="far fa-question-circle"></i>' %}
-              <span class="badge badge-{{color}}" {% if tooltip %} data-toggle="tooltip" title="{{ tooltip }}">{{text}} {{ help_icon
-                  }}
-                  {% else %}
-                  >{{text}}
-                  {% endif %}
-              </span>
-          {% endfor %}
+      {% assign labels = include.labels | split:"|" %}
+        {% for label in labels %}
+          {% assign label_data = label | split:":" %}
+          {% assign color = label_data[0] %}
+          {% assign text = label_data[1] %}
+          {% assign tooltip = label_data[2] | default: false %}
+          {% assign help_icon = '<i class="far fa-question-circle"></i>' %}
+          <span
+            class="badge badge-{{color}}"
+            {% if tooltip %}
+              data-toggle="tooltip"
+              title="{{ tooltip }}"
+              > {{text}} {{ help_icon }}
+            {% else %}
+              > {{text}}
+            {% endif %}
+          </span>
+        {% endfor %}
       {% endif %}
     </p>
     <div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
       <div class="flex-shrink-0 mr-2">
-        <a href="{{include.website}}" class="btn btn-primary mt-1"><i class="fas fa-external-link-alt fa-fw"></i> Website</a>
+        <a
+          href="{{include.website}}"
+          class="btn btn-primary mt-1">
+          <i class="fas fa-external-link-alt fa-fw"></i>
+          Website
+        </a>
         {% if include.forum %}
-        <a href="{{include.forum}}" class="btn btn-success mt-1"><i class="fab fa-discourse fa-fw"></i> Forum</a>
+          <a
+            href="{{include.forum}}"
+            class="btn btn-success mt-1">
+            <i class="fab fa-discourse fa-fw"></i>
+            Forum
+          </a>
         {% endif %}
         {% if include.tor %}
-        <a data-toggle="tooltip" data-placement="bottom" data-original-title="Requires specific software to access: torproject.org" href="{{include.tor}}"><img class="mt-2" alt="Tor" src="/assets/img/layout/tor.png" width="35" height="35"></a>
+          <a
+            data-toggle="tooltip"
+            data-placement="bottom"
+            data-original-title="Requires specific software to access: torproject.org"
+            href="{{include.tor}}">
+            <img
+              class="mt-2"
+              alt="Tor"
+              src="/assets/img/layout/tor.png"
+              width="35"
+              height="35">
+          </a>
         {% endif %}
       </div>
 
       <div class="mt-2">
-          {% if include.windows %}{% if include.windows != "" %}<a href="{{ include.windows }}"><i class="fab fa-windows fa-2x fa-fw d-inline pr-1"></i></a>{% else %}<i class="fab fa-windows fa-2x fa-fw d-inline pr-1"></i>{% endif %}{% endif %}
-          {% if include.mac %}{% if include.mac != "" %}<a href="{{ include.mac }}"><i class="fab fa-apple fa-2x fa-fw d-inline pr-1"></i></a>{% else %}<i class="fab fa-apple fa-2x fa-fw d-inline pr-1"></i>{% endif %}{% endif %}
-          {% if include.linux %}{% if include.linux != "" %}<a href="{{ include.linux }}"><i class="fab fa-linux fa-2x fa-fw d-inline pr-1"></i></a>{% else %}<i class="fab fa-linux fa-2x fa-fw d-inline pr-1"></i>{% endif %}{% endif %}
-          {% if include.bsd %}{% if include.bsd != "" %}<a href="{{ include.bsd }}"><i class="fab fa-freebsd fa-2x fa-fw d-inline pr-1"></i></a>{% else %}<i class="fab fa-freebsd fa-2x fa-fw d-inline pr-1"></i>{% endif %}{% endif %}
+          {% if include.windows %}
+            {% if include.windows != "" %}
+              <a href="{{ include.windows }}">
+                <i class="fab fa-windows fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            {% else %}
+              <i class="fab fa-windows fa-2x fa-fw d-inline pr-1"></i>
+            {% endif %}
+          {% endif %}
 
-          {% if include.firefox %}{% if include.firefox != "" %}<a href="{{ include.firefox }}"><i class="fab fa-firefox fa-2x fa-fw d-inline pr-1"></i></a>{% else %}<i class="fab fa-firefox fa-2x fa-fw d-inline pr-1"></i>{% endif %}{% endif %}
-          {% if include.chrome %}{% if include.chrome != "" %}<a href="{{ include.chrome }}"><i class="fab fa-chrome fa-2x fa-fw d-inline pr-1"></i></a>{% else %}<i class="fab fa-chrome fa-2x fa-fw d-inline pr-1"></i>{% endif %}{% endif %}
-          {% if include.safari %}{% if include.safari != "" %}<a href="{{ include.safari }}"><i class="fab fa-safari fa-2x fa-fw d-inline pr-1"></i></a>{% else %}<i class="fab fa-safari fa-2x fa-fw d-inline pr-1"></i>{% endif %}{% endif %}
-          {% if include.opera %}{% if include.opera != "" %}<a href="{{ include.opera }}"><i class="fab fa-opera fa-2x fa-fw d-inline pr-1"></i></a>{% else %}<i class="fab fa-opera fa-2x fa-fw d-inline pr-1"></i>{% endif %}{% endif %}
-          {% if include.edge %}{% if include.edge != "" %}<a href="{{ include.edge }}"><i class="fab fa-edge fa-2x fa-fw d-inline pr-1"></i></a>{% else %}<i class="fab fa-edge fa-2x fa-fw d-inline pr-1"></i>{% endif %}{% endif %}
+          {% if include.mac %}
+            {% if include.mac != "" %}
+              <a href="{{ include.mac }}">
+                <i class="fab fa-apple fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            {% else %}
+              <i class="fab fa-apple fa-2x fa-fw d-inline pr-1"></i>
+            {% endif %}
+          {% endif %}
 
-          {% if include.android %}{% if include.android != "" %}<a href="{{ include.android }}"><i class="fab fa-android fa-2x fa-fw d-inline pr-1"></i></a>{% else %}<i class="fab fa-android fa-2x fa-fw d-inline pr-1"></i>{% endif %}{% endif %}
-          {% if include.ios %}{% if include.ios != "" %}<a href="{{ include.ios }}"><i class="fab fa-app-store-ios fa-2x fa-fw d-inline pr-1"></i></a>{% else %}<i class="fab fa-app-store-ios fa-2x fa-fw d-inline pr-1"></i>{% endif %}{% endif %}
-          {% if include.fire %}{% if include.fire != "" %}<a href="{{ include.fire }}"><i class="fas fa-fire fa-2x fa-fw d-inline pr-1"></i></a>{% else %}<i class="fas fa-fire fa-2x fa-fw d-inline pr-1"></i>{% endif %}{% endif %}
+          {% if include.linux %}
+            {% if include.linux != "" %}
+              <a href="{{ include.linux }}">
+                <i class="fab fa-linux fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            {% else %}
+              <i class="fab fa-linux fa-2x fa-fw d-inline pr-1"></i>
+            {% endif %}
+          {% endif %}
 
-          {% if include.web %}{% if include.web != "" %}<a href="{{ include.web }}"><i class="fas fa-desktop fa-2x fa-fw d-inline pr-1"></i></a>{% else %}<i class="fas fa-desktop fa-2x fa-fw d-inline pr-1"></i>{% endif %}{% endif %}
+          {% if include.bsd %}
+            {% if include.bsd != "" %}
+              <a href="{{ include.bsd }}">
+                <i class="fab fa-freebsd fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            {% else %}
+              <i class="fab fa-freebsd fa-2x fa-fw d-inline pr-1"></i>
+            {% endif %}
+          {% endif %}
+
+          {% if include.firefox %}
+            {% if include.firefox != "" %}
+              <a href="{{ include.firefox }}">
+                <i class="fab fa-firefox fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            {% else %}
+              <i class="fab fa-firefox fa-2x fa-fw d-inline pr-1"></i>
+            {% endif %}
+          {% endif %}
+
+          {% if include.chrome %}
+            {% if include.chrome != "" %}
+              <a href="{{ include.chrome }}">
+                <i class="fab fa-chrome fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            {% else %}
+              <i class="fab fa-chrome fa-2x fa-fw d-inline pr-1"></i>
+            {% endif %}
+          {% endif %}
+
+          {% if include.safari %}
+            {% if include.safari != "" %}
+              <a href="{{ include.safari }}">
+                <i class="fab fa-safari fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            {% else %}
+              <i class="fab fa-safari fa-2x fa-fw d-inline pr-1"></i>
+            {% endif %}
+          {% endif %}
+
+          {% if include.opera %}
+            {% if include.opera != "" %}
+              <a href="{{ include.opera }}">
+                <i class="fab fa-opera fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            {% else %}
+              <i class="fab fa-opera fa-2x fa-fw d-inline pr-1"></i>
+            {% endif %}
+          {% endif %}
+
+          {% if include.edge %}
+            {% if include.edge != "" %}
+              <a href="{{ include.edge }}">
+                <i class="fab fa-edge fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            {% else %}
+              <i class="fab fa-edge fa-2x fa-fw d-inline pr-1"></i>
+            {% endif %}
+          {% endif %}
+
+          {% if include.android %}
+            {% if include.android != "" %}
+              <a href="{{ include.android }}">
+                <i class="fab fa-android fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            {% else %}
+              <i class="fab fa-android fa-2x fa-fw d-inline pr-1"></i>
+            {% endif %}
+          {% endif %}
+
+          {% if include.ios %}
+            {% if include.ios != "" %}
+              <a href="{{ include.ios }}">
+                <i class="fab fa-app-store-ios fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            {% else %}
+              <i class="fab fa-app-store-ios fa-2x fa-fw d-inline pr-1"></i>
+            {% endif %}
+          {% endif %}
+
+          {% if include.fire %}
+            {% if include.fire != "" %}
+              <a href="{{ include.fire }}">
+                <i class="fas fa-fire fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            {% else %}
+              <i class="fas fa-fire fa-2x fa-fw d-inline pr-1"></i>
+            {% endif %}
+          {% endif %}
+
+          {% if include.web %}
+            {% if include.web != "" %}
+              <a href="{{ include.web }}">
+                <i class="fas fa-desktop fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            {% else %}
+              <i class="fas fa-desktop fa-2x fa-fw d-inline pr-1"></i>
+            {% endif %}
+          {% endif %}
 
           {{include.icon1}}
           {{include.icon2}}
           {{include.icon3}}
 
-          {% if include.github %}<a href="{{include.github}}"><i class="fab fa-github fa-2x fa-fw d-inline"></i></a>{% endif %}
-          {% if include.gitlab %}<a href="{{include.gitlab}}"><i class="fab fa-gitlab fa-2x fa-fw d-inline"></i></a>{% endif %}
-          {% if include.git %}<a href="{{include.git}}"><i class="fab fa-git-square fa-2x fa-fw d-inline"></i></a>{% endif %}
-          {% if include.source %}<a href="{{include.source}}"><i class="fas fa-code-branch fa-2x fa-fw d-inline"></i></a>{% endif %}
+          {% if include.github %}
+            <a href="{{include.github}}">
+              <i class="fab fa-github fa-2x fa-fw d-inline"></i>
+            </a>
+          {% endif %}
+
+          {% if include.gitlab %}
+            <a href="{{include.gitlab}}">
+              <i class="fab fa-gitlab fa-2x fa-fw d-inline"></i>
+            </a>
+          {% endif %}
+
+          {% if include.git %}
+            <a href="{{include.git}}">
+              <i class="fab fa-git-square fa-2x fa-fw d-inline"></i>
+            </a>
+          {% endif %}
+
+          {% if include.source %}
+            <a href="{{include.source}}">
+              <i class="fas fa-code-branch fa-2x fa-fw d-inline"></i>
+            </a>
+          {% endif %}
 
       </div>
     </div>
-
   </div>
 </div>
 <br>

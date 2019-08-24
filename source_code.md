@@ -13,8 +13,6 @@ https://github.com/privacytoolsIO/
 
  Firefox: https://hg.mozilla.org/
 
- Brave: https://github.com/brave/
-
 ## Excellent Firefox Privacy Add-ons
 
  Privacy Badger: https://github.com/EFForg/privacybadger
@@ -134,26 +132,24 @@ Backend: closed-source
 
  Status.im: https://github.com/status-im
 
+ Tox: https://github.com/TokTok/c-toxcore
+
+ Ring/Jami: https://git.jami.net/savoirfairelinux
+
 ## Team chat
 
  Rocket.chat: https://github.com/rocketchat/
  
  Keybase: https://github.com/Keybase
 
-## Encrypted Video & Voice Messenger
- Signal: https://github.com/signalapp
-
- Wire: https://github.com/wireapp
-
+## Video & Voice Messenger
  Linphone: https://github.com/BelledonneCommunications/
+
+ Mumble: https://github.com/mumble-voip/
 
    Worth Mentioning
 
- Jitsi: https://github.com/jitsi/jitsi-meet
-
- Tox: https://github.com/TokTok/c-toxcore
-
- Ring/Jami: https://gerrit-ring.savoirfairelinux.com/#/q/status:open
+ Jitsi Meet: https://github.com/jitsi/jitsi-meet
 
  ## File Sharing
   OnionShare: https://github.com/micahflee/onionshare
@@ -189,19 +185,20 @@ Backend: closed-source
     git-annex: http://source.git-annex.branchable.com/?p=source.git;a=summary
 
 ## Password Manager Software
- Bitwarden: https://github.com/bitwarden
 
- KeePass: https://keepass.info/download.html
+Bitwarden: https://github.com/bitwarden
 
- KeePassXC: https://github.com/keepassxreboot
+KeePassXC: https://github.com/keepassxreboot
 
- LessPass: https://github.com/lesspass/lesspass
+LessPass: https://github.com/lesspass/lesspass
 
-   Worth Mentioning
-.
-    Master Password: https://gitlab.com/lhunath/MasterPassword
-.
-    Password Safe: hhttps://sourceforge.net/p/passwordsafe/git-code/ci/master/tree/
+Worth Mentioning
+
+- Master Password: https://gitlab.com/lhunath/MasterPassword
+
+- Psono: https://github.com/psono
+
+- Password Safe: https://sourceforge.net/projects/passwordsafe/files/
 
 ## Calendar and Contacts Sync
   Nextcloud: https://github.com/nextcloud
@@ -215,23 +212,22 @@ Backend: closed-source
     Flock: https://github.com/signalapp/Flock
 
 ## File Encryption Software
- VeraCrypt: https://www.veracrypt.fr/en/Source%20Code.html
 
- GNU Privacy Guard: https://github.com/gpg/gnupg
+VeraCrypt: https://www.veracrypt.fr/en/Source%20Code.html
 
- PeaZip: https://github.com/giorgiotani/PeaZip/
+GNU Privacy Guard: https://github.com/gpg/gnupg
 
- Cryptomator: https://github.com/cryptomator/cryptomator
+PeaZip: https://github.com/giorgiotani/PeaZip/
 
-  Worth Mentioning:
 
-   miniLock: https://github.com/kaepora/miniLock
+Worth Mentioning:
+- Cryptomator: https://github.com/cryptomator/cryptomator
 
-   AES Crypt: https://github.com/marcobellaccini/pyAesCrypt
+- DiskCryptor: https://github.com/smartinm/diskcryptor
 
-   DiskCryptor: https://github.com/smartinm/diskcryptor
+- Linux Unified Key Setup (LUKS): https://gitlab.com/cryptsetup/cryptsetup/
 
-   Linux Unified Key Setup (LUKS): https://gitlab.com/cryptsetup/cryptsetup/
+- Hat.sh: https://github.com/sh-dv/hat.sh
 
 ## Self-contained Networks
  TorBrowser: https://gitweb.torproject.org/tor.git
@@ -293,8 +289,6 @@ Webpage: https://github.com/opennic/opennic-web
 
 - NoTrack: https://github.com/quidsup/notrack
 
-- Namecoin: https://github.com/namecoin
-
 - Pi-hole: https://github.com/pi-hole
 
 ## Encrypted ICANN DNS Providers
@@ -309,9 +303,17 @@ PowerDNS: https://github.com/PowerDNS/pdns
 
 ### Worth Mentioning and Additional Information
 
+#### Mobile
+
 - DNSCloak: https://github.com/s-s/dnscloak
 
+- Nebulo: https://git.frostnerd.com/PublicAndroidApps/smokescreen/
+
+#### Local DNS servers
+
 - Stubby: https://github.com/getdnsapi/stubby
+
+- Namecoin: https://github.com/namecoin
 
 ## Digital Notebook
  Joplin: https://github.com/laurent22/joplin
