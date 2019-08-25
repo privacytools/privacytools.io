@@ -311,9 +311,11 @@ PowerDNS: https://github.com/PowerDNS/pdns
 
 #### Local DNS servers
 
+- Namecoin: https://github.com/namecoin
+
 - Stubby: https://github.com/getdnsapi/stubby
 
-- Namecoin: https://github.com/namecoin
+- Unbound: https://github.com/NLnetLabs/unbound
 
 ## Digital Notebook
  Joplin: https://github.com/laurent22/joplin
