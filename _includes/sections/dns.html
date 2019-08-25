@@ -308,7 +308,7 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
       <ul>
         <li><em>Firefox</em> comes with built-in DoH support with Cloudflare set as the default resolver, but can be configured to use any DoH resolver. <span class="badge badge-warning" data-toggle="tooltip" data-placement="bottom" data-original-title='"Cloudflare has agreed to collect only a limited amount of data about the DNS requests that are sent to the Cloudflare Resolver for Firefox via the Firefox browser."'><a href="https://developers.cloudflare.com/1.1.1.1/commitment-to-privacy/privacy-policy/firefox/"><i class="fas fa-exclamation-triangle"></i></a></span> Currently Mozilla is <a href="https://blog.mozilla.org/futurereleases/2019/07/31/dns-over-https-doh-update-detecting-managed-networks-and-user-choice/">conducting studies</a> before enabling DoH by default for all US-based Firefox users.</li>
             <ul>
-                <li>DNS-over-HTTPS can be enabled in Menu -> Settings -> Network Settings -> Settings -> [x] enable DNS over HTTPS, use provider: custom, and enter the address you find from the documentation of your DoH provider.</li>
+                <li>DNS over HTTPS can be enabled in Menu -> Preferences (<code>about:preferences</code>) -> Network Settings -> Enable DNS over HTTPS. Set "Use Provider" to "Custom," and enter your DoH provider's address.</li>
                 <li>Advanced users may enable it in <code>about:config</code> by setting <code>network.trr.custom_uri</code> and <code>network.trr.uri</code> as the address you find from the documentation of your DoH provider and <code>network.trr.mode</code> as <code>2</code>. It may also be desirable to set <code>network.esni.enabled</code> to <code>True</code> in order to enable encrypted SNI and make sites supporting ESNI a bit more difficult to track.</li>
             </ul>
       </ul>
@@ -338,8 +338,8 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
             <ul>
                 <li><a href="https://wiki.mozilla.org/Trusted_Recursive_Resolver">Trusted Recursive Resolver (DoH) on MozillaWiki</a></li>
                 <li><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1500289">Firefox bug report requesting the ability to use ESNI without DoH</a></li>
-                <li><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1542754">Firefox bug report requesting the ability to use Android 9+'s Private DNS directly without having to enable DoH</a></li>
-                <li><a href="https://blog.mozilla.org/security/2018/10/18/encrypted-sni-comes-to-firefox-nightly/">Encrypt it or lose it: how encrypted SNI works on Cloudflare blog</a></li>
+                <li><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1542754">Firefox bug report requesting the ability to use Android 9+'s Private DNS (DoT) and benefit from encrypted SNI without having to enable DoH</a></li>
+                <li><a href="https://blog.cloudflare.com/encrypted-sni/">Encrypt it or lose it: how encrypted SNI works on Cloudflare blog</a></li>
             </ul>
         <li><a href="https://www.isc.org/blogs/qname-minimization-and-privacy/">QNAME Minimization and Your Privacy</a> by the Internet Systems Consortium (ISC)</li>
         <li><a href="https://www.isc.org/dnssec/">DNSSEC and BIND 9</a> by the ISC</li>
