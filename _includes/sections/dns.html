@@ -425,7 +425,7 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
     <li>dnscrypt-proxy - Check <a href="https://github.com/jedisct1/dnscrypt-proxy/wiki/Checking">dnscrypt-proxy's wiki on how to verify that your DNS is encrypted</a>.
     </li>
     <li>DNSSEC - Check <a href="https://dnssec.vs.uni-due.de/">DNSSEC Resolver Test by Matthäus Wander</a>.</li>
-    <li>QNAME Minimization - Run <code><a href="https://en.wikipedia.org/wiki/Dig_(command)">dig</a> +short txt qnamemintest.internet.nl</code> from the command-line (taken from <a href="https://nlnetlabs.nl/downloads/presentations/unbound_qnamemin_oarc24.pdf">this NLnet Labs presentation</a>). You should see this display: <code>"HOORAY - QNAME minimisation is enabled on your resolver :)!"</code></li>
+    <li>QNAME Minimization - Run <code><a href="https://en.wikipedia.org/wiki/Dig_(command)">dig</a> +short txt qnamemintest.internet.nl</code> from the command-line (taken from <a href="https://nlnetlabs.nl/downloads/presentations/unbound_qnamemin_oarc24.pdf">this NLnet Labs presentation</a>). If you are on Windows 10, run <code><a href="https://docs.microsoft.com/en-us/powershell/module/dnsclient/resolve-dnsname?view=win10-ps">Resolve-DnsName</a> -Type TXT -Name qnamemintest.internet.nl</code> from the PowerShell. You should see this display: <code>"HOORAY - QNAME minimisation is enabled on your resolver :)!"</code></li>
   </ul>
 
   <h3>Worth Mentioning and Additional Information</h3>
