@@ -39,6 +39,7 @@ tor="http://sejnfjrq6szgca7v.onion"
 
 <ul>
   <li><a href="#win10"><i class="fas fa-link"></i> Don't use Windows 10 - It's a privacy nightmare</a></li>
+  <li>Linux users check for CPU vulnerabilities, <code>tail -n +1 /sys/devices/system/cpu/vulnerabilities/*</code>. Vulnerable SMT can be disabled either in the UEFI BIOS or in kernel level by <code>sudo mkdir /etc/default/grub.d/ && echo GRUB_CMDLINE_LINUX_DEFAULT="$GRUB_CMDLINE_LINUX_DEFAULT mds=full,nosmt" | sudo tee /etc/default/grub.d/mds.conf && sudo update-grub</code></li>
 </ul>
 
 <h3>Worth Mentioning</h3>
