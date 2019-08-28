@@ -53,11 +53,11 @@ tor="http://sejnfjrq6szgca7v.onion"
 <p>The following steps can be took to enable the full mitigation assuming your system/distribution uses grub and supports <code>/etc/default/grub.d/</code>:</p>
 
 <ol>
-  <li><code>sudo mkdir /etc/default/grub.d/</code> to create a directory for additional grub configuration
+  <li><code>sudo mkdir /etc/default/grub.d/</code> to create a directory for additional grub configuration</li>
   <li><code>echo GRUB_CMDLINE_LINUX_DEFAULT="$GRUB_CMDLINE_LINUX_DEFAULT mds=full,nosmt" | sudo tee /etc/default/grub.d/mds.conf</code> to create a new grub config file source with the echoed content</li>
-  <li><code>sudo grub-mkconfig -o /boot/grub/grub.cfg</code> (or on Debian/Ubuntu based distributions <code>sudo update-grub</code> to generate a new config file including this new kernel flag
-  <li><code>sudo reboot</code> to reboot
-  <li>afterward the reboot check <code>tail -n +1 /sys/devices/system/cpu/vulnerabilities/*</code> again to see that MDS now says SMT disabled.
+  <li><code>sudo grub-mkconfig -o /boot/grub/grub.cfg</code> to generate a new config file including this new kernel flag</li>
+  <li><code>sudo reboot</code> to reboot</li>
+  <li>afterward the reboot check <code>tail -n +1 /sys/devices/system/cpu/vulnerabilities/*</code> again to see that MDS now says SMT disabled.</li>
 </ol>
 
 <h5>Further reading</h5>
