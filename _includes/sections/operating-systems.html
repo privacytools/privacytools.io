@@ -39,7 +39,34 @@ tor="http://sejnfjrq6szgca7v.onion"
 
 <ul>
   <li><a href="#win10"><i class="fas fa-link"></i> Don't use Windows 10 - It's a privacy nightmare</a></li>
-  <li>Linux users check for CPU vulnerabilities, <code>tail -n +1 /sys/devices/system/cpu/vulnerabilities/*</code>. Vulnerable SMT can be disabled either in the UEFI BIOS or in kernel level by <code>sudo mkdir /etc/default/grub.d/ && echo GRUB_CMDLINE_LINUX_DEFAULT="$GRUB_CMDLINE_LINUX_DEFAULT mds=full,nosmt" | sudo tee /etc/default/grub.d/mds.conf && sudo update-grub</code></li>
+  <li>Disable multithreading to mitigate <a href="https://mdsattacks.com/">RIDL and Fallout: MDS attacks on mdsattacks.com</a>. See also the next topic</li>
+</ul>
+
+<h4 id=linuxcpuvulns>Remember to check CPU vulnerability mitigations on Linux</h4>
+
+<p><em>This also affects Windows 10, but it doesn't expose this information or mitigation instructions as easily.</em></p>
+
+<p>When running a enough recent kernel, you can check the CPU vulnerabilities it detects by <code>tail -n +1 /sys/devices/system/cpu/vulnerabilities/*</code>. By using <code>tail -n +1</code> instead of <code>cat</code> the file names are also visible.</p>
+
+<p>In case you have a Intel CPU, you will likely see that <a href="https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/mds.html">MDS - Microarchitectural Data Sampling</a> is only partially mitigated ("SMT vulnerable"), unless you have disabled it in UEFI BIOS as the full mitigation disables <a href="https://en.wikipedia.org/wiki/Simultaneous_multithreading">Simultaneous multithreading</a> which may be the cause of the highest performance impact.</p>
+
+<p>The following steps can be took to enable the full mitigation assuming your system/distribution uses grub and supports <code>/etc/default/grub.d/</code>:</p>
+
+<ol>
+  <li><code>sudo mkdir /etc/default/grub.d/</code> to create a directory for additional grub configuration
+  <li><code>echo GRUB_CMDLINE_LINUX_DEFAULT="$GRUB_CMDLINE_LINUX_DEFAULT mds=full,nosmt" | sudo tee /etc/default/grub.d/mds.conf</code> to create a new grub config file source with the echoed content</li>
+  <li><code>sudo update-grub</code> to generate a new config file including these kernel flags
+  <li><code>sudo reboot</code> to reboot
+  <li>afterward the reboot check <code>tail -n +1 /sys/devices/system/cpu/vulnerabilities/*</code> again to see that MDS now says SMT disabled.
+</ol>
+
+<h5>Further reading</h5>
+
+<ul>
+  <li><a href="https://cpu.fail/">CPU.fail</a></li>
+  <li><a href="https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/mds.html">MDS - Microarchitectural Data Sampling on The Linux kernel user's and administrator's guide</a></li>
+  <li><a href="https://mdsattacks.com/">RIDL and Fallout: MDS attacks on mdsattacks.com</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Simultaneous_multithreading">Simultaneous multithreading on Wikipedia</a></li>
 </ul>
 
 <h3>Worth Mentioning</h3>
