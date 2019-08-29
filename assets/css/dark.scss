@@ -104,6 +104,13 @@ img {
   background-color: $dark-300;
 }
 
+.form-control:read-only,
+.form-control:disabled {
+	color: $light !important;
+	background: $dark-300 !important;
+	border-color: $dark-300 !important;
+}
+
 .form-control,
 .form-control:focus {
   color: $light;
