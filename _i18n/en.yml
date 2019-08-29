@@ -360,3 +360,9 @@ selfcontained_networks:
   yggdrasil_danger: "Yggdrasil doesn't have a goal of providing anonymity and your peers know your IP address unless you are only using Tor/I2P peers."
   experimental: "experimental"
   privacy_warning: "privacy warning"
+filesync:
+  software: "Secure File Sync Software"
+  sparkleshare_descr: "SparkleShare creates a special folder on your computer. You can add remotely hosted folders (or \"projects\") to this folder. These projects will be automatically kept in sync with both the host and all of your peers when someone adds, removes or edits a file."
+  syncthing_descr: "Syncthing replaces proprietary sync and cloud services with something open, trustworthy and decentralized. Your data is your data alone and you deserve to choose where it is stored, if it is shared with some third-party and how it's transmitted over the Internet."
+  worth_mentioning: "Worth Mentioning"
+  gitannex_descr: "- Allows managing files with git, without checking the file contents into git. While that may seem paradoxical, it is useful when dealing with files larger than git can currently easily handle, whether due to limitations in memory, time, or disk space."
