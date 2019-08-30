@@ -111,6 +111,11 @@ img {
   border-color: $dark-300;
 }
 
+.form-control[readonly],
+.form-control:disabled {
+  background: $dark-300;
+}
+
 .card,
 .jumbotron,
 .list-group-item {
