@@ -43,11 +43,13 @@ tor="http://sejnfjrq6szgca7v.onion"
 
 <h4 id="cpuvulns">Remember to check CPU vulnerability mitigations</h4>
 
-<p><em>This also affects Windows 10, but it doesn't expose this information or mitigation instructions as easily.</em></p>
+<p><em><a href="https://support.microsoft.com/en-us/help/4073757/protect-windows-devices-from-speculative-execution-side-channel-attack">This also affects Windows 10</a>, but it doesn't expose this information or mitigation instructions as easily.</em></p>
 
 <p>When running a enough recent kernel, you can check the CPU vulnerabilities it detects by <code>tail -n +1 /sys/devices/system/cpu/vulnerabilities/*</code>. By using <code>tail -n +1</code> instead of <code>cat</code> the file names are also visible.</p>
 
-<p>In case you have a Intel CPU, you will likely see that <a href="https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/mds.html">MDS - Microarchitectural Data Sampling</a> is only partially mitigated ("SMT vulnerable"), unless you have disabled it in UEFI BIOS as the full mitigation disables <a href="https://en.wikipedia.org/wiki/Simultaneous_multithreading">Simultaneous multithreading</a> which may be the cause of the highest performance impact.</p>
+<p>
+    In case you have an Intel CPU, you may notice "SMT vulnerable" display after running the <code>tail</code> command. To mitigate this, disable <a href="https://en.wikipedia.org/wiki/Simultaneous_multithreading">hyper-threading</a> from the UEFI/BIOS. You can also take the following mitigation steps below if your system/distribution uses GRUB and supports <code>/etc/default/grub.d/</code>:
+</p>
 
 <p>The following steps can be took to enable the full mitigation assuming your system/distribution uses grub and supports <code>/etc/default/grub.d/</code>:</p>
 
