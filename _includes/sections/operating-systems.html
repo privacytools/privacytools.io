@@ -54,7 +54,7 @@ tor="http://sejnfjrq6szgca7v.onion"
 <ol>
   <li><code>sudo mkdir /etc/default/grub.d/</code> to create a directory for additional grub configuration</li>
   <li><code>echo GRUB_CMDLINE_LINUX_DEFAULT="$GRUB_CMDLINE_LINUX_DEFAULT mds=full,nosmt" | sudo tee /etc/default/grub.d/mds.conf</code> to create a new grub config file source with the echoed content</li>
-  <li><code>sudo grub-mkconfig -o /boot/grub/grub.cfg</code> to generate a new config file including this new kernel flag</li>
+  <li><code>sudo grub-mkconfig -o /boot/grub/grub.cfg</code> to generate a new grub config file including this new kernel flag</li>
   <li><code>sudo reboot</code> to reboot</li>
   <li>afterward the reboot check <code>tail -n +1 /sys/devices/system/cpu/vulnerabilities/*</code> again to see that MDS now says SMT disabled.</li>
 </ol>
