@@ -104,18 +104,16 @@ img {
   background-color: $dark-300;
 }
 
-.form-control:read-only,
-.form-control:disabled {
-	color: $light !important;
-	background: $dark-300 !important;
-	border-color: $dark-300 !important;
-}
-
 .form-control,
 .form-control:focus {
   color: $light;
   background: $dark-300;
   border-color: $dark-300;
+}
+
+.form-control[readonly],
+.form-control:disabled {
+  background: $dark-300;
 }
 
 .card,
