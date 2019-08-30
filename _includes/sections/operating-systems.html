@@ -51,8 +51,6 @@ tor="http://sejnfjrq6szgca7v.onion"
     In case you have an Intel CPU, you may notice "SMT vulnerable" display after running the <code>tail</code> command. To mitigate this, disable <a href="https://en.wikipedia.org/wiki/Simultaneous_multithreading">hyper-threading</a> from the UEFI/BIOS. You can also take the following mitigation steps below if your system/distribution uses GRUB and supports <code>/etc/default/grub.d/</code>:
 </p>
 
-<p>The following steps can be took to enable the full mitigation assuming your system/distribution uses grub and supports <code>/etc/default/grub.d/</code>:</p>
-
 <ol>
   <li><code>sudo mkdir /etc/default/grub.d/</code> to create a directory for additional grub configuration</li>
   <li><code>echo GRUB_CMDLINE_LINUX_DEFAULT="$GRUB_CMDLINE_LINUX_DEFAULT mds=full,nosmt" | sudo tee /etc/default/grub.d/mds.conf</code> to create a new grub config file source with the echoed content</li>
