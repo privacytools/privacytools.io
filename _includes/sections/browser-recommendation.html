@@ -1,19 +1,19 @@
-<h1 id="browser" class="anchor"><a href="#browser"><i class="fas fa-link anchor-icon"></i></a> Browser Recommendations</h1>
+<h1 id="browser" class="anchor"><a href="#browser"><i class="fas fa-link anchor-icon"></i></a> Browser Recommendations For Desktop</h1>
 
 {% include cardv2.html
-title="Mozilla Firefox"
+title="Firefox Browser"
 image="/assets/img/tools/Firefox.png"
 description='Firefox is fast, reliable, open source and respects your privacy. Don\'t forget to adjust the settings according to our
 recommendations: <a href="#webrtc"><i class="fas fa-link"></i> WebRTC</a> and <a href="#about_config"><i class="fas fa-link"></i> about:config</a> and get the <a href="#addons"><i class="fas fa-link"></i> privacy add-ons</a>.'
-website="https://www.firefox.com/"
+website="https://firefox.com"
 forum="https://forum.privacytools.io/t/discussion-firefox/279"
-github="https://github.com/mozilla"
-windows=""
-mac=""
-linux=""
-android=""
-ios=""
-bsd=""
+source="https://hg.mozilla.org/mozilla-central/"
+windows="https://www.mozilla.org/en-US/firefox/windows/"
+mac="https://www.mozilla.org/en-US/firefox/mac/"
+linux="https://www.mozilla.org/en-US/firefox/linux/"
+android="https://play.google.com/store/apps/details?id=org.mozilla.firefox&hl=en_US"
+ios="https://apps.apple.com/us/app/firefox-private-safe-browser/id989804926"
+bsd="https://www.freebsd.org/doc/handbook/desktop-browsers.html"
 %}
 
 {% include cardv2.html
@@ -23,10 +23,99 @@ description='Tor Browser is your choice if you need an extra layer of anonymity.
 website="https://www.torproject.org/"
 forum="https://forum.privacytools.io/t/discussion-tor-browser/278"
 git="https://trac.torproject.org/projects/tor"
-windows=""
-mac=""
-linux=""
-android=""
-ios=""
-bsd=""
+windows="https://www.torproject.org/download/"
+mac="https://www.torproject.org/download/"
+linux="https://www.torproject.org/download/"
+android="https://play.google.com/store/apps/details?id=org.torproject.torbrowser&hl=en_US"
 %}
+
+<h1 id="browser-android" class="anchor"><a href="#browser-android"><i class="fas fa-link anchor-icon"></i></a> Browser Recommendations For Android</h1>
+
+{% include cardv2.html
+title="Firefox Browser"
+image="/assets/img/tools/Firefox.png"
+description='Firefox is fast, reliable, open source and respects your privacy. Don\'t forget to adjust the settings according to our
+recommendations: <a href="#webrtc"><i class="fas fa-link"></i> WebRTC</a> and <a href="#about_config"><i class="fas fa-link"></i> about:config</a> and get the <a href="#addons"><i class="fas fa-link"></i> privacy add-ons</a>.'
+website="https://www.mozilla.org/en-US/firefox/mobile/"
+forum="https://forum.privacytools.io/t/discussion-firefox/279"
+source="https://github.com/mozilla-mobile"
+windows="https://www.mozilla.org/en-US/firefox/windows/"
+mac="https://www.mozilla.org/en-US/firefox/mac/"
+linux="https://www.mozilla.org/en-US/firefox/linux/"
+android="https://play.google.com/store/apps/details?id=org.mozilla.firefox&hl=en_US"
+ios="https://apps.apple.com/us/app/firefox-private-safe-browser/id989804926"
+bsd="https://www.freebsd.org/doc/handbook/desktop-browsers.html"
+%}
+
+{% include cardv2.html
+title="Tor Browser For Android - Provides Anonymity"
+image="/assets/img/tools/Tor-Browser.png"
+description='Tor Browser for Android is your choice if you need an extra layer of anonymity. It\'s a modified version of Firefox ESR, which comes with pre-installed privacy add-ons, encryption and an advanced proxy. <a href="https://write.privacytools.io/my-thoughts-on-security/slicing-onions-part-1-myth-busting-tor">How does Tor work?</a>'
+Website="https://torproject.org"
+forum="https://forum.privacytools.io/t/discussion-tor-browser-for-android-browsers/1522"
+git="https://gitweb.torproject.org/tor-browser.git/"
+android="https://play.google.com/store/apps/details?id=org.torproject.torbrowser&hl=en_US"
+%}
+
+{% include cardv2.html
+title="Bromite"
+image="/assets/img/tools/bromite.png"
+description="Bromite is a chromium based browser with <a href='https://www.bromite.org/#main-features'>several privacy and security related patches</a>. It also comes with an intergrated Ad blocker."
+website="https://www.bromite.org/"
+forum="https://forum.privacytools.io/t/discussion-bromite-browsers/1521"
+github="https://github.com/bromite/bromite"
+android="https://www.bromite.org/news/2018-12-21-new-fdroid-repository-url"
+%}
+
+<h3>Worth Mentioning for Android</h3>
+
+<ul>
+  <li><a href="https://www.stoutner.com/privacy-browser/">Privacy Browser</a> Privacy Browser is an open source Android web browser focused on user privacy.</li>
+</ul>
+
+
+<h1 id="browser-ios" class="anchor"><a href="#browser-ios"><i class="fas fa-link anchor-icon"></i></a> Browser Recommendations For iOS</h1>
+
+{% include cardv2.html
+title="Firefox Browser"
+image="/assets/img/tools/Firefox.png"
+description='Firefox is fast, reliable, open source and respects your privacy. Note: because of limitations set by Apple in iOS, our recommended tweaks cannot be applied. However Mozilla has <a href="https://github.com/mozilla-mobile/firefox-ios/issues/5198">deployed</a> an built in ad block filter in the iOS version of Firefox.'
+website="https://www.mozilla.org/en-US/firefox/mobile/"
+forum="https://forum.privacytools.io/t/discussion-firefox/279"
+source="https://github.com/mozilla-mobile/firefox-ios"
+windows="https://www.mozilla.org/en-US/firefox/windows/"
+mac="https://www.mozilla.org/en-US/firefox/mac/"
+linux="https://www.mozilla.org/en-US/firefox/linux/"
+android="https://play.google.com/store/apps/details?id=org.mozilla.firefox&hl=en_US"
+ios="https://apps.apple.com/us/app/firefox-private-safe-browser/id989804926"
+bsd="https://www.freebsd.org/doc/handbook/desktop-browsers.html"
+%}
+
+
+{% include cardv2.html
+title="Onion Browser"
+image="/assets/img/tools/onionbrowser.png"
+description="Onion Browser is a application that lets you browse the web anonymously over the Tor network on iOS devices, and is endorsed by the Tor Project. Warning: their are certain anonymity related <a href='https://onionbrowser.com/#security-advisories'>issues</a> with Onion browser due to iOS limitations."
+website="https://onionbrowser.com/"
+forum="https://forum.privacytools.io/t/discussion-onion-browser-browsers/1523"
+github="https://github.com/OnionBrowser/OnionBrowser"
+ios="https://apps.apple.com/us/app/onion-browser/id519296448"
+%}
+
+
+{% include cardv2.html
+title="DuckDuckGo Privacy Browser"
+image="/assets/img/provider/DuckDuckGo.png"
+description="DuckDuckGo Privacy Browser Has an intergrated ad blocker and shows how good certain sites privacy policy is with the intergrated tosdr extension."
+website="https://apps.apple.com/us/app/duckduckgo-privacy-browser/id663592361"
+forum="https://forum.privacytools.io/t/discussion-duckduckgo-privacy-browser-browsers/1524"
+github="https://github.com/duckduckgo/iOS"
+ios="https://apps.apple.com/us/app/duckduckgo-privacy-browser/id663592361"
+android="https://play.google.com/store/apps/details?id=com.duckduckgo.mobile.android&hl=en_US"
+%}
+
+<h3>Worth Mentioning for iOS</h3>
+
+<ul>
+  <li><a href="https://snowhaze.com/en/index.html">SnowHaze</a> SnowHaze is a browser for iOS with intergrated adblocker and fingerprinting protection. </li>
+</ul>
