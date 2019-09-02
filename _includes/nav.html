@@ -11,7 +11,7 @@
 
       <div id="nav-left" class="position-relative flex-col">
         <a class="nav-anchor" href="/index.html">
-          <span id="nav-home" class="fas fa-home"></span>
+          <span id="nav-home" class="fas fa-home fa-fw"></span>
         </a>
 
         <!-- Provider -->
@@ -103,7 +103,7 @@
         <details class="nav-details">
           <summary>
             <span class="nav-summary">
-              <span class="fas fa-language text-danger"></span>
+              <span class="fas fa-language text-danger fa-fw"></span>
               Language
               <span class="dropdown-toggle"></span>
             </span>
@@ -141,7 +141,10 @@
 
         <a href="https://blog.privacytools.io/" class="nav-anchor">Blog </a>
         <a href="/donate/" class="nav-anchor">
-          Donate <span class="fas fa-heart text-danger"></span>
+          Donate <span class="fas fa-heart text-danger fa-fw"></span>
+        </a>
+        <a id="nav-switch-theme" class="nav-anchor" href="javascript:void(0)" onClick="changeColorScheme()">
+          Theme <span class="nav-theme-icon fas fa-fw"></span>
         </a>
       </div>
     </div>

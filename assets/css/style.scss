@@ -177,12 +177,17 @@ h2, h3:not(.h5), h4, h5 {
   text-align: justify;
 }
 
+.no-text-wrap {
+  white-space: nowrap;
+}
+
 footer {
   img,
   i {
     margin-right: 1rem;
   }
 }
+
 
 /*
  * Navbar
@@ -272,8 +277,15 @@ input#nav-toggle,
   display: none;
 }
 
+#nav-switch-theme {
+  /* We will make it visible with JavaScript
+   * as it does not work without it */
+  display: none;
+}
 
-/* Mobile hamburger menu */
+/*
+ * Mobile hamburger menu
+ */
 
 @media only screen and (max-width: 992px) {
   .menu,
@@ -335,3 +347,14 @@ input#nav-toggle,
     max-height: 8em;
   }
 }
+
+.nav-theme-icon:before {
+  color: var(--warning);
+  font-size: 0.875em;
+  content: "\f186";
+}
+
+.table td, .table th {
+  vertical-align: middle;
+}
+

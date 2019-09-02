@@ -52,9 +52,6 @@
   <dt>dom.event.clipboardevents.enabled = false</dt>
   <dd>Disable that websites can get notifications if you copy, paste, or cut something from a web page, and it lets them know which part of the page had been selected.</dd>
 
-  <dt>geo.enabled = false</dt>
-  <dd>Disables geolocation.</dd>
-
   <dt>media.eme.enabled = false</dt>
   <dd>
   <p>Disables playback of DRM-controlled HTML5 content, which, if enabled, automatically downloads the Widevine Content Decryption Module provided by Google Inc. <a href="https://support.mozilla.org/kb/enable-drm#w_opt-out-of-cdm-playback-uninstall-cdms-and-stop-all-cdm-downloads">Details</a></p>
@@ -118,23 +115,8 @@
   </ul>
   </dd>
 
-  <dt>network.trr.mode = 2</dt>
-  <dd>
-  Use Trusted Recursive Resolver (DNS-over-HTTPS) first and if it fails, use the system resolver <a href="https://wiki.mozilla.org/Trusted_Recursive_Resolver">Source</a>
-  <ul>
-    <li>0 = disabled by default, may change in the future</li>
-    <li>1 = use the faster resolver</li>
-    <li>2 = use DoH first, fallback to system resolver</li>
-    <li>3 = only use DoH. This may require <code>network.trr.bootstrapAddress</code> or using an IP address in <code>network.trr.uri</code>.</li>
-    <li>5 = explicitly disable DoH</li>
-  </ul>
-  </dd>
-
-  <dt>network.trr.uri = CHANGEME</dt>
-  <dd>The address of your DNS-over-HTTPS provider, if you don't have one, <a href="/providers/dns/#icanndns">check our encrypted DNS recommendations</a>. It can also be changed in <em>Settings, Network Settings, Enable DNS over HTTPS, Use Provider, Custom</em>.</dd>
-
-  <dt>network.security.esni.enabled = true</dt>
-  <dd>Hide the address which you are requesting SSL certificate for if the server supports it. This <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1500289">requires DoH/TRR to be enabled</a> even <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1542754">on Android 9+ when Private DNS is enabled</a>.</dd>
+  <dt>Looking for TRR, DoH or ESNI?</dt>
+  <dd>They have moved to <a href="/providers/dns/#icanndns">our DNS page</a>.</dd>
 
   <dt>webgl.disabled = true</dt>
   <dd>WebGL is a potential security risk. <a href="https://security.stackexchange.com/questions/13799/is-webgl-a-security-concern">Source</a></dd>
@@ -162,10 +144,9 @@
   </dd>
 </dl>
 
-<h3>Firefox user.js Templates</h3>
+<h3 id="user.js">Firefox user.js Templates</h3>
 <ul>
 	<li><a href="https://github.com/ghacksuserjs/ghacks-user.js">ghacks-user.js</a> - An ongoing comprehensive user.js template for configuring and hardening Firefox privacy, security and anti-fingerprinting.</li>
-	<li><a href="https://github.com/pyllyukko/user.js">pyllyukko/user.js</a> - This is a user.js configuration file to harden Firefox's settings and make it more secure.</li>
 </ul>
 
 

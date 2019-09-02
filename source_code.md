@@ -299,6 +299,8 @@ BlahDNS: https://github.com/ookangzheng/blahdns/
 
 CloudFlare DNS: https://github.com/cloudflare/dns
 
+NixNet DNS: https://git.nixnet.xyz/NixNet/dns
+
 PowerDNS: https://github.com/PowerDNS/pdns
 
 ### Worth Mentioning and Additional Information
