@@ -366,3 +366,6 @@ filesync:
   syncthing_descr: "Syncthing replaces proprietary sync and cloud services with something open, trustworthy and decentralized. Your data is your data alone and you deserve to choose where it is stored, if it is shared with some third-party and how it's transmitted over the Internet."
   worth_mentioning: "Worth Mentioning"
   gitannex_descr: "- Allows managing files with git, without checking the file contents into git. While that may seem paradoxical, it is useful when dealing with files larger than git can currently easily handle, whether due to limitations in memory, time, or disk space."
+real_time_communication:
+  title: "Real-Time Communication"
+  descr: "Discover secure and private ways to communicate with others online without letting any third parties read your messages."
