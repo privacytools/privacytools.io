@@ -276,21 +276,15 @@ Raddle: https://gitlab.com/postmill
 
 ## Domain Name System (DNS)
 
+OpenNic: https://github.com/opennic/
+
 Njalla: Non-free/Proprietary Software
 
-DNSCrypt: https://github.com/dnscrypt
-
-DNSCrypt-proxy: https://github.com/jedisct1/dnscrypt-proxy/
-
-OpenNic: https://github.com/opennic/ (mostly)
-
-Webpage: https://github.com/opennic/opennic-web
+DNSCrypt-Proxy: https://github.com/jedisct1/dnscrypt-proxy/
 
 ### Worth Mentioning
 
 - NoTrack: https://github.com/quidsup/notrack
-
-- Namecoin: https://github.com/namecoin
 
 - Pi-hole: https://github.com/pi-hole
 
@@ -302,13 +296,25 @@ BlahDNS: https://github.com/ookangzheng/blahdns/
 
 CloudFlare DNS: https://github.com/cloudflare/dns
 
+NixNet DNS: https://git.nixnet.xyz/NixNet/dns
+
 PowerDNS: https://github.com/PowerDNS/pdns
 
 ### Worth Mentioning and Additional Information
 
+#### Mobile
+
 - DNSCloak: https://github.com/s-s/dnscloak
 
+- Nebulo: https://git.frostnerd.com/PublicAndroidApps/smokescreen/
+
+#### Local DNS servers
+
+- Namecoin: https://github.com/namecoin
+
 - Stubby: https://github.com/getdnsapi/stubby
+
+- Unbound: https://github.com/NLnetLabs/unbound
 
 ## Digital Notebook
  Joplin: https://github.com/laurent22/joplin
