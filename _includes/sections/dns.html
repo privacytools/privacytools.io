@@ -538,10 +538,9 @@
       <li>If using Firefox's trusted recursive resolver (TRR), navigate to <code>about:networking#dns</code>. If the TRR column says "true" for some fields, you are using DoH. <span class="badge badge-warning" data-toggle="tooltip" data-placement="bottom" data-original-title='Some fields will say "false" depending on the the value of network.trr.mode in about:config'><a href="https://wiki.mozilla.org/Trusted_Recursive_Resolver"><i class="fas fa-exclamation-triangle"></i></a></span></li>
     </ul>
   </li>
-  <li>dnscrypt-proxy - Check <a href="https://github.com/jedisct1/dnscrypt-proxy/wiki/Checking">dnscrypt-proxy's wiki on how to verify that your DNS is encrypted</a>.
-  </li>
+  <li>dnscrypt-proxy - Check <a href="https://github.com/jedisct1/dnscrypt-proxy/wiki/Checking">dnscrypt-proxy's wiki on how to verify that your DNS is encrypted</a>.</li>
   <li>DNSSEC - Check <a href="https://dnssec.vs.uni-due.de/">DNSSEC Resolver Test by Matthäus Wander</a>.</li>
-  <li>QNAME Minimization - Run <code><a href="https://en.wikipedia.org/wiki/Dig_(command)">dig</a> +short txt qnamemintest.internet.nl</code> from the command-line (taken from <a href="https://nlnetlabs.nl/downloads/presentations/unbound_qnamemin_oarc24.pdf">this NLnet Labs presentation</a>). You should see this display: <code>"HOORAY - QNAME minimisation is enabled on your resolver :)!"</code></li>
+  <li>QNAME Minimization - Run <code>dig +short txt qnamemintest.internet.nl</code> from the command-line (taken from <a href="https://nlnetlabs.nl/downloads/presentations/unbound_qnamemin_oarc24.pdf">this NLnet Labs presentation</a>). If you are on Windows 10, run <code>Resolve-DnsName -Type TXT -Name qnamemintest.internet.nl</code> from the PowerShell. You should see this display: <code>"HOORAY - QNAME minimisation is enabled on your resolver :)!"</code></li>
 </ul>
 
 <h3>Worth Mentioning and Additional Information</h3>

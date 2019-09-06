@@ -33,4 +33,4 @@ labels: 🌐 website issue, 🗄️ DNS
 
 #### Desired features
 
-* [ ] supports QNAME minimization <!-- if you have access to the dig command, `dig +short txt qnamemintest.internet.nl` -->
+* [ ] supports QNAME minimization <!-- if you have access to the dig command run `dig +short txt qnamemintest.internet.nl` or `Resolve-DnsName -Type TXT -Name qnamemintest.internet.nl` if you are on Windows 10 -->
