@@ -275,8 +275,6 @@ Raddle: https://gitlab.com/postmill
 
 ## Domain Name System (DNS)
 
-OpenNic: https://github.com/opennic/
-
 Njalla: Non-free/Proprietary Software
 
 DNSCrypt-Proxy: https://github.com/jedisct1/dnscrypt-proxy/
@@ -308,8 +306,6 @@ PowerDNS: https://github.com/PowerDNS/pdns
 - Nebulo: https://git.frostnerd.com/PublicAndroidApps/smokescreen/
 
 #### Local DNS servers
-
-- Namecoin: https://github.com/namecoin
 
 - Stubby: https://github.com/getdnsapi/stubby
 
