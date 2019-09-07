@@ -365,6 +365,8 @@ Write.as: https://code.as/writeas
 
 - VSCodium: https://github.com/VSCodium/vscodium
 
+MAT2: https://0xacab.org/jvoisin/mat2
+
 ## PC Operating Systems
  QubesOS: https://github.com/QubesOS
 
