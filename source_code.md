@@ -201,15 +201,14 @@ Worth Mentioning
 - Password Safe: https://sourceforge.net/projects/passwordsafe/files/
 
 ## Calendar and Contacts Sync
-  Nextcloud: https://github.com/nextcloud
 
-  EteSync: https://github.com/etesync
+Nextcloud: https://github.com/nextcloud
 
-   Worth Mentioning:
-.
-    fruux: https://fruux.com/opensource/
-.
-    Flock: https://github.com/signalapp/Flock
+EteSync: https://github.com/etesync
+
+Worth Mentioning:
+
+- fruux: https://fruux.com/opensource/
 
 ## File Encryption Software
 
