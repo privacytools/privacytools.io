@@ -383,6 +383,8 @@ Backend: Closed Source
 
    LibreOffice: https://gerrit.libreoffice.org/
 
+MAT2: https://0xacab.org/jvoisin/mat2
+
 ## PC Operating Systems
  QubesOS: https://github.com/QubesOS
 
