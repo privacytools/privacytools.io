@@ -1,30 +1,37 @@
 <h1 id="dns" class="anchor"><a href="#dns"><i class="fas fa-link anchor-icon"></i></a> Domain Name System (DNS)</h1>
 
-{% include cardv2.html
-title="OpenNIC - Service"
-image="/assets/img/tools/OpenNIC.png"
-description="OpenNIC is an alternate network information center/alternative DNS root which lists itself as an alternative to ICANN and its registries. Like all alternative root DNS systems, OpenNIC-hosted domains are unreachable to the vast majority of the Internet."
-website="https://www.opennic.org/"
-forum="https://forum.privacytools.io/t/discussion-opennic/338"
-github="https://github.com/OpenNIC"
+{%
+  include cardv2.html
+  title="OpenNIC - Service"
+  image="/assets/img/tools/OpenNIC.png"
+  description="OpenNIC is an alternate network information center/alternative DNS root which lists itself as an alternative to ICANN and its registries. Like all alternative root DNS systems, OpenNIC-hosted domains are unreachable to the vast majority of the Internet."
+  website="https://www.opennic.org/"
+  forum="https://forum.privacytools.io/t/discussion-opennic/338"
+  github="https://github.com/OpenNIC"
 %}
 
-{% include cardv2.html
-title="Njalla - Domain Registration"
-image="/assets/img/provider/Njalla.png"
-description="Njalla only needs your email or jabber address in order to register a domain name for you. Created by people from The Pirate Bay and IPredator VPN. Accepted Payments: Bitcoin, Litecoin, Monero, DASH, Bitcoin Cash and PayPal. A privacy-aware domain registration service."
-website="https://njal.la/"
-tor="http://njalladnspotetti.onion"
-forum="https://forum.privacytools.io/t/discussion-njalla/339"
+{%
+  include cardv2.html
+  title="Njalla - Domain Registration"
+  image="/assets/img/provider/Njalla.png"
+  description="Njalla only needs your email or XMPP address in order to register a domain name for you. Created by people from The Pirate Bay and IPredator VPN. Accepted Payments: Bitcoin, Litecoin, Monero, DASH, Bitcoin Cash and PayPal. A privacy-aware domain registration service."
+  website="https://njal.la/"
+  tor="http://njalladnspotetti.onion"
+  forum="https://forum.privacytools.io/t/discussion-njalla/339"
 %}
 
-{% include cardv2.html
-title="DNSCrypt - Tool"
-image="/assets/img/tools/DNSCrypt.png"
-description="A protocol for securing communications between a client and a DNS resolver. The DNSCrypt protocol uses high-speed high-security elliptic-curve cryptography and is very similar to DNSCurve, but focuses on securing communications between a client and its first-level resolver."
-website="https://dnscrypt.info/"
-forum="https://forum.privacytools.io/t/discussion-dnscrypt/340"
-github="https://github.com/jedisct1/dnscrypt-proxy"
+{%
+  include cardv2.html
+  title="DNSCrypt-Proxy - Tool"
+  image="/assets/img/tools/DNSCrypt-Proxy.png"
+  description="DNSCrypt-Proxy is a command-line DNS proxy with support for the encrypted DNS protocols, DNS over HTTPS and DNSCrypt. Can cache results to improve speed, and allows filtering, forwarding, and cloaking."
+  website="https://github.com/jedisct1/dnscrypt-proxy/"
+  forum="https://forum.privacytools.io/t/discussion-dnscrypt-proxy/1498"
+  github="https://github.com/jedisct1/dnscrypt-proxy/"
+  linux=""
+  mac=""
+  android=""
+  ios=""
 %}
 
 <h1 id="icanndns" class="anchor"><a href="#icanndns"><i class="fas fa-link anchor-icon"></i></a> Encrypted ICANN DNS Providers</h1>
@@ -47,6 +54,7 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         <th data-sortable="true">QNAME Minimization</th>
         <th data-sortable="true">Filtering</th>
         <th data-sortable="true">Source Code</th>
+        <th data-sortable="true">Hosting Provider</th>
       </tr>
     </thead>
     <tbody>
@@ -70,11 +78,23 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         <td>DoH, DoT, DNSCrypt</td>
         <td>Yes</td>
         <td>Yes</td>
-        <td>Ads, trackers, malicious domains</td>
+        <td>
+          <span class="no-text-wrap">
+            Ads, trackers,
+          </span>
+          <span class="no-text-wrap">
+            malicious domains
+          </span>
+        </td>
         <td>
           <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://github.com/AdguardTeam/AdGuardDNS/" href="https://github.com/AdguardTeam/AdGuardDNS/">
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
           </a>
+        </td>
+        <td>
+          <span class="no-text-wrap">
+            <a href="https://flops.ru/en/about.html">Serveroid, LLC</a>
+          </span>
         </td>
       </tr>
 
@@ -114,11 +134,30 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         </td>
         <td>Yes</td>
         <td>Yes</td>
-        <td>Ads, trackers, malicious domains <span class="badge badge-warning" data-toggle="tooltip" data-original-title="And some wildcard, IDN, and non-ASCII domains."><a href="https://github.com/ookangzheng/blahdns#default-blocked-wildcard-domain"><i class="fas fa-exclamation-triangle"></i></a></span></td>
+        <td>
+          <span class="no-text-wrap">
+            Ads, trackers,
+          </span>
+          <span class="no-text-wrap">
+            malicious domains
+            <span class="badge badge-warning" data-toggle="tooltip" data-original-title="And some wildcard, IDN, and non-ASCII domains."><a href="https://github.com/ookangzheng/blahdns#default-blocked-wildcard-domain"><i class="fas fa-exclamation-triangle"></i></a></span>
+          </span>
+        </td>
         <td>
           <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://github.com/ookangzheng/blahdns/" href="https://github.com/ookangzheng/blahdns/">
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
           </a>
+        </td>
+        <td>
+          <span class="no-text-wrap">
+            <a href="https://www.choopa.com/">Choopa, LLC</a>,
+          </span>
+          <span class="no-text-wrap">
+            <a href="https://www.datacenterlight.ch/">Data Center Light</a>,
+          </span>
+          <span class="no-text-wrap">
+            <a href="https://www.hetzner.com/">Hetzner Online GmbH</a>,
+          </span>
         </td>
       </tr>
 
@@ -143,11 +182,8 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         <td>Yes</td>
         <td>Yes</td>
         <td>No</td>
-        <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://github.com/cloudflare/dns" href="https://github.com/cloudflare/dns">
-            <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
-          </a>
-        </td>
+        <td>?</td>
+        <td>Self</td>
       </tr>
 
       <tr>
@@ -172,6 +208,7 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         <td>Yes</td>
         <td data-value="No">?</td>
         <td>?</td>
+        <td>Self</td>
       </tr>
 
       <tr>
@@ -202,8 +239,17 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         </td>
         <td>Yes</td>
         <td>Yes</td>
-        <td>Based on server choice</td>
+        <td>
+          <span class="no-text-wrap">
+            Based on server choice
+          </span>
+        </td>
         <td>?</td>
+        <td>
+          <span class="no-text-wrap">
+            <a href="https://www.hetzner.com/">Hetzner Online GmbH</a>
+          </span>
+        </td>
       </tr>
 
       <tr>
@@ -235,11 +281,16 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         <td>Yes</td>
         <td>No</td>
         <td>?</td>
+        <td>
+          <span class="no-text-wrap">
+            <a href="https://www.ipax.at/">IPAX OG</a>
+          </span>
+        </td>
       </tr>
 
       <tr>
         <td data-value="nextdns">
-          <a href="https://www.nextdns.io/">nextdns</a>
+          <a href="https://www.nextdns.io/">NextDNS</a>
         </td>
         <td>Anycast (based in
           <span class="no-text-wrap">
@@ -253,12 +304,19 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
           </a>
         </td>
         <td>Commercial</td>
-        <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"Some of the features require some sort of data retention. In that case, we give our users the choice to granularly or completely disable those features (and associated data retention), and we follow up immediately on that promise"' href="https://www.nextdns.io/privacy">Based on user choice</a></td>
+        <td>
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title='"Some of the features require some sort of data retention. In that case, we give our users the choice to granularly or completely disable those features (and associated data retention), and we follow up immediately on that promise"' href="https://www.nextdns.io/privacy">Based on user choice</a>
+        </td>
         <td>DoH, DoT, DNSCrypt</td>
         <td>Yes</td>
         <td>Yes</td>
-        <td>Based on user choice</td>
+        <td>
+          <span class="no-text-wrap">
+            Based on server choice
+          </span>
+        </td>
         <td>?</td>
+        <td>Self</td>
       </tr>
 
       <tr>
@@ -294,11 +352,20 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         <td>DoT</td>
         <td>Yes</td>
         <td>Yes</td>
-        <td>Based on server choice</td>
+        <td>
+          <span class="no-text-wrap">
+            Based on server choice
+          </span>
+        </td>
         <td>
           <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://git.nixnet.xyz/NixNet/dns" href="https://git.nixnet.xyz/NixNet/dns">
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
           </a>
+        </td>
+        <td>
+          <span class="no-text-wrap">
+            <a href="https://frantech.ca/">FranTech Solutions</a>
+          </span>
         </td>
       </tr>
 
@@ -328,6 +395,11 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
           </a>
         </td>
+        <td>
+          <span class="no-text-wrap">
+            <a href="https://www.transip.nl/">TransIP B.V. Admin</a>
+          </span>
+        </td>
       </tr>
 
       <tr>
@@ -350,8 +422,18 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         <td>DoH, DoT, DNSCrypt</td>
         <td>Yes</td>
         <td>Yes</td>
-        <td>Malicious domains</td>
+        <td>
+          <span class="no-text-wrap">
+            Malicious domains
+          </span>
+        </td>
         <td>?</td>
+        <td>
+          Self,
+          <span class="no-text-wrap">
+            <a href="https://www.pch.net/">Packet Clearing House</a>
+          </span>
+        </td>
       </tr>
 
       <tr>
@@ -374,8 +456,17 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         <td>DoH, DoT, DNSCrypt</td>
         <td>Yes</td>
         <td>Yes</td>
-        <td>Based on server choice</td>
+        <td>
+          <span class="no-text-wrap">
+            Based on server choice
+          </span>
+        </td>
         <td>?</td>
+        <td>
+          <span class="no-text-wrap">
+            <a href="https://www.digitalocean.com/">DigitalOcean, Inc.</a>,
+          </span>
+        </td>
       </tr>
 
       <tr>
@@ -385,7 +476,17 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         <td>Anycast (based in
           <span class="no-text-wrap">
             <span class="flag-icon flag-icon-dk"></span>
-            Denmark)
+            Denmark),
+          </span>
+
+          <span class="no-text-wrap">
+            <span class="flag-icon flag-icon-dk"></span>
+            Denmark,
+            </span>
+
+          <span class="no-text-wrap">
+            <span class="flag-icon flag-icon-us"></span>
+            US
           </span>
         </td>
         <td>
@@ -400,6 +501,12 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
         <td>No</td>
         <td>No</td>
         <td>?</td>
+        <td>
+          Self,
+          <span class="no-text-wrap">
+            <a href="https://www.teliacompany.com">Telia Company AB</a>
+          </span>
+        </td>
       </tr>
     </tbody>
   </table>
@@ -408,7 +515,11 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
 <h4>Terms</h4>
 
 <ul>
-  <li>DNS-over-TLS (DoT) - A security protocol for encrypted DNS on a dedicated port 853. Some providers support port 443 which generally works everywhere while port 853 is often blocked by restrictive firewalls.</li>
+  <li>DNS-over-TLS (DoT) - A security protocol for encrypted DNS on a dedicated port 853. Some providers support port 443 which generally works everywhere while port 853 is often blocked by restrictive firewalls. DoT has two modes:</li>
+    <ul>
+        <li>Oppurtunistic mode: the client attempts to form a DNS-over-TLS connection to the server on port 853 without performing certificate validation. If it fails, it will use unencrypted DNS. <span class="badge badge-warning" data-toggle="tooltip" data-original-title="In other words automatic mode leaves your DNS traffic vulnerable to SSL strip and MITM attacks"><i class="fas fa-exclamation-triangle"></i></span></li>
+        <li>Strict mode: the client connects to a specific hostname and performs certificate validation for it. If it fails, no DNS queries are made until it succeeds.</li>
+    </ul>
   <li>DNS-over-HTTPS (DoH) - Similar to DoT, but uses HTTPS instead, being indistinguishable from "normal" HTTPS traffic on port 443. <span class="badge badge-warning" data-toggle="tooltip" data-original-title="DoH contains metadata such as user-agent (which may include system information) that is sent to the DNS server."><a href="https://tools.ietf.org/html/rfc8484#section-8.2"><i class="fas fa-exclamation-triangle"></i></a></span></li>
   <li>DNSCrypt - An older yet robust method of encrypting DNS.</li>
 </ul>
@@ -423,10 +534,9 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
       <li>If using Firefox's trusted recursive resolver (TRR), navigate to <code>about:networking#dns</code>. If the TRR column says "true" for some fields, you are using DoH. <span class="badge badge-warning" data-toggle="tooltip" data-placement="bottom" data-original-title='Some fields will say "false" depending on the the value of network.trr.mode in about:config'><a href="https://wiki.mozilla.org/Trusted_Recursive_Resolver"><i class="fas fa-exclamation-triangle"></i></a></span></li>
     </ul>
   </li>
-  <li>dnscrypt-proxy - Check <a href="https://github.com/jedisct1/dnscrypt-proxy/wiki/Checking">dnscrypt-proxy's wiki on how to verify that your DNS is encrypted</a>.
-  </li>
+  <li>dnscrypt-proxy - Check <a href="https://github.com/jedisct1/dnscrypt-proxy/wiki/Checking">dnscrypt-proxy's wiki on how to verify that your DNS is encrypted</a>.</li>
   <li>DNSSEC - Check <a href="https://dnssec.vs.uni-due.de/">DNSSEC Resolver Test by Matthäus Wander</a>.</li>
-  <li>QNAME Minimization - Run <code><a href="https://en.wikipedia.org/wiki/Dig_(command)">dig</a> +short txt qnamemintest.internet.nl</code> from the command-line (taken from <a href="https://nlnetlabs.nl/downloads/presentations/unbound_qnamemin_oarc24.pdf">this NLnet Labs presentation</a>). You should see this display: <code>"HOORAY - QNAME minimisation is enabled on your resolver :)!"</code></li>
+  <li>QNAME Minimization - Run <code>dig +short txt qnamemintest.internet.nl</code> from the command-line (taken from <a href="https://nlnetlabs.nl/downloads/presentations/unbound_qnamemin_oarc24.pdf">this NLnet Labs presentation</a>). If you are on Windows 10, run <code>Resolve-DnsName -Type TXT -Name qnamemintest.internet.nl</code> from the PowerShell. You should see this display: <code>"HOORAY - QNAME minimisation is enabled on your resolver :)!"</code></li>
 </ul>
 
 <h3>Worth Mentioning and Additional Information</h3>
@@ -444,6 +554,9 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
   <li><strong>Encrypted DNS clients for mobile:</strong>
     <ul>
       <li><em>Android 9</em> comes with a DoT client by <a href="https://support.google.com/android/answer/9089903">default</a>. <span class="badge badge-warning" data-toggle="tooltip" data-original-title="...but with some caveats"><a href="https://www.quad9.net/private-dns-quad9-android9/"><i class="fas fa-exclamation-triangle"></i></a></span></li>
+        <ul>
+          <li>We recommend selecting <em>Private DNS provider hostname</em> and entering the DoT address from documentation of your DoT provider to enable strict mode (see Terms above). <span class="badge badge-warning" data-toggle="tooltip" data-original-title="If you are on a network blocking access to port 853, Android will error about the network not having internet connectivity."><i class="fas fa-exclamation-triangle"></i></span></li>
+        </ul>
       <li><em><a href="https://apps.apple.com/app/id1452162351">DNSCloak</a></em> - An <a href="https://github.com/s-s/dnscloak">open-source</a> DNSCrypt and DoH client for iOS by <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"A charitable non-profit host organization for international Free Software projects."' href="https://techcultivation.org/">the Center for the Cultivation of Technology gemeinnuetzige GmbH</a>.</li>
       <li><em><a href="https://git.frostnerd.com/PublicAndroidApps/smokescreen/blob/master/README.md">Nebulo</a></em> - An open-source application for Android supporting DoH and DoT. It also supports caching DNS responses and locally logging DNS queries.</li>
     </ul>
@@ -452,6 +565,10 @@ github="https://github.com/jedisct1/dnscrypt-proxy"
     <ul>
       <li><em><a href="https://namecoin.info/">Namecoin</a></em> - A decentralized DNS open-source information registration and transfer system based on the Bitcoin cryptocurrency.</li>
       <li><em><a href="https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby">Stubby</a></em> - An open-source application for Linux, macOS, and Windows that acts as a local DNS Privacy stub resolver using DoT.</li>
+      <li><em><a href="https://nlnetlabs.nl/projects/unbound/about/">Unbound</a></em> - a validating, recursive, caching DNS resolver. It can also be ran network-wide and has supported DNS-over-TLS since version 1.7.3.</li>
+      <ul>
+          <li>See also <a href="https://www.ctrl.blog/entry/unbound-tls-forwarding.html">Actually secure DNS over TLS in Unbound on ctrl.blog</a>.</li>
+      </ul>
     </ul>
   </li>
   <li><strong>Network wide DNS servers:</strong>
