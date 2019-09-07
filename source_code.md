@@ -218,7 +218,6 @@ GNU Privacy Guard: https://github.com/gpg/gnupg
 
 PeaZip: https://github.com/giorgiotani/PeaZip/
 
-
 Worth Mentioning:
 - Cryptomator: https://github.com/cryptomator/cryptomator
 
@@ -227,6 +226,8 @@ Worth Mentioning:
 - Linux Unified Key Setup (LUKS): https://gitlab.com/cryptsetup/cryptsetup/
 
 - Hat.sh: https://github.com/sh-dv/hat.sh
+
+- Keka: https://www.keka.io/
 
 ## Self-contained Networks
  TorBrowser: https://gitweb.torproject.org/tor.git
