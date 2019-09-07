@@ -361,6 +361,8 @@ Write.as: https://code.as/writeas
 
 - Dudle: https://github.com/kellerben/dudle/
 
+- Framadate: https://framagit.org/framasoft/framadate/framadate
+
 - LibreOffice: https://gerrit.libreoffice.org/
 
 - VSCodium: https://github.com/VSCodium/vscodium
