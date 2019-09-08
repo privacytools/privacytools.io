@@ -3,4 +3,5 @@ _site/
 .jekyll-metadata
 .DS_Store
 font/assets/
+font/_sass/
 font/.fontcustom-manifest.json
