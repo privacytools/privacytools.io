@@ -80,4 +80,4 @@ members of the project's leadership.
 This Code of Conduct is forked from and licensed under Creative Commons
 BY-4.0, Contributor Covenant version 1.4 (https://contributor-covenant.org/version/1/4)
 by privacytools.io, which you can find on our GitHub repository:
-https://github.com/privacytoolsIO/privacytools.io/raw/master/CODE_OF_CONDUCT.md
+https://github.com/privacytoolsIO/privacytools.io/blob/master/CODE_OF_CONDUCT.md
