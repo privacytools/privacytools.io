@@ -73,11 +73,9 @@ members of the project's leadership.
 
 ## Attribution
 
-This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,
-available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html
-
-[homepage]: https://www.contributor-covenant.org
+This Code of Conduct is forked, from the CC-BY 4.0 licensed Contributor Covenant version 1.4,
+available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html,
+by Privacytools.io, available at https://github.com/privacytools.io/privacytools.io/blob/master/CODE_OF_CONDUCT.md
 
 For answers to common questions about this code of conduct, see
 https://www.contributor-covenant.org/faq
-
