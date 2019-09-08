@@ -2,3 +2,5 @@ _site/
 .sass-cache/
 .jekyll-metadata
 .DS_Store
+font/assets/
+font/.fontcustom-manifest.json
