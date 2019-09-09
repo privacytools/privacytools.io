@@ -17,7 +17,7 @@ It's very important to us to stay up-to-date on the latest changes in the privac
 
 For complete transparency, software and providers will only be considered for this website after discussions take place on either of the above platforms.
 
-We're now on Matrix! Join us at `#general:privacytools.io` to chat with us and other members about this site and privacy in general. If you need a Matrix account, you can sign up with our own homeserver (`https://chat.privacytools.io`) using [riot.privacytools.io](https://riot.privacytools.io/) or any Matrix client!
+We're on Matrix! Join us at `#general:privacytools.io` to chat with us and other members about this site and privacy in general. If you need a Matrix account, you can sign up with our own homeserver (`https://chat.privacytools.io`) using [riot.privacytools.io](https://riot.privacytools.io/) or any Matrix client!
 
 ## Abuse
 
