@@ -1,15 +1,17 @@
-<h1 id="im" class="anchor"><a href="#im"><i class="fas fa-link anchor-icon"></i></a> Encrypted Instant Messenger</h1>
+<h1 id="im" class="anchor"><a href="#im"><i class="fas fa-link anchor-icon"></i></a> {% t instant_messenger.anchor %}</h1>
 
 <div class="alert alert-warning" role="alert">
-  <strong>If you are currently using an Instant Messenger like Telegram, LINE, Viber, <a href="https://www.eff.org/deeplinks/2016/10/where-whatsapp-went-wrong-effs-four-biggest-security-concerns">WhatsApp</a>, or plain SMS you should pick an alternative here.</strong>
+  <strong>{% t instant_messenger.warning %}</strong>
 </div>
 
+{%- capture instant_messenger_signal_descr -%}{% t instant_messenger.signal_descr %}{%- endcapture -%}
+{%- capture instant_messenger_wire_descr -%}{% t instant_messenger.wire_descr %}{%- endcapture -%}
+{%- capture instant_messenger_wire_warning -%}warning:{% t instant_messenger.wire_warning %}|success:{% t global.voip %}{%- endcapture -%}
 
 {% include cardv2.html
 title="Signal"
 image="/assets/img/tools/Signal.png"
-description="Signal is a mobile app developed by Open Whisper Systems. The app provides instant messaging, as well as voice and video calling.
-All communications are end-to-end encrypted. Signal is free and open source."
+description=instant_messenger_signal_descr
 labels="success:VoIP"
 website="https://signal.org/"
 forum="https://forum.privacytools.io/t/discussion-signal/664"
@@ -22,8 +24,8 @@ ios=""
 {% include cardv2.html
 title="Wire"
 image="/assets/img/tools/wire.png"
-description="A free software End-to-End Encrypted chatting application that supports instant messaging, voice, and video calls. Full source code is available."
-labels="warning:<a href=//www.vice.com/en_us/article/gvzw5x/secure-messaging-app-wire-stores-everyone-youve-ever-contacted-in-plain-text>Warning</a>:Wire stores some plaintext metadata about its users on their servers. This data includes profile names, profile pictures, usernames, and users' lists of connections and conversations.|success:VoIP"
+description=instant_messenger_wire_descr
+labels=instant_messenger_wire_warning
 website="https://wire.com/"
 forum="https://forum.privacytools.io/t/discussion-wire/750"
 github="https://github.com/wireapp/"
@@ -35,44 +37,44 @@ linux=""
 web=""
 %}
 
-<h3>Complete Comparison</h3>
+<h3>{% t instant_messenger.compare %}</h3>
 <ul>
-	<li><a href="https://securechatguide.org/effguide.html">securechatguide.org</a> - Guide to Choosing a Messenger.</li>
-	<li><a href="https://www.securemessagingapps.com/">securemessagingapps.com</a> - Secure Messaging Apps Comparison.</li>
-  <li><a href="https://www.thinkprivacy.io/messengers.html">thinkprivacy.io</a> - Simple Secure Messaging Apps Comparison.</li>
+	<li><a href="https://securechatguide.org/effguide.html">securechatguide.org</a>{% t instant_messenger.compare_descr1 %}</li>
+	<li><a href="https://www.securemessagingapps.com/">securemessagingapps.com</a>{% t instant_messenger.compare_descr2 %}</li>
+  <li><a href="https://www.thinkprivacy.io/messengers.html">thinkprivacy.io</a>{% t instant_messenger.compare_descr3 %}</li>
 </ul>
 
 
-<h3>Worth Mentioning</h3>
+<h3>{% t instant_messenger.worth_mentioning %}</h3>
 
 <ul>
-  <li><a href="https://briarproject.org/">Briar</a> - An ultra-secure peer-to-peer instant messenger that connects to contacts via Direct Wi-Fi, Bluetooth, or Tor over the internet, keeping its users protected from surveillance and censorship.
-  <li><a href="https://retroshare.cc/">RetroShare</a> - An E2E encrypted instant messaging and voice/video call client. RetroShare supports both TOR and I2P. </li>
-  <li><a href="https://xmpp.org/">XMPP</a> - Federated instant messaging protocol with <a href="https://conversations.im/omemo/">OMEMO</a>, OTR, or OpenPGP end-to-end encryption:</li>
+  <li><a href="https://briarproject.org/">Briar</a>{% t instant_messenger.briar %}</li>
+  <li><a href="https://retroshare.cc/">RetroShare</a>{% t instant_messenger.retroshare %}</li>
+  <li><a href="https://xmpp.org/">XMPP</a>{% t instant_messenger.xmpp %}</li>
   <ul>
-    <li><a href="https://conversations.im/">Conversations</a> (Android) - An open source Jabber/XMPP client for Android 4.4+ smartphones. <span class="badge badge-success">OMEMO</span></li>
-    <li><a href="https://gajim.org/">Gajim</a> (FreeBSD, Linux, Windows) - An open source fully featured XMPP client. <span class="badge badge-success">OMEMO</span></li>
-    <li><a href="https://monal.im/">Monal</a> (iOS, MacOS) - An XMPP client in active development. <span class="badge badge-success">OMEMO</span> <span class="badge badge-success">VoIP</span></li>
-    <li><a href="https://omemo.top/">Other OMEMO ready clients</a>.</li>
+    <li><a href="https://conversations.im/">Conversations</a> (Android){% t instant_messenger.conversations %}<span class="badge badge-success">OMEMO</span></li>
+    <li><a href="https://gajim.org/">Gajim</a> (FreeBSD, Linux, Windows){% t instant_messenger.gajim %}<span class="badge badge-success">OMEMO</span></li>
+    <li><a href="https://monal.im/">Monal</a> (iOS, MacOS){% t instant_messenger.monal %}<span class="badge badge-success">OMEMO</span> <span class="badge badge-success">VoIP</span></li>
+    <li><a href="https://omemo.top/">{% t instant_messenger.other_omemo %}</a>.</li>
   </ul>
-  <li><a href="https://www.kontalk.org/">Kontalk</a> - A community-driven instant messaging network. Supports end-to-end encryption. Both client-to-server and server-to-server channels are fully encrypted.</li>
-  <li><a href="https://keybase.io/">Keybase</a> - <span class="badge badge-warning" data-toggle="tooltip" title="This software relies on a closed-source central server.">Warning</span> End-to-end encrypted messaging with social verification.</li>
-  <li><a href="https://status.im/">Status</a> - <span class="badge badge-warning">Experimental</span> A free and open-source, peer-to-peer, encrypted instant messanger with support for DAPPs.</li>
-  <li> <a href="https://tox.chat/">Tox</a> - <span class="badge badge-warning">Experimental</span> A free and open-source, peer-to-peer, encrypted instant messaging and video calling software. <span class="badge badge-success">VoIP</span></li>
-  <li><a href="https://jami.net/">Jami (formerly Ring/SFLphone)</a> - Gives you full control over your communications and an unmatched level of privacy. Jami has <em>text messaging, video and audio calls, file transfer, video conferencing</em>. <span class="badge badge-success">VoIP</span></li>
+  <li><a href="https://www.kontalk.org/">Kontalk</a>{% t instant_messenger.kontalk %}</li>
+  <li><a href="https://keybase.io/">Keybase</a> - <span class="badge badge-warning" data-toggle="tooltip" title="{% t instant_messenger.keybase_tooltip %}">{% t global.warning %}</span>{% t instant_messenger.keybase %}</li>
+  <li><a href="https://status.im/">Status</a> - <span class="badge badge-warning">{% t global.experimental %}</span>{% t instant_messenger.status %}</li>
+  <li> <a href="https://tox.chat/">Tox</a> - <span class="badge badge-warning">{% t global.experimental %}</span>{% t instant_messenger.tox %}<span class="badge badge-success">{% t global.voip %}</span></li>
+  <li><a href="https://jami.net/">Jami ({% t instant_messenger.formerly %} Ring/SFLphone)</a>{% t instant_messenger.jami %}<span class="badge badge-success">{% t global.voip %}</span></li>
 </ul>
 
 
-<h3>Related Information</h3>
+<h3>{% t instant_messenger.related %}</h3>
 
 <ul>
-  <li><a href="https://firstlook.org/theintercept/2015/07/14/communicating-secret-watched/">Chatting in Secret While We're All Being Watched - firstlook.org</a></li>
-  <li><a href="https://signal.org/android/apk/">Advanced users with special needs can download the Signal APK directly. Most users should not do this under normal circumstances.</a></li>
-  <li>Independent security audits</li>
+  <li><a href="https://firstlook.org/theintercept/2015/07/14/communicating-secret-watched/">{% t instant_messenger.related_firstlook %}</a></li>
+  <li><a href="https://signal.org/android/apk/">{% t instant_messenger.related_signal %}</a></li>
+  <li>{% t instant_messenger.audits %}</li>
   <ul>
-    <li><a href="https://eprint.iacr.org/2016/1013.pdf">A Formal Security Analysis of the Signal Messaging Protocol (2019)</a> by Katriel Cohn-Gordon, Cas Cremers, Benjamin Dowling, Luke Garratt and Douglas Stebila</li>
-    <li><a href="https://wire.com/en/security/#audits">Independent security audits</a> on Wire's website</li>
-    <li><a href="https://keybase.io/docs-assets/blog/NCC_Group_Keybase_KB2018_Public_Report_2019-02-27_v1.3.pdf">Keybase's Protocol Security Review (2019)</a> by <a href="https://www.nccgroup.trust/">NCC Group</a></li>
+    <li><a href="https://eprint.iacr.org/2016/1013.pdf">{% t instant_messenger.audits_eprint %}</li>
+    <li><a href="https://wire.com/en/security/#audits">{% t instant_messenger.audits_wire %}</li>
+    <li><a href="https://keybase.io/docs-assets/blog/NCC_Group_Keybase_KB2018_Public_Report_2019-02-27_v1.3.pdf">{% t instant_messenger.audits_keybase %}</li>
   </ul>
 </ul>
 
