@@ -26,6 +26,7 @@
 [data-icon]:before,
 .ptio-f-droid:before,
 .ptio-ios:before,
+.ptio-linux:before,
 .ptio-macos:before,
 .ptio-netbsd:before,
 .ptio-openbsd:before,
@@ -46,6 +47,7 @@
 
 .ptio-f-droid:before { content: "\f100"; }
 .ptio-ios:before { content: "\f101"; }
+.ptio-linux:before { content: "\f107"; }
 .ptio-macos:before { content: "\f102"; }
 .ptio-netbsd:before { content: "\f103"; }
 .ptio-openbsd:before { content: "\f104"; }

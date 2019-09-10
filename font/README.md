@@ -11,6 +11,9 @@ This font contains icons we need, which Font Awesome does not have.
 | NetBSD      | `ptio-netbsd`         | https://github.com/FortAwesome/Font-Awesome/issues/15496 |
 | Sailfish OS | `ptio-sailfish-os`    | https://github.com/FortAwesome/Font-Awesome/issues/15498 |
 
+We also have custom Linux icon (`ptio-linux`), because I (@dawidpotocki) made it before and looks cleaner.
+And since we are bundling additional font anyway, why not.
+
 ## Building
 
 To build the font, you will need some of the following tools installed.
