@@ -10,7 +10,7 @@ Resolves: #none <!-- The number of the issue that is resolved by this pull reque
 
 - [ ] I have listed the source code in [source_code.md](https://github.com/privacytoolsIO/privacytools.io/blob/master/source_code.md).
 
-- [ ] The project is [free/libre software](https://www.wikipedia.org/wiki/Free_software).
+- [ ] The project is [open source software](https://en.wikipedia.org/wiki/Open-source_software).
 
 - [ ] The project has an associated discussion: # <!-- issue number -->
 

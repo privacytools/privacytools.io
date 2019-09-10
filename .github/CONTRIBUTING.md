@@ -37,7 +37,7 @@ Note: This criteria applies to all of privacytools.io
 ### VPN
 - Prioritize Products by privacy respecting nationality.
 - Cannot be based in USA or UK.
-- Must be acessable via free software (i.e OpenVPN, WireGuard)
+- Must be acessable via open source software (i.e OpenVPN, WireGuard)
 - Use Encryption
 - Accept Cryptocurrency
 - No logging policy
@@ -45,7 +45,7 @@ Note: This criteria applies to all of privacytools.io
 ### Email
 - Outside of USA
 - Support SMTP SSL
-- Accessable Using Free Software (i.e IMAP)
+- Accessable Using Open source Software (i.e IMAP)
 
 ### Hardware
 - Must be [H-Node Class A](https://h-node.org/wiki/page/en/compatibility-classes) or Equivlant (if applicable)
@@ -54,7 +54,7 @@ Note: This criteria applies to all of privacytools.io
 
 ### Software
 - Must be able to download over encrypted network (can be a mirror)
-- Must be free software
+- Must be open source software
 
 ### Encryption
 - Only verifiable encryption is to be trusted
