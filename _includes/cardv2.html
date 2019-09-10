@@ -200,16 +200,6 @@
             {% endif %}
           {% endif %}
 
-          {% if include.android %}
-            {% if include.android != "" %}
-              <a href="{{ include.android }}" class="text-decoration-none hover-text-decoration-none">
-                <i class="fab fa-android fa-2x fa-fw d-inline pr-1"></i>
-              </a>
-            {% else %}
-              <i class="fab fa-android fa-2x fa-fw d-inline pr-1"></i>
-            {% endif %}
-          {% endif %}
-
           {% if include.fdroid %}
             {% if include.fdroid != "" %}
               <a href="{{ include.fdroid }}" class="text-decoration-none hover-text-decoration-none">
@@ -227,6 +217,16 @@
               </a>
             {% else %}
               <i class="fab fa-google-play fa-2x fa-fw d-inline pr-1"></i>
+            {% endif %}
+          {% endif %}
+
+          {% if include.android %}
+            {% if include.android != "" %}
+              <a href="{{ include.android }}" class="text-decoration-none hover-text-decoration-none">
+                <i class="fab fa-android fa-2x fa-fw d-inline pr-1"></i>
+              </a>
+            {% else %}
+              <i class="fab fa-android fa-2x fa-fw d-inline pr-1"></i>
             {% endif %}
           {% endif %}
 
