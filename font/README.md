@@ -9,4 +9,28 @@ This font contains icons we need, which Font Awesome does not have.
 | macOS       | `ptio-macos`          | https://github.com/FortAwesome/Font-Awesome/issues/4936  |
 | OpenBSD     | `ptio-openbsd`        | https://github.com/FortAwesome/Font-Awesome/issues/5345  |
 | NetBSD      | `ptio-netbsd`         | https://github.com/FortAwesome/Font-Awesome/issues/15496 |
-| Sailfish OS | `ptio-sailfish-os`    |   |
+| Sailfish OS | `ptio-sailfish-os`    | https://github.com/FortAwesome/Font-Awesome/issues/15498 |
+
+## Building
+
+To build the font, you will need some of the following tools installed.
+
+| Name              | Notes                                                         |
+|---                |---                                                            |
+| `make`            | Use distro's package manager                                  |
+| `ruby`            | Use distro's package manager                                  |
+| `bundler`         | Run `gem install bundler`                                     |
+|                   |                                                               |
+|                   |                                                               |
+| `woff-tools`      | Use distro's package manager                                  |
+| or                |                                                               |
+| `yarn` or `npm`   | Use distro's package manager                                  |
+| `sfnt2woff`       | Run `yarn global add sfnt2woff` or `npm install -g sfnt2woff` |
+
+Then just run the following commands to build the font:
+
+```
+$ cd font/
+$ bundle   # it will install FontCustom
+$ make build   # it will build a font and css
+```
