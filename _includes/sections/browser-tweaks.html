@@ -28,15 +28,6 @@
   <dt>privacy.trackingprotection.enabled = true</dt>
   <dd>This is Mozilla's new built-in tracking protection. It uses Disconnect.me filter list, which is redundant if you are already using uBlock Origin 3rd party filters, therefore you should set it to false if you are using the add-on functionalities.</dd>
 
-  <dt>browser.cache.offline.enable = false</dt>
-  <dd>Disables offline cache.</dd>
-
-  <dt>browser.safebrowsing.malware.enabled = false</dt>
-  <dd>Disable Google Safe Browsing malware checks. Security risk, but privacy improvement.</dd>
-
-  <dt>browser.safebrowsing.phishing.enabled = false</dt>
-  <dd>Disable Google Safe Browsing and phishing protection. Security risk, but privacy improvement.</dd>
-
   <dt>browser.send_pings = false</dt>
   <dd>The attribute would be useful for letting websites track visitors' clicks.</dd>
 
@@ -46,8 +37,6 @@
   <dt>browser.urlbar.speculativeConnect.enabled = false</dt>
   <dd>Disable preloading of autocomplete URLs. Firefox preloads URLs that autocomplete when a user types into the address bar, which is a concern if URLs are suggested that the user does not want to connect to. <a href="https://www.ghacks.net/2017/07/24/disable-preloading-firefox-autocomplete-urls/">Source</a></dd>
 
-  <dt>dom.battery.enabled = false</dt>
-  <dd>The battery status of your device could be tracked.</dd>
 
   <dt>dom.event.clipboardevents.enabled = false</dt>
   <dd>Disable that websites can get notifications if you copy, paste, or cut something from a web page, and it lets them know which part of the page had been selected.</dd>
@@ -74,26 +63,7 @@
   </ul>
   </dd>
 
-  <dt>network.cookie.lifetimePolicy = 2</dt>
-  <dd>
-  cookies are deleted at the end of the session
-  <ul>
-    <li>0 = Accept cookies normally</li>
-    <li>1 = Prompt for each cookie</li>
-    <li>2 = Accept for current session only</li>
-    <li>3 = Accept for N days</li>
-  </ul>
-  </dd>
 
-  <dt>network.http.referer.trimmingPolicy = 2</dt>
-  <dd>
-  Send only the scheme, host, and port in the <code>Referer</code> header
-  <ul>
-    <li>0 = Send the full URL in the <code>Referer</code> header</li>
-    <li>1 = Send the URL without its query string in the <code>Referer</code> header</li>
-    <li>2 = Send only the scheme, host, and port in the <code>Referer</code> header</li>
-  </ul>
-  </dd>
 
   <dt>network.http.referer.XOriginPolicy = 2</dt>
   <dd>
@@ -131,18 +101,10 @@
   </ul>
   </dd>
 
-  <dt>extensions.pocket.enabled = false</dt>
-  <dd>Disables Pocket completely.</dd>
 
   <dt>network.IDN_show_punycode = true</dt>
   <dd>Not rendering IDNs as their Punycode equivalent leaves you open to phishing attacks that can be very difficult to notice. <a href="https://krebsonsecurity.com/2018/03/look-alike-domains-and-visual-confusion/#more-42636">Source</a></dd>
 
-  <dt>extensions.blocklist.url = https://blocklists.settings.services.mozilla.com/v1/blocklist/3/%20/%20/</dt>
-  <dd>
-  <p>Limit the amount of identifiable information sent when requesting the Mozilla harmful extension blocklist.
-  <p>Optionally, the blocklist can be disabled entirely by setting <code>extensions.blocklist.enabled</code> to false for increased privacy, but decreased security. <a href="https://old.reddit.com/r/privacytoolsIO/comments/9uqeew/firefox_tip_sanitize_firefox_blocklist_url_so_it/">Source</a></p>
-  </dd>
-</dl>
 
 <h3 id="user.js">Firefox user.js Templates</h3>
 <ul>
