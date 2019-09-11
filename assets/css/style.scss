@@ -5,6 +5,7 @@
 @import 'bootstrap';
 @import 'flag-icon';
 @import 'fontawesome';
+@import 'ptio-font';
 @import 'sortable-theme-bootstrap';
 
 body {
@@ -188,6 +189,15 @@ footer {
   }
 }
 
+.hover-text-decoration-none:hover {
+  text-decoration: none;
+  -webkit-text-decoration-skip: object;
+}
+
+.table td, .table th {
+  vertical-align: middle;
+}
+
 
 /*
  * Navbar
@@ -353,8 +363,3 @@ input#nav-toggle,
   font-size: 0.875em;
   content: "\f186";
 }
-
-.table td, .table th {
-  vertical-align: middle;
-}
-

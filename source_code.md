@@ -201,15 +201,14 @@ Worth Mentioning
 - Password Safe: https://sourceforge.net/projects/passwordsafe/files/
 
 ## Calendar and Contacts Sync
-  Nextcloud: https://github.com/nextcloud
 
-  EteSync: https://github.com/etesync
+Nextcloud: https://github.com/nextcloud
 
-   Worth Mentioning:
-.
-    fruux: https://fruux.com/opensource/
-.
-    Flock: https://github.com/signalapp/Flock
+EteSync: https://github.com/etesync
+
+Worth Mentioning:
+
+- fruux: https://fruux.com/opensource/
 
 ## File Encryption Software
 
@@ -219,7 +218,6 @@ GNU Privacy Guard: https://github.com/gpg/gnupg
 
 PeaZip: https://github.com/giorgiotani/PeaZip/
 
-
 Worth Mentioning:
 - Cryptomator: https://github.com/cryptomator/cryptomator
 
@@ -228,6 +226,8 @@ Worth Mentioning:
 - Linux Unified Key Setup (LUKS): https://gitlab.com/cryptsetup/cryptsetup/
 
 - Hat.sh: https://github.com/sh-dv/hat.sh
+
+- Keka: https://www.keka.io/
 
 ## Self-contained Networks
  TorBrowser: https://gitweb.torproject.org/tor.git
@@ -275,8 +275,6 @@ Raddle: https://gitlab.com/postmill
 
 ## Domain Name System (DNS)
 
-OpenNic: https://github.com/opennic/
-
 Njalla: Non-free/Proprietary Software
 
 DNSCrypt-Proxy: https://github.com/jedisct1/dnscrypt-proxy/
@@ -308,8 +306,6 @@ PowerDNS: https://github.com/PowerDNS/pdns
 - Nebulo: https://git.frostnerd.com/PublicAndroidApps/smokescreen/
 
 #### Local DNS servers
-
-- Namecoin: https://github.com/namecoin
 
 - Stubby: https://github.com/getdnsapi/stubby
 
@@ -344,43 +340,28 @@ PowerDNS: https://github.com/PowerDNS/pdns
 
 
 ## Productivity Tools
- Etherpad: https://github.com/ether/etherpad-lite
 
- Write.as: https://code.as/writeas
+CryptPad: https://github.com/xwiki-labs/cryptpad
 
- Protected Text:
-Frontend:?
-Backend: closed-source
+Etherpad: https://github.com/ether/etherpad-lite
 
-  Worth Mentioning
+Write.as: https://code.as/writeas
 
-   Cryptee: https://github.com/cryptee
-Backend: Closed Source
+### Worth Mentioning
 
-   EtherCalc: https://github.com/audreyt/ethercalc
+- Cryptee: https://github.com/cryptee
 
-   Disroot:
-  Email:
-  Cloud: https://github.com/nextcloud/server
-  Diaspora/Social-Network: https://github.com/diaspora/
-  Forum: https://github.com/discourse/discourse
-  Chat: http://hg.prosody.im/
-  Pads: https://github.com/ether/etherpad-lite
-  Pastebin: https://github.com/PrivateBin/PrivateBin via https://disroot.org/en/services/privatebin
-  Upload:
- Lufi: https://framagit.org/fiat-tux/hat-softwares/lufi
-  Search:
- Searx: https://github.com/asciimoo/searx
-  Polls:
- Framadate: https://git.framasoft.org/framasoft/framadate
-  Project Board:
- Taiga: https://github.com/taigaio/
- Website: https://git.fosscommunity.in/disroot/website + some other repositories https://git.fosscommunity.in/disroot/
+- EtherCalc: https://github.com/audreyt/ethercalc
 
+- Disroot: https://git.fosscommunity.in/disroot
 
-   Dudle: https://github.com/kellerben/dudle/
+- Dudle: https://github.com/kellerben/dudle/
 
-   LibreOffice: https://gerrit.libreoffice.org/
+- Framadate: https://framagit.org/framasoft/framadate/framadate
+
+- LibreOffice: https://gerrit.libreoffice.org/
+
+- VSCodium: https://github.com/VSCodium/vscodium
 
 MAT2: https://0xacab.org/jvoisin/mat2
 

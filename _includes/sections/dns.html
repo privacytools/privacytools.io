@@ -2,16 +2,6 @@
 
 {%
   include cardv2.html
-  title="OpenNIC - Service"
-  image="/assets/img/tools/OpenNIC.png"
-  description="OpenNIC is an alternate network information center/alternative DNS root which lists itself as an alternative to ICANN and its registries. Like all alternative root DNS systems, OpenNIC-hosted domains are unreachable to the vast majority of the Internet."
-  website="https://www.opennic.org/"
-  forum="https://forum.privacytools.io/t/discussion-opennic/338"
-  github="https://github.com/OpenNIC"
-%}
-
-{%
-  include cardv2.html
   title="Njalla - Domain Registration"
   image="/assets/img/provider/Njalla.png"
   description="Njalla only needs your email or XMPP address in order to register a domain name for you. Created by people from The Pirate Bay and IPredator VPN. Accepted Payments: Bitcoin, Litecoin, Monero, DASH, Bitcoin Cash and PayPal. A privacy-aware domain registration service."
@@ -28,8 +18,12 @@
   website="https://github.com/jedisct1/dnscrypt-proxy/"
   forum="https://forum.privacytools.io/t/discussion-dnscrypt-proxy/1498"
   github="https://github.com/jedisct1/dnscrypt-proxy/"
+  windows="https://github.com/jedisct1/dnscrypt-proxy/releases"
   linux=""
-  mac=""
+  mac="https://github.com/jedisct1/dnscrypt-proxy/releases"
+  freebsd="https://www.freshports.org/dns/dnscrypt-proxy2/"
+  openbsd="http://openports.se/net/dnscrypt-proxy"
+  netbsd="http://pkgsrc.se/net/dnscrypt-proxy2"
   android=""
   ios=""
 %}
@@ -563,7 +557,6 @@
   </li>
   <li><strong>Local DNS servers:</strong>
     <ul>
-      <li><em><a href="https://namecoin.info/">Namecoin</a></em> - A decentralized DNS open-source information registration and transfer system based on the Bitcoin cryptocurrency.</li>
       <li><em><a href="https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby">Stubby</a></em> - An open-source application for Linux, macOS, and Windows that acts as a local DNS Privacy stub resolver using DoT.</li>
       <li><em><a href="https://nlnetlabs.nl/projects/unbound/about/">Unbound</a></em> - a validating, recursive, caching DNS resolver. It can also be ran network-wide and has supported DNS-over-TLS since version 1.7.3.</li>
       <ul>
