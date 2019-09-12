@@ -7,6 +7,9 @@ Please read this before contributing.
 - Be nice and respectful.
 - English only.
 - Be constructive.
+- Please feel free to *review changes* in the *files changed* tab of any
+  pull request at any time.
+- See also our [Code of Conduct](https://github.com/privacytoolsIO/privacytools.io/blob/master/CODE_OF_CONDUCT.md)
 
 ## Quality over Quantity
 
