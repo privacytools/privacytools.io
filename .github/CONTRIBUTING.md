@@ -51,7 +51,7 @@ Note: This criteria applies to all of privacytools.io
 - Accessable Using Open Source Software (i.e IMAP)
 
 ### Hardware
-- Must be [H-Node Class A](https://h-node.org/wiki/page/en/compatibility-classes) or Equivalant (if applicable)
+- Must be [H-Node Class A](https://h-node.org/wiki/page/en/compatibility-classes) or equivalent (if applicable)
 - Must prioritize hardware certifications like [RYF](https://ryf.fsf.org/), [OSHWA](https://certification.oshwa.org/), and OSI when avalible.
 - Cannot lock users to a particular platform.
 
