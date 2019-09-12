@@ -1,0 +1,179 @@
+---
+---
+$dark-400: #181b21;
+$dark-300: #22262e;
+$dark-200: #343a46;
+$dark-100: #464f60;
+$light: #d8d8d8;
+$primary: #345e8e;
+$danger: #b63f4a;
+$secondary: $dark-100;
+$success: #2c7f40;
+$warning: #c6a339;
+$info: #218899;
+
+
+/*
+ * HTML
+ */
+
+body {
+  background: $dark-400;
+  color: $light;
+}
+a {
+  color: lighten($primary, 25%);
+}
+a:hover {
+  color: lighten($primary, 10%);
+}
+img {
+  filter: saturate(80%);
+}
+
+
+/*
+ * Bootstrap
+ */
+
+.alert a {
+  color: #214D97;
+}
+
+.bg-secondary, .btn-secondary, .badge-secondary { background-color: $secondary !important; }
+.btn-secondary, .card-secondary .card-header { border-color: $secondary !important; }
+.text-secondary { color: $secondary !important; }
+.alert-secondary, .btn-secondary:hover {
+  color: $light;
+  background-color: darken($secondary, 10%);
+  border-color: darken($secondary, 10%);
+}
+
+.bg-primary, .btn-primary, .badge-primary { background-color: $primary !important; }
+.btn-primary, .card-primary .card-header { border-color: $primary !important; }
+.text-primary { color: $primary !important; }
+.alert-primary, .btn-primary:hover {
+  color: $light;
+  background-color: darken($primary, 10%);
+  border-color: darken($primary, 10%);
+}
+
+.bg-warning, .btn-warning, .badge-warning { background-color: $warning !important; }
+.btn-warning, .card-warning .card-header { border-color: $warning !important; }
+.text-warning { color: $warning !important; }
+.card-warning > .text-dark { color: $dark-400 !important; }
+.alert-warning, .btn-warning:hover {
+  color: $light;
+  background-color: darken($warning, 10%);
+  border-color: darken($warning, 10%);
+}
+
+.bg-info, .btn-info, .badge-info { background-color: $info !important; }
+.btn-info, .card-info .card-header { border-color: $info !important; }
+.text-info { color: $info !important; }
+.alert-info, .btn-info:hover {
+  color: $light;
+  background-color: darken($info, 10%);
+  border-color: darken($info, 10%);
+}
+
+.bg-success, .btn-success, .badge-success { background-color: $success !important; }
+.btn-success, .card-success .card-header { border-color: $success !important; }
+.text-success { color: $success !important; }
+.alert-success, .btn-success {
+  color: $light;
+  background-color: darken($success, 10%);
+  border-color: darken($success, 10%);
+}
+
+.bg-danger, .btn-danger, .badge-danger { background-color: $danger !important; }
+.btn-danger, .card-danger .card-header { border-color: $danger !important; }
+.text-danger { color: $danger !important; }
+.alert-danger, .btn-danger:hover {
+  color: $light;
+  background-color: darken($danger, 10%);
+  border-color: darken($danger, 10%);
+}
+
+.card {
+  box-shadow: none !important;
+}
+
+.dropdown-item:hover {
+  color: $light;
+  background-color: $dark-300;
+}
+
+.form-control,
+.form-control:focus {
+  color: $light;
+  background: $dark-300;
+  border-color: $dark-300;
+}
+
+.form-control[readonly],
+.form-control:disabled {
+  background: $dark-300;
+}
+
+.card,
+.jumbotron,
+.list-group-item {
+  background: $dark-300;
+}
+
+.blockquote {
+  border-color: $dark-300;
+}
+
+.bg-dark {
+  background-color: $dark-300 !important;
+}
+
+.dropdown-item {
+  color: $light;
+}
+
+.list-group-item {
+  border-color: $dark-200;
+}
+
+.text-dark {
+  color: $light !important;
+}
+
+table[data-sortable].sortable-theme-bootstrap {
+  color: $light;
+  background-color: $dark-300;
+}
+table[data-sortable].sortable-theme-bootstrap th,
+table[data-sortable].sortable-theme-bootstrap td {
+  border-color: $dark-100 !important;
+}
+table[data-sortable].sortable-theme-bootstrap th[data-sorted="true"] {
+  color: $light;
+  background: $dark-200;
+}
+table[data-sortable].sortable-theme-bootstrap th[data-sorted="true"][data-sorted-direction="ascending"]::after, {
+  border-bottom-color: $light;
+}
+table[data-sortable].sortable-theme-bootstrap th[data-sorted="true"][data-sorted-direction="descending"]::after {
+  border-top-color: $light;
+}
+
+
+/*
+ * Other
+ */
+
+.nav-dropdown {
+  color: $light;
+  background-color: $dark-400;
+  border-color: $dark-300;
+}
+
+.nav-theme-icon:before {
+  color: $warning;
+  font-size: 1em;
+  content: "\f185";
+}

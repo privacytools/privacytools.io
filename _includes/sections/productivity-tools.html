@@ -1,34 +1,73 @@
 <h1 id="productivity" class="anchor"><a href="#productivity"><i class="fas fa-link anchor-icon"></i></a> Productivity Tools</h1>
 
-<div class="row mb-2">
+{%
+  include cardv2.html
+  title="CryptPad"
+  image="/assets/img/provider/CryptPad.png"
+  description="<strong>CryptPad</strong> is a private-by-design alternative to popular office tools and cloud services. All content is end-to-end encrypted. It is free and open source, enabling anyone to verify its security by auditing the code. The development team is supported by donations and grants. No registration is required, and it can be used anonymously via Tor Browser."
+  website="https://cryptpad.fr/"
+  forum="https://forum.privacytools.io/t/discussion-cryptpad-productivity-tools/1537"
+  github="https://github.com/xwiki-labs/cryptpad"
+  web="https://cryptpad.fr/"
+%}
 
-  {% include card.html color="success"
-    title="CryptPad"
-    image="/assets/img/provider/CryptPad.png"
-
-    description="CryptPad is a private-by-design alternative to popular office tools and cloud services. All content is end-to-end encrypted. It is free and open source, enabling anyone to verify its security by auditing the code. The development team is supported by donations and grants. No registration is required, and it can be used anonymously via Tor browser."
-
-    url="https://cryptpad.fr/"
-    footer='OS: Linux, macOS, Windows, Web.'
-  %}
-
-  {% include card.html color="primary"
+{%
+  include cardv2.html
   title="Etherpad"
   image="/assets/img/tools/Etherpad.png"
-  url="https://etherpad.org/"
-  footer="OS: Windows, macOS, Linux."
-  description="Etherpad is a highly customizable Open Source online editor providing collaborative editing in really real-time. Etherpad allows you to edit documents collaboratively in real-time, much like a live multi-player editor that runs in your browser. Write articles, press releases, to-do lists, etc. <a href=https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad>Sites That Run Etherpad</a>"
-  %}
+  description="<strong>Etherpad</strong> is a highly customizable open source online editor providing collaborative editing in real-time. <a href=https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad>Here are a list of sites that run Etherpad</a>."
+  website="https://etherpad.org/"
+  forum="https://forum.privacytools.io/t/discussion-etherpad-productivity-tools/1538"
+  github="https://github.com/ether/etherpad-lite"
+  web="https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad"
+  windows="https://github.com/ether/etherpad-lite#windows"
+  linux="https://github.com/ether/etherpad-lite#installation"
+  mac="https://github.com/ether/etherpad-lite#gnulinux-and-other-unix-like-systems"
+  freebsd="https://github.com/ether/etherpad-lite#gnulinux-and-other-unix-like-systems"
+  openbsd="https://github.com/ether/etherpad-lite#gnulinux-and-other-unix-like-systems"
+  netbsd="https://github.com/ether/etherpad-lite#gnulinux-and-other-unix-like-systems"
+%}
 
-  {% include card.html color="warning"
+{%
+  include cardv2.html
   title="Write.as"
   image="/assets/img/tools/WriteAs.png"
-  url="https://write.as/"
+  description="<strong>Write.as</strong> is a cross-platform, privacy-oriented blogging platform. It's anonymous by default, letting you publish without signing up. If you create an account, it doesn't require any personal information. No ads, distraction-free, and built on a sustainable business model."
+  website="https://write.as/"
+  forum="https://forum.privacytools.io/t/discussion-write-as-productivity-tools/1539"
   tor="http://writeas7pm7rcdqg.onion"
-  footer="OS: Windows, macOS, Linux, Android, iOS, Chrome OS, Web."
-  description="Write.as is a cross-platform, privacy-oriented blogging platform. It's anonymous by default, letting you publish without signing up. If you create an account, it doesn't require any personal information. No ads, distraction-free, and built on a sustainable business model."
-  %}
+  git="https://code.as/writeas"
+  web="https://write.as/pad"
+  windows="https://github.com/writeas/writeas-cli"
+  mac="https://github.com/writeas/writeas-cli"
+  linux="https://write.as/apps"
+  chrome="https://write.as/apps"
+  googleplay="https://play.google.com/store/apps/details?id=com.abunchtell.writeas"
+  ios="https://itunes.apple.com/app/apple-store/id1000755153"
+%}
 
+<h1 id="metadata-removal-tools" class="anchor">
+  <a href="#metadata-removal-tools"
+    ><i class="fas fa-link anchor-icon"></i>
+  </a> Metadata Removal Tools
+</h1>
+
+<div class="row mb-2">
+{%
+  include cardv2.html
+  title="MAT2"
+  image="/assets/img/tools/MAT2.png"
+  description="<strong>MAT2</strong> is free software, which allows the removal of metadata of image, audio, torrent, and document file types. It provides both a command line tool and a graphical user interface via an extension for Nautilus, the default file manager of GNOME."
+  website="https://0xacab.org/jvoisin/mat2"
+  forum="https://forum.privacytools.io/t/discussion-mat/1559"
+  gitlab="https://0xacab.org/jvoisin/mat2"
+  windows="https://pypi.org/project/mat2/"
+  mac="https://pypi.org/project/mat2/"
+  linux="https://pypi.org/project/mat2/"
+  freebsd="https://pypi.org/project/mat2/"
+  openbsd="https://pypi.org/project/mat2/"
+  netbsd="https://pypi.org/project/mat2/"
+%}
 </div>
 
 <h3>Worth Mentioning</h3>
@@ -36,8 +75,9 @@
 <ul>
   <li><a href="https://crypt.ee/">Cryptee</a> - Free privacy-friendly service for storing Documents, files and Photos</li>
   <li><a href="https://ethercalc.net/">EtherCalc</a> - EtherCalc is a web spreadsheet. Data is saved on the web, and people can edit the same document at the same time. Changes are instantly reflected on all screens. Work together on inventories, survey forms, list management, brainstorming sessions.</li>
-  <li><a href="https://disroot.org/">disroot.org</a> - Free privacy-friendly service that offers Etherpad, EtherCalc and PrivateBin.</li>
-  <li><a href="https://dudle.inf.tu-dresden.de/anonymous/">dudle</a> - An online scheduling application, which is free and OpenSource. Schedule meetings or make small online polls. No email collection or the need of registration.</li>
-  <li><a href="https://www.libreoffice.org/">LibreOffice</a> - Free and open source office suite</li>
-  <li><a href="https://vscodium.com/">VSCodium</a> - Fork of Visual Studio Code editor without Microsoft's tracking </li>
+  <li><a href="https://disroot.org/">Disroot</a> - Free privacy-friendly service that offers Etherpad, EtherCalc and PrivateBin.</li>
+  <li><a href="https://dudle.inf.tu-dresden.de/anonymous/">dudle</a> - An online scheduling application, free and open source. Schedule meetings or make small online polls. No email collection or the need of registration.</li>
+  <li><a href="https://framadate.org/">Framadate</a> - A free and open source online service for planning an appointment or making a decision quickly and easily. No registration is required.</li>
+  <li><a href="https://www.libreoffice.org/">LibreOffice</a> - Free and open source office suite.</li>
+  <li><a href="https://vscodium.com/">VSCodium</a> - Fork of Microsoft's Visual Studio Code editor without branding or telemetry.</li>
 </ul>
