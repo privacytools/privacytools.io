@@ -13,8 +13,6 @@ https://github.com/privacytoolsIO/
 
  Firefox: https://hg.mozilla.org/
 
- Brave: https://github.com/brave/
-
 ## Excellent Firefox Privacy Add-ons
 
  Privacy Badger: https://github.com/EFForg/privacybadger
@@ -134,22 +132,24 @@ Backend: closed-source
 
  Status.im: https://github.com/status-im
 
- Ricochet: https://github.com/ricochet-im/ricochet
+ Tox: https://github.com/TokTok/c-toxcore
 
-## Encrypted Video & Voice Messenger
- Signal: https://github.com/signalapp
+ Ring/Jami: https://git.jami.net/savoirfairelinux
 
- Wire: https://github.com/wireapp
+## Team chat
 
+ Rocket.chat: https://github.com/rocketchat/
+ 
+ Keybase: https://github.com/Keybase
+
+## Video & Voice Messenger
  Linphone: https://github.com/BelledonneCommunications/
+
+ Mumble: https://github.com/mumble-voip/
 
    Worth Mentioning
 
- Jitsi: https://github.com/jitsi/jitsi-meet
-
- Tox: https://github.com/TokTok/c-toxcore
-
- Ring/Jami: https://gerrit-ring.savoirfairelinux.com/#/q/status:open
+ Jitsi Meet: https://github.com/jitsi/jitsi-meet
 
  ## File Sharing
   OnionShare: https://github.com/micahflee/onionshare
@@ -185,49 +185,49 @@ Backend: closed-source
     git-annex: http://source.git-annex.branchable.com/?p=source.git;a=summary
 
 ## Password Manager Software
- Bitwarden: https://github.com/bitwarden
 
- KeePass: https://keepass.info/download.html
+Bitwarden: https://github.com/bitwarden
 
- KeePassXC: https://github.com/keepassxreboot
+KeePassXC: https://github.com/keepassxreboot
 
- LessPass: https://github.com/lesspass/lesspass
+LessPass: https://github.com/lesspass/lesspass
 
-   Worth Mentioning
-.
-    Master Password: https://gitlab.com/lhunath/MasterPassword
-.
-    Password Safe: hhttps://sourceforge.net/p/passwordsafe/git-code/ci/master/tree/
+Worth Mentioning
+
+- Master Password: https://gitlab.com/lhunath/MasterPassword
+
+- Psono: https://github.com/psono
+
+- Password Safe: https://sourceforge.net/projects/passwordsafe/files/
 
 ## Calendar and Contacts Sync
-  Nextcloud: https://github.com/nextcloud
 
-  EteSync: https://github.com/etesync
+Nextcloud: https://github.com/nextcloud
 
-   Worth Mentioning:
-.
-    fruux: https://fruux.com/opensource/
-.
-    Flock: https://github.com/signalapp/Flock
+EteSync: https://github.com/etesync
+
+Worth Mentioning:
+
+- fruux: https://fruux.com/opensource/
 
 ## File Encryption Software
- VeraCrypt: https://www.veracrypt.fr/en/Source%20Code.html
 
- GNU Privacy Guard: https://github.com/gpg/gnupg
+VeraCrypt: https://www.veracrypt.fr/en/Source%20Code.html
 
- PeaZip: https://github.com/giorgiotani/PeaZip/
+GNU Privacy Guard: https://github.com/gpg/gnupg
 
- Cryptomator: https://github.com/cryptomator/cryptomator
+PeaZip: https://github.com/giorgiotani/PeaZip/
 
-  Worth Mentioning:
+Worth Mentioning:
+- Cryptomator: https://github.com/cryptomator/cryptomator
 
-   miniLock: https://github.com/kaepora/miniLock
+- DiskCryptor: https://github.com/smartinm/diskcryptor
 
-   AES Crypt: https://github.com/marcobellaccini/pyAesCrypt
+- Linux Unified Key Setup (LUKS): https://gitlab.com/cryptsetup/cryptsetup/
 
-   DiskCryptor: https://github.com/smartinm/diskcryptor
+- Hat.sh: https://github.com/sh-dv/hat.sh
 
-   Linux Unified Key Setup (LUKS): https://gitlab.com/cryptsetup/cryptsetup/
+- Keka: https://www.keka.io/
 
 ## Self-contained Networks
  TorBrowser: https://gitweb.torproject.org/tor.git
@@ -257,22 +257,59 @@ Backend: closed-source
 
    GNU Social: https://gnu.io/source/
 
+## Social News Aggregators
+
+Aether: https://github.com/nehbit/aether
+
+Tildes: https://gitlab.com/tildes
+
+Raddle: https://gitlab.com/postmill
+
+### Worth Mentioning
+
+- Akasha: https://github.com/AkashaProject
+
+- Lemmy: https://github.com/dessalines/lemmy
+
+- notabug.io: https://github.com/notabugio/notabug
+
 ## Domain Name System (DNS)
- Njalla: Non-free/Proprietary Software
 
- DNSCrypt: https://github.com/dnscrypt
-DNSCrypt-proxy: https://github.com/jedisct1/dnscrypt-proxy/
+Njalla: Non-free/Proprietary Software
 
- OpenNic: https://github.com/opennic/ (mostly)
-Webpage: https://github.com/opennic/opennic-web
+DNSCrypt-Proxy: https://github.com/jedisct1/dnscrypt-proxy/
 
-  Worth Mentioning
+### Worth Mentioning
 
-   NoTrack: https://github.com/quidsup/notrack
+- NoTrack: https://github.com/quidsup/notrack
 
-   Namecoin: https://github.com/namecoin
+- Pi-hole: https://github.com/pi-hole
 
-   Pi-hole: https://github.com/pi-hole
+## Encrypted ICANN DNS Providers
+
+AdGuard DNS: https://github.com/AdguardTeam/AdGuardDNS/
+
+BlahDNS: https://github.com/ookangzheng/blahdns/
+
+CloudFlare DNS: https://github.com/cloudflare/dns
+
+NixNet DNS: https://git.nixnet.xyz/NixNet/dns
+
+PowerDNS: https://github.com/PowerDNS/pdns
+
+### Worth Mentioning and Additional Information
+
+#### Mobile
+
+- DNSCloak: https://github.com/s-s/dnscloak
+
+- Nebulo: https://git.frostnerd.com/PublicAndroidApps/smokescreen/
+
+#### Local DNS servers
+
+- Stubby: https://github.com/getdnsapi/stubby
+
+- Unbound: https://github.com/NLnetLabs/unbound
 
 ## Digital Notebook
  Joplin: https://github.com/laurent22/joplin
@@ -293,6 +330,8 @@ Webpage: https://github.com/opennic/opennic-web
  ZeroBin: https://github.com/sebsauvage/ZeroBin
 
  Ghostbin: https://github.com/kilgarth/ghostbin
+ 
+ CryptPad: https://github.com/xwiki-labs/cryptpad
 
   Worth Mentioning:
 
@@ -301,43 +340,30 @@ Webpage: https://github.com/opennic/opennic-web
 
 
 ## Productivity Tools
- Etherpad: https://github.com/ether/etherpad-lite
 
- Write.as: https://code.as/writeas
+CryptPad: https://github.com/xwiki-labs/cryptpad
 
- Protected Text:
-Frontend:?
-Backend: closed-source
+Etherpad: https://github.com/ether/etherpad-lite
 
-  Worth Mentioning
+Write.as: https://code.as/writeas
 
-   Cryptee: https://github.com/cryptee
-Backend: Closed Source
+### Worth Mentioning
 
-   EtherCalc: https://github.com/audreyt/ethercalc
+- Cryptee: https://github.com/cryptee
 
-   Disroot:
-  Email:
-  Cloud: https://github.com/nextcloud/server
-  Diaspora/Social-Network: https://github.com/diaspora/
-  Forum: https://github.com/discourse/discourse
-  Chat: http://hg.prosody.im/
-  Pads: https://github.com/ether/etherpad-lite
-  Pastebin: https://github.com/PrivateBin/PrivateBin via https://disroot.org/en/services/privatebin
-  Upload:
- Lufi: https://framagit.org/fiat-tux/hat-softwares/lufi
-  Search:
- Searx: https://github.com/asciimoo/searx
-  Polls:
- Framadate: https://git.framasoft.org/framasoft/framadate
-  Project Board:
- Taiga: https://github.com/taigaio/
- Website: https://git.fosscommunity.in/disroot/website + some other repositories https://git.fosscommunity.in/disroot/
+- EtherCalc: https://github.com/audreyt/ethercalc
 
+- Disroot: https://git.fosscommunity.in/disroot
 
-   Dudle: https://github.com/kellerben/dudle/
+- Dudle: https://github.com/kellerben/dudle/
 
-   LibreOffice: https://gerrit.libreoffice.org/
+- Framadate: https://framagit.org/framasoft/framadate/framadate
+
+- LibreOffice: https://gerrit.libreoffice.org/
+
+- VSCodium: https://github.com/VSCodium/vscodium
+
+MAT2: https://0xacab.org/jvoisin/mat2
 
 ## PC Operating Systems
  QubesOS: https://github.com/QubesOS
@@ -385,9 +411,8 @@ Backend: Closed Source
      MicroG: https://github.com/microg
 
 ## Android Privacy Add-ons
-   NetGuard: https://github.com/M66B/NetGuard/
 
-   XPrivacyLua: https://github.com/M66B/XPrivacyLua/
+NetGuard: https://github.com/M66B/NetGuard/
 
 ## Open Source Router Firmware
    OpenWRT: https://git.openwrt.org/?p=openwrt/openwrt.git;a=shortlog;h=refs/tags/v18.06.1
