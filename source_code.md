@@ -271,8 +271,6 @@ Invidious: https://github.com/omarroth/invidious
 
 FreeTube: https://github.com/FreeTubeApp/FreeTube
 
-KopyKate (proprietary): https://github.com/misses-robot/KopyKate-Big 
-
 ## Social News Aggregators
 
 Aether: https://github.com/nehbit/aether
