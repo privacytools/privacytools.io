@@ -252,7 +252,7 @@ Backend: closed-source
 
    IPFS: https://github.com/ipfs + https://github.com/ipfs-shipyard
 
-https://github.com/FreeTubeApp/FreeTube## Decentralized Social Networks
+## Decentralized Social Networks
  Mastodon: https://github.com/tootsuite/mastodon
 
  diaspora*: https://github.com/diaspora/diaspora/
