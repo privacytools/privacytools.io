@@ -40,7 +40,7 @@ Note: This criteria applies to all of privacytools.io
 ### VPN
 - Prioritize Products by privacy respecting nationality.
 - Cannot be based in USA or UK.
-- Must be acessable via Open Source Software (i.e OpenVPN, WireGuard)
+- Must be accessible via Open Source Software (i.e OpenVPN, WireGuard)
 - Use Encryption
 - Accept Cryptocurrency
 - No logging policy
