@@ -9,7 +9,7 @@ description: "Contact the privacytoolsIO team if you have any suggestions or are
 
 It's very important to us to stay up-to-date on the latest changes in the privacy space. If you have a software recommendation for us, or want to request a change on this website, please don't hesitate to reach out.
 
-[<i class="fab fa-discourse fa-lg fa-fw"></i> Start a discussion in our Discourse Forum](https://forum.privacytools.io/)
+[<i class="fab fa-discourse fa-lg fa-fw"></i> Start a discussion in our Discourse forum](https://forum.privacytools.io/)
 
 [<i class="fab fa-github fa-lg fa-fw"></i> Open an issue on GitHub](https://github.com/privacytoolsIO/privacytools.io/issues)
 
