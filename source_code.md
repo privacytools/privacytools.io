@@ -151,10 +151,19 @@ Backend: closed-source
 
  Jitsi Meet: https://github.com/jitsi/jitsi-meet
 
- ## File Sharing
-  OnionShare: https://github.com/micahflee/onionshare
+## File Sharing
 
-  Magic Wormhole: https://github.com/warner/magic-wormhole
+Firefox Send: https://github.com/mozilla/send
+
+OnionShare: https://github.com/micahflee/onionshare
+
+Magic Wormhole: https://github.com/warner/magic-wormhole
+
+### Worth Mentioning
+
+- croc: https://github.com/schollz/croc
+
+- FreedomBox: https://salsa.debian.org/freedombox-team
 
  ## Encrypted Cloud Storage Services
   Nextcloud: https://github.com/nextcloud
