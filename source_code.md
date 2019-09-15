@@ -186,7 +186,7 @@ Magic Wormhole: https://github.com/warner/magic-wormhole
 
 ## Secure File Sync Software
 
-SparkleShare: https://www.github.com/hbons/SparkleShare/
+SparkleShare: https://github.com/hbons/SparkleShare/
 
 Syncthing: https://github.com/syncthing/syncthing
 
