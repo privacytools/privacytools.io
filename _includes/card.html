@@ -31,6 +31,8 @@
               <img src="{{include.image}}" width="120" height="120" alt="{{include.title}}" class="panel-item">
               {% elsif include.icon %}
               <i class="{{ include.icon }} panel-icon{% if include.iconcolor %} text-{{include.iconcolor}}{% endif %}"></i>
+              {% elsif include.font %}
+              <span class="{{ include.font }} panel-item" style="font-size: 120px;" alt="{{ include.title }}"></span>
               {% endif %}
               {{include.description}}
             </p>
