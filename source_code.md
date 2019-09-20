@@ -151,10 +151,19 @@ Backend: closed-source
 
  Jitsi Meet: https://github.com/jitsi/jitsi-meet
 
- ## File Sharing
-  OnionShare: https://github.com/micahflee/onionshare
+## File Sharing
 
-  Magic Wormhole: https://github.com/warner/magic-wormhole
+Firefox Send: https://github.com/mozilla/send
+
+OnionShare: https://github.com/micahflee/onionshare
+
+Magic Wormhole: https://github.com/warner/magic-wormhole
+
+### Worth Mentioning
+
+- croc: https://github.com/schollz/croc
+
+- FreedomBox: https://salsa.debian.org/freedombox-team
 
  ## Encrypted Cloud Storage Services
   Nextcloud: https://github.com/nextcloud
@@ -176,13 +185,14 @@ Backend: closed-source
 [WIP]
 
 ## Secure File Sync Software
- SparkleShare: https://www.github.com/hbons/SparkleShare/
 
- Syncthing: https://github.com/syncthing/syncthing
+SparkleShare: https://github.com/hbons/SparkleShare/
 
-   Worth Mentioning
-.
-    git-annex: http://source.git-annex.branchable.com/?p=source.git;a=summary
+Syncthing: https://github.com/syncthing/syncthing
+
+### Worth Mentioning
+
+- git-annex: http://source.git-annex.branchable.com/?p=source.git;a=summary
 
 ## Password Manager Software
 
