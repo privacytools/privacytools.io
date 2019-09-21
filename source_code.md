@@ -175,7 +175,6 @@ Magic Wormhole: https://github.com/warner/magic-wormhole
  Cryptomator: https://github.com/cryptomator/cryptomator
 
 ## Self-Hosted Cloud Server Software
- Pydio: https://github.com/pydio
 
  Tahoe-LAFS: https://github.com/tahoe-lafs/tahoe-lafs
 
