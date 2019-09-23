@@ -7,6 +7,9 @@ Please read this before contributing.
 - Be nice and respectful.
 - English only.
 - Be constructive.
+- Please feel free to *review changes* in the *files changed* tab of any
+  pull request at any time.
+- See also our [Code of Conduct](https://github.com/privacytoolsIO/privacytools.io/blob/master/CODE_OF_CONDUCT.md)
 
 ## Quality over Quantity
 
@@ -17,7 +20,7 @@ We're trying to keep it simple and promote the best tools, not all of them.
 - Easy to use. Could your mother use that tool or service? Usability is most important.
 - Cross-platform / Accessible.
 - Privacy respecting.
-- Open Source / free software is preferred but not required.
+- Open Source / Free Software is preferred but not required.
 - Must list source code in [source_code.md](https://github.com/privacytoolsIO/privacytools.io/blob/master/source_code.md) (if applicable)
 - Prioritize Products without Vendor Lock-in (decentralized/self-hostable) or data interoperability.
 
@@ -37,7 +40,7 @@ Note: This criteria applies to all of privacytools.io
 ### VPN
 - Prioritize Products by privacy respecting nationality.
 - Cannot be based in USA or UK.
-- Must be acessable via free software (i.e OpenVPN, WireGuard)
+- Must be accessible via Open Source Software (i.e OpenVPN, WireGuard)
 - Use Encryption
 - Accept Cryptocurrency
 - No logging policy
@@ -45,16 +48,16 @@ Note: This criteria applies to all of privacytools.io
 ### Email
 - Outside of USA
 - Support SMTP SSL
-- Accessable Using Free Software (i.e IMAP)
+- Accessable Using Open Source Software (i.e IMAP)
 
 ### Hardware
-- Must be [H-Node Class A](https://h-node.org/wiki/page/en/compatibility-classes) or Equivlant (if applicable)
+- Must be [H-Node Class A](https://h-node.org/wiki/page/en/compatibility-classes) or equivalent (if applicable)
 - Must prioritize hardware certifications like [RYF](https://ryf.fsf.org/), [OSHWA](https://certification.oshwa.org/), and OSI when avalible.
 - Cannot lock users to a particular platform.
 
 ### Software
 - Must be able to download over encrypted network (can be a mirror)
-- Must be free software
+- Must be Open Source Software
 
 ### Encryption
 - Only verifiable encryption is to be trusted
