@@ -175,7 +175,6 @@ Magic Wormhole: https://github.com/warner/magic-wormhole
  Cryptomator: https://github.com/cryptomator/cryptomator
 
 ## Self-Hosted Cloud Server Software
- Pydio: https://github.com/pydio
 
  Tahoe-LAFS: https://github.com/tahoe-lafs/tahoe-lafs
 
@@ -185,13 +184,14 @@ Magic Wormhole: https://github.com/warner/magic-wormhole
 [WIP]
 
 ## Secure File Sync Software
- SparkleShare: https://www.github.com/hbons/SparkleShare/
 
- Syncthing: https://github.com/syncthing/syncthing
+SparkleShare: https://github.com/hbons/SparkleShare/
 
-   Worth Mentioning
-.
-    git-annex: http://source.git-annex.branchable.com/?p=source.git;a=summary
+Syncthing: https://github.com/syncthing/syncthing
+
+### Worth Mentioning
+
+- git-annex: http://source.git-annex.branchable.com/?p=source.git;a=summary
 
 ## Password Manager Software
 

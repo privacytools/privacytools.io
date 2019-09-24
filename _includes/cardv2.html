@@ -30,6 +30,9 @@
     <p class="card-text">
       <img
         src="{{include.image}}"
+        {% if include.image-dark %}
+        data-theme-src="{{include.image-dark}}"
+        {% endif %}
         height="120"
         width="120"
         class="panel-pic"

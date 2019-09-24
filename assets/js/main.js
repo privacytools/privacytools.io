@@ -66,6 +66,24 @@ function changeColorScheme() {
     document.querySelector("#dark-css").removeAttribute("media");
     localStorage.setItem("colorScheme", "dark");
   }
+  fixThemeImages();
+}
+
+
+// Fix images in dark theme
+function fixThemeImages() {
+  document.querySelectorAll('[data-theme-src]').forEach(function(image) {
+    tempSrc = image.src;
+    image.src = image.getAttribute("data-theme-src");
+    image.setAttribute("data-theme-src", tempSrc);
+  });
+}
+if (
+  (localStorage.getItem("colorScheme") === "dark") ||
+  (window.matchMedia("(prefers-color-scheme: dark)").matches ^
+    localStorage.getItem("colorScheme") === "light")
+) {
+  fixThemeImages();
 }
 
 
