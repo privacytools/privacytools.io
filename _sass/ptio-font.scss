@@ -28,6 +28,7 @@
 .ptio-ios:before,
 .ptio-linux:before,
 .ptio-macos:before,
+.ptio-mix:before,
 .ptio-netbsd:before,
 .ptio-openbsd:before,
 .ptio-sailfish-os:before {
@@ -47,8 +48,9 @@
 
 .ptio-f-droid:before { content: "\f100"; }
 .ptio-ios:before { content: "\f101"; }
-.ptio-linux:before { content: "\f107"; }
-.ptio-macos:before { content: "\f102"; }
-.ptio-netbsd:before { content: "\f103"; }
-.ptio-openbsd:before { content: "\f104"; }
+.ptio-linux:before { content: "\f102"; }
+.ptio-macos:before { content: "\f103"; }
+.ptio-mix:before { content: "\f107"; }
+.ptio-netbsd:before { content: "\f104"; }
+.ptio-openbsd:before { content: "\f105"; }
 .ptio-sailfish-os:before { content: "\f106"; }

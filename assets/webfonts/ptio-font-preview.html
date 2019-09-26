@@ -165,6 +165,7 @@
 .ptio-ios:before,
 .ptio-linux:before,
 .ptio-macos:before,
+.ptio-mix:before,
 .ptio-netbsd:before,
 .ptio-openbsd:before,
 .ptio-sailfish-os:before {
@@ -184,10 +185,11 @@
 
       .ptio-f-droid:before { content: "\f100"; }
 .ptio-ios:before { content: "\f101"; }
-.ptio-linux:before { content: "\f107"; }
-.ptio-macos:before { content: "\f102"; }
-.ptio-netbsd:before { content: "\f103"; }
-.ptio-openbsd:before { content: "\f104"; }
+.ptio-linux:before { content: "\f102"; }
+.ptio-macos:before { content: "\f103"; }
+.ptio-mix:before { content: "\f107"; }
+.ptio-netbsd:before { content: "\f104"; }
+.ptio-openbsd:before { content: "\f105"; }
 .ptio-sailfish-os:before { content: "\f106"; }
     </style>
 
@@ -204,7 +206,7 @@
   <body class="characters-off">
     <div id="page" class="container">
       <header>
-        <h1>ptio-font contains 7 glyphs:</h1>
+        <h1>ptio-font contains 8 glyphs:</h1>
         <a onclick="toggleCharacters(); return false;" href="#">Toggle Preview Characters</a>
       </header>
 
@@ -244,7 +246,7 @@
         </div>
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".ptio-linux" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf107;" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf102;" />
         </div>
       </div>
       
@@ -257,7 +259,20 @@
         </div>
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".ptio-macos" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf102;" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf103;" />
+        </div>
+      </div>
+      
+      <div class="glyph">
+        <div class="preview-glyphs">
+          <span class="step size-12"><span class="letters">Pp</span><i id="ptio-mix" class="ptio-mix"></i></span><span class="step size-14"><span class="letters">Pp</span><i id="ptio-mix" class="ptio-mix"></i></span><span class="step size-16"><span class="letters">Pp</span><i id="ptio-mix" class="ptio-mix"></i></span><span class="step size-18"><span class="letters">Pp</span><i id="ptio-mix" class="ptio-mix"></i></span><span class="step size-21"><span class="letters">Pp</span><i id="ptio-mix" class="ptio-mix"></i></span><span class="step size-24"><span class="letters">Pp</span><i id="ptio-mix" class="ptio-mix"></i></span><span class="step size-36"><span class="letters">Pp</span><i id="ptio-mix" class="ptio-mix"></i></span><span class="step size-48"><span class="letters">Pp</span><i id="ptio-mix" class="ptio-mix"></i></span><span class="step size-60"><span class="letters">Pp</span><i id="ptio-mix" class="ptio-mix"></i></span><span class="step size-72"><span class="letters">Pp</span><i id="ptio-mix" class="ptio-mix"></i></span>
+        </div>
+        <div class="preview-scale">
+          <span class="step">12</span><span class="step">14</span><span class="step">16</span><span class="step">18</span><span class="step">21</span><span class="step">24</span><span class="step">36</span><span class="step">48</span><span class="step">60</span><span class="step">72</span>
+        </div>
+        <div class="usage">
+          <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".ptio-mix" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf107;" />
         </div>
       </div>
       
@@ -270,7 +285,7 @@
         </div>
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".ptio-netbsd" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf103;" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf104;" />
         </div>
       </div>
       
@@ -283,7 +298,7 @@
         </div>
         <div class="usage">
           <input class="class" type="text" readonly="readonly" onClick="this.select();" value=".ptio-openbsd" />
-          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf104;" />
+          <input class="point" type="text" readonly="readonly" onClick="this.select();" value="&amp;#xf105;" />
         </div>
       </div>
       
