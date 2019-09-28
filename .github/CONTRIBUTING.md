@@ -21,7 +21,6 @@ We're trying to keep it simple and promote the best tools, not all of them.
 - Cross-platform / Accessible.
 - Privacy respecting.
 - Open Source / Free Software is preferred but not required.
-- Must list source code in [source_code.md](https://github.com/privacytoolsIO/privacytools.io/blob/master/source_code.md) (if applicable)
 - Prioritize Products without Vendor Lock-in (decentralized/self-hostable) or data interoperability.
 
 There can be exceptions if no software is available that meet the criteria.

@@ -8,10 +8,8 @@ Resolves: #none <!-- A link to the (discussion) issue resolved by this pull requ
 
 - [ ] I have read and understand [the contributing guidelines](https://github.com/privacytoolsIO/privacytools.io/blob/master/.github/CONTRIBUTING.md).
 
-- [ ] I have listed the source code in [source_code.md](https://github.com/privacytoolsIO/privacytools.io/blob/master/source_code.md).
-
 - [ ] The project is [Free Libre](https://en.wikipedia.org/wiki/Free_software) and/or [Open Source](https://en.wikipedia.org/wiki/Open-source_software) Software
 
 * Netlify preview for the mainly edited page: <!-- link or Non Applicable? Edit this in afterwards -->
 
-* Code repository of the project (if applicable): 
+* Code repository of the project (if applicable):
