@@ -11,7 +11,8 @@
 /assets/js/redirects.js @JonahAragon
 /.well-known/ @JonahAragon
 /404.html @JonahAragon
-/.github/ @JonahAragon @BurungHantu1605
+/.github/CODEOWNERS @JonahAragon @BurungHantu1605
+/.github/FUNDING.yml @JonahAragon @BurungHantu1605
 /LICENSE.txt @JonahAragon @BurungHantu1605
 /.travis.yml @JonahAragon @Shifterovich @nitrohorse
 /CNAME @JonahAragon
