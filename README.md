@@ -39,4 +39,5 @@ You can submit your suggestions here on GitHub [(Issues)](https://github.com/pri
 - [Português / Portuguese](https://www.privacidade.digital/) - [GitHub](https://github.com/PrivacidadeDigital/privacidade.digital)
 
 # License
-[Creative Commons Zero v1.0 Universal](https://www.privacytools.io/LICENSE.txt)
+
+The content and original technology of this website is made available under the [Creative Commons Zero v1.0 Universal](https://www.privacytools.io/LICENSE.txt) license text. Some files or folders may include works from other projects with separate licenses, and will be marked as such. By contributing to this repository, contributors do not necessarily agree to sign a CLA or legally transfer their copyright to the project, but they do at a minimum agree to license their work under the current license of this repository: In this case, the Creative Commons Zero v1.0 Universal.
