@@ -45,7 +45,7 @@ On some websites and services we provide, many features may require an account. 
 
 To sign up for most accounts, we will collect a name, username, email, and password. In the event a website requires more information than just that data, that will be clearly marked and noted in a separate privacy statement, per-site.
 
-We uses your account data to identify you on the website, and to create pages specific to you, such as your profile page. We will also use your account data to publish a public profile for you on our services.
+We use your account data to identify you on the website, and to create pages specific to you, such as your profile page. We will also use your account data to publish a public profile for you on our services.
 
 We use your email to:
 
