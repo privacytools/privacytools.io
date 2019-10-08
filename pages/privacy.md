@@ -60,15 +60,9 @@ We will store your account data as long as your account remains open. After clos
 
 ## Who is my data shared with?
 
-When you use services provided by privacytools.io your data is shared with Aragon Ventures LLC, in order to facilitate their hosting obligations. Aragon Ventures LLC may collect and use your data as described in their privacy statement at [https://aragon.ventures/privacy](https://aragon.ventures/privacy/). When their privacy statement conflicts with this one, their privacy statement should take precedence.
+When you use services provided by privacytools.io your data is shared with Aragon Ventures LLC, in order to facilitate their hosting obligations. Aragon Ventures LLC may collect and use your data as described in their privacy statement at [https://aragon.ventures/privacy](https://aragon.ventures/privacy/).
 
 Your account data, posts, and other activities on privacytools.io services is shared with others as mentioned in the section about account data.
-
-We also may share some data with the following companies in some situations. A description of their role and a link to their privacy notices are as described here:
-
-* **Liberapay** (FR, [https://liberapay.com/about/legal](https://liberapay.com/about/legal)): Donation collection organizer.
-* **PayPal** (US, [https://www.paypal.com/us/webapps/mpp/ua/privacy-full](https://www.paypal.com/us/webapps/mpp/ua/privacy-full)): Payment processor.
-* **Stripe** (US, [https://stripe.com/privacy](https://stripe.com/privacy)): Payment processor.
 
 ## Where is my data stored?
 
