@@ -117,3 +117,5 @@ For complaints under GDPR more generally, European Union users may lodge complai
 This version of our privacy statement took effect October 8th, 2019.
 
 We will post any new versions of this statement at [https://www.privacytools.io/privacy/](https://www.privacytools.io/privacy/). We may change how we announce changes in future versions of this document. In the meantime we may update our contact information at any time without announcing a change. Please refer to [https://www.privacytools.io/privacy/](https://www.privacytools.io/privacy/) for the latest contact information at any time.
+
+A full [revision history](https://github.com/privacytoolsIO/privacytools.io/commits/master/pages/privacy.md) for this page can be found on GitHub.
