@@ -91,7 +91,7 @@ We would like to make sure you are fully aware of all of your data protection ri
 
 ## How can I contact the privacytools.io team about privacy?
 
-The privacytools.io team generally does not have access to personal data outside of limited access granted via some moderation panels. Inquiries regarding your personal information should be sent directly to:
+The privacytools.io team generally does not have access to personal data outside of limited access granted via some moderation panels. Inquiries regarding your personal information should be sent directly to the data controller for these services, Aragon Ventures LLC:
 
 ```
 Jonah Aragon
