@@ -7,7 +7,7 @@ description: "This Privacy Statement explains what information privacytoolsIO an
 
 ## Who is privacytools.io?
 
-privacytools.io is an unincorporated community developing this website and a number of privacy-friendly services. The current list of team members [can be found on GitHub](https://github.com/orgs/privacytoolsIO/people). In order to operate these services, privacytools.io receives hosting and administration services from Aragon Ventures LLC, which also collects payments and donations on the privacytools.io team's behalf.
+privacytools.io is an unincorporated community developing this website and a number of privacy-friendly services. The current list of public team members [can be found on GitHub](https://github.com/orgs/privacytoolsIO/people). In order to operate these services, privacytools.io receives hosting and administration services from Aragon Ventures LLC, which also collects payments and donations on the privacytools.io team's behalf.
 
 ## How does privacytools.io collect data about me?
 
