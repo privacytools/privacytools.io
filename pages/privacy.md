@@ -93,16 +93,20 @@ We would like to make sure you are fully aware of all of your data protection ri
 
 The privacytools.io team generally does not have access to personal data outside of limited access granted via some moderation panels. Inquiries regarding your personal information should be sent directly to:
 
+```
 Jonah Aragon
 Services Administrator, Aragon Ventures LLC
 privacy@aragon.ventures
+```
 
 or write to:
 
+```
 Aragon Ventures LLC
 PO Box 201
 Anoka, MN 55303
 United States
+```
 
 For all other inquiries, you can contact the team via methods described on our [contact page](https://www.privacytools.io/contact/).
 
