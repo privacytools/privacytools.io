@@ -32,7 +32,7 @@
               {% elsif include.icon %}
               <i class="{{ include.icon }} panel-icon{% if include.iconcolor %} text-{{include.iconcolor}}{% endif %}"></i>
               {% elsif include.font %}
-              <span class="{{ include.font }} panel-item" style="font-size: 120px;" alt="{{ include.title }}"></span>
+              <span class="{{ include.font }} panel-item panel-font" alt="{{ include.title }}"></span>
               {% endif %}
               {{include.description}}
             </p>
