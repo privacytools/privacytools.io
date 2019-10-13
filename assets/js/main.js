@@ -1,6 +1,10 @@
 $(function() {
   $("[data-toggle='tooltip']").tooltip();
 });
+document.querySelectorAll(".onclick-select").forEach(element => {
+  element.addEventListener("click", element.select);
+});
+
 
 // Navbar dropdowns
 const navSections = document.querySelectorAll(".nav-details");
@@ -30,6 +34,7 @@ function navSectionsClose(event) {
 
 // Dark/Light color scheme switch button
 document.querySelector("#nav-switch-theme").style.display = "inline";
+document.querySelector("#nav-switch-theme").addEventListener("click", changeColorScheme);
 
 function changeColorScheme() {
   // Use whatever users want
