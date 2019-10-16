@@ -405,7 +405,7 @@ instant_messenger:
   audits_wire: "Independent security audits</a> on Wire's website"
   audits_keybase: "Keybase's Protocol Security Review (2019)</a> by <a href=https://www.nccgroup.trust/>NCC Group</a>"
 video_voice_call:
-  title: "Video\/Voice Calling"
+  title: "Video/Voice Calling"
   alert: "If you are currently using a Video/Voice Calling app like Skype, Viber or Google Hangouts, you should pick an alternative here.</strong> Please note that many of the above instant messengers also support <span class=\"badge badge-success\">VoIP</span>. The software listed below are <em>primarily</em> Voice/Video focused."
   linphone_descr: "Linphone is an open source SIP Phone and a free voice over IP service, available on mobile and desktop environments and on web browsers. It supports ZRTP for end-to-end encrypted voice and video communication."
   mumble_descr: "Mumble is an open source, low-latency, high quality voice chat software primarily intended for use while gaming. Note that while Mumble doesn't log messages or record by default, <a href=\"https://github.com/mumble-voip/mumble/issues/1813\">it's missing end-to-end encryption</a>, so self-hosting is recommended."
