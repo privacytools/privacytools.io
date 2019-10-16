@@ -1,14 +1,17 @@
-<h1 id="voip" class="anchor"><a href="#voip"><i class="fas fa-link anchor-icon"></i></a> Video/Voice Calling</h1>
+<h1 id="voip" class="anchor"><a href="#voip"><i class="fas fa-link anchor-icon"></i></a> {% t video_voice_call.title %}</h1>
 
 <div class="alert alert-warning" role="alert">
-  <strong>If you are currently using a Video/Voice Calling app like Skype, Viber or Google Hangouts, you should pick an alternative here.</strong> Please note that many of the above instant messengers also support <span class="badge badge-success">VoIP</span>. The software listed below are <em>primarily</em> Voice/Video focused.
+  <strong>{% t video_voice_call.alert %}
 </div>
+
+{%- capture video_voice_call_linphone_descr -%}{% t video_voice_call.linphone_descr %}{%- endcapture -%}
+{%- capture video_voice_call_mumble_descr -%}{% t video_voice_call.mumble_descr %}{%- endcapture -%}
 
 {% include cardv2.html
 title="Linphone"
 image="/assets/img/tools/Linphone.png"
 website="https://www.linphone.org/"
-description="Linphone is an open source SIP Phone and a free voice over IP service, available on mobile and desktop environments and on web browsers. It supports ZRTP for end-to-end encrypted voice and video communication."
+description=video_voice_call_linphone_descr
 forum="https://forum.privacytools.io/t/discussion-linphone/751"
 github="https://github.com/BelledonneCommunications"
 ios=""
@@ -23,7 +26,7 @@ web=""
 title="Mumble"
 image="/assets/img/tools/Mumble.png"
 website="https://mumble.info/"
-description="Mumble is an open source, low-latency, high quality voice chat software primarily intended for use while gaming. Note that while Mumble doesn't log messages or record by default, <a href=\"https://github.com/mumble-voip/mumble/issues/1813\">it's missing end-to-end encryption</a>, so self-hosting is recommended."
+description=video_voice_call_mumble_descr
 forum="https://forum.privacytools.io/t/discussion-mumble/1289"
 github="https://github.com/mumble-voip/"
 windows=""
@@ -31,18 +34,18 @@ linux=""
 mac=""
 %}
 
-<h3>Worth Mentioning</h3>
+<h3>{% t video_voice_call.worth_mentioning %}</h3>
 
 <ul>
-  <li><a href="https://jitsi.org/">Jitsi Meet</a> - Jitsi Meet is a free and open source multiplatform voice (VoIP), videoconferencing and instant messaging application. <span class="badge badge-warning" data-toggle="tooltip" title="Our Firefox tweaks recommend disabling WebRTC as it can be used to leak your IP address even behind a VPN, which is why Tor Browser disables it.">Requires WebRTC</span></li>
+  <li><a href="https://jitsi.org/">Jitsi Meet</a> - {% t video_voice_call.jitsi_descr %} <span class="badge badge-warning" data-toggle="tooltip" title="{% t video_voice_call.webrtc_warning %}">{% t video_voice_call.requires_webrtc %}</span></li>
 </ul>
 
-<h3>Related Information</h3>
+<h3>{% t video_voice_call.related_information %}</h3>
 
 <ul>
-  <li>More information about Mumble:</li>
+  <li>{% t video_voice_call.more_info_mumble %}</li>
   <ul>
-  <li><a href="https://wiki.mumble.info/wiki/Running_Murmur">Running Mumble Server</a> and <a href="https://wiki.mumble.info/wiki/Murmur.ini">its config file</a>, particularly <a href="https://wiki.mumble.info/wiki/Murmur.ini#obfuscate">obfuscating IPv4 addresses</a> and <a href="https://wiki.mumble.info/wiki/Murmur.ini#Process_Administrivia">logging</a></li>
-  <li><a href="https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO/Mumble">Torifying Mumble</a>
+  <li>{% t video_voice_call.running_mumble %}</li>
+  <li>{% t video_voice_call.torifying_mumble %}</li>
   </ul>
 </ul>
