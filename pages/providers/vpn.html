@@ -47,7 +47,7 @@ description: "Find a no-logging VPN operator who isn't out to sell or read your 
 
     <div class="col-12">
       <h3><span class="badge badge-info">Technology</span></h3>
-      <p>We require all our recommended VPN providers to provide OpenVPN configuration files to be used in any client. <strong>If</strong> a VPN provides their own custom client, we require a kill-switch to block network data leaks when disconnected.</p>
+      <p>We require all our recommended VPN providers to provide OpenVPN configuration files to be used in any client. <strong>If</strong> a VPN provides their own custom client, we require a killswitch to block network data leaks when disconnected.</p>
     </div>
     <div class="col-md-6">
       <p><strong>Minimum to Qualify:</strong></p>
@@ -59,8 +59,8 @@ description: "Find a no-logging VPN operator who isn't out to sell or read your 
     <div class="col-md-6">
       <p><strong>Best Case:</strong></p>
       <ul>
-        <li>OpenVPN and Wireguard support.</li>
-        <li>Kill-switch with highly configurable options (enable/disable on certain networks, on boot, etc.)</li>
+        <li>OpenVPN and WireGuard support.</li>
+        <li>Killswitch with highly configurable options (enable/disable on certain networks, on boot, etc.)</li>
         <li>Easy-to-use mobile clients, especially open-source.</li>
       </ul>
     </div>
@@ -86,7 +86,7 @@ description: "Find a no-logging VPN operator who isn't out to sell or read your 
 
     <div class="col-12">
       <h3><span class="badge badge-info">Security</span></h3>
-      <p>A VPN is pointless if it can't even provide adequate security. We require all our recommended providers to abide by current security standards for their OpenVPN connections. Ideally, they would use more future-proof encryption schemes by default. We also require an independent third-party to audit the provider's security. Ideally in a very comprehensive manner and on a repeated (yearly) basis.</p>
+      <p>A VPN is pointless if it can't even provide adequate security. We require all our recommended providers to abide by current security standards for their OpenVPN connections. Ideally, they would use more future-proof encryption schemes by default. We also require an independent third-party to audit the provider's security, ideally in a very comprehensive manner and on a repeated (yearly) basis.</p>
     </div>
     <div class="col-md-6">
       <p><strong>Minimum to Qualify:</strong></p>
@@ -102,7 +102,7 @@ description: "Find a no-logging VPN operator who isn't out to sell or read your 
         <li>Strongest Encryption: RSA-4096.</li>
         <li>Perfect Forward Secrecy (PFS).</li>
         <li>Comprehensive published security audits from a reputable third-party firm.</li>
-        <li>Bug-bounty programs and/or a coordinated vulnerability-disclosure process</li>
+        <li>Bug-bounty programs and/or a coordinated vulnerability-disclosure process.</li>
       </ul>
     </div>
 
@@ -145,7 +145,7 @@ description: "Find a no-logging VPN operator who isn't out to sell or read your 
       <p>In most cases, most of your traffic is already encrypted! Over 98% of the top 3000 websites offer <strong>HTTPS</strong>, meaning your non-DNS traffic is safe regardless of using a VPN. It is incredibly rare for applications that handle personal data to not support HTTPS in 2019, especially with services like Let's Encrypt offering free HTTPS certificates to any website operator.</p>
       <p>Even if a site you visit doesn't support HTTPS, a VPN will not protect you, because a VPN cannot magically encrypt the traffic between the VPN's servers and the website's servers. Installing an extension like <a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a> and making sure every site you visit uses HTTPS is far more helpful than using a VPN.</p>
       <h4>Should I use encrypted DNS with a VPN?</h4>
-      <p>The answer to this question is also the not very helpful: <strong>it depends</strong>. Your VPN provider may have their own DNS servers, but if they don't, the traffic between your VPN provider and the DNS server isn't encrypted. You need to trust the <a href="/providers/dns/#icanndns">encrypted DNS provider</a> in addition to the VPN provider and unless your client and target server support <a href="https://www.eff.org/deeplinks/2018/09/esni-privacy-protecting-upgrade-https">encrypted SNI</a>, the VPN provider can still see which domains you are visiting.</p>
+      <p>The answer to this question is also not very helpful: <strong>it depends</strong>. Your VPN provider may have their own DNS servers, but if they don't, the traffic between your VPN provider and the DNS server isn't encrypted. You need to trust the <a href="/providers/dns/#icanndns">encrypted DNS provider</a> in addition to the VPN provider and unless your client and target server support <a href="https://www.eff.org/deeplinks/2018/09/esni-privacy-protecting-upgrade-https">encrypted SNI</a>, the VPN provider can still see which domains you are visiting.</p>
       <p>However <strong>you shouldn't use encrypted DNS with Tor</strong>. This would direct all of your DNS requests through a single circuit, and would allow the encrypted DNS provider to deanonymize you.</p>
       <h3>What if I need anonymity?</h3>
       <p>VPNs cannot provide strong anonymity. Your VPN provider will still see your real IP address, and often has a money trail that can be linked directly back to you. You cannot rely on "no logging" policies to protect your data.</p>
@@ -159,9 +159,9 @@ description: "Find a no-logging VPN operator who isn't out to sell or read your 
       <p>A VPN may still be useful to you in a variety of scenarios, such as:</p>
       <ol>
         <li>Hiding your traffic from <strong>only</strong> your Internet Service Provider.</li>
-        <li>Hiding your downloads (such as Torrents) from your ISP and anti-piracy organizations.</li>
+        <li>Hiding your downloads (such as torrents) from your ISP and anti-piracy organizations.</li>
       </ol>
-      <p>For use-cases like these, or if you have another compelling reason, the VPN providers we listed above are who we think are the most trustworthy. However, using a VPN provider still means you're <em>trusting</em> the provider. In pretty much any other scenario you should be using a secure<strong>-by-design</strong> tool such as Tor.</p>
+      <p>For use cases like these, or if you have another compelling reason, the VPN providers we listed above are who we think are the most trustworthy. However, using a VPN provider still means you're <em>trusting</em> the provider. In pretty much any other scenario you should be using a secure<strong>-by-design</strong> tool such as Tor.</p>
     </div>
   </div>
   <div class="row">
@@ -170,7 +170,7 @@ description: "Find a no-logging VPN operator who isn't out to sell or read your 
         <ol>
           <li><a href="https://schub.io/blog/2019/04/08/very-precarious-narrative.html">VPN - a Very Precarious Narrative</a> by Dennis Schubert</li>
           <li><a href="https://gist.github.com/joepie91/5a9909939e6ce7d09e29">Don't use VPN services</a> by Sven Slootweg</li>
-          <li><a href="/software/networks/">Self-contained networks</a> on privacytools.io are able to replace a VPN that allows access to services on local area network</li>
+          <li><a href="/software/networks/">The self-contained networks</a> recommended on privacytools.io are able to replace a VPN that allows access to services on local area network</li>
           <li><a href="https://write.privacytools.io/my-thoughts-on-security/slicing-onions-part-1-myth-busting-tor">Slicing Onions: Part 1 – Myth-busting Tor</a> by blacklight447</li>
           <li><a href="https://write.privacytools.io/my-thoughts-on-security/slicing-onions-part-2-onion-recipes-vpn-not-required">Slicing Onions: Part 2 – Onion recipes; VPN not required</a> by blacklight447</li>
         </ol>
