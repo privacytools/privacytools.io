@@ -70,3 +70,7 @@ See https://www.privacytools.io/providers/vpn/#criteria for more details.
 
 - Provider logos are 200px x 70px ([example](https://www.privacytools.io/assets/img/provider/AirVPN.png))
 - Tool logos are 120px x 120px ([example](https://www.privacytools.io/assets/img/tools/ChatSecure.png))
+
+## Licensing
+
+The content and original technology of this website is made available under the Creative Commons Zero v1.0 Universal license text. Some files or folders may include works from other projects with separate licenses, and will be marked as such. **By contributing to this repository, contributors do not necessarily agree to sign a CLA or legally transfer their copyright to the project, but they do at a minimum agree to license their work under the current license of this repository: In this case, the Creative Commons Zero v1.0 Universal.**
