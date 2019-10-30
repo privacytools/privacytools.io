@@ -25,7 +25,7 @@ Please read this document in full before contributing.
 - Be constructive.
 - Please feel free to *review changes* in the *files changed* tab of any
   pull request at any time.
-- See also our [Code of Conduct](https://github.com/privacytoolsIO/privacytools.io/blob/master/CODE_OF_CONDUCT.md)
+- See also our [Code of Conduct](https://github.com/privacytoolsIO/.github/blob/master/CODE_OF_CONDUCT.md)
 
 ## Quality over Quantity
 
@@ -95,8 +95,8 @@ See https://www.privacytools.io/providers/vpn/#criteria for more details.
 
 ## Images
 
-- Provider logos are 200px x 70px ([example](https://www.privacytools.io/assets/img/provider/AirVPN.png))
-- Tool logos are 120px x 120px ([example](https://www.privacytools.io/assets/img/tools/ChatSecure.png))
+- Provider logos are 200px x 70px ([example](https://github.com/privacytoolsIO/privacytools.io/blob/master/assets/img/provider/Mullvad.png))
+- Tool logos are 120px x 120px ([example](https://github.com/privacytoolsIO/privacytools.io/blob/master/assets/img/tools/Firefox.png))
 
 ## Licensing
 
