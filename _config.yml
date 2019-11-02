@@ -11,3 +11,4 @@ sitemap:
 file: "/sitemap.xml"
 include: [".well-known"]
 languages: ["en", "pl"]
+exclude: ["font", "vendor"]

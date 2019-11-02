@@ -11,7 +11,7 @@
 
       <div id="nav-left" class="position-relative flex-col">
         <a class="nav-anchor" href="/index.html">
-          <span id="nav-home" class="fas fa-home"></span>
+          <span id="nav-home" class="fas fa-home fa-fw"></span>
         </a>
 
         <!-- Provider -->
@@ -68,10 +68,11 @@
             <a class="dropdown-item" href="/software/email/"><span class="fas fa-envelope fa-fw"></span> {% t software.email_clients %}</a>
             <a class="dropdown-item" href="/software/encryption-tools/"><span class="fas fa-lock fa-fw"></span> {% t software.file_encryption %}</a>
             <a class="dropdown-item" href="/software/file-sharing/"><span class="fas fa-file-export fa-fw"></span> {% t software.file_sharing %}</a>
+            <a class="dropdown-item" href="/software/file-sync/"><span class="fas fa-copy fa-fw"></span> {% t software.file_sync %}</a>
+            <a class="dropdown-item" href="/software/productivity/#metadata-removal-tools"><span class="far fa-eye-slash fa-fw"></span> {% t software.metadata_removal %}</a>
             <a class="dropdown-item" href="/software/passwords/"><span class="fas fa-user-lock fa-fw"></span> {% t software.password_managers %}</a>
             <a class="dropdown-item" href="/software/productivity/"><span class="fas fa-briefcase fa-fw"></span> {% t software.productivity %}</a>
             <a class="dropdown-item" href="/software/real-time-communication/"><span class="fas fa-comments fa-fw"></span> {% t software.rtc %}</a>
-            <a class="dropdown-item" href="/software/file-sync/"><span class="fas fa-copy fa-fw"></span> {% t software.file_sync %}</a>
             <a class="dropdown-item" href="/software/networks/"><span class="fas fa-user-secret fa-fw"></span> {% t software.networks %}</a>
             <a class="dropdown-item" href="/software/cloud/"><span class="fas fa-hdd fa-fw"></span> {% t software.cloud %}</a>
           </span>
@@ -103,7 +104,7 @@
         <details class="nav-details">
           <summary>
             <span class="nav-summary">
-              <span class="fas fa-language text-danger"></span>
+              <span class="fas fa-language text-danger fa-fw"></span>
               {% t global.language %}
               <span class="dropdown-toggle"></span>
             </span>
@@ -117,6 +118,7 @@
             <a href="https://privacytools.it-sec.rocks/" class="dropdown-item">Deutsch</a>
             <a href="https://privacytools-it.github.io/" class="dropdown-item">Italiano</a>
             <a href="https://privacytools.ru" class="dropdown-item">Русский</a>
+            <a href="https://privacytools.dreads-unlock.fr" class="dropdown-item">Français</a>
           </span>
         </details>
 
@@ -140,9 +142,12 @@
         </details>
 
         <a href="https://blog.privacytools.io/" class="nav-anchor">{% t service_descriptions.blog %} </a>
-        <a href="/donate/" class="nav-anchor">
-          {% t resources.donate %} <span class="fas fa-heart text-danger"></span>
+        <a href="/sponsors/" class="nav-anchor">
+          {% t resources.sponsors %}
         </a>
+        <span id="nav-switch-theme" class="nav-anchor">
+          Theme <span class="nav-theme-icon fas fa-fw"></span>
+        </span>
       </div>
     </div>
   </nav>

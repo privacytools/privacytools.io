@@ -5,7 +5,7 @@
 <p>{% t participate.up_to_date %} {% t participate.software_updates %} {% t participate.follow_news %} {% t participate.keep_up %} {% t participate.find_an_issue %} <strong>{% t participate.talk_to_us %}</strong> {% t participate.find_us_on %} <a rel="me" href="https://social.privacytools.io/@privacytools">{% t participate.mastodon %}</a> {% t participate.or %} <a href="https://chat.privacytools.io">Matrix</a> {% t participate.at %} <code class="highlighter-rouge">#general:privacytools.io</code>.</p>
 
 {%- capture discourse -%}{% t participate.discourse %}{%- endcapture -%}
-{%- capture mastodon -%}{% t participate.follow %} Mastodon {% t participate.or %} Twitter{%- endcapture -%}
+{%- capture mastodon -%}{% t participate.follow %} Mastodon & Twitter{%- endcapture -%}
 {%- capture mastodon2 -%}{% t participate.mastodon_follow %}{%- endcapture -%}
 {%- capture github -%}{% t participate.github %}{%- endcapture -%}
 {%- capture github2 -%}{% t participate.github_d %}{%- endcapture -%}
@@ -33,7 +33,7 @@
 
   {% include card.html color="warning"
   title=github
-  image="/assets/img/icons/github.png"
+  font="fab fa-github"
   url="https://github.com/privacytoolsIO/privacytools.io"
   website="GitHub"
   description=github2

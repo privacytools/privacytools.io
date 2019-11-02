@@ -7,6 +7,9 @@ Please read this before contributing.
 - Be nice and respectful.
 - English only.
 - Be constructive.
+- Please feel free to *review changes* in the *files changed* tab of any
+  pull request at any time.
+- See also our [Code of Conduct](https://github.com/privacytoolsIO/privacytools.io/blob/master/CODE_OF_CONDUCT.md)
 
 ## Quality over Quantity
 
@@ -17,8 +20,7 @@ We're trying to keep it simple and promote the best tools, not all of them.
 - Easy to use. Could your mother use that tool or service? Usability is most important.
 - Cross-platform / Accessible.
 - Privacy respecting.
-- Open Source / free software is preferred but not required.
-- Must list source code in [source_code.md](https://github.com/privacytoolsIO/privacytools.io/blob/master/source_code.md) (if applicable)
+- Open Source / Free Software is preferred but not required.
 - Prioritize Products without Vendor Lock-in (decentralized/self-hostable) or data interoperability.
 
 There can be exceptions if no software is available that meet the criteria.
@@ -29,16 +31,16 @@ Note: This criteria applies to all of privacytools.io
 
 ### DNS
 
-- supports DoH or DoT (We love DNSCrypt, but there is already https://github.com/DNSCrypt/dnscrypt-resolvers which is directly supported by dnscrypt-proxy, so we don't consider useful to list providers only supporting it).
-- supports DNSSEC (https://dnssec.vs.uni-due.de/ can test your current DNS provider).
-- doesn't log IP addresses during normal operation (If your suggestion logs, please compare its privacy policy with other servers on our table that keep logs).
-- preferably supports QNAME minimization (if you have access to the dig command, `dig +short txt qnamemintest.internet.nl`)
-
+- Supports DoH or DoT (We love DNSCrypt, but there is already https://github.com/DNSCrypt/dnscrypt-resolvers which is directly supported by dnscrypt-proxy, so we don't consider useful to list providers only supporting it).
+- Supports DNSSEC (https://dnssec.vs.uni-due.de/ can test your current DNS provider).
+- Doesn't log IP addresses during normal operation (If your suggestion logs, please compare its privacy policy with other servers on our table that keep logs).
+- Preferably supports QNAME minimization (if you have access to the dig command, `dig +short txt qnamemintest.internet.nl` or `Resolve-DnsName -Type TXT -Name qnamemintest.internet.nl` if you are on Windows 10)
 
 ### VPN
+See https://www.privacytools.io/providers/vpn/#criteria for more details.
 - Prioritize Products by privacy respecting nationality.
 - Cannot be based in USA or UK.
-- Must be acessable via free software (i.e OpenVPN, WireGuard)
+- Must be accessible via Open Source Software (e.g. OpenVPN, WireGuard)
 - Use Encryption
 - Accept Cryptocurrency
 - No logging policy
@@ -46,16 +48,16 @@ Note: This criteria applies to all of privacytools.io
 ### Email
 - Outside of USA
 - Support SMTP SSL
-- Accessable Using Free Software (i.e IMAP)
+- Accessible Using Open Source Software (e.g. allows IMAP)
 
 ### Hardware
-- Must be [H-Node Class A](https://h-node.org/wiki/page/en/compatibility-classes) or Equivlant (if applicable)
-- Must prioritize hardware certifications like [RYF](https://ryf.fsf.org/), [OSHWA](https://certification.oshwa.org/), and OSI when avalible.
+- Must be [H-Node Class A](https://h-node.org/wiki/page/en/compatibility-classes) or equivalent (if applicable)
+- Must prioritize hardware certifications like [RYF](https://ryf.fsf.org/), [OSHWA](https://certification.oshwa.org/), and OSI when available.
 - Cannot lock users to a particular platform.
 
 ### Software
 - Must be able to download over encrypted network (can be a mirror)
-- Must be free software
+- Must be Open Source Software
 
 ### Encryption
 - Only verifiable encryption is to be trusted
@@ -68,3 +70,7 @@ Note: This criteria applies to all of privacytools.io
 
 - Provider logos are 200px x 70px ([example](https://www.privacytools.io/assets/img/provider/AirVPN.png))
 - Tool logos are 120px x 120px ([example](https://www.privacytools.io/assets/img/tools/ChatSecure.png))
+
+## Licensing
+
+The content and original technology of this website is made available under the Creative Commons Zero v1.0 Universal license text. Some files or folders may include works from other projects with separate licenses, and will be marked as such. **By contributing to this repository, contributors do not necessarily agree to sign a CLA or legally transfer their copyright to the project, but they do at a minimum agree to license their work under the current license of this repository: In this case, the Creative Commons Zero v1.0 Universal.**
