@@ -269,9 +269,7 @@ sponsors:
   we_will_not_provide: "We will not provide..."
   details_for_not_provide: "We pride ourselves on our integrity and commitment to spreading unbiased and fact-based information regarding privacy and privacy-respecting tools. All tools we recommend throughout our website are subject to strict criteria as judged by our team and the community across our various platforms. Your sponsorship will not grant your organization any special consideration when choosing our recommendations throughout the website, a process which we make clear via our transparent ledger on OpenCollective and our public discussions on GitHub. Your sponsorship benefits are limited to those outlined above."
   tax_and_financial_info: "Tax and Financial Information"
-  contribs_handled_by_opencol: "Your contribution to privacytools.io will be handled by the Open Collective Foundation 501(c)(3). For US companies and taxpayers, this means your contribution is"
-  tax_deducible: "tax-deductible"
-  non_profit_and_anons_no_sponsorship: "As a non-profit, your sponsorship contribution will not be used for private profit and will only be used to cover expenses incurred by the project. All of our transactions (donations and expenses) are published transparently on OpenCollective. For the benefit of our readership, anonymous contributions will not be eligible for the sponsorship opportunities outlined above."
+  tax_and_financial_info_details: "Your contribution to privacytools.io will be handled by the Open Collective Foundation 501(c)(3). For US companies and taxpayers, this means your contribution is <strong>tax-deductible</strong>. As a non-profit, your sponsorship contribution will not be used for private profit and will only be used to cover expenses incurred by the project. All of our transactions (donations and expenses) are published transparently on OpenCollective. For the benefit of our readership, anonymous contributions will not be eligible for the sponsorship opportunities outlined above."
   more_information: "More Information"
   questions_to_email: "If you are interested and have further questions, you are welcome to reach out to us directly at"
 donate:
