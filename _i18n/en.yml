@@ -247,11 +247,17 @@ participate:
   contributors: "Contributor List"
   thanks: "This is a community project aiming to deliver the best information available to improve privacy online. Thank you for participating. This project needs you."
 donate:
+  opencollective_card_title: "Donate via OpenCollective"
+  opencollective_card_text: "If you are able, please consider contributing to our development and outreach programs. <strong>Contributions via OpenCollective to privacytools.io are tax deductible for US taxpayers.</strong> These funds are transparently and primarily used to cover server costs."
+  opencollective_card_contribute: "Contribute"
+  opencollective_card_moreinfo: "More Info"
   cta: "Please Donate"
   ad_free: "Our website is free of advertisements and not affiliated with any listed providers."
   costs: "Your donation will cover our costs for servers, domains, coffee, beer, and pizza."
   bitcoin: "We prefer Bitcoin donations to be above $5 due to the state of the network's transaction fees."
   bitcoin2: "You are welcome to donate any smaller or larger amount on any other cryptocurrency, such as Bitcoin Cash, Ethereum, or Stellar."
+  other_crypto_no_receipt: "You may also contribute via the cryptocurrencies below; however, we will not be able to provide a receipt for your contribution."
+  convert_opencollective: "Your contribution will be considered an anonymous, unrestricted contribution and paid to our Fiscal Host at OpenCollective when we convert to currency."
   more: "More Cryptocurrencies"
   the: "The"
   team: "privacytools.io team"
@@ -313,8 +319,7 @@ pc_os:
   arch_descr: "A simple, lightweight Linux distribution. It is composed predominantly of free and open-source software, and supports community involvement."
   trisquel_descr: "Derived from Ubuntu, this project aims for a fully free software system without proprietary software or firmware and uses Linux-libre, a version of the Linux kernel with the non-free code (binary blobs) removed."
   parabola_descr: "is a completely open source version of Arch Linux."
-  whonix_descr: 'A Debian-based security-focused Linux distribution. It aims to provide privacy, security and anonymity on the internet. The operating system consists of two virtual machines, a "Workstation"
-    and a Tor "Gateway". All communication are forced through the Tor network to accomplish this.'
+  whonix_descr: 'A Debian-based security-focused Linux distribution. It aims to provide privacy, security and anonymity on the internet. The operating system consists of two virtual machines, a "Workstation" and a Tor "Gateway". All communication are forced through the Tor network to accomplish this.'
 mobile_os:
   mobile_operating_systems: "Mobile Operating Systems"
   google_warning: "Even though the source code of the following OS is provided, installing Google Apps may compromise your setup."
