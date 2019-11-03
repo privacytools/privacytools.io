@@ -7,6 +7,7 @@ global:
   download: "Download"
   related_information: "Related Information"
   contrib: "This software may depend on or recommend non-free software."
+  theme: "Theme"
 aria:
   nav_toggle: "Toggle navigation"
 service_descriptions:
