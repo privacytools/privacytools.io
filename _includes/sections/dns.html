@@ -4,7 +4,7 @@
   include cardv2.html
   title="Njalla - Domain Registration"
   image="/assets/img/provider/Njalla.png"
-  description="Njalla only needs your email or XMPP address in order to register a domain name for you. Created by people from The Pirate Bay and IPredator VPN. Accepted Payments: Bitcoin, Litecoin, Monero, DASH, Bitcoin Cash and PayPal. A privacy-aware domain registration service."
+  description="Njalla is a privacy-aware domain registration service based in Nevis that only needs your email or XMPP address in order to register a domain name for you. It is created by people from The Pirate Bay and IPredator VPN. Accepted payments: Bitcoin, Litecoin, Monero, DASH, Bitcoin Cash and PayPal."
   website="https://njal.la/"
   tor="http://njalladnspotetti.onion"
   forum="https://forum.privacytools.io/t/discussion-njalla/339"
@@ -18,8 +18,12 @@
   website="https://github.com/jedisct1/dnscrypt-proxy/"
   forum="https://forum.privacytools.io/t/discussion-dnscrypt-proxy/1498"
   github="https://github.com/jedisct1/dnscrypt-proxy/"
+  windows="https://github.com/jedisct1/dnscrypt-proxy/releases"
   linux=""
-  mac=""
+  mac="https://github.com/jedisct1/dnscrypt-proxy/releases"
+  freebsd="https://www.freshports.org/dns/dnscrypt-proxy2/"
+  openbsd="http://openports.se/net/dnscrypt-proxy"
+  netbsd="http://pkgsrc.se/net/dnscrypt-proxy2"
   android=""
   ios=""
 %}
@@ -94,16 +98,16 @@
         </td>
         <td>
           <span class="no-text-wrap">
-            <span class="flag-icon flag-icon-ch"></span>
-            Switzerland,
-          </span>
-          <span class="no-text-wrap">
-            <span class="flag-icon flag-icon-jp"></span>
-            Japan,
+            <span class="flag-icon flag-icon-fi"></span>
+            Finland,
           </span>
           <span class="no-text-wrap">
             <span class="flag-icon flag-icon-de"></span>
-            Germany
+            Germany,
+          </span>
+          <span class="no-text-wrap">
+            <span class="flag-icon flag-icon-jp"></span>
+            Japan
           </span>
         </td>
         <td>
@@ -130,7 +134,7 @@
           </span>
           <span class="no-text-wrap">
             malicious domains
-            <span class="badge badge-warning" data-toggle="tooltip" data-original-title="And some wildcard, IDN, and non-ASCII domains."><a href="https://github.com/ookangzheng/blahdns#default-blocked-wildcard-domain"><i class="fas fa-exclamation-triangle"></i></a></span>
+            <span class="badge badge-warning" data-toggle="tooltip" data-original-title="And some wildcard and IDN domains."><a href="https://github.com/ookangzheng/blahdns#default-blocked-wildcard-domain"><i class="fas fa-exclamation-triangle"></i></a></span>
           </span>
         </td>
         <td>
@@ -146,7 +150,7 @@
             <a href="https://www.datacenterlight.ch/">Data Center Light</a>,
           </span>
           <span class="no-text-wrap">
-            <a href="https://www.hetzner.com/">Hetzner Online GmbH</a>,
+            <a href="https://www.hetzner.com/">Hetzner Online GmbH</a>
           </span>
         </td>
       </tr>
@@ -339,7 +343,7 @@
           </a>
         </td>
         <td>No</td>
-        <td>DoT</td>
+        <td>DoH, DoT</td>
         <td>Yes</td>
         <td>Yes</td>
         <td>
@@ -394,7 +398,7 @@
 
       <tr>
         <td data-value="Quad9">
-          <a href="https://quad9.net/">Quad9</a> <span class="badge badge-warning" data-toggle="tooltip" title="Founders include the Global Cyber Alliance, comprised of the City of London Police and Manhattan District Attorney's Office"><i class="fas fa-exclamation-triangle"></i></span>
+          <a href="https://quad9.net/">Quad9</a> <span class="badge badge-warning" data-toggle="tooltip" title="Founders include the Global Cyber Alliance, composed of the City of London Police and Manhattan District Attorney's Office"><i class="fas fa-exclamation-triangle"></i></span>
         </td>
         <td>Anycast (based in
           <span class="no-text-wrap">
@@ -454,7 +458,44 @@
         <td>?</td>
         <td>
           <span class="no-text-wrap">
-            <a href="https://www.digitalocean.com/">DigitalOcean, Inc.</a>,
+            <a href="https://www.digitalocean.com/">DigitalOcean, Inc.</a>
+          </span>
+        </td>
+      </tr>
+
+      <tr>
+        <td data-value="Snopyta">
+          <a href="https://snopyta.org/service/dns/index.html">Snopyta</a>
+        </td>
+        <td>
+          <span class="no-text-wrap">
+            <span class="flag-icon flag-icon-fi"></span>
+            Finland
+          </span>
+        </td>
+        <td>
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://snopyta.org/privacy_policy/" href="https://snopyta.org/privacy_policy/">
+            <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
+          </a>
+        </td>
+        <td>
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title='Part of LibreHosters, "a network of cooperation and solidarity that uses free software to encourage decentralisation through federation and distributed platforms."' href="https://libreho.st/">
+            Informal collective
+          </a>
+        </td>
+        <td>No</td>
+        <td>DoH, DoT</td>
+        <td>Yes</td>
+        <td>Yes</td>
+        <td>
+          <span class="no-text-wrap">
+            No
+          </span>
+        </td>
+        <td>?</td>
+        <td>
+          <span class="no-text-wrap">
+            <a href="https://www.hetzner.com/">Hetzner Online GmbH</a>
           </span>
         </td>
       </tr>
@@ -529,7 +570,7 @@
   <li>QNAME Minimization - Run <code>dig +short txt qnamemintest.internet.nl</code> from the command-line (taken from <a href="https://nlnetlabs.nl/downloads/presentations/unbound_qnamemin_oarc24.pdf">this NLnet Labs presentation</a>). If you are on Windows 10, run <code>Resolve-DnsName -Type TXT -Name qnamemintest.internet.nl</code> from the PowerShell. You should see this display: <code>"HOORAY - QNAME minimisation is enabled on your resolver :)!"</code></li>
 </ul>
 
-<h3>Worth Mentioning and Additional Information</h3>
+<h3 id="clients">Worth Mentioning and Additional Information</h3>
 
 <ul>
   <li><strong>Encrypted DNS clients for desktop:</strong>

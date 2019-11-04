@@ -1,4 +1,4 @@
-<div class="col-xl-4 col-lg-6 col-md-12 mb-2">
+<div class="col-xl-4 col-lg-6 col-md-12 mb-4">
     <div class="card card-{{include.color}}">
         {% if include.color == "warning" %}
         <div class="card-header text-dark bg-{{include.color}}">
@@ -31,13 +31,15 @@
               <img src="{{include.image}}" width="120" height="120" alt="{{include.title}}" class="panel-item">
               {% elsif include.icon %}
               <i class="{{ include.icon }} panel-icon{% if include.iconcolor %} text-{{include.iconcolor}}{% endif %}"></i>
+              {% elsif include.font %}
+              <span class="{{ include.font }} panel-item panel-font" alt="{{ include.title }}"></span>
               {% endif %}
               {{include.description}}
             </p>
             <div>
             <p>
                 {% if include.url %}
-                <a class="btn btn-{{include.color}} mb-1" href="{{include.url}}">Website:
+                <a class="btn btn-{{include.color}} mb-1" href="{{include.url}}">
                     {% if include.website %}
                         {{include.website}}
                     {% else %}

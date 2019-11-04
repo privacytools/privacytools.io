@@ -1,23 +1,42 @@
 <h1 id="teamchat" class="anchor"><a href="#teamchat"><i class="fas fa-link anchor-icon"></i></a> Team Chat Platforms</h1>
 
 <div class="alert alert-warning" role="alert">
-        <strong>If your project or organization currently uses a platform like <a href="https://web.archive.org/web/20171029114027/https://feedback.discordapp.com/forums/326712-discord-dream-land/suggestions/17094256-implement-whispersystems-encryption-for-voice-and">Discord</a> or <a href="https://drewdevault.com/2015/11/01/Please-stop-using-slack.html">Slack</a> you should pick an alternative here.</strong>
+        <strong>If your project or organization currently uses a platform like <a href="https://tosdr.org/#discord">Discord</a> or <a href="https://drewdevault.com/2015/11/01/Please-stop-using-slack.html">Slack</a> you should pick an alternative here.</strong>
 </div>
+
+{%
+  include cardv2.html
+  title="Riot.im (Matrix)"
+  image="/assets/img/tools/Riot.png"
+  description="Riot.im is a federated free-software messaging application based on the <a href\"https://matrix.org/\">Matrix</a> protocol, a recent open protocol for real-time communication offering optional E2E encryption. It also has bridging functionality, allowing you to connect to other chat protocols such as IRC or Telegram."
+  labels="warning:<a href=//github.com/vector-im/riot-web/issues/6779>Experimental E2EE</a>:The end-to-end encryption is currently in beta, and the mobile client states 'End-to-end encryption is in beta and may not be reliable. You should not yet trust it to secure data.'"
+  website="https://about.riot.im/"
+  forum="https://forum.privacytools.io/t/discussion-riot-im/665/"
+  github="https://github.com/vector-im/riot-web/"
+  windows="https://riot.im/download/desktop/"
+  mac="https://riot.im/download/desktop/"
+  linux="https://riot.im/download/desktop/"
+  fdroid="https://f-droid.org/repository/browse/?fdid=im.vector.alpha"
+  googleplay="https://play.google.com/store/apps/details?id=im.vector.app"
+  ios="https://itunes.apple.com/us/app/vector.im/id1083446067"
+  web="https://riot.im/app/"
+%}
 
 {%
   include cardv2.html
   title="Rocket.chat"
   image="/assets/img/tools/rocket.chat.png"
   description="Rocket.chat is an self-hostable open source platform for team communication. It has optional federation and experimental E2EE."
-  labels="warning:<a href=//rocket.chat/docs/user-guides/end-to-end-encryption/>Experimental</a>:Regarding E2EE their documentation states 'This feature is currently in alpha. It's also not yet supported on mobile'. There is no forward secrecy so compromised decryption password would leak all messages. The federation was also added afterwards potentially causing room for mistakes."
+  labels="warning:<a href=//rocket.chat/docs/user-guides/end-to-end-encryption/>Experimental E2EE</a>:Regarding E2EE their documentation states 'This feature is currently in alpha. It's also not yet supported on mobile'. There is no forward secrecy so compromised decryption password would leak all messages. Federation was also added afterwards, potentially causing room for mistakes."
   website="https://rocket.chat/"
   forum="https://forum.privacytools.io/t/discussion-rocket-chat/1223"
   github="https://github.com/rocketchat/"
-  android=""
-  ios=""
-  mac=""
-  windows=""
-  linux=""
+  windows="https://rocket.chat/install"
+  mac="https://itunes.apple.com/us/app/rocket-chat/id1086818840"
+  linux="https://rocket.chat/install"
+  fdroid="https://f-droid.org/packages/chat.rocket.android"
+  googleplay="https://play.google.com/store/apps/details?id=chat.rocket.android"
+  ios="https://itunes.apple.com/app/rocket-chat/id1148741252"
 %}
 
 {%
@@ -30,12 +49,14 @@
   forum="https://forum.privacytools.io/t/discussion-keybase/1224"
   tor="http://keybase5wmilwokqirssclfnsqrjdsi7jdir5wy7y7iu3tanwmtp6oid.onion/"
   github="https://github.com/Keybase"
-  android=""
-  ios=""
-  mac=""
-  windows=""
-  linux=""
-  web=""
+  windows="https://keybase.io/docs/the_app/install_windows"
+  mac="https://keybase.io/docs/the_app/install_macos"
+  linux="https://keybase.io/docs/the_app/install_linux"
+  freebsd="https://www.freshports.org/security/keybase/"
+  googleplay="https://play.google.com/store/apps/details?id=io.keybase.ossifrage&hl=en_US"
+  ios="https://keybase.io/_/download/keybase-for-ios"
+  firefox="https://addons.mozilla.org/en-US/firefox/addon/keybase-for-firefox/"
+  chrome="https://chrome.google.com/webstore/detail/keybase-for-reddit/ognfafcpbkogffpmmdglhbjboeojlefj"
 %}
 
 
