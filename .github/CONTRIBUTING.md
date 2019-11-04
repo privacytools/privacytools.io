@@ -31,15 +31,16 @@ Note: This criteria applies to all of privacytools.io
 
 ### DNS
 
-- supports DoH or DoT (We love DNSCrypt, but there is already https://github.com/DNSCrypt/dnscrypt-resolvers which is directly supported by dnscrypt-proxy, so we don't consider useful to list providers only supporting it).
-- supports DNSSEC (https://dnssec.vs.uni-due.de/ can test your current DNS provider).
-- doesn't log IP addresses during normal operation (If your suggestion logs, please compare its privacy policy with other servers on our table that keep logs).
-- preferably supports QNAME minimization (if you have access to the dig command, `dig +short txt qnamemintest.internet.nl` or `Resolve-DnsName -Type TXT -Name qnamemintest.internet.nl` if you are on Windows 10)
+- Supports DoH or DoT (We love DNSCrypt, but there is already https://github.com/DNSCrypt/dnscrypt-resolvers which is directly supported by dnscrypt-proxy, so we don't consider useful to list providers only supporting it).
+- Supports DNSSEC (https://dnssec.vs.uni-due.de/ can test your current DNS provider).
+- Doesn't log IP addresses during normal operation (If your suggestion logs, please compare its privacy policy with other servers on our table that keep logs).
+- Preferably supports QNAME minimization (if you have access to the dig command, `dig +short txt qnamemintest.internet.nl` or `Resolve-DnsName -Type TXT -Name qnamemintest.internet.nl` if you are on Windows 10)
 
 ### VPN
+See https://www.privacytools.io/providers/vpn/#criteria for more details.
 - Prioritize Products by privacy respecting nationality.
 - Cannot be based in USA or UK.
-- Must be accessible via Open Source Software (i.e OpenVPN, WireGuard)
+- Must be accessible via Open Source Software (e.g. OpenVPN, WireGuard)
 - Use Encryption
 - Accept Cryptocurrency
 - No logging policy
@@ -47,11 +48,11 @@ Note: This criteria applies to all of privacytools.io
 ### Email
 - Outside of USA
 - Support SMTP SSL
-- Accessable Using Open Source Software (i.e IMAP)
+- Accessible Using Open Source Software (e.g. allows IMAP)
 
 ### Hardware
 - Must be [H-Node Class A](https://h-node.org/wiki/page/en/compatibility-classes) or equivalent (if applicable)
-- Must prioritize hardware certifications like [RYF](https://ryf.fsf.org/), [OSHWA](https://certification.oshwa.org/), and OSI when avalible.
+- Must prioritize hardware certifications like [RYF](https://ryf.fsf.org/), [OSHWA](https://certification.oshwa.org/), and OSI when available.
 - Cannot lock users to a particular platform.
 
 ### Software
@@ -69,3 +70,7 @@ Note: This criteria applies to all of privacytools.io
 
 - Provider logos are 200px x 70px ([example](https://www.privacytools.io/assets/img/provider/AirVPN.png))
 - Tool logos are 120px x 120px ([example](https://www.privacytools.io/assets/img/tools/ChatSecure.png))
+
+## Licensing
+
+The content and original technology of this website is made available under the Creative Commons Zero v1.0 Universal license text. Some files or folders may include works from other projects with separate licenses, and will be marked as such. **By contributing to this repository, contributors do not necessarily agree to sign a CLA or legally transfer their copyright to the project, but they do at a minimum agree to license their work under the current license of this repository: In this case, the Creative Commons Zero v1.0 Universal.**

@@ -1,6 +1,10 @@
 $(function() {
   $("[data-toggle='tooltip']").tooltip();
 });
+document.querySelectorAll(".onclick-select").forEach(element => {
+  element.addEventListener("click", element.select);
+});
+
 
 // Navbar dropdowns
 const navSections = document.querySelectorAll(".nav-details");
@@ -30,6 +34,7 @@ function navSectionsClose(event) {
 
 // Dark/Light color scheme switch button
 document.querySelector("#nav-switch-theme").style.display = "inline";
+document.querySelector("#nav-switch-theme").addEventListener("click", changeColorScheme);
 
 function changeColorScheme() {
   // Use whatever users want
@@ -96,6 +101,7 @@ _paq.push(["enableLinkTracking"]);
   var u = "https://stats.privacytools.io/";
   _paq.push(["setTrackerUrl", u + "matomo.php"]);
   _paq.push(["setSiteId", "1"]);
+  _paq.push(['setSecureCookie', true]);
   var d = document,
     g = d.createElement("script"),
     s = d.getElementsByTagName("script")[0];
