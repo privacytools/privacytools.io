@@ -202,12 +202,21 @@ footer {
   vertical-align: middle;
 }
 
+
 .btn-icon {
   font-size: 1.5rem;
   padding: 0.5rem;
   border-radius: 0.25rem;
   display: flex;
   height: 2.4rem;
+  color: #ddd;
+}
+
+.btn-tor {
+  background: $tor;
+}
+.btn-tor:hover {
+  background: darken($tor, 5%);
 }
 
 

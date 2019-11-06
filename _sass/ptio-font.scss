@@ -32,7 +32,8 @@
 .ptio-mix:before,
 .ptio-netbsd:before,
 .ptio-openbsd:before,
-.ptio-sailfish-os:before {
+.ptio-sailfish-os:before,
+.ptio-tor:before {
   display: inline-block;
   font-family: "ptio-font";
   font-style: normal;
@@ -48,7 +49,7 @@
 }
 
 .ptio-f-droid:before { content: "\f100"; }
-.ptio-i2p-garlic:before { content: "\f10a"; }
+.ptio-i2p-garlic:before { content: "\f10c"; }
 .ptio-ios:before { content: "\f101"; }
 .ptio-linux:before { content: "\f102"; }
 .ptio-macos:before { content: "\f103"; }
@@ -56,3 +57,4 @@
 .ptio-netbsd:before { content: "\f104"; }
 .ptio-openbsd:before { content: "\f105"; }
 .ptio-sailfish-os:before { content: "\f106"; }
+.ptio-tor:before { content: "\f10b"; }
