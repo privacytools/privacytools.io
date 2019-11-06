@@ -99,6 +99,9 @@ img {
   border-color: darken($danger, 10%);
 }
 
+.btn-tor { background: desaturate($tor, 10%); }
+.btn-tor:hover { background: darken($tor, 5%); }
+
 .card {
   box-shadow: none !important;
 }
