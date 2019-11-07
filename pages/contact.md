@@ -2,7 +2,7 @@
 layout: page
 permalink: /contact/
 title: "Contact Us"
-description: "Contact the privacytoolsIO team if you have any suggestions or are experiencing any issues."
+description: "Contact the PrivacyTools team if you have any suggestions or are experiencing any issues."
 ---
 
 ## Suggestions?

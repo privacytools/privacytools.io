@@ -12,8 +12,8 @@
 
   <!-- title -->
   {% if page.title %}
-  <title>{{ page.title }} | privacytools.io</title>
-  <meta property="og:title" content="{{ page.title }} | privacytools.io" />
+  <title>{{ page.title }} | {{ site.name }}</title>
+  <meta property="og:title" content="{{ page.title }} | {{ site.name }}" />
   {% else %}
   <title>{{ site.title }}</title>
   <meta property="og:title" content="{{ site.title }}" />
@@ -23,7 +23,31 @@
   <meta property="og:image" content="https://www.privacytools.io/assets/img/layout/ogimage.jpg" />
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
   <meta property="og:locale" content="en_GB" />
-  <meta property="og:site_name" content="privacytools.io" />
+  <meta property="og:site_name" content="{{ site.name }}" />
+
+  {% if page.url == "/" %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "{{ site.name }}",
+    "description": "{{ site.description }}",
+    "alternateName": [
+      "privacytools.io",
+      "Privacy Tools",
+      "privacytoolsIO"
+    ],
+    "url": "https://www.privacytools.io",
+    "logo": "https://www.privacytools.io/assets/img/layout/logo.png",
+    "sameAs": [
+      "https://blog.privacytools.io",
+      "https://twitter.com/privacytoolsIO",
+      "https://social.privacytools.io/@privacytools",
+      "https://github.com/privacytoolsIO"
+    ]
+  }
+  </script>
+  {% endif %}
 
   <!-- icons -->
   <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/favicons/apple-touch-icon-57x57.png">
