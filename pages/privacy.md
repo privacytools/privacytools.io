@@ -2,20 +2,20 @@
 layout: page
 permalink: /privacy/
 title: "Privacy Q&A"
-description: "This Privacy Statement explains what information privacytoolsIO and its related entities collect about its users, what we do with that information, and how we handle the content you place in our products and services."
+description: "This Privacy Statement explains what information PrivacyTools and its related entities collect about its users, what we do with that information, and how we handle the content you place in our products and services."
 ---
 
-## Who is privacytools.io?
+## Who is {{ site.name }}?
 
-privacytools.io is an unincorporated community developing this website and a number of privacy-friendly services. The current list of public team members [can be found on GitHub](https://github.com/orgs/privacytoolsIO/people). In order to operate these services, privacytools.io receives hosting and administration services from Aragon Ventures LLC, which also collects payments and donations on the privacytools.io team's behalf.
+{{ site.name }} is an unincorporated community developing this website and a number of privacy-friendly services. The current list of public team members [can be found on GitHub](https://github.com/orgs/privacytoolsIO/people). In order to operate these services, {{ site.name }} receives hosting and administration services from Aragon Ventures LLC, which also collects payments and donations on the {{ site.name }} team's behalf.
 
-## How does privacytools.io collect data about me?
+## How does {{ site.name }} collect data about me?
 
 We collect data:
 
-* When you browse a website, forum, or other privacytools.io service.
-* When you create an account on a privacytools.io service.
-* When you post, send private messages, or otherwise participate on a privacytools.io service.
+* When you browse a website, forum, or other {{ site.name }} service.
+* When you create an account on a {{ site.name }} service.
+* When you post, send private messages, or otherwise participate on a {{ site.name }} service.
 
 This data will be collected regardless of browser, device, or app used to access our services. We do not buy or otherwise receive data from data brokers.
 
@@ -23,7 +23,7 @@ This data will be collected regardless of browser, device, or app used to access
 
 ### We collect data about visits to our websites.
 
-When you visit a privacytools.io website or service, regardless of whether you have an account or not, the website may use cookies, server logs, and other methods to collect the following data:
+When you visit a {{ site.name }} website or service, regardless of whether you have an account or not, the website may use cookies, server logs, and other methods to collect the following data:
 
 * What pages you visit,
 * What actions you take on our website,
@@ -68,15 +68,15 @@ We will store your account data as long as your account remains open. After clos
 
 ## Who is my data shared with?
 
-When you use services provided by privacytools.io your data is shared with Aragon Ventures LLC, in order to facilitate their hosting obligations. Aragon Ventures LLC may collect and use your data as described in their privacy statement at [https://aragon.ventures/privacy](https://aragon.ventures/privacy/).
+When you use services provided by {{ site.name }} your data is shared with Aragon Ventures LLC, in order to facilitate their hosting obligations. Aragon Ventures LLC may collect and use your data as described in their privacy statement at [https://aragon.ventures/privacy](https://aragon.ventures/privacy/).
 
-Your account data, posts, and other activities on privacytools.io services is shared with others as mentioned in the section about account data.
+Your account data, posts, and other activities on {{ site.name }} services is shared with others as mentioned in the section about account data.
 
 ## Where is my data stored?
 
-Your data is stored on servers provided by Aragon Ventures LLC, a company incorporated in Minnesota, United States. The primary datacenter for privacytools.io is located in France. Some websites, services, or backups may reside in datacenters in multiple jurisdictions, including the United States and the European Union.
+Your data is stored on servers provided by Aragon Ventures LLC, a company incorporated in Minnesota, United States. The primary datacenter for {{ site.name }} is located in France. Some websites, services, or backups may reside in datacenters in multiple jurisdictions, including the United States and the European Union.
 
-## Is privacytools.io GDPR compliant?
+## Is {{ site.name }} GDPR compliant?
 
 We respect privacy rights under [Regulation (EU) 2016/679](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2016.119.01.0001.01.ENG), the European Union’s General Data Protection Regulation (GDPR). Information that GDPR requires us to give can be found throughout this document.
 
@@ -91,9 +91,9 @@ We would like to make sure you are fully aware of all of your data protection ri
 * **The right to object to processing** – You have the right to object to our processing of your personal data, under certain conditions.
 * **The right to data portability** – You have the right to request that we transfer the data that we have collected to another organization, or directly to you, under certain conditions.
 
-## How can I contact the privacytools.io team about privacy?
+## How can I contact the {{ site.name }} team about privacy?
 
-The privacytools.io team generally does not have access to personal data outside of limited access granted via some moderation panels. Inquiries regarding your personal information should be sent directly to the data controller for these services, Aragon Ventures LLC:
+The {{ site.name }} team generally does not have access to personal data outside of limited access granted via some moderation panels. Inquiries regarding your personal information should be sent directly to the data controller for these services, Aragon Ventures LLC:
 
 ```
 Jonah Aragon
