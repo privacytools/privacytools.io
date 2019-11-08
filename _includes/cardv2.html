@@ -64,6 +64,7 @@
       <div class="d-flex flex-shrink-0 mr-1">
         <a
           href="{{include.website}}"
+          rel="noopener"
           class="btn btn-primary mt-1 mr-1">
           <i class="fas fa-external-link-alt fa-fw"></i>
           Website
@@ -71,6 +72,7 @@
         {% if include.forum %}
           <a
             href="{{include.forum}}"
+            rel="noopener"
             class="btn btn-success mt-1 mr-1">
             <i class="fab fa-discourse fa-fw"></i>
             Forum
@@ -79,6 +81,7 @@
         {% if include.tor %}
           <a
             href="{{include.tor}}"
+            rel="noopener"
             class="hover-text-decoration-none mt-1 mr-1"
             data-toggle="tooltip"
             data-placement="bottom"
@@ -89,6 +92,7 @@
         {% if include.i2p %}
           <a
             href="{{include.i2p}}"
+            rel="noopener"
             class="hover-text-decoration-none mt-1 mr-1"
             data-toggle="tooltip"
             data-placement="bottom"
@@ -101,7 +105,7 @@
       <div class="mt-2">
           {% if include.windows %}
             {% if include.windows != "" %}
-              <a href="{{ include.windows }}" class="text-decoration-none hover-text-decoration-none">
+              <a href="{{ include.windows }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
                 <i class="fab fa-windows fa-2x fa-fw d-inline pr-1"></i>
               </a>
             {% else %}
@@ -111,7 +115,7 @@
 
           {% if include.mac %}
             {% if include.mac != "" %}
-              <a href="{{ include.mac }}" class="text-decoration-none hover-text-decoration-none">
+              <a href="{{ include.mac }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
                 <i class="ptio-macos fa-2x fa-fw d-inline pr-1"></i>
               </a>
             {% else %}
@@ -121,7 +125,7 @@
 
           {% if include.linux %}
             {% if include.linux != "" %}
-              <a href="{{ include.linux }}" class="text-decoration-none hover-text-decoration-none">
+              <a href="{{ include.linux }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
                 <i class="ptio-linux fa-2x fa-fw d-inline pr-1"></i>
               </a>
             {% else %}
@@ -131,7 +135,7 @@
 
           {% if include.freebsd %}
             {% if include.freebsd != "" %}
-              <a href="{{ include.freebsd }}" class="text-decoration-none hover-text-decoration-none">
+              <a href="{{ include.freebsd }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
                 <i class="fab fa-freebsd fa-2x fa-fw d-inline pr-1"></i>
               </a>
             {% else %}
@@ -141,7 +145,7 @@
 
           {% if include.openbsd %}
             {% if include.openbsd != "" %}
-              <a href="{{ include.openbsd }}" class="text-decoration-none hover-text-decoration-none">
+              <a href="{{ include.openbsd }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
                 <i class="ptio-openbsd fa-2x fa-fw d-inline pr-1"></i>
               </a>
             {% else %}
@@ -151,7 +155,7 @@
 
           {% if include.netbsd %}
             {% if include.netbsd != "" %}
-              <a href="{{ include.netbsd }}" class="text-decoration-none hover-text-decoration-none">
+              <a href="{{ include.netbsd }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
                 <i class="ptio-netbsd fa-2x fa-fw d-inline pr-1"></i>
               </a>
             {% else %}
@@ -161,7 +165,7 @@
 
           {% if include.firefox %}
             {% if include.firefox != "" %}
-              <a href="{{ include.firefox }}" class="text-decoration-none hover-text-decoration-none">
+              <a href="{{ include.firefox }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
                 <i class="fab fa-firefox fa-2x fa-fw d-inline pr-1"></i>
               </a>
             {% else %}
@@ -171,7 +175,7 @@
 
           {% if include.chrome %}
             {% if include.chrome != "" %}
-              <a href="{{ include.chrome }}" class="text-decoration-none hover-text-decoration-none">
+              <a href="{{ include.chrome }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
                 <i class="fab fa-chrome fa-2x fa-fw d-inline pr-1"></i>
               </a>
             {% else %}
@@ -181,7 +185,7 @@
 
           {% if include.safari %}
             {% if include.safari != "" %}
-              <a href="{{ include.safari }}" class="text-decoration-none hover-text-decoration-none">
+              <a href="{{ include.safari }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
                 <i class="fab fa-safari fa-2x fa-fw d-inline pr-1"></i>
               </a>
             {% else %}
@@ -191,7 +195,7 @@
 
           {% if include.opera %}
             {% if include.opera != "" %}
-              <a href="{{ include.opera }}" class="text-decoration-none hover-text-decoration-none">
+              <a href="{{ include.opera }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
                 <i class="fab fa-opera fa-2x fa-fw d-inline pr-1"></i>
               </a>
             {% else %}
@@ -201,7 +205,7 @@
 
           {% if include.edge %}
             {% if include.edge != "" %}
-              <a href="{{ include.edge }}" class="text-decoration-none hover-text-decoration-none">
+              <a href="{{ include.edge }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
                 <i class="fab fa-edge fa-2x fa-fw d-inline pr-1"></i>
               </a>
             {% else %}
@@ -211,7 +215,7 @@
 
           {% if include.fdroid %}
             {% if include.fdroid != "" %}
-              <a href="{{ include.fdroid }}" class="text-decoration-none hover-text-decoration-none">
+              <a href="{{ include.fdroid }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
                 <i class="ptio-f-droid fa-2x fa-fw d-inline pr-1"></i>
               </a>
             {% else %}
@@ -221,7 +225,7 @@
 
           {% if include.googleplay %}
             {% if include.googleplay != "" %}
-              <a href="{{ include.googleplay }}" class="text-decoration-none hover-text-decoration-none">
+              <a href="{{ include.googleplay }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
                 <i class="fab fa-google-play fa-2x fa-fw d-inline pr-1"></i>
               </a>
             {% else %}
@@ -231,7 +235,7 @@
 
           {% if include.android %}
             {% if include.android != "" %}
-              <a href="{{ include.android }}" class="text-decoration-none hover-text-decoration-none">
+              <a href="{{ include.android }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
                 <i class="fab fa-android fa-2x fa-fw d-inline pr-1"></i>
               </a>
             {% else %}
@@ -241,7 +245,7 @@
 
           {% if include.ios %}
             {% if include.ios != "" %}
-              <a href="{{ include.ios }}" class="text-decoration-none hover-text-decoration-none">
+              <a href="{{ include.ios }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
                 <i class="ptio-ios fa-2x fa-fw d-inline pr-1"></i>
               </a>
             {% else %}
@@ -251,7 +255,7 @@
 
           {% if include.sailfish %}
             {% if include.sailfish != "" %}
-              <a href="{{ include.sailfish }}" class="text-decoration-none hover-text-decoration-none">
+              <a href="{{ include.sailfish }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
                 <i class="ptio-sailfish-os fa-2x fa-fw d-inline pr-1"></i>
               </a>
             {% else %}
@@ -261,7 +265,7 @@
 
           {% if include.web %}
             {% if include.web != "" %}
-              <a href="{{ include.web }}" class="text-decoration-none hover-text-decoration-none">
+              <a href="{{ include.web }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
                 <i class="fas fa-globe-americas fa-2x fa-fw d-inline pr-1"></i>
               </a>
             {% else %}
@@ -274,25 +278,25 @@
           {{include.icon3}}
 
           {% if include.github %}
-            <a href="{{include.github}}" class="text-decoration-none hover-text-decoration-none">
+            <a href="{{include.github}}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
               <i class="fab fa-github fa-2x fa-fw d-inline"></i>
             </a>
           {% endif %}
 
           {% if include.gitlab %}
-            <a href="{{include.gitlab}}" class="text-decoration-none hover-text-decoration-none">
+            <a href="{{include.gitlab}}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
               <i class="fab fa-gitlab fa-2x fa-fw d-inline"></i>
             </a>
           {% endif %}
 
           {% if include.git %}
-            <a href="{{include.git}}" class="text-decoration-none hover-text-decoration-none">
+            <a href="{{include.git}}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
               <i class="fab fa-git-square fa-2x fa-fw d-inline"></i>
             </a>
           {% endif %}
 
           {% if include.source %}
-            <a href="{{include.source}}" class="text-decoration-none hover-text-decoration-none">
+            <a href="{{include.source}}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
               <i class="fas fa-code-branch fa-2x fa-fw d-inline"></i>
             </a>
           {% endif %}
