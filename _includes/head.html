@@ -26,7 +26,7 @@
   <meta property="og:locale" content="en_GB" />
   <meta property="og:site_name" content="{{ site.name }}" />
 
-  {% if page.url == "/" %}
+  {% if page.url == "/" or page.url == "/about/" %}
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -39,7 +39,7 @@
       "privacytoolsIO"
     ],
     "url": "{{ site.production_url }}",
-    "logo": "{{ site.production_url }}/assets/img/layout/logo.png",
+    "logo": "{{ site.production_url }}/assets/img/layout/shield.png",
     "sameAs": [
       "https://blog.privacytools.io",
       "https://twitter.com/privacytoolsIO",

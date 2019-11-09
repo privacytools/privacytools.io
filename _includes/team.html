@@ -1,0 +1,44 @@
+<div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+  <div class="card mb-3 mx-4 mx-sm-0" itemscope itemtype="http://schema.org/Person">
+    <img src="{{ site.baseurl }}/assets/img/team/{{ include.avatar }}" class="card-img-top" itemprop="image" alt="{% if include.nick %}{{ include.nick }}{% else %}{{ include.name }}{% endif %}">
+    <div class="card-body">
+
+      <h5 class="card-title mt-0" itemprop="name">
+      {% if include.nick %}
+        {{ include.nick }}</h5>
+      <meta itemprop="alternateName" content="{{ include.name }}" />
+      {% else %}
+        {{ include.name }}</h5>
+      {% endif %}
+
+      <meta itemprop="affiliation" content="PrivacyTools" />
+      <h6 class="card-subtitle mb-2 text-muted" itemprop="jobTitle">{{ include.role | default: "Contributor" }}</h6>
+      <p class="card-text" {% if include.bio %}itemprop="description"{% endif %}>{{ include.bio | default: "<i>Hmm, this user hasn't written a bio quite yet :(</i>" }}</p>
+      {% if include.email %}
+      <a href="mailto:{{ include.email }}" aria-label="Email" class="card-link" itemprop="email">
+        <i class="fas fa-envelope" aria-hidden="true" title="{{ include.email }}"></i>
+      </a>
+      {% endif %}
+      {% if include.website %}
+      <a href="{{ include.website }}" aria-label="Website" class="card-link" itemprop="url">
+        <i class="fas fa-link" aria-hidden="true" title="Website"></i>
+      </a>
+      {% endif %}
+      {% if include.mastodon %}
+      <a href="{{ include.mastodon }}" aria-label="Mastodon" class="card-link" itemprop="sameAs">
+        <i class="fab fa-mastodon" aria-hidden="true" title="Mastodon Profile"></i>
+      </a>
+      {% endif %}
+      {% if include.twitter %}
+      <a href="https://twitter.com/{{ include.twitter }}" aria-label="Twitter" class="card-link" itemprop="sameAs">
+        <i class="fab fa-twitter" aria-hidden="true" title="Twitter Profile"></i>
+      </a>
+      {% endif %}
+      {% if include.blog %}
+      <a href="https://blog.privacytools.io/author/{{ include.blog }}" aria-label="Blog" class="card-link" itemprop="sameAs">
+        <i class="fas fa-pen-nib" aria-hidden="true" title="PrivacyTools Blog Author"></i>
+      </a>
+      {% endif %}
+    </div>
+  </div>
+</div>
