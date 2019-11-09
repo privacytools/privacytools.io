@@ -9,6 +9,7 @@
   <meta name="msapplication-TileImage" content="/assets/img/favicons/mstile-144x144.png">
   <meta name="msapplication-config" content="/assets/img/favicons/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
+  <link rel="canonical" href="{{ site.production_url }}{{ page.url | replace:'index.html',''}}">
 
   <!-- title -->
   {% if page.title %}
@@ -20,7 +21,7 @@
   {% endif %}
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ page.permalink | prepend: site.url }}" />
-  <meta property="og:image" content="https://www.privacytools.io/assets/img/layout/ogimage.jpg" />
+  <meta property="og:image" content="{{ site.production_url }}/assets/img/layout/ogimage.jpg" />
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
   <meta property="og:locale" content="en_GB" />
   <meta property="og:site_name" content="{{ site.name }}" />
@@ -37,8 +38,8 @@
       "Privacy Tools",
       "privacytoolsIO"
     ],
-    "url": "https://www.privacytools.io",
-    "logo": "https://www.privacytools.io/assets/img/layout/logo.png",
+    "url": "{{ site.production_url }}",
+    "logo": "{{ site.production_url }}/assets/img/layout/logo.png",
     "sameAs": [
       "https://blog.privacytools.io",
       "https://twitter.com/privacytoolsIO",

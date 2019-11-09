@@ -1,13 +1,13 @@
 ---
 layout: page
 permalink: /privacy/
-title: "Privacy Q&A"
+title: "Privacy Q&amp;A"
 description: "This Privacy Statement explains what information PrivacyTools and its related entities collect about its users, what we do with that information, and how we handle the content you place in our products and services."
 ---
 
 ## Who is {{ site.name }}?
 
-{{ site.name }} is an unincorporated community developing this website and a number of privacy-friendly services. The current list of public team members [can be found on GitHub](https://github.com/orgs/privacytoolsIO/people). In order to operate these services, {{ site.name }} receives hosting and administration services from Aragon Ventures LLC, which also collects payments and donations on the {{ site.name }} team's behalf.
+{{ site.name }} is an unincorporated community developing this website and a number of privacy-friendly services. The current list of public team members [can be found on GitHub](https://github.com/orgs/privacytoolsIO/people). In order to operate these services, {{ site.name }} receives hosting and administration services from Aragon Ventures LLC.
 
 ## How does {{ site.name }} collect data about me?
 
@@ -110,7 +110,7 @@ Anoka, MN 55303
 United States
 ```
 
-For all other inquiries, you can contact the team via methods described on our [contact page](https://www.privacytools.io/contact/).
+For all other inquiries, you can contact the team via methods described on our [contact page]({{ site.production_url }}/contact/).
 
 For complaints under GDPR more generally, European Union users may lodge complaints with their local data protection supervisory authorities.
 
@@ -118,6 +118,6 @@ For complaints under GDPR more generally, European Union users may lodge complai
 
 This version of our privacy statement took effect October 9th, 2019.
 
-We will post any new versions of this statement at [https://www.privacytools.io/privacy/](https://www.privacytools.io/privacy/). We may change how we announce changes in future versions of this document. In the meantime we may update our contact information at any time without announcing a change. Please refer to [https://www.privacytools.io/privacy/](https://www.privacytools.io/privacy/) for the latest contact information at any time.
+We will post any new versions of this statement at [{{ site.production_url }}/privacy/]({{ site.production_url }}/privacy/). We may change how we announce changes in future versions of this document. In the meantime we may update our contact information at any time without announcing a change. Please refer to [{{ site.production_url }}/privacy/]({{ site.production_url }}/privacy/) for the latest contact information at any time.
 
 A full [revision history](https://github.com/privacytoolsIO/privacytools.io/commits/master/pages/privacy.md) for this page can be found on GitHub.
