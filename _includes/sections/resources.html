@@ -1,55 +1,79 @@
 <h1 id="os" class="anchor">Privacy Tools</h1>
 
-<p><a href="/classic/"><i class="fas fa-info-circle"></i> Prefer the classic site? View a single-page layout.</a></p>
+<p><a href="/{% if page.language %}{{ page.language }}/{% endif %}classic/"><i class="fas fa-info-circle"></i> {% translate Prefer the classic site? View a single-page layout.%}</a></p>
 
 <div class="row">
 
+  {% capture providers_title %}{% translate Providers %}{% endcapture %}
+  {% capture providers_page %}/{% if page.language %}{{ page.language }}/{% endif %}providers/{% endcapture %}
+  {% capture providers_description %}{% translate Discover privacy-centric online services, including email providers, VPN operators, DNS administrators, and more!%}{% endcapture %}
+
   {% include card.html color="success"
-  title="Providers"
+  title=providers_title
   icon="fas fa-server"
   iconcolor="dark"
-  page="/providers/"
-  description="Discover privacy-centric online services, including email providers, VPN operators, DNS administrators, and more!"
+  page=providers_page
+  description=providers_description
   %}
+
+  {% capture browsers_title %}{% translate Web Browsers %}{% endcapture %}
+  {% capture browsers_page %}/{% if page.language %}{{ page.language }}/{% endif %}browsers/{% endcapture %}
+  {% capture browsers_description %}{% translate Find a web browser that respects your privacy, and discover how to harden your browser against tracking and leaks.%}{% endcapture %}
 
   {% include card.html color="primary"
-  title="Web Browsers"
+  title=browsers_title
   icon="far fa-compass"
   iconcolor="dark"
-  page="/browsers/"
-  description="Find a web browser that respects your privacy, and discover how to harden your browser against tracking and leaks."
+  page=browsers_page
+  description=browsers_description
   %}
+
+  {% capture software_title %}{% translate Software %}{% endcapture %}
+  {% capture software_page %}/{% if page.language %}{{ page.language }}/{% endif %}software/{% endcapture %}
+  {% capture software_description %}{% translate Discover a variety of open source software built to protect your privacy and keep your digital data secure.%}{% endcapture %}
 
   {% include card.html color="warning"
-  title="Software"
+  title=software_title
   icon="far fa-window-restore"
   iconcolor="dark"
-  page="/software/"
-  description="Discover a variety of open source software built to protect your privacy and keep your digital data secure."
+  page=software_page
+  description=software_description
   %}
+
+  {% capture os_title %}{% translate Operating Systems%}{% endcapture %}
+  {% capture os_page %}/{% if page.language %}{{ page.language }}/{% endif %}operating-systems/{% endcapture %}
+  {% capture os_description %}{% translate Find out how your operating system is compromising your privacy, and what simple alternatives exist.%}{% endcapture %}
 
   {% include card.html color="info"
-  title="Operating Systems"
+  title=os_title
   icon="fas fa-desktop"
   iconcolor="dark"
-  page="/operating-systems/"
-  description="Find out how your operating system is compromising your privacy, and what simple alternatives exist."
+  page=os_page
+  description=os_description
   %}
+
+  {% capture services_title %}{% translate PrivacyTools Services%}{% endcapture %}
+  {% capture services_page %}/{% if page.language %}{{ page.language }}/{% endif %}services/{% endcapture %}
+  {% capture services_description %}{% translate The PrivacyTools team is proud to launch a variety of privacy-centric online services, including a Mastodon instance, search engine, and more!%}{% endcapture %}
 
   {% include card.html color="secondary"
-  title="PrivacyTools Services"
+  title=services_title
   icon="far fa-eye-slash"
   iconcolor="dark"
-  page="/services/"
-  description="The PrivacyTools team is proud to launch a variety of privacy-centric online services, including a Mastodon instance, search engine, and more!"
+  page=services_page
+  description=services_description
   %}
 
+  {% capture donate_title %}{% translate Donate%}{% endcapture %}
+  {% capture donate_page %}/{% if page.language %}{{ page.language }}/{% endif %}donate/{% endcapture %}
+  {% capture donate_description %}{% translate We can't operate this site without the generous contributions we receive from our viewers. If you love privacy and our website please consider donating.%}{% endcapture %}
+
   {% include card.html color="danger"
-  title="Donate"
+  title=donate_title
   icon="fas fa-donate"
   iconcolor="dark"
-  page="/donate/"
-  description="We can't operate this site without the generous contributions we receive from our viewers. If you love privacy and our website please consider donating."
+  page=donate_page
+  description=donate_description
   %}
 
 </div>

@@ -10,7 +10,7 @@ module Weblate
 
   class ID
     def self.get(source_text)
-      source_text.nil? ? source_text : source_text.strip[0..100].gsub(/[^\w\d\s]/, '').tr(' ', '_').downcase
+      source_text.nil? ? source_text : source_text.strip[0..100].gsub(/[^\w\d\s\.\?\!]/, '').tr(' ', '_')
     end
   end
 
