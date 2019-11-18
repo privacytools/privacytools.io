@@ -7,7 +7,8 @@ sass:
   style: compressed
 plugins:
   - jekyll-sitemap
+plugins_dir: "./_plugins"
 sitemap:
 file: "/sitemap.xml"
 include: [".well-known"]
-exclude: ["font", "vendor"]
+exclude: ["font", "vendor","weblate-source-file.yml"]
