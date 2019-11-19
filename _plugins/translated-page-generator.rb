@@ -24,15 +24,20 @@ module Jekyll
       pages_to_translate.each do |page|
         page_title              = page.data['title']
         page_title_weblate_id = Weblate::ID.get(page_title)
+        page_description              = page.data['description']
+        page_description_weblate_id = Weblate::ID.get(page_description)
 
         Weblate::SourceFile.add_entry(page_title_weblate_id, page_title)
+        Weblate::SourceFile.add_entry(page_description_weblate_id, page_description)
 
         site.data["languages"].each_key do |language|
           translated_page       = Jekyll::TranslatedPage.new(site, site.source, page.dir, page.name)
           translated_page_title = site.data["languages"][language][page_title_weblate_id]
+          translated_page_description = site.data["languages"][language][page_description_weblate_id]
 
           translated_page.data              = page.data.clone
           translated_page.data['title']     = translated_page_title.nil? ? page_title : translated_page_title.strip
+          translated_page.data['description']     = translated_page_description.nil? ? page_description : translated_page_description.strip
           translated_page.data['permalink'] = "#{language}/#{page.dir}/#{page.name}"
           translated_page.data['src_dir']   = page.dir
           translated_page.data['language']  = language
