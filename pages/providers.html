@@ -12,7 +12,7 @@ translate: true
 
 <div class="card card-list">
   <ul class="list-group list-group-flush">
-    <li class="list-group-item"><a href="/providers/cloud-storage/"><span class="fas fa-cloud fa-fw"></span> {% translate Cloud Storage%}</a></li>
+    <li class="list-group-item"><a href="/{% if page.language %}{{ page.language }}/{% endif %}providers/cloud-storage/"><span class="fas fa-cloud fa-fw"></span> {% translate Cloud Storage%}</a></li>
     <li class="list-group-item"><a href="/providers/dns/"><span class="fa fa-tasks fa-fw"></span> {% translate DNS%}</a></li>
     <li class="list-group-item"><a href="/providers/email/"><span class="fas fa-mail-bulk fa-fw"></span> {% translate Email%}</a></li>
     <li class="list-group-item"><a href="/providers/hosting/"><span class="fas fa-database fa-fw"></span> {% translate Hosting%}</a></li>
