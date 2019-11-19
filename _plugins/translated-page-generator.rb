@@ -38,7 +38,7 @@ module Jekyll
           translated_page.data              = page.data.clone
           translated_page.data['title']     = translated_page_title.nil? ? page_title : translated_page_title.strip
           translated_page.data['description']     = translated_page_description.nil? ? page_description : translated_page_description.strip
-          translated_page.data['permalink'] = "#{language}/#{page.dir}/#{page.name}"
+          translated_page.data['permalink'] = "#{language}/#{page.dir}"
           translated_page.data['src_dir']   = page.dir
           translated_page.data['language']  = language
           translated_page.content           = page.content
