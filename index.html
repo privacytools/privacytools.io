@@ -6,10 +6,10 @@ translate: true
 <script src="/assets/js/redirects.js"></script>
 {% include sections/header.html %}
 {% include sections/resources.html %}
-<h1 id="sponsors" class="anchor"><a href="#sponsors"><i class="fas fa-link anchor-icon"></i></a> {%translate Sponsors%}</h1>
+<h1 id="sponsors" class="anchor"><a href="#sponsors"><i class="fas fa-link anchor-icon"></i></a> {% t Sponsors%}</h1>
 
 <div class="alert alert-success" role="alert">
-  <strong>{%translate New!%}</strong> {%translate Showcase your brand as a sponsor of PrivacyTools here and support our mission of creating a world free of mass surveillance!%} <a href="/{% if page.language %}{{ page.language }}/{% endif %}sponsors/" class="alert-link">{%translate Learn more...%}</a>
+  <strong>{% t New!%}</strong> {% t Showcase your brand as a sponsor of PrivacyTools here and support our mission of creating a world free of mass surveillance!%} <a href="/{% if page.language %}{{ page.language }}/{% endif %}sponsors/" class="alert-link">{% t Learn more...%}</a>
 </div>
 {% include sections/quotes.html %}
 {% include sections/privacy-resources.html %}

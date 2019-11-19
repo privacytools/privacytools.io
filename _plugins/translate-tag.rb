@@ -35,4 +35,4 @@ module Jekyll
 
 end
 
-Liquid::Template.register_tag('translate', Jekyll::TranslateTag)
+Liquid::Template.register_tag('t', Jekyll::TranslateTag)

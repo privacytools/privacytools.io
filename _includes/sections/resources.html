@@ -1,12 +1,12 @@
-<h1 id="os" class="anchor">{% translate Privacy Tools %}</h1>
+<h1 id="os" class="anchor">{% t Privacy Tools %}</h1>
 
-<p><a href="/{% if page.language %}{{ page.language }}/{% endif %}classic/"><i class="fas fa-info-circle"></i> {% translate Prefer the classic site? View a single-page layout.%}</a></p>
+<p><a href="/{% if page.language %}{{ page.language }}/{% endif %}classic/"><i class="fas fa-info-circle"></i> {% t Prefer the classic site? View a single-page layout.%}</a></p>
 
 <div class="row">
 
-  {% capture providers_title %}{% translate Providers %}{% endcapture %}
+  {% capture providers_title %}{% t Providers %}{% endcapture %}
   {% capture providers_page %}/{% if page.language %}{{ page.language }}/{% endif %}providers/{% endcapture %}
-  {% capture providers_description %}{% translate Discover privacy-centric online services, including email providers, VPN operators, DNS administrators, and more!%}{% endcapture %}
+  {% capture providers_description %}{% t Discover privacy-centric online services, including email providers, VPN operators, DNS administrators, and more!%}{% endcapture %}
 
   {% include card.html color="success"
   title=providers_title
@@ -16,9 +16,9 @@
   description=providers_description
   %}
 
-  {% capture browsers_title %}{% translate Web Browsers %}{% endcapture %}
+  {% capture browsers_title %}{% t Web Browsers %}{% endcapture %}
   {% capture browsers_page %}/{% if page.language %}{{ page.language }}/{% endif %}browsers/{% endcapture %}
-  {% capture browsers_description %}{% translate Find a web browser that respects your privacy, and discover how to harden your browser against tracking and leaks.%}{% endcapture %}
+  {% capture browsers_description %}{% t Find a web browser that respects your privacy, and discover how to harden your browser against tracking and leaks.%}{% endcapture %}
 
   {% include card.html color="primary"
   title=browsers_title
@@ -28,9 +28,9 @@
   description=browsers_description
   %}
 
-  {% capture software_title %}{% translate Software %}{% endcapture %}
+  {% capture software_title %}{% t Software %}{% endcapture %}
   {% capture software_page %}/{% if page.language %}{{ page.language }}/{% endif %}software/{% endcapture %}
-  {% capture software_description %}{% translate Discover a variety of open source software built to protect your privacy and keep your digital data secure.%}{% endcapture %}
+  {% capture software_description %}{% t Discover a variety of open source software built to protect your privacy and keep your digital data secure.%}{% endcapture %}
 
   {% include card.html color="warning"
   title=software_title
@@ -40,9 +40,9 @@
   description=software_description
   %}
 
-  {% capture os_title %}{% translate Operating Systems%}{% endcapture %}
+  {% capture os_title %}{% t Operating Systems%}{% endcapture %}
   {% capture os_page %}/{% if page.language %}{{ page.language }}/{% endif %}operating-systems/{% endcapture %}
-  {% capture os_description %}{% translate Find out how your operating system is compromising your privacy, and what simple alternatives exist.%}{% endcapture %}
+  {% capture os_description %}{% t Find out how your operating system is compromising your privacy, and what simple alternatives exist.%}{% endcapture %}
 
   {% include card.html color="info"
   title=os_title
@@ -52,9 +52,9 @@
   description=os_description
   %}
 
-  {% capture services_title %}{% translate PrivacyTools Services%}{% endcapture %}
+  {% capture services_title %}{% t PrivacyTools Services%}{% endcapture %}
   {% capture services_page %}/{% if page.language %}{{ page.language }}/{% endif %}services/{% endcapture %}
-  {% capture services_description %}{% translate The PrivacyTools team is proud to launch a variety of privacy-centric online services, including a Mastodon instance, search engine, and more!%}{% endcapture %}
+  {% capture services_description %}{% t The PrivacyTools team is proud to launch a variety of privacy-centric online services, including a Mastodon instance, search engine, and more!%}{% endcapture %}
 
   {% include card.html color="secondary"
   title=services_title
@@ -64,9 +64,9 @@
   description=services_description
   %}
 
-  {% capture donate_title %}{% translate Donate%}{% endcapture %}
+  {% capture donate_title %}{% t Donate%}{% endcapture %}
   {% capture donate_page %}/{% if page.language %}{{ page.language }}/{% endif %}donate/{% endcapture %}
-  {% capture donate_description %}{% translate We can't operate this site without the generous contributions we receive from our viewers. If you love privacy and our website please consider donating.%}{% endcapture %}
+  {% capture donate_description %}{% t We can't operate this site without the generous contributions we receive from our viewers. If you love privacy and our website please consider donating.%}{% endcapture %}
 
   {% include card.html color="danger"
   title=donate_title
