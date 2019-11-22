@@ -2,18 +2,22 @@
 *.md @privacytoolsIO/editorial
 /assets/ @privacytoolsIO/editorial
 /pages/ @privacytoolsIO/editorial
+/_includes/ @JonahAragon @privacytoolsIO/editorial
 /_includes/sections/ @privacytoolsIO/editorial
-/index.html @privacytoolsIO/editorial
 /font/ @dawidpotocki
 
 # Administration Related Files
+/index.html @JonahAragon @privacytoolsIO/editorial
+/_includes/sections/header.html @JonahAragon @privacytoolsIO/editorial
+/_includes/sections/participate.html @JonahAragon @privacytoolsIO/editorial
+/pages/sponsors.html @JonahAragon
 /pages/donate.html @JonahAragon @BurungHantu1605
 /assets/js/redirects.js @JonahAragon
 /.well-known/ @JonahAragon
 /404.html @JonahAragon
-/.github/CODEOWNERS @JonahAragon @BurungHantu1605
+/.github/CODEOWNERS @JonahAragon
 /.github/FUNDING.yml @JonahAragon @BurungHantu1605
-/LICENSE.txt @JonahAragon @BurungHantu1605
+/LICENSE.txt @JonahAragon
 /.travis.yml @JonahAragon @Shifterovich @nitrohorse
 /CNAME @JonahAragon
 /nginx/ @JonahAragon
