@@ -27,7 +27,7 @@ module Weblate
   class SourceFile
     class << self
       def add_entry(weblate_id, source_text)
-        unless id_already_exists?(weblate_id) or source_text.nil?
+        unless id_already_exists?(weblate_id) or source_text.nil? or source_text.empty?
           new_entry = <<-YAML
 #{weblate_id}: |
   #{source_text}
