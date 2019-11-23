@@ -15,6 +15,16 @@ module Jekyll
         translated_string.nil? ? text : translated_string.strip
       end
     end
+
+    def translate_page(page)
+      page_language = @context.environments.first["page"]["language"]
+      site          = @context.registers[:site]
+      if page_language.nil?
+        page
+      else
+        "/#{page_language}#{page}"
+      end
+    end
   end
 end
 
