@@ -11,6 +11,231 @@ Cloud_Storage: |
 Find_a_cloud_storage_provider_that_wont_look_through_your_files.: |
   Find a cloud storage provider that won't look through your files.
 
+Firefox: |
+  Firefox
+
+Firefox_is_fast_reliable_opensource_and_respects_your_privacy._Dont_forget_to_adjust_the_setting: |
+  Firefox is fast, reliable, open-source, and respects your privacy. Don't forget to adjust the settings according to our recommendations: <a href="#webrtc"><i class="fas fa-link"></i> WebRTC</a> and <a href="#about_config"><i class="fas fa-link"></i> about:config</a> and get the <a href="#addons"><i class="fas fa-link"></i> privacy add-ons</a>.
+
+Tor_Browser__Provides_Anonymity: |
+  Tor Browser - Provides Anonymity
+
+Tor_Browser_is_your_choice_if_you_need_an_extra_layer_of_anonymity._Its_a_modified_version_of_Firefo: |
+  Tor Browser is your choice if you need an extra layer of anonymity. It's a modified version of Firefox ESR, which comes with pre-installed privacy add-ons, encryption, and an advanced proxy. <a href="https://write.privacytools.io/my-thoughts-on-security/slicing-onions-part-1-myth-busting-tor">How does Tor work?</a>
+
+Requires_specific_software_to_access_torproject.org: |
+  Requires specific software to access: torproject.org
+
+Bromite: |
+  Bromite
+
+Bromite_is_a_Chromiumbased_browser_with_security_enhancement_patches_from_GrapheneOS_and_builtin_ad: |
+  Bromite is a Chromium-based browser with security enhancement patches from GrapheneOS and built-in adblocking and DNS over HTTPS support. More info can be found <a href="https://www.bromite.org/#main-features">here</a>.
+
+Firefox_is_fast_reliable_opensource_and_respects_your_privacy._Note_Because_of_limitations_set_b: |
+  Firefox is fast, reliable, open-source, and respects your privacy. Note: Because of limitations set by Apple in iOS, our recommended tweaks cannot be applied. However, Firefox for iOS has an <a href="https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-ios">Enhanced Tracking Protection</a> feature that uses a list provided by <a href="https://disconnect.me/trackerprotection">Disconnect</a> to identify and block ad, social, and analytics trackers, as well as cryptominers and fingerprinters.
+
+Onion_Browser: |
+  Onion Browser
+
+Onion_Browser_is_an_opensource_browser_that_lets_you_browse_the_web_anonymously_over_the_Tor_network: |
+  Onion Browser is an open-source browser that lets you browse the web anonymously over the Tor network on iOS devices and is endorsed by the Tor Project. Warning: there are certain anonymity-related <a href="https://onionbrowser.com/#security-advisories">issues</a> with Onion Browser due to iOS limitations.
+
+DuckDuckGo_Privacy_Browser: |
+  DuckDuckGo Privacy Browser
+
+DuckDuckGo_Privacy_Browser_is_an_opensource_web_browser_that_has_builtin_ad_and_tracker_blocking_an: |
+  DuckDuckGo Privacy Browser is an open-source web browser that has built-in ad and tracker blocking and utilizes <a href="https://tosdr.org/">ToS;DR</a> to rate the privacy policies of the sites you visit.
+
+uBlock_Origin_Block_Ads_and_Trackers: |
+  uBlock Origin: Block Ads and Trackers
+
+stronguBlock_Originstrong_is_an_efficient_a_hrefhttpsgithub.comgorhilluBlockwikiBlockin: |
+  <strong>uBlock Origin</strong> is an efficient <a href=https://github.com/gorhill/uBlock/wiki/Blocking-mode>wide-spectrum blocker</a> that's easy on memory, and yet can load and enforce thousands more filters than other popular blockers out there. It has no monetization strategy and is completely open source.
+
+Cookie_AutoDelete_Automatically_Delete_Cookies: |
+  Cookie AutoDelete: Automatically Delete Cookies
+
+strongCookie_AutoDeletestrong_automatically_removes_cookies_when_they_are_no_longer_used_by_open: |
+  <strong>Cookie AutoDelete</strong> automatically removes cookies when they are no longer used by open browser tabs. With the cookies, lingering sessions, as well as information used to spy on you, will be expunged.
+
+HTTPS_Everywhere_Secure_Connections: |
+  HTTPS Everywhere: Secure Connections
+
+strongHTTPS_Everywherestrong_encrypts_your_communications_with_many_major_websites_making_your_: |
+  <strong>HTTPS Everywhere</strong> encrypts your communications with many major websites, making your browsing more secure. A collaboration between The Tor Project and the Electronic Frontier Foundation.
+
+Decentraleyes_Block_Content_Delivery_Networks: |
+  Decentraleyes: Block Content Delivery Networks
+
+strongDecentraleyesstrong_emulates_Content_Delivery_Networks_locally_by_intercepting_requests_f: |
+  <strong>Decentraleyes</strong> emulates Content Delivery Networks locally by intercepting requests, finding the required resource, and injecting it into the environment. This all happens instantaneously, automatically, and no prior configuration is required.
+
+Terms_of_Service_Didnt_Read_Be_Informed: |
+  Terms of Service; Didn’t Read: Be Informed
+
+strongTerms_of_Service_Didnt_Readstrong_is_an_addon_that_aims_to_fix_how_I_have_read_and_agre: |
+  <strong>Terms of Service; Didn’t Read</strong> is an addon that aims to fix how “I have read and agree to the Terms” is the biggest lie on the web by grading websites based on their terms of service agreements and privacy policies. It also gives short summaries of those agreements. The analysis and ratings are done transparently by a community of reviewers.
+
+Snowflake: |
+  Snowflake
+
+strongSnowflakestrong_is_a_new_a_hrefhttps2019.www.torproject.orgdocspluggabletransports: |
+  <strong>Snowflake</strong> is a new <a href=https://2019.www.torproject.org/docs/pluggable-transports.html.en>pluggable transport</a> from the Tor Project. If you have an uncensored connection, running this extension volunteers your connection to be used as a Snowflake proxy to help users unable to connect to the Tor network. Your IP will not be visible to the sites users visit using your proxy, as this extension will not make you an exit node. If your access to the Tor network is blocked, this extension will not assist you, and you should use the <a href=https://www.torproject.org>Tor Browser</a> instead.
+
+Privacy_Badger_Stop_Tracking: |
+  Privacy Badger: Stop Tracking
+
+strongPrivacy_Badgerstrong_is_a_browser_addon_that_stops_advertisers_and_other_thirdparty_trac: |
+  <strong>Privacy Badger</strong> is a browser add-on that stops advertisers and other third-party trackers from secretly tracking where you go and what pages you look at on the web. Privacy Badger learns about trackers as you browse.
+
+uMatrix_Stop_CrossSite_Requests: |
+  uMatrix: Stop Cross-Site Requests
+
+stronguMatrixstrong_gives_you_control_over_the_requests_that_websites_make_to_other_websites._Ma: |
+  <strong>uMatrix</strong> gives you control over the requests that websites make to other websites. Many websites integrate features which let other websites track you, such as Facebook Like Buttons or Google Analytics.
+
+NoScript_Security_Suite_Be_in_total_control: |
+  NoScript Security Suite: Be in total control
+
+strongNoScriptstrong_is_a_highly_customizable_plugin_to_selectively_allow_JavaScript_Java_and_: |
+  <strong>NoScript</strong> is a highly customizable plugin to selectively allow JavaScript, Java, and Flash to run only on websites you trust. Not for casual users, it requires technical knowledge to configure.
+
+Nextcloud: |
+  Nextcloud
+
+strongNextcloudstrong_is_a_suite_of_clientserver_software_for_creating_and_using_file_hosting_s: |
+  <strong>Nextcloud</strong> is a suite of client-server software for creating and using file hosting services. This includes calendar sync via CalDAV and contacts sync via CardDAV. Nextcloud is free and open-source, thereby allowing anyone to install and operate it without charge on a private server.
+
+Email_Providers: |
+  Email Providers
+
+Many_email_providers_also_offer_calendar_and_or_contacts_sync_services._Refer_to_the_a_hrefprovid: |
+  Many email providers also offer calendar and or contacts sync services. Refer to the <a href="/providers/email">Email Providers section</a> to choose an email provider and check if they also offer calendar and/or contacts sync.
+
+EteSync: |
+  EteSync
+
+strongEteSyncstrong_is_a_secure_endtoend_encrypted_and_journaled_personal_information_e.g._: |
+  <strong>EteSync</strong> is a secure, end-to-end encrypted, and journaled personal information (e.g. contacts and calendar) cloud synchronization and backup for Android and any OS that supports CalDAV/CardDAV. It costs $24 per year to use, or you can host the server yourself for free.
+
+Nextcloud_is_similar_in_functionality_to_the_widely_used_Dropbox_with_the_difference_being_that_Next: |
+  Nextcloud is similar in functionality to the widely used Dropbox, with the difference being that Nextcloud is free and open-source, thereby allowing anyone to install and operate it without charge on a private server with no limits on storage space or the number of connected clients.
+
+TahoeLAFS: |
+  Tahoe-LAFS
+
+TahoeLAFS_is_a_free_and_open_decentralized_cloud_storage_system._It_distributes_your_data_across_mul: |
+  Tahoe-LAFS is a free and open decentralized cloud storage system. It distributes your data across multiple servers. Even if some of the servers fail or are taken over by an attacker, the entire file store continues to function correctly, preserving your privacy and security.
+
+Njalla__Domain_Registration: |
+  Njalla - Domain Registration
+
+Njalla_is_a_privacyaware_domain_registration_service_based_in_Nevis_that_only_needs_your_email_or_XM: |
+  Njalla is a privacy-aware domain registration service based in Nevis that only needs your email or XMPP address in order to register a domain name for you. It is created by people from The Pirate Bay and IPredator VPN. Accepted payments: Bitcoin, Litecoin, Monero, DASH, Bitcoin Cash and PayPal.
+
+DNSCryptProxy__Tool: |
+  DNSCrypt-Proxy - Tool
+
+DNSCryptProxy_is_a_commandline_DNS_proxy_with_support_for_the_encrypted_DNS_protocols_DNS_over_HTT: |
+  DNSCrypt-Proxy is a command-line DNS proxy with support for the encrypted DNS protocols, DNS over HTTPS and DNSCrypt. Can cache results to improve speed, and allows filtering, forwarding, and cloaking.
+
+Thunderbird: |
+  Thunderbird
+
+Thunderbird_is_a_free_open_source_crossplatform_email_newsgroup_news_feed_and_chat_XMPP_IRC_: |
+  Thunderbird is a free, open source, cross-platform email, newsgroup, news feed, and chat (XMPP, IRC, Twitter) client developed by community, previously by the Mozilla Foundation.
+
+Claws_Mail: |
+  Claws Mail
+
+Claws_Mail_is_a_free_and_open_source_GTKbased_email_and_news_client._It_offers_easy_configuration_a: |
+  Claws Mail is a free and open source, GTK-based email and news client. It offers easy configuration and an abundance of features. It is included with Gpg4win, an encryption suite for Windows.
+
+Bitmessage: |
+  Bitmessage
+
+Bitmessage_is_a_P2P_communications_protocol_used_to_send_encrypted_messages_to_another_person_or_to_m: |
+  Bitmessage is a P2P communications protocol used to send encrypted messages to another person or to many subscribers. It is decentralized and trustless, meaning that you need not inherently trust any entities like root certificate authorities. It uses strong authentication which means that the sender of a message cannot be spoofed, and it aims to hide "non-content" data.
+
+RetroShare: |
+  RetroShare
+
+Retroshare_creates_encrypted_connections_to_your_friends._Nobody_can_spy_on_you._Retroshare_is_comple: |
+  Retroshare creates encrypted connections to your friends. Nobody can spy on you. Retroshare is completely decentralized. This means there are no central servers. It is entirely open-source and free. There are no costs, no ads, and no Terms of Service.
+
+VeraCrypt__Disk_Encryption: |
+  VeraCrypt - Disk Encryption
+
+strongVeraCryptstrong_is_a_sourceavailable_freeware_utility_used_for_onthefly_encryption._It_: |
+  <strong>VeraCrypt</strong> is a source-available freeware utility used for on-the-fly encryption. It can create a virtual encrypted disk within a file or encrypt a partition or the entire storage device with pre-boot authentication. VeraCrypt is a fork of the discontinued TrueCrypt project. It was initially released on June 22, 2013. According to its developers, security improvements have been implemented and issues raised by the initial TrueCrypt code audit have been addressed.
+
+GNU_Privacy_Guard__Email_Encryption: |
+  GNU Privacy Guard - Email Encryption
+
+strongGnuPGstrong_is_a_GPLlicensed_alternative_to_the_PGP_suite_of_cryptographic_software._GnuP: |
+  <strong>GnuPG</strong> is a GPL-licensed alternative to the PGP suite of cryptographic software. GnuPG is compliant with RFC 4880, which is the current IETF standards track specification of OpenPGP. Current versions of PGP (and Veridis' Filecrypt) are interoperable with GnuPG and other OpenPGP-compliant systems. GnuPG is a part of the Free Software Foundation's GNU software project, and has received major funding from the German government.
+
+PeaZip__File_Archive_Encryption: |
+  PeaZip - File Archive Encryption
+
+strongPeaZipstrong_is_a_free_and_opensource_file_manager_and_file_archiver_made_by_Giorgio_Tani: |
+  <strong>PeaZip</strong> is a free and open-source file manager and file archiver made by Giorgio Tani. It supports its native PEA archive format (featuring compression, multi volume split and flexible authenticated encryption and integrity check schemes) and other mainstream formats, with special focus on handling open formats. It also supports 180+ archive formats.
+
+Firefox_Send: |
+  Firefox Send
+
+Firefox_Send_uses_endtoend_encryption_to_keep_your_data_secure_from_the_moment_you_share_to_the_mom: |
+  Firefox Send uses end-to-end encryption to keep your data secure from the moment you share to the moment your file is opened. It also offers security controls that you can set. You can choose when your file link expires, the number of downloads, and whether to add an optional password for an extra layer of security.
+
+OnionShare: |
+  OnionShare
+
+OnionShare_is_an_opensource_tool_that_lets_you_securely_and_anonymously_share_a_file_of_any_size._It: |
+  OnionShare is an open-source tool that lets you securely and anonymously share a file of any size. It works by starting a web server, making it accessible as a Tor onion service, and generating an unguessable URL for you to share so that the recipients can access and download the files.
+
+Magic_Wormhole: |
+  Magic Wormhole
+
+Magic_Wormhole_is_a_package_that_provides_a_library_and_a_commandline_tool_named_wormhole_which_mak: |
+  Magic Wormhole is a package that provides a library and a command-line tool named wormhole, which makes it possible to get arbitrary-sized files and directories (or short pieces of text) from one computer to another. Their motto: "Get things from one computer to another, safely."
+
+Syncthing: |
+  Syncthing
+
+strongSyncthingstrong_replaces_proprietary_sync_and_cloud_services_with_something_open_trustwor: |
+  <strong>Syncthing</strong> replaces proprietary sync and cloud services with something open, trustworthy and decentralized. Your data is your data alone and you deserve to choose where it is stored, if it is shared with some third-party and how it's transmitted over the Internet.
+
+SparkleShare: |
+  SparkleShare
+
+strongSparkleSharestrong_creates_a_special_folder_on_your_computer._You_can_add_remotely_hosted_: |
+  <strong>SparkleShare</strong> creates a special folder on your computer. You can add remotely hosted folders (or "projects") to this folder. These projects will be automatically kept in sync with both the host and all of your peers when someone adds, removes or edits a file.
+
+Data_Center_Bahnhof: |
+  Data Center: Bahnhof
+
+Bahnhof_is_one_of_Swedens_largest_network_operators_founded_in_1994._They_specialize_in_innovative_: |
+  Bahnhof is one of Sweden’s largest network operators, founded in 1994. They specialize in innovative data center construction: Extreme security coupled with low-cost green energy has made them world famous.
+
+VPS__Domain_Njalla: |
+  VPS & Domain: Njalla
+
+Njalla_is_a_privacyaware_domain_registration_service_and_VPS_provider_based_in_Nevis_with_VPS_data_: |
+  Njalla is a privacy-aware domain registration service and VPS provider based in Nevis (with VPS data centers in Sweden). It is created by people from The Pirate Bay and IPredator VPN. Accepted payments: Bitcoin, Litecoin, Monero, DASH, Bitcoin Cash and PayPal.
+
+Colocation_DataCell: |
+  Colocation: DataCell
+
+DataCell_is_a_data_center_providing_secure_colocating_in_Switzerland_and_Iceland.: |
+  DataCell is a data center providing secure colocating in Switzerland and Iceland.
+
+VPS_Hosting__Domain_Orange_Website: |
+  VPS, Hosting, & Domain: Orange Website
+
+Orange_Website_is_an_Icelandic_web_hosting_provider_that_prides_themselves_in_protecting_online_priva: |
+  Orange Website is an Icelandic web hosting provider that prides themselves in protecting online privacy and free speech.
+
 Privacy_Tools: |
   Privacy Tools
 
@@ -104,11 +329,144 @@ GitHub: |
 This_is_a_community_project_aiming_to_deliver_the_best_information_available_to_improve_privacy_onlin: |
   This is a community project aiming to deliver the best information available to improve privacy online. Thank you for participating. This project needs you.
 
+Tor: |
+  Tor
+
+The_Tor_network_is_a_group_of_volunteeroperated_servers_that_allows_people_to_improve_their_privacy_: |
+  The Tor network is a group of volunteer-operated servers that allows people to improve their privacy and security on the Internet. Tor's users employ this network by connecting through a series of virtual tunnels rather than making a direct connection, thus allowing both organizations and individuals to share information over public networks without compromising their privacy. Tor is an effective censorship circumvention tool.
+
+I2P_Anonymous_Network: |
+  I2P Anonymous Network
+
+The_Invisible_Internet_Project_I2P_is_a_computer_network_layer_that_allows_applications_to_send_mes: |
+  The Invisible Internet Project (I2P) is a computer network layer that allows applications to send messages to each other pseudonymously and securely. Uses include anonymous Web surfing, chatting, blogging, and file transfers. The software that implements this layer is called an I2P router and a computer running I2P is called an I2P node. The software is free and open-source and is published under multiple licenses.
+
+Requires_specific_software_to_access_geti2p.net: |
+  Requires specific software to access: geti2p.net
+
+The_Freenet_Project: |
+  The Freenet Project
+
+Freenet_is_a_peertopeer_platform_for_censorshipresistant_communication._It_uses_a_decentralized_di: |
+  Freenet is a peer-to-peer platform for censorship-resistant communication. It uses a decentralized distributed data store to keep and deliver information, and has a suite of free software for publishing and communicating on the Web without fear of censorship. Both Freenet and some of its associated tools were originally designed by Ian Clarke, who defined Freenet's goal as providing freedom of speech on the Internet with strong anonymity protection.
+
+Joplin: |
+  Joplin
+
+Joplin_is_a_free_opensource_and_fullyfeatured_notetaking_and_todo_application_which_can_handle_: |
+  Joplin is a free, open-source, and fully-featured note-taking and to-do application which can handle a large number of markdown notes organized into notebooks and tags. It offers end-to-end encryption and can sync through Nextcloud, Dropbox, and more. It also offers easy import from Evernote and plain-text notes.
+
+Standard_Notes: |
+  Standard Notes
+
+Standard_Notes_is_a_simple_and_private_notes_app_that_makes_your_notes_easy_and_available_everywhere_: |
+  Standard Notes is a simple and private notes app that makes your notes easy and available everywhere you are. Features end-to-end encryption on every platform, and a powerful desktop experience with themes and custom editors.
+
+Turtl: |
+  Turtl
+
+Turtl_lets_you_take_notes_bookmark_websites_and_store_documents_for_sensitive_projects._From_sharin: |
+  Turtl lets you take notes, bookmark websites, and store documents for sensitive projects. From sharing passwords with your coworkers to tracking research on an article you're writing, Turtl keeps it all safe from everyone but you and those you share with.
+
+searx__Decentral: |
+  searx - Decentral
+
+searx_is_an_a_hrefhttpsgithub.comasciimoosearxopensourcea_metasearch_engine_aggregatin: |
+  searx is an <a href="https://github.com/asciimoo/searx">open-source</a> metasearch engine, aggregating the results of other search engines while not storing information about its users. No logs, no ads and no tracking. There is a <a href="https://github.com/asciimoo/searx/wiki/Searx-instances">list of public instances</a>, or you can try <a href="https://search.privacytools.io/">the PrivacyTools Search</a>
+
+DuckDuckGo__USA: |
+  DuckDuckGo - USA
+
+DuckDuckGo_is_a_search_engine_that_doesnt_track_you._Some_of_DuckDuckGos_code_is_free_software_ho: |
+  DuckDuckGo is a "search engine that doesn't track you." Some of DuckDuckGo's code is free software hosted at GitHub, but the core is proprietary. <span class="flag-icon flag-icon-us"></span> <a href="../../providers/#ukusa">The company is based in the USA.</a>
+
+Qwant__France: |
+  Qwant - France
+
+Qwant_is_a_search_engine_with_its_philosophy_based_on_two_principles_no_user_tracking_and_no_filter_: |
+  Qwant is a search engine with its philosophy based on two principles: no user tracking and no filter bubble. Qwant was launched in France in February 2013.
+
+Signal: |
+  Signal
+
+Signal_is_a_mobile_app_developed_by_Open_Whisper_Systems._The_app_provides_instant_messaging_as_well: |
+  Signal is a mobile app developed by Open Whisper Systems. The app provides instant messaging, as well as voice and video calling.
+All communications are end-to-end encrypted. Signal is free and open source.
+
+VoIP: |
+  VoIP
+
+Wire: |
+  Wire
+
+Wire_is_a_free_and_endtoend_encrypted_chatting_application_that_supports_instant_messaging_voice_: |
+  Wire is a free and end-to-end encrypted chatting application that supports instant messaging, voice, and video calls. Full source code is available.
+
+Wire_stores_some_plaintext_metadata_about_its_users_on_their_servers._This_data_includes_profile_name: |
+  Wire stores some plaintext metadata about its users on their servers. This data includes profile names, profile pictures, usernames, and users' lists of connections and conversations.
+
+a_hrefwww.vice.comen_usarticlegvzw5xsecuremessagingappwirestoreseveryoneyouveevercont: |
+  <a href=//www.vice.com/en_us/article/gvzw5x/secure-messaging-app-wire-stores-everyone-youve-ever-contacted-in-plain-text>Warning</a>
+
+Linphone: |
+  Linphone
+
+Linphone_is_an_opensource_SIP_Phone_and_a_free_voice_over_IP_service_available_on_mobile_and_deskto: |
+  Linphone is an open-source SIP Phone and a free voice over IP service, available on mobile and desktop environments and on web browsers. It supports ZRTP for end-to-end encrypted voice and video communication.
+
+Mumble: |
+  Mumble
+
+Mumble_is_an_opensource_lowlatency_and_high_quality_voice_chat_application_primarily_intended_for: |
+  Mumble is an open-source, low-latency, and high quality voice chat application primarily intended for use while gaming. Note that while Mumble doesn't log messages or record by default, <a href="https://github.com/mumble-voip/mumble/issues/1813">it's missing end-to-end encryption</a>, so self-hosting is recommended.
+
+Riot.im_Matrix: |
+  Riot.im (Matrix)
+
+Riot.im_is_a_federated_freesoftware_messaging_application_based_on_the_a_hrefhttpsmatrix.org: |
+  Riot.im is a federated free-software messaging application based on the <a href"https://matrix.org/">Matrix</a> protocol, a recent open protocol for real-time communication offering optional E2E encryption. It also has bridging functionality, allowing you to connect to other chat protocols such as IRC or Telegram.
+
+The_endtoend_encryption_is_currently_in_beta_and_the_mobile_client_states_Endtoend_encryption_i: |
+  The end-to-end encryption is currently in beta, and the mobile client states 'End-to-end encryption is in beta and may not be reliable. You should not yet trust it to secure data.'
+
+a_hrefgithub.comvectorimriotwebissues6779Experimental_E2EEa: |
+  <a href=//github.com/vector-im/riot-web/issues/6779>Experimental E2EE</a>
+
+Rocket.chat: |
+  Rocket.chat
+
+Rocket.chat_is_an_selfhostable_open_source_platform_for_team_communication._It_has_optional_federati: |
+  Rocket.chat is an self-hostable open source platform for team communication. It has optional federation and experimental E2EE.
+
+Regarding_E2EE_their_documentation_states_This_feature_is_currently_in_alpha._Its_also_not_yet_supp: |
+  Regarding E2EE their documentation states 'This feature is currently in alpha. It's also not yet supported on mobile'. There is no forward secrecy so compromised decryption password would leak all messages. Federation was also added afterwards, potentially causing room for mistakes.
+
+a_hrefrocket.chatdocsuserguidesendtoendencryptionExperimental_E2EEa: |
+  <a href=//rocket.chat/docs/user-guides/end-to-end-encryption/>Experimental E2EE</a>
+
+Keybase: |
+  Keybase
+
+Keybase_provides_a_hosted_team_chat_with_endtoend_encryption._It_has_also_been_a_hrefhttpskey: |
+  Keybase provides a hosted team chat with end-to-end encryption. It has also been <a href="https://keybase.io/docs-assets/blog/NCC_Group_Keybase_KB2018_Public_Report_2019-02-27_v1.3.pdf">indepedently audited (PDF)</a>.
+
+The_server_side_of_Keybase_runs_on_proprietary_code_and_is_centralized.: |
+  The server side of Keybase runs on proprietary code and is centralized.
+
+a_hrefgithub.comkeybaseclientissues6374Warninga: |
+  <a href=//github.com/keybase/client/issues/6374>Warning</a>
+
 Encrypted_Cloud_Storage_Services: |
   Encrypted Cloud Storage Services
 
 If_you_are_currently_using_Dropbox_Google_Drive_Microsoft_OneDrive_or_Apple_iCloud_you_should_pick: |
   If you are currently using Dropbox, Google Drive, Microsoft OneDrive or Apple iCloud, you should pick an alternative here.
+
+Nextcloud__Choose_your_hoster: |
+  Nextcloud - Choose your hoster
+
+Nextcloud_is_similar_in_functionality_to_the_widelyused_Dropbox_with_the_difference_being_that_Next: |
+  Nextcloud is similar in functionality to the widely-used Dropbox, with the difference being that Nextcloud is free and open-source, thereby allowing anyone to install and operate it without charge on a private server, with no limits on storage space or the number of connected clients.
 
 Worth_Mentioning: |
   Worth Mentioning
@@ -127,6 +485,195 @@ CryptPad: |
 
 Free_and_endtoend_encrypted_real_time_collaboration_sharing_folders_media_and_documents.: |
   Free and end-to-end encrypted real time collaboration sharing folders, media, and documents.
+
+Bitwarden__CloudSelfhost: |
+  Bitwarden - Cloud/Self-host
+
+strongBitwardenstrong_is_a_free_and_opensource_password_manager._It_aims_to_solve_password_mana: |
+  <strong>Bitwarden</strong> is a free and open-source password manager. It aims to solve password management problems for individuals, teams, and business organizations. Bitwarden is among the easiest and safest solutions to store all of your logins and passwords while conveniently keeping them synced between all of your devices. If you don't want to use the Bitwarden cloud, you can easily host your own Bitwarden server.
+
+KeePassXC__Local: |
+  KeePassXC - Local
+
+strongKeePassXCstrong_is_a_community_fork_of_KeePassX_a_native_crossplatform_port_of_KeePass_P: |
+  <strong>KeePassXC</strong> is a community fork of KeePassX, a native cross-platform port of KeePass Password Safe, with the goal to extend and improve it with new features and bugfixes to provide a feature-rich, fully cross-platform and modern open-source password manager.
+
+LessPass__Browser: |
+  LessPass - Browser
+
+strongLessPassstrong_is_a_free_and_opensource_password_manager_that_generates_unique_passwords_: |
+  <strong>LessPass</strong> is a free and open-source password manager that generates unique passwords for websites, email accounts, or anything else based on a master password and information you know. No sync needed. Uses PBKDF2 and SHA-256. It's advised to use the browser addons for more security.
+
+Mastodon__Twitter_Alternative: |
+  Mastodon - Twitter Alternative
+
+Mastodon_is_a_social_network_based_on_open_web_protocols_and_free_opensource_software._It_is_decent: |
+  Mastodon is a social network based on open web protocols and free, open-source software. It is decentralized like email. It also has the most users, and the most diverse (in terms of interests) users; looks good; and is easy to setup. Feel welcome to join our hosted instance: <a href="https://social.privacytools.io/">social.privacytools.io</a>
+
+diaspora__Google_Alternative: |
+  diaspora* - Google+ Alternative
+
+diaspora_is_based_on_three_key_philosophies_Decentralization_freedom_and_privacy._It_is_intended_t: |
+  diaspora* is based on three key philosophies: Decentralization, freedom and privacy. It is intended to address privacy concerns related to centralized social networks by allowing users set up their own server (or "pod") to host content; pods can then interact to share status updates, photographs, and other social data.
+
+Friendica__Facebook_Alternative: |
+  Friendica - Facebook Alternative
+
+Friendica_has_an_emphasis_on_extensive_privacy_settings_and_easy_server_installation._It_aims_to_fede: |
+  Friendica has an emphasis on extensive privacy settings and easy server installation. It aims to federate with as many other social networks as possible. Currently, Friendica users can integrate contacts from Facebook, Twitter, Diaspora, GNU social, App.net, Pump.io and other services in their social streams.
+
+PixelFed__Instagram_Alternative: |
+  PixelFed - Instagram Alternative
+
+PixelFed_is_a_free_and_ethical_photo_sharing_platform_powered_by_ActivityPub_federation._Pixelfed_is: |
+  PixelFed is a free and ethical photo sharing platform, powered by ActivityPub federation. Pixelfed is an open-source, federated platform. You can run your own instance or <a href="https://fediverse.party/en/pixelfed/">join one.</a>
+
+GNU_social__Twitter_Alternative: |
+  GNU social - Twitter Alternative
+
+GNU_social_is_socialcommunication_software_for_both_public_and_private_communications._It_is_widely_: |
+  GNU social is social-communication software for both public and private communications. It is widely supported and has a large userbase. It is already used by the Free Software Foundation.
+
+Aether: |
+  Aether
+
+a_hrefhttpsgithub.comnehbitaetherblobmasterLICENSE.mdAether_is_a_free_and_opensourcea: |
+  <a href="https://github.com/nehbit/aether/blob/master/LICENSE.md">Aether is a free and open-source</a> decentralized social news aggregator with a built-in voting system.
+
+Tildes: |
+  Tildes
+
+Tildes_is_a_webbased_selfhostable_online_bulletin_board._It_is_licensed_under_a_hrefhttpsgitl: |
+  Tildes is a web-based self-hostable online bulletin board. It is licensed under <a href="https://gitlab.com/tildes/tildes/blob/master/LICENSE">GPL 3.0</a>.
+
+Raddle: |
+  Raddle
+
+Raddle_is_a_public_Postmill_instance_focused_on_privacy_and_anticensorship.: |
+  Raddle is a public Postmill instance focused on privacy and anti-censorship.
+
+PrivateBin: |
+  PrivateBin
+
+PrivateBin_is_a_minimalist_opensource_online_pastebin_where_the_server_has_zero_knowledge_of_pasted: |
+  PrivateBin is a minimalist, open-source online pastebin where the server has zero knowledge of pasted data. Data is encrypted/decrypted in the browser using 256-bit AES. It is the improved version of ZeroBin.
+
+CryptPad_is_an_opensource_zero_knowledge_and_realtime_collaborative_editor._Data_is_encrypteddec: |
+  CryptPad is an open-source, zero knowledge, and real-time collaborative editor. Data is encrypted/decrypted in the browser, using Salsa20 with Poly1305 to encrypt pads.
+
+strongCryptPadstrong_is_a_privatebydesign_alternative_to_popular_office_tools_and_cloud_servic: |
+  <strong>CryptPad</strong> is a private-by-design alternative to popular office tools and cloud services. All content is end-to-end encrypted. It is free and open-source, enabling anyone to verify its security by auditing the code. The development team is supported by donations and grants. No registration is required, and it can be used anonymously via Tor Browser.
+
+Etherpad: |
+  Etherpad
+
+strongEtherpadstrong_is_a_highly_customizable_opensource_online_editor_providing_collaborative_: |
+  <strong>Etherpad</strong> is a highly customizable open-source online editor providing collaborative editing in real time. <a href=https://github.com/ether/etherpad-lite/wiki/Sites-that-run-Etherpad>Here are a list of sites that run Etherpad</a>.
+
+Write.as: |
+  Write.as
+
+strongWrite.asstrong_is_a_crossplatform_privacyoriented_blogging_platform._Its_anonymous_by_: |
+  <strong>Write.as</strong> is a cross-platform, privacy-oriented blogging platform. It's anonymous by default, letting you publish without signing up. If you create an account, it doesn't require any personal information. No ads, distraction-free, and built on a sustainable business model.
+
+MAT2: |
+  MAT2
+
+strongMAT2strong_is_free_software_which_allows_the_removal_of_metadata_of_image_audio_torrent: |
+  <strong>MAT2</strong> is free software, which allows the removal of metadata of image, audio, torrent, and document file types. It provides both a command line tool and a graphical user interface via an extension for Nautilus, the default file manager of GNOME.
+
+Qubes_OS: |
+  Qubes OS
+
+Xen: |
+  Xen
+
+Qubes_is_an_opensource_operating_system_designed_to_provide_strong_security_for_desktop_computing._Q: |
+  Qubes is an open-source operating system designed to provide strong security for desktop computing. Qubes is based on Xen, the X Window System, and Linux, and can run most Linux applications and utilize most of the Linux drivers.
+
+This_software_may_depend_on_or_recommend_nonfree_software.: |
+  This software may depend on or recommend non-free software.
+
+contrib: |
+  contrib
+
+Fedora_Workstation: |
+  Fedora Workstation
+
+GNULinux: |
+  GNU/Linux
+
+Fedora_is_a_Linux_distribution_developed_by_the_Fedora_Project_and_sponsored_by_Red_Hat._Fedora_Works: |
+  Fedora is a Linux distribution developed by the Fedora Project and sponsored by Red Hat. Fedora Workstation is a secure, reliable, and user-friendly edition developed for desktops and laptops, using GNOME as the default desktop environment.
+
+Debian: |
+  Debian
+
+Debian_is_a_Unixlike_computer_operating_system_and_a_Linux_distribution_that_is_composed_entirely_of: |
+  Debian is a Unix-like computer operating system and a Linux distribution that is composed entirely of free and open-source software, most of which is under the GNU General Public License, and packaged by a group of individuals known as the Debian project.
+
+Tails: |
+  Tails
+
+Tails_is_a_live_operating_system_that_starts_on_almost_any_computer_from_a_DVD_USB_stick_or_SD_card: |
+  Tails is a live operating system that starts on almost any computer from a DVD, USB stick, or SD card. It aims at preserving privacy and anonymity, and circumventing censorship by forcing Internet connections through the Tor network; leaving no trace on the computer; and using state-of-the-art cryptographic tools to encrypt files, emails, and instant messages.
+
+KNOPPIX: |
+  KNOPPIX
+
+Knoppix_is_an_operating_system_based_on_Debian_designed_to_be_run_directly_from_a_CD__DVD_Live_CD_: |
+  Knoppix is an operating system based on Debian designed to be run directly from a CD / DVD (Live CD) or a USB flash drive (Live USB), one of the first of its kind for any operating system. When starting a program, it is loaded from the removable medium and decompressed into a RAM drive. The decompression is transparent and on-the-fly.
+
+Puppy_Linux: |
+  Puppy Linux
+
+Puppy_Linux_operating_system_is_a_lightweight_Linux_distribution_that_focuses_on_ease_of_use_and_mini: |
+  Puppy Linux operating system is a lightweight Linux distribution that focuses on ease of use and minimal memory footprint. The entire system can be run from RAM with current versions generally taking up about 210 MB, allowing the boot medium to be removed after the operating system has started.
+
+GrapheneOS: |
+  GrapheneOS
+
+AOSP: |
+  AOSP
+
+GrapheneOS_formerly_known_as_CopperheadOS_is_a_free_and_opensource_security_and_privacyfocused_m: |
+  GrapheneOS (formerly known as CopperheadOS) is a free and open-source security- and privacy-focused mobile operating system built on top of the Android Open Source Project. It currently specifically targets devices offering strong hardware security.
+
+LineageOS: |
+  LineageOS
+
+LineageOS_is_a_free_and_opensource_operating_system_for_smartphones_and_tablets_based_on_the_offici: |
+  LineageOS is a free and open-source operating system for smartphones and tablets, based on the official releases of the Android Open Source Project. It is the continuation of the CyanogenMod project.
+
+Ubuntu_Touch: |
+  Ubuntu Touch
+
+Ubuntu_Touch_is_a_free_and_opensource_operating_system_for_smartphones_and_tablets._Its_an_alternat: |
+  Ubuntu Touch is a free and open-source operating system for smartphones and tablets. It's an alternative to the current popular mobile operating systems on the market. Only a few devices are <a href=https://devices.ubuntu-touch.io/>supported.</a>
+
+OpenWrt: |
+  OpenWrt
+
+Linux: |
+  Linux
+
+OpenWrt_is_an_operating_system_in_particular_an_embedded_operating_system_based_on_the_Linux_kerne: |
+  OpenWrt is an operating system (in particular, an embedded operating system) based on the Linux kernel, primarily used on embedded devices to route network traffic. The main components are the Linux kernel, util-linux, uClibc and BusyBox. All components have been optimized for size, to be small enough for fitting into the limited storage and memory available in home routers.
+
+pfSense: |
+  pfSense
+
+BSD: |
+  BSD
+
+pfSense_is_an_open_source_firewallrouter_computer_software_distribution_based_on_FreeBSD._It_is_inst: |
+  pfSense is an open source firewall/router computer software distribution based on FreeBSD. It is installed on a computer to make a dedicated firewall/router for a network and is noted for its reliability and offering features often only found in expensive commercial firewalls. pfSense is commonly deployed as a perimeter firewall, router, wireless access point, DHCP server, DNS server, and as a VPN endpoint.
+
+LibreCMC: |
+  LibreCMC
+
+LibreCMC_is_a_GNULinuxlibre_distribution_for_computers_with_minimal_resources_such_as_the_Ben_Nano: |
+  LibreCMC is a GNU/Linux-libre distribution for computers with minimal resources, such as the Ben Nanonote, ath9k-based Wi-Fi routers, and other hardware with emphasis on free software. The project's current goal is to aim for compliance with the GNU Free System Distribution Guidelines (GNU FSDG) and ensure that the project continues to meet these requirements set forth by the Free Software Foundation (FSF).
 
 Services: |
   Services

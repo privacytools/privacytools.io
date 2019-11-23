@@ -2,7 +2,7 @@
   <div class="card-header text-white bg-secondary">
     <h3 class="h5">
       {% if include.badges %}
-      <span class="mr-2">{{ include.title }}</span>
+      <span class="mr-2">{{ include.title | translate_text }}</span>
       {% assign badges = include.badges | split:"|" %}
         {% for badge in badges %}
           {% assign badge_data = badge | split:":" %}
@@ -14,15 +14,15 @@
             class="badge badge-{{color}}"
             {% if tooltip %}
               data-toggle="tooltip"
-              title="{{ tooltip }}"
-              > {{text}} {{ help_icon }}
+              title="{{ tooltip | translate_text }}"
+              > {{text | translate_text}} {{ help_icon }}
             {% else %}
-              > {{text}}
+              > {{text | translate_text}}
             {% endif %}
           </span>
         {% endfor %}
       {% else %}
-        {{ include.title }}
+        {{ include.title | translate_text }}
       {% endif %}
     </h3>
   </div>
@@ -36,9 +36,9 @@
         height="120"
         width="120"
         class="panel-pic"
-        alt="{{include.title}}"
+        alt="{{include.title | translate_text }}"
       >
-      {{ include.description }}
+      {{ include.description | translate_text }}
       {% if include.labels %}
       {% assign labels = include.labels | split:"|" %}
         {% for label in labels %}
@@ -51,10 +51,10 @@
             class="badge badge-{{color}}"
             {% if tooltip %}
               data-toggle="tooltip"
-              title="{{ tooltip }}"
-              > {{text}} {{ help_icon }}
+              title="{{ tooltip | translate_text }}"
+              > {{text | translate_text}} {{ help_icon }}
             {% else %}
-              > {{text}}
+              > {{text | translate_text}}
             {% endif %}
           </span>
         {% endfor %}
@@ -85,7 +85,7 @@
             class="hover-text-decoration-none mt-1 mr-1"
             data-toggle="tooltip"
             data-placement="bottom"
-            data-original-title="Requires specific software to access: torproject.org">
+            data-original-title="{% t Requires specific software to access: torproject.org %}">
             <span class="ptio-tor btn-tor btn-icon"></span>
           </a>
         {% endif %}
@@ -96,7 +96,7 @@
             class="hover-text-decoration-none mt-1 mr-1"
             data-toggle="tooltip"
             data-placement="bottom"
-            data-original-title="Requires specific software to access: geti2p.net">
+            data-original-title="{% t Requires specific software to access: geti2p.net %}">
             <span class="ptio-i2p-garlic btn-secondary btn-icon"></span>
           </a>
         {% endif %}
