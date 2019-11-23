@@ -1,4 +1,10 @@
 ---
+Web_Browsers: |
+  Web Browsers
+
+These_are_our_current_web_browser_recommendations_and_some_tweaks_you_can_use_to_preserve_your_privac: |
+  These are our current web browser recommendations and some tweaks you can use to preserve your privacy.
+
 Providers: |
   Providers
 
@@ -248,9 +254,6 @@ Discover_privacycentric_online_services_including_email_providers_VPN_operators_
 Learn_More: |
   Learn More
 
-Web_Browsers: |
-  Web Browsers
-
 Find_a_web_browser_that_respects_your_privacy_and_discover_how_to_harden_your_browser_against_tracki: |
   Find a web browser that respects your privacy, and discover how to harden your browser against tracking and leaks.
 
@@ -390,8 +393,7 @@ Signal: |
   Signal
 
 Signal_is_a_mobile_app_developed_by_Open_Whisper_Systems._The_app_provides_instant_messaging_as_well: |
-  Signal is a mobile app developed by Open Whisper Systems. The app provides instant messaging, as well as voice and video calling.
-All communications are end-to-end encrypted. Signal is free and open source.
+  Signal is a mobile app developed by Open Whisper Systems. The app provides instant messaging, as well as voice and video calling. All communications are end-to-end encrypted. Signal is free and open source.
 
 VoIP: |
   VoIP
