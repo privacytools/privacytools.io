@@ -5,13 +5,16 @@
 <p>It's important for a website like {{ site.name }} to stay up-to-date. Keep an eye on software updates for the applications listed on our site. Follow recent news about providers that we recommend. We try our best to keep up, but we're not perfect and the internet is changing fast. If you find an error, or you think a provider should not be listed here, or a qualified service provider is missing, or a browser plugin is not the best choice anymore, or anything else... <strong>Talk to us please.</strong> You can also find us on <a rel="me" href="https://social.privacytools.io/@privacytools">our own Mastodon instance</a> or on <a href="https://chat.privacytools.io">Matrix</a> at <code class="highlighter-rouge">#general:privacytools.io</code>.</p>
 
 <div class="row">
-
+  {% capture reddit_button %}<a class="btn btn-success mb-1" href="https://www.reddit.com/r/privacytoolsIO/">{% t Reddit %}</a>{% endcapture %}
+  {% capture twitter_button %}<a class="btn btn-primary mb-1" href="https://twitter.com/privacytoolsIO">{% t Twitter %}</a>{% endcapture %}
+  {% capture contriblist_button %}<a class="btn btn-warning mb-1" href="https://github.com/privacytoolsIO/privacytools.io/graphs/contributors">{% t Contributor List %}</a>{% endcapture %}
+  
   {% include card.html color="success"
   title="Discourse & Reddit"
   image="/assets/img/icons/discourse.png"
   url="https://forum.privacytools.io/"
   website="Discourse"
-  extra_button='<a class="btn btn-success mb-1" href="https://www.reddit.com/r/privacytoolsIO/">Reddit</a>'
+  extra_button=reddit_button
   description='Join our Discourse community to stay up to date on privacy news or make suggestions!'
   %}
 
@@ -20,7 +23,7 @@
   image="/assets/img/icons/mastodon.png"
   url="https://social.privacytools.io/"
   website="Mastodon"
-  extra_button='<a class="btn btn-primary mb-1" href="https://twitter.com/privacytoolsIO">Twitter</a>'
+  extra_button=twitter_button
   description="Get the latest privacy-related updates from our Mastodon Feed. Follow us today!"
   %}
 
@@ -30,9 +33,8 @@
   url="https://github.com/privacytoolsIO/privacytools.io"
   website="GitHub"
   description="The complete website source code is available on GitHub. Join our developer team!"
-  extra_button='<a class="btn btn-warning mb-1" href="https://github.com/privacytoolsIO/privacytools.io/graphs/contributors">Contributor List</a>'
+  extra_button=contriblist_button
   %}
-
 </div>
 
-<p>This is a community project aiming to deliver the best information available to improve privacy online. Thank you for participating. This project needs you.</p>
+<p>{% t This is a community project aiming to deliver the best information available to improve privacy online. Thank you for participating. This project needs you. %}</p>
