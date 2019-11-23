@@ -4,76 +4,56 @@
 
 <div class="row">
 
-  {% capture providers_title %}{% t Providers %}{% endcapture %}
-  {% capture providers_page %}/{% if page.language %}{{ page.language }}/{% endif %}providers/{% endcapture %}
-  {% capture providers_description %}{% t Discover privacy-centric online services, including email providers, VPN operators, DNS administrators, and more!%}{% endcapture %}
-
   {% include card.html color="success"
-  title=providers_title
+  title="Providers"
   icon="fas fa-server"
   iconcolor="dark"
-  page=providers_page
-  description=providers_description
+  page="/providers/"
+  description="Discover privacy-centric online services, including email providers, VPN operators, DNS administrators, and more!"
   %}
-
-  {% capture browsers_title %}{% t Web Browsers %}{% endcapture %}
-  {% capture browsers_page %}/{% if page.language %}{{ page.language }}/{% endif %}browsers/{% endcapture %}
-  {% capture browsers_description %}{% t Find a web browser that respects your privacy, and discover how to harden your browser against tracking and leaks.%}{% endcapture %}
 
   {% include card.html color="primary"
-  title=browsers_title
+  title="Web Browsers"
   icon="far fa-compass"
   iconcolor="dark"
-  page=browsers_page
-  description=browsers_description
+  page="/browsers/"
+  description="Find a web browser that respects your privacy, and discover how to harden your browser against tracking and leaks."
   %}
-
-  {% capture software_title %}{% t Software %}{% endcapture %}
-  {% capture software_page %}/{% if page.language %}{{ page.language }}/{% endif %}software/{% endcapture %}
-  {% capture software_description %}{% t Discover a variety of open source software built to protect your privacy and keep your digital data secure.%}{% endcapture %}
 
   {% include card.html color="warning"
-  title=software_title
+  title="Software"
   icon="far fa-window-restore"
   iconcolor="dark"
-  page=software_page
-  description=software_description
+  page="/software/"
+  description="Discover a variety of open source software built to protect your privacy and keep your digital data secure."
   %}
-
-  {% capture os_title %}{% t Operating Systems%}{% endcapture %}
-  {% capture os_page %}/{% if page.language %}{{ page.language }}/{% endif %}operating-systems/{% endcapture %}
-  {% capture os_description %}{% t Find out how your operating system is compromising your privacy, and what simple alternatives exist.%}{% endcapture %}
 
   {% include card.html color="info"
-  title=os_title
+  title="Operating Systems"
   icon="fas fa-desktop"
   iconcolor="dark"
-  page=os_page
-  description=os_description
+  page="/operating-systems/"
+  description="Find out how your operating system is compromising your privacy, and what simple alternatives exist."
   %}
 
-  {% capture services_title %}{% t PrivacyTools Services%}{% endcapture %}
+  {% capture services_title %}{% t %}{% endcapture %}
   {% capture services_page %}/{% if page.language %}{{ page.language }}/{% endif %}services/{% endcapture %}
   {% capture services_description %}{% t The PrivacyTools team is proud to launch a variety of privacy-centric online services, including a Mastodon instance, search engine, and more!%}{% endcapture %}
 
   {% include card.html color="secondary"
-  title=services_title
+  title="PrivacyTools Services"
   icon="far fa-eye-slash"
   iconcolor="dark"
-  page=services_page
-  description=services_description
+  page="/services/"
+  description="The PrivacyTools team is proud to launch a variety of privacy-centric online services, including a Mastodon instance, search engine, and more!"
   %}
 
-  {% capture donate_title %}{% t Donate%}{% endcapture %}
-  {% capture donate_page %}/{% if page.language %}{{ page.language }}/{% endif %}donate/{% endcapture %}
-  {% capture donate_description %}{% t We can't operate this site without the generous contributions we receive from our viewers. If you love privacy and our website please consider donating.%}{% endcapture %}
-
   {% include card.html color="danger"
-  title=donate_title
+  title="Donate"
   icon="fas fa-donate"
   iconcolor="dark"
-  page=donate_page
-  description=donate_description
+  page="/donate/"
+  description="We can't operate this site without the generous contributions we receive from our viewers. If you love privacy and our website please consider donating."
   %}
 
 </div>
