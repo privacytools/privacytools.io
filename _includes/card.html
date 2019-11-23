@@ -5,7 +5,7 @@
         {% else %}
         <div class="card-header text-white bg-{{include.color}}">
         {% endif %}
-        <h3 class="h5">{{include.title}}</h3>
+        <h3 class="h5">{{include.title | translate_text}}</h3>
         </div>
         <div class="card-body">
             {% if include.labels %}
@@ -17,10 +17,10 @@
                     {% assign text = label_data[1] %}
                     {% assign tooltip = label_data[2] | default: "" %}
                     {% assign help_icon = '<i class="far fa-question-circle"></i>' %}
-                    <span class="badge badge-{{color}}" {% if tooltip %} data-toggle="tooltip" title="{{ tooltip }}">{{text}} {{ help_icon
+                    <span class="badge badge-{{color}}" {% if tooltip %} data-toggle="tooltip" title="{{ tooltip | translate_text}}">{{text | translate_text}} {{ help_icon
                         }}
                         {% else %}
-                        >{{text}}
+                        >{{text | translate_text}}
                         {% endif %}
                     </span>
                 {% endfor %}
@@ -41,7 +41,7 @@
                 {% if include.url %}
                 <a class="btn btn-{{include.color}} mb-1" href="{{include.url}}">
                     {% if include.website %}
-                        {{include.website}}
+                        {{include.website | translate_text }}
                     {% else %}
                         {{ include.url | remove: "https://" | remove: "http://" | remove: "www." | remove: "/" | remove: "github.com" }}
                     {% endif %}
@@ -49,7 +49,7 @@
                 {% elsif include.page %}
                 <a class="btn btn-{{include.color}} mb-1" href="{{include.page | translate_page}}">
                     {% if include.moretext %}
-                        {{include.moretext}}
+                        {{include.moretext | translate_text}}
                     {% else %}
                         {% t Learn More %}
                     {% endif %}
