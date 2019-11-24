@@ -1,65 +1,65 @@
-<h1 id="about_config" class="anchor"><a href="#about_config"><i class="fas fa-link anchor-icon"></i></a> Firefox: Privacy Related "about:config" Tweaks</h1>
+<h1 id="about_config" class="anchor"><a href="#about_config"><i class="fas fa-link anchor-icon"></i></a> {% t Firefox: Privacy Related "about:config" Tweaks %}</h1>
 
-<div class="alert alert-success" role="alert">This is a collection of privacy-related <strong>about:config</strong> tweaks. We'll show you how to enhance the privacy of your Firefox browser.</div>
+<div class="alert alert-success" role="alert">{% t This is a collection of privacy-related <strong>about:config</strong> tweaks. We'll show you how to enhance the privacy of your Firefox browser. %}</div>
 
-<h3>Preparation:</h3>
+<h3>{% t Preparation: %}</h3>
 
 <ol>
-  <li>Enter "about:config" in the firefox address bar and press enter.</li>
-  <li>Press the button "I'll be careful, I promise!"</li>
-  <li>Follow the instructions below...</li>
+  <li>{% t Enter "about:config" in the firefox address bar and press enter. %}</li>
+  <li>{% t Press the button "I'll be careful, I promise!" %}</li>
+  <li>{% t Follow the instructions below... %}</li>
 </ol>
 
-<h3>Getting started:</h3>
+<h3>{% t Getting started: %}</h3>
 
 <dl class="long-string-list">
   <dt>privacy.firstparty.isolate = true</dt>
-  <dd>A result of the <a href="https://wiki.mozilla.org/Security/Tor_Uplift">Tor Uplift</a> effort, this preference isolates all browser identifier sources (e.g. cookies) to the first party domain, with the goal of preventing tracking across different domains. (Don't do this if you are using the Firefox Addon "Cookie AutoDelete" with Firefox v58 or below.)</dd>
+  <dd>{% t A result of the <a href="https://wiki.mozilla.org/Security/Tor_Uplift">Tor Uplift</a> effort, this preference isolates all browser identifier sources (e.g. cookies) to the first party domain, with the goal of preventing tracking across different domains. (Don't do this if you are using the Firefox Addon "Cookie AutoDelete" with Firefox v58 or below.) %}</dd>
 
   <dt>privacy.resistFingerprinting = true</dt>
-  <dd>A result of the <a href="https://wiki.mozilla.org/Security/Tor_Uplift">Tor Uplift</a> effort, this preference makes Firefox more resistant to browser fingerprinting.</dd>
+  <dd>{% t A result of the <a href="https://wiki.mozilla.org/Security/Tor_Uplift">Tor Uplift</a> effort, this preference makes Firefox more resistant to browser fingerprinting. %}</dd>
 
   <dt>privacy.trackingprotection.fingerprinting.enabled = true</dt>
-  <dd>[FF67+] Blocks Fingerprinting</dd>
+  <dd>{% t [FF67+] Blocks Fingerprinting %}</dd>
 
   <dt>privacy.trackingprotection.cryptomining.enabled = true</dt>
-  <dd>[FF67+] Blocks CryptoMining</dd>
+  <dd>{% t [FF67+] Blocks CryptoMining %}</dd>
 
   <dt>privacy.trackingprotection.enabled = true</dt>
-  <dd>This is Mozilla's new built-in tracking protection. It uses Disconnect.me filter list, which is redundant if you are already using uBlock Origin 3rd party filters, therefore you should set it to false if you are using the add-on functionalities.</dd>
+  <dd>{% t This is Mozilla's new built-in tracking protection. It uses Disconnect.me filter list, which is redundant if you are already using uBlock Origin 3rd party filters, therefore you should set it to false if you are using the add-on functionalities. %}</dd>
 
   <dt>browser.send_pings = false</dt>
-  <dd>The attribute would be useful for letting websites track visitors' clicks.</dd>
+  <dd>{% t The attribute would be useful for letting websites track visitors' clicks. %}</dd>
 
   <dt>browser.sessionstore.max_tabs_undo = 0</dt>
-  <dd>Even with Firefox set to not remember history, your closed tabs are stored temporarily at Menu -&gt; History -&gt; Recently Closed Tabs.</dd>
+  <dd>{% t Even with Firefox set to not remember history, your closed tabs are stored temporarily at Menu -&gt; History -&gt; Recently Closed Tabs. %}</dd>
 
   <dt>browser.urlbar.speculativeConnect.enabled = false</dt>
-  <dd>Disable preloading of autocomplete URLs. Firefox preloads URLs that autocomplete when a user types into the address bar, which is a concern if URLs are suggested that the user does not want to connect to. <a href="https://www.ghacks.net/2017/07/24/disable-preloading-firefox-autocomplete-urls/">Source</a></dd>
+  <dd>{% t Disable preloading of autocomplete URLs. Firefox preloads URLs that autocomplete when a user types into the address bar, which is a concern if URLs are suggested that the user does not want to connect to.%} <a href="{% t https://www.ghacks.net/2017/07/24/disable-preloading-firefox-autocomplete-urls/%}">{% t Source %}</a></dd>
 
 
   <dt>dom.event.clipboardevents.enabled = false</dt>
-  <dd>Disable that websites can get notifications if you copy, paste, or cut something from a web page, and it lets them know which part of the page had been selected.</dd>
+  <dd>{% t Disable that websites can get notifications if you copy, paste, or cut something from a web page, and it lets them know which part of the page had been selected. %}</dd>
 
   <dt>media.eme.enabled = false</dt>
   <dd>
-  <p>Disables playback of DRM-controlled HTML5 content, which, if enabled, automatically downloads the Widevine Content Decryption Module provided by Google Inc. <a href="https://support.mozilla.org/kb/enable-drm#w_opt-out-of-cdm-playback-uninstall-cdms-and-stop-all-cdm-downloads">Details</a></p>
-  <p>DRM-controlled content that requires the Adobe Flash or Microsoft Silverlight NPAPI plugins will still play, if installed and enabled in Firefox.</p>
+  <p>{% t Disables playback of DRM-controlled HTML5 content, which, if enabled, automatically downloads the Widevine Content Decryption Module provided by Google Inc.%} <a href="{% t https://support.mozilla.org/kb/enable-drm#w_opt-out-of-cdm-playback-uninstall-cdms-and-stop-all-cdm-downloads %}">{% t Details %}</a></p>
+  <p>{% t DRM-controlled content that requires the Adobe Flash or Microsoft Silverlight NPAPI plugins will still play, if installed and enabled in Firefox. %}</p>
   </dd>
 
   <dt>media.gmp-widevinecdm.enabled = false</dt>
-  <dd>Disables the Widevine Content Decryption Module provided by Google Inc., used for the playback of DRM-controlled HTML5 content. <a href="https://support.mozilla.org/kb/enable-drm#w_disable-the-google-widevine-cdm-without-uninstalling">Details</a></dd>
+  <dd>{% t Disables the Widevine Content Decryption Module provided by Google Inc., used for the playback of DRM-controlled HTML5 content.%} <a href="{% t https://support.mozilla.org/kb/enable-drm#w_disable-the-google-widevine-cdm-without-uninstalling %}">{% t Details %}</a></dd>
 
   <dt>media.navigator.enabled = false</dt>
-  <dd>Websites can track the microphone and camera status of your device.</dd>
+  <dd>{% t Websites can track the microphone and camera status of your device. %}</dd>
 
   <dt>network.cookie.cookieBehavior = 1</dt>
   <dd>
-  Disable cookies
+  {% t Disable cookies %}
   <ul>
-    <li>0 = Accept all cookies by default</li>
-    <li>1 = Only accept from the originating site (block third-party cookies)</li>
-    <li>2 = Block all cookies by default</li>
+    <li>0 = {% t Accept all cookies by default %}</li>
+    <li>1 = {% t Only accept from the originating site (block third-party cookies) %}</li>
+    <li>2 = {% t Block all cookies by default %}</li>
   </ul>
   </dd>
 
@@ -67,57 +67,57 @@
 
   <dt>network.http.referer.XOriginPolicy = 2</dt>
   <dd>
-  Only send <code>Referer</code> header when the full hostnames match. (Note: if you notice significant breakage, you might try <code>1</code> combined with an <code>XOriginTrimmingPolicy</code> tweak below.) <a href="https://feeding.cloud.geek.nz/posts/tweaking-referrer-for-privacy-in-firefox/">Source</a>
+  {% t Only send <code>Referer</code> header when the full hostnames match. (Note: if you notice significant breakage, you might try <code>1</code> combined with an <code>XOriginTrimmingPolicy</code> tweak below.)%} <a href="{% t https://feeding.cloud.geek.nz/posts/tweaking-referrer-for-privacy-in-firefox/ %}">{% t Source %}</a>
   <ul>
-    <li>0 = Send <code>Referer</code> in all cases</li>
-    <li>1 = Send <code>Referer</code> to same eTLD sites</li>
-    <li>2 = Send <code>Referer</code> only when the full hostnames match</li>
+    <li>0 = {% t Send <code>Referer</code> in all cases %}</li>
+    <li>1 = {% t Send <code>Referer</code> to same eTLD sites %}</li>
+    <li>2 = {% t Send <code>Referer</code> only when the full hostnames match %}</li>
   </ul>
   </dd>
 
   <dt>network.http.referer.XOriginTrimmingPolicy = 2</dt>
   <dd>
-  When sending <code>Referer</code> across origins, only send scheme, host, and port in the <code>Referer</code> header of cross-origin requests. <a href="https://feeding.cloud.geek.nz/posts/tweaking-referrer-for-privacy-in-firefox/">Source</a>
+  {% t When sending <code>Referer</code> across origins, only send scheme, host, and port in the <code>Referer</code> header of cross-origin requests.%} <a href="{% t https://feeding.cloud.geek.nz/posts/tweaking-referrer-for-privacy-in-firefox/ %}">{% t Source %}</a>
   <ul>
-    <li>0 = Send full url in <code>Referer</code></li>
-    <li>1 = Send url without query string in <code>Referer</code></li>
-    <li>2 = Only send scheme, host, and port in <code>Referer</code></li>
+    <li>0 = {% t Send full url in <code>Referer</code> %}</li>
+    <li>1 = {% t Send url without query string in <code>Referer</code> %}</li>
+    <li>2 = {% t Only send scheme, host, and port in <code>Referer</code> %}</li>
   </ul>
   </dd>
 
-  <dt>Looking for TRR, DoH or ESNI?</dt>
-  <dd>They have moved to <a href="/providers/dns/#icanndns">our DNS page</a>.</dd>
+  <dt>{% t Looking for TRR, DoH or ESNI? %}</dt>
+  <dd>{% t They have moved to <a href="{{ '/providers/dns/#icanndns' | translate_page }}">our DNS page</a>. %}</dd>
 
   <dt>webgl.disabled = true</dt>
-  <dd>WebGL is a potential security risk. <a href="https://security.stackexchange.com/questions/13799/is-webgl-a-security-concern">Source</a></dd>
+  <dd>{% t WebGL is a potential security risk.%} <a href="{% t https://security.stackexchange.com/questions/13799/is-webgl-a-security-concern %}">{% t Source %}</a></dd>
 
   <dt>browser.sessionstore.privacy_level = 2</dt>
   <dd>
-  This preference controls when to store extra information about a session: contents of forms, scrollbar positions, cookies, and POST data. <a href="http://kb.mozillazine.org/Browser.sessionstore.privacy_level">Details</a>
+  {% t This preference controls when to store extra information about a session: contents of forms, scrollbar positions, cookies, and POST data.%} <a href="{% t http://kb.mozillazine.org/Browser.sessionstore.privacy_level %}">{% t Details %}</a>
   <ul>
-    <li>0 = Store extra session data for any site. (Default starting with Firefox 4.)</li>
-    <li>1 = Store extra session data for unencrypted (non-HTTPS) sites only. (Default before Firefox 4.)</li>
-    <li>2 = Never store extra session data.</li>
+    <li>0 = {% t Store extra session data for any site. (Default starting with Firefox 4.) %}</li>
+    <li>1 = {% t Store extra session data for unencrypted (non-HTTPS) sites only. (Default before Firefox 4.) %}</li>
+    <li>2 = {% t Never store extra session data. %}</li>
   </ul>
   </dd>
 
 
   <dt>network.IDN_show_punycode = true</dt>
-  <dd>Not rendering IDNs as their Punycode equivalent leaves you open to phishing attacks that can be very difficult to notice. <a href="https://krebsonsecurity.com/2018/03/look-alike-domains-and-visual-confusion/#more-42636">Source</a></dd>
+  <dd>{% t Not rendering IDNs as their Punycode equivalent leaves you open to phishing attacks that can be very difficult to notice.%} <a href="{% t https://krebsonsecurity.com/2018/03/look-alike-domains-and-visual-confusion/#more-42636 %}">{% t Source %}</a></dd>
 
 
-<h3 id="user.js">Firefox user.js Templates</h3>
+<h3 id="user.js">{% t Firefox user.js Templates %}</h3>
 <ul>
-	<li><a href="https://github.com/ghacksuserjs/ghacks-user.js">ghacks-user.js</a> - An ongoing comprehensive user.js template for configuring and hardening Firefox privacy, security and anti-fingerprinting.</li>
+	<li><a href="{% t https://github.com/ghacksuserjs/ghacks-user.js %}">{% t ghacks-user.js %}</a> - {% t An ongoing comprehensive user.js template for configuring and hardening Firefox privacy, security and anti-fingerprinting. %}</li>
 </ul>
 
 
-<h3>Related Information</h3>
+<h3>{% t Related Information %}</h3>
 
 <ul>
-  <li><a href="https://blog.privacytools.io/firefox-privacy-an-introduction-to-safe/">Firefox Privacy: Tips and Tricks for Better Browsing</a> - A good starting guide for users looking to keep their data private and secure.</li>
-  <li><a href="https://ffprofile.com/">ffprofile.com</a> - Helps you to create a Firefox profile with the defaults you like.</li>
-  <li><a href="http://kb.mozillazine.org/Category:Security_and_privacy-related_preferences">mozillazine.org</a> - Security and privacy-related preferences. </li>
-  <li><a href="https://addons.mozilla.org/firefox/addon/privacy-settings/">Privacy Settings</a> - A Firefox add-on to alter built-in privacy settings easily with a toolbar panel.</li>
-  <li><a href="https://12bytes.org/articles/tech/firefox/the-firefox-privacy-guide-for-dummies/">Firefox Privacy Guide For Dummies</a> - Guide on ways (already discussed and others) to improve your privacy and safety on Firefox.</li>
+  <li><a href="{% t https://blog.privacytools.io/firefox-privacy-an-introduction-to-safe/ %}">{% t Firefox Privacy: Tips and Tricks for Better Browsing %}</a> - {% t A good starting guide for users looking to keep their data private and secure. %}</li>
+  <li><a href="{% t https://ffprofile.com/ %}">{% t ffprofile.com %}</a> - {% t Helps you to create a Firefox profile with the defaults you like. %}</li>
+  <li><a href="{% t http://kb.mozillazine.org/Category:Security_and_privacy-related_preferences %}">{% t mozillazine.org %}</a> - {% t Security and privacy-related preferences.  %}</li>
+  <li><a href="{% t https://addons.mozilla.org/firefox/addon/privacy-settings/ %}">{% t Privacy Settings %}</a> - {% t A Firefox add-on to alter built-in privacy settings easily with a toolbar panel. %}</li>
+  <li><a href="{% t https://12bytes.org/articles/tech/firefox/the-firefox-privacy-guide-for-dummies/ %}">{% t Firefox Privacy Guide For Dummies %}</a> - {% t Guide on ways (already discussed and others) to improve your privacy and safety on Firefox. %}</li>
 </ul>

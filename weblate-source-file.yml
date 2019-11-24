@@ -5,6 +5,12 @@ About_PrivacyTools_KEY: |
 About_the_PrivacyTools_organization_and_contributors_to_the_PrivacyTools_website_communities_and_services._KEY: |
   About the PrivacyTools organization, and contributors to the PrivacyTools website, communities, and services.
 
+Web_Browsers_KEY: |
+  Web Browsers
+
+These_are_our_current_web_browser_recommendations_and_some_tweaks_you_can_use_to_preserve_your_privacy._KEY: |
+  These are our current web browser recommendations and some tweaks you can use to preserve your privacy.
+
 DNS__Domain_Providers_KEY: |
   DNS / Domain Providers
 
@@ -368,6 +374,9 @@ View_our_privacy_statement_KEY: |
 Learn_More_KEY: |
   Learn More
 
+Browser_Recommendations_For_Desktop_KEY: |
+  Browser Recommendations For Desktop
+
 Firefox_KEY: |
   Firefox
 
@@ -422,9 +431,8 @@ httpswww.torproject.orgdownload_KEY: |
 httpstrac.torproject.orgprojectstor_KEY: |
   https://trac.torproject.org/projects/tor
 
-Firefox_is_fast_reliable_opensource_and_respects_your_privacy._Dont_forget_to_adjust_the_settings_according_to_ourrecommendations_a_hrefwebr_KEY: |
-  Firefox is fast, reliable, open-source, and respects your privacy. Don't forget to adjust the settings according to our
-recommendations: <a href="#webrtc"><i class="fas fa-link"></i> WebRTC</a> and <a href="#about_config"><i class="fas fa-link"></i> about:config</a> and get the <a href="#addons"><i class="fas fa-link"></i> privacy add-ons</a>.
+Browser_Recommendations_For_Android_KEY: |
+  Browser Recommendations For Android
 
 httpswww.mozilla.orgenUSfirefoxmobile_KEY: |
   https://www.mozilla.org/en-US/firefox/mobile/
@@ -471,6 +479,30 @@ httpswww.bromite.orgdownloadbromite_KEY: |
 httpsgithub.combromitebromite_KEY: |
   https://github.com/bromite/bromite
 
+Worth_Mentioning_for_Android_KEY: |
+  Worth Mentioning for Android
+
+httpswww.stoutner.comprivacybrowser_KEY: |
+  https://www.stoutner.com/privacy-browser/
+
+Privacy_Browser_KEY: |
+  Privacy Browser
+
+An_opensource_web_browser_focused_on_user_privacy._Features_include_integrated_ad_blocking_with_a_hrefhttpseasylist.toEasyLista_a_href_KEY: |
+  An open-source web browser focused on user privacy. Features include integrated ad blocking with <a href="https://easylist.to/">EasyList</a>, <a href="https://www.stoutner.com/privacy-browser-2-5/">SSL certificate pinning</a>, and <a href='https://guardianproject.info/apps/orbot/'>Tor Orbot proxy support.
+
+httpsplay.google.comstoreappsdetails?idcom.google.android.webviewhlen_US_KEY: |
+  https://play.google.com/store/apps/details?id=com.google.android.webview&hl=en_US
+
+Privacy_Browser_relies_on_the_Android_System_WebView_which_needs_to_be_kept_up_to_date_to_fix_security_issues._One_can_update_WebView_by_either_install_KEY: |
+  Privacy Browser relies on the Android System WebView which needs to be kept up to date to fix security issues. One can update WebView by either installing it from Google Play or Aurora Store which you can get from F-Droid.
+
+Keep_Android_WebView_uptodate_KEY: |
+  Keep Android WebView up-to-date
+
+Browser_Recommendations_For_iOS_KEY: |
+  Browser Recommendations For iOS
+
 Firefox_is_fast_reliable_opensource_and_respects_your_privacy._Note_Because_of_limitations_set_by_Apple_in_iOS_our_recommended_tweaks_cannot_be_a_KEY: |
   Firefox is fast, reliable, open-source, and respects your privacy. Note: Because of limitations set by Apple in iOS, our recommended tweaks cannot be applied. However, Firefox for iOS has an <a href="https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-ios">Enhanced Tracking Protection</a> feature that uses a list provided by <a href="https://disconnect.me/trackerprotection">Disconnect</a> to identify and block ad, social, and analytics trackers, as well as cryptominers and fingerprinters.
 
@@ -509,6 +541,135 @@ httpsapps.apple.comusappduckduckgoprivacybrowserid663592361_KEY: |
 
 httpsgithub.comduckduckgoiOS_KEY: |
   https://github.com/duckduckgo/iOS
+
+Worth_Mentioning_for_iOS_KEY: |
+  Worth Mentioning for iOS
+
+httpssnowhaze.comenindex.html_KEY: |
+  https://snowhaze.com/en/index.html
+
+SnowHaze_KEY: |
+  SnowHaze
+
+An_opensource_web_browser_with_builtin_ad_tracker_cookie_and_fingerprint_blocking_all_customizable_on_a_persite_basis._KEY: |
+  An open-source web browser with built-in ad, tracker, cookie, and fingerprint blocking, all customizable on a per-site basis.
+
+Browser_Fingerprint__Is_your_browser_configuration_unique?_KEY: |
+  Browser Fingerprint - Is your browser configuration unique?
+
+Your_Browser_sends_information_that_makes_you_unique_amongst_millions_of_users_and_therefore_easy_to_identify._KEY: |
+  Your Browser sends information that makes you unique amongst millions of users and therefore easy to identify.
+
+When_you_visit_a_web_page_your_browser_voluntarily_sends_information_about_its_configuration_such_as_available_fonts_browser_type_and_addons._If_t_KEY: |
+  When you visit a web page, your browser voluntarily sends information about its configuration, such as available fonts, browser type, and add-ons. If this combination of information is unique, it may be possible to identify and track you without using cookies. EFF created a Tool called <a href="https://panopticlick.eff.org/">Panopticlick</a> to test your browser to see how unique it is.
+
+httpspanopticlick.eff.org_KEY: |
+  https://panopticlick.eff.org/
+
+Test_your_Browser_now_KEY: |
+  Test your Browser now
+
+You_need_to_find_what_strongmost_browsersstrong_are_reporting_and_then_use_those_variables_to_bring_your_browser_in_the_same_population._This_mea_KEY: |
+  You need to find what <strong>most browsers</strong> are reporting, and then use those variables to bring your browser in the same population. This means having the same fonts, plugins, and extensions installed as the large installed base. You should have a <a href="https://addons.mozilla.org/firefox/addon/uaswitcher/">spoofed user-agent string</a> to match what the large userbase has. You need to have the same settings enabled and disabled, such as DNT and WebGL. You need your browser to look as common as everyone else. Disabling JavaScript, using Linux, or even using the Tor Browser Bundle, will make your browser stick out from the masses.
+
+Modern_web_browsers_have_not_been_architected_to_assure_personal_web_privacy._Rather_than_worrying_about_being_fingerprinted_it_seems_more_practical_t_KEY: |
+  Modern web browsers have not been architected to assure personal web privacy. Rather than worrying about being fingerprinted, it seems more practical to use <a href="#addons"><i class="fas fa-link"></i> free software plugins</a> like Privacy Badger and uBlock Origin. They not only respect your freedom, but your privacy also. You can get much further with these than trying to manipulate your browser's fingerprint.
+
+Firefox_Addon_CanvasBlocker_KEY: |
+  Firefox Addon: CanvasBlocker
+
+httpsaddons.mozilla.orgfirefoxaddoncanvasblocker_KEY: |
+  https://addons.mozilla.org/firefox/addon/canvasblocker/
+
+addons.mozilla.org_KEY: |
+  addons.mozilla.org
+
+strongCanvasBlockerstrong_allows_users_to_prevent_websites_from_using_some_Javascript_APIs_to_fingerprint_them._Users_can_choose_to_block_the_APIs_KEY: |
+  <strong>CanvasBlocker</strong> allows users to prevent websites from using some Javascript APIs to fingerprint them. Users can choose to block the APIs entirely on some or all websites (which may break some websites) or just block or fake its fingerprinting-friendly readout API.
+
+Related_Information_KEY: |
+  Related Information
+
+httpspanopticlick.eff.orgstaticbrowseruniqueness.pdf_KEY: |
+  https://panopticlick.eff.org/static/browser-uniqueness.pdf
+
+How_Unique_Is_Your_Web_Browser?_Peter_Eckersley_EFF._KEY: |
+  How Unique Is Your Web Browser? Peter Eckersley, EFF.
+
+Our_Firefox_privacy_addons_section._KEY: |
+  Our Firefox privacy add-ons section.
+
+httpswww.browserleaks.com_KEY: |
+  https://www.browserleaks.com/
+
+Web_browser_security_testing_tools_that_tell_you_what_exactly_personal_identity_data_may_be_leaked_without_any_permissions_when_you_surf_the_Internet._KEY: |
+  Web browser security testing tools that tell you what exactly personal identity data may be leaked without any permissions when you surf the Internet.
+
+WebRTC_IP_Leak_Test__Is_your_IP_address_leaking?_KEY: |
+  WebRTC IP Leak Test - Is your IP address leaking?
+
+WebRTC_is_a_new_communication_protocol_that_relies_on_JavaScript_that_can_leak_your_actual_IP_address_from_behind_your_VPN._KEY: |
+  WebRTC is a new communication protocol that relies on JavaScript that can leak your actual IP address from behind your VPN.
+
+While_software_like_NoScript_prevents_this_its_probably_a_good_idea_to_block_this_protocol_directly_as_well_just_to_be_safe._KEY: |
+  While software like NoScript prevents this, it's probably a good idea to block this protocol directly as well, just to be safe.
+
+httpsipleak.net_KEY: |
+  https://ipleak.net
+
+How_to_disable_WebRTC_in_Firefox?_KEY: |
+  How to disable WebRTC in Firefox?
+
+In_short_Set_media.peerconnection.enabled_to_false_in_aboutconfig._KEY: |
+  In short: Set "media.peerconnection.enabled" to "false" in "about:config".
+
+Explained_KEY: |
+  Explained:
+
+Enter_aboutconfig_in_the_firefox_address_bar_and_press_enter._KEY: |
+  Enter "about:config" in the firefox address bar and press enter.
+
+Press_the_button_Ill_be_careful_I_promise!_KEY: |
+  Press the button "I'll be careful, I promise!"
+
+Search_for_media.peerconnection.enabled_KEY: |
+  Search for "media.peerconnection.enabled"
+
+Double_click_the_entry_the_column_Value_should_now_be_false_KEY: |
+  Double click the entry, the column "Value" should now be "false"
+
+Done._Do_the_WebRTC_leak_test_again._KEY: |
+  Done. Do the WebRTC leak test again.
+
+If_you_want_to_make_sure_every_single_WebRTCrelated_setting_is_really_disabled_change_these_settings_KEY: |
+  If you want to make sure every single WebRTC-related setting is really disabled, change these settings:
+
+Now_you_can_be_100_sure_WebRTC_is_disabled._KEY: |
+  Now you can be 100% sure WebRTC is disabled.
+
+Test_your_Browser_again_KEY: |
+  Test your Browser again
+
+How_to_fix_the_WebRTC_Leak_in_Google_Chrome?_KEY: |
+  How to fix the WebRTC Leak in Google Chrome?
+
+WebRTC_cannot_be_fully_disabled_in_Chrome_however_it_is_possible_to_change_its_routing_settings_and_prevent_leaks_using_an_extension._Two_opensour_KEY: |
+  WebRTC cannot be fully disabled in Chrome; however, it is possible to change its routing settings (and prevent leaks) using an extension. Two open-source solutions include <a href="https://chrome.google.com/webstore/detail/webrtc-leak-prevent/eiadekoaikejlgdbkbdfeijglgfdalml">WebRTC Leak Prevent</a> (options may need to be changed depending on the scenario), and <a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm">uBlock Origin</a> (select "Prevent WebRTC from leaking local IP addresses" in Settings).
+
+What_about_other_browsers?_KEY: |
+  What about other browsers?
+
+Chrome_on_iOS_Internet_Explorer_and_Safari_does_not_implement_WebRTC_yet._KEY: |
+  Chrome on iOS, Internet Explorer and Safari does not implement WebRTC yet.
+
+But_we_recommend_using_Firefox_on_all_devices._KEY: |
+  But we recommend using Firefox on all devices.
+
+Recommended_Browser_Addons_KEY: |
+  Recommended Browser Add-ons
+
+Improve_your_privacy_with_these_browser_addons._KEY: |
+  Improve your privacy with these browser add-ons.
 
 uBlock_Origin_Block_Ads_and_Trackers_KEY: |
   uBlock Origin: Block Ads and Trackers
@@ -654,6 +815,12 @@ httpsaddons.opera.comenextensionsdetailsprivacybadger_KEY: |
 httpsgithub.comEFForgprivacybadger_KEY: |
   https://github.com/EFForg/privacybadger
 
+For_Power_Users_Only_KEY: |
+  For Power Users Only
+
+These_addons_require_quite_a_lot_of_interaction_from_the_user._Some_sites_will_not_work_properly_until_you_have_configured_the_addons._KEY: |
+  These addons require quite a lot of interaction from the user. Some sites will not work properly until you have configured the add-ons.
+
 uMatrix_Stop_CrossSite_Requests_KEY: |
   uMatrix: Stop Cross-Site Requests
 
@@ -692,6 +859,204 @@ httpschrome.google.comwebstoredetailnoscriptdoojmbjmlfjjnbmnoijecmcbfeoakpjm_KEY
 
 httpsgithub.comhackademixnoscript_KEY: |
   https://github.com/hackademix/noscript
+
+Firefox_Privacy_Related_aboutconfig_Tweaks_KEY: |
+  Firefox: Privacy Related "about:config" Tweaks
+
+This_is_a_collection_of_privacyrelated_strongaboutconfigstrong_tweaks._Well_show_you_how_to_enhance_the_privacy_of_your_Firefox_browser._KEY: |
+  This is a collection of privacy-related <strong>about:config</strong> tweaks. We'll show you how to enhance the privacy of your Firefox browser.
+
+Preparation_KEY: |
+  Preparation:
+
+Follow_the_instructions_below..._KEY: |
+  Follow the instructions below...
+
+Getting_started_KEY: |
+  Getting started:
+
+A_result_of_the_a_hrefhttpswiki.mozilla.orgSecurityTor_UpliftTor_Uplifta_effort_this_preference_isolates_all_browser_identifier_sources__KEY: |
+  A result of the <a href="https://wiki.mozilla.org/Security/Tor_Uplift">Tor Uplift</a> effort, this preference isolates all browser identifier sources (e.g. cookies) to the first party domain, with the goal of preventing tracking across different domains. (Don't do this if you are using the Firefox Addon "Cookie AutoDelete" with Firefox v58 or below.)
+
+A_result_of_the_a_hrefhttpswiki.mozilla.orgSecurityTor_UpliftTor_Uplifta_effort_this_preference_makes_Firefox_more_resistant_to_browser_f_KEY: |
+  A result of the <a href="https://wiki.mozilla.org/Security/Tor_Uplift">Tor Uplift</a> effort, this preference makes Firefox more resistant to browser fingerprinting.
+
+FF67_Blocks_Fingerprinting_KEY: |
+  [FF67+] Blocks Fingerprinting
+
+FF67_Blocks_CryptoMining_KEY: |
+  [FF67+] Blocks CryptoMining
+
+This_is_Mozillas_new_builtin_tracking_protection._It_uses_Disconnect.me_filter_list_which_is_redundant_if_you_are_already_using_uBlock_Origin_3rd_pa_KEY: |
+  This is Mozilla's new built-in tracking protection. It uses Disconnect.me filter list, which is redundant if you are already using uBlock Origin 3rd party filters, therefore you should set it to false if you are using the add-on functionalities.
+
+The_attribute_would_be_useful_for_letting_websites_track_visitors_clicks._KEY: |
+  The attribute would be useful for letting websites track visitors' clicks.
+
+Even_with_Firefox_set_to_not_remember_history_your_closed_tabs_are_stored_temporarily_at_Menu_gt_History_gt_Recently_Closed_Tabs._KEY: |
+  Even with Firefox set to not remember history, your closed tabs are stored temporarily at Menu -&gt; History -&gt; Recently Closed Tabs.
+
+Disable_preloading_of_autocomplete_URLs._Firefox_preloads_URLs_that_autocomplete_when_a_user_types_into_the_address_bar_which_is_a_concern_if_URLs_are_KEY: |
+  Disable preloading of autocomplete URLs. Firefox preloads URLs that autocomplete when a user types into the address bar, which is a concern if URLs are suggested that the user does not want to connect to.
+
+httpswww.ghacks.net20170724disablepreloadingfirefoxautocompleteurls_KEY: |
+  https://www.ghacks.net/2017/07/24/disable-preloading-firefox-autocomplete-urls/
+
+Source_KEY: |
+  Source
+
+Disable_that_websites_can_get_notifications_if_you_copy_paste_or_cut_something_from_a_web_page_and_it_lets_them_know_which_part_of_the_page_had_been_KEY: |
+  Disable that websites can get notifications if you copy, paste, or cut something from a web page, and it lets them know which part of the page had been selected.
+
+Disables_playback_of_DRMcontrolled_HTML5_content_which_if_enabled_automatically_downloads_the_Widevine_Content_Decryption_Module_provided_by_Google_KEY: |
+  Disables playback of DRM-controlled HTML5 content, which, if enabled, automatically downloads the Widevine Content Decryption Module provided by Google Inc.
+
+httpssupport.mozilla.orgkbenabledrmw_optoutofcdmplaybackuninstallcdmsandstopallcdmdownloads_KEY: |
+  https://support.mozilla.org/kb/enable-drm#w_opt-out-of-cdm-playback-uninstall-cdms-and-stop-all-cdm-downloads
+
+Details_KEY: |
+  Details
+
+DRMcontrolled_content_that_requires_the_Adobe_Flash_or_Microsoft_Silverlight_NPAPI_plugins_will_still_play_if_installed_and_enabled_in_Firefox._KEY: |
+  DRM-controlled content that requires the Adobe Flash or Microsoft Silverlight NPAPI plugins will still play, if installed and enabled in Firefox.
+
+Disables_the_Widevine_Content_Decryption_Module_provided_by_Google_Inc._used_for_the_playback_of_DRMcontrolled_HTML5_content._KEY: |
+  Disables the Widevine Content Decryption Module provided by Google Inc., used for the playback of DRM-controlled HTML5 content.
+
+httpssupport.mozilla.orgkbenabledrmw_disablethegooglewidevinecdmwithoutuninstalling_KEY: |
+  https://support.mozilla.org/kb/enable-drm#w_disable-the-google-widevine-cdm-without-uninstalling
+
+Websites_can_track_the_microphone_and_camera_status_of_your_device._KEY: |
+  Websites can track the microphone and camera status of your device.
+
+Disable_cookies_KEY: |
+  Disable cookies
+
+Accept_all_cookies_by_default_KEY: |
+  Accept all cookies by default
+
+Only_accept_from_the_originating_site_block_thirdparty_cookies_KEY: |
+  Only accept from the originating site (block third-party cookies)
+
+Block_all_cookies_by_default_KEY: |
+  Block all cookies by default
+
+Only_send_codeReferercode_header_when_the_full_hostnames_match._Note_if_you_notice_significant_breakage_you_might_try_code1code_combined_w_KEY: |
+  Only send <code>Referer</code> header when the full hostnames match. (Note: if you notice significant breakage, you might try <code>1</code> combined with an <code>XOriginTrimmingPolicy</code> tweak below.)
+
+httpsfeeding.cloud.geek.nzpoststweakingreferrerforprivacyinfirefox_KEY: |
+  https://feeding.cloud.geek.nz/posts/tweaking-referrer-for-privacy-in-firefox/
+
+Send_codeReferercode_in_all_cases_KEY: |
+  Send <code>Referer</code> in all cases
+
+Send_codeReferercode_to_same_eTLD_sites_KEY: |
+  Send <code>Referer</code> to same eTLD sites
+
+Send_codeReferercode_only_when_the_full_hostnames_match_KEY: |
+  Send <code>Referer</code> only when the full hostnames match
+
+When_sending_codeReferercode_across_origins_only_send_scheme_host_and_port_in_the_codeReferercode_header_of_crossorigin_requests._KEY: |
+  When sending <code>Referer</code> across origins, only send scheme, host, and port in the <code>Referer</code> header of cross-origin requests.
+
+Send_full_url_in_codeReferercode_KEY: |
+  Send full url in <code>Referer</code>
+
+Send_url_without_query_string_in_codeReferercode_KEY: |
+  Send url without query string in <code>Referer</code>
+
+Only_send_scheme_host_and_port_in_codeReferercode_KEY: |
+  Only send scheme, host, and port in <code>Referer</code>
+
+Looking_for_TRR_DoH_or_ESNI?_KEY: |
+  Looking for TRR, DoH or ESNI?
+
+They_have_moved_to_a_href_providersdnsicanndns__translate_page_our_DNS_pagea._KEY: |
+  They have moved to <a href="{{ '/providers/dns/#icanndns' | translate_page }}">our DNS page</a>.
+
+WebGL_is_a_potential_security_risk._KEY: |
+  WebGL is a potential security risk.
+
+httpssecurity.stackexchange.comquestions13799iswebglasecurityconcern_KEY: |
+  https://security.stackexchange.com/questions/13799/is-webgl-a-security-concern
+
+This_preference_controls_when_to_store_extra_information_about_a_session_contents_of_forms_scrollbar_positions_cookies_and_POST_data._KEY: |
+  This preference controls when to store extra information about a session: contents of forms, scrollbar positions, cookies, and POST data.
+
+httpkb.mozillazine.orgBrowser.sessionstore.privacy_level_KEY: |
+  http://kb.mozillazine.org/Browser.sessionstore.privacy_level
+
+Store_extra_session_data_for_any_site._Default_starting_with_Firefox_4._KEY: |
+  Store extra session data for any site. (Default starting with Firefox 4.)
+
+Store_extra_session_data_for_unencrypted_nonHTTPS_sites_only._Default_before_Firefox_4._KEY: |
+  Store extra session data for unencrypted (non-HTTPS) sites only. (Default before Firefox 4.)
+
+Never_store_extra_session_data._KEY: |
+  Never store extra session data.
+
+Not_rendering_IDNs_as_their_Punycode_equivalent_leaves_you_open_to_phishing_attacks_that_can_be_very_difficult_to_notice._KEY: |
+  Not rendering IDNs as their Punycode equivalent leaves you open to phishing attacks that can be very difficult to notice.
+
+httpskrebsonsecurity.com201803lookalikedomainsandvisualconfusionmore42636_KEY: |
+  https://krebsonsecurity.com/2018/03/look-alike-domains-and-visual-confusion/#more-42636
+
+Firefox_user.js_Templates_KEY: |
+  Firefox user.js Templates
+
+httpsgithub.comghacksuserjsghacksuser.js_KEY: |
+  https://github.com/ghacksuserjs/ghacks-user.js
+
+ghacksuser.js_KEY: |
+  ghacks-user.js
+
+An_ongoing_comprehensive_user.js_template_for_configuring_and_hardening_Firefox_privacy_security_and_antifingerprinting._KEY: |
+  An ongoing comprehensive user.js template for configuring and hardening Firefox privacy, security and anti-fingerprinting.
+
+httpsblog.privacytools.iofirefoxprivacyanintroductiontosafe_KEY: |
+  https://blog.privacytools.io/firefox-privacy-an-introduction-to-safe/
+
+Firefox_Privacy_Tips_and_Tricks_for_Better_Browsing_KEY: |
+  Firefox Privacy: Tips and Tricks for Better Browsing
+
+A_good_starting_guide_for_users_looking_to_keep_their_data_private_and_secure._KEY: |
+  A good starting guide for users looking to keep their data private and secure.
+
+httpsffprofile.com_KEY: |
+  https://ffprofile.com/
+
+ffprofile.com_KEY: |
+  ffprofile.com
+
+Helps_you_to_create_a_Firefox_profile_with_the_defaults_you_like._KEY: |
+  Helps you to create a Firefox profile with the defaults you like.
+
+httpkb.mozillazine.orgCategorySecurity_and_privacyrelated_preferences_KEY: |
+  http://kb.mozillazine.org/Category:Security_and_privacy-related_preferences
+
+mozillazine.org_KEY: |
+  mozillazine.org
+
+Security_and_privacyrelated_preferences._KEY: |
+  Security and privacy-related preferences.
+
+httpsaddons.mozilla.orgfirefoxaddonprivacysettings_KEY: |
+  https://addons.mozilla.org/firefox/addon/privacy-settings/
+
+Privacy_Settings_KEY: |
+  Privacy Settings
+
+A_Firefox_addon_to_alter_builtin_privacy_settings_easily_with_a_toolbar_panel._KEY: |
+  A Firefox add-on to alter built-in privacy settings easily with a toolbar panel.
+
+https12bytes.orgarticlestechfirefoxthefirefoxprivacyguidefordummies_KEY: |
+  https://12bytes.org/articles/tech/firefox/the-firefox-privacy-guide-for-dummies/
+
+Firefox_Privacy_Guide_For_Dummies_KEY: |
+  Firefox Privacy Guide For Dummies
+
+Guide_on_ways_already_discussed_and_others_to_improve_your_privacy_and_safety_on_Firefox._KEY: |
+  Guide on ways (already discussed and others) to improve your privacy and safety on Firefox.
 
 Nextcloud_KEY: |
   Nextcloud
@@ -1647,9 +2012,6 @@ Take_it_a_step_further_and_get_control_of_your_email_with_this_easytodeploy_mail
 More_KEY: |
   More:
 
-Related_Information_KEY: |
-  Related Information
-
 httpswww.wired.com201110ecpaturnstwentyfive_KEY: |
   https://www.wired.com/2011/10/ecpa-turns-twenty-five/
 
@@ -1911,9 +2273,6 @@ Prefer_the_classic_site?_View_a_singlepage_layout._KEY: |
 Discover_privacycentric_online_services_including_email_providers_VPN_operators_DNS_administrators_and_more!_KEY: |
   Discover privacy-centric online services, including email providers, VPN operators, DNS administrators, and more!
 
-Web_Browsers_KEY: |
-  Web Browsers
-
 Find_a_web_browser_that_respects_your_privacy_and_discover_how_to_harden_your_browser_against_tracking_and_leaks._KEY: |
   Find a web browser that respects your privacy, and discover how to harden your browser against tracking and leaks.
 
@@ -2144,9 +2503,6 @@ Critique_and_information_on_why_to_avoid_Cloudflare_a_big_company_with_a_huge_po
 
 Tools_KEY: |
   Tools
-
-httpsipleak.net_KEY: |
-  https://ipleak.net/
 
 ipleak.net_KEY: |
   ipleak.net
@@ -2891,6 +3247,30 @@ httpsplay.google.comstoreappsdetails?idorg.mozilla.firefox_KEY: |
 
 httpsplay.google.comstoreappsdetails?idorg.torproject.torbrowser_KEY: |
   https://play.google.com/store/apps/details?id=org.torproject.torbrowser
+
+httpsplay.google.comstoreappsdetails?idcom.google.android.webviewhlen_US_KEY: |
+  https://play.google.com/store/apps/details?id=com.google.android.webview&hl=en_US
+
+Browser_Fingerprint__Is_your_browser_configuration_unique?_KEY: |
+  Browser Fingerprint - Is your browser configuration unique?
+
+How_Unique_Is_Your_Web_Browser?_Peter_Eckersley_EFF._KEY: |
+  How Unique Is Your Web Browser? Peter Eckersley, EFF.
+
+WebRTC_IP_Leak_Test__Is_your_IP_address_leaking?_KEY: |
+  WebRTC IP Leak Test - Is your IP address leaking?
+
+How_to_disable_WebRTC_in_Firefox?_KEY: |
+  How to disable WebRTC in Firefox?
+
+How_to_fix_the_WebRTC_Leak_in_Google_Chrome?_KEY: |
+  How to fix the WebRTC Leak in Google Chrome?
+
+What_about_other_browsers?_KEY: |
+  What about other browsers?
+
+Looking_for_TRR_DoH_or_ESNI?_KEY: |
+  Looking for TRR, DoH or ESNI?
 
 httpswww.clawsmail.orgdownloads.php?sectiondownloads_KEY: |
   https://www.claws-mail.org/downloads.php?section=downloads
