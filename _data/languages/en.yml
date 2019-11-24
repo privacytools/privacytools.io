@@ -5,6 +5,12 @@ About_PrivacyTools_KEY: |
 About_the_PrivacyTools_organization_and_contributors_to_the_PrivacyTools_website_communities_and_services._KEY: |
   ZZ
 
+Web_Browsers_KEY: |
+  ZZ
+
+These_are_our_current_web_browser_recommendations_and_some_tweaks_you_can_use_to_preserve_your_privacy._KEY: |
+  ZZ
+
 DNS__Domain_Providers_KEY: |
   ZZ
 
@@ -368,6 +374,9 @@ View_our_privacy_statement_KEY: |
 Learn_More_KEY: |
   ZZ
 
+Browser_Recommendations_For_Desktop_KEY: |
+  ZZ
+
 Firefox_KEY: |
   ZZ
 
@@ -422,9 +431,8 @@ httpswww.torproject.orgdownload_KEY: |
 httpstrac.torproject.orgprojectstor_KEY: |
   ZZ
 
-Firefox_is_fast_reliable_opensource_and_respects_your_privacy._Dont_forget_to_adjust_the_settings_according_to_ourrecommendations_a_hrefwebr_KEY: |
+Browser_Recommendations_For_Android_KEY: |
   ZZ
-recommendations: <a href="#webrtc"><i class="fas fa-link"></i> WebRTC</a> and <a href="#about_config"><i class="fas fa-link"></i> about:config</a> and get the <a href="#addons"><i class="fas fa-link"></i> privacy add-ons</a>.
 
 httpswww.mozilla.orgenUSfirefoxmobile_KEY: |
   ZZ
@@ -471,6 +479,30 @@ httpswww.bromite.orgdownloadbromite_KEY: |
 httpsgithub.combromitebromite_KEY: |
   ZZ
 
+Worth_Mentioning_for_Android_KEY: |
+  ZZ
+
+httpswww.stoutner.comprivacybrowser_KEY: |
+  ZZ
+
+Privacy_Browser_KEY: |
+  ZZ
+
+An_opensource_web_browser_focused_on_user_privacy._Features_include_integrated_ad_blocking_with_a_hrefhttpseasylist.toEasyLista_a_href_KEY: |
+  ZZ
+
+httpsplay.google.comstoreappsdetails?idcom.google.android.webviewhlen_US_KEY: |
+  ZZ
+
+Privacy_Browser_relies_on_the_Android_System_WebView_which_needs_to_be_kept_up_to_date_to_fix_security_issues._One_can_update_WebView_by_either_install_KEY: |
+  ZZ
+
+Keep_Android_WebView_uptodate_KEY: |
+  ZZ
+
+Browser_Recommendations_For_iOS_KEY: |
+  ZZ
+
 Firefox_is_fast_reliable_opensource_and_respects_your_privacy._Note_Because_of_limitations_set_by_Apple_in_iOS_our_recommended_tweaks_cannot_be_a_KEY: |
   ZZ
 
@@ -508,6 +540,135 @@ httpsapps.apple.comusappduckduckgoprivacybrowserid663592361_KEY: |
   ZZ
 
 httpsgithub.comduckduckgoiOS_KEY: |
+  ZZ
+
+Worth_Mentioning_for_iOS_KEY: |
+  ZZ
+
+httpssnowhaze.comenindex.html_KEY: |
+  ZZ
+
+SnowHaze_KEY: |
+  ZZ
+
+An_opensource_web_browser_with_builtin_ad_tracker_cookie_and_fingerprint_blocking_all_customizable_on_a_persite_basis._KEY: |
+  ZZ
+
+Browser_Fingerprint__Is_your_browser_configuration_unique?_KEY: |
+  ZZ
+
+Your_Browser_sends_information_that_makes_you_unique_amongst_millions_of_users_and_therefore_easy_to_identify._KEY: |
+  ZZ
+
+When_you_visit_a_web_page_your_browser_voluntarily_sends_information_about_its_configuration_such_as_available_fonts_browser_type_and_addons._If_t_KEY: |
+  ZZ
+
+httpspanopticlick.eff.org_KEY: |
+  ZZ
+
+Test_your_Browser_now_KEY: |
+  ZZ
+
+You_need_to_find_what_strongmost_browsersstrong_are_reporting_and_then_use_those_variables_to_bring_your_browser_in_the_same_population._This_mea_KEY: |
+  ZZ
+
+Modern_web_browsers_have_not_been_architected_to_assure_personal_web_privacy._Rather_than_worrying_about_being_fingerprinted_it_seems_more_practical_t_KEY: |
+  ZZ
+
+Firefox_Addon_CanvasBlocker_KEY: |
+  ZZ
+
+httpsaddons.mozilla.orgfirefoxaddoncanvasblocker_KEY: |
+  ZZ
+
+addons.mozilla.org_KEY: |
+  ZZ
+
+strongCanvasBlockerstrong_allows_users_to_prevent_websites_from_using_some_Javascript_APIs_to_fingerprint_them._Users_can_choose_to_block_the_APIs_KEY: |
+  ZZ
+
+Related_Information_KEY: |
+  ZZ
+
+httpspanopticlick.eff.orgstaticbrowseruniqueness.pdf_KEY: |
+  ZZ
+
+How_Unique_Is_Your_Web_Browser?_Peter_Eckersley_EFF._KEY: |
+  ZZ
+
+Our_Firefox_privacy_addons_section._KEY: |
+  ZZ
+
+httpswww.browserleaks.com_KEY: |
+  ZZ
+
+Web_browser_security_testing_tools_that_tell_you_what_exactly_personal_identity_data_may_be_leaked_without_any_permissions_when_you_surf_the_Internet._KEY: |
+  ZZ
+
+WebRTC_IP_Leak_Test__Is_your_IP_address_leaking?_KEY: |
+  ZZ
+
+WebRTC_is_a_new_communication_protocol_that_relies_on_JavaScript_that_can_leak_your_actual_IP_address_from_behind_your_VPN._KEY: |
+  ZZ
+
+While_software_like_NoScript_prevents_this_its_probably_a_good_idea_to_block_this_protocol_directly_as_well_just_to_be_safe._KEY: |
+  ZZ
+
+httpsipleak.net_KEY: |
+  ZZ
+
+How_to_disable_WebRTC_in_Firefox?_KEY: |
+  ZZ
+
+In_short_Set_media.peerconnection.enabled_to_false_in_aboutconfig._KEY: |
+  ZZ
+
+Explained_KEY: |
+  ZZ
+
+Enter_aboutconfig_in_the_firefox_address_bar_and_press_enter._KEY: |
+  ZZ
+
+Press_the_button_Ill_be_careful_I_promise!_KEY: |
+  ZZ
+
+Search_for_media.peerconnection.enabled_KEY: |
+  ZZ
+
+Double_click_the_entry_the_column_Value_should_now_be_false_KEY: |
+  ZZ
+
+Done._Do_the_WebRTC_leak_test_again._KEY: |
+  ZZ
+
+If_you_want_to_make_sure_every_single_WebRTCrelated_setting_is_really_disabled_change_these_settings_KEY: |
+  ZZ
+
+Now_you_can_be_100_sure_WebRTC_is_disabled._KEY: |
+  ZZ
+
+Test_your_Browser_again_KEY: |
+  ZZ
+
+How_to_fix_the_WebRTC_Leak_in_Google_Chrome?_KEY: |
+  ZZ
+
+WebRTC_cannot_be_fully_disabled_in_Chrome_however_it_is_possible_to_change_its_routing_settings_and_prevent_leaks_using_an_extension._Two_opensour_KEY: |
+  ZZ
+
+What_about_other_browsers?_KEY: |
+  ZZ
+
+Chrome_on_iOS_Internet_Explorer_and_Safari_does_not_implement_WebRTC_yet._KEY: |
+  ZZ
+
+But_we_recommend_using_Firefox_on_all_devices._KEY: |
+  ZZ
+
+Recommended_Browser_Addons_KEY: |
+  ZZ
+
+Improve_your_privacy_with_these_browser_addons._KEY: |
   ZZ
 
 uBlock_Origin_Block_Ads_and_Trackers_KEY: |
@@ -654,6 +815,12 @@ httpsaddons.opera.comenextensionsdetailsprivacybadger_KEY: |
 httpsgithub.comEFForgprivacybadger_KEY: |
   ZZ
 
+For_Power_Users_Only_KEY: |
+  ZZ
+
+These_addons_require_quite_a_lot_of_interaction_from_the_user._Some_sites_will_not_work_properly_until_you_have_configured_the_addons._KEY: |
+  ZZ
+
 uMatrix_Stop_CrossSite_Requests_KEY: |
   ZZ
 
@@ -691,6 +858,204 @@ httpschrome.google.comwebstoredetailnoscriptdoojmbjmlfjjnbmnoijecmcbfeoakpjm_KEY
   ZZ
 
 httpsgithub.comhackademixnoscript_KEY: |
+  ZZ
+
+Firefox_Privacy_Related_aboutconfig_Tweaks_KEY: |
+  ZZ
+
+This_is_a_collection_of_privacyrelated_strongaboutconfigstrong_tweaks._Well_show_you_how_to_enhance_the_privacy_of_your_Firefox_browser._KEY: |
+  ZZ
+
+Preparation_KEY: |
+  ZZ
+
+Follow_the_instructions_below..._KEY: |
+  ZZ
+
+Getting_started_KEY: |
+  ZZ
+
+A_result_of_the_a_hrefhttpswiki.mozilla.orgSecurityTor_UpliftTor_Uplifta_effort_this_preference_isolates_all_browser_identifier_sources__KEY: |
+  ZZ
+
+A_result_of_the_a_hrefhttpswiki.mozilla.orgSecurityTor_UpliftTor_Uplifta_effort_this_preference_makes_Firefox_more_resistant_to_browser_f_KEY: |
+  ZZ
+
+FF67_Blocks_Fingerprinting_KEY: |
+  ZZ
+
+FF67_Blocks_CryptoMining_KEY: |
+  ZZ
+
+This_is_Mozillas_new_builtin_tracking_protection._It_uses_Disconnect.me_filter_list_which_is_redundant_if_you_are_already_using_uBlock_Origin_3rd_pa_KEY: |
+  ZZ
+
+The_attribute_would_be_useful_for_letting_websites_track_visitors_clicks._KEY: |
+  ZZ
+
+Even_with_Firefox_set_to_not_remember_history_your_closed_tabs_are_stored_temporarily_at_Menu_gt_History_gt_Recently_Closed_Tabs._KEY: |
+  ZZ
+
+Disable_preloading_of_autocomplete_URLs._Firefox_preloads_URLs_that_autocomplete_when_a_user_types_into_the_address_bar_which_is_a_concern_if_URLs_are_KEY: |
+  ZZ
+
+httpswww.ghacks.net20170724disablepreloadingfirefoxautocompleteurls_KEY: |
+  ZZ
+
+Source_KEY: |
+  ZZ
+
+Disable_that_websites_can_get_notifications_if_you_copy_paste_or_cut_something_from_a_web_page_and_it_lets_them_know_which_part_of_the_page_had_been_KEY: |
+  ZZ
+
+Disables_playback_of_DRMcontrolled_HTML5_content_which_if_enabled_automatically_downloads_the_Widevine_Content_Decryption_Module_provided_by_Google_KEY: |
+  ZZ
+
+httpssupport.mozilla.orgkbenabledrmw_optoutofcdmplaybackuninstallcdmsandstopallcdmdownloads_KEY: |
+  ZZ
+
+Details_KEY: |
+  ZZ
+
+DRMcontrolled_content_that_requires_the_Adobe_Flash_or_Microsoft_Silverlight_NPAPI_plugins_will_still_play_if_installed_and_enabled_in_Firefox._KEY: |
+  ZZ
+
+Disables_the_Widevine_Content_Decryption_Module_provided_by_Google_Inc._used_for_the_playback_of_DRMcontrolled_HTML5_content._KEY: |
+  ZZ
+
+httpssupport.mozilla.orgkbenabledrmw_disablethegooglewidevinecdmwithoutuninstalling_KEY: |
+  ZZ
+
+Websites_can_track_the_microphone_and_camera_status_of_your_device._KEY: |
+  ZZ
+
+Disable_cookies_KEY: |
+  ZZ
+
+Accept_all_cookies_by_default_KEY: |
+  ZZ
+
+Only_accept_from_the_originating_site_block_thirdparty_cookies_KEY: |
+  ZZ
+
+Block_all_cookies_by_default_KEY: |
+  ZZ
+
+Only_send_codeReferercode_header_when_the_full_hostnames_match._Note_if_you_notice_significant_breakage_you_might_try_code1code_combined_w_KEY: |
+  ZZ
+
+httpsfeeding.cloud.geek.nzpoststweakingreferrerforprivacyinfirefox_KEY: |
+  ZZ
+
+Send_codeReferercode_in_all_cases_KEY: |
+  ZZ
+
+Send_codeReferercode_to_same_eTLD_sites_KEY: |
+  ZZ
+
+Send_codeReferercode_only_when_the_full_hostnames_match_KEY: |
+  ZZ
+
+When_sending_codeReferercode_across_origins_only_send_scheme_host_and_port_in_the_codeReferercode_header_of_crossorigin_requests._KEY: |
+  ZZ
+
+Send_full_url_in_codeReferercode_KEY: |
+  ZZ
+
+Send_url_without_query_string_in_codeReferercode_KEY: |
+  ZZ
+
+Only_send_scheme_host_and_port_in_codeReferercode_KEY: |
+  ZZ
+
+Looking_for_TRR_DoH_or_ESNI?_KEY: |
+  ZZ
+
+They_have_moved_to_a_href_providersdnsicanndns__translate_page_our_DNS_pagea._KEY: |
+  ZZ
+
+WebGL_is_a_potential_security_risk._KEY: |
+  ZZ
+
+httpssecurity.stackexchange.comquestions13799iswebglasecurityconcern_KEY: |
+  ZZ
+
+This_preference_controls_when_to_store_extra_information_about_a_session_contents_of_forms_scrollbar_positions_cookies_and_POST_data._KEY: |
+  ZZ
+
+httpkb.mozillazine.orgBrowser.sessionstore.privacy_level_KEY: |
+  ZZ
+
+Store_extra_session_data_for_any_site._Default_starting_with_Firefox_4._KEY: |
+  ZZ
+
+Store_extra_session_data_for_unencrypted_nonHTTPS_sites_only._Default_before_Firefox_4._KEY: |
+  ZZ
+
+Never_store_extra_session_data._KEY: |
+  ZZ
+
+Not_rendering_IDNs_as_their_Punycode_equivalent_leaves_you_open_to_phishing_attacks_that_can_be_very_difficult_to_notice._KEY: |
+  ZZ
+
+httpskrebsonsecurity.com201803lookalikedomainsandvisualconfusionmore42636_KEY: |
+  ZZ
+
+Firefox_user.js_Templates_KEY: |
+  ZZ
+
+httpsgithub.comghacksuserjsghacksuser.js_KEY: |
+  ZZ
+
+ghacksuser.js_KEY: |
+  ZZ
+
+An_ongoing_comprehensive_user.js_template_for_configuring_and_hardening_Firefox_privacy_security_and_antifingerprinting._KEY: |
+  ZZ
+
+httpsblog.privacytools.iofirefoxprivacyanintroductiontosafe_KEY: |
+  ZZ
+
+Firefox_Privacy_Tips_and_Tricks_for_Better_Browsing_KEY: |
+  ZZ
+
+A_good_starting_guide_for_users_looking_to_keep_their_data_private_and_secure._KEY: |
+  ZZ
+
+httpsffprofile.com_KEY: |
+  ZZ
+
+ffprofile.com_KEY: |
+  ZZ
+
+Helps_you_to_create_a_Firefox_profile_with_the_defaults_you_like._KEY: |
+  ZZ
+
+httpkb.mozillazine.orgCategorySecurity_and_privacyrelated_preferences_KEY: |
+  ZZ
+
+mozillazine.org_KEY: |
+  ZZ
+
+Security_and_privacyrelated_preferences._KEY: |
+  ZZ
+
+httpsaddons.mozilla.orgfirefoxaddonprivacysettings_KEY: |
+  ZZ
+
+Privacy_Settings_KEY: |
+  ZZ
+
+A_Firefox_addon_to_alter_builtin_privacy_settings_easily_with_a_toolbar_panel._KEY: |
+  ZZ
+
+https12bytes.orgarticlestechfirefoxthefirefoxprivacyguidefordummies_KEY: |
+  ZZ
+
+Firefox_Privacy_Guide_For_Dummies_KEY: |
+  ZZ
+
+Guide_on_ways_already_discussed_and_others_to_improve_your_privacy_and_safety_on_Firefox._KEY: |
   ZZ
 
 Nextcloud_KEY: |
@@ -1647,9 +2012,6 @@ Take_it_a_step_further_and_get_control_of_your_email_with_this_easytodeploy_mail
 More_KEY: |
   ZZ
 
-Related_Information_KEY: |
-  ZZ
-
 httpswww.wired.com201110ecpaturnstwentyfive_KEY: |
   ZZ
 
@@ -1911,9 +2273,6 @@ Prefer_the_classic_site?_View_a_singlepage_layout._KEY: |
 Discover_privacycentric_online_services_including_email_providers_VPN_operators_DNS_administrators_and_more!_KEY: |
   ZZ
 
-Web_Browsers_KEY: |
-  ZZ
-
 Find_a_web_browser_that_respects_your_privacy_and_discover_how_to_harden_your_browser_against_tracking_and_leaks._KEY: |
   ZZ
 
@@ -2143,9 +2502,6 @@ Critique_and_information_on_why_to_avoid_Cloudflare_a_big_company_with_a_huge_po
   ZZ
 
 Tools_KEY: |
-  ZZ
-
-httpsipleak.net_KEY: |
   ZZ
 
 ipleak.net_KEY: |
@@ -2890,6 +3246,30 @@ httpsplay.google.comstoreappsdetails?idorg.mozilla.firefox_KEY: |
   ZZ
 
 httpsplay.google.comstoreappsdetails?idorg.torproject.torbrowser_KEY: |
+  ZZ
+
+httpsplay.google.comstoreappsdetails?idcom.google.android.webviewhlen_US_KEY: |
+  ZZ
+
+Browser_Fingerprint__Is_your_browser_configuration_unique?_KEY: |
+  ZZ
+
+How_Unique_Is_Your_Web_Browser?_Peter_Eckersley_EFF._KEY: |
+  ZZ
+
+WebRTC_IP_Leak_Test__Is_your_IP_address_leaking?_KEY: |
+  ZZ
+
+How_to_disable_WebRTC_in_Firefox?_KEY: |
+  ZZ
+
+How_to_fix_the_WebRTC_Leak_in_Google_Chrome?_KEY: |
+  ZZ
+
+What_about_other_browsers?_KEY: |
+  ZZ
+
+Looking_for_TRR_DoH_or_ESNI?_KEY: |
   ZZ
 
 httpswww.clawsmail.orgdownloads.php?sectiondownloads_KEY: |
