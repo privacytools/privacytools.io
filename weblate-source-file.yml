@@ -152,6 +152,69 @@ Language_Selection: |
 Spread_the_word_and_help_your_friends: |
   Spread the word and help your friends
 
+privacytools.io__encryption_against_global_mass_surveillance: |
+  privacytools.io - encryption against global mass surveillance
+
+Facebook: |
+  Facebook
+
+Knowledge_and_tools_to_protect_your_privacy_against_global_mass_surveillance: |
+  Knowledge and tools to protect your privacy against global mass surveillance
+
+Twitter: |
+  Twitter
+
+Mastodon: |
+  Mastodon
+
+reddit: |
+  reddit
+
+LinkedIn: |
+  LinkedIn
+
+Mix: |
+  Mix
+
+Diaspora: |
+  Diaspora*
+
+Copy_URL_and_Description: |
+  Copy URL and Description
+
+_site.name___Encryption_and_tools_to_protect_against_global_mass_surveillance___site.producti: |
+  {{ site.name }} - Encryption and tools to protect against global mass surveillance - {{ site.production_url | append_lang | uri_escape }}
+
+For_easy_copy_and_paste._Share_this_text_snippet.: |
+  For easy copy and paste. Share this text snippet.
+
+This_work_is_free._You_can_redistribute_it_andor_modify_it_under_the_terms_of_the_quotCreative_Com: |
+  This work is free. You can redistribute it and/or modify it under the terms of the &quot;Creative Commons CC0 1.0 Universal Public Domain Dedication&quot;.
+
+Contact: |
+  Contact
+
+Please_support_this_project_by_donating._We_are_adfree_and_not_affiliated_with_any_providers._Your_d: |
+  Please support this project by donating. We are ad-free and not affiliated with any providers. Your donation will cover our costs for servers and domains.
+
+Support_Us!: |
+  Support Us!
+
+JavaScript_Licenses: |
+  JavaScript Licenses
+
+No_Ads_No_Google_Analytics_No_Affiliates_No_CrossSite_Requests.: |
+  No Ads, No Google Analytics, No Affiliates, No Cross-Site Requests.
+
+_site.name__is_a_socially_motivated_website_that_provides_information_for_protecting_your_data_se: |
+  {{ site.name }} is a socially motivated website that provides information for protecting your data security and privacy. Never trust any company with your privacy, always encrypt.
+
+View_our_privacy_statement: |
+  View our privacy statement
+
+Learn_More: |
+  Learn More
+
 Firefox: |
   Firefox
 
@@ -905,9 +968,6 @@ Prefer_the_classic_site?_View_a_singlepage_layout.: |
 Discover_privacycentric_online_services_including_email_providers_VPN_operators_DNS_administrator: |
   Discover privacy-centric online services, including email providers, VPN operators, DNS administrators, and more!
 
-Learn_More: |
-  Learn More
-
 Web_Browsers: |
   Web Browsers
 
@@ -947,9 +1007,6 @@ Learn_more...: |
 Reddit: |
   Reddit
 
-Twitter: |
-  Twitter
-
 Contributor_List: |
   Contributor List
 
@@ -973,9 +1030,6 @@ Get_the_latest_privacyrelated_updates_from_our_Mastodon_Feed._Follow_us_today!: 
 
 httpssocial.privacytools.io: |
   https://social.privacytools.io/
-
-Mastodon: |
-  Mastodon
 
 Develop_on_GitHub: |
   Develop on GitHub
