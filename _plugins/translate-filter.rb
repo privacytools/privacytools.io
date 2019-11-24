@@ -38,6 +38,10 @@ module Jekyll
         "#{page}/#{page_language}"
       end
     end
+
+    def tl_note(text, comment)
+      text
+    end
   end
 end
 
