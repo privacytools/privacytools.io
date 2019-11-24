@@ -12,8 +12,8 @@
       {% endif %}
 
       <meta itemprop="affiliation" content="PrivacyTools" />
-      <h6 class="card-subtitle mb-2 text-muted" itemprop="jobTitle">{{ include.role | default: "Contributor" }}</h6>
-      <p class="card-text" {% if include.bio %}itemprop="description"{% endif %}>{{ include.bio | default: "<i>Hmm, this user hasn't written a bio quite yet :(</i>" }}</p>
+      <h6 class="card-subtitle mb-2 text-muted" itemprop="jobTitle">{{ include.role | default: "Contributor" | translate_text }}</h6>
+      <p class="card-text" {% if include.bio %}itemprop="description"{% endif %}>{{ include.bio | default: "<i>Hmm, this user hasn't written a bio quite yet :(</i>" | translate_text }}</p>
       <div class="mx-n2">
         {% if include.email %}
         <a href="mailto:{{ include.email }}" aria-label="Email" class="mx-2 text-decoration-none" itemprop="email">
