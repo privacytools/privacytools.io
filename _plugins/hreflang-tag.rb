@@ -28,10 +28,10 @@ module Jekyll
 
       if page["translate"]
         dir       = page["src_dir"].nil? ? page["dir"] : page["src_dir"]
-        hreflangs = %{<link rel="alternate" hreflang="en" href="#{site.config["url"]}#{dir}" />}
+        hreflangs = %{<link rel="alternate" hreflang="en" href="#{site.config["production_url"]}#{dir}" />}
 
         site.data["languages"].each_key do |language|
-          hreflangs << %{<link rel="alternate" hreflang="#{language.tr('_', '-')}" href="#{site.config["url"]}/#{language}#{dir}" />}
+          hreflangs << %{<link rel="alternate" hreflang="#{language.tr('_', '-')}" href="#{site.config["production_url"]}/#{language}#{dir}" />}
         end
       end
 
