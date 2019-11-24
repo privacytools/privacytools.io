@@ -20,7 +20,7 @@ module Weblate
   class ID
     def self.get(source_text)
       source_text.nil? or source_text.empty? ? source_text
-                                             : source_text.strip[0..100]
+                                             : source_text.strip[0..150]
                                                           .gsub(/([^\w\d\s\.\?\!]|\n)/, '')
                                                           .tr(' ', '_') << "_KEY"
     end
