@@ -1,10 +1,4 @@
 ---
-Web_Browsers: |
-  Web Browsers
-
-These_are_our_current_web_browser_recommendations_and_some_tweaks_you_can_use_to_preserve_your_privac: |
-  These are our current web browser recommendations and some tweaks you can use to preserve your privacy.
-
 Providers: |
   Providers
 
@@ -16,6 +10,147 @@ Cloud_Storage: |
 
 Find_a_cloud_storage_provider_that_wont_look_through_your_files.: |
   Find a cloud storage provider that won't look through your files.
+
+Provider: |
+  Provider
+
+Avoid_US__UK_services: |
+  Avoid US & UK services
+
+DNS: |
+  DNS
+
+Email: |
+  Email
+
+Hosting: |
+  Hosting
+
+Pastebins: |
+  Pastebins
+
+Search_Engines: |
+  Search Engines
+
+Social_Networks: |
+  Social Networks
+
+Social_News_Aggregators: |
+  Social News Aggregators
+
+VPN: |
+  VPN
+
+Browser: |
+  Browser
+
+Recommendation: |
+  Recommendation
+
+Fingerprinting_Info: |
+  Fingerprinting Info
+
+WebRTC_IP_Leak: |
+  WebRTC IP Leak
+
+Browser_Addons: |
+  Browser Add-ons
+
+Firefox_Tweaks: |
+  Firefox Tweaks
+
+Software: |
+  Software
+
+CalendarContacts_Sync_Tools: |
+  Calendar/Contacts Sync Tools
+
+Digital_Notebook: |
+  Digital Notebook
+
+Email_Alternatives: |
+  Email Alternatives
+
+Email_Clients: |
+  Email Clients
+
+File_Encryption: |
+  File Encryption
+
+File_Sharing: |
+  File Sharing
+
+File_Sync: |
+  File Sync
+
+Metadata_Removal_Tools: |
+  Metadata Removal Tools
+
+Password_Manager: |
+  Password Manager
+
+Productivity_Tools: |
+  Productivity Tools
+
+RealTime_Communication: |
+  Real-Time Communication
+
+Selfcontained_Networks: |
+  Self-contained Networks
+
+SelfHosted_Cloud_Server: |
+  Self-Hosted Cloud Server
+
+OS: |
+  OS
+
+PC_OS: |
+  PC OS
+
+Live_CD_OS: |
+  Live CD OS
+
+Mobile_OS: |
+  Mobile OS
+
+Android_Privacy_Addons: |
+  Android Privacy Add-ons
+
+Router_Firmware: |
+  Router Firmware
+
+Dont_use_Windows_10: |
+  Don't use Windows 10
+
+Participate: |
+  Participate
+
+Services: |
+  Services
+
+Blog: |
+  Blog
+
+Sponsors: |
+  Sponsors
+
+About_Us: |
+  About Us
+
+Theme: |
+  Theme
+
+Toggle_Theme: |
+  Toggle Theme
+
+Language: |
+  Language
+
+Language_Selection: |
+  Language Selection
+
+Spread_the_word_and_help_your_friends: |
+  Spread the word and help your friends
 
 Firefox: |
   Firefox
@@ -773,11 +908,11 @@ Discover_privacycentric_online_services_including_email_providers_VPN_operators_
 Learn_More: |
   Learn More
 
+Web_Browsers: |
+  Web Browsers
+
 Find_a_web_browser_that_respects_your_privacy_and_discover_how_to_harden_your_browser_against_tracki: |
   Find a web browser that respects your privacy, and discover how to harden your browser against tracking and leaks.
-
-Software: |
-  Software
 
 Discover_a_variety_of_open_source_software_built_to_protect_your_privacy_and_keep_your_digital_data_s: |
   Discover a variety of open source software built to protect your privacy and keep your digital data secure.
@@ -799,9 +934,6 @@ Donate: |
 
 We_cant_operate_this_site_without_the_generous_contributions_we_receive_from_our_viewers._If_you_lov: |
   We can't operate this site without the generous contributions we receive from our viewers. If you love privacy and our website please consider donating.
-
-Sponsors: |
-  Sponsors
 
 New!: |
   New!
@@ -1862,35 +1994,8 @@ httpsplay.google.comstoreappsdetails?idcom.lesspass.android: |
 httpsplay.google.comstoreappsdetails?idcom.abunchtell.writeas: |
   https://play.google.com/store/apps/details?id=com.abunchtell.writeas
 
-Services: |
-  Services
-
 Click_on_whatever_service_you_need_to_view_our_recommendations.: |
   Click on whatever service you need to view our recommendations.
-
-DNS: |
-  DNS
-
-Email: |
-  Email
-
-Hosting: |
-  Hosting
-
-Pastebins: |
-  Pastebins
-
-Search_Engines: |
-  Search Engines
-
-Social_Networks: |
-  Social Networks
-
-Social_News_Aggregators: |
-  Social News Aggregators
-
-VPN: |
-  VPN
 
 httpsplay.google.comstoreappsdetails?idorg.thoughtcrime.securesms: |
   https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms
