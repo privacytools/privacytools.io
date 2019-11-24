@@ -5,7 +5,7 @@
         {% else %}
         <div class="card-header text-white bg-{{include.color}}">
         {% endif %}
-        <h3 class="h5">{{include.title}}</h3>
+        <h3 class="h5">{{include.title | translate_text}}</h3>
         </div>
         <div class="card-body">
             {{include.body}}
