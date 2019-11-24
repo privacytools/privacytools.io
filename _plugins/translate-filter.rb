@@ -23,7 +23,6 @@ module Jekyll
 
     def translate_page(page)
       page_language = @context.environments.first["page"]["language"]
-      site          = @context.registers[:site]
       if page_language.nil?
         page
       else
@@ -33,7 +32,6 @@ module Jekyll
 
     def append_lang(page)
       page_language = @context.environments.first["page"]["language"]
-      site          = @context.registers[:site]
       if page_language.nil?
         page
       else
