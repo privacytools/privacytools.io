@@ -2,6 +2,7 @@
 layout: default
 active_page: donate
 permalink: /donate/
+translate: true
 ---
 <div class="col-12">
   <div class="row">
@@ -11,18 +12,18 @@ permalink: /donate/
       </div>
 
       <div class="card border-success mt-5 mb-5">
-        <div class="card-header text-success"><i class="fas fa-donate fa-fw"></i> Donate via OpenCollective</div>
+        <div class="card-header text-success"><i class="fas fa-donate fa-fw"></i> {% t Donate via OpenCollective %}</div>
         <div class="card-body text-success">
-          <p class="card-text">If you are able, please consider contributing to our development and outreach programs. <strong>Contributions via OpenCollective to {{ site.name }} are tax deductible for US taxpayers.</strong> These funds are transparently and primarily used to cover server costs.</p>
-          <a href="https://opencollective.com/privacytoolsio#section-contribute" class="btn btn-success">Contribute</a>
-          <a href="https://blog.privacytools.io/privacytools-io-joins-the-open-collective-foundation" class="btn btn-outline-success">More Info</a>
+          <p class="card-text">{% t If you are able, please consider contributing to our development and outreach programs.%} <strong>{% t Contributions via OpenCollective to {{ site.name }} are tax deductible for US taxpayers. %}</strong> {% t These funds are transparently and primarily used to cover server costs. %}</p>
+          <a href="https://opencollective.com/privacytoolsio#section-contribute" class="btn btn-success">{% t Contribute %}</a>
+          <a href="https://blog.privacytools.io/privacytools-io-joins-the-open-collective-foundation" class="btn btn-outline-success">{% t More Info %}</a>
         </div>
       </div>
 
-      <h1>Please Donate</h1>
+      <h1>{% t Please Donate %}</h1>
 
-      <p>Our website is free of advertisements and not affiliated with any listed providers.<br>Your donation will cover our costs for servers, domains, coffee, beer, and pizza.</p>
-      <p>You may also contribute via the cryptocurrencies below, however we will not be able to provide a receipt for your contribution.<br>Your contribution will be considered an anonymous, unrestricted contribution and paid to our Fiscal Host at OpenCollective when we convert to currency.</p>
+      <p>{% t Our website is free of advertisements and not affiliated with any listed providers. %}<br>{% t Your donation will cover our costs for servers, domains, coffee, beer, and pizza. %}</p>
+      <p>{% t You may also contribute via the cryptocurrencies below; however, we will not be able to provide a receipt for your contribution. %}<br>{% t Your contribution will be considered an anonymous, unrestricted contribution and paid to our Fiscal Host at OpenCollective when we convert to currency. %}</p>
 
     </div>
   </div>
@@ -79,9 +80,9 @@ permalink: /donate/
       </div>
 
     <div class="text-center">
-      <p>We prefer Bitcoin donations to be above $5 due to the state of the network's transaction fees. You are welcome to donate any smaller or larger amount on any other cryptocurrency, such as Bitcoin Cash, Ethereum, or Stellar.</p>
+      <p>{% t We prefer Bitcoin donations to be above $5 due to the state of the network's transaction fees. You are welcome to donate any smaller or larger amount on any other cryptocurrency, such as Bitcoin Cash, Ethereum, or Stellar. %}</p>
 
-      <h2>More Cryptocurrencies</h2>
+      <h2>{% t More Cryptocurrencies %}</h2>
 
     </div>
 
@@ -297,8 +298,8 @@ permalink: /donate/
       </div>
 
     <div class="text-center">
-      <p>The <a href="/contact/">{{ site.name }} team</a> does not necessarily endorse all of the cryptocurrencies listed on this page. Please conduct your own research before purchasing any cryptocurrencies.</p>
-      <h3>Thanks for your support. You are awesome!</h3>
+      <p>{% t The <a href="{{ '/contact/' | translate_page }}">{{ site.name }} team</a> does not necessarily endorse all of the cryptocurrencies listed on this page. Please conduct your own research before purchasing any cryptocurrencies. %}</p>
+      <h3>{% t Thanks for your support. You are awesome! %}</h3>
       <p>
       <span class="far fa-smile-beam fa-3x"></span>
       </p>
