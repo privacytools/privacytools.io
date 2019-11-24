@@ -1,17 +1,17 @@
 <div class="alert alert-success" role="alert">
-  <strong>New!</strong> Financial <a href="https://opencollective.com/privacytoolsio" class="alert-link">contributions</a> to {{ site.name }} are now tax deductible in the US! <a href="https://blog.privacytools.io/privacytools-io-joins-the-open-collective-foundation" class="alert-link">Learn more...</a>
+  <strong>{% t New! %}</strong> {% t Financial <a href="https://opencollective.com/privacytoolsio" class="alert-link">contributions</a> to {{ site.name }} are now tax deductible in the US!%}<a href="https://blog.privacytools.io/privacytools-io-joins-the-open-collective-foundation" class="alert-link">{% t Learn more... %}</a>
 </div>
 
 <div class="jumbotron p-5">
   <h1 class="display-4"><a href="{{ site.production_url }}" title="{{ site.name }}"><img src="/assets/img/layout/logo.png" width="600" height="88" class="img-fluid" alt="{{ site.name }}"></a></h1>
-  <p class="lead">You are being watched. Private and state-sponsored organizations are monitoring and recording your online activities. {{ site.name }} provides services, tools and knowledge to protect your privacy against global mass surveillance.</p>
+  <p class="lead">{% t You are being watched. Private and state-sponsored organizations are monitoring and recording your online activities. {{ site.name }} provides services, tools and knowledge to protect your privacy against global mass surveillance. %}</p>
 </div>
 
 <form method="POST" action="https://search.privacytools.io/" id="search_form" role="search">
 <div class="input-group col-12 col-md-8 offset-md-2">
-<input type="search" name="q" class="form-control input-lg" id="q" placeholder="Try {{ site.name }} Search, a Privacy-Respecting Search Engine" autocomplete="off" value="">
+<input type="search" name="q" class="form-control input-lg" id="q" placeholder="{% t Try {{ site.name }} Search, a Privacy-Respecting Search Engine %}" autocomplete="off" value="">
 <span class="input-group-btn">
-<button type="submit" class="btn btn-primary input-lg"><span class="hide_if_nojs"><i class="fas fa-search"></i> </span><span class="hidden active_if_nojs">start search</span></button>
+<button type="submit" class="btn btn-primary input-lg"><span class="hide_if_nojs"><i class="fas fa-search"></i> </span><span class="hidden active_if_nojs">{% t start search %}</span></button>
 </span>
 </div>
 </form>
