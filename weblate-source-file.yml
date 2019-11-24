@@ -1,4 +1,10 @@
 ---
+DNS__Domain_Providers_KEY: |
+  DNS / Domain Providers
+
+Dont_let_Google_see_all_your_DNS_traffic._Discover_privacycentric_alternatives_to_the_traditional_D_KEY: |
+  Don't let Google see all your DNS traffic. Discover privacy-centric alternatives to the traditional DNS providers.
+
 Best_Secure_Email_Providers_for_Privacy_KEY: |
   Best Secure Email Providers for Privacy
 
@@ -674,6 +680,9 @@ httppkgsrc.sefilesystemstahoelafs_KEY: |
 httpswww.tahoelafs.orgtractahoelafsbrowser_KEY: |
   https://www.tahoe-lafs.org/trac/tahoe-lafs/browser
 
+Domain_Name_System_DNS_KEY: |
+  Domain Name System (DNS)
+
 Njalla__Domain_Registration_KEY: |
   Njalla - Domain Registration
 
@@ -704,14 +713,182 @@ httpopenports.senetdnscryptproxy_KEY: |
 httppkgsrc.senetdnscryptproxy2_KEY: |
   http://pkgsrc.se/net/dnscrypt-proxy2
 
-Anycast_based_in_span_classnotextwrapspan_classflagicon_flagiconcyspanCyprusspa_KEY: |
-  Anycast (based in <span class="no-text-wrap"><span class="flag-icon flag-icon-cy"></span>Cyprus)</span>
+Encrypted_ICANN_DNS_Providers_KEY: |
+  Encrypted ICANN DNS Providers
 
-Anycast_based_in_span_classnotextwrap_span_classflagicon_flagiconusspanUSspan_KEY: |
-  Anycast (based in <span class="no-text-wrap"> <span class="flag-icon flag-icon-us"></span>US)</span>
+Note_Using_an_encrypted_DNS_resolver_will_not_make_you_anonymous_nor_hide_your_internet_traffic_fro_KEY: |
+  Note: Using an encrypted DNS resolver will not make you anonymous, nor hide your internet traffic from your Internet Service Provider. But it will prevent DNS hijacking, and make your DNS requests harder for third parties to eavesdrop on and tamper with. If you are currently using Google's DNS resolver, you should pick an alternative here.
+
+ICANN_DNS_Provider_KEY: |
+  ICANN DNS Provider
+
+Server_Locations_KEY: |
+  Server Locations
+
+Privacy_Policy_KEY: |
+  Privacy Policy
+
+Type_KEY: |
+  Type
+
+Logging_KEY: |
+  Logging
+
+Protocols_KEY: |
+  Protocols
+
+DNSSEC_KEY: |
+  DNSSEC
+
+QNAME_Minimization_KEY: |
+  QNAME Minimization
+
+Filtering_KEY: |
+  Filtering
+
+Source_Code_KEY: |
+  Source Code
+
+Hosting_Provider_KEY: |
+  Hosting Provider
+
+AdGuard_KEY: |
+  AdGuard
+
+httpsadguard.comenadguarddnsoverview.html_KEY: |
+  https://adguard.com/en/adguard-dns/overview.html
+
+Anycast_based_in_span_classnotextwrapspan_classflagicon_flagiconcyspan_Cyprussp_KEY: |
+  Anycast (based in <span class="no-text-wrap"><span class="flag-icon flag-icon-cy"></span> Cyprus)</span>
+
+httpsadguard.comenprivacydns.html_KEY: |
+  https://adguard.com/en/privacy/dns.html
+
+Commercial_KEY: |
+  Commercial
+
+No_KEY: |
+  No
+
+DoH_DoT_DNSCrypt_KEY: |
+  DoH, DoT, DNSCrypt
+
+Yes_KEY: |
+  Yes
+
+Ads_trackers_KEY: |
+  Ads, trackers,
+
+malicious_domains_KEY: |
+  malicious domains
+
+httpsgithub.comAdguardTeamAdGuardDNS_KEY: |
+  https://github.com/AdguardTeam/AdGuardDNS/
+
+httpsflops.ruenabout.html_KEY: |
+  https://flops.ru/en/about.html
+
+Serveroid_LLC_KEY: |
+  Serveroid, LLC
+
+BlahDNS_KEY: |
+  BlahDNS
+
+httpsblahdns.com_KEY: |
+  https://blahdns.com/
+
+Finland_KEY: |
+  Finland
+
+Germany_KEY: |
+  Germany
+
+Japan_KEY: |
+  Japan
+
+Hobby_Project_KEY: |
+  Hobby Project
+
+DoH_KEY: |
+  DoH
+
+Supports_port_443_in_addition_to_853_KEY: |
+  Supports port 443 in addition to 853
+
+DoT_KEY: |
+  DoT
+
+DNSCrypt_KEY: |
+  DNSCrypt
+
+And_some_wildcard_and_IDN_domains._KEY: |
+  And some wildcard and IDN domains.
+
+httpsgithub.comookangzhengblahdnsdefaultblockedwildcarddomain_KEY: |
+  https://github.com/ookangzheng/blahdns#default-blocked-wildcard-domain
+
+httpsgithub.comookangzhengblahdns_KEY: |
+  https://github.com/ookangzheng/blahdns/
+
+httpswww.choopa.com_KEY: |
+  https://www.choopa.com/
+
+Choopa_LLC_KEY: |
+  Choopa, LLC
+
+httpswww.datacenterlight.ch_KEY: |
+  https://www.datacenterlight.ch/
+
+Data_Center_Light_KEY: |
+  Data Center Light
+
+httpswww.hetzner.com_KEY: |
+  https://www.hetzner.com/
+
+Hetzner_Online_GmbH_KEY: |
+  Hetzner Online GmbH
+
+Cloudflare_KEY: |
+  Cloudflare
+
+httpsdevelopers.cloudflare.com1.1.1.1settingup1.1.1.1_KEY: |
+  https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/
+
+Cloudflare_is_one_of_the_worlds_largest_networks_and_a_problem_considering_anonymity_and_decentrali_KEY: |
+  Cloudflare is one of the world's largest networks, and a problem considering anonymity and decentralization.
+
+httpscodeberg.orgcrimeflarecloudflaretor_KEY: |
+  https://codeberg.org/crimeflare/cloudflare-tor/
+
+Anycast_based_in_span_classnotextwrap_span_classflagicon_flagiconusspan_USspan_KEY: |
+  Anycast (based in <span class="no-text-wrap"> <span class="flag-icon flag-icon-us"></span> US)</span>
+
+httpswww.cloudflare.comprivacypolicy_KEY: |
+  https://www.cloudflare.com/privacypolicy/
 
 We_will_collect_limited_DNS_query_data_that_is_sent_to_the_resolvers._This_data_does_not_contain_use_KEY: |
   "We will collect limited DNS query data that is sent to the resolvers. This data does not contain user IP addresses or any other personally identifiable information, and the bulk of the data is only stored for 24 hours."
+
+httpsdevelopers.cloudflare.com1.1.1.1commitmenttoprivacyprivacypolicyprivacypolicy_KEY: |
+  https://developers.cloudflare.com/1.1.1.1/commitment-to-privacy/privacy-policy/privacy-policy/
+
+Some_KEY: |
+  Some
+
+Self_KEY: |
+  Self
+
+CZ.NIC_KEY: |
+  CZ.NIC
+
+httpswww.nic.czodvr_KEY: |
+  https://www.nic.cz/odvr/
+
+Czech_Republic_KEY: |
+  Czech Republic
+
+CZ.NIC_resolvers_neither_collect_any_personal_data_nor_gather_information_on_pages_where_your_comput_KEY: |
+  "CZ.NIC resolvers neither collect any personal data nor gather information on pages where your computer sends personal data."
 
 CZ.NIC_is_an_interest_association_of_legal_entities_founded_in_1998_by_leading_providers_of_Interne_KEY: |
   "CZ.NIC is an interest association of legal entities, founded in 1998 by leading providers of Internet services."
@@ -719,44 +896,233 @@ CZ.NIC_is_an_interest_association_of_legal_entities_founded_in_1998_by_leading_p
 httpswww.nic.czpage351aboutassociation_KEY: |
   https://www.nic.cz/page/351/about-association/
 
+Association_KEY: |
+  Association
+
+DoH_DoT_KEY: |
+  DoH, DoT
+
+dnswarden_KEY: |
+  dnswarden
+
+httpsgithub.combhanupratapysdnswardenblobmasterREADME.md_KEY: |
+  https://github.com/bhanupratapys/dnswarden/blob/master/README.md
+
+httpsgithub.combhanupratapysdnswardenblobmasterREADME.mdprivacypolicyandtc_KEY: |
+  https://github.com/bhanupratapys/dnswarden/blob/master/README.md#privacy-policy-and-tc
+
+Based_on_server_choice_KEY: |
+  Based on server choice
+
+Foundation_for_Applied_Privacy_KEY: |
+  Foundation for Applied Privacy
+
+httpsappliedprivacy.netservicesdns_KEY: |
+  https://appliedprivacy.net/services/dns/
+
+Austria_KEY: |
+  Austria
+
 httpsappliedprivacy.netprivacypolicy_KEY: |
   https://appliedprivacy.net/privacy-policy
+
+NonProfit_KEY: |
+  Non-Profit
 
 We_do_NOT_log_your_IP_address_or_DNS_queries_during_normal_operations._We_do_NOT_share_query_data_wi_KEY: |
   "We do NOT log your IP address or DNS queries during normal operations. We do NOT share query data with third parties that are not directly involved with resolving the query (i.e. sending queries to authoritative nameservers for resolution)."
 
+httpswww.ipax.at_KEY: |
+  https://www.ipax.at/
+
+IPAX_OG_KEY: |
+  IPAX OG
+
 httpswww.nextdns.io_KEY: |
   https://www.nextdns.io/
 
-Anycast_based_in_span_classnotextwrapspan_classflagicon_flagiconusspanUSspan_KEY: |
-  Anycast (based in <span class="no-text-wrap"><span class="flag-icon flag-icon-us"></span>US)</span>
+NextDNS_KEY: |
+  NextDNS
 
-Anycast_based_in_span_classflagicon_flagiconusspanUSspan_KEY: |
-  Anycast (based in <span class="flag-icon flag-icon-us"></span>US),</span>
+Anycast_based_in_span_classnotextwrapspan_classflagicon_flagiconusspan_USspan_KEY: |
+  Anycast (based in <span class="no-text-wrap"><span class="flag-icon flag-icon-us"></span> US)</span>
+
+httpswww.nextdns.ioprivacy_KEY: |
+  https://www.nextdns.io/privacy
+
+Some_of_the_features_require_some_sort_of_data_retention._In_that_case_we_give_our_users_the_choice_KEY: |
+  "Some of the features require some sort of data retention. In that case, we give our users the choice to granularly or completely disable those features (and associated data retention), and we follow up immediately on that promise"
+
+Based_on_user_choice_KEY: |
+  Based on user choice
+
+NixNet_KEY: |
+  NixNet
+
+httpsnixnet.xyzdns_KEY: |
+  https://nixnet.xyz/dns/
+
+Anycast_based_in_span_classflagicon_flagiconusspan_USspan_KEY: |
+  Anycast (based in <span class="flag-icon flag-icon-us"></span> US),</span>
+
+US_KEY: |
+  US
+
+Luxembourg_KEY: |
+  Luxembourg
+
+httpsnixnet.xyzprivacy_KEY: |
+  https://nixnet.xyz/privacy/
 
 Part_of_LibreHosters_a_network_of_cooperation_and_solidarity_that_uses_free_software_to_encourage_d_KEY: |
   Part of LibreHosters, "a network of cooperation and solidarity that uses free software to encourage decentralisation through federation and distributed platforms."
 
+httpslibreho.st_KEY: |
+  https://libreho.st/
+
+Informal_collective_KEY: |
+  Informal collective
+
+httpsgit.nixnet.xyzNixNetdns_KEY: |
+  https://git.nixnet.xyz/NixNet/dns
+
+httpsfrantech.ca_KEY: |
+  https://frantech.ca/
+
+FranTech_Solutions_KEY: |
+  FranTech Solutions
+
+PowerDNS_KEY: |
+  PowerDNS
+
+httpspowerdns.org_KEY: |
+  https://powerdns.org/
+
+The_Netherlands_KEY: |
+  The Netherlands
+
+httpspowerdns.orgdohprivacy.html_KEY: |
+  https://powerdns.org/doh/privacy.html
+
+httpsgithub.comPowerDNSpdns_KEY: |
+  https://github.com/PowerDNS/pdns
+
+httpswww.transip.nl_KEY: |
+  https://www.transip.nl/
+
+TransIP_B.V._Admin_KEY: |
+  TransIP B.V. Admin
+
+Quad9_KEY: |
+  Quad9
+
+httpsquad9.net_KEY: |
+  https://quad9.net/
+
+Founders_include_the_Global_Cyber_Alliance_composed_of_the_City_of_London_Police_and_Manhattan_Distr_KEY: |
+  Founders include the Global Cyber Alliance, composed of the City of London Police and Manhattan District Attorney's Office
+
+httpsquad9.netpolicy_KEY: |
+  https://quad9.net/policy/
+
 Our_normal_course_of_data_management_does_not_have_any_IP_address_information_or_other_PII_logged_to_KEY: |
   "Our normal course of data management does not have any IP address information or other PII logged to disk or transmitted out of the location in which the query was received."
+
+Malicious_domains_KEY: |
+  Malicious domains
+
+httpswww.pch.net_KEY: |
+  https://www.pch.net/
+
+Packet_Clearing_House_KEY: |
+  Packet Clearing House
+
+SecureDNS_KEY: |
+  SecureDNS
+
+httpssecuredns.eu_KEY: |
+  https://securedns.eu/
+
+httpssecuredns.euprivacy_KEY: |
+  https://securedns.eu/#privacy
+
+httpswww.digitalocean.com_KEY: |
+  https://www.digitalocean.com/
+
+DigitalOcean_Inc._KEY: |
+  DigitalOcean, Inc.
+
+httpssnopyta.orgservicednsindex.html_KEY: |
+  https://snopyta.org/service/dns/index.html
+
+Snopyta_KEY: |
+  Snopyta
+
+httpssnopyta.orgprivacy_policy_KEY: |
+  https://snopyta.org/privacy_policy/
+
+UncensoredDNS_KEY: |
+  UncensoredDNS
 
 httpsblog.uncensoreddns.org_KEY: |
   https://blog.uncensoreddns.org/
 
-Anycast_based_in_span_classnotextwrapspan_classflagicon_flagicondkspanDenmark_KEY: |
-  Anycast (based in <span class="no-text-wrap"><span class="flag-icon flag-icon-dk"></span>Denmark)
+Anycast_based_in_span_classnotextwrapspan_classflagicon_flagicondkspan_Denmark_KEY: |
+  Anycast (based in <span class="no-text-wrap"><span class="flag-icon flag-icon-dk"></span> Denmark)
+
+Denmark_KEY: |
+  Denmark
 
 Absolutely_nothing_is_being_logged_neither_about_the_users_nor_the_usage_of_this_service._I_do_keep_KEY: |
   "Absolutely nothing is being logged, neither about the users nor the usage of this service. I do keep graphs of the total number of queries, but no personally identifiable information is saved. The data that is saved will never be sold or used for anything except capacity planning of the service."
 
+httpswww.teliacompany.com_KEY: |
+  https://www.teliacompany.com
+
+Telia_Company_AB_KEY: |
+  Telia Company AB
+
+Terms_KEY: |
+  Terms
+
+DNSoverTLS_DoT__A_security_protocol_for_encrypted_DNS_on_a_dedicated_port_853._Some_providers_su_KEY: |
+  DNS-over-TLS (DoT) - A security protocol for encrypted DNS on a dedicated port 853. Some providers support port 443 which generally works everywhere while port 853 is often blocked by restrictive firewalls. DoT has two modes:
+
 Oppurtunistic_mode_the_client_attempts_to_form_a_DNSoverTLS_connection_to_the_server_on_port_853_w_KEY: |
   Oppurtunistic mode: the client attempts to form a DNS-over-TLS connection to the server on port 853 without performing certificate validation. If it fails, it will use unencrypted DNS.
+
+In_other_words_automatic_mode_leaves_your_DNS_traffic_vulnerable_to_SSL_strip_and_MITM_attacks_KEY: |
+  In other words automatic mode leaves your DNS traffic vulnerable to SSL strip and MITM attacks
+
+Strict_mode_the_client_connects_to_a_specific_hostname_and_performs_certificate_validation_for_it._I_KEY: |
+  Strict mode: the client connects to a specific hostname and performs certificate validation for it. If it fails, no DNS queries are made until it succeeds.
 
 DNSoverHTTPS_DoH__Similar_to_DoT_but_uses_HTTPS_instead_being_indistinguishable_from_normal__KEY: |
   DNS-over-HTTPS (DoH) - Similar to DoT, but uses HTTPS instead, being indistinguishable from "normal" HTTPS traffic on port 443.
 
+DoH_contains_metadata_such_as_useragent_which_may_include_system_information_that_is_sent_to_the_D_KEY: |
+  DoH contains metadata such as user-agent (which may include system information) that is sent to the DNS server.
+
+httpstools.ietf.orghtmlrfc8484section8.2_KEY: |
+  https://tools.ietf.org/html/rfc8484#section-8.2
+
+DNSCrypt__An_older_yet_robust_method_of_encrypting_DNS._KEY: |
+  DNSCrypt - An older yet robust method of encrypting DNS.
+
+How_to_verify_DNS_is_encrypted_KEY: |
+  How to verify DNS is encrypted
+
+DoH__DoT_KEY: |
+  DoH / DoT
+
 Check_a_hrefhttpswww.dnsleaktest.comDNSLeakTest.coma._KEY: |
   Check <a href="https://www.dnsleaktest.com/">DNSLeakTest.com</a>.
+
+Your_DNS_provider_may_not_appear_with_their_own_name_so_compare_the_responses_to_what_you_know_or_ca_KEY: |
+  Your DNS provider may not appear with their own name, so compare the responses to what you know or can find about your DNS provider. Just ensure you don't see your ISP or old unencrypted DNS provider.
+
+Check_the_website_of_your_DNS_provider._They_may_have_a_page_for_telling_you_are_using_our_DNS._Exa_KEY: |
+  Check the website of your DNS provider. They may have a page for telling "you are using our DNS." Examples include <a href="https://adguard.com/en/adguard-dns/overview.html">AdGuard</a> and <a href="https://1.1.1.1/help">Cloudflare</a>.
 
 If_using_Firefoxs_trusted_recursive_resolver_TRR_navigate_to_codeaboutnetworkingdnscode._I_KEY: |
   If using Firefox's trusted recursive resolver (TRR), navigate to <code>about:networking#dns</code>. If the TRR column says "true" for some fields, you are using DoH.
@@ -764,14 +1130,20 @@ If_using_Firefoxs_trusted_recursive_resolver_TRR_navigate_to_codeaboutnetworking
 Some_fields_will_say_false_depending_on_the_the_value_of_network.trr.mode_in_aboutconfig_KEY: |
   Some fields will say "false" depending on the the value of network.trr.mode in about:config
 
-Check_a_hrefhttpsgithub.comjedisct1dnscryptproxywikiCheckingdnscryptproxys_wiki_on_how_KEY: |
-  Check <a href="https://github.com/jedisct1/dnscrypt-proxy/wiki/Checking">dnscrypt-proxy's wiki on how to verify that your DNS is encrypted</a>.
+dnscryptproxy__Check_a_hrefhttpsgithub.comjedisct1dnscryptproxywikiCheckingdnscryptpr_KEY: |
+  dnscrypt-proxy - Check <a href="https://github.com/jedisct1/dnscrypt-proxy/wiki/Checking">dnscrypt-proxy's wiki on how to verify that your DNS is encrypted</a>.
 
-Check_a_hrefhttpsdnssec.vs.unidue.deDNSSEC_Resolver_Test_by_Matthus_Wandera._KEY: |
-  Check <a href="https://dnssec.vs.uni-due.de/">DNSSEC Resolver Test by Matthäus Wander</a>.
+DNSSEC__Check_a_hrefhttpsdnssec.vs.unidue.deDNSSEC_Resolver_Test_by_Matthus_Wandera._KEY: |
+  DNSSEC - Check <a href="https://dnssec.vs.uni-due.de/">DNSSEC Resolver Test by Matthäus Wander</a>.
 
 QNAME_Minimization__Run_codedig_short_txt_qnamemintest.internet.nlcode_from_the_commandline__KEY: |
   QNAME Minimization - Run <code>dig +short txt qnamemintest.internet.nl</code> from the command-line (taken from <a href="https://nlnetlabs.nl/downloads/presentations/unbound_qnamemin_oarc24.pdf">this NLnet Labs presentation</a>). If you are on Windows 10, run <code>Resolve-DnsName -Type TXT -Name qnamemintest.internet.nl</code> from the PowerShell. You should see this display: <code>"HOORAY - QNAME minimisation is enabled on your resolver :)!"</code>
+
+Worth_Mentioning_and_Additional_Information_KEY: |
+  Worth Mentioning and Additional Information
+
+Encrypted_DNS_clients_for_desktop_KEY: |
+  Encrypted DNS clients for desktop:
 
 emFirefoxem_comes_with_builtin_DoH_support_with_Cloudflare_set_as_the_default_resolver_but_can_KEY: |
   <em>Firefox</em> comes with built-in DoH support with Cloudflare set as the default resolver, but can be configured to use any DoH resolver.
@@ -782,11 +1154,23 @@ Cloudflare_has_agreed_to_collect_only_a_limited_amount_of_data_about_the_DNS_req
 httpsdevelopers.cloudflare.com1.1.1.1commitmenttoprivacyprivacypolicyfirefox_KEY: |
   https://developers.cloudflare.com/1.1.1.1/commitment-to-privacy/privacy-policy/firefox/
 
+Currently_Mozilla_is_a_hrefhttpsblog.mozilla.orgfuturereleases20190731dnsoverhttpsdohu_KEY: |
+  Currently Mozilla is <a href="https://blog.mozilla.org/futurereleases/2019/07/31/dns-over-https-doh-update-detecting-managed-networks-and-user-choice/">conducting studies</a> before enabling DoH by default for all US-based Firefox users.
+
 DNS_over_HTTPS_can_be_enabled_in_Menu__Preferences_codeaboutpreferencescode__Network_Sett_KEY: |
   DNS over HTTPS can be enabled in Menu -> Preferences (<code>about:preferences</code>) -> Network Settings -> Enable DNS over HTTPS. Set "Use Provider" to "Custom", and enter your DoH provider's address.
 
+Advanced_users_may_enable_it_in_codeaboutconfigcode_by_setting_codenetwork.trr.custom_urico_KEY: |
+  Advanced users may enable it in <code>about:config</code> by setting <code>network.trr.custom_uri</code> and <code>network.trr.uri</code> as the address you find from the documentation of your DoH provider and <code>network.trr.mode</code> as <code>2</code>. It may also be desirable to set <code>network.security.esni.enabled</code> to <code>True</code> in order to enable encrypted SNI and make sites supporting ESNI a bit more difficult to track.
+
+Encrypted_DNS_clients_for_mobile_KEY: |
+  Encrypted DNS clients for mobile:
+
 emAndroid_9em_comes_with_a_DoT_client_by_a_hrefhttpssupport.google.comandroidanswer9089_KEY: |
   <em>Android 9</em> comes with a DoT client by <a href="https://support.google.com/android/answer/9089903">default</a>.
+
+...but_with_some_caveats_KEY: |
+  ...but with some caveats
 
 httpswww.quad9.netprivatednsquad9android9_KEY: |
   https://www.quad9.net/private-dns-quad9-android9/
@@ -794,17 +1178,44 @@ httpswww.quad9.netprivatednsquad9android9_KEY: |
 We_recommend_selecting_emPrivate_DNS_provider_hostnameem_and_entering_the_DoT_address_from_docum_KEY: |
   We recommend selecting <em>Private DNS provider hostname</em> and entering the DoT address from documentation of your DoT provider to enable strict mode (see Terms above).
 
+If_you_are_on_a_network_blocking_access_to_port_853_Android_will_error_about_the_network_not_having__KEY: |
+  If you are on a network blocking access to port 853, Android will error about the network not having internet connectivity.
+
+httpsapps.apple.comappid1452162351_KEY: |
+  https://apps.apple.com/app/id1452162351
+
+DNSCloak_KEY: |
+  DNSCloak
+
 An_a_hrefhttpsgithub.comssdnscloakopensourcea_DNSCrypt_and_DoH_client_for_iOS_by_td_KEY: |
   An <a href="https://github.com/s-s/dnscloak">open-source</a> DNSCrypt and DoH client for iOS by <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"A charitable non-profit host organization for international Free Software projects."' href="https://techcultivation.org/">the Center for the Cultivation of Technology gemeinnuetzige GmbH</a>.
 
+httpsgit.frostnerd.comPublicAndroidAppssmokescreenblobmasterREADME.md_KEY: |
+  https://git.frostnerd.com/PublicAndroidApps/smokescreen/blob/master/README.md
+
+Nebulo_KEY: |
+  Nebulo
+
+An_opensource_application_for_Android_supporting_DoH_and_DoT._It_also_supports_caching_DNS_responses_KEY: |
+  An open-source application for Android supporting DoH and DoT. It also supports caching DNS responses and locally logging DNS queries.
+
+Local_DNS_servers_KEY: |
+  Local DNS servers:
+
 httpsdnsprivacy.orgwikidisplayDPDNSPrivacyDaemonStubby_KEY: |
   https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby
+
+Stubby_KEY: |
+  Stubby
 
 An_opensource_application_for_Linux_macOS_and_Windows_that_acts_as_a_local_DNS_Privacy_stub_resolv_KEY: |
   An open-source application for Linux, macOS, and Windows that acts as a local DNS Privacy stub resolver using DoT.
 
 httpsnlnetlabs.nlprojectsunboundabout_KEY: |
   https://nlnetlabs.nl/projects/unbound/about/
+
+Unbound_KEY: |
+  Unbound
 
 a_validating_recursive_caching_DNS_resolver._It_can_also_be_ran_networkwide_and_has_supported_DNS_KEY: |
   a validating, recursive, caching DNS resolver. It can also be ran network-wide and has supported DNS-over-TLS since version 1.7.3.
@@ -818,8 +1229,59 @@ Networkwide_DNS_servers_KEY: |
 httpspihole.net_KEY: |
   https://pi-hole.net/
 
+Pihole_KEY: |
+  Pi-hole
+
+A_networkwide_DNS_server_mainly_for_the_Raspberry_Pi._Blocks_ads_tracking_and_malicious_domains_fo_KEY: |
+  A network-wide DNS server mainly for the Raspberry Pi. Blocks ads, tracking, and malicious domains for all devices on your network.
+
+NoTrack_KEY: |
+  NoTrack
+
+A_networkwide_DNS_server_like_Pihole_for_blocking_ads_tracking_and_malicious_domains._KEY: |
+  A network-wide DNS server like Pi-hole for blocking ads, tracking, and malicious domains.
+
+Further_reading_KEY: |
+  Further reading:
+
+On_Firefox_DoH_and_ESNI_KEY: |
+  On Firefox, DoH and ESNI
+
+httpswiki.mozilla.orgTrusted_Recursive_Resolver_KEY: |
+  https://wiki.mozilla.org/Trusted_Recursive_Resolver
+
 Trusted_Recursive_Resolver_DoH_on_MozillaWiki_KEY: |
   Trusted Recursive Resolver (DoH) on MozillaWiki
+
+httpsbugzilla.mozilla.orgshow_bug.cgi?id1500289_KEY: |
+  https://bugzilla.mozilla.org/show_bug.cgi?id=1500289
+
+Firefox_bug_report_requesting_the_ability_to_use_ESNI_without_DoH_KEY: |
+  Firefox bug report requesting the ability to use ESNI without DoH
+
+httpsbugzilla.mozilla.orgshow_bug.cgi?id1542754_KEY: |
+  https://bugzilla.mozilla.org/show_bug.cgi?id=1542754
+
+Firefox_bug_report_requesting_the_ability_to_use_Android_9s_Private_DNS_DoT_and_benefit_from_encr_KEY: |
+  Firefox bug report requesting the ability to use Android 9+'s Private DNS (DoT) and benefit from encrypted SNI without having to enable DoH
+
+httpsblog.cloudflare.comencryptedsni_KEY: |
+  https://blog.cloudflare.com/encrypted-sni/
+
+Encrypt_it_or_lose_it_how_encrypted_SNI_works_on_Cloudflare_blog_KEY: |
+  Encrypt it or lose it: how encrypted SNI works on Cloudflare blog
+
+httpswww.isc.orgblogsqnameminimizationandprivacy_KEY: |
+  https://www.isc.org/blogs/qname-minimization-and-privacy/
+
+QNAME_Minimization_and_Your_Privacya_by_the_Internet_Systems_Consortium_ISC_KEY: |
+  QNAME Minimization and Your Privacy</a> by the Internet Systems Consortium (ISC)
+
+httpswww.isc.orgdnssec_KEY: |
+  https://www.isc.org/dnssec/
+
+DNSSEC_and_BIND_9a_by_the_ISC_KEY: |
+  DNSSEC and BIND 9</a> by the ISC
 
 Thunderbird_KEY: |
   Thunderbird
@@ -962,23 +1424,14 @@ Accepted_KEY: |
 Builtin_KEY: |
   Built-in
 
-Yes_KEY: |
-  Yes
-
 httpskolabnow.com_KEY: |
   https://kolabnow.com
 
 Switzerland_KEY: |
   Switzerland
 
-No_KEY: |
-  No
-
 httpsmailbox.org_KEY: |
   https://mailbox.org
-
-Germany_KEY: |
-  Germany
 
 httpsmailfence.com_KEY: |
   https://mailfence.com
@@ -1532,9 +1985,6 @@ Terms_of_Service_Didnt_Read_KEY: |
 I_have_read_and_agree_to_the_Terms_is_the_biggest_lie_on_the_web._We_aim_to_fix_that._KEY: |
   "I have read and agree to the Terms" is the biggest lie on the web. We aim to fix that.
 
-httpscodeberg.orgcrimeflarecloudflaretor_KEY: |
-  https://codeberg.org/crimeflare/cloudflare-tor
-
 The_Great_Cloudwall_KEY: |
   The Great Cloudwall
 
@@ -1880,9 +2330,6 @@ United_States_of_America_KEY: |
 Five_Eyes_KEY: |
   Five Eyes
 
-Denmark_KEY: |
-  Denmark
-
 France_KEY: |
   France
 
@@ -2002,9 +2449,6 @@ Key_disclosure_laws_may_apply_KEY: |
 
 httpsen.wikipedia.orgwikiKey_disclosure_lawCzech_Republic_KEY: |
   https://en.wikipedia.org/wiki/Key_disclosure_law#Czech_Republic
-
-Czech_Republic_KEY: |
-  Czech Republic
 
 httpsen.wikipedia.orgwikiKey_disclosure_lawGermany_KEY: |
   https://en.wikipedia.org/wiki/Key_disclosure_law#Germany
@@ -3025,6 +3469,12 @@ notabug.io_KEY: |
 
 A_a_hrefhttpsgithub.comnotabugionotabugblobmasterLICENSE.mdfree_and_opensourcea_P2P__KEY: |
   A <a href="https://github.com/notabugio/notabug/blob/master/LICENSE.md">free and open-source</a> P2P link aggregator with a strong resemblance to old.reddit.com (not to be confused with <a href="https://notabug.org/">NotABug.org</a>).
+
+httpsbugzilla.mozilla.orgshow_bug.cgi?id1500289_KEY: |
+  https://bugzilla.mozilla.org/show_bug.cgi?id=1500289
+
+httpsbugzilla.mozilla.orgshow_bug.cgi?id1542754_KEY: |
+  https://bugzilla.mozilla.org/show_bug.cgi?id=1542754
 
 httpsplay.google.comstoreappsdetails?idcom.standardnotes_KEY: |
   https://play.google.com/store/apps/details?id=com.standardnotes

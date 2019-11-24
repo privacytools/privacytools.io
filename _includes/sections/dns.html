@@ -1,4 +1,4 @@
-<h1 id="dns" class="anchor"><a href="#dns"><i class="fas fa-link anchor-icon"></i></a> Domain Name System (DNS)</h1>
+<h1 id="dns" class="anchor"><a href="#dns"><i class="fas fa-link anchor-icon"></i></a> {% t Domain Name System (DNS) %}</h1>
 
 {%
   include cardv2.html
@@ -28,514 +28,487 @@
   ios=""
 %}
 
-<h1 id="icanndns" class="anchor"><a href="#icanndns"><i class="fas fa-link anchor-icon"></i></a> Encrypted ICANN DNS Providers</h1>
+<h1 id="icanndns" class="anchor"><a href="#icanndns"><i class="fas fa-link anchor-icon"></i></a> {% t Encrypted ICANN DNS Providers %}</h1>
 
 <div class="alert alert-warning" role="alert">
-  <strong>Note: Using an encrypted DNS resolver will not make you anonymous, nor hide your internet traffic from your Internet Service Provider. But it will prevent DNS hijacking, and make your DNS requests harder for third parties to eavesdrop on and tamper with. If you are currently using Google's DNS resolver, you should pick an alternative here.</strong>
+  <strong>{% t Note: Using an encrypted DNS resolver will not make you anonymous, nor hide your internet traffic from your Internet Service Provider. But it will prevent DNS hijacking, and make your DNS requests harder for third parties to eavesdrop on and tamper with. If you are currently using Google's DNS resolver, you should pick an alternative here. %}</strong>
 </div>
 
 <div class="table-responsive">
   <table class="table sortable-theme-bootstrap" data-sortable>
     <thead>
       <tr>
-        <th data-sorted="true" data-sorted-direction="ascending">ICANN DNS Provider</th>
-        <th data-sortable="true">Server Locations</th>
-        <th data-sortable="false">Privacy Policy</th>
-        <th data-sortable="true">Type</th>
-        <th data-sortable="true">Logging</th>
-        <th data-sortable="true">Protocols</th>
-        <th data-sortable="true">DNSSEC</th>
-        <th data-sortable="true">QNAME Minimization</th>
-        <th data-sortable="true">Filtering</th>
-        <th data-sortable="true">Source Code</th>
-        <th data-sortable="true">Hosting Provider</th>
+        <th data-sorted="true" data-sorted-direction="ascending">{% t ICANN DNS Provider %}</th>
+        <th data-sortable="true">{% t Server Locations %}</th>
+        <th data-sortable="false">{% t Privacy Policy %}</th>
+        <th data-sortable="true">{% t Type %}</th>
+        <th data-sortable="true">{% t Logging %}</th>
+        <th data-sortable="true">{% t Protocols %}</th>
+        <th data-sortable="true">{% t DNSSEC %}</th>
+        <th data-sortable="true">{% t QNAME Minimization %}</th>
+        <th data-sortable="true">{% t Filtering %}</th>
+        <th data-sortable="true">{% t Source Code %}</th>
+        <th data-sortable="true">{% t Hosting Provider %}</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td data-value="AdGuard">
-          <a href="https://adguard.com/en/adguard-dns/overview.html">AdGuard</a>
+        <td data-value="{% t AdGuard %}">
+          <a href="{% t https://adguard.com/en/adguard-dns/overview.html %}">{% t AdGuard %}</a>
         </td>
-        <td>Anycast (based in
-          <span class="no-text-wrap">
-            <span class="flag-icon flag-icon-cy"></span>
-              Cyprus)
-          </span>
-        </td>
+        <td>{% t Anycast (based in <span class="no-text-wrap"><span class="flag-icon flag-icon-cy"></span> Cyprus)</span>%}</td>
         <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://adguard.com/en/privacy/dns.html" href="https://adguard.com/en/privacy/dns.html">
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title="{% t https://adguard.com/en/privacy/dns.html %}" href="{% t https://adguard.com/en/privacy/dns.html %}">
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
           </a>
         </td>
-        <td>Commercial</td>
-        <td>No</td>
-        <td>DoH, DoT, DNSCrypt</td>
-        <td>Yes</td>
-        <td>Yes</td>
+        <td>{% t Commercial %}</td>
+        <td>{% t No %}</td>
+        <td>{% t DoH, DoT, DNSCrypt %}</td>
+        <td>{% t Yes %}</td>
+        <td>{% t Yes %}</td>
         <td>
           <span class="no-text-wrap">
-            Ads, trackers,
+            {% t Ads, trackers, %} 
           </span>
           <span class="no-text-wrap">
-            malicious domains
+            {% t malicious domains %}
           </span>
         </td>
         <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://github.com/AdguardTeam/AdGuardDNS/" href="https://github.com/AdguardTeam/AdGuardDNS/">
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title="{% t https://github.com/AdguardTeam/AdGuardDNS/ %}" href="{% t https://github.com/AdguardTeam/AdGuardDNS/ %}">
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
           </a>
         </td>
         <td>
           <span class="no-text-wrap">
-            <a href="https://flops.ru/en/about.html">Serveroid, LLC</a>
+            <a href="{% t https://flops.ru/en/about.html %}">{% t Serveroid, LLC %}</a>
           </span>
         </td>
       </tr>
 
       <tr>
-        <td data-value="BlahDNS">
-          <a href="https://blahdns.com/">BlahDNS</a>
+        <td data-value="{% t BlahDNS %}">
+          <a href="{% t https://blahdns.com/ %}">{% t BlahDNS %}</a>
         </td>
         <td>
           <span class="no-text-wrap">
             <span class="flag-icon flag-icon-fi"></span>
-            Finland,
+            {% t Finland %},
           </span>
           <span class="no-text-wrap">
             <span class="flag-icon flag-icon-de"></span>
-            Germany,
+            {% t Germany %},
           </span>
           <span class="no-text-wrap">
             <span class="flag-icon flag-icon-jp"></span>
-            Japan
+            {% t Japan %}
           </span>
         </td>
         <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title='"No logs."'>
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title='"\No logs."'>
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
           </a>
         </td>
-        <td>Hobby Project</td>
-        <td>No</td>
+        <td>{% t Hobby Project %}</td>
+        <td>{% t No %}</td>
         <td data-value="dot/443">
           <span class="no-text-wrap">
-            DoH,
-            <span data-toggle="tooltip" data-placement="bottom" data-original-title="Supports port 443 in addition to 853">
-              DoT <span class="fas fa-info-circle fa-sm text-secondary"></span>,
+            {% t DoH %},
+            <span data-toggle="tooltip" data-placement="bottom" data-original-title="{% t Supports port 443 in addition to 853 %}">
+              {% t DoT %} <span class="fas fa-info-circle fa-sm text-secondary"></span>,
             </span>
           </span>
-          DNSCrypt
+          {% t DNSCrypt %}
         </td>
-        <td>Yes</td>
-        <td>Yes</td>
+        <td>{% t Yes %}</td>
+        <td>{% t Yes %}</td>
         <td>
           <span class="no-text-wrap">
-            Ads, trackers,
+            {% t Ads, trackers, %} 
           </span>
           <span class="no-text-wrap">
-            malicious domains
-            <span class="badge badge-warning" data-toggle="tooltip" data-original-title="And some wildcard and IDN domains."><a href="https://github.com/ookangzheng/blahdns#default-blocked-wildcard-domain"><i class="fas fa-exclamation-triangle"></i></a></span>
+            {% t malicious domains %}
+            <span class="badge badge-warning" data-toggle="tooltip" data-original-title="{% t And some wildcard and IDN domains. %}"><a href="{% t https://github.com/ookangzheng/blahdns#default-blocked-wildcard-domain %}"><i class="fas fa-exclamation-triangle"></i></a></span>
           </span>
         </td>
         <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://github.com/ookangzheng/blahdns/" href="https://github.com/ookangzheng/blahdns/">
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title="{% t https://github.com/ookangzheng/blahdns/ %}" href="{% t https://github.com/ookangzheng/blahdns/ %}">
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
           </a>
         </td>
         <td>
           <span class="no-text-wrap">
-            <a href="https://www.choopa.com/">Choopa, LLC</a>,
+            <a href="{% t https://www.choopa.com/ %}">{% t Choopa, LLC %}</a>,
           </span>
           <span class="no-text-wrap">
-            <a href="https://www.datacenterlight.ch/">Data Center Light</a>,
+            <a href="{% t https://www.datacenterlight.ch/ %}">{% t Data Center Light %}</a>,
           </span>
           <span class="no-text-wrap">
-            <a href="https://www.hetzner.com/">Hetzner Online GmbH</a>
+            <a href="{% t https://www.hetzner.com/ %}">{% t Hetzner Online GmbH %}</a>
           </span>
         </td>
       </tr>
 
       <tr>
-        <td data-value="Cloudflare">
-          <a href="https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/">Cloudflare</a> <span class="badge badge-warning" data-toggle="tooltip" title="Cloudflare is one of the world's largest networks, and a problem considering anonymity and decentralization."><a href="https://codeberg.org/crimeflare/cloudflare-tor/"><i class="fas fa-exclamation-triangle"></i></a></span>
+        <td data-value="{% t Cloudflare %}">
+          <a href="{% t https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/ %}">{% t Cloudflare %}</a> <span class="badge badge-warning" data-toggle="tooltip" title="{% t Cloudflare is one of the world's largest networks, and a problem considering anonymity and decentralization. %}"><a href="{% t https://codeberg.org/crimeflare/cloudflare-tor/ %}"><i class="fas fa-exclamation-triangle"></i></a></span>
         </td>
-        <td>Anycast (based in
-          <span class="no-text-wrap">
-            <span class="flag-icon flag-icon-us"></span>
-            US)
-          </span>
+        <td>{% t Anycast (based in <span class="no-text-wrap"> <span class="flag-icon flag-icon-us"></span> US)</span>%}
         </td>
         <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.cloudflare.com/privacypolicy/" href="https://www.cloudflare.com/privacypolicy/">
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title="{% t https://www.cloudflare.com/privacypolicy/ %}" href="{% t https://www.cloudflare.com/privacypolicy/ %}">
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
           </a>
         </td>
-        <td>Commercial</td>
-        <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"We will collect limited DNS query data that is sent to the resolvers. This data does not contain user IP addresses or any other personally identifiable information, and the bulk of the data is only stored for 24 hours."' href="https://developers.cloudflare.com/1.1.1.1/commitment-to-privacy/privacy-policy/privacy-policy/">Some</a></td>
-        <td>DoH, DoT, DNSCrypt</td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>No</td>
+        <td>{% t Commercial %}</td>
+        <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='{% t "We will collect limited DNS query data that is sent to the resolvers. This data does not contain user IP addresses or any other personally identifiable information, and the bulk of the data is only stored for 24 hours."%}' href="{% t https://developers.cloudflare.com/1.1.1.1/commitment-to-privacy/privacy-policy/privacy-policy/%}">{% t Some %}</a></td>
+        <td>{% t DoH, DoT, DNSCrypt %}</td>
+        <td>{% t Yes %}</td>
+        <td>{% t Yes %}</td>
+        <td>{% t No %}</td>
         <td>?</td>
-        <td>Self</td>
+        <td>{% t Self %}</td>
       </tr>
 
       <tr>
-        <td data-value="CZ.NIC">
-          <a href="https://www.nic.cz/odvr/">CZ.NIC</a>
+        <td data-value="{% t CZ.NIC %}">
+          <a href="{% t https://www.nic.cz/odvr/ %}">{% t CZ.NIC %}</a>
         </td>
         <td>
           <span class="no-text-wrap">
             <span class="flag-icon flag-icon-cz"></span>
-            Czech Republic
+            {% t Czech Republic %}
           </span>
         </td>
         <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title='"CZ.NIC resolvers neither collect any personal data nor gather information on pages where your computer sends personal data."'>
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title='{% t "CZ.NIC resolvers neither collect any personal data nor gather information on pages where your computer sends personal data." %}'>
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
           </a>
         </td>
-        <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"CZ.NIC is an interest association of legal entities, founded in 1998 by leading providers of Internet services."' href="https://www.nic.cz/page/351/about-association/">Association</a></td>
-        <td>No</td>
-        <td>DoH, DoT</td>
-        <td>Yes</td>
-        <td>Yes</td>
+        <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='{% t "CZ.NIC is an interest association of legal entities, founded in 1998 by leading providers of Internet services."%}' href="{% t https://www.nic.cz/page/351/about-association/%}">{% t Association %}</a></td>
+        <td>{% t No %}</td>
+        <td>{% t DoH, DoT %}</td>
+        <td>{% t Yes %}</td>
+        <td>{% t Yes %}</td>
         <td data-value="No">?</td>
         <td>?</td>
-        <td>Self</td>
+        <td>{% t Self %}</td>
       </tr>
 
       <tr>
-        <td data-value="dnswarden">
-          <a href="https://github.com/bhanupratapys/dnswarden/blob/master/README.md">dnswarden</a>
+        <td data-value="{% t dnswarden %}">
+          <a href="{% t https://github.com/bhanupratapys/dnswarden/blob/master/README.md %}">{% t dnswarden %}</a>
         </td>
         <td>
           <span class="no-text-wrap">
             <span class="flag-icon flag-icon-de"></span>
-            Germany
+            {% t Germany %}
           </span>
         </td>
         <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://github.com/bhanupratapys/dnswarden/blob/master/README.md#privacy-policy-and-tc" href="https://github.com/bhanupratapys/dnswarden/blob/master/README.md#privacy-policy-and-tc">
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title="{% t https://github.com/bhanupratapys/dnswarden/blob/master/README.md#privacy-policy-and-tc %}" href="{% t https://github.com/bhanupratapys/dnswarden/blob/master/README.md#privacy-policy-and-tc %}">
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
           </a>
         </td>
-        <td>Hobby Project</td>
-        <td>No</td>
+        <td>{% t Hobby Project %}</td>
+        <td>{% t No %}</td>
         <td data-value="dot/443">
           <span class="no-text-wrap">
-            DoH,
-            <span data-toggle="tooltip" data-placement="bottom" data-original-title="Supports port 443 in addition to 853">
-              DoT <span class="fas fa-info-circle fa-sm text-secondary"></span>,
+            {% t DoH %},
+            <span data-toggle="tooltip" data-placement="bottom" data-original-title="{% t Supports port 443 in addition to 853 %}">
+              {% t DoT %} <span class="fas fa-info-circle fa-sm text-secondary"></span>,
             </span>
           </span>
-          DNSCrypt
+          {% t DNSCrypt %}
         </td>
-        <td>Yes</td>
-        <td>Yes</td>
+        <td>{% t Yes %}</td>
+        <td>{% t Yes %}</td>
         <td>
           <span class="no-text-wrap">
-            Based on server choice
+            {% t Based on server choice %}
           </span>
         </td>
         <td>?</td>
         <td>
           <span class="no-text-wrap">
-            <a href="https://www.hetzner.com/">Hetzner Online GmbH</a>
+            <a href="{% t https://www.hetzner.com/ %}">{% t Hetzner Online GmbH %}</a>
           </span>
         </td>
       </tr>
 
       <tr>
-        <td data-value="Foundation for Applied Privacy">
-          <a href="https://appliedprivacy.net/services/dns/">Foundation for Applied Privacy</a>
+        <td data-value="{% t Foundation for Applied Privacy %}">
+          <a href="{% t https://appliedprivacy.net/services/dns/ %}">{% t Foundation for Applied Privacy %}</a>
         </td>
         <td>
           <span class="no-text-wrap">
             <span class="flag-icon flag-icon-at"></span>
-            Austria
+            {% t Austria %}
           </span>
         </td>
         <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://appliedprivacy.net/privacy-policy" href="https://appliedprivacy.net/privacy-policy">
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title="{% t https://appliedprivacy.net/privacy-policy %}" href="{% t https://appliedprivacy.net/privacy-policy %}">
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
           </a>
         </td>
-        <td>Non-Profit</td>
-        <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"We do NOT log your IP address or DNS queries during normal operations. We do NOT share query data with third parties that are not directly involved with resolving the query (i.e. sending queries to authoritative nameservers for resolution)."' href="https://appliedprivacy.net/privacy-policy/">Some</a></td>
+        <td>{% t Non-Profit %}</td>
+        <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='{% t "We do NOT log your IP address or DNS queries during normal operations. We do NOT share query data with third parties that are not directly involved with resolving the query (i.e. sending queries to authoritative nameservers for resolution)."%}' href="{% t https://appliedprivacy.net/privacy-policy/%}">{% t Some %}</a></td>
         <td data-value="dot/443">
           <span class="no-text-wrap">
-            DoH,
-            <span data-toggle="tooltip" data-placement="bottom" data-original-title="Supports port 443 in addition to 853">
-              DoT <span class="fas fa-info-circle fa-sm text-secondary"></span>
+            {% t DoH %},
+            <span data-toggle="tooltip" data-placement="bottom" data-original-title="{% t Supports port 443 in addition to 853 %}">
+              {% t DoT %} <span class="fas fa-info-circle fa-sm text-secondary"></span>
             </span>
           </span>
         </td>
-        <td>Yes</td>
-        <td>Yes</td>
-        <td>No</td>
+        <td>{% t Yes %}</td>
+        <td>{% t Yes %}</td>
+        <td>{% t No %}</td>
         <td>?</td>
         <td>
           <span class="no-text-wrap">
-            <a href="https://www.ipax.at/">IPAX OG</a>
+            <a href="{% t https://www.ipax.at/ %}">{% t IPAX OG %}</a>
           </span>
         </td>
       </tr>
 
       <tr>
         <td data-value="nextdns">
-          <a href="https://www.nextdns.io/">NextDNS</a>
+          <a href="{% t https://www.nextdns.io/%}">{% t NextDNS %}</a>
         </td>
-        <td>Anycast (based in
-          <span class="no-text-wrap">
-            <span class="flag-icon flag-icon-us"></span>
-            US)
-          </span>
-        </td>
+        <td>{% t Anycast (based in <span class="no-text-wrap"><span class="flag-icon flag-icon-us"></span> US)</span>%}</td>
         <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.nextdns.io/privacy" href="https://www.nextdns.io/privacy">
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title="{% t https://www.nextdns.io/privacy %}" href="{% t https://www.nextdns.io/privacy %}">
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
           </a>
         </td>
-        <td>Commercial</td>
+        <td>{% t Commercial %}</td>
         <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title='"Some of the features require some sort of data retention. In that case, we give our users the choice to granularly or completely disable those features (and associated data retention), and we follow up immediately on that promise"' href="https://www.nextdns.io/privacy">Based on user choice</a>
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title='{% t "Some of the features require some sort of data retention. In that case, we give our users the choice to granularly or completely disable those features (and associated data retention), and we follow up immediately on that promise" %}' href="{% t https://www.nextdns.io/privacy %}">{% t Based on user choice %}</a>
         </td>
-        <td>DoH, DoT, DNSCrypt</td>
-        <td>Yes</td>
-        <td>Yes</td>
+        <td>{% t DoH, DoT, DNSCrypt %}</td>
+        <td>{% t Yes %}</td>
+        <td>{% t Yes %}</td>
         <td>
           <span class="no-text-wrap">
-            Based on server choice
+            {% t Based on server choice %}
           </span>
         </td>
         <td>?</td>
-        <td>Self</td>
+        <td>{% t Self %}</td>
       </tr>
 
       <tr>
-        <td data-value="NixNet">
-          <a href="https://nixnet.xyz/dns/">NixNet</a>
+        <td data-value="{% t NixNet %}">
+          <a href="{% t https://nixnet.xyz/dns/ %}">{% t NixNet %}</a>
         </td>
         <td>
           <span class="no-text-wrap">
-            Anycast (based in
-            <span class="flag-icon flag-icon-us"></span>
-            US),
-          </span>
+            {% t Anycast (based in <span class="flag-icon flag-icon-us"></span> US),</span>%}
           <span class="no-text-wrap">
             <span class="flag-icon flag-icon-us"></span>
-            US,
+            {% t US %},
           </span>
           <span class="no-text-wrap">
             <span class="flag-icon flag-icon-lu"></span>
-            Luxembourg
+            {% t Luxembourg %}
           </span>
         </td>
         <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://nixnet.xyz/privacy/" href="https://nixnet.xyz/privacy/">
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title="{% t https://nixnet.xyz/privacy/ %}" href="{% t https://nixnet.xyz/privacy/ %}">
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
           </a>
         </td>
         <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title='Part of LibreHosters, "a network of cooperation and solidarity that uses free software to encourage decentralisation through federation and distributed platforms."' href="https://libreho.st/">
-            Informal collective
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title='{% t Part of LibreHosters, "a network of cooperation and solidarity that uses free software to encourage decentralisation through federation and distributed platforms."%}' href="{% t https://libreho.st/ %}">
+            {% t Informal collective %}
           </a>
         </td>
-        <td>No</td>
-        <td>DoH, DoT</td>
-        <td>Yes</td>
-        <td>Yes</td>
+        <td>{% t No %}</td>
+        <td>{% t DoH, DoT %}</td>
+        <td>{% t Yes %}</td>
+        <td>{% t Yes %}</td>
         <td>
           <span class="no-text-wrap">
-            Based on server choice
+            {% t Based on server choice %}
           </span>
         </td>
         <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://git.nixnet.xyz/NixNet/dns" href="https://git.nixnet.xyz/NixNet/dns">
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title="{5 t https://git.nixnet.xyz/NixNet/dns %}" href="{% t https://git.nixnet.xyz/NixNet/dns %}">
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
           </a>
         </td>
         <td>
           <span class="no-text-wrap">
-            <a href="https://frantech.ca/">FranTech Solutions</a>
+            <a href="{% t https://frantech.ca/ %}">{% t FranTech Solutions %}</a>
           </span>
         </td>
       </tr>
 
       <tr>
-        <td data-value="PowerDNS">
-          <a href="https://powerdns.org/">PowerDNS</a>
+        <td data-value="{% t PowerDNS %}">
+          <a href="{% t https://powerdns.org/ %}">{% t PowerDNS %}</a>
         </td>
         <td>
           <span class="no-text-wrap">
             <span class="flag-icon flag-icon-nl"></span>
-            The Netherlands
+            {% t The Netherlands %}
           </span>
         </td>
         <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://powerdns.org/doh/privacy.html" href="https://powerdns.org/doh/privacy.html">
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title="{% t https://powerdns.org/doh/privacy.html %}" href="{% t https://powerdns.org/doh/privacy.html %}">
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
           </a>
         </td>
-        <td>Hobby Project</td>
-        <td>No</td>
-        <td>DoH</td>
-        <td>Yes</td>
-        <td>No</td>
-        <td>No</td>
+        <td>{% t Hobby Project %}</td>
+        <td>{% t No %}</td>
+        <td>{% t DoH %}</td>
+        <td>{% t Yes %}</td>
+        <td>{% t No %}</td>
+        <td>{% t No %}</td>
         <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://github.com/PowerDNS/pdns" href="https://github.com/PowerDNS/pdns">
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title="{% t https://github.com/PowerDNS/pdns %}" href="{% t https://github.com/PowerDNS/pdns %}">
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
           </a>
         </td>
         <td>
           <span class="no-text-wrap">
-            <a href="https://www.transip.nl/">TransIP B.V. Admin</a>
+            <a href="{% t https://www.transip.nl/ %}">{% t TransIP B.V. Admin %}</a>
           </span>
         </td>
       </tr>
 
       <tr>
-        <td data-value="Quad9">
-          <a href="https://quad9.net/">Quad9</a> <span class="badge badge-warning" data-toggle="tooltip" title="Founders include the Global Cyber Alliance, composed of the City of London Police and Manhattan District Attorney's Office"><i class="fas fa-exclamation-triangle"></i></span>
+        <td data-value="{% t Quad9 %}">
+          <a href="{% t https://quad9.net/ %}">{% t Quad9 %}</a> <span class="badge badge-warning" data-toggle="tooltip" title="{% t Founders include the Global Cyber Alliance, composed of the City of London Police and Manhattan District Attorney's Office %}"><i class="fas fa-exclamation-triangle"></i></span>
         </td>
-        <td>Anycast (based in
-          <span class="no-text-wrap">
-            <span class="flag-icon flag-icon-us"></span>
-            US)
-          </span>
-        </td>
+        <td>{% t Anycast (based in <span class="no-text-wrap"><span class="flag-icon flag-icon-us"></span> US)</span>%}</td>
         <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://quad9.net/policy/" href="https://quad9.net/policy/">
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title="{% t https://quad9.net/policy/ %}" href="{% t https://quad9.net/policy/ %}">
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
           </a>
         </td>
-        <td>Non-Profit</td>
-        <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"Our normal course of data management does not have any IP address information or other PII logged to disk or transmitted out of the location in which the query was received."' href="https://quad9.net/policy/">Some</a></td>
-        <td>DoH, DoT, DNSCrypt</td>
-        <td>Yes</td>
-        <td>Yes</td>
+        <td>{% t Non-Profit %}</td>
+        <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='{% t "Our normal course of data management does not have any IP address information or other PII logged to disk or transmitted out of the location in which the query was received."%}' href="{% t https://quad9.net/policy/ %}">{% t Some %}</a></td>
+        <td>{% t DoH, DoT, DNSCrypt %}</td>
+        <td>{% t Yes %}</td>
+        <td>{% t Yes %}</td>
         <td>
           <span class="no-text-wrap">
-            Malicious domains
+            {% t Malicious domains %}
           </span>
         </td>
         <td>?</td>
         <td>
-          Self,
+          {% t Self %},
           <span class="no-text-wrap">
-            <a href="https://www.pch.net/">Packet Clearing House</a>
+            <a href="{% t https://www.pch.net/ %}">{% t Packet Clearing House %}</a>
           </span>
         </td>
       </tr>
 
       <tr>
-        <td data-value="SecureDNS">
-          <a href="https://securedns.eu/">SecureDNS</a>
+        <td data-value="{% t SecureDNS %}">
+          <a href="{% t https://securedns.eu/ %}">{% t SecureDNS %}</a>
         </td>
         <td>
           <span class="no-text-wrap">
             <span class="flag-icon flag-icon-nl"></span>
-            The Netherlands
+            {% t The Netherlands %}
           </span>
         </td>
         <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://securedns.eu/#privacy" href="https://securedns.eu/#privacy">
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title="{% t https://securedns.eu/#privacy %}" href="{% t https://securedns.eu/#privacy %}">
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
           </a>
         </td>
-        <td>Hobby Project</td>
-        <td>No</td>
-        <td>DoH, DoT, DNSCrypt</td>
-        <td>Yes</td>
-        <td>Yes</td>
+        <td>{% t Hobby Project %}</td>
+        <td>{% t No %}</td>
+        <td>{% t DoH, DoT, DNSCrypt %}</td>
+        <td>{% t Yes %}</td>
+        <td>{% t Yes %}</td>
         <td>
           <span class="no-text-wrap">
-            Based on server choice
+            {% t Based on server choice %}
           </span>
         </td>
         <td>?</td>
         <td>
           <span class="no-text-wrap">
-            <a href="https://www.digitalocean.com/">DigitalOcean, Inc.</a>
+            <a href="{% t https://www.digitalocean.com/ %}">{% t DigitalOcean, Inc. %}</a>
           </span>
         </td>
       </tr>
 
       <tr>
         <td data-value="Snopyta">
-          <a href="https://snopyta.org/service/dns/index.html">Snopyta</a>
+          <a href="{% t https://snopyta.org/service/dns/index.html %}">{% t Snopyta %}</a>
         </td>
         <td>
           <span class="no-text-wrap">
             <span class="flag-icon flag-icon-fi"></span>
-            Finland
+            {% t Finland %}
           </span>
         </td>
         <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title="https://snopyta.org/privacy_policy/" href="https://snopyta.org/privacy_policy/">
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title="{% t https://snopyta.org/privacy_policy/ %}" href="{% t https://snopyta.org/privacy_policy/ %}">
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
           </a>
         </td>
         <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title='Part of LibreHosters, "a network of cooperation and solidarity that uses free software to encourage decentralisation through federation and distributed platforms."' href="https://libreho.st/">
-            Informal collective
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title='{% t Part of LibreHosters, "a network of cooperation and solidarity that uses free software to encourage decentralisation through federation and distributed platforms."%}' href="{% t https://libreho.st/ %}">
+            {% t Informal collective %}
           </a>
         </td>
-        <td>No</td>
-        <td>DoH, DoT</td>
-        <td>Yes</td>
-        <td>Yes</td>
+        <td>{% t No %}</td>
+        <td>{% t DoH, DoT %}</td>
+        <td>{% t Yes %}</td>
+        <td>{% t Yes %}</td>
         <td>
           <span class="no-text-wrap">
-            No
+            {% t No %}
           </span>
         </td>
         <td>?</td>
         <td>
           <span class="no-text-wrap">
-            <a href="https://www.hetzner.com/">Hetzner Online GmbH</a>
+            <a href="{% t https://www.hetzner.com/ %}">{% t Hetzner Online GmbH %}</a>
           </span>
         </td>
       </tr>
 
       <tr>
-        <td data-value="UncensoredDNS">
-          <a href="https://blog.uncensoreddns.org/">UncensoredDNS</a>
+        <td data-value="{% t UncensoredDNS %}">
+          <a href="{% t https://blog.uncensoreddns.org/%}">{% t UncensoredDNS %}</a>
         </td>
-        <td>Anycast (based in
+        <td>{% t Anycast (based in <span class="no-text-wrap"><span class="flag-icon flag-icon-dk"></span> Denmark)%},</span>
           <span class="no-text-wrap">
             <span class="flag-icon flag-icon-dk"></span>
-            Denmark),
-          </span>
-
-          <span class="no-text-wrap">
-            <span class="flag-icon flag-icon-dk"></span>
-            Denmark,
+            {% t Denmark %},
             </span>
 
           <span class="no-text-wrap">
             <span class="flag-icon flag-icon-us"></span>
-            US
+            {% t US %}
           </span>
         </td>
         <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title='"Absolutely nothing is being logged, neither about the users nor the usage of this service. I do keep graphs of the total number of queries, but no personally identifiable information is saved. The data that is saved will never be sold or used for anything except capacity planning of the service."'>
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title='{% t "Absolutely nothing is being logged, neither about the users nor the usage of this service. I do keep graphs of the total number of queries, but no personally identifiable information is saved. The data that is saved will never be sold or used for anything except capacity planning of the service." %}'>
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
           </a>
         </td>
-        <td>Hobby Project</td>
-        <td>No</td>
-        <td data-value="doh">DoT</td> <!-- "hack" to group "DoT" values (when sorted) with "DoH" values -->
-        <td>Yes</td>
-        <td>No</td>
-        <td>No</td>
+        <td>{% t Hobby Project %}</td>
+        <td>{% t No %}</td>
+        <td data-value="doh">{% t DoT %}</td> <!-- "hack" to group "DoT" values (when sorted) with "DoH" values -->
+        <td>{% t Yes %}</td>
+        <td>{% t No %}</td>
+        <td>{% t No %}</td>
         <td>?</td>
         <td>
-          Self,
+          {% t Self %},
           <span class="no-text-wrap">
-            <a href="https://www.teliacompany.com">Telia Company AB</a>
+            <a href="{% t https://www.teliacompany.com %}">{% t Telia Company AB %}</a>
           </span>
         </td>
       </tr>
@@ -543,81 +516,81 @@
   </table>
 </div>
 
-<h4>Terms</h4>
+<h4>{% t Terms %}</h4>
 
 <ul>
-  <li>DNS-over-TLS (DoT) - A security protocol for encrypted DNS on a dedicated port 853. Some providers support port 443 which generally works everywhere while port 853 is often blocked by restrictive firewalls. DoT has two modes:</li>
+  <li>{% t DNS-over-TLS (DoT) - A security protocol for encrypted DNS on a dedicated port 853. Some providers support port 443 which generally works everywhere while port 853 is often blocked by restrictive firewalls. DoT has two modes: %}</li>
     <ul>
-        <li>Oppurtunistic mode: the client attempts to form a DNS-over-TLS connection to the server on port 853 without performing certificate validation. If it fails, it will use unencrypted DNS. <span class="badge badge-warning" data-toggle="tooltip" data-original-title="In other words automatic mode leaves your DNS traffic vulnerable to SSL strip and MITM attacks"><i class="fas fa-exclamation-triangle"></i></span></li>
-        <li>Strict mode: the client connects to a specific hostname and performs certificate validation for it. If it fails, no DNS queries are made until it succeeds.</li>
+        <li>{% t Oppurtunistic mode: the client attempts to form a DNS-over-TLS connection to the server on port 853 without performing certificate validation. If it fails, it will use unencrypted DNS.%} <span class="badge badge-warning" data-toggle="tooltip" data-original-title="{% t In other words automatic mode leaves your DNS traffic vulnerable to SSL strip and MITM attacks %}"><i class="fas fa-exclamation-triangle"></i></span></li>
+        <li>{% t Strict mode: the client connects to a specific hostname and performs certificate validation for it. If it fails, no DNS queries are made until it succeeds. %}</li>
     </ul>
-  <li>DNS-over-HTTPS (DoH) - Similar to DoT, but uses HTTPS instead, being indistinguishable from "normal" HTTPS traffic on port 443. <span class="badge badge-warning" data-toggle="tooltip" data-original-title="DoH contains metadata such as user-agent (which may include system information) that is sent to the DNS server."><a href="https://tools.ietf.org/html/rfc8484#section-8.2"><i class="fas fa-exclamation-triangle"></i></a></span></li>
-  <li>DNSCrypt - An older yet robust method of encrypting DNS.</li>
+  <li>{% t DNS-over-HTTPS (DoH) - Similar to DoT, but uses HTTPS instead, being indistinguishable from "normal" HTTPS traffic on port 443.%} <span class="badge badge-warning" data-toggle="tooltip" data-original-title="{% t DoH contains metadata such as user-agent (which may include system information) that is sent to the DNS server. %}"><a href="{% t https://tools.ietf.org/html/rfc8484#section-8.2 %}"><i class="fas fa-exclamation-triangle"></i></a></span></li>
+  <li>{% t DNSCrypt - An older yet robust method of encrypting DNS. %}</li>
 </ul>
 
-<h4>How to verify DNS is encrypted</h4>
+<h4>{% t How to verify DNS is encrypted %}</h4>
 
 <ul>
-  <li>DoH / DoT
+  <li>{% t DoH / DoT %}
     <ul>
-      <li>Check <a href="https://www.dnsleaktest.com/">DNSLeakTest.com</a>. <span class="badge badge-warning" data-toggle="tooltip" data-placement="bottom" data-original-title="Your DNS provider may not appear with their own name, so compare the responses to what you know or can find about your DNS provider. Just ensure you don't see your ISP or old unencrypted DNS provider."><i class="fas fa-exclamation-triangle"></i></span></li>
-      <li>Check the website of your DNS provider. They may have a page for telling "you are using our DNS." Examples include <a href="https://adguard.com/en/adguard-dns/overview.html">AdGuard</a> and <a href="https://1.1.1.1/help">Cloudflare</a>.</li>
-      <li>If using Firefox's trusted recursive resolver (TRR), navigate to <code>about:networking#dns</code>. If the TRR column says "true" for some fields, you are using DoH. <span class="badge badge-warning" data-toggle="tooltip" data-placement="bottom" data-original-title='Some fields will say "false" depending on the the value of network.trr.mode in about:config'><a href="https://wiki.mozilla.org/Trusted_Recursive_Resolver"><i class="fas fa-exclamation-triangle"></i></a></span></li>
+      <li>{% t Check <a href="https://www.dnsleaktest.com/">DNSLeakTest.com</a>.%} <span class="badge badge-warning" data-toggle="tooltip" data-placement="bottom" data-original-title="{% t Your DNS provider may not appear with their own name, so compare the responses to what you know or can find about your DNS provider. Just ensure you don't see your ISP or old unencrypted DNS provider.%}"><i class="fas fa-exclamation-triangle"></i></span></li>
+      <li>{% t Check the website of your DNS provider. They may have a page for telling "you are using our DNS." Examples include <a href="https://adguard.com/en/adguard-dns/overview.html">AdGuard</a> and <a href="https://1.1.1.1/help">Cloudflare</a>.%}</li>
+      <li>{% t If using Firefox's trusted recursive resolver (TRR), navigate to <code>about:networking#dns</code>. If the TRR column says "true" for some fields, you are using DoH.%} <span class="badge badge-warning" data-toggle="tooltip" data-placement="bottom" data-original-title='{% t Some fields will say "false" depending on the the value of network.trr.mode in about:config %}'><a href="https://wiki.mozilla.org/Trusted_Recursive_Resolver"><i class="fas fa-exclamation-triangle"></i></a></span></li>
     </ul>
   </li>
-  <li>dnscrypt-proxy - Check <a href="https://github.com/jedisct1/dnscrypt-proxy/wiki/Checking">dnscrypt-proxy's wiki on how to verify that your DNS is encrypted</a>.</li>
-  <li>DNSSEC - Check <a href="https://dnssec.vs.uni-due.de/">DNSSEC Resolver Test by Matthäus Wander</a>.</li>
-  <li>QNAME Minimization - Run <code>dig +short txt qnamemintest.internet.nl</code> from the command-line (taken from <a href="https://nlnetlabs.nl/downloads/presentations/unbound_qnamemin_oarc24.pdf">this NLnet Labs presentation</a>). If you are on Windows 10, run <code>Resolve-DnsName -Type TXT -Name qnamemintest.internet.nl</code> from the PowerShell. You should see this display: <code>"HOORAY - QNAME minimisation is enabled on your resolver :)!"</code></li>
+  <li>{% t dnscrypt-proxy - Check <a href="https://github.com/jedisct1/dnscrypt-proxy/wiki/Checking">dnscrypt-proxy's wiki on how to verify that your DNS is encrypted</a>.%}</li>
+  <li>{% t DNSSEC - Check <a href="https://dnssec.vs.uni-due.de/">DNSSEC Resolver Test by Matthäus Wander</a>.%}</li>
+  <li>{% t QNAME Minimization - Run <code>dig +short txt qnamemintest.internet.nl</code> from the command-line (taken from <a href="https://nlnetlabs.nl/downloads/presentations/unbound_qnamemin_oarc24.pdf">this NLnet Labs presentation</a>). If you are on Windows 10, run <code>Resolve-DnsName -Type TXT -Name qnamemintest.internet.nl</code> from the PowerShell. You should see this display: <code>"HOORAY - QNAME minimisation is enabled on your resolver :)!"</code> %}</li>
 </ul>
 
-<h3 id="clients">Worth Mentioning and Additional Information</h3>
+<h3 id="clients">{% t Worth Mentioning and Additional Information %}</h3>
 
 <ul>
-  <li><strong>Encrypted DNS clients for desktop:</strong>
+  <li><strong>{% t Encrypted DNS clients for desktop: %}</strong>
     <ul>
-      <li><em>Firefox</em> comes with built-in DoH support with Cloudflare set as the default resolver, but can be configured to use any DoH resolver. <span class="badge badge-warning" data-toggle="tooltip" data-placement="bottom" data-original-title='"Cloudflare has agreed to collect only a limited amount of data about the DNS requests that are sent to the Cloudflare Resolver for Firefox via the Firefox browser."'><a href="https://developers.cloudflare.com/1.1.1.1/commitment-to-privacy/privacy-policy/firefox/"><i class="fas fa-exclamation-triangle"></i></a></span> Currently Mozilla is <a href="https://blog.mozilla.org/futurereleases/2019/07/31/dns-over-https-doh-update-detecting-managed-networks-and-user-choice/">conducting studies</a> before enabling DoH by default for all US-based Firefox users.</li>
+      <li>{% t <em>Firefox</em> comes with built-in DoH support with Cloudflare set as the default resolver, but can be configured to use any DoH resolver.%} <span class="badge badge-warning" data-toggle="tooltip" data-placement="bottom" data-original-title='{% t "Cloudflare has agreed to collect only a limited amount of data about the DNS requests that are sent to the Cloudflare Resolver for Firefox via the Firefox browser."%}'><a href="{% t https://developers.cloudflare.com/1.1.1.1/commitment-to-privacy/privacy-policy/firefox/%}"><i class="fas fa-exclamation-triangle"></i></a></span> {% t Currently Mozilla is <a href="https://blog.mozilla.org/futurereleases/2019/07/31/dns-over-https-doh-update-detecting-managed-networks-and-user-choice/">conducting studies</a> before enabling DoH by default for all US-based Firefox users. %}</li>
           <ul>
-              <li>DNS over HTTPS can be enabled in Menu -> Preferences (<code>about:preferences</code>) -> Network Settings -> Enable DNS over HTTPS. Set "Use Provider" to "Custom", and enter your DoH provider's address.</li>
-              <li>Advanced users may enable it in <code>about:config</code> by setting <code>network.trr.custom_uri</code> and <code>network.trr.uri</code> as the address you find from the documentation of your DoH provider and <code>network.trr.mode</code> as <code>2</code>. It may also be desirable to set <code>network.security.esni.enabled</code> to <code>True</code> in order to enable encrypted SNI and make sites supporting ESNI a bit more difficult to track.</li>
+              <li>{% t DNS over HTTPS can be enabled in Menu -> Preferences (<code>about:preferences</code>) -> Network Settings -> Enable DNS over HTTPS. Set "Use Provider" to "Custom", and enter your DoH provider's address. %}</li>
+              <li>{% t Advanced users may enable it in <code>about:config</code> by setting <code>network.trr.custom_uri</code> and <code>network.trr.uri</code> as the address you find from the documentation of your DoH provider and <code>network.trr.mode</code> as <code>2</code>. It may also be desirable to set <code>network.security.esni.enabled</code> to <code>True</code> in order to enable encrypted SNI and make sites supporting ESNI a bit more difficult to track. %}</li>
           </ul>
     </ul>
   </li>
-  <li><strong>Encrypted DNS clients for mobile:</strong>
+  <li><strong>{% t Encrypted DNS clients for mobile: %}</strong>
     <ul>
-      <li><em>Android 9</em> comes with a DoT client by <a href="https://support.google.com/android/answer/9089903">default</a>. <span class="badge badge-warning" data-toggle="tooltip" data-original-title="...but with some caveats"><a href="https://www.quad9.net/private-dns-quad9-android9/"><i class="fas fa-exclamation-triangle"></i></a></span></li>
+      <li>{% t <em>Android 9</em> comes with a DoT client by <a href="https://support.google.com/android/answer/9089903">default</a>.%} <span class="badge badge-warning" data-toggle="tooltip" data-original-title="{% t ...but with some caveats %}"><a href="{% t https://www.quad9.net/private-dns-quad9-android9/%}"><i class="fas fa-exclamation-triangle"></i></a></span></li>
         <ul>
-          <li>We recommend selecting <em>Private DNS provider hostname</em> and entering the DoT address from documentation of your DoT provider to enable strict mode (see Terms above). <span class="badge badge-warning" data-toggle="tooltip" data-original-title="If you are on a network blocking access to port 853, Android will error about the network not having internet connectivity."><i class="fas fa-exclamation-triangle"></i></span></li>
+          <li>{% t We recommend selecting <em>Private DNS provider hostname</em> and entering the DoT address from documentation of your DoT provider to enable strict mode (see Terms above).%} <span class="badge badge-warning" data-toggle="tooltip" data-original-title="{% t If you are on a network blocking access to port 853, Android will error about the network not having internet connectivity. %}"><i class="fas fa-exclamation-triangle"></i></span></li>
         </ul>
-      <li><em><a href="https://apps.apple.com/app/id1452162351">DNSCloak</a></em> - An <a href="https://github.com/s-s/dnscloak">open-source</a> DNSCrypt and DoH client for iOS by <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"A charitable non-profit host organization for international Free Software projects."' href="https://techcultivation.org/">the Center for the Cultivation of Technology gemeinnuetzige GmbH</a>.</li>
-      <li><em><a href="https://git.frostnerd.com/PublicAndroidApps/smokescreen/blob/master/README.md">Nebulo</a></em> - An open-source application for Android supporting DoH and DoT. It also supports caching DNS responses and locally logging DNS queries.</li>
+      <li><em><a href="{% t https://apps.apple.com/app/id1452162351 %}">{% t DNSCloak %}</a></em> - {% t An <a href="https://github.com/s-s/dnscloak">open-source</a> DNSCrypt and DoH client for iOS by <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"A charitable non-profit host organization for international Free Software projects."' href="https://techcultivation.org/">the Center for the Cultivation of Technology gemeinnuetzige GmbH</a>.%}</li>
+      <li><em><a href="{% t https://git.frostnerd.com/PublicAndroidApps/smokescreen/blob/master/README.md %}">{% t Nebulo %}</a></em> - {% t An open-source application for Android supporting DoH and DoT. It also supports caching DNS responses and locally logging DNS queries.%}</li>
     </ul>
   </li>
-  <li><strong>Local DNS servers:</strong>
+  <li><strong>{% t Local DNS servers: %}</strong>
     <ul>
-      <li><em><a href="https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby">Stubby</a></em> - An open-source application for Linux, macOS, and Windows that acts as a local DNS Privacy stub resolver using DoT.</li>
-      <li><em><a href="https://nlnetlabs.nl/projects/unbound/about/">Unbound</a></em> - a validating, recursive, caching DNS resolver. It can also be ran network-wide and has supported DNS-over-TLS since version 1.7.3.</li>
+      <li><em><a href="{% t https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby%}">{% t Stubby %}</a></em> - {% t An open-source application for Linux, macOS, and Windows that acts as a local DNS Privacy stub resolver using DoT.%}</li>
+      <li><em><a href="{% t https://nlnetlabs.nl/projects/unbound/about/%}">{% t Unbound %}</a></em> - {% t a validating, recursive, caching DNS resolver. It can also be ran network-wide and has supported DNS-over-TLS since version 1.7.3.%}</li>
       <ul>
-          <li>See also <a href="https://www.ctrl.blog/entry/unbound-tls-forwarding.html">Actually secure DNS over TLS in Unbound on ctrl.blog</a>.</li>
+          <li>{% t See also <a href="https://www.ctrl.blog/entry/unbound-tls-forwarding.html">Actually secure DNS over TLS in Unbound on ctrl.blog</a>.%}</li>
       </ul>
     </ul>
   </li>
-  <li><strong>Network wide DNS servers:</strong>
+  <li><strong>{% t Network-wide DNS servers:%}</strong>
     <ul>
-      <li><em><a href="https://pi-hole.net/">Pi-hole</a></em> - A network-wide DNS server mainly for the Raspberry Pi. Blocks ads, tracking, and malicious domains for all devices on your network.</li>
-      <li><em><a href="https://gitlab.com/quidsup/notrack">NoTrack</a></em> - A network-wide DNS server like Pi-hole for blocking ads, tracking, and malicious domains.</li>
+      <li><em><a href="{% t https://pi-hole.net/%}">{% t Pi-hole %}</a></em> - {% t A network-wide DNS server mainly for the Raspberry Pi. Blocks ads, tracking, and malicious domains for all devices on your network. %}</li>
+      <li><em><a href="https://gitlab.com/quidsup/notrack">{% t NoTrack %}</a></em> - {% t A network-wide DNS server like Pi-hole for blocking ads, tracking, and malicious domains. %}</li>
     </ul>
   </li>
-  <li><strong>Further reading:</strong>
+  <li><strong>{% t Further reading: %}</strong>
     <ul>
-      <li>On Firefox, DoH and ESNI</li>
+      <li>{% t On Firefox, DoH and ESNI %}</li>
           <ul>
-              <li><a href="https://wiki.mozilla.org/Trusted_Recursive_Resolver">Trusted Recursive Resolver (DoH) on MozillaWiki</a></li>
-              <li><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1500289">Firefox bug report requesting the ability to use ESNI without DoH</a></li>
-              <li><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1542754">Firefox bug report requesting the ability to use Android 9+'s Private DNS (DoT) and benefit from encrypted SNI without having to enable DoH</a></li>
-              <li><a href="https://blog.cloudflare.com/encrypted-sni/">Encrypt it or lose it: how encrypted SNI works on Cloudflare blog</a></li>
+              <li><a href="{% t https://wiki.mozilla.org/Trusted_Recursive_Resolver %}">{% t Trusted Recursive Resolver (DoH) on MozillaWiki %}</a></li>
+              <li><a href="{% t https://bugzilla.mozilla.org/show_bug.cgi?id=1500289 %}">{% t Firefox bug report requesting the ability to use ESNI without DoH %}</a></li>
+              <li><a href="{% t https://bugzilla.mozilla.org/show_bug.cgi?id=1542754 %}">{% t Firefox bug report requesting the ability to use Android 9+'s Private DNS (DoT) and benefit from encrypted SNI without having to enable DoH %}</a></li>
+              <li><a href="{% t https://blog.cloudflare.com/encrypted-sni/ %}">{% t Encrypt it or lose it: how encrypted SNI works on Cloudflare blog %}</a></li>
           </ul>
-      <li><a href="https://www.isc.org/blogs/qname-minimization-and-privacy/">QNAME Minimization and Your Privacy</a> by the Internet Systems Consortium (ISC)</li>
-      <li><a href="https://www.isc.org/dnssec/">DNSSEC and BIND 9</a> by the ISC</li>
+      <li><a href="{% t https://www.isc.org/blogs/qname-minimization-and-privacy/ %}">{% t QNAME Minimization and Your Privacy</a> by the Internet Systems Consortium (ISC) %}</li>
+      <li><a href="{% t https://www.isc.org/dnssec/ %}">{% t DNSSEC and BIND 9</a> by the ISC %}</li>
     </ul>
   </li>
 </ul>
