@@ -47,6 +47,12 @@ Cloud_Storage_KEY: |
 Find_a_cloud_storage_provider_that_wont_look_through_your_files._KEY: |
   Find a cloud storage provider that won't look through your files.
 
+VPN_Services_KEY: |
+  VPN Services
+
+Find_a_nologging_VPN_operator_who_isnt_out_to_sell_or_read_your_web_traffic._KEY: |
+  Find a no-logging VPN operator who isn't out to sell or read your web traffic.
+
 Provider_KEY: |
   Provider
 
@@ -1964,6 +1970,150 @@ httpsen.wikipedia.orgwikiPortalMass_surveillance_KEY: |
 Wikipedia_Portal_Mass_surveillance_KEY: |
   Wikipedia Portal: Mass_surveillance
 
+Recommended_VPN_Service_KEY: |
+  Recommended VPN Service
+
+Our_recommended_provider_is_outside_the_US_uses_encryption_accepts_Bitcoin_supports_OpenVPN_and_h_KEY: |
+  Our recommended provider is outside the US, uses encryption, accepts Bitcoin, supports OpenVPN, and has a no logging policy. <a href="#criteria">Read our full list of criteria for more information</a>.
+
+Mullvad_KEY: |
+  Mullvad
+
+EUR_KEY: |
+  EUR
+
+60Year_KEY: |
+  €60/Year
+
+strongMullvadstrong_is_a_fast_and_inexpensive_VPN_with_a_serious_focus_on_transparency_and_secur_KEY: |
+  <strong>Mullvad</strong> is a fast and inexpensive VPN with a serious focus on transparency and security. They have been in operation since <strong>2009</strong>. It is the only VPN provider that currently meets our criteria for recommendation. Mullvad is based in <span class="flag-icon flag-icon-se"></span> Sweden and does not have a free trial. Visit <a href="https://mullvad.net/">mullvad.net</a> to create an account.
+
+406_Servers_KEY: |
+  406+ Servers
+
+Mullvad_has_409_servers_in_39_countries_at_the_time_of_writing_this_page._Typically_the_more_servers__KEY: |
+  Mullvad has 409 servers in 39 countries at the time of writing this page. Typically the more servers a provider offers, the better: With hundreds of servers in operation, you are far more likely to find a fast connection and a server geographically closest to you.
+
+WireGuard_Support_KEY: |
+  WireGuard Support
+
+In_addition_to_standard_OpenVPN_connections_Mullvad_supports_WireGuard._WireGuard_is_an_experimental_KEY: |
+  In addition to standard OpenVPN connections, Mullvad supports WireGuard. WireGuard is an experimental protocol with theoretically better security and higher reliability, although it is not currently recommended for production use.
+
+Independently_Audited_KEY: |
+  Independently Audited
+
+Mullvads_VPN_clients_have_been_audited_by_Cure53_and_Assured_AB_in_a_pentest_report_a_hrefhttps_KEY: |
+  Mullvad's VPN clients have been audited by Cure53 and Assured AB in a pentest report <a href="https://cure53.de/pentest-report_mullvad_v2.pdf">published at cure53.de</a>.
+
+The_security_researchers_concluded_KEY: |
+  The security researchers concluded:
+
+...Cure53_and_Assured_AB_are_happy_with_the_results_of_the_audit_and_the_software_leaves_an_overall_p_KEY: |
+  ...Cure53 and Assured AB are happy with the results of the audit and the software leaves an overall positive impression. With security dedication of the in-house team at the Mullvad VPN compound, the testers have no doubts about the project being on the right track from a security standpoint.
+
+Accepts_Bitcoin_KEY: |
+  Accepts Bitcoin
+
+Mullvad_in_addition_to_accepting_creditdebit_cards_and_PayPal_accepts_strongBitcoinstrong_st_KEY: |
+  Mullvad in addition to accepting credit/debit cards and PayPal, accepts <strong>Bitcoin</strong>, <strong>Bitcoin Cash</strong>, and <strong>cash/local currency</strong> as anonymous forms of payment. They also accept Swish and bank wire transfers.
+
+No_Mobile_Clients_KEY: |
+  No Mobile Clients
+
+While_iOS_and_Android_clients_are_reportedly_in_the_works_mobile_users_will_need_to_use_a_traditiona_KEY: |
+  While iOS and Android clients are reportedly in the works, mobile users will need to use a traditional OpenVPN client and configuration files, which are a bit more difficult to configure.
+
+Extra_Functionality_KEY: |
+  Extra Functionality
+
+The_Mullvad_VPN_clients_have_a_builtin_killswitch_to_block_internet_connections_outside_of_the_VPN.__KEY: |
+  The Mullvad VPN clients have a built-in killswitch to block internet connections outside of the VPN. They also are able to automatically start on boot. The Mullvad website is also accessible via Tor at <a href="http://xcln5hkbriyklr6n.onion/">xcln5hkbriyklr6n.onion</a>.
+
+Note_Using_a_VPN_provider_will_not_make_you_anonymous_but_it_will_give_you_better_privacy_in_certai_KEY: |
+  Note: Using a VPN provider will not make you anonymous, but it will give you better privacy in certain situations. A VPN is not a tool for illegal activities. Don't rely on a "no log" policy.
+
+Other_Providers_Worth_Mentioning_KEY: |
+  Other Providers Worth Mentioning
+
+ProtonVPN_KEY: |
+  ProtonVPN
+
+_Free__tl_note_Free_as_in_no_monetary_value__KEY: |
+  {{ "Free" | tl_note: Free as in no monetary value }}
+
+USD_KEY: |
+  USD
+
+96year_KEY: |
+  $96/year
+
+strongProtonVPNstrong_is_a_strong_contender_in_the_VPN_space_and_they_have_been_in_operation_si_KEY: |
+  <strong>ProtonVPN</strong> is a strong contender in the VPN space, and they have been in operation since <strong>2016</strong>. ProtonVPN is based in <span class="flag-icon flag-icon-ch"></span> Switzerland and offers a limited free pricing tier, as well as premium options. Unfortunately due to its lack of an independent security audit it does not meet the complete criteria for recommendation, see our notes below.
+
+Not_Audited_KEY: |
+  Not Audited
+
+ProtonVPN_has_not_undergone_a_security_audit_by_an_independent_third_party_and_therefore_cannot_be_s_KEY: |
+  ProtonVPN has not undergone a security audit by an independent third party, and therefore cannot be strongly recommended at this time. We have still chosen to list it on this page with the assumption that an audit will be published soon
+
+We_are_currently_undergoing_a_complete_security_audit_of_our_VPN_applications_by_a_reputable_Swiss_se_KEY: |
+  We are currently undergoing a complete security audit of our VPN applications by a reputable Swiss security company. The results of the audit will be summarized in a public report for cases like this.
+
+Marc_Loebekken_ProtonVPN_AG_Legal_counsel_KEY: |
+  Marc Loebekken, ProtonVPN AG Legal counsel
+
+We_will_reevaluate_this_listing_at_the_end_of_2019_or_when_the_aforementioned_report_has_been_publish_KEY: |
+  We will reevaluate this listing at the end of 2019 or when the aforementioned report has been published, whichever is sooner.
+
+526_Servers_KEY: |
+  526+ Servers
+
+ProtonVPN_has_526_servers_in_42_countries_at_the_time_of_writing_this_page._Typically_the_more_server_KEY: |
+  ProtonVPN has 526 servers in 42 countries at the time of writing this page. Typically the more servers a provider offers, the better: With hundreds of servers in operation, you are far more likely to find a fast connection and a server geographically closest to you.
+
+ProtonVPN_does_technically_accept_Bitcoin_payments_however_you_either_need_to_have_an_existing_acco_KEY: |
+  ProtonVPN does technically accept Bitcoin payments; however, you either need to have an existing account, or contact their support team in advance to register with Bitcoin.
+
+Mobile_Clients_KEY: |
+  Mobile Clients
+
+In_addition_to_providing_standard_OpenVPN_configuration_files_ProtonVPN_has_mobile_clients_for_iOS_o_KEY: |
+  In addition to providing standard OpenVPN configuration files, ProtonVPN has mobile clients for iOS or Android allowing for easy connections to their servers.
+
+The_ProtonVPN_clients_have_a_builtin_killswitch_to_block_internet_connections_outside_of_the_VPN._Th_KEY: |
+  The ProtonVPN clients have a built-in killswitch to block internet connections outside of the VPN. They also are able to automatically start on boot. ProtonVPN also offers "Tor" servers allowing you to easily connect to onion sites, but we still strongly recommend using the official Tor Browser for this purpose.
+
+IVPN_KEY: |
+  IVPN
+
+100Year_KEY: |
+  $100/Year
+
+strongIVPNstrong_is_another_strong_premium_VPN_provider_and_they_have_been_in_operation_since__KEY: |
+  <strong>IVPN</strong> is another strong premium VPN provider, and they have been in operation since <strong>2009</strong>. IVPN is based in <span class="flag-icon flag-icon-gi"></span> Gibraltar and offers a 3 day free trial. Unfortunately, due to its lack of an independent security audit, it does not meet the complete criteria for recommendation, see our notes below.
+
+No_Security_Audit_KEY: |
+  No Security Audit
+
+IVPN_has_undergone_a_a_hrefhttpscure53.deauditreport_ivpn.pdfnologging_audit_from_Cure53_KEY: |
+  IVPN has undergone a <a href="https://cure53.de/audit-report_ivpn.pdf">no-logging audit from Cure53</a> which concluded in agreement with IVPN's no-logging claim. However, IVPN has not undergone a more comprehensive security audit by an independent third party, and therefore cannot be strongly recommended at this time. We have still chosen to list it on this page with the assumption that an audit will be published soon: The IVPN team <a href="https://twitter.com/yaelwrites/status/1161796418220089344">reportedly plans to begin the process in September</a>.
+
+77_Servers_KEY: |
+  77+ Servers
+
+IVPN_has_77_servers_in_31_countries_at_the_time_of_writing_this_page._Typically_the_more_servers_a_pr_KEY: |
+  IVPN has 77 servers in 31 countries at the time of writing this page. Typically the more servers a provider offers, the better. IVPN has a decent (but not exceptional) server count that will most likely provide adequate coverage to most users.
+
+In_addition_to_accepting_creditdebit_cards_and_PayPal_IVPN_accepts_strongBitcoinstrong_and_st_KEY: |
+  In addition to accepting credit/debit cards and PayPal, IVPN accepts <strong>Bitcoin</strong> and <strong>cash/local currency</strong> (on annual plans) as anonymous forms of payment.
+
+In_addition_to_providing_standard_OpenVPN_configuration_files_IVPN_has_mobile_clients_for_iOS_or_And_KEY: |
+  In addition to providing standard OpenVPN configuration files, IVPN has mobile clients for iOS or Android allowing for easy connections to their servers.
+
+The_IVPN_clients_have_a_builtin_killswitch_to_block_internet_connections_outside_of_the_VPN._They_al_KEY: |
+  The IVPN clients have a built-in killswitch to block internet connections outside of the VPN. They also are able to automatically start on boot. IVPN also provides "AntiTracker" functionality, which blocks advertising networks and trackers from the network level.
+
 What_is_a_warrant_canary?_KEY: |
   What is a warrant canary?
 
@@ -3178,4 +3328,298 @@ httpsplay.google.comstoreappsdetails?idcom.nextcloud.client_KEY: |
 
 httpsitunes.apple.comusappnextcloudid1125420102?mt8_KEY: |
   https://itunes.apple.com/us/app/nextcloud/id1125420102?mt=8
+
+Warning_KEY: |
+  Warning
+
+Using_a_VPN_will_strongnotstrong_keep_your_browsing_habits_anonymous_nor_will_it_add_additional_KEY: |
+  Using a VPN will <strong>not</strong> keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
+
+If_you_are_looking_for_stronganonymitystrong_you_should_use_the_Tor_Browser_stronginsteadst_KEY: |
+  If you are looking for <strong>anonymity</strong>, you should use the Tor Browser <strong>instead</strong> of a VPN.
+
+If_youre_looking_for_added_strongsecuritystrong_you_should_always_ensure_youre_connecting_to__KEY: |
+  If you're looking for added <strong>security</strong>, you should always ensure you're connecting to websites using <a href="{{ /providers/dns/#icanndns | translate_page}}">encrypted DNS</a> and <a href="https://en.wikipedia.org/wiki/HTTPS">HTTPS</a>. A VPN is not a replacement for good security practices.
+
+If_youre_looking_for_additional_strongprivacystrong_from_your_ISP_on_a_public_WiFi_network_o_KEY: |
+  If you're looking for additional <strong>privacy</strong> from your ISP, on a public Wi-Fi network, or while torrenting files, a VPN may be the solution for you as long as you understand <a href="#info">the risks involved</a>.
+
+Download_Tor_KEY: |
+  Download Tor
+
+Tor_Myths_KEY: |
+  Tor Myths
+
+FAQ_KEY: |
+  FAQ
+
+More_Info_KEY: |
+  More Info
+
+Our_VPN_Provider_Criteria_KEY: |
+  Our VPN Provider Criteria
+
+Please_note_we_are_not_affiliated_with_any_of_the_providers_we_recommend._This_allows_us_to_provide_c_KEY: |
+  Please note we are not affiliated with any of the providers we recommend. This allows us to provide completely objective recommendations.
+
+We_have_developed_a_clear_set_of_requirements_for_any_VPN_provider_wishing_to_be_recommended_includi_KEY: |
+  We have developed a clear set of requirements for any VPN provider wishing to be recommended, including strong encryption, independent security audits, modern technology, and more. We suggest you familiarize yourself with this list before choosing a VPN provider, and conduct your own research to ensure the VPN provider you choose is as trustworthy as possible.
+
+Jurisdiction_KEY: |
+  Jurisdiction
+
+Operating_outside_the_fiveninefourteeneyes_countries_is_not_a_guarantee_of_privacy_necessarily_an_KEY: |
+  Operating outside the five/nine/fourteen-eyes countries is not a guarantee of privacy necessarily, and there are other factors to consider. However, we believe that avoiding these countries is important if you wish to avoid mass government dragnet surveillance, especially from the United States. Read our page on <a href="{{ '/providers/#ukusa' | translate_page }}">global mass surveillance and avoiding the US and UK</a> to learn more about why we feel this is important.
+
+Minimum_to_Qualify_KEY: |
+  Minimum to Qualify:
+
+Operating_outside_the_USA_or_other_Five_Eyes_countries._KEY: |
+  Operating outside the USA or other Five Eyes countries.
+
+Best_Case_KEY: |
+  Best Case:
+
+Operating_outside_the_USA_or_other_Fourteen_Eyes_countries._KEY: |
+  Operating outside the USA or other Fourteen Eyes countries.
+
+Operating_inside_a_country_with_strong_consumer_protection_laws._KEY: |
+  Operating inside a country with strong consumer protection laws.
+
+Technology_KEY: |
+  Technology
+
+We_require_all_our_recommended_VPN_providers_to_provide_OpenVPN_configuration_files_to_be_used_in_any_KEY: |
+  We require all our recommended VPN providers to provide OpenVPN configuration files to be used in any client. <strong>If</strong> a VPN provides their own custom client, we require a killswitch to block network data leaks when disconnected.
+
+OpenVPN_support._KEY: |
+  OpenVPN support.
+
+Killswitch_built_in_to_clients._KEY: |
+  Killswitch built in to clients.
+
+OpenVPN_and_WireGuard_support._KEY: |
+  OpenVPN and WireGuard support.
+
+Killswitch_with_highly_configurable_options_enabledisable_on_certain_networks_on_boot_etc._KEY: |
+  Killswitch with highly configurable options (enable/disable on certain networks, on boot, etc.)
+
+Easytouse_mobile_clients_especially_opensource._KEY: |
+  Easy-to-use mobile clients, especially open-source.
+
+Privacy_KEY: |
+  Privacy
+
+We_prefer_our_recommended_providers_to_collect_as_little_data_as_possible._Not_collecting_personal_in_KEY: |
+  We prefer our recommended providers to collect as little data as possible. Not collecting personal information on registration, and accepting anonymous forms of payment are required.
+
+Bitcoin_or_cash_payment_option._KEY: |
+  Bitcoin or cash payment option.
+
+No_personal_information_required_to_register_Only_username_password_and_email_at_most._KEY: |
+  No personal information required to register: Only username, password, and email at most.
+
+Accepts_Bitcoin_cash_and_other_forms_of_cryptocurrency_andor_anonymous_payment_options_gift_cards_KEY: |
+  Accepts Bitcoin, cash, and other forms of cryptocurrency and/or anonymous payment options (gift cards, etc.)
+
+No_personal_information_accepted_autogenerated_username_no_email_required_etc._KEY: |
+  No personal information accepted (autogenerated username, no email required, etc.)
+
+Security_KEY: |
+  Security
+
+A_VPN_is_pointless_if_it_cant_even_provide_adequate_security._We_require_all_our_recommended_provide_KEY: |
+  A VPN is pointless if it can't even provide adequate security. We require all our recommended providers to abide by current security standards for their OpenVPN connections. Ideally, they would use more future-proof encryption schemes by default. We also require an independent third-party to audit the provider's security, ideally in a very comprehensive manner and on a repeated (yearly) basis.
+
+Strong_Encryption_Schemes_OpenVPN_with_SHA256_authentication_RSA2048_or_better_handshake_AES256_KEY: |
+  Strong Encryption Schemes: OpenVPN with SHA-256 authentication; RSA-2048 or better handshake; AES-256-GCM or AES-256-CBC data encryption.
+
+Perfect_Forward_Secrecy_PFS._KEY: |
+  Perfect Forward Secrecy (PFS).
+
+Published_security_audits_from_a_reputable_thirdparty_firm._KEY: |
+  Published security audits from a reputable third-party firm.
+
+Strongest_Encryption_RSA4096._KEY: |
+  Strongest Encryption: RSA-4096.
+
+Comprehensive_published_security_audits_from_a_reputable_thirdparty_firm._KEY: |
+  Comprehensive published security audits from a reputable third-party firm.
+
+Bugbounty_programs_andor_a_coordinated_vulnerabilitydisclosure_process._KEY: |
+  Bug-bounty programs and/or a coordinated vulnerability-disclosure process.
+
+Trust_KEY: |
+  Trust
+
+You_wouldnt_trust_your_finances_to_someone_with_a_fake_identity_so_why_trust_them_with_your_interne_KEY: |
+  You wouldn't trust your finances to someone with a fake identity, so why trust them with your internet data? We require our recommended providers to be public about their ownership or leadership. We also would like to see frequent transparency reports, especially in regard to how government requests are handled.
+
+Publicfacing_leadership_or_ownership._KEY: |
+  Public-facing leadership or ownership.
+
+Publicfacing_leadership._KEY: |
+  Public-facing leadership.
+
+Frequent_transparency_reports._KEY: |
+  Frequent transparency reports.
+
+Additional_Functionality_KEY: |
+  Additional Functionality
+
+While_not_strictly_requirements_there_are_some_factors_we_looked_into_when_determining_which_provide_KEY: |
+  While not strictly requirements, there are some factors we looked into when determining which providers to recommend. These include adblocking/tracker-blocking functionality, warrant canaries, multihop connections, excellent customer support, the number of allowed simultaneous connections, etc.
+
+Further_Information_and_Dangers_KEY: |
+  Further Information and Dangers
+
+Should_I_use_a_VPN?_KEY: |
+  Should I use a VPN?
+
+The_answer_to_this_question_is_not_a_particularly_helpful_one_strongIt_depends.strong_It_depend_KEY: |
+  The answer to this question is not a particularly helpful one: <strong>It depends.</strong> It depends on what you're expecting a VPN to do for you, who you're trying to hide your traffic from, and what applications you're using.
+
+strongIn_most_cases_VPNs_do_little_to_protect_your_privacy_or_enhance_your_securitystrong_unle_KEY: |
+  <strong>In most cases, VPNs do little to protect your privacy or enhance your security</strong>, unless paired with other changes.
+
+VPNs_cannot_encrypt_data_outside_of_the_connection_between_your_device_and_the_VPN_server._VPN_provid_KEY: |
+  VPNs cannot encrypt data outside of the connection between your device and the VPN server. VPN providers can see and modify your traffic the same way your ISP could. And there is no way to verify a VPN provider's "no logging" policies in any way.
+
+What_if_I_need_encryption?_KEY: |
+  What if I need encryption?
+
+In_most_cases_most_of_your_traffic_is_already_encrypted!_Over_98_of_the_top_3000_websites_offer_st_KEY: |
+  In most cases, most of your traffic is already encrypted! Over 98% of the top 3000 websites offer <strong>HTTPS</strong>, meaning your non-DNS traffic is safe regardless of using a VPN. It is incredibly rare for applications that handle personal data to not support HTTPS in 2019, especially with services like Let's Encrypt offering free HTTPS certificates to any website operator.
+
+Even_if_a_site_you_visit_doesnt_support_HTTPS_a_VPN_will_not_protect_you_because_a_VPN_cannot_magi_KEY: |
+  Even if a site you visit doesn't support HTTPS, a VPN will not protect you, because a VPN cannot magically encrypt the traffic between the VPN's servers and the website's servers. Installing an extension like <a href="https://www.eff.org/https-everywhere">HTTPS Everywhere</a> and making sure every site you visit uses HTTPS is far more helpful than using a VPN.
+
+Should_I_use_encrypted_DNS_with_a_VPN?_KEY: |
+  Should I use encrypted DNS with a VPN?
+
+The_answer_to_this_question_is_also_not_very_helpful_strongit_dependsstrong._Your_VPN_provider__KEY: |
+  The answer to this question is also not very helpful: <strong>it depends</strong>. Your VPN provider may have their own DNS servers, but if they don't, the traffic between your VPN provider and the DNS server isn't encrypted. You need to trust the <a href="{{ '/providers/dns/#icanndns' | translate_page }}">encrypted DNS provider</a> in addition to the VPN provider and unless your client and target server support <a href="https://www.eff.org/deeplinks/2018/09/esni-privacy-protecting-upgrade-https">encrypted SNI</a>, the VPN provider can still see which domains you are visiting.
+
+However_strongyou_shouldnt_use_encrypted_DNS_with_Torstrong._This_would_direct_all_of_your_DNS__KEY: |
+  However <strong>you shouldn't use encrypted DNS with Tor</strong>. This would direct all of your DNS requests through a single circuit, and would allow the encrypted DNS provider to deanonymize you.
+
+What_if_I_need_anonymity?_KEY: |
+  What if I need anonymity?
+
+VPNs_cannot_provide_strong_anonymity._Your_VPN_provider_will_still_see_your_real_IP_address_and_ofte_KEY: |
+  VPNs cannot provide strong anonymity. Your VPN provider will still see your real IP address, and often has a money trail that can be linked directly back to you. You cannot rely on "no logging" policies to protect your data.
+
+Shouldnt_I_hide_my_IP_address?_KEY: |
+  Shouldn't I hide my IP address?
+
+The_idea_that_your_IP_address_is_sensitive_information_or_that_your_location_is_given_away_with_all__KEY: |
+  The idea that your IP address is sensitive information, or that your location is given away with all your internet traffic is <strong>fearmongering</strong> on the part of VPN providers and their marketing. Your IP address is an insignificant amount of personal data tracking companies use to identify you, because many users' IP addresses change very frequently (Dynamic IP addresses, switching networks, switching devices, etc.). Your IP address also does not give away more than the very generalized location of your Internet Service Provider. It does not give away your home address, for example, despite common perception.
+
+Should_I_use_Tor_emandem_a_VPN?_KEY: |
+  Should I use Tor <em>and</em> a VPN?
+
+By_using_a_VPN_with_Tor_youre_creating_essentially_a_permanent_entry_node_often_with_a_money_trail_KEY: |
+  By using a VPN with Tor, you're creating essentially a permanent entry node, often with a money trail attached. This provides 0 additional benefit to you, while increasing the attack surface of your connection dramatically. If you wish to hide your Tor usage from your ISP or your government, Tor has a built-in solution for that: Tor bridges. <a href="https://write.privacytools.io/my-thoughts-on-security/slicing-onions-part-2-onion-recipes-vpn-not-required">Read more about Tor bridges and why using a VPN is not necessary</a>.
+
+Are_VPNs_ever_useful?_KEY: |
+  Are VPNs ever useful?
+
+A_VPN_may_still_be_useful_to_you_in_a_variety_of_scenarios_such_as_KEY: |
+  A VPN may still be useful to you in a variety of scenarios, such as:
+
+Hiding_your_traffic_from_strongonlystrong_your_Internet_Service_Provider._KEY: |
+  Hiding your traffic from <strong>only</strong> your Internet Service Provider.
+
+Hiding_your_downloads_such_as_torrents_from_your_ISP_and_antipiracy_organizations._KEY: |
+  Hiding your downloads (such as torrents) from your ISP and anti-piracy organizations.
+
+For_use_cases_like_these_or_if_you_have_another_compelling_reason_the_VPN_providers_we_listed_above_KEY: |
+  For use cases like these, or if you have another compelling reason, the VPN providers we listed above are who we think are the most trustworthy. However, using a VPN provider still means you're <em>trusting</em> the provider. In pretty much any other scenario you should be using a secure<strong>-by-design</strong> tool such as Tor.
+
+Sources_and_Further_Reading_KEY: |
+  Sources and Further Reading
+
+a_href_httpsschub.ioblog20190408veryprecariousnarrative.html_VPN__a_Very_Precarious_N_KEY: |
+  <a href=" https://schub.io/blog/2019/04/08/very-precarious-narrative.html ">VPN - a Very Precarious Narrative</a> by Dennis Schubert
+
+a_hrefhttpsgist.github.comjoepie915a9909939e6ce7d09e29Dont_use_VPN_servicesa_by_Sven_Sl_KEY: |
+  <a href="https://gist.github.com/joepie91/5a9909939e6ce7d09e29">Don't use VPN services</a> by Sven Slootweg
+
+a_href_softwarenetworks__translate_page_The_selfcontained_networksa_recommended_by_KEY: |
+  <a href='{{ "/software/networks/" | translate_page }}'>The self-contained networks</a> recommended by PrivacyTools are able to replace a VPN that allows access to services on local area network
+
+a_hrefhttpswrite.privacytools.iomythoughtsonsecurityslicingonionspart1mythbustingtor_KEY: |
+  <a href="https://write.privacytools.io/my-thoughts-on-security/slicing-onions-part-1-myth-busting-tor">Slicing Onions: Part 1 – Myth-busting Tor</a> by blacklight447
+
+a_hrefhttpswrite.privacytools.iomythoughtsonsecurityslicingonionspart2onionrecipesvp_KEY: |
+  <a href="https://write.privacytools.io/my-thoughts-on-security/slicing-onions-part-2-onion-recipes-vpn-not-required">Slicing Onions: Part 2 – Onion recipes; VPN not required</a> by blacklight447
+
+More_VPN_Providers_KEY: |
+  More VPN Providers
+
+httpsthatoneprivacysite.netvpncomparisonchart_KEY: |
+  https://thatoneprivacysite.net/vpn-comparison-chart/
+
+Spreadsheet_with_unbiased_independently_verifiable_data_on_over_100_VPN_services._KEY: |
+  Spreadsheet with unbiased, independently verifiable data on over 100 VPN services.
+
+httpsthewirecutter.comreviewsbestvpnservice_KEY: |
+  https://thewirecutter.com/reviews/best-vpn-service/
+
+Indepth_research_on_53_popular_VPN_providers._KEY: |
+  In-depth research on 53 popular VPN providers.
+
+Related_VPN_information_KEY: |
+  Related VPN information
+
+httpsvikingvpn.comblogsofftopicbewareofvpnmarketingandaffiliateprograms_KEY: |
+  https://vikingvpn.com/blogs/off-topic/beware-of-vpn-marketing-and-affiliate-programs
+
+Beware_of_False_Reviews__VPN_Marketing_and_Affiliate_Programs_KEY: |
+  Beware of False Reviews - VPN Marketing and Affiliate Programs
+
+httpswww.goldenfrog.comtakebackyourinternetarticles7mythsaboutvpnloggingandanonymity_KEY: |
+  https://www.goldenfrog.com/take-back-your-internet/articles/7-myths-about-vpn-logging-and-anonymity
+
+I_am_Anonymous_When_I_Use_a_VPN__7_Myths_Debunked_KEY: |
+  I am Anonymous When I Use a VPN - 7 Myths Debunked
+
+Note_KEY: |
+  Note:
+
+While_this_is_a_good_read_they_also_use_the_article_for_selfpromotion_KEY: |
+  While this is a good read, they also use the article for self-promotion
+
+httpstorrentfreak.comproxyshvpnprovidermonitoredtraffictocatchhacker130930_KEY: |
+  https://torrentfreak.com/proxy-sh-vpn-provider-monitored-traffic-to-catch-hacker-130930/
+
+Proxy.sh_VPN_Provider_Sniffed_Server_Traffic_to_Catch_Hacker_KEY: |
+  Proxy.sh VPN Provider Sniffed Server Traffic to Catch Hacker
+
+httpsproxy.shpanelknowledgebase.php?actiondisplayarticleid5_KEY: |
+  https://proxy.sh/panel/knowledgebase.php?action=displayarticle&id=5
+
+Ethical_policy__All_of_the_reasons_why_Proxy.sh_might_enable_logging_KEY: |
+  Ethical policy - All of the reasons why Proxy.sh might enable logging
+
+httpswww.ivpn.netprivacy_KEY: |
+  https://www.ivpn.net/privacy
+
+IVPN.net_will_collect_your_email_and_IP_address_after_sign_up_KEY: |
+  IVPN.net will collect your email and IP address after sign up
+
+Read_the_a_datatoggletooltip_dataplacementtop_dataoriginaltitleThe_IP_collected_at_signu_KEY: |
+  Read the <a data-toggle="tooltip" data-placement="top" data-original-title="The IP collected at signup is only used for a few seconds by our fraud module and then discarded, it is not stored. Storing them would significantly increase our own liability and certainly would not be in our interest. You're absolutely welcome to signup using Tor or a VPN.">Email statement</a> from IVPN.
+
+httpsmedium.comblackVPNnologs6d65d95a3016_KEY: |
+  https://medium.com/@blackVPN/no-logs-6d65d95a3016
+
+blackVPN_announced_to_delete_connection_logs_after_disconnection_KEY: |
+  blackVPN announced to delete connection logs after disconnection
+
+httpsgist.github.comkennwhite1f3bc4d889b02b35d8aa_KEY: |
+  https://gist.github.com/kennwhite/1f3bc4d889b02b35d8aa
+
+Dont_use_LT2P_IPSec_use_other_protocols._KEY: |
+  Don't use LT2P IPSec, use other protocols.
 
