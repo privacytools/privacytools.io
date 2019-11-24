@@ -12,11 +12,12 @@ module Jekyll
         if page_language.nil?
           Weblate::SourceFile.add_entry(weblate_id, text)
 
-          text
+          Liquid::Template.parse(text).render(@context)
         else
           translated_string = site.data["languages"][page_language][weblate_id]
 
-          translated_string.nil? ? text : translated_string.strip
+          translated_string.nil? ? Liquid::Template.parse(text).render(@context) 
+                                 : Liquid::Template.parse(translated_string.strip).render(@context)
         end
       end
     end
