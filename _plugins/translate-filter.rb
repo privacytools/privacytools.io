@@ -30,6 +30,16 @@ module Jekyll
         "/#{page_language}#{page}"
       end
     end
+
+    def append_lang(page)
+      page_language = @context.environments.first["page"]["language"]
+      site          = @context.registers[:site]
+      if page_language.nil?
+        page
+      else
+        "#{page}/#{page_language}"
+      end
+    end
   end
 end
 
