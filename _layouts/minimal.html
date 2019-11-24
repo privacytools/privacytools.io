@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ page.language | replace: "_", "-" | default: "en" }}">
 {% include head.html %}
 <body data-spy="scroll" data-target="#navbar">
   <script src="/assets/js/applytheme.js?v=1"></script>
