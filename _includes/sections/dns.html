@@ -1,34 +1,4 @@
-<h1 id="dns" class="anchor"><a href="#dns"><i class="fas fa-link anchor-icon"></i></a> Domain Name System (DNS)</h1>
-
-{%
-  include cardv2.html
-  title="Njalla - Domain Registration"
-  image="/assets/img/provider/Njalla.png"
-  description="Njalla is a privacy-aware domain registration service based in Nevis that only needs your email or XMPP address in order to register a domain name for you. It is created by people from The Pirate Bay and IPredator VPN. Accepted payments: Bitcoin, Litecoin, Monero, DASH, Bitcoin Cash and PayPal."
-  website="https://njal.la/"
-  tor="http://njalladnspotetti.onion"
-  forum="https://forum.privacytools.io/t/discussion-njalla/339"
-%}
-
-{%
-  include cardv2.html
-  title="DNSCrypt-Proxy - Tool"
-  image="/assets/img/tools/DNSCrypt-Proxy.png"
-  description="DNSCrypt-Proxy is a command-line DNS proxy with support for the encrypted DNS protocols, DNS over HTTPS and DNSCrypt. Can cache results to improve speed, and allows filtering, forwarding, and cloaking."
-  website="https://github.com/jedisct1/dnscrypt-proxy/"
-  forum="https://forum.privacytools.io/t/discussion-dnscrypt-proxy/1498"
-  github="https://github.com/jedisct1/dnscrypt-proxy/"
-  windows="https://github.com/jedisct1/dnscrypt-proxy/releases"
-  linux=""
-  mac="https://github.com/jedisct1/dnscrypt-proxy/releases"
-  freebsd="https://www.freshports.org/dns/dnscrypt-proxy2/"
-  openbsd="http://openports.se/net/dnscrypt-proxy"
-  netbsd="http://pkgsrc.se/net/dnscrypt-proxy2"
-  android=""
-  ios=""
-%}
-
-<h1 id="icanndns" class="anchor"><a href="#icanndns"><i class="fas fa-link anchor-icon"></i></a> Encrypted ICANN DNS Providers</h1>
+<h1 id="dns" class="anchor"><a href="#dns"><i class="fas fa-link anchor-icon"></i></a> Encrypted Domain Name System (DNS) Resolvers</h1>
 
 <div class="alert alert-warning" role="alert">
   <strong>Note: Using an encrypted DNS resolver will not make you anonymous, nor hide your internet traffic from your Internet Service Provider. But it will prevent DNS hijacking, and make your DNS requests harder for third parties to eavesdrop on and tamper with. If you are currently using Google's DNS resolver, you should pick an alternative here.</strong>
@@ -38,7 +8,7 @@
   <table class="table sortable-theme-bootstrap" data-sortable>
     <thead>
       <tr>
-        <th data-sorted="true" data-sorted-direction="ascending">ICANN DNS Provider</th>
+        <th data-sorted="true" data-sorted-direction="ascending">DNS Provider</th>
         <th data-sortable="true">Server Locations</th>
         <th data-sortable="false">Privacy Policy</th>
         <th data-sortable="true">Type</th>
@@ -570,7 +540,7 @@
   <li>QNAME Minimization - Run <code>dig +short txt qnamemintest.internet.nl</code> from the command-line (taken from <a href="https://nlnetlabs.nl/downloads/presentations/unbound_qnamemin_oarc24.pdf">this NLnet Labs presentation</a>). If you are on Windows 10, run <code>Resolve-DnsName -Type TXT -Name qnamemintest.internet.nl</code> from the PowerShell. You should see this display: <code>"HOORAY - QNAME minimisation is enabled on your resolver :)!"</code></li>
 </ul>
 
-<h3 id="clients">Worth Mentioning and Additional Information</h3>
+<h3 id="clients">Software suggestions and Additional Information</h3>
 
 <ul>
   <li><strong>Encrypted DNS clients for desktop:</strong>
