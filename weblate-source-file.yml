@@ -17,11 +17,23 @@ CalendarContacts_Sync_Tools_KEY: |
 Discover_free_opensource_and_secure_ways_to_sync_your_contacts_and_calendars_across_your_devices._KEY: |
   Discover free, open-source, and secure ways to sync your contacts and calendars across your devices.
 
+Self_Hosted_Cloud_KEY: |
+  Self Hosted "Cloud"
+
+Discover_how_to_securely_and_privately_selfhost_your_cloud_with_opensource_software._KEY: |
+  Discover how to securely and privately self-host your cloud with open-source software.
+
 DNS__Domain_Providers_KEY: |
   DNS / Domain Providers
 
 Dont_let_Google_see_all_your_DNS_traffic._Discover_privacycentric_alternatives_to_the_traditional_DNS_providers._KEY: |
   Don't let Google see all your DNS traffic. Discover privacy-centric alternatives to the traditional DNS providers.
+
+Email_Clients_KEY: |
+  Email Clients
+
+Discover_free_opensource_and_secure_email_clients_along_with_some_email_alternatives_you_may_not_have_considered._KEY: |
+  Discover free, open-source, and secure email clients, along with some email alternatives you may not have considered.
 
 Best_Secure_Email_Providers_for_Privacy_KEY: |
   Best Secure Email Providers for Privacy
@@ -29,11 +41,47 @@ Best_Secure_Email_Providers_for_Privacy_KEY: |
 Find_a_secure_email_provider_that_will_keep_your_privacy_in_mind._Dont_settle_for_adsupported_platforms._Never_trust_any_company_with_your_privacy_a_KEY: |
   Find a secure email provider that will keep your privacy in mind. Don't settle for ad-supported platforms. Never trust any company with your privacy, always encrypt.
 
+Encryption_Tools_KEY: |
+  Encryption Tools
+
+Discover_free_opensource_and_secure_ways_to_encrypt_your_sensitive_data_to_keep_it_from_prying_eyes._KEY: |
+  Discover free, open-source, and secure ways to encrypt your sensitive data to keep it from prying eyes.
+
+File_Sharing_KEY: |
+  File Sharing
+
+Discover_how_to_share_your_files_with_your_friends_and_family_or_anonymously_without_a_middleman._KEY: |
+  Discover how to share your files with your friends and family or anonymously, without a middleman.
+
+File_Sync_KEY: |
+  File Sync
+
+Discover_free_opensource_and_secure_ways_to_sync_your_files_across_your_devices._KEY: |
+  Discover free, open-source, and secure ways to sync your files across your devices.
+
 Web_Hosting_KEY: |
   Web Hosting
 
 Find_a_web_hosting_provider_that_wont_track_your_visitors_or_give_into_government_data_requests._KEY: |
   Find a web hosting provider that won't track your visitors or give into government data requests.
+
+SelfContained_Networks_KEY: |
+  Self-Contained Networks
+
+If_you_are_currently_browsing_clearnet_and_want_to_access_the_dark_web_this_section_is_for_you._KEY: |
+  If you are currently browsing clearnet and want to access the dark web, this section is for you.
+
+Notebooks_KEY: |
+  Notebooks
+
+Keep_track_of_your_notes_and_journalings_without_giving_them_to_a_third_party._KEY: |
+  Keep track of your notes and journalings without giving them to a third party.
+
+Password_Managers_KEY: |
+  Password Managers
+
+Stay_safe_and_secure_online_with_an_encrypted_and_opensource_password_manager._KEY: |
+  Stay safe and secure online with an encrypted and open-source password manager.
 
 Pastebin_hosting_services_KEY: |
   Pastebin hosting services
@@ -41,11 +89,23 @@ Pastebin_hosting_services_KEY: |
 Find_a_pastebin_provider_that_wont_read_your_content_to_share_sensitive_code_or_other_information._KEY: |
   Find a pastebin provider that won't read your content to share sensitive code or other information.
 
+Productivity_Tools_KEY: |
+  Productivity Tools
+
+Get_working_and_collaborating_without_sharing_your_documents_with_a_middleman_or_trusting_a_cloud_provider._KEY: |
+  Get working and collaborating without sharing your documents with a middleman or trusting a cloud provider.
+
 Providers_KEY: |
   Providers
 
 Theres_a_ton_of_people_providing_services_online._Discover_which_ones_you_should_avoid_and_our_recommendations_for_a_variety_of_services._KEY: |
   There's a ton of people providing services online. Discover which ones you should avoid and our recommendations for a variety of services.
+
+RealTime_Communication_KEY: |
+  Real-Time Communication
+
+Discover_secure_and_private_ways_to_communicate_with_others_online_without_letting_any_third_parties_read_your_messages._KEY: |
+  Discover secure and private ways to communicate with others online without letting any third parties read your messages.
 
 Search_Engines_KEY: |
   Search Engines
@@ -134,29 +194,14 @@ Digital_Notebook_KEY: |
 Email_Alternatives_KEY: |
   Email Alternatives
 
-Email_Clients_KEY: |
-  Email Clients
-
 File_Encryption_KEY: |
   File Encryption
-
-File_Sharing_KEY: |
-  File Sharing
-
-File_Sync_KEY: |
-  File Sync
 
 Metadata_Removal_Tools_KEY: |
   Metadata Removal Tools
 
 Password_Manager_KEY: |
   Password Manager
-
-Productivity_Tools_KEY: |
-  Productivity Tools
-
-RealTime_Communication_KEY: |
-  Real-Time Communication
 
 Selfcontained_Networks_KEY: |
   Self-contained Networks
@@ -1094,8 +1139,8 @@ httpsgithub.comnextcloud_KEY: |
 Email_Providers_KEY: |
   Email Providers
 
-Many_email_providers_also_offer_calendar_and_or_contacts_sync_services._Refer_to_the_a_hrefprovidersemailEmail_Providers_sectiona_to_choose_a_KEY: |
-  Many email providers also offer calendar and or contacts sync services. Refer to the <a href="/providers/email">Email Providers section</a> to choose an email provider and check if they also offer calendar and/or contacts sync.
+Many_email_providers_also_offer_calendar_and_or_contacts_sync_services._Refer_to_the_a_hrefprovidersemail__translate_page_Email_Providers_KEY: |
+  Many email providers also offer calendar and or contacts sync services. Refer to the <a href="{{'/providers/email' | translate_page }}">Email Providers section</a> to choose an email provider and check if they also offer calendar and/or contacts sync.
 
 providersemail__translate_page__KEY: |
   {{'/providers/email' | translate_page }}
@@ -1142,6 +1187,12 @@ cloud_backups_KEY: |
 Consider_regularly_exporting_your_calendar_and_or_contacts_and_backing_them_up_on_a_separate_storage_drive_or_uploading_them_to_cloud_storage_ideally__KEY: |
   Consider regularly exporting your calendar and or contacts and backing them up on a separate storage drive or uploading them to cloud storage (ideally after <a href="../encryption-tools/">encrypting</a> them).
 
+SelfHosted_Cloud_Server_Software_KEY: |
+  Self-Hosted Cloud Server Software
+
+If_you_are_currently_using_a_Cloud_Storage_Services_like_Dropbox_Google_Drive_Microsoft_OneDrive_or_Apple_iCloud_you_should_think_about_hosting_it_o_KEY: |
+  If you are currently using a Cloud Storage Services like Dropbox, Google Drive, Microsoft OneDrive or Apple iCloud, you should think about hosting it on your own.
+
 Nextcloud_is_similar_in_functionality_to_the_widely_used_Dropbox_with_the_difference_being_that_Nextcloud_is_free_and_opensource_thereby_allowing_an_KEY: |
   Nextcloud is similar in functionality to the widely used Dropbox, with the difference being that Nextcloud is free and open-source, thereby allowing anyone to install and operate it without charge on a private server with no limits on storage space or the number of connected clients.
 
@@ -1180,6 +1231,15 @@ httppkgsrc.sefilesystemstahoelafs_KEY: |
 
 httpswww.tahoelafs.orgtractahoelafsbrowser_KEY: |
   https://www.tahoe-lafs.org/trac/tahoe-lafs/browser
+
+httpsgithub.comxwikilabscryptpad_KEY: |
+  https://github.com/xwiki-labs/cryptpad/
+
+CryptPad_KEY: |
+  CryptPad
+
+An_opensource_and_endtoend_encrypted_realtime_collaborative_editor_that_lets_you_share_folders_media_and_documents._KEY: |
+  An open-source and end-to-end encrypted real-time collaborative editor that lets you share folders, media, and documents.
 
 Domain_Name_System_DNS_KEY: |
   Domain Name System (DNS)
@@ -1883,6 +1943,81 @@ httppkgsrc.semailclawsmail_KEY: |
 httpsgit.clawsmail.org_KEY: |
   https://git.claws-mail.org/
 
+Privacy_Email_Tools_KEY: |
+  Privacy Email Tools
+
+httpswww.gpg4usb.org_KEY: |
+  https://www.gpg4usb.org/
+
+gpg4usb_KEY: |
+  gpg4usb
+
+A_very_easy_to_use_and_small_portable_editor_to_encrypt_and_decrypt_any_textmessage_or_file._For_Windows_and_Linux._a_hrefhttpstheprivacyguide._KEY: |
+  A very easy to use and small portable editor to encrypt and decrypt any text-message or -file. For Windows and Linux. <a href="https://theprivacyguide.org/tutorials/gpg.html">GPG tutorial</a>.
+
+httpswww.mailvelope.com_KEY: |
+  https://www.mailvelope.com/
+
+Mailvelope_KEY: |
+  Mailvelope
+
+A_browser_extension_that_enables_the_exchange_of_encrypted_emails_following_the_a_hrefhttpstheprivacyguide.orgtutorialspgp.htmlOpenPGP_encryp_KEY: |
+  A browser extension that enables the exchange of encrypted emails following the <a href="https://theprivacyguide.org/tutorials/pgp.html">OpenPGP encryption standard</a>.
+
+httpswww.enigmail.net_KEY: |
+  https://www.enigmail.net/
+
+Enigmail_KEY: |
+  Enigmail
+
+A_security_extension_to_Thunderbird_and_Seamonkey._It_enables_you_to_write_and_receive_email_messages_signed_andor_encrypted_with_the_a_hrefhttps_KEY: |
+  A security extension to Thunderbird and Seamonkey. It enables you to write and receive email messages signed and/or encrypted with the <a href="https://theprivacyguide.org/tutorials/pgp.html">OpenPGP standard</a>.
+
+httpsaddons.thunderbird.netthunderbirdaddontorbirdy_KEY: |
+  https://addons.thunderbird.net/thunderbird/addon/torbirdy/
+
+TorBirdy_KEY: |
+  TorBirdy
+
+TorBirdy_configures_Thunderbird_to_make_connections_over_the_Tor_anonymity_network._This_extension_is_in_beta_and_should_be_considered_experimental._KEY: |
+  TorBirdy configures Thunderbird to make connections over the Tor anonymity network. This extension is in beta and should be considered experimental.
+
+httpswww.emailprivacytester.com_KEY: |
+  https://www.emailprivacytester.com/
+
+Email_Privacy_Tester_KEY: |
+  Email Privacy Tester
+
+This_tool_will_send_an_Email_to_your_address_and_perform_privacyrelated_tests._KEY: |
+  This tool will send an Email to your address and perform privacy-related tests.
+
+httpsgithub.comk9mailk9releases_KEY: |
+  https://github.com/k9mail/k-9/releases
+
+K9_Mail_KEY: |
+  K-9 Mail
+
+An_independent_mail_application_for_Android._It_supports_both_POP3_and_IMAP_mailboxes_but_only_supports_push_mail_for_IMAP._KEY: |
+  An independent mail application for Android. It supports both POP3 and IMAP mailboxes, but only supports push mail for IMAP.
+
+httpswww.gnupg.org_KEY: |
+  https://www.gnupg.org/
+
+GNU_Privacy_Guard_KEY: |
+  GNU Privacy Guard
+
+Email_Encryption._GnuPG_is_a_GPL_Licensed_alternative_to_the_PGP_suite_of_cryptographic_software._a_hrefhttpstheprivacyguide.orgtutorialsgpg.ht_KEY: |
+  Email Encryption. GnuPG is a GPL Licensed alternative to the PGP suite of cryptographic software. <a href="https://theprivacyguide.org/tutorials/gpg.html">Tutorial.</a> Use <a href="https://gpgtools.org/">GPGTools for macOS.</a>
+
+httpswww.mailpile.is_KEY: |
+  https://www.mailpile.is/
+
+Mailpile_Beta_KEY: |
+  Mailpile (Beta)
+
+A_modern_fast_webmail_client_with_userfriendly_encryption_and_privacy_features._KEY: |
+  A modern, fast web-mail client with user-friendly encryption and privacy features.
+
 Bitmessage_KEY: |
   Bitmessage
 
@@ -1924,6 +2059,15 @@ httpsretroshare.ccdownloads.htmlfreebsd_KEY: |
 
 httpsgithub.comRetroShareRetroShare_KEY: |
   https://github.com/RetroShare/RetroShare
+
+httpsi2pbote.xyz_KEY: |
+  https://i2pbote.xyz/
+
+I2PBote_KEY: |
+  I2P-Bote
+
+Endtoend_encrypted_decentralized_mail_system_within_the_I2P_network._KEY: |
+  End-to-end encrypted decentralized mail system within the I2P network.
 
 PrivacyConscious_Email_Providers__No_Affiliates_KEY: |
   Privacy-Conscious Email Providers - No Affiliates
@@ -2063,6 +2207,12 @@ AutisticiInventati_server_compromised_KEY: |
 The_cryptographic_services_offered_by_the_AutisticiInventati_server_have_been_compromised_on_15th_June_2004._It_was_discovered_on_21st_June_2005._One__KEY: |
   The cryptographic services offered by the Autistici/Inventati server have been compromised on 15th June 2004. It was discovered on 21st June 2005. One year later. During an enquiry on a single mailbox, the Postal Police may have tapped for a whole year every user's private communication going through the server autistici.org/inventati.org.
 
+File_Encryption_Software_KEY: |
+  File Encryption Software
+
+If_you_are_currently_not_using_encryption_software_for_your_hard_disk_emails_or_file_archives_you_should_pick_one_here._KEY: |
+  If you are currently not using encryption software for your hard disk, emails, or file archives, you should pick one here.
+
 VeraCrypt__Disk_Encryption_KEY: |
   VeraCrypt - Disk Encryption
 
@@ -2138,6 +2288,45 @@ httpswww.peazip.orgpeazipbsd.html_KEY: |
 httpsosdn.netprojectspeazip_KEY: |
   https://osdn.net/projects/peazip
 
+httpscryptomator.org_KEY: |
+  https://cryptomator.org/
+
+Cryptomator_KEY: |
+  Cryptomator
+
+Free_clientside_AES_encryption_for_your_cloud_files._Open_source_software_No_backdoors_no_registration._KEY: |
+  Free client-side AES encryption for your cloud files. Open source software: No backdoors, no registration.
+
+Cryptomators_mobile_apps_are_not_opensource._KEY: |
+  Cryptomator's mobile apps are not open-source.
+
+httpsgitlab.comcryptsetupcryptsetup_KEY: |
+  https://gitlab.com/cryptsetup/cryptsetup/
+
+Linux_Unified_Key_Setup_LUKS_KEY: |
+  Linux Unified Key Setup (LUKS)
+
+A_full_disk_encryption_system_for_Linux_using_dmcrypt_as_the_disk_encryption_backend._Included_by_default_in_Ubuntu._Available_for_Windows_and_Linux._KEY: |
+  A full disk encryption system for Linux using dm-crypt as the disk encryption backend. Included by default in Ubuntu. Available for Windows and Linux.
+
+httpshat.sh_KEY: |
+  https://hat.sh/
+
+Hat.sh_KEY: |
+  Hat.sh
+
+A_crossplatform_serverless_JavaScript_web_application_that_provides_secure_file_encryption_using_the_AES256GCM_algorithm_in_your_browser._It_can_al_KEY: |
+  A cross-platform, serverless JavaScript web application that provides secure file encryption using the AES-256-GCM algorithm in your browser. It can also be downloaded and run offline.</a>
+
+httpswww.keka.io_KEY: |
+  https://www.keka.io/
+
+Keka_KEY: |
+  Keka
+
+A_macOSonly_opensource_file_archiver_with_the_ability_to_encrypt_files._KEY: |
+  A macOS-only, open-source file archiver with the ability to encrypt files.
+
 Firefox_Send_KEY: |
   Firefox Send
 
@@ -2195,6 +2384,24 @@ httpspypi.orgprojectmagicwormhole_KEY: |
 httpsgithub.comwarnermagicwormhole_KEY: |
   https://github.com/warner/magic-wormhole
 
+httpsgithub.comschollzcroc_KEY: |
+  https://github.com/schollz/croc
+
+croc_KEY: |
+  croc
+
+Easily_and_securely_send_things_from_one_computer_to_another._KEY: |
+  Easily and securely send things from one computer to another.
+
+httpsfreedombox.org_KEY: |
+  https://freedombox.org/
+
+FreedomBox_KEY: |
+  FreedomBox
+
+Designed_to_be_your_own_inexpensive_server_at_home._It_runs_free_software_and_offers_an_increasing_number_of_services_ranging_from_a_calendar_or_Jabber_KEY: |
+  Designed to be your own inexpensive server at home. It runs free software and offers an increasing number of services ranging from a calendar or Jabber server, to a wiki, or VPN.
+
 Syncthing_KEY: |
   Syncthing
 
@@ -2236,6 +2443,15 @@ httpswww.sparkleshare.org_KEY: |
 
 httpsgithub.comhbonsSparkleShare_KEY: |
   https://github.com/hbons/SparkleShare
+
+httpsgitannex.branchable.com_KEY: |
+  https://git-annex.branchable.com/
+
+gitannex_KEY: |
+  git-annex
+
+Allows_managing_files_with_git_without_checking_the_file_contents_into_git._While_that_may_seem_paradoxical_it_is_useful_when_dealing_with_files_larg_KEY: |
+  Allows managing files with git, without checking the file contents into git. While that may seem paradoxical, it is useful when dealing with files larger than git can currently easily handle, whether due to limitations in memory, time, or disk space.
 
 Secure_Hosting_Provider_KEY: |
   Secure Hosting Provider
@@ -2660,6 +2876,9 @@ GitHub_KEY: |
 This_is_a_community_project_aiming_to_deliver_the_best_information_available_to_improve_privacy_online._Thank_you_for_participating._This_project_needs_KEY: |
   This is a community project aiming to deliver the best information available to improve privacy online. Thank you for participating. This project needs you.
 
+If_you_are_currently_browsing_a_hrefhttpsen.wikipedia.orgwikiSurface_Webclearneta_and_want_to_access_the_a_hrefhttpsen.wikipedia.org_KEY: |
+  If you are currently browsing <a href="https://en.wikipedia.org/wiki/Surface_Web">clearnet</a> and want to access the <a href="https://en.wikipedia.org/wiki/Dark_web">dark web</a>, this section is for you.
+
 The_Tor_network_is_a_group_of_volunteeroperated_servers_that_allows_people_to_improve_their_privacy_and_security_on_the_Internet._Tors_users_employ_t_KEY: |
   The Tor network is a group of volunteer-operated servers that allows people to improve their privacy and security on the Internet. Tor's users employ this network by connecting through a series of virtual tunnels rather than making a direct connection, thus allowing both organizations and individuals to share information over public networks without compromising their privacy. Tor is an effective censorship circumvention tool.
 
@@ -2744,6 +2963,72 @@ httpsfreenetproject.orgpagesdownload.htmlgnulinuxposix_KEY: |
 httpsgithub.comfreenet_KEY: |
   https://github.com/freenet/
 
+httpsdarknetdiaries.com_KEY: |
+  https://darknetdiaries.com/
+
+darknetdiaries.com_KEY: |
+  darknetdiaries.com
+
+True_stories_from_the_dark_side_of_the_Internet._KEY: |
+  True stories from the dark side of the Internet.
+
+httpszeronet.io_KEY: |
+  https://zeronet.io/
+
+ZeroNet_KEY: |
+  ZeroNet
+
+Open_free_and_uncensorable_websites_using_Bitcoin_cryptography_and_BitTorrent_network._KEY: |
+  Open, free, and uncensorable websites, using Bitcoin cryptography and BitTorrent network.
+
+Your_IP_address_isnt_hidden_by_default_and_wont_be_unless_you_enforce_Tor_usage._KEY: |
+  Your IP address isn't hidden by default and won't be, unless you enforce Tor usage.
+
+privacy_warning_KEY: |
+  privacy warning
+
+An_open_source_crossplatform_friendtofriend_secure_and_decentralized_communication_platform._KEY: |
+  An open source, cross-platform, friend-to-friend, secure, and decentralized communication platform.
+
+httpsgnunet.org_KEY: |
+  https://gnunet.org/
+
+GNUnet_KEY: |
+  GNUnet
+
+GNUnet_provides_a_strong_foundation_of_free_software_for_a_global_distributed_network_that_provides_security_and_privacy._KEY: |
+  GNUnet provides a strong foundation of free software for a global, distributed network that provides security and privacy.
+
+httpsipfs.ioIPFSa_emandem_a_hrefhttpsgithub.comipfsshipyardipfscompanionIPFS_Companiona_KEY: |
+  https://ipfs.io/">IPFS</a> <em>and</em> <a href="https://github.com/ipfs-shipyard/ipfs-companion">IPFS Companion</a>
+
+A_peertopeer_hypermedia_protocol_to_make_the_web_faster_safer_and_more_open._IPFS_Companion_is_a_browser_extension_for_redirecting_queries_to_a_gat_KEY: |
+  A peer-to-peer hypermedia protocol to make the web faster, safer, and more open. IPFS Companion is a browser extension for redirecting queries to a gateway of your choice (generally local).
+
+Important_privacy_warning_KEY: |
+  Important privacy warning
+
+httpsyggdrasilnetwork.github.io_KEY: |
+  https://yggdrasil-network.github.io/
+
+Yggdrasil_KEY: |
+  Yggdrasil
+
+An_earlystage_implementation_of_a_fully_endtoend_encrypted_IPv6_network._It_is_lightweight_selfarranging_supported_on_multiple_platforms_and_all_KEY: |
+  An early-stage implementation of a fully end-to-end encrypted IPv6 network. It is lightweight, self-arranging, supported on multiple platforms, and allows pretty much any IPv6-capable application to communicate securely with other Yggdrasil nodes. Yggdrasil does not require you to have IPv6 Internet connectivity - it also works over IPv4.
+
+The_project_is_currently_in_early_stages_but_it_is_being_actively_developed._KEY: |
+  The project is currently in early stages but it is being actively developed.
+
+experimental_KEY: |
+  experimental
+
+Yggdrasil_doesnt_have_a_goal_of_providing_anonymity_and_your_peers_know_your_IP_address_unless_you_are_only_using_TorI2P_peers._KEY: |
+  Yggdrasil doesn't have a goal of providing anonymity and your peers know your IP address unless you are only using Tor/I2P peers.
+
+If_you_are_currently_using_an_application_like_Evernote_Google_Keep_or_Microsoft_OneNote_you_should_pick_an_alternative_here._KEY: |
+  If you are currently using an application like Evernote, Google Keep, or Microsoft OneNote, you should pick an alternative here.
+
 Joplin_KEY: |
   Joplin
 
@@ -2827,6 +3112,42 @@ httpsplay.google.comstoreappsdetails?idcom.lyonbros.turtl_KEY: |
 
 httpsgithub.comturtl_KEY: |
   https://github.com/turtl
+
+Warning_KEY: |
+  Warning
+
+Note_As_of_Dec_2018_Joplin_does_not_support_passwordpin_protection_for_the_application_itself_or_individual_notesnotebooks._Data_is_still_encrypted_KEY: |
+  Note: As of Dec 2018, Joplin does not support password/pin protection for the application itself or individual notes/notebooks. Data is still encrypted in transit and at sync location using your master key.
+
+See_a_hrefhttpsgithub.comlaurent22joplinissues289open_issuea._KEY: |
+  See <a href='https://github.com/laurent22/joplin/issues/289'>open issue</a>.
+
+httpsgithub.comnotablenotable_KEY: |
+  https://github.com/notable/notable
+
+Notable_KEY: |
+  Notable
+
+The_markdownbased_notetaking_app_that_doesnt_suck._KEY: |
+  The markdown-based note-taking app that doesn't suck.
+
+httpspaperwork.cloud_KEY: |
+  https://paperwork.cloud/
+
+Paperwork_KEY: |
+  Paperwork
+
+An_opensource_and_selfhosted_solution._For_PHP__MySQL_servers._KEY: |
+  An open-source and self-hosted solution. For PHP / MySQL servers.
+
+httpsorgmode.org_KEY: |
+  https://orgmode.org
+
+Orgmode_KEY: |
+  Org-mode
+
+A_major_mode_for_GNU_Emacs._Orgmode_is_for_keeping_notes_maintaining_TODO_lists_planning_projects_and_authoring_documents_with_a_fast_and_effective_KEY: |
+  A major mode for GNU Emacs. Org-mode is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system.
 
 Privacy?_I_dont_have_anything_to_hide._KEY: |
   Privacy? I don't have anything to hide.
@@ -3395,6 +3716,12 @@ Mojeek_KEY: |
 Independent_and_unbiased_search_results_with_no_user_tracking._KEY: |
   Independent and unbiased search results with no user tracking.
 
+Encrypted_Instant_Messenger_KEY: |
+  Encrypted Instant Messenger
+
+If_you_are_currently_using_an_Instant_Messenger_like_Telegram_LINE_Viber_a_hrefhttpswww.eff.orgdeeplinks201610wherewhatsappwentwrongef_KEY: |
+  If you are currently using an Instant Messenger like Telegram, LINE, Viber, <a href="https://www.eff.org/deeplinks/2016/10/where-whatsapp-went-wrong-effs-four-biggest-security-concerns">WhatsApp</a>, or plain SMS you should pick an alternative here.
+
 Signal_KEY: |
   Signal
 
@@ -3452,6 +3779,189 @@ httpsapp.wire.com_KEY: |
 httpsgithub.comwireapp_KEY: |
   https://github.com/wireapp/
 
+Complete_Comparison_KEY: |
+  Complete Comparison
+
+httpssecurechatguide.orgeffguide.html_KEY: |
+  https://securechatguide.org/effguide.html
+
+securechatguide.org_KEY: |
+  securechatguide.org
+
+Guide_to_Choosing_a_Messenger._KEY: |
+  Guide to Choosing a Messenger.
+
+httpswww.securemessagingapps.com_KEY: |
+  https://www.securemessagingapps.com/
+
+securemessagingapps.com_KEY: |
+  securemessagingapps.com
+
+Secure_Messaging_Apps_Comparison._KEY: |
+  Secure Messaging Apps Comparison.
+
+httpswww.thinkprivacy.iomessengers.html_KEY: |
+  https://www.thinkprivacy.io/messengers.html
+
+thinkprivacy.io_KEY: |
+  thinkprivacy.io
+
+Simple_Secure_Messaging_Apps_Comparison._KEY: |
+  Simple Secure Messaging Apps Comparison.
+
+httpsbriarproject.org_KEY: |
+  https://briarproject.org/
+
+Briar_KEY: |
+  Briar
+
+An_ultrasecure_peertopeer_instant_messenger_that_connects_to_contacts_via_Direct_WiFi_Bluetooth_or_Tor_over_the_internet_keeping_its_users_prote_KEY: |
+  An ultra-secure peer-to-peer instant messenger that connects to contacts via Direct Wi-Fi, Bluetooth, or Tor over the internet, keeping its users protected from surveillance and censorship.
+
+httpsabout.riot.im_KEY: |
+  https://about.riot.im/
+
+Riot_KEY: |
+  Riot
+
+An_opensource_federated_messenger_that_utilizes_the_Matrix_protocol._This_application_is_primarily_recommended_as_a_large_groupteam_chat_solution._W_KEY: |
+  An open-source, federated messenger that utilizes the Matrix protocol. This application is primarily recommended as a large group/team chat solution. While Riot has the ability to perform 1-on-1 communications we believe there are better solutions for direct communications.
+
+An_endtoend_encrypted_instant_messaging_and_voicevideo_call_client._RetroShare_supports_both_TOR_and_I2P._KEY: |
+  An end-to-end encrypted instant messaging and voice/video call client. RetroShare supports both TOR and I2P.
+
+httpsxmpp.org_KEY: |
+  https://xmpp.org/
+
+XMPP_KEY: |
+  XMPP
+
+Federated_instant_messaging_protocol_with_a_hrefhttpsconversations.imomemoOMEMOa_OTR_or_OpenPGP_endtoend_encryption_KEY: |
+  Federated instant messaging protocol with <a href="https://conversations.im/omemo/">OMEMO</a>, OTR, or OpenPGP end-to-end encryption:
+
+httpsconversations.im_KEY: |
+  https://conversations.im/
+
+Conversations_KEY: |
+  Conversations
+
+Android_KEY: |
+  Android
+
+An_opensource_JabberXMPP_client_for_Android_4.4_smartphones._KEY: |
+  An open-source Jabber/XMPP client for Android 4.4+ smartphones.
+
+OMEMO_KEY: |
+  OMEMO
+
+httpsgajim.org_KEY: |
+  https://gajim.org/
+
+Gajim_KEY: |
+  Gajim
+
+FreeBSD_Linux_Windows_KEY: |
+  FreeBSD, Linux, Windows
+
+An_opensource_fully_featured_XMPP_client._KEY: |
+  An open-source fully featured XMPP client.
+
+httpsmonal.im_KEY: |
+  https://monal.im/
+
+Monal_KEY: |
+  Monal
+
+iOS_MacOS_KEY: |
+  iOS, MacOS
+
+An_XMPP_client_in_active_development._KEY: |
+  An XMPP client in active development.
+
+httpsomemo.top_KEY: |
+  https://omemo.top/
+
+Other_OMEMOready_clients_KEY: |
+  Other OMEMO-ready clients
+
+httpswww.kontalk.org_KEY: |
+  https://www.kontalk.org/
+
+Kontalk_KEY: |
+  Kontalk
+
+A_communitydriven_instant_messaging_network._Supports_endtoend_encryption._Both_clienttoserver_and_servertoserver_channels_are_fully_encrypted._KEY: |
+  A community-driven instant messaging network. Supports end-to-end encryption. Both client-to-server and server-to-server channels are fully encrypted.
+
+httpskeybase.io_KEY: |
+  https://keybase.io/
+
+Keybase_KEY: |
+  Keybase
+
+This_software_relies_on_a_closedsource_central_server._KEY: |
+  This software relies on a closed-source central server.
+
+Endtoend_encrypted_messaging_with_social_verification._KEY: |
+  End-to-end encrypted messaging with social verification.
+
+httpsstatus.im_KEY: |
+  https://status.im/
+
+Status_KEY: |
+  Status
+
+Experimental_KEY: |
+  Experimental
+
+A_free_and_opensource_peertopeer_encrypted_instant_messanger_with_support_for_DAPPs._KEY: |
+  A free and open-source, peer-to-peer, encrypted instant messanger with support for DAPPs.
+
+httpstox.chat_KEY: |
+  https://tox.chat/
+
+Tox_KEY: |
+  Tox
+
+A_free_and_opensource_peertopeer_encrypted_instant_messaging_and_video_calling_software._KEY: |
+  A free and open-source, peer-to-peer, encrypted instant messaging, and video calling software.
+
+httpsjami.net_KEY: |
+  https://jami.net/
+
+Jami_formerly_RingSFLphone_KEY: |
+  Jami (formerly Ring/SFLphone)
+
+Gives_you_full_control_over_your_communications_and_an_unmatched_level_of_privacy._Jami_has_text_messaging_video_and_audio_calls_file_transfer_and_v_KEY: |
+  Gives you full control over your communications and an unmatched level of privacy. Jami has text messaging, video and audio calls, file transfer, and video conferencing.
+
+Chatting_in_Secret_While_Were_All_Being_Watched__firstlook.org_KEY: |
+  Chatting in Secret While We're All Being Watched - firstlook.org
+
+Advanced_users_with_special_needs_can_download_the_Signal_APK_directly._Most_users_should_not_do_this_under_normal_circumstances._KEY: |
+  Advanced users with special needs can download the Signal APK directly. Most users should not do this under normal circumstances.
+
+Independent_security_audits_KEY: |
+  Independent security audits
+
+a_hrefhttpseprint.iacr.org20161013.pdf_A_Formal_Security_Analysis_of_the_Signal_Messaging_Protocol_2019a_by_Katriel_CohnGordon_Cas_Cre_KEY: |
+  <a href="https://eprint.iacr.org/2016/1013.pdf"> A Formal Security Analysis of the Signal Messaging Protocol (2019)</a> by Katriel Cohn-Gordon, Cas Cremers, Benjamin Dowling, Luke Garratt and Douglas Stebila
+
+a_hrefhttpswire.comensecurityauditsIndependent_security_auditsa_on_Wires_website_KEY: |
+  <a href="https://wire.com/en/security/#audits">Independent security audits</a> on Wire's website
+
+a_hrefhttpskeybase.iodocsassetsblogNCC_Group_Keybase_KB2018_Public_Report_20190227_v1.3.pdfKeybases_Protocol_Security_Review_2019a__KEY: |
+  <a href="https://keybase.io/docs-assets/blog/NCC_Group_Keybase_KB2018_Public_Report_2019-02-27_v1.3.pdf">Keybase's Protocol Security Review (2019)</a> by <a href="https://www.nccgroup.trust/">NCC Group</a>
+
+VideoVoice_Calling_KEY: |
+  Video/Voice Calling
+
+If_you_are_currently_using_a_VideoVoice_Calling_app_like_Skype_Viber_or_Google_Hangouts_you_should_pick_an_alternative_here._KEY: |
+  If you are currently using a Video/Voice Calling app like Skype, Viber or Google Hangouts, you should pick an alternative here.
+
+Please_note_that_many_of_the_above_instant_messengers_also_support_span_classbadge_badgesuccessVoIPspan._The_software_listed_below_are_empri_KEY: |
+  Please note that many of the above instant messengers also support <span class="badge badge-success">VoIP</span>. The software listed below are <em>primarily</em> Voice/Video focused.
+
 Linphone_KEY: |
   Linphone
 
@@ -3503,6 +4013,36 @@ httpsapps.apple.comusappmumbleid443472808?ls1_KEY: |
 httpsgithub.commumblevoip_KEY: |
   https://github.com/mumble-voip/
 
+httpsjitsi.org_KEY: |
+  https://jitsi.org/
+
+Jitsi_Meet_KEY: |
+  Jitsi Meet
+
+Jitsi_Meet_is_a_free_and_opensource_multiplatform_voice_VoIP_video_conferencing_and_instant_messaging_application._KEY: |
+  Jitsi Meet is a free and open-source multiplatform voice (VoIP), video conferencing, and instant messaging application.
+
+Our_Firefox_tweaks_recommend_disabling_WebRTC_as_it_can_be_used_to_leak_your_IP_address_even_behind_a_VPN_which_is_why_Tor_Browser_disables_it._KEY: |
+  Our Firefox tweaks recommend disabling WebRTC as it can be used to leak your IP address even behind a VPN, which is why Tor Browser disables it.
+
+Requires_WebRTC_KEY: |
+  Requires WebRTC
+
+More_information_about_Mumble_KEY: |
+  More information about Mumble:
+
+a_href_httpswiki.mumble.infowikiRunning_MurmurRunning_Mumble_Servera_and_a_hrefhttpswiki.mumble.infowikiMurmur.iniits_config_fil_KEY: |
+  <a href=" https://wiki.mumble.info/wiki/Running_Murmur">Running Mumble Server</a> and <a href="https://wiki.mumble.info/wiki/Murmur.ini">its config file</a>, particularly <a href="https://wiki.mumble.info/wiki/Murmur.ini#obfuscate">obfuscating IPv4 addresses</a> and <a href="https://wiki.mumble.info/wiki/Murmur.ini#Process_Administrivia">logging</a>
+
+a_hrefhttpstrac.torproject.orgprojectstorwikidocTorifyHOWTOMumbleTorifying_Mumble_KEY: |
+  <a href="https://trac.torproject.org/projects/tor/wiki/doc/TorifyHOWTO/Mumble">Torifying Mumble
+
+Team_Chat_Platforms_KEY: |
+  Team Chat Platforms
+
+If_your_project_or_organization_currently_uses_a_platform_like_a_hrefhttpstosdr.orgdiscordDiscorda_or_a_hrefhttpsdrewdevault.com201_KEY: |
+  If your project or organization currently uses a platform like <a href="https://tosdr.org/#discord">Discord</a> or <a href="https://drewdevault.com/2015/11/01/Please-stop-using-slack.html">Slack</a> you should pick an alternative here.
+
 Riot.im_Matrix_KEY: |
   Riot.im (Matrix)
 
@@ -3514,9 +4054,6 @@ The_endtoend_encryption_is_currently_in_beta_and_the_mobile_client_states_Endtoe
 
 a_hrefgithub.comvectorimriotwebissues6779Experimental_E2EEa_KEY: |
   <a href=//github.com/vector-im/riot-web/issues/6779>Experimental E2EE</a>
-
-httpsabout.riot.im_KEY: |
-  https://about.riot.im/
 
 httpsriot.imdownloaddesktop_KEY: |
   https://riot.im/download/desktop/
@@ -3569,20 +4106,14 @@ httpsitunes.apple.comapprocketchatid1148741252_KEY: |
 httpsgithub.comrocketchat_KEY: |
   https://github.com/rocketchat/
 
-Keybase_KEY: |
-  Keybase
-
 Keybase_provides_a_hosted_team_chat_with_endtoend_encryption._It_has_also_been_a_hrefhttpskeybase.iodocsassetsblogNCC_Group_Keybase_KB2018__KEY: |
-  Keybase provides a hosted team chat with end-to-end encryption. It has also been <a href="https://keybase.io/docs-assets/blog/NCC_Group_Keybase_KB2018_Public_Report_2019-02-27_v1.3.pdf">indepedently audited (PDF)</a>.
+  Keybase provides a hosted team chat with end-to-end encryption. It has also been <a href="https://keybase.io/docs-assets/blog/NCC_Group_Keybase_KB2018_Public_Report_2019-02-27_v1.3.pdf">independently audited (PDF)</a>.
 
 The_server_side_of_Keybase_runs_on_proprietary_code_and_is_centralized._KEY: |
   The server side of Keybase runs on proprietary code and is centralized.
 
 a_hrefgithub.comkeybaseclientissues6374Warninga_KEY: |
   <a href=//github.com/keybase/client/issues/6374>Warning</a>
-
-httpskeybase.io_KEY: |
-  https://keybase.io/
 
 httpskeybase.iodocsthe_appinstall_windows_KEY: |
   https://keybase.io/docs/the_app/install_windows
@@ -3611,6 +4142,18 @@ httpskeybase.io_downloadkeybaseforios_KEY: |
 httpsgithub.comKeybase_KEY: |
   https://github.com/Keybase
 
+Wire_Pro_KEY: |
+  Wire Pro
+
+Paid_team_communication_with_E2EE._KEY: |
+  Paid team communication with E2EE.
+
+While_the_free_edition_of_Wire_is_a_recommended_platform_we_have_not_tested_the_Pro_edition._KEY: |
+  While the free edition of Wire is a recommended platform, we have not tested the Pro edition.
+
+Untested_KEY: |
+  Untested
+
 httpsplay.google.comstoreappsdetails?idorg.mozilla.firefoxsend_KEY: |
   https://play.google.com/store/apps/details?id=org.mozilla.firefoxsend
 
@@ -3632,23 +4175,8 @@ httpsplay.google.comstoreappsdetails?idcom.nextcloud.client_KEY: |
 httpsitunes.apple.comusappnextcloudid1125420102?mt8_KEY: |
   https://itunes.apple.com/us/app/nextcloud/id1125420102?mt=8
 
-httpscryptomator.org_KEY: |
-  https://cryptomator.org/
-
-Cryptomator_KEY: |
-  Cryptomator
-
-Free_clientside_AES_encryption_for_your_cloud_files._Open_source_software_No_backdoors_no_registration._KEY: |
-  Free client-side AES encryption for your cloud files. Open source software: No backdoors, no registration.
-
-Cryptomators_mobile_apps_are_not_opensource._KEY: |
-  Cryptomator's mobile apps are not open-source.
-
 httpscryptpad.fr_KEY: |
   https://cryptpad.fr
-
-CryptPad_KEY: |
-  CryptPad
 
 Free_and_endtoend_encrypted_real_time_collaboration_sharing_folders_media_and_documents._KEY: |
   Free and end-to-end encrypted real time collaboration sharing folders, media, and documents.
@@ -3664,6 +4192,12 @@ httpsplay.google.comstoreappsdetails?idcom.github.catfriend1.syncthingandroid_KE
 
 httpsgithub.comsyncthing?typesource_KEY: |
   https://github.com/syncthing?type=source
+
+Password_Manager_Software_KEY: |
+  Password Manager Software
+
+If_you_are_currently_using_a_password_manager_software_like_1Password_LastPass_Roboform_or_iCloud_Keychain_you_should_pick_an_alternative_here._KEY: |
+  If you are currently using a password manager software like 1Password, LastPass, Roboform, or iCloud Keychain, you should pick an alternative here.
 
 Bitwarden__CloudSelfhost_KEY: |
   Bitwarden - Cloud/Self-host
@@ -3778,6 +4312,39 @@ httpsplay.google.comstoreappsdetails?idcom.lesspass.android_KEY: |
 
 httpsgithub.comlesspasslesspass_KEY: |
   https://github.com/lesspass/lesspass
+
+httpsmasterpassword.app_KEY: |
+  https://masterpassword.app
+
+Master_Password_KEY: |
+  Master Password
+
+A_password_manager_based_on_an_ingenious_passwordgeneration_algorithm_that_guarantees_your_passwords_can_never_be_lost._Its_passwords_arent_stored_t_KEY: |
+  A password manager based on an ingenious password-generation algorithm that guarantees your passwords can never be lost. Its passwords aren't stored: they are generated on-demand from your name, the site, and your master password. No syncing, backups, or internet access needed.
+
+httpspsono.com_KEY: |
+  https://psono.com/
+
+Psono_KEY: |
+  Psono
+
+Free_and_open_source_password_manager_for_teams_with_client_side_encryption_and_secure_sharing_of_passwords_files_bookmarks_emails._All_secrets_are__KEY: |
+  Free and open source password manager for teams with client side encryption and secure sharing of passwords, files, bookmarks, emails. All secrets are protected by a master password. Uses <a href="https://nacl.cr.yp.to/">NACL Crypto</a>, a combination of Curve25519, Salsa20 and Poly1305.
+
+httpspwsafe.org_KEY: |
+  https://pwsafe.org/
+
+Password_Safe_KEY: |
+  Password Safe
+
+Whether_the_answer_is_one_or_hundreds_Password_Safe_allows_you_to_safely_and_easily_create_a_secured_and_encrypted_usernamepassword_list._With_Passwo_KEY: |
+  Whether the answer is one or hundreds, Password Safe allows you to safely and easily create a secured and encrypted username/password list. With Password Safe all you have to do is create and remember a single "Master Password" of your choice in order to unlock and access your entire username/password list.
+
+httpspeertube.mastodon.hostvideoswatch4cdedd90a5b44022b93d828e85ed58cd_KEY: |
+  https://peertube.mastodon.host/videos/watch/4cdedd90-a5b4-4022-b93d-828e85ed58cd
+
+Edward_Snowden_on_Passwords_on_Peertube_KEY: |
+  Edward Snowden on Passwords on Peertube
 
 httpsplay.google.comstoreappsdetails?idcom.etesync.syncadapter_KEY: |
   https://play.google.com/store/apps/details?id=com.etesync.syncadapter
@@ -4058,9 +4625,6 @@ CryptPad_is_an_opensource_zero_knowledge_and_realtime_collaborative_editor._Data
 httpscryptpad.frpad_KEY: |
   https://cryptpad.fr/pad/
 
-httpsgithub.comxwikilabscryptpad_KEY: |
-  https://github.com/xwiki-labs/cryptpad
-
 strongCryptPadstrong_is_a_privatebydesign_alternative_to_popular_office_tools_and_cloud_services._All_content_is_endtoend_encrypted._It_is_fre_KEY: |
   <strong>CryptPad</strong> is a private-by-design alternative to popular office tools and cloud services. All content is end-to-end encrypted. It is free and open-source, enabling anyone to verify its security by auditing the code. The development team is supported by donations and grants. No registration is required, and it can be used anonymously via Tor Browser.
 
@@ -4114,6 +4678,66 @@ httpswrite.aspad_KEY: |
 
 httpscode.aswriteas_KEY: |
   https://code.as/writeas
+
+httpscrypt.ee_KEY: |
+  https://crypt.ee/
+
+Cryptee_KEY: |
+  Cryptee
+
+Free_privacyfriendly_service_for_storing_Documents_files_and_Photos_KEY: |
+  Free privacy-friendly service for storing Documents, files and Photos
+
+httpsethercalc.net_KEY: |
+  https://ethercalc.net/
+
+EtherCalc_KEY: |
+  EtherCalc
+
+EtherCalc_is_a_web_spreadsheet._Data_is_saved_on_the_web_and_people_can_edit_the_same_document_at_the_same_time._Changes_are_instantly_reflected_on_al_KEY: |
+  EtherCalc is a web spreadsheet. Data is saved on the web, and people can edit the same document at the same time. Changes are instantly reflected on all screens. Work together on inventories, survey forms, list management, brainstorming sessions.
+
+Disroot_KEY: |
+  Disroot
+
+Free_privacyfriendly_service_that_offers_Etherpad_EtherCalc_and_PrivateBin._KEY: |
+  Free privacy-friendly service that offers Etherpad, EtherCalc and PrivateBin.
+
+httpsdudle.inf.tudresden.deanonymous_KEY: |
+  https://dudle.inf.tu-dresden.de/anonymous/
+
+dudle_KEY: |
+  dudle
+
+An_online_scheduling_application_free_and_opensource._Schedule_meetings_or_make_small_online_polls._No_email_collection_or_the_need_of_registration._KEY: |
+  An online scheduling application, free and open-source. Schedule meetings or make small online polls. No email collection or the need of registration.
+
+httpsframadate.org_KEY: |
+  https://framadate.org/
+
+Framadate_KEY: |
+  Framadate
+
+A_free_and_opensource_online_service_for_planning_an_appointment_or_making_a_decision_quickly_and_easily._No_registration_is_required._KEY: |
+  A free and open-source online service for planning an appointment or making a decision quickly and easily. No registration is required.
+
+httpswww.libreoffice.org_KEY: |
+  https://www.libreoffice.org/
+
+LibreOffice_KEY: |
+  LibreOffice
+
+Free_and_opensource_office_suite._KEY: |
+  Free and open-source office suite.
+
+httpsvscodium.com_KEY: |
+  https://vscodium.com/
+
+VSCodium_KEY: |
+  VSCodium
+
+Fork_of_Microsofts_Visual_Studio_Code_editor_without_branding_or_telemetry._KEY: |
+  Fork of Microsoft's Visual Studio Code editor without branding or telemetry.
 
 MAT2_KEY: |
   MAT2
@@ -4466,9 +5090,6 @@ httpsplay.google.comstoreappsdetails?idcom.nextcloud.client_KEY: |
 httpsitunes.apple.comusappnextcloudid1125420102?mt8_KEY: |
   https://itunes.apple.com/us/app/nextcloud/id1125420102?mt=8
 
-Warning_KEY: |
-  Warning
-
 Using_a_VPN_will_strongnotstrong_keep_your_browsing_habits_anonymous_nor_will_it_add_additional_security_to_nonsecure_HTTP_traffic._KEY: |
   Using a VPN will <strong>not</strong> keep your browsing habits anonymous, nor will it add additional security to non-secure (HTTP) traffic.
 
@@ -4753,709 +5374,4 @@ httpsgist.github.comkennwhite1f3bc4d889b02b35d8aa_KEY: |
 
 Dont_use_LT2P_IPSec_use_other_protocols._KEY: |
   Don't use LT2P IPSec, use other protocols.
-
-httpsplay.google.comstoreappsdetails?idorg.mozilla.firefox_KEY: |
-  https://play.google.com/store/apps/details?id=org.mozilla.firefox
-
-httpsplay.google.comstoreappsdetails?idorg.torproject.torbrowser_KEY: |
-  https://play.google.com/store/apps/details?id=org.torproject.torbrowser
-
-httpsplay.google.comstoreappsdetails?idcom.google.android.webviewhlen_US_KEY: |
-  https://play.google.com/store/apps/details?id=com.google.android.webview&hl=en_US
-
-Browser_Fingerprint__Is_your_browser_configuration_unique?_KEY: |
-  Browser Fingerprint - Is your browser configuration unique?
-
-How_Unique_Is_Your_Web_Browser?_Peter_Eckersley_EFF._KEY: |
-  How Unique Is Your Web Browser? Peter Eckersley, EFF.
-
-WebRTC_IP_Leak_Test__Is_your_IP_address_leaking?_KEY: |
-  WebRTC IP Leak Test - Is your IP address leaking?
-
-How_to_disable_WebRTC_in_Firefox?_KEY: |
-  How to disable WebRTC in Firefox?
-
-How_to_fix_the_WebRTC_Leak_in_Google_Chrome?_KEY: |
-  How to fix the WebRTC Leak in Google Chrome?
-
-What_about_other_browsers?_KEY: |
-  What about other browsers?
-
-Looking_for_TRR_DoH_or_ESNI?_KEY: |
-  Looking for TRR, DoH or ESNI?
-
-Many_email_providers_also_offer_calendar_and_or_contacts_sync_services._Refer_to_the_a_hrefprovidersemail__translate_page_Email_Providers_KEY: |
-  Many email providers also offer calendar and or contacts sync services. Refer to the <a href="{{'/providers/email' | translate_page }}">Email Providers section</a> to choose an email provider and check if they also offer calendar and/or contacts sync.
-
-httpsplay.google.comstoreappsdetails?idcom.etesync.syncadapter_KEY: |
-  https://play.google.com/store/apps/details?id=com.etesync.syncadapter
-
-httpsplay.google.comstoreappsdetails?idcom.nextcloud.client_KEY: |
-  https://play.google.com/store/apps/details?id=com.nextcloud.client
-
-httpsitunes.apple.comusappnextcloudid1125420102?mt8_KEY: |
-  https://itunes.apple.com/us/app/nextcloud/id1125420102?mt=8
-
-httpsbugzilla.mozilla.orgshow_bug.cgi?id1500289_KEY: |
-  https://bugzilla.mozilla.org/show_bug.cgi?id=1500289
-
-httpsbugzilla.mozilla.orgshow_bug.cgi?id1542754_KEY: |
-  https://bugzilla.mozilla.org/show_bug.cgi?id=1542754
-
-httpswww.clawsmail.orgdownloads.php?sectiondownloads_KEY: |
-  https://www.claws-mail.org/downloads.php?section=downloads
-
-httpsplay.google.comstoreappsdetails?idorg.sufficientlysecure.keychain_KEY: |
-  https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain
-
-httpsgit.gnupg.orgcgibingitweb.cgi?pgnupg.git_KEY: |
-  https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git
-
-httpsplay.google.comstoreappsdetails?idorg.mozilla.firefoxsend_KEY: |
-  https://play.google.com/store/apps/details?id=org.mozilla.firefoxsend
-
-httpsplay.google.comstoreappsdetails?idcom.github.catfriend1.syncthingandroid_KEY: |
-  https://play.google.com/store/apps/details?id=com.github.catfriend1.syncthingandroid
-
-httpsgithub.comsyncthing?typesource_KEY: |
-  https://github.com/syncthing?type=source
-
-Prefer_the_classic_site?_View_a_singlepage_layout._KEY: |
-  Prefer the classic site? View a single-page layout.
-
-Privacy?_I_dont_have_anything_to_hide._KEY: |
-  Privacy? I don't have anything to hide.
-
-How_do_you_counter_the_I_have_nothing_to_hide?_argument?_reddit.com_KEY: |
-  How do you counter the "I have nothing to hide?" argument? (reddit.com)
-
-httpspapers.ssrn.comsol3papers.cfm?abstract_id998565_KEY: |
-  https://papers.ssrn.com/sol3/papers.cfm?abstract_id=998565
-
-What_does_the_US_government_know_about_you?_KEY: |
-  What does the US government know about you?
-
-httpsplay.google.comstoreappsdetails?idorg.torproject.torbrowser_KEY: |
-  https://play.google.com/store/apps/details?id=org.torproject.torbrowser
-
-httpsplay.google.comstoreappsdetails?idnet.i2p.android_KEY: |
-  https://play.google.com/store/apps/details?id=net.i2p.android
-
-httpsplay.google.comstoreappsdetails?idcom.standardnotes_KEY: |
-  https://play.google.com/store/apps/details?id=com.standardnotes
-
-httpsplay.google.comstoreappsdetails?idcom.lyonbros.turtl_KEY: |
-  https://play.google.com/store/apps/details?id=com.lyonbros.turtl
-
-Privacy?_I_dont_have_anything_to_hide._KEY: |
-  Privacy? I don't have anything to hide.
-
-How_do_you_counter_the_I_have_nothing_to_hide?_argument?_reddit.com_KEY: |
-  How do you counter the "I have nothing to hide?" argument? (reddit.com)
-
-httpspapers.ssrn.comsol3papers.cfm?abstract_id998565_KEY: |
-  https://papers.ssrn.com/sol3/papers.cfm?abstract_id=998565
-
-Who_is_required_to_hand_over_the_encryption_keys_to_authorities?_KEY: |
-  Who is required to hand over the encryption keys to authorities?
-
-Why_is_it_not_recommended_to_choose_a_USbased_service?_KEY: |
-  Why is it not recommended to choose a US-based service?
-
-What_is_a_warrant_canary?_KEY: |
-  What is a warrant canary?
-
-httpsplay.google.comstoreappsdetails?idorg.mozilla.firefox_KEY: |
-  https://play.google.com/store/apps/details?id=org.mozilla.firefox
-
-httpsplay.google.comstoreappsdetails?idorg.torproject.torbrowser_KEY: |
-  https://play.google.com/store/apps/details?id=org.torproject.torbrowser
-
-httpsplay.google.comstoreappsdetails?idcom.google.android.webviewhlen_US_KEY: |
-  https://play.google.com/store/apps/details?id=com.google.android.webview&hl=en_US
-
-Browser_Fingerprint__Is_your_browser_configuration_unique?_KEY: |
-  Browser Fingerprint - Is your browser configuration unique?
-
-How_Unique_Is_Your_Web_Browser?_Peter_Eckersley_EFF._KEY: |
-  How Unique Is Your Web Browser? Peter Eckersley, EFF.
-
-WebRTC_IP_Leak_Test__Is_your_IP_address_leaking?_KEY: |
-  WebRTC IP Leak Test - Is your IP address leaking?
-
-How_to_disable_WebRTC_in_Firefox?_KEY: |
-  How to disable WebRTC in Firefox?
-
-How_to_fix_the_WebRTC_Leak_in_Google_Chrome?_KEY: |
-  How to fix the WebRTC Leak in Google Chrome?
-
-What_about_other_browsers?_KEY: |
-  What about other browsers?
-
-Looking_for_TRR_DoH_or_ESNI?_KEY: |
-  Looking for TRR, DoH or ESNI?
-
-httpswww.clawsmail.orgdownloads.php?sectiondownloads_KEY: |
-  https://www.claws-mail.org/downloads.php?section=downloads
-
-httpsplay.google.comstoreappsdetails?idorg.thoughtcrime.securesms_KEY: |
-  https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms
-
-httpsplay.google.comstoreappsdetails?idcom.wire_KEY: |
-  https://play.google.com/store/apps/details?id=com.wire
-
-httpsitunes.apple.comappwireid930944768?mt8_KEY: |
-  https://itunes.apple.com/app/wire/id930944768?mt=8
-
-httpswww.linphone.orgtechnicalcornerlinphone?qttechnical_corner2qttechnical_corner_KEY: |
-  https://www.linphone.org/technical-corner/linphone?qt-technical_corner=2#qt-technical_corner
-
-httpswww.linphone.orgtechnicalcornerlinphone?qttechnical_corner2qttechnical_corner_KEY: |
-  https://www.linphone.org/technical-corner/linphone?qt-technical_corner=2#qt-technical_corner
-
-httpswww.linphone.orgtechnicalcornerlinphone?qttechnical_corner2qttechnical_corner_KEY: |
-  https://www.linphone.org/technical-corner/linphone?qt-technical_corner=2#qt-technical_corner
-
-httpsplay.google.comstoreappsdetails?idorg.linphone_KEY: |
-  https://play.google.com/store/apps/details?id=org.linphone
-
-httpsitunes.apple.comusapplinphoneid360065638?mt8_KEY: |
-  https://itunes.apple.com/us/app/linphone/id360065638?mt=8
-
-httpsapps.apple.comusappmumbleid443472808?ls1_KEY: |
-  https://apps.apple.com/us/app/mumble/id443472808?ls=1
-
-httpsfdroid.orgrepositorybrowse?fdidim.vector.alpha_KEY: |
-  https://f-droid.org/repository/browse/?fdid=im.vector.alpha
-
-httpsplay.google.comstoreappsdetails?idim.vector.app_KEY: |
-  https://play.google.com/store/apps/details?id=im.vector.app
-
-httpsplay.google.comstoreappsdetails?idchat.rocket.android_KEY: |
-  https://play.google.com/store/apps/details?id=chat.rocket.android
-
-httpsplay.google.comstoreappsdetails?idio.keybase.ossifragehlen_US_KEY: |
-  https://play.google.com/store/apps/details?id=io.keybase.ossifrage&hl=en_US
-
-httpsplay.google.comstoreappsdetails?idorg.mozilla.firefoxsend_KEY: |
-  https://play.google.com/store/apps/details?id=org.mozilla.firefoxsend
-
-httpsplay.google.comstoreappsdetails?idcom.nextcloud.client_KEY: |
-  https://play.google.com/store/apps/details?id=com.nextcloud.client
-
-httpsitunes.apple.comusappnextcloudid1125420102?mt8_KEY: |
-  https://itunes.apple.com/us/app/nextcloud/id1125420102?mt=8
-
-httpsplay.google.comstoreappsdetails?idcom.nextcloud.client_KEY: |
-  https://play.google.com/store/apps/details?id=com.nextcloud.client
-
-httpsitunes.apple.comusappnextcloudid1125420102?mt8_KEY: |
-  https://itunes.apple.com/us/app/nextcloud/id1125420102?mt=8
-
-httpsplay.google.comstoreappsdetails?idcom.github.catfriend1.syncthingandroid_KEY: |
-  https://play.google.com/store/apps/details?id=com.github.catfriend1.syncthingandroid
-
-httpsgithub.comsyncthing?typesource_KEY: |
-  https://github.com/syncthing?type=source
-
-httpssafariextensions.apple.comdetails?idcom.bitwarden.safariLTZ2PFU5D6_KEY: |
-  https://safari-extensions.apple.com/details/?id=com.bitwarden.safari-LTZ2PFU5D6
-
-httpsplay.google.comstoreappsdetails?idcom.x8bit.bitwarden_KEY: |
-  https://play.google.com/store/apps/details?id=com.x8bit.bitwarden
-
-httpsitunes.apple.comappbitwardenfreepasswordmanagerid1137397744?mt8_KEY: |
-  https://itunes.apple.com/app/bitwarden-free-password-manager/id1137397744?mt=8
-
-httpsplay.google.comstoreappsdetails?idcom.kunzisoft.keepass.free_KEY: |
-  https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free
-
-httpsplay.google.comstoreappsdetails?idcom.lesspass.android_KEY: |
-  https://play.google.com/store/apps/details?id=com.lesspass.android
-
-httpsplay.google.comstoreappsdetails?idcom.etesync.syncadapter_KEY: |
-  https://play.google.com/store/apps/details?id=com.etesync.syncadapter
-
-httpsplay.google.comstoreappsdetails?idorg.sufficientlysecure.keychain_KEY: |
-  https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain
-
-httpsgit.gnupg.orgcgibingitweb.cgi?pgnupg.git_KEY: |
-  https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git
-
-httpsplay.google.comstoreappsdetails?idorg.torproject.torbrowser_KEY: |
-  https://play.google.com/store/apps/details?id=org.torproject.torbrowser
-
-httpsplay.google.comstoreappsdetails?idnet.i2p.android_KEY: |
-  https://play.google.com/store/apps/details?id=net.i2p.android
-
-httpsbugzilla.mozilla.orgshow_bug.cgi?id1500289_KEY: |
-  https://bugzilla.mozilla.org/show_bug.cgi?id=1500289
-
-httpsbugzilla.mozilla.orgshow_bug.cgi?id1542754_KEY: |
-  https://bugzilla.mozilla.org/show_bug.cgi?id=1542754
-
-httpsplay.google.comstoreappsdetails?idcom.standardnotes_KEY: |
-  https://play.google.com/store/apps/details?id=com.standardnotes
-
-httpsplay.google.comstoreappsdetails?idcom.lyonbros.turtl_KEY: |
-  https://play.google.com/store/apps/details?id=com.lyonbros.turtl
-
-httpsplay.google.comstoreappsdetails?idcom.abunchtell.writeas_KEY: |
-  https://play.google.com/store/apps/details?id=com.abunchtell.writeas
-
-What_does_the_US_government_know_about_you?_KEY: |
-  What does the US government know about you?
-
-httpssafariextensions.apple.comdetails?idcom.bitwarden.safariLTZ2PFU5D6_KEY: |
-  https://safari-extensions.apple.com/details/?id=com.bitwarden.safari-LTZ2PFU5D6
-
-httpsplay.google.comstoreappsdetails?idcom.x8bit.bitwarden_KEY: |
-  https://play.google.com/store/apps/details?id=com.x8bit.bitwarden
-
-httpsitunes.apple.comappbitwardenfreepasswordmanagerid1137397744?mt8_KEY: |
-  https://itunes.apple.com/app/bitwarden-free-password-manager/id1137397744?mt=8
-
-httpsplay.google.comstoreappsdetails?idcom.kunzisoft.keepass.free_KEY: |
-  https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free
-
-httpsplay.google.comstoreappsdetails?idcom.lesspass.android_KEY: |
-  https://play.google.com/store/apps/details?id=com.lesspass.android
-
-httpsplay.google.comstoreappsdetails?idcom.abunchtell.writeas_KEY: |
-  https://play.google.com/store/apps/details?id=com.abunchtell.writeas
-
-Who_is_required_to_hand_over_the_encryption_keys_to_authorities?_KEY: |
-  Who is required to hand over the encryption keys to authorities?
-
-Why_is_it_not_recommended_to_choose_a_USbased_service?_KEY: |
-  Why is it not recommended to choose a US-based service?
-
-What_is_a_warrant_canary?_KEY: |
-  What is a warrant canary?
-
-httpsplay.google.comstoreappsdetails?idorg.thoughtcrime.securesms_KEY: |
-  https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms
-
-httpsplay.google.comstoreappsdetails?idcom.wire_KEY: |
-  https://play.google.com/store/apps/details?id=com.wire
-
-httpsitunes.apple.comappwireid930944768?mt8_KEY: |
-  https://itunes.apple.com/app/wire/id930944768?mt=8
-
-httpswww.linphone.orgtechnicalcornerlinphone?qttechnical_corner2qttechnical_corner_KEY: |
-  https://www.linphone.org/technical-corner/linphone?qt-technical_corner=2#qt-technical_corner
-
-httpswww.linphone.orgtechnicalcornerlinphone?qttechnical_corner2qttechnical_corner_KEY: |
-  https://www.linphone.org/technical-corner/linphone?qt-technical_corner=2#qt-technical_corner
-
-httpswww.linphone.orgtechnicalcornerlinphone?qttechnical_corner2qttechnical_corner_KEY: |
-  https://www.linphone.org/technical-corner/linphone?qt-technical_corner=2#qt-technical_corner
-
-httpsplay.google.comstoreappsdetails?idorg.linphone_KEY: |
-  https://play.google.com/store/apps/details?id=org.linphone
-
-httpsitunes.apple.comusapplinphoneid360065638?mt8_KEY: |
-  https://itunes.apple.com/us/app/linphone/id360065638?mt=8
-
-httpsapps.apple.comusappmumbleid443472808?ls1_KEY: |
-  https://apps.apple.com/us/app/mumble/id443472808?ls=1
-
-httpsfdroid.orgrepositorybrowse?fdidim.vector.alpha_KEY: |
-  https://f-droid.org/repository/browse/?fdid=im.vector.alpha
-
-httpsplay.google.comstoreappsdetails?idim.vector.app_KEY: |
-  https://play.google.com/store/apps/details?id=im.vector.app
-
-httpsplay.google.comstoreappsdetails?idchat.rocket.android_KEY: |
-  https://play.google.com/store/apps/details?id=chat.rocket.android
-
-httpsplay.google.comstoreappsdetails?idio.keybase.ossifragehlen_US_KEY: |
-  https://play.google.com/store/apps/details?id=io.keybase.ossifrage&hl=en_US
-
-Why_sponsor__site.name_?_KEY: |
-  Why sponsor {{ site.name }}?
-
-httpsplay.google.comstoreappsdetails?idcom.nextcloud.client_KEY: |
-  https://play.google.com/store/apps/details?id=com.nextcloud.client
-
-httpsitunes.apple.comusappnextcloudid1125420102?mt8_KEY: |
-  https://itunes.apple.com/us/app/nextcloud/id1125420102?mt=8
-
-You_wouldnt_trust_your_finances_to_someone_with_a_fake_identity_so_why_trust_them_with_your_internet_data?_We_require_our_recommended_providers_to_be_KEY: |
-  You wouldn't trust your finances to someone with a fake identity, so why trust them with your internet data? We require our recommended providers to be public about their ownership or leadership. We also would like to see frequent transparency reports, especially in regard to how government requests are handled.
-
-Should_I_use_a_VPN?_KEY: |
-  Should I use a VPN?
-
-What_if_I_need_encryption?_KEY: |
-  What if I need encryption?
-
-Should_I_use_encrypted_DNS_with_a_VPN?_KEY: |
-  Should I use encrypted DNS with a VPN?
-
-What_if_I_need_anonymity?_KEY: |
-  What if I need anonymity?
-
-Shouldnt_I_hide_my_IP_address?_KEY: |
-  Shouldn't I hide my IP address?
-
-Should_I_use_Tor_emandem_a_VPN?_KEY: |
-  Should I use Tor <em>and</em> a VPN?
-
-Are_VPNs_ever_useful?_KEY: |
-  Are VPNs ever useful?
-
-httpsproxy.shpanelknowledgebase.php?actiondisplayarticleid5_KEY: |
-  https://proxy.sh/panel/knowledgebase.php?action=displayarticle&id=5
-
-httpsplay.google.comstoreappsdetails?idorg.mozilla.firefox_KEY: |
-  https://play.google.com/store/apps/details?id=org.mozilla.firefox
-
-httpsplay.google.comstoreappsdetails?idorg.torproject.torbrowser_KEY: |
-  https://play.google.com/store/apps/details?id=org.torproject.torbrowser
-
-httpsplay.google.comstoreappsdetails?idcom.google.android.webviewhlen_US_KEY: |
-  https://play.google.com/store/apps/details?id=com.google.android.webview&hl=en_US
-
-Browser_Fingerprint__Is_your_browser_configuration_unique?_KEY: |
-  Browser Fingerprint - Is your browser configuration unique?
-
-How_Unique_Is_Your_Web_Browser?_Peter_Eckersley_EFF._KEY: |
-  How Unique Is Your Web Browser? Peter Eckersley, EFF.
-
-WebRTC_IP_Leak_Test__Is_your_IP_address_leaking?_KEY: |
-  WebRTC IP Leak Test - Is your IP address leaking?
-
-How_to_disable_WebRTC_in_Firefox?_KEY: |
-  How to disable WebRTC in Firefox?
-
-How_to_fix_the_WebRTC_Leak_in_Google_Chrome?_KEY: |
-  How to fix the WebRTC Leak in Google Chrome?
-
-What_about_other_browsers?_KEY: |
-  What about other browsers?
-
-Looking_for_TRR_DoH_or_ESNI?_KEY: |
-  Looking for TRR, DoH or ESNI?
-
-httpsplay.google.comstoreappsdetails?idcom.etesync.syncadapter_KEY: |
-  https://play.google.com/store/apps/details?id=com.etesync.syncadapter
-
-httpsplay.google.comstoreappsdetails?idcom.nextcloud.client_KEY: |
-  https://play.google.com/store/apps/details?id=com.nextcloud.client
-
-httpsitunes.apple.comusappnextcloudid1125420102?mt8_KEY: |
-  https://itunes.apple.com/us/app/nextcloud/id1125420102?mt=8
-
-httpsbugzilla.mozilla.orgshow_bug.cgi?id1500289_KEY: |
-  https://bugzilla.mozilla.org/show_bug.cgi?id=1500289
-
-httpsbugzilla.mozilla.orgshow_bug.cgi?id1542754_KEY: |
-  https://bugzilla.mozilla.org/show_bug.cgi?id=1542754
-
-httpswww.clawsmail.orgdownloads.php?sectiondownloads_KEY: |
-  https://www.claws-mail.org/downloads.php?section=downloads
-
-httpsplay.google.comstoreappsdetails?idorg.sufficientlysecure.keychain_KEY: |
-  https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain
-
-httpsgit.gnupg.orgcgibingitweb.cgi?pgnupg.git_KEY: |
-  https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git
-
-httpsplay.google.comstoreappsdetails?idorg.mozilla.firefoxsend_KEY: |
-  https://play.google.com/store/apps/details?id=org.mozilla.firefoxsend
-
-httpsplay.google.comstoreappsdetails?idcom.github.catfriend1.syncthingandroid_KEY: |
-  https://play.google.com/store/apps/details?id=com.github.catfriend1.syncthingandroid
-
-httpsgithub.comsyncthing?typesource_KEY: |
-  https://github.com/syncthing?type=source
-
-Prefer_the_classic_site?_View_a_singlepage_layout._KEY: |
-  Prefer the classic site? View a single-page layout.
-
-Privacy?_I_dont_have_anything_to_hide._KEY: |
-  Privacy? I don't have anything to hide.
-
-How_do_you_counter_the_I_have_nothing_to_hide?_argument?_reddit.com_KEY: |
-  How do you counter the "I have nothing to hide?" argument? (reddit.com)
-
-httpspapers.ssrn.comsol3papers.cfm?abstract_id998565_KEY: |
-  https://papers.ssrn.com/sol3/papers.cfm?abstract_id=998565
-
-What_does_the_US_government_know_about_you?_KEY: |
-  What does the US government know about you?
-
-httpsplay.google.comstoreappsdetails?idorg.torproject.torbrowser_KEY: |
-  https://play.google.com/store/apps/details?id=org.torproject.torbrowser
-
-httpsplay.google.comstoreappsdetails?idnet.i2p.android_KEY: |
-  https://play.google.com/store/apps/details?id=net.i2p.android
-
-httpsplay.google.comstoreappsdetails?idcom.standardnotes_KEY: |
-  https://play.google.com/store/apps/details?id=com.standardnotes
-
-httpsplay.google.comstoreappsdetails?idcom.lyonbros.turtl_KEY: |
-  https://play.google.com/store/apps/details?id=com.lyonbros.turtl
-
-Privacy?_I_dont_have_anything_to_hide._KEY: |
-  Privacy? I don't have anything to hide.
-
-How_do_you_counter_the_I_have_nothing_to_hide?_argument?_reddit.com_KEY: |
-  How do you counter the "I have nothing to hide?" argument? (reddit.com)
-
-httpspapers.ssrn.comsol3papers.cfm?abstract_id998565_KEY: |
-  https://papers.ssrn.com/sol3/papers.cfm?abstract_id=998565
-
-Who_is_required_to_hand_over_the_encryption_keys_to_authorities?_KEY: |
-  Who is required to hand over the encryption keys to authorities?
-
-Why_is_it_not_recommended_to_choose_a_USbased_service?_KEY: |
-  Why is it not recommended to choose a US-based service?
-
-What_is_a_warrant_canary?_KEY: |
-  What is a warrant canary?
-
-httpsplay.google.comstoreappsdetails?idorg.mozilla.firefox_KEY: |
-  https://play.google.com/store/apps/details?id=org.mozilla.firefox
-
-httpsplay.google.comstoreappsdetails?idorg.torproject.torbrowser_KEY: |
-  https://play.google.com/store/apps/details?id=org.torproject.torbrowser
-
-httpsplay.google.comstoreappsdetails?idcom.google.android.webviewhlen_US_KEY: |
-  https://play.google.com/store/apps/details?id=com.google.android.webview&hl=en_US
-
-Browser_Fingerprint__Is_your_browser_configuration_unique?_KEY: |
-  Browser Fingerprint - Is your browser configuration unique?
-
-How_Unique_Is_Your_Web_Browser?_Peter_Eckersley_EFF._KEY: |
-  How Unique Is Your Web Browser? Peter Eckersley, EFF.
-
-WebRTC_IP_Leak_Test__Is_your_IP_address_leaking?_KEY: |
-  WebRTC IP Leak Test - Is your IP address leaking?
-
-How_to_disable_WebRTC_in_Firefox?_KEY: |
-  How to disable WebRTC in Firefox?
-
-How_to_fix_the_WebRTC_Leak_in_Google_Chrome?_KEY: |
-  How to fix the WebRTC Leak in Google Chrome?
-
-What_about_other_browsers?_KEY: |
-  What about other browsers?
-
-Looking_for_TRR_DoH_or_ESNI?_KEY: |
-  Looking for TRR, DoH or ESNI?
-
-httpswww.clawsmail.orgdownloads.php?sectiondownloads_KEY: |
-  https://www.claws-mail.org/downloads.php?section=downloads
-
-httpsplay.google.comstoreappsdetails?idorg.thoughtcrime.securesms_KEY: |
-  https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms
-
-httpsplay.google.comstoreappsdetails?idcom.wire_KEY: |
-  https://play.google.com/store/apps/details?id=com.wire
-
-httpsitunes.apple.comappwireid930944768?mt8_KEY: |
-  https://itunes.apple.com/app/wire/id930944768?mt=8
-
-httpswww.linphone.orgtechnicalcornerlinphone?qttechnical_corner2qttechnical_corner_KEY: |
-  https://www.linphone.org/technical-corner/linphone?qt-technical_corner=2#qt-technical_corner
-
-httpswww.linphone.orgtechnicalcornerlinphone?qttechnical_corner2qttechnical_corner_KEY: |
-  https://www.linphone.org/technical-corner/linphone?qt-technical_corner=2#qt-technical_corner
-
-httpswww.linphone.orgtechnicalcornerlinphone?qttechnical_corner2qttechnical_corner_KEY: |
-  https://www.linphone.org/technical-corner/linphone?qt-technical_corner=2#qt-technical_corner
-
-httpsplay.google.comstoreappsdetails?idorg.linphone_KEY: |
-  https://play.google.com/store/apps/details?id=org.linphone
-
-httpsitunes.apple.comusapplinphoneid360065638?mt8_KEY: |
-  https://itunes.apple.com/us/app/linphone/id360065638?mt=8
-
-httpsapps.apple.comusappmumbleid443472808?ls1_KEY: |
-  https://apps.apple.com/us/app/mumble/id443472808?ls=1
-
-httpsfdroid.orgrepositorybrowse?fdidim.vector.alpha_KEY: |
-  https://f-droid.org/repository/browse/?fdid=im.vector.alpha
-
-httpsplay.google.comstoreappsdetails?idim.vector.app_KEY: |
-  https://play.google.com/store/apps/details?id=im.vector.app
-
-httpsplay.google.comstoreappsdetails?idchat.rocket.android_KEY: |
-  https://play.google.com/store/apps/details?id=chat.rocket.android
-
-httpsplay.google.comstoreappsdetails?idio.keybase.ossifragehlen_US_KEY: |
-  https://play.google.com/store/apps/details?id=io.keybase.ossifrage&hl=en_US
-
-httpsplay.google.comstoreappsdetails?idorg.mozilla.firefoxsend_KEY: |
-  https://play.google.com/store/apps/details?id=org.mozilla.firefoxsend
-
-httpsplay.google.comstoreappsdetails?idcom.nextcloud.client_KEY: |
-  https://play.google.com/store/apps/details?id=com.nextcloud.client
-
-httpsitunes.apple.comusappnextcloudid1125420102?mt8_KEY: |
-  https://itunes.apple.com/us/app/nextcloud/id1125420102?mt=8
-
-httpsplay.google.comstoreappsdetails?idcom.nextcloud.client_KEY: |
-  https://play.google.com/store/apps/details?id=com.nextcloud.client
-
-httpsitunes.apple.comusappnextcloudid1125420102?mt8_KEY: |
-  https://itunes.apple.com/us/app/nextcloud/id1125420102?mt=8
-
-httpsplay.google.comstoreappsdetails?idcom.github.catfriend1.syncthingandroid_KEY: |
-  https://play.google.com/store/apps/details?id=com.github.catfriend1.syncthingandroid
-
-httpsgithub.comsyncthing?typesource_KEY: |
-  https://github.com/syncthing?type=source
-
-httpssafariextensions.apple.comdetails?idcom.bitwarden.safariLTZ2PFU5D6_KEY: |
-  https://safari-extensions.apple.com/details/?id=com.bitwarden.safari-LTZ2PFU5D6
-
-httpsplay.google.comstoreappsdetails?idcom.x8bit.bitwarden_KEY: |
-  https://play.google.com/store/apps/details?id=com.x8bit.bitwarden
-
-httpsitunes.apple.comappbitwardenfreepasswordmanagerid1137397744?mt8_KEY: |
-  https://itunes.apple.com/app/bitwarden-free-password-manager/id1137397744?mt=8
-
-httpsplay.google.comstoreappsdetails?idcom.kunzisoft.keepass.free_KEY: |
-  https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free
-
-httpsplay.google.comstoreappsdetails?idcom.lesspass.android_KEY: |
-  https://play.google.com/store/apps/details?id=com.lesspass.android
-
-httpsplay.google.comstoreappsdetails?idcom.etesync.syncadapter_KEY: |
-  https://play.google.com/store/apps/details?id=com.etesync.syncadapter
-
-httpsplay.google.comstoreappsdetails?idorg.sufficientlysecure.keychain_KEY: |
-  https://play.google.com/store/apps/details?id=org.sufficientlysecure.keychain
-
-httpsgit.gnupg.orgcgibingitweb.cgi?pgnupg.git_KEY: |
-  https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git
-
-httpsplay.google.comstoreappsdetails?idorg.torproject.torbrowser_KEY: |
-  https://play.google.com/store/apps/details?id=org.torproject.torbrowser
-
-httpsplay.google.comstoreappsdetails?idnet.i2p.android_KEY: |
-  https://play.google.com/store/apps/details?id=net.i2p.android
-
-httpsbugzilla.mozilla.orgshow_bug.cgi?id1500289_KEY: |
-  https://bugzilla.mozilla.org/show_bug.cgi?id=1500289
-
-httpsbugzilla.mozilla.orgshow_bug.cgi?id1542754_KEY: |
-  https://bugzilla.mozilla.org/show_bug.cgi?id=1542754
-
-httpsplay.google.comstoreappsdetails?idcom.standardnotes_KEY: |
-  https://play.google.com/store/apps/details?id=com.standardnotes
-
-httpsplay.google.comstoreappsdetails?idcom.lyonbros.turtl_KEY: |
-  https://play.google.com/store/apps/details?id=com.lyonbros.turtl
-
-httpsplay.google.comstoreappsdetails?idcom.abunchtell.writeas_KEY: |
-  https://play.google.com/store/apps/details?id=com.abunchtell.writeas
-
-What_does_the_US_government_know_about_you?_KEY: |
-  What does the US government know about you?
-
-httpssafariextensions.apple.comdetails?idcom.bitwarden.safariLTZ2PFU5D6_KEY: |
-  https://safari-extensions.apple.com/details/?id=com.bitwarden.safari-LTZ2PFU5D6
-
-httpsplay.google.comstoreappsdetails?idcom.x8bit.bitwarden_KEY: |
-  https://play.google.com/store/apps/details?id=com.x8bit.bitwarden
-
-httpsitunes.apple.comappbitwardenfreepasswordmanagerid1137397744?mt8_KEY: |
-  https://itunes.apple.com/app/bitwarden-free-password-manager/id1137397744?mt=8
-
-httpsplay.google.comstoreappsdetails?idcom.kunzisoft.keepass.free_KEY: |
-  https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free
-
-httpsplay.google.comstoreappsdetails?idcom.lesspass.android_KEY: |
-  https://play.google.com/store/apps/details?id=com.lesspass.android
-
-httpsplay.google.comstoreappsdetails?idcom.abunchtell.writeas_KEY: |
-  https://play.google.com/store/apps/details?id=com.abunchtell.writeas
-
-Who_is_required_to_hand_over_the_encryption_keys_to_authorities?_KEY: |
-  Who is required to hand over the encryption keys to authorities?
-
-Why_is_it_not_recommended_to_choose_a_USbased_service?_KEY: |
-  Why is it not recommended to choose a US-based service?
-
-What_is_a_warrant_canary?_KEY: |
-  What is a warrant canary?
-
-httpsplay.google.comstoreappsdetails?idorg.thoughtcrime.securesms_KEY: |
-  https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms
-
-httpsplay.google.comstoreappsdetails?idcom.wire_KEY: |
-  https://play.google.com/store/apps/details?id=com.wire
-
-httpsitunes.apple.comappwireid930944768?mt8_KEY: |
-  https://itunes.apple.com/app/wire/id930944768?mt=8
-
-httpswww.linphone.orgtechnicalcornerlinphone?qttechnical_corner2qttechnical_corner_KEY: |
-  https://www.linphone.org/technical-corner/linphone?qt-technical_corner=2#qt-technical_corner
-
-httpswww.linphone.orgtechnicalcornerlinphone?qttechnical_corner2qttechnical_corner_KEY: |
-  https://www.linphone.org/technical-corner/linphone?qt-technical_corner=2#qt-technical_corner
-
-httpswww.linphone.orgtechnicalcornerlinphone?qttechnical_corner2qttechnical_corner_KEY: |
-  https://www.linphone.org/technical-corner/linphone?qt-technical_corner=2#qt-technical_corner
-
-httpsplay.google.comstoreappsdetails?idorg.linphone_KEY: |
-  https://play.google.com/store/apps/details?id=org.linphone
-
-httpsitunes.apple.comusapplinphoneid360065638?mt8_KEY: |
-  https://itunes.apple.com/us/app/linphone/id360065638?mt=8
-
-httpsapps.apple.comusappmumbleid443472808?ls1_KEY: |
-  https://apps.apple.com/us/app/mumble/id443472808?ls=1
-
-httpsfdroid.orgrepositorybrowse?fdidim.vector.alpha_KEY: |
-  https://f-droid.org/repository/browse/?fdid=im.vector.alpha
-
-httpsplay.google.comstoreappsdetails?idim.vector.app_KEY: |
-  https://play.google.com/store/apps/details?id=im.vector.app
-
-httpsplay.google.comstoreappsdetails?idchat.rocket.android_KEY: |
-  https://play.google.com/store/apps/details?id=chat.rocket.android
-
-httpsplay.google.comstoreappsdetails?idio.keybase.ossifragehlen_US_KEY: |
-  https://play.google.com/store/apps/details?id=io.keybase.ossifrage&hl=en_US
-
-Why_sponsor__site.name_?_KEY: |
-  Why sponsor {{ site.name }}?
-
-httpsplay.google.comstoreappsdetails?idcom.nextcloud.client_KEY: |
-  https://play.google.com/store/apps/details?id=com.nextcloud.client
-
-httpsitunes.apple.comusappnextcloudid1125420102?mt8_KEY: |
-  https://itunes.apple.com/us/app/nextcloud/id1125420102?mt=8
-
-You_wouldnt_trust_your_finances_to_someone_with_a_fake_identity_so_why_trust_them_with_your_internet_data?_We_require_our_recommended_providers_to_be_KEY: |
-  You wouldn't trust your finances to someone with a fake identity, so why trust them with your internet data? We require our recommended providers to be public about their ownership or leadership. We also would like to see frequent transparency reports, especially in regard to how government requests are handled.
-
-Should_I_use_a_VPN?_KEY: |
-  Should I use a VPN?
-
-What_if_I_need_encryption?_KEY: |
-  What if I need encryption?
-
-Should_I_use_encrypted_DNS_with_a_VPN?_KEY: |
-  Should I use encrypted DNS with a VPN?
-
-What_if_I_need_anonymity?_KEY: |
-  What if I need anonymity?
-
-Shouldnt_I_hide_my_IP_address?_KEY: |
-  Shouldn't I hide my IP address?
-
-Should_I_use_Tor_emandem_a_VPN?_KEY: |
-  Should I use Tor <em>and</em> a VPN?
-
-Are_VPNs_ever_useful?_KEY: |
-  Are VPNs ever useful?
-
-httpsproxy.shpanelknowledgebase.php?actiondisplayarticleid5_KEY: |
-  https://proxy.sh/panel/knowledgebase.php?action=displayarticle&id=5
 

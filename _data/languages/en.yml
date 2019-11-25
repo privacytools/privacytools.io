@@ -11,10 +11,28 @@ Web_Browsers_KEY: |
 These_are_our_current_web_browser_recommendations_and_some_tweaks_you_can_use_to_preserve_your_privacy._KEY: |
   ZZ
 
+CalendarContacts_Sync_Tools_KEY: |
+  ZZ
+
+Discover_free_opensource_and_secure_ways_to_sync_your_contacts_and_calendars_across_your_devices._KEY: |
+  ZZ
+
+Self_Hosted_Cloud_KEY: |
+  ZZ
+
+Discover_how_to_securely_and_privately_selfhost_your_cloud_with_opensource_software._KEY: |
+  ZZ
+
 DNS__Domain_Providers_KEY: |
   ZZ
 
 Dont_let_Google_see_all_your_DNS_traffic._Discover_privacycentric_alternatives_to_the_traditional_DNS_providers._KEY: |
+  ZZ
+
+Email_Clients_KEY: |
+  ZZ
+
+Discover_free_opensource_and_secure_email_clients_along_with_some_email_alternatives_you_may_not_have_considered._KEY: |
   ZZ
 
 Best_Secure_Email_Providers_for_Privacy_KEY: |
@@ -23,10 +41,46 @@ Best_Secure_Email_Providers_for_Privacy_KEY: |
 Find_a_secure_email_provider_that_will_keep_your_privacy_in_mind._Dont_settle_for_adsupported_platforms._Never_trust_any_company_with_your_privacy_a_KEY: |
   ZZ
 
+Encryption_Tools_KEY: |
+  ZZ
+
+Discover_free_opensource_and_secure_ways_to_encrypt_your_sensitive_data_to_keep_it_from_prying_eyes._KEY: |
+  ZZ
+
+File_Sharing_KEY: |
+  ZZ
+
+Discover_how_to_share_your_files_with_your_friends_and_family_or_anonymously_without_a_middleman._KEY: |
+  ZZ
+
+File_Sync_KEY: |
+  ZZ
+
+Discover_free_opensource_and_secure_ways_to_sync_your_files_across_your_devices._KEY: |
+  ZZ
+
 Web_Hosting_KEY: |
   ZZ
 
 Find_a_web_hosting_provider_that_wont_track_your_visitors_or_give_into_government_data_requests._KEY: |
+  ZZ
+
+SelfContained_Networks_KEY: |
+  ZZ
+
+If_you_are_currently_browsing_clearnet_and_want_to_access_the_dark_web_this_section_is_for_you._KEY: |
+  ZZ
+
+Notebooks_KEY: |
+  ZZ
+
+Keep_track_of_your_notes_and_journalings_without_giving_them_to_a_third_party._KEY: |
+  ZZ
+
+Password_Managers_KEY: |
+  ZZ
+
+Stay_safe_and_secure_online_with_an_encrypted_and_opensource_password_manager._KEY: |
   ZZ
 
 Pastebin_hosting_services_KEY: |
@@ -35,10 +89,22 @@ Pastebin_hosting_services_KEY: |
 Find_a_pastebin_provider_that_wont_read_your_content_to_share_sensitive_code_or_other_information._KEY: |
   ZZ
 
+Productivity_Tools_KEY: |
+  ZZ
+
+Get_working_and_collaborating_without_sharing_your_documents_with_a_middleman_or_trusting_a_cloud_provider._KEY: |
+  ZZ
+
 Providers_KEY: |
   ZZ
 
 Theres_a_ton_of_people_providing_services_online._Discover_which_ones_you_should_avoid_and_our_recommendations_for_a_variety_of_services._KEY: |
+  ZZ
+
+RealTime_Communication_KEY: |
+  ZZ
+
+Discover_secure_and_private_ways_to_communicate_with_others_online_without_letting_any_third_parties_read_your_messages._KEY: |
   ZZ
 
 Search_Engines_KEY: |
@@ -122,37 +188,19 @@ Firefox_Tweaks_KEY: |
 Software_KEY: |
   ZZ
 
-CalendarContacts_Sync_Tools_KEY: |
-  ZZ
-
 Digital_Notebook_KEY: |
   ZZ
 
 Email_Alternatives_KEY: |
   ZZ
 
-Email_Clients_KEY: |
-  ZZ
-
 File_Encryption_KEY: |
-  ZZ
-
-File_Sharing_KEY: |
-  ZZ
-
-File_Sync_KEY: |
   ZZ
 
 Metadata_Removal_Tools_KEY: |
   ZZ
 
 Password_Manager_KEY: |
-  ZZ
-
-Productivity_Tools_KEY: |
-  ZZ
-
-RealTime_Communication_KEY: |
   ZZ
 
 Selfcontained_Networks_KEY: |
@@ -1058,6 +1106,12 @@ Firefox_Privacy_Guide_For_Dummies_KEY: |
 Guide_on_ways_already_discussed_and_others_to_improve_your_privacy_and_safety_on_Firefox._KEY: |
   ZZ
 
+Calendar_and_Contacts_Sync_KEY: |
+  ZZ
+
+If_you_are_currently_using_a_calendar_and_or_contacts_synchronization_service_like_Google_Sync_or_iCloud_you_should_pick_an_alternative_here._KEY: |
+  ZZ
+
 Nextcloud_KEY: |
   ZZ
 
@@ -1085,10 +1139,10 @@ httpsgithub.comnextcloud_KEY: |
 Email_Providers_KEY: |
   ZZ
 
-Many_email_providers_also_offer_calendar_and_or_contacts_sync_services._Refer_to_the_a_hrefprovidersemailEmail_Providers_sectiona_to_choose_a_KEY: |
+Many_email_providers_also_offer_calendar_and_or_contacts_sync_services._Refer_to_the_a_hrefprovidersemail__translate_page_Email_Providers_KEY: |
   ZZ
 
-providersemail_KEY: |
+providersemail__translate_page__KEY: |
   ZZ
 
 EteSync_KEY: |
@@ -1113,6 +1167,30 @@ httpsclient.etesync.com_KEY: |
   ZZ
 
 httpsgithub.cometesync_KEY: |
+  ZZ
+
+Worth_Mentioning_KEY: |
+  ZZ
+
+httpsfruux.com_KEY: |
+  ZZ
+
+fruux_KEY: |
+  ZZ
+
+A_unified_contactscalendaring_system_that_works_across_platforms_and_devices._KEY: |
+  ZZ
+
+cloud_backups_KEY: |
+  ZZ
+
+Consider_regularly_exporting_your_calendar_and_or_contacts_and_backing_them_up_on_a_separate_storage_drive_or_uploading_them_to_cloud_storage_ideally__KEY: |
+  ZZ
+
+SelfHosted_Cloud_Server_Software_KEY: |
+  ZZ
+
+If_you_are_currently_using_a_Cloud_Storage_Services_like_Dropbox_Google_Drive_Microsoft_OneDrive_or_Apple_iCloud_you_should_think_about_hosting_it_o_KEY: |
   ZZ
 
 Nextcloud_is_similar_in_functionality_to_the_widely_used_Dropbox_with_the_difference_being_that_Nextcloud_is_free_and_opensource_thereby_allowing_an_KEY: |
@@ -1152,6 +1230,15 @@ httppkgsrc.sefilesystemstahoelafs_KEY: |
   ZZ
 
 httpswww.tahoelafs.orgtractahoelafsbrowser_KEY: |
+  ZZ
+
+httpsgithub.comxwikilabscryptpad_KEY: |
+  ZZ
+
+CryptPad_KEY: |
+  ZZ
+
+An_opensource_and_endtoend_encrypted_realtime_collaborative_editor_that_lets_you_share_folders_media_and_documents._KEY: |
   ZZ
 
 Domain_Name_System_DNS_KEY: |
@@ -1856,6 +1943,81 @@ httppkgsrc.semailclawsmail_KEY: |
 httpsgit.clawsmail.org_KEY: |
   ZZ
 
+Privacy_Email_Tools_KEY: |
+  ZZ
+
+httpswww.gpg4usb.org_KEY: |
+  ZZ
+
+gpg4usb_KEY: |
+  ZZ
+
+A_very_easy_to_use_and_small_portable_editor_to_encrypt_and_decrypt_any_textmessage_or_file._For_Windows_and_Linux._a_hrefhttpstheprivacyguide._KEY: |
+  ZZ
+
+httpswww.mailvelope.com_KEY: |
+  ZZ
+
+Mailvelope_KEY: |
+  ZZ
+
+A_browser_extension_that_enables_the_exchange_of_encrypted_emails_following_the_a_hrefhttpstheprivacyguide.orgtutorialspgp.htmlOpenPGP_encryp_KEY: |
+  ZZ
+
+httpswww.enigmail.net_KEY: |
+  ZZ
+
+Enigmail_KEY: |
+  ZZ
+
+A_security_extension_to_Thunderbird_and_Seamonkey._It_enables_you_to_write_and_receive_email_messages_signed_andor_encrypted_with_the_a_hrefhttps_KEY: |
+  ZZ
+
+httpsaddons.thunderbird.netthunderbirdaddontorbirdy_KEY: |
+  ZZ
+
+TorBirdy_KEY: |
+  ZZ
+
+TorBirdy_configures_Thunderbird_to_make_connections_over_the_Tor_anonymity_network._This_extension_is_in_beta_and_should_be_considered_experimental._KEY: |
+  ZZ
+
+httpswww.emailprivacytester.com_KEY: |
+  ZZ
+
+Email_Privacy_Tester_KEY: |
+  ZZ
+
+This_tool_will_send_an_Email_to_your_address_and_perform_privacyrelated_tests._KEY: |
+  ZZ
+
+httpsgithub.comk9mailk9releases_KEY: |
+  ZZ
+
+K9_Mail_KEY: |
+  ZZ
+
+An_independent_mail_application_for_Android._It_supports_both_POP3_and_IMAP_mailboxes_but_only_supports_push_mail_for_IMAP._KEY: |
+  ZZ
+
+httpswww.gnupg.org_KEY: |
+  ZZ
+
+GNU_Privacy_Guard_KEY: |
+  ZZ
+
+Email_Encryption._GnuPG_is_a_GPL_Licensed_alternative_to_the_PGP_suite_of_cryptographic_software._a_hrefhttpstheprivacyguide.orgtutorialsgpg.ht_KEY: |
+  ZZ
+
+httpswww.mailpile.is_KEY: |
+  ZZ
+
+Mailpile_Beta_KEY: |
+  ZZ
+
+A_modern_fast_webmail_client_with_userfriendly_encryption_and_privacy_features._KEY: |
+  ZZ
+
 Bitmessage_KEY: |
   ZZ
 
@@ -1896,6 +2058,15 @@ httpsretroshare.ccdownloads.htmlfreebsd_KEY: |
   ZZ
 
 httpsgithub.comRetroShareRetroShare_KEY: |
+  ZZ
+
+httpsi2pbote.xyz_KEY: |
+  ZZ
+
+I2PBote_KEY: |
+  ZZ
+
+Endtoend_encrypted_decentralized_mail_system_within_the_I2P_network._KEY: |
   ZZ
 
 PrivacyConscious_Email_Providers__No_Affiliates_KEY: |
@@ -2036,6 +2207,12 @@ AutisticiInventati_server_compromised_KEY: |
 The_cryptographic_services_offered_by_the_AutisticiInventati_server_have_been_compromised_on_15th_June_2004._It_was_discovered_on_21st_June_2005._One__KEY: |
   ZZ
 
+File_Encryption_Software_KEY: |
+  ZZ
+
+If_you_are_currently_not_using_encryption_software_for_your_hard_disk_emails_or_file_archives_you_should_pick_one_here._KEY: |
+  ZZ
+
 VeraCrypt__Disk_Encryption_KEY: |
   ZZ
 
@@ -2111,6 +2288,45 @@ httpswww.peazip.orgpeazipbsd.html_KEY: |
 httpsosdn.netprojectspeazip_KEY: |
   ZZ
 
+httpscryptomator.org_KEY: |
+  ZZ
+
+Cryptomator_KEY: |
+  ZZ
+
+Free_clientside_AES_encryption_for_your_cloud_files._Open_source_software_No_backdoors_no_registration._KEY: |
+  ZZ
+
+Cryptomators_mobile_apps_are_not_opensource._KEY: |
+  ZZ
+
+httpsgitlab.comcryptsetupcryptsetup_KEY: |
+  ZZ
+
+Linux_Unified_Key_Setup_LUKS_KEY: |
+  ZZ
+
+A_full_disk_encryption_system_for_Linux_using_dmcrypt_as_the_disk_encryption_backend._Included_by_default_in_Ubuntu._Available_for_Windows_and_Linux._KEY: |
+  ZZ
+
+httpshat.sh_KEY: |
+  ZZ
+
+Hat.sh_KEY: |
+  ZZ
+
+A_crossplatform_serverless_JavaScript_web_application_that_provides_secure_file_encryption_using_the_AES256GCM_algorithm_in_your_browser._It_can_al_KEY: |
+  ZZ
+
+httpswww.keka.io_KEY: |
+  ZZ
+
+Keka_KEY: |
+  ZZ
+
+A_macOSonly_opensource_file_archiver_with_the_ability_to_encrypt_files._KEY: |
+  ZZ
+
 Firefox_Send_KEY: |
   ZZ
 
@@ -2168,6 +2384,24 @@ httpspypi.orgprojectmagicwormhole_KEY: |
 httpsgithub.comwarnermagicwormhole_KEY: |
   ZZ
 
+httpsgithub.comschollzcroc_KEY: |
+  ZZ
+
+croc_KEY: |
+  ZZ
+
+Easily_and_securely_send_things_from_one_computer_to_another._KEY: |
+  ZZ
+
+httpsfreedombox.org_KEY: |
+  ZZ
+
+FreedomBox_KEY: |
+  ZZ
+
+Designed_to_be_your_own_inexpensive_server_at_home._It_runs_free_software_and_offers_an_increasing_number_of_services_ranging_from_a_calendar_or_Jabber_KEY: |
+  ZZ
+
 Syncthing_KEY: |
   ZZ
 
@@ -2208,6 +2442,15 @@ httpswww.sparkleshare.org_KEY: |
   ZZ
 
 httpsgithub.comhbonsSparkleShare_KEY: |
+  ZZ
+
+httpsgitannex.branchable.com_KEY: |
+  ZZ
+
+gitannex_KEY: |
+  ZZ
+
+Allows_managing_files_with_git_without_checking_the_file_contents_into_git._While_that_may_seem_paradoxical_it_is_useful_when_dealing_with_files_larg_KEY: |
   ZZ
 
 Secure_Hosting_Provider_KEY: |
@@ -2633,6 +2876,9 @@ GitHub_KEY: |
 This_is_a_community_project_aiming_to_deliver_the_best_information_available_to_improve_privacy_online._Thank_you_for_participating._This_project_needs_KEY: |
   ZZ
 
+If_you_are_currently_browsing_a_hrefhttpsen.wikipedia.orgwikiSurface_Webclearneta_and_want_to_access_the_a_hrefhttpsen.wikipedia.org_KEY: |
+  ZZ
+
 The_Tor_network_is_a_group_of_volunteeroperated_servers_that_allows_people_to_improve_their_privacy_and_security_on_the_Internet._Tors_users_employ_t_KEY: |
   ZZ
 
@@ -2717,6 +2963,72 @@ httpsfreenetproject.orgpagesdownload.htmlgnulinuxposix_KEY: |
 httpsgithub.comfreenet_KEY: |
   ZZ
 
+httpsdarknetdiaries.com_KEY: |
+  ZZ
+
+darknetdiaries.com_KEY: |
+  ZZ
+
+True_stories_from_the_dark_side_of_the_Internet._KEY: |
+  ZZ
+
+httpszeronet.io_KEY: |
+  ZZ
+
+ZeroNet_KEY: |
+  ZZ
+
+Open_free_and_uncensorable_websites_using_Bitcoin_cryptography_and_BitTorrent_network._KEY: |
+  ZZ
+
+Your_IP_address_isnt_hidden_by_default_and_wont_be_unless_you_enforce_Tor_usage._KEY: |
+  ZZ
+
+privacy_warning_KEY: |
+  ZZ
+
+An_open_source_crossplatform_friendtofriend_secure_and_decentralized_communication_platform._KEY: |
+  ZZ
+
+httpsgnunet.org_KEY: |
+  ZZ
+
+GNUnet_KEY: |
+  ZZ
+
+GNUnet_provides_a_strong_foundation_of_free_software_for_a_global_distributed_network_that_provides_security_and_privacy._KEY: |
+  ZZ
+
+httpsipfs.ioIPFSa_emandem_a_hrefhttpsgithub.comipfsshipyardipfscompanionIPFS_Companiona_KEY: |
+  ZZ
+
+A_peertopeer_hypermedia_protocol_to_make_the_web_faster_safer_and_more_open._IPFS_Companion_is_a_browser_extension_for_redirecting_queries_to_a_gat_KEY: |
+  ZZ
+
+Important_privacy_warning_KEY: |
+  ZZ
+
+httpsyggdrasilnetwork.github.io_KEY: |
+  ZZ
+
+Yggdrasil_KEY: |
+  ZZ
+
+An_earlystage_implementation_of_a_fully_endtoend_encrypted_IPv6_network._It_is_lightweight_selfarranging_supported_on_multiple_platforms_and_all_KEY: |
+  ZZ
+
+The_project_is_currently_in_early_stages_but_it_is_being_actively_developed._KEY: |
+  ZZ
+
+experimental_KEY: |
+  ZZ
+
+Yggdrasil_doesnt_have_a_goal_of_providing_anonymity_and_your_peers_know_your_IP_address_unless_you_are_only_using_TorI2P_peers._KEY: |
+  ZZ
+
+If_you_are_currently_using_an_application_like_Evernote_Google_Keep_or_Microsoft_OneNote_you_should_pick_an_alternative_here._KEY: |
+  ZZ
+
 Joplin_KEY: |
   ZZ
 
@@ -2799,6 +3111,42 @@ httpsplay.google.comstoreappsdetails?idcom.lyonbros.turtl_KEY: |
   ZZ
 
 httpsgithub.comturtl_KEY: |
+  ZZ
+
+Warning_KEY: |
+  ZZ
+
+Note_As_of_Dec_2018_Joplin_does_not_support_passwordpin_protection_for_the_application_itself_or_individual_notesnotebooks._Data_is_still_encrypted_KEY: |
+  ZZ
+
+See_a_hrefhttpsgithub.comlaurent22joplinissues289open_issuea._KEY: |
+  ZZ
+
+httpsgithub.comnotablenotable_KEY: |
+  ZZ
+
+Notable_KEY: |
+  ZZ
+
+The_markdownbased_notetaking_app_that_doesnt_suck._KEY: |
+  ZZ
+
+httpspaperwork.cloud_KEY: |
+  ZZ
+
+Paperwork_KEY: |
+  ZZ
+
+An_opensource_and_selfhosted_solution._For_PHP__MySQL_servers._KEY: |
+  ZZ
+
+httpsorgmode.org_KEY: |
+  ZZ
+
+Orgmode_KEY: |
+  ZZ
+
+A_major_mode_for_GNU_Emacs._Orgmode_is_for_keeping_notes_maintaining_TODO_lists_planning_projects_and_authoring_documents_with_a_fast_and_effective_KEY: |
   ZZ
 
 Privacy?_I_dont_have_anything_to_hide._KEY: |
@@ -3332,9 +3680,6 @@ Firefox_extension_that_prevents_Google_and_Yandex_search_pages_from_modifying_se
 Open_Source_KEY: |
   ZZ
 
-Worth_Mentioning_KEY: |
-  ZZ
-
 httpsyacy.net_KEY: |
   ZZ
 
@@ -3369,6 +3714,12 @@ Mojeek_KEY: |
   ZZ
 
 Independent_and_unbiased_search_results_with_no_user_tracking._KEY: |
+  ZZ
+
+Encrypted_Instant_Messenger_KEY: |
+  ZZ
+
+If_you_are_currently_using_an_Instant_Messenger_like_Telegram_LINE_Viber_a_hrefhttpswww.eff.orgdeeplinks201610wherewhatsappwentwrongef_KEY: |
   ZZ
 
 Signal_KEY: |
@@ -3428,6 +3779,189 @@ httpsapp.wire.com_KEY: |
 httpsgithub.comwireapp_KEY: |
   ZZ
 
+Complete_Comparison_KEY: |
+  ZZ
+
+httpssecurechatguide.orgeffguide.html_KEY: |
+  ZZ
+
+securechatguide.org_KEY: |
+  ZZ
+
+Guide_to_Choosing_a_Messenger._KEY: |
+  ZZ
+
+httpswww.securemessagingapps.com_KEY: |
+  ZZ
+
+securemessagingapps.com_KEY: |
+  ZZ
+
+Secure_Messaging_Apps_Comparison._KEY: |
+  ZZ
+
+httpswww.thinkprivacy.iomessengers.html_KEY: |
+  ZZ
+
+thinkprivacy.io_KEY: |
+  ZZ
+
+Simple_Secure_Messaging_Apps_Comparison._KEY: |
+  ZZ
+
+httpsbriarproject.org_KEY: |
+  ZZ
+
+Briar_KEY: |
+  ZZ
+
+An_ultrasecure_peertopeer_instant_messenger_that_connects_to_contacts_via_Direct_WiFi_Bluetooth_or_Tor_over_the_internet_keeping_its_users_prote_KEY: |
+  ZZ
+
+httpsabout.riot.im_KEY: |
+  ZZ
+
+Riot_KEY: |
+  ZZ
+
+An_opensource_federated_messenger_that_utilizes_the_Matrix_protocol._This_application_is_primarily_recommended_as_a_large_groupteam_chat_solution._W_KEY: |
+  ZZ
+
+An_endtoend_encrypted_instant_messaging_and_voicevideo_call_client._RetroShare_supports_both_TOR_and_I2P._KEY: |
+  ZZ
+
+httpsxmpp.org_KEY: |
+  ZZ
+
+XMPP_KEY: |
+  ZZ
+
+Federated_instant_messaging_protocol_with_a_hrefhttpsconversations.imomemoOMEMOa_OTR_or_OpenPGP_endtoend_encryption_KEY: |
+  ZZ
+
+httpsconversations.im_KEY: |
+  ZZ
+
+Conversations_KEY: |
+  ZZ
+
+Android_KEY: |
+  ZZ
+
+An_opensource_JabberXMPP_client_for_Android_4.4_smartphones._KEY: |
+  ZZ
+
+OMEMO_KEY: |
+  ZZ
+
+httpsgajim.org_KEY: |
+  ZZ
+
+Gajim_KEY: |
+  ZZ
+
+FreeBSD_Linux_Windows_KEY: |
+  ZZ
+
+An_opensource_fully_featured_XMPP_client._KEY: |
+  ZZ
+
+httpsmonal.im_KEY: |
+  ZZ
+
+Monal_KEY: |
+  ZZ
+
+iOS_MacOS_KEY: |
+  ZZ
+
+An_XMPP_client_in_active_development._KEY: |
+  ZZ
+
+httpsomemo.top_KEY: |
+  ZZ
+
+Other_OMEMOready_clients_KEY: |
+  ZZ
+
+httpswww.kontalk.org_KEY: |
+  ZZ
+
+Kontalk_KEY: |
+  ZZ
+
+A_communitydriven_instant_messaging_network._Supports_endtoend_encryption._Both_clienttoserver_and_servertoserver_channels_are_fully_encrypted._KEY: |
+  ZZ
+
+httpskeybase.io_KEY: |
+  ZZ
+
+Keybase_KEY: |
+  ZZ
+
+This_software_relies_on_a_closedsource_central_server._KEY: |
+  ZZ
+
+Endtoend_encrypted_messaging_with_social_verification._KEY: |
+  ZZ
+
+httpsstatus.im_KEY: |
+  ZZ
+
+Status_KEY: |
+  ZZ
+
+Experimental_KEY: |
+  ZZ
+
+A_free_and_opensource_peertopeer_encrypted_instant_messanger_with_support_for_DAPPs._KEY: |
+  ZZ
+
+httpstox.chat_KEY: |
+  ZZ
+
+Tox_KEY: |
+  ZZ
+
+A_free_and_opensource_peertopeer_encrypted_instant_messaging_and_video_calling_software._KEY: |
+  ZZ
+
+httpsjami.net_KEY: |
+  ZZ
+
+Jami_formerly_RingSFLphone_KEY: |
+  ZZ
+
+Gives_you_full_control_over_your_communications_and_an_unmatched_level_of_privacy._Jami_has_text_messaging_video_and_audio_calls_file_transfer_and_v_KEY: |
+  ZZ
+
+Chatting_in_Secret_While_Were_All_Being_Watched__firstlook.org_KEY: |
+  ZZ
+
+Advanced_users_with_special_needs_can_download_the_Signal_APK_directly._Most_users_should_not_do_this_under_normal_circumstances._KEY: |
+  ZZ
+
+Independent_security_audits_KEY: |
+  ZZ
+
+a_hrefhttpseprint.iacr.org20161013.pdf_A_Formal_Security_Analysis_of_the_Signal_Messaging_Protocol_2019a_by_Katriel_CohnGordon_Cas_Cre_KEY: |
+  ZZ
+
+a_hrefhttpswire.comensecurityauditsIndependent_security_auditsa_on_Wires_website_KEY: |
+  ZZ
+
+a_hrefhttpskeybase.iodocsassetsblogNCC_Group_Keybase_KB2018_Public_Report_20190227_v1.3.pdfKeybases_Protocol_Security_Review_2019a__KEY: |
+  ZZ
+
+VideoVoice_Calling_KEY: |
+  ZZ
+
+If_you_are_currently_using_a_VideoVoice_Calling_app_like_Skype_Viber_or_Google_Hangouts_you_should_pick_an_alternative_here._KEY: |
+  ZZ
+
+Please_note_that_many_of_the_above_instant_messengers_also_support_span_classbadge_badgesuccessVoIPspan._The_software_listed_below_are_empri_KEY: |
+  ZZ
+
 Linphone_KEY: |
   ZZ
 
@@ -3479,6 +4013,36 @@ httpsapps.apple.comusappmumbleid443472808?ls1_KEY: |
 httpsgithub.commumblevoip_KEY: |
   ZZ
 
+httpsjitsi.org_KEY: |
+  ZZ
+
+Jitsi_Meet_KEY: |
+  ZZ
+
+Jitsi_Meet_is_a_free_and_opensource_multiplatform_voice_VoIP_video_conferencing_and_instant_messaging_application._KEY: |
+  ZZ
+
+Our_Firefox_tweaks_recommend_disabling_WebRTC_as_it_can_be_used_to_leak_your_IP_address_even_behind_a_VPN_which_is_why_Tor_Browser_disables_it._KEY: |
+  ZZ
+
+Requires_WebRTC_KEY: |
+  ZZ
+
+More_information_about_Mumble_KEY: |
+  ZZ
+
+a_href_httpswiki.mumble.infowikiRunning_MurmurRunning_Mumble_Servera_and_a_hrefhttpswiki.mumble.infowikiMurmur.iniits_config_fil_KEY: |
+  ZZ
+
+a_hrefhttpstrac.torproject.orgprojectstorwikidocTorifyHOWTOMumbleTorifying_Mumble_KEY: |
+  ZZ
+
+Team_Chat_Platforms_KEY: |
+  ZZ
+
+If_your_project_or_organization_currently_uses_a_platform_like_a_hrefhttpstosdr.orgdiscordDiscorda_or_a_hrefhttpsdrewdevault.com201_KEY: |
+  ZZ
+
 Riot.im_Matrix_KEY: |
   ZZ
 
@@ -3489,9 +4053,6 @@ The_endtoend_encryption_is_currently_in_beta_and_the_mobile_client_states_Endtoe
   ZZ
 
 a_hrefgithub.comvectorimriotwebissues6779Experimental_E2EEa_KEY: |
-  ZZ
-
-httpsabout.riot.im_KEY: |
   ZZ
 
 httpsriot.imdownloaddesktop_KEY: |
@@ -3545,9 +4106,6 @@ httpsitunes.apple.comapprocketchatid1148741252_KEY: |
 httpsgithub.comrocketchat_KEY: |
   ZZ
 
-Keybase_KEY: |
-  ZZ
-
 Keybase_provides_a_hosted_team_chat_with_endtoend_encryption._It_has_also_been_a_hrefhttpskeybase.iodocsassetsblogNCC_Group_Keybase_KB2018__KEY: |
   ZZ
 
@@ -3555,9 +4113,6 @@ The_server_side_of_Keybase_runs_on_proprietary_code_and_is_centralized._KEY: |
   ZZ
 
 a_hrefgithub.comkeybaseclientissues6374Warninga_KEY: |
-  ZZ
-
-httpskeybase.io_KEY: |
   ZZ
 
 httpskeybase.iodocsthe_appinstall_windows_KEY: |
@@ -3587,6 +4142,18 @@ httpskeybase.io_downloadkeybaseforios_KEY: |
 httpsgithub.comKeybase_KEY: |
   ZZ
 
+Wire_Pro_KEY: |
+  ZZ
+
+Paid_team_communication_with_E2EE._KEY: |
+  ZZ
+
+While_the_free_edition_of_Wire_is_a_recommended_platform_we_have_not_tested_the_Pro_edition._KEY: |
+  ZZ
+
+Untested_KEY: |
+  ZZ
+
 httpsplay.google.comstoreappsdetails?idorg.mozilla.firefoxsend_KEY: |
   ZZ
 
@@ -3608,22 +4175,7 @@ httpsplay.google.comstoreappsdetails?idcom.nextcloud.client_KEY: |
 httpsitunes.apple.comusappnextcloudid1125420102?mt8_KEY: |
   ZZ
 
-httpscryptomator.org_KEY: |
-  ZZ
-
-Cryptomator_KEY: |
-  ZZ
-
-Free_clientside_AES_encryption_for_your_cloud_files._Open_source_software_No_backdoors_no_registration._KEY: |
-  ZZ
-
-Cryptomators_mobile_apps_are_not_opensource._KEY: |
-  ZZ
-
 httpscryptpad.fr_KEY: |
-  ZZ
-
-CryptPad_KEY: |
   ZZ
 
 Free_and_endtoend_encrypted_real_time_collaboration_sharing_folders_media_and_documents._KEY: |
@@ -3639,6 +4191,12 @@ httpsplay.google.comstoreappsdetails?idcom.github.catfriend1.syncthingandroid_KE
   ZZ
 
 httpsgithub.comsyncthing?typesource_KEY: |
+  ZZ
+
+Password_Manager_Software_KEY: |
+  ZZ
+
+If_you_are_currently_using_a_password_manager_software_like_1Password_LastPass_Roboform_or_iCloud_Keychain_you_should_pick_an_alternative_here._KEY: |
   ZZ
 
 Bitwarden__CloudSelfhost_KEY: |
@@ -3753,6 +4311,39 @@ httpsplay.google.comstoreappsdetails?idcom.lesspass.android_KEY: |
   ZZ
 
 httpsgithub.comlesspasslesspass_KEY: |
+  ZZ
+
+httpsmasterpassword.app_KEY: |
+  ZZ
+
+Master_Password_KEY: |
+  ZZ
+
+A_password_manager_based_on_an_ingenious_passwordgeneration_algorithm_that_guarantees_your_passwords_can_never_be_lost._Its_passwords_arent_stored_t_KEY: |
+  ZZ
+
+httpspsono.com_KEY: |
+  ZZ
+
+Psono_KEY: |
+  ZZ
+
+Free_and_open_source_password_manager_for_teams_with_client_side_encryption_and_secure_sharing_of_passwords_files_bookmarks_emails._All_secrets_are__KEY: |
+  ZZ
+
+httpspwsafe.org_KEY: |
+  ZZ
+
+Password_Safe_KEY: |
+  ZZ
+
+Whether_the_answer_is_one_or_hundreds_Password_Safe_allows_you_to_safely_and_easily_create_a_secured_and_encrypted_usernamepassword_list._With_Passwo_KEY: |
+  ZZ
+
+httpspeertube.mastodon.hostvideoswatch4cdedd90a5b44022b93d828e85ed58cd_KEY: |
+  ZZ
+
+Edward_Snowden_on_Passwords_on_Peertube_KEY: |
   ZZ
 
 httpsplay.google.comstoreappsdetails?idcom.etesync.syncadapter_KEY: |
@@ -4034,9 +4625,6 @@ CryptPad_is_an_opensource_zero_knowledge_and_realtime_collaborative_editor._Data
 httpscryptpad.frpad_KEY: |
   ZZ
 
-httpsgithub.comxwikilabscryptpad_KEY: |
-  ZZ
-
 strongCryptPadstrong_is_a_privatebydesign_alternative_to_popular_office_tools_and_cloud_services._All_content_is_endtoend_encrypted._It_is_fre_KEY: |
   ZZ
 
@@ -4089,6 +4677,66 @@ httpswrite.aspad_KEY: |
   ZZ
 
 httpscode.aswriteas_KEY: |
+  ZZ
+
+httpscrypt.ee_KEY: |
+  ZZ
+
+Cryptee_KEY: |
+  ZZ
+
+Free_privacyfriendly_service_for_storing_Documents_files_and_Photos_KEY: |
+  ZZ
+
+httpsethercalc.net_KEY: |
+  ZZ
+
+EtherCalc_KEY: |
+  ZZ
+
+EtherCalc_is_a_web_spreadsheet._Data_is_saved_on_the_web_and_people_can_edit_the_same_document_at_the_same_time._Changes_are_instantly_reflected_on_al_KEY: |
+  ZZ
+
+Disroot_KEY: |
+  ZZ
+
+Free_privacyfriendly_service_that_offers_Etherpad_EtherCalc_and_PrivateBin._KEY: |
+  ZZ
+
+httpsdudle.inf.tudresden.deanonymous_KEY: |
+  ZZ
+
+dudle_KEY: |
+  ZZ
+
+An_online_scheduling_application_free_and_opensource._Schedule_meetings_or_make_small_online_polls._No_email_collection_or_the_need_of_registration._KEY: |
+  ZZ
+
+httpsframadate.org_KEY: |
+  ZZ
+
+Framadate_KEY: |
+  ZZ
+
+A_free_and_opensource_online_service_for_planning_an_appointment_or_making_a_decision_quickly_and_easily._No_registration_is_required._KEY: |
+  ZZ
+
+httpswww.libreoffice.org_KEY: |
+  ZZ
+
+LibreOffice_KEY: |
+  ZZ
+
+Free_and_opensource_office_suite._KEY: |
+  ZZ
+
+httpsvscodium.com_KEY: |
+  ZZ
+
+VSCodium_KEY: |
+  ZZ
+
+Fork_of_Microsofts_Visual_Studio_Code_editor_without_branding_or_telemetry._KEY: |
   ZZ
 
 MAT2_KEY: |
@@ -4440,9 +5088,6 @@ httpsplay.google.comstoreappsdetails?idcom.nextcloud.client_KEY: |
   ZZ
 
 httpsitunes.apple.comusappnextcloudid1125420102?mt8_KEY: |
-  ZZ
-
-Warning_KEY: |
   ZZ
 
 Using_a_VPN_will_strongnotstrong_keep_your_browsing_habits_anonymous_nor_will_it_add_additional_security_to_nonsecure_HTTP_traffic._KEY: |
