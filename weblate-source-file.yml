@@ -29,17 +29,17 @@ DNS__Domain_Providers_KEY: |
 Dont_let_Google_see_all_your_DNS_traffic._Discover_privacycentric_alternatives_to_the_traditional_DNS_providers._KEY: |
   Don't let Google see all your DNS traffic. Discover privacy-centric alternatives to the traditional DNS providers.
 
-Email_Clients_KEY: |
-  Email Clients
-
-Discover_free_opensource_and_secure_email_clients_along_with_some_email_alternatives_you_may_not_have_considered._KEY: |
-  Discover free, open-source, and secure email clients, along with some email alternatives you may not have considered.
-
 Best_Secure_Email_Providers_for_Privacy_KEY: |
   Best Secure Email Providers for Privacy
 
 Find_a_secure_email_provider_that_will_keep_your_privacy_in_mind._Dont_settle_for_adsupported_platforms._Never_trust_any_company_with_your_privacy_a_KEY: |
   Find a secure email provider that will keep your privacy in mind. Don't settle for ad-supported platforms. Never trust any company with your privacy, always encrypt.
+
+Email_Clients_KEY: |
+  Email Clients
+
+Discover_free_opensource_and_secure_email_clients_along_with_some_email_alternatives_you_may_not_have_considered._KEY: |
+  Discover free, open-source, and secure email clients, along with some email alternatives you may not have considered.
 
 Encryption_Tools_KEY: |
   Encryption Tools
@@ -1895,6 +1895,144 @@ The_a_href_contact__translate_page__site.name__teama_does_not_necessarily_endors
 Thanks_for_your_support._You_are_awesome!_KEY: |
   Thanks for your support. You are awesome!
 
+PrivacyConscious_Email_Providers__No_Affiliates_KEY: |
+  Privacy-Conscious Email Providers - No Affiliates
+
+All_providers_listed_here_are_operating_outside_the_US_and_support_a_datatoggletooltip_dataplacementbottom_dataoriginaltitleWhen_sending_o_KEY: |
+  All providers listed here are operating outside the US and support <a data-toggle="tooltip" data-placement="bottom" data-original-title="When sending or receiving emails, if both the sending and receiving servers support TLS encryption, the email is sent between servers using an encrypted connection.">SMTP TLS.</a> The table is sortable.
+
+Email_Provider_KEY: |
+  Email Provider
+
+Since_KEY: |
+  Since
+
+Jurisdiction_KEY: |
+  Jurisdiction
+
+Storage_KEY: |
+  Storage
+
+Yearly_Price_KEY: |
+  Yearly Price
+
+Bitcoin_KEY: |
+  Bitcoin
+
+Encryption_KEY: |
+  Encryption
+
+Own_Domain_KEY: |
+  Own Domain
+
+httpsdisroot.org_KEY: |
+  https://disroot.org
+
+Netherlands_KEY: |
+  Netherlands
+
+_Free__tl_note_free_as_in_no_money_cost__KEY: |
+  {{ "Free" | tl_note: free as in no money cost }}
+
+Accepted_KEY: |
+  Accepted
+
+Builtin_KEY: |
+  Built-in
+
+httpskolabnow.com_KEY: |
+  https://kolabnow.com
+
+Switzerland_KEY: |
+  Switzerland
+
+httpsmailbox.org_KEY: |
+  https://mailbox.org
+
+httpsmailfence.com_KEY: |
+  https://mailfence.com
+
+Belgium_KEY: |
+  Belgium
+
+httpswww.neomailbox.com_KEY: |
+  https://www.neomailbox.com
+
+httpsposteo.de_KEY: |
+  https://posteo.de
+
+httpsprotonmail.com_KEY: |
+  https://protonmail.com
+
+Tor_KEY: |
+  Tor
+
+httpsrunbox.com_KEY: |
+  https://runbox.com
+
+Norway_KEY: |
+  Norway
+
+httpssoverin.net_KEY: |
+  https://soverin.net/
+
+httpswww.startmail.com_KEY: |
+  https://www.startmail.com
+
+httpswww.tutanota.com_KEY: |
+  https://www.tutanota.com
+
+Interesting_Email_Providers_Under_Development_KEY: |
+  Interesting Email Providers Under Development
+
+httpswww.confidantmail.org_KEY: |
+  https://www.confidantmail.org/
+
+Confidant_Mail_KEY: |
+  Confidant Mail
+
+An_opensource_nonSMTP_cryptographic_email_system_optimized_for_large_file_attachments._It_is_a_secure_and_spamresistant_alternative_to_regular_email_KEY: |
+  An open-source non-SMTP cryptographic email system optimized for large file attachments. It is a secure and spam-resistant alternative to regular email and online file drop services. It uses <a href="https://theprivacyguide.org/tutorials/gpg.html">GNU Privacy Guard (GPG)</a> for content encryption and authentication, and TLS 1.2 with ephemeral keys for transport encryption.
+
+Become_Your_Own_Email_Provider_with_MailinaBox_KEY: |
+  Become Your Own Email Provider with Mail-in-a-Box
+
+httpsmailinabox.email_KEY: |
+  https://mailinabox.email/
+
+MailinaBox_KEY: |
+  Mail-in-a-Box
+
+Take_it_a_step_further_and_get_control_of_your_email_with_this_easytodeploy_mail_server_in_a_box._MailinaBox_lets_you_become_your_own_mail_service_KEY: |
+  Take it a step further and get control of your email with this easy-to-deploy mail server in a box. Mail-in-a-Box lets you become your own mail service provider in a few easy steps. It's sort of like making your own Gmail, but one you control from top to bottom. Technically, Mail-in-a-Box turns a fresh cloud computer into a working mail server. But you don't need to be a technology expert to set it up.
+
+More_KEY: |
+  More:
+
+httpswww.wired.com201110ecpaturnstwentyfive_KEY: |
+  https://www.wired.com/2011/10/ecpa-turns-twenty-five/
+
+Aging_Privacy_Law_Leaves_Cloud_EMail_Open_to_Cops_KEY: |
+  Aging 'Privacy' Law Leaves Cloud E-Mail Open to Cops
+
+Data_stored_in_the_cloud_for_longer_than_6_months_is_considered_abandoned_and_may_be_accessed_by_intelligence_agencies_without_a_warrant._Learning_Use_KEY: |
+  Data stored in the cloud for longer than 6 months is considered abandoned and may be accessed by intelligence agencies without a warrant. Learning: Use an external email client like Thunderbird or Enigmail, download your emails and store them locally. Never leave them on the server.
+
+httpswww.eff.orgdeeplinks201204mayfirstriseupserverseizurefbioverreachesyetagain_KEY: |
+  https://www.eff.org/deeplinks/2012/04/may-firstriseup-server-seizure-fbi-overreaches-yet-again
+
+With_May_FirstRiseup_Server_Seizure_FBI_Overreaches_Yet_Again_KEY: |
+  With May First/Riseup Server Seizure, FBI Overreaches Yet Again
+
+httpswww.autistici.orgaicrackdown_KEY: |
+  https://www.autistici.org/ai/crackdown/
+
+AutisticiInventati_server_compromised_KEY: |
+  Autistici/Inventati server compromised
+
+The_cryptographic_services_offered_by_the_AutisticiInventati_server_have_been_compromised_on_15th_June_2004._It_was_discovered_on_21st_June_2005._One__KEY: |
+  The cryptographic services offered by the Autistici/Inventati server have been compromised on 15th June 2004. It was discovered on 21st June 2005. One year later. During an enquiry on a single mailbox, the Postal Police may have tapped for a whole year every user's private communication going through the server autistici.org/inventati.org.
+
 Thunderbird_KEY: |
   Thunderbird
 
@@ -2074,144 +2212,6 @@ I2PBote_KEY: |
 
 Endtoend_encrypted_decentralized_mail_system_within_the_I2P_network._KEY: |
   End-to-end encrypted decentralized mail system within the I2P network.
-
-PrivacyConscious_Email_Providers__No_Affiliates_KEY: |
-  Privacy-Conscious Email Providers - No Affiliates
-
-All_providers_listed_here_are_operating_outside_the_US_and_support_a_datatoggletooltip_dataplacementbottom_dataoriginaltitleWhen_sending_o_KEY: |
-  All providers listed here are operating outside the US and support <a data-toggle="tooltip" data-placement="bottom" data-original-title="When sending or receiving emails, if both the sending and receiving servers support TLS encryption, the email is sent between servers using an encrypted connection.">SMTP TLS.</a> The table is sortable.
-
-Email_Provider_KEY: |
-  Email Provider
-
-Since_KEY: |
-  Since
-
-Jurisdiction_KEY: |
-  Jurisdiction
-
-Storage_KEY: |
-  Storage
-
-Yearly_Price_KEY: |
-  Yearly Price
-
-Bitcoin_KEY: |
-  Bitcoin
-
-Encryption_KEY: |
-  Encryption
-
-Own_Domain_KEY: |
-  Own Domain
-
-httpsdisroot.org_KEY: |
-  https://disroot.org
-
-Netherlands_KEY: |
-  Netherlands
-
-_Free__tl_note_free_as_in_no_money_cost__KEY: |
-  {{ "Free" | tl_note: free as in no money cost }}
-
-Accepted_KEY: |
-  Accepted
-
-Builtin_KEY: |
-  Built-in
-
-httpskolabnow.com_KEY: |
-  https://kolabnow.com
-
-Switzerland_KEY: |
-  Switzerland
-
-httpsmailbox.org_KEY: |
-  https://mailbox.org
-
-httpsmailfence.com_KEY: |
-  https://mailfence.com
-
-Belgium_KEY: |
-  Belgium
-
-httpswww.neomailbox.com_KEY: |
-  https://www.neomailbox.com
-
-httpsposteo.de_KEY: |
-  https://posteo.de
-
-httpsprotonmail.com_KEY: |
-  https://protonmail.com
-
-Tor_KEY: |
-  Tor
-
-httpsrunbox.com_KEY: |
-  https://runbox.com
-
-Norway_KEY: |
-  Norway
-
-httpssoverin.net_KEY: |
-  https://soverin.net/
-
-httpswww.startmail.com_KEY: |
-  https://www.startmail.com
-
-httpswww.tutanota.com_KEY: |
-  https://www.tutanota.com
-
-Interesting_Email_Providers_Under_Development_KEY: |
-  Interesting Email Providers Under Development
-
-httpswww.confidantmail.org_KEY: |
-  https://www.confidantmail.org/
-
-Confidant_Mail_KEY: |
-  Confidant Mail
-
-An_opensource_nonSMTP_cryptographic_email_system_optimized_for_large_file_attachments._It_is_a_secure_and_spamresistant_alternative_to_regular_email_KEY: |
-  An open-source non-SMTP cryptographic email system optimized for large file attachments. It is a secure and spam-resistant alternative to regular email and online file drop services. It uses <a href="https://theprivacyguide.org/tutorials/gpg.html">GNU Privacy Guard (GPG)</a> for content encryption and authentication, and TLS 1.2 with ephemeral keys for transport encryption.
-
-Become_Your_Own_Email_Provider_with_MailinaBox_KEY: |
-  Become Your Own Email Provider with Mail-in-a-Box
-
-httpsmailinabox.email_KEY: |
-  https://mailinabox.email/
-
-MailinaBox_KEY: |
-  Mail-in-a-Box
-
-Take_it_a_step_further_and_get_control_of_your_email_with_this_easytodeploy_mail_server_in_a_box._MailinaBox_lets_you_become_your_own_mail_service_KEY: |
-  Take it a step further and get control of your email with this easy-to-deploy mail server in a box. Mail-in-a-Box lets you become your own mail service provider in a few easy steps. It's sort of like making your own Gmail, but one you control from top to bottom. Technically, Mail-in-a-Box turns a fresh cloud computer into a working mail server. But you don't need to be a technology expert to set it up.
-
-More_KEY: |
-  More:
-
-httpswww.wired.com201110ecpaturnstwentyfive_KEY: |
-  https://www.wired.com/2011/10/ecpa-turns-twenty-five/
-
-Aging_Privacy_Law_Leaves_Cloud_EMail_Open_to_Cops_KEY: |
-  Aging 'Privacy' Law Leaves Cloud E-Mail Open to Cops
-
-Data_stored_in_the_cloud_for_longer_than_6_months_is_considered_abandoned_and_may_be_accessed_by_intelligence_agencies_without_a_warrant._Learning_Use_KEY: |
-  Data stored in the cloud for longer than 6 months is considered abandoned and may be accessed by intelligence agencies without a warrant. Learning: Use an external email client like Thunderbird or Enigmail, download your emails and store them locally. Never leave them on the server.
-
-httpswww.eff.orgdeeplinks201204mayfirstriseupserverseizurefbioverreachesyetagain_KEY: |
-  https://www.eff.org/deeplinks/2012/04/may-firstriseup-server-seizure-fbi-overreaches-yet-again
-
-With_May_FirstRiseup_Server_Seizure_FBI_Overreaches_Yet_Again_KEY: |
-  With May First/Riseup Server Seizure, FBI Overreaches Yet Again
-
-httpswww.autistici.orgaicrackdown_KEY: |
-  https://www.autistici.org/ai/crackdown/
-
-AutisticiInventati_server_compromised_KEY: |
-  Autistici/Inventati server compromised
-
-The_cryptographic_services_offered_by_the_AutisticiInventati_server_have_been_compromised_on_15th_June_2004._It_was_discovered_on_21st_June_2005._One__KEY: |
-  The cryptographic services offered by the Autistici/Inventati server have been compromised on 15th June 2004. It was discovered on 21st June 2005. One year later. During an enquiry on a single mailbox, the Postal Police may have tapped for a whole year every user's private communication going through the server autistici.org/inventati.org.
 
 File_Encryption_Software_KEY: |
   File Encryption Software
@@ -5726,4 +5726,3 @@ httpsgist.github.comkennwhite1f3bc4d889b02b35d8aa_KEY: |
 
 Dont_use_LT2P_IPSec_use_other_protocols._KEY: |
   Don't use LT2P IPSec, use other protocols.
-
