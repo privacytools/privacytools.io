@@ -66,11 +66,17 @@
   </div>
 
   <div class="copyright-text">
-    <a href="/about/javascript" data-jslicense="1">
+    <p><a href="/about/javascript" data-jslicense="1">
       <span class="fab fa-js fa-lg"></span>
       {% t JavaScript Licenses %}
-    </a>
-    <p class="mt-2">
+    </a></p>
+    <p>
+      <a href="https://weblate.nablahost.com/engage/privacytoolsio/?utm_source=widget">
+        <img src="https://assets.privacytools.io/weblate/privacytoolsio/{{ page.language | replace: "_", "-" | default: "-" }}/website/svg-badge.svg" alt="{% t Translation status %}" />
+        {% t Help translate PrivacyTools on Weblate!%}
+      </a>
+    </p>
+    <p>
       <strong>{% t No Ads, No Google Analytics, No Affiliates, No Cross-Site Requests.%}</strong>
       <em>{% t {{ site.name }} is a socially motivated website that provides information for protecting your data security and privacy. Never trust any company with your privacy, always encrypt. %}</em>
       <a href="/privacy/">{% t View our privacy statement %}</a>.
