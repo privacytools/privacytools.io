@@ -77,6 +77,12 @@ Notebooks_KEY: |
 Keep_track_of_your_notes_and_journalings_without_giving_them_to_a_third_party._KEY: |
   Keep track of your notes and journalings without giving them to a third party.
 
+Operating_Systems_KEY: |
+  Operating Systems
+
+Even_your_own_computer_could_be_compromising_your_privacy._Discover_our_recommended_OS_choices_for_all_the_devices_you_use._KEY: |
+  Even your own computer could be compromising your privacy. Discover our recommended OS choices for all the devices you use.
+
 Password_Managers_KEY: |
   Password Managers
 
@@ -2522,9 +2528,6 @@ Find_a_web_browser_that_respects_your_privacy_and_discover_how_to_harden_your_br
 Discover_a_variety_of_open_source_software_built_to_protect_your_privacy_and_keep_your_digital_data_secure._KEY: |
   Discover a variety of open source software built to protect your privacy and keep your digital data secure.
 
-Operating_Systems_KEY: |
-  Operating Systems
-
 Find_out_how_your_operating_system_is_compromising_your_privacy_and_what_simple_alternatives_exist._KEY: |
   Find out how your operating system is compromising your privacy, and what simple alternatives exist.
 
@@ -4751,6 +4754,12 @@ https0xacab.orgjvoisinmat2_KEY: |
 httpspypi.orgprojectmat2_KEY: |
   https://pypi.org/project/mat2/
 
+PC_Operating_Systems_KEY: |
+  PC Operating Systems
+
+If_you_are_currently_using_a_operating_system_like_Windows_10_you_should_pick_an_alternative_here._KEY: |
+  If you are currently using a operating system like Windows 10, you should pick an alternative here.
+
 Qubes_OS_KEY: |
   Qubes OS
 
@@ -4799,6 +4808,124 @@ httpswww.debian.org_KEY: |
 httpssalsa.debian.orgqadebsources_KEY: |
   https://salsa.debian.org/qa/debsources
 
+httpswww.openbsd.org_KEY: |
+  https://www.openbsd.org/
+
+OpenBSD_KEY: |
+  OpenBSD
+
+BSD_KEY: |
+  BSD
+
+A_project_that_produces_a_free_multiplatform_4.4BSDbased_UNIXlike_operating_system._Emphasizes_portability_standardization_correctness_proactive_KEY: |
+  A project that produces a free, multi-platform 4.4BSD-based UNIX-like operating system. Emphasizes portability, standardization, correctness, proactive security and integrated cryptography.
+
+httpswww.archlinux.org_KEY: |
+  https://www.archlinux.org/
+
+Arch_Linux_KEY: |
+  Arch Linux
+
+A_simple_lightweight_Linux_distribution._It_is_composed_predominantly_of_free_and_opensource_software_and_supports_community_involvement._KEY: |
+  A simple, lightweight Linux distribution. It is composed predominantly of free and open-source software, and supports community involvement.
+
+a_hrefhttpswww.parabola.nuParabolaa_is_a____completely_open_source_version_of_Arch_Linux._KEY: |
+  <a href="https://www.parabola.nu/">Parabola</a> is a
+    completely open source version of Arch Linux.
+
+httpstrisquel.info_KEY: |
+  https://trisquel.info/
+
+Trisquel_KEY: |
+  Trisquel
+
+Derived_from_Ubuntu_this_project_aims_for_a_fully_free_software_system_without_proprietary_software_or_firmware_and_uses_Linuxlibre_a_version_of_the_KEY: |
+  Derived from Ubuntu, this project aims for a fully free software system without proprietary software or firmware and uses Linux-libre, a version of the Linux kernel with the non-free code (binary blobs) removed.
+
+httpswww.whonix.org_KEY: |
+  https://www.whonix.org/
+
+Whonix_KEY: |
+  Whonix
+
+A_Debianbased_securityfocused_Linux_distribution._It_aims_to_provide_privacy_security_and_anonymity_on_the_internet._The_operating_system_consists_o_KEY: |
+  A Debian-based security-focused Linux distribution. It aims to provide privacy, security and anonymity on the internet. The operating system consists of two virtual machines, a "Workstation" and a Tor "Gateway". All communication are forced through the Tor network to accomplish this.
+
+Dont_use_Windows_10__Its_a_privacy_nightmare_KEY: |
+  Don't use Windows 10 - It's a privacy nightmare
+
+Remember_to_check_CPU_vulnerability_mitigations_KEY: |
+  Remember to check CPU vulnerability mitigations
+
+a_href_httpssupport.microsoft.comenushelp4073757protectwindowsdevicesfromspeculativeexecutionsidechannelattackThis_also_affects_Wi_KEY: |
+  <a href=" https://support.microsoft.com/en-us/help/4073757/protect-windows-devices-from-speculative-execution-side-channel-attack">This also affects Windows 10</a>, but it doesn't expose this information or mitigation instructions as easily. MacOS users check <a href="https://support.apple.com/en-us/HT210108">How to enable full mitigation for Microarchitectural Data Sampling (MDS) vulnerabilities on Apple Support</a>.
+
+When_running_a_enough_recent_Linux_kernel_you_can_check_the_CPU_vulnerabilities_it_detects_by_codetail_n_1_sysdevicessystemcpuvulnerabilities_KEY: |
+  When running a enough recent Linux kernel, you can check the CPU vulnerabilities it detects by <code>tail -n +1 /sys/devices/system/cpu/vulnerabilities/*</code>. By using <code>tail -n +1</code> instead of <code>cat</code>, the file names are also visible.
+
+In_case_you_have_an_Intel_CPU_you_may_notice_SMT_vulnerable_display_after_running_the_codetailcode_command._To_mitigate_this_disable_a_href_KEY: |
+  In case you have an Intel CPU, you may notice "SMT vulnerable" display after running the <code>tail</code> command. To mitigate this, disable <a href="https://en.wikipedia.org/wiki/Hyper-threading">hyper-threading</a> from the UEFI/BIOS.
+
+You_can_also_take_the_following_mitigation_steps_below_if_your_systemdistribution_uses_GRUB_and_supports_codeetcdefaultgrub.dcode_KEY: |
+  You can also take the following mitigation steps below if your system/distribution uses GRUB and supports <code>/etc/default/grub.d/</code>:
+
+to_create_a_directory_for_additional_grub_configuration_KEY: |
+  to create a directory for additional grub configuration
+
+to_create_a_new_grub_config_file_source_with_the_echoed_content_KEY: |
+  to create a new grub config file source with the echoed content
+
+to_generate_a_new_grub_config_file_including_these_new_kernel_boot_flags_KEY: |
+  to generate a new grub config file including these new kernel boot flags
+
+to_reboot_KEY: |
+  to reboot
+
+after_the_reboot_check_codetail_n_1_sysdevicessystemcpuvulnerabilitiescode_again_to_see_that_everything_referring_to_SMT_now_says_SMT_d_KEY: |
+  after the reboot, check <code>tail -n +1 /sys/devices/system/cpu/vulnerabilities/*</code> again to see that everything referring to SMT now says "SMT disabled."
+
+httpscpu.fail_KEY: |
+  https://cpu.fail/
+
+CPU.fail_KEY: |
+  CPU.fail
+
+httpswww.kernel.orgdochtmllatestadminguidehwvuln_KEY: |
+  https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/
+
+Hardware_vulnerabilities_index_on_The_Linux_kernel_users_and_administrators_guide_KEY: |
+  Hardware vulnerabilities index on The Linux kernel user's and administrator's guide
+
+httpswww.cyberciti.bizfaqinstallupdateintelmicrocodefirmwarelinux_KEY: |
+  https://www.cyberciti.biz/faq/install-update-intel-microcode-firmware-linux/
+
+How_to_installupdate_CPU_microcode_firmware_on_Linux_KEY: |
+  How to install/update CPU microcode firmware on Linux
+
+Regardless_of_your_CPU_manufacturer_you_should_always_install_the_latest_microcode_packages_available_to_be_protected_from_CPU_vulnerabilities_especi_KEY: |
+  Regardless of your CPU manufacturer, you should always install the latest microcode packages available to be protected from CPU vulnerabilities, especially if the command above reports <strong>no microcode</strong> in its output.
+
+httpswww.kernel.orgdochtmllatestadminguidehwvulnmds.html_KEY: |
+  https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/mds.html
+
+MDS__Microarchitectural_Data_Sampling_on_The_Linux_kernel_users_and_administrators_guide_KEY: |
+  MDS - Microarchitectural Data Sampling on The Linux kernel user's and administrator's guide
+
+httpsmdsattacks.com_KEY: |
+  https://mdsattacks.com/
+
+RIDL_and_Fallout_MDS_attacks_on_mdsattacks.com_KEY: |
+  RIDL and Fallout: MDS attacks on mdsattacks.com
+
+httpsen.wikipedia.orgwikiSimultaneous_multithreading_KEY: |
+  https://en.wikipedia.org/wiki/Simultaneous_multithreading
+
+Simultaneous_multithreading_on_Wikipedia_KEY: |
+  Simultaneous multithreading on Wikipedia
+
+Live_CD_Operating_Systems_KEY: |
+  Live CD Operating Systems
+
 Tails_KEY: |
   Tails
 
@@ -4834,6 +4961,21 @@ httppuppylinux.org_KEY: |
 
 httpdistro.ibiblio.orgpuppylinux_KEY: |
   http://distro.ibiblio.org/puppylinux/
+
+httpsdistro.ibiblio.orgtinycorelinux_KEY: |
+  https://distro.ibiblio.org/tinycorelinux/
+
+Tiny_Core_Linux_KEY: |
+  Tiny Core Linux
+
+A_minimal_Linux_operating_system_focusing_on_providing_a_base_system_using_BusyBox_and_FLTK._The_distribution_is_notable_for_its_size_15_MB_and_minim_KEY: |
+  A minimal Linux operating system focusing on providing a base system using BusyBox and FLTK. The distribution is notable for its size (15 MB) and minimalism, with additional functionality provided by extensions.
+
+Mobile_Operating_Systems_KEY: |
+  Mobile Operating Systems
+
+Even_though_the_source_code_of_the_following_OS_is_provided_installing_Google_Apps_may_compromise_your_setup._KEY: |
+  Even though the source code of the following OS is provided, installing Google Apps may compromise your setup.
 
 GrapheneOS_KEY: |
   GrapheneOS
@@ -4874,6 +5016,69 @@ httpsubuntutouch.io_KEY: |
 httpsgithub.comubports_KEY: |
   https://github.com/ubports
 
+httpswww.replicant.us_KEY: |
+  https://www.replicant.us/
+
+Replicant_KEY: |
+  Replicant
+
+An_opensource_operating_system_based_on_Android_aiming_to_replace_all_proprietary_components_with_free_software._KEY: |
+  An open-source operating system based on Android, aiming to replace all proprietary components with free software.
+
+httpswww.omnirom.org_KEY: |
+  https://www.omnirom.org/
+
+OmniROM_KEY: |
+  OmniROM
+
+A_freesoftware_operating_system_for_smartphones_and_tablet_computers_based_on_the_Android_mobile_platform._KEY: |
+  A free-software operating system for smartphones and tablet computers, based on the Android mobile platform.
+
+httpsmicrog.org_KEY: |
+  https://microg.org/
+
+MicroG_KEY: |
+  MicroG
+
+Addon_Package_KEY: |
+  Add-on Package
+
+A_project_that_aims_to_reimplement_the_proprietary_Google_Play_Services_in_the_Android_operating_system_with_a_FLOSS_replacement._The_microG_project_al_KEY: |
+  A project that aims to reimplement the proprietary Google Play Services in the Android operating system with a FLOSS replacement. The microG project also maintains a fork of LineageOS with microG and F-Droid preinstalled at <a href="https://lineage.microg.org/">Lineage for microG</a>.
+
+Improve_your_privacy_with_these_addons_for_Android._KEY: |
+  Improve your privacy with these add-ons for Android.
+
+NetGuard_KEY: |
+  NetGuard
+
+Control_your_traffic_with_a_hrefhttpswww.netguard.meNetGuarda_KEY: |
+  Control your traffic with <a href="https://www.netguard.me/">NetGuard</a>
+
+strongNetGuardstrong_provides_simple_and_advanced_ways_to_block_certain_apps_access_to_the_internet_without_the_help_of_root_privileges._Applicat_KEY: |
+  <strong>NetGuard</strong> provides simple and advanced ways to block certain apps' access to the internet without the help of root privileges. Applications and addresses can individually be allowed or denied access to your Wi-Fi and/or mobile connection, allowing you to control which apps are able to call home or not.
+
+Orbot_KEY: |
+  Orbot
+
+Tor_for_Android_with_a_hrefhttpsguardianproject.infoappsorbotOrbota_KEY: |
+  Tor for Android with <a href="https://guardianproject.info/apps/orbot/">Orbot</a>
+
+strongOrbotstrong_is_a_free_proxy_app_that_empowers_other_apps_to_use_the_internet_more_securely._Orbot_uses_Tor_to_encrypt_your_Internet_traffic__KEY: |
+  <strong>Orbot</strong> is a free proxy app that empowers other apps to use the internet more securely. Orbot uses Tor to encrypt your Internet traffic and then hides it by bouncing through a series of computers around the world.
+
+strongRoot_Modestrong_Orbot_can_be_configured_to_transparently_proxy_all_of_your_Internet_traffic_through_Tor._You_can_also_choose_which_specific_KEY: |
+  <strong>Root Mode:</strong> Orbot can be configured to transparently proxy all of your Internet traffic through Tor. You can also choose which specific apps you want to use through Tor.
+
+See_also_KEY: |
+  See also
+
+Our_DNS_pagea_which_also_has_information_on_encrypting_DNS_on_Android._KEY: |
+  Our DNS page</a> which also has information on encrypting DNS on Android.
+
+Open_Source_Router_Firmware_KEY: |
+  Open Source Router Firmware
+
 OpenWrt_KEY: |
   OpenWrt
 
@@ -4891,9 +5096,6 @@ httpsgit.openwrt.org_KEY: |
 
 pfSense_KEY: |
   pfSense
-
-BSD_KEY: |
-  BSD
 
 pfSense_is_an_open_source_firewallrouter_computer_software_distribution_based_on_FreeBSD._It_is_installed_on_a_computer_to_make_a_dedicated_firewallr_KEY: |
   pfSense is an open source firewall/router computer software distribution based on FreeBSD. It is installed on a computer to make a dedicated firewall/router for a network and is noted for its reliability and offering features often only found in expensive commercial firewalls. pfSense is commonly deployed as a perimeter firewall, router, wireless access point, DHCP server, DNS server, and as a VPN endpoint.
@@ -4915,6 +5117,156 @@ httpslibrecmc.org_KEY: |
 
 httpsgogs.librecmc.orglibreCMClibreCMC_KEY: |
   https://gogs.librecmc.org/libreCMC/libreCMC
+
+httpsddwrt.com_KEY: |
+  https://dd-wrt.com/
+
+DDWRT_KEY: |
+  DD-WRT
+
+A_Linuxbased_opensource_firmware_compatible_with_several_models_of_routers_and_access_points._KEY: |
+  A Linux-based open-source firmware compatible with several models of routers and access points.
+
+Microsoft_introduced_a_lot_of_new_features_in_Windows_10_such_as_Cortana._However_most_of_them_are_violating_your_privacy._KEY: |
+  Microsoft introduced a lot of new features in Windows 10 such as Cortana. However, most of them are violating your privacy.
+
+Windows_10_Privacy_KEY: |
+  Windows 10 Privacy
+
+Data_syncing_is_by_default_enabled._KEY: |
+  Data syncing is by default enabled.
+
+Browsing_history_and_open_websites._KEY: |
+  Browsing history and open websites.
+
+Apps_settings._KEY: |
+  Apps settings.
+
+WiFi_hotspot_names_and_passwords._KEY: |
+  WiFi hotspot names and passwords.
+
+Your_device_is_by_default_tagged_with_a_unique_advertising_ID._KEY: |
+  Your device is by default tagged with a unique advertising ID.
+
+Used_to_serve_you_with_personalized_advertisements_by_thirdparty_advertisers_and_ad_networks._KEY: |
+  Used to serve you with personalized advertisements by third-party advertisers and ad networks.
+
+Cortana_can_collect_any_of_your_data._KEY: |
+  Cortana can collect any of your data.
+
+Your_keystrokes_searches_and_mic_input._KEY: |
+  Your keystrokes, searches and mic input.
+
+Calendar_data._KEY: |
+  Calendar data.
+
+Music_you_listen_to._KEY: |
+  Music you listen to.
+
+Credit_Card_information._KEY: |
+  Credit Card information.
+
+Purchases._KEY: |
+  Purchases.
+
+Microsoft_can_collect_any_personal_data._KEY: |
+  Microsoft can collect any personal data.
+
+Your_identity._KEY: |
+  Your identity.
+
+Passwords._KEY: |
+  Passwords.
+
+Demographics._KEY: |
+  Demographics.
+
+Interests_and_habits._KEY: |
+  Interests and habits.
+
+Usage_data._KEY: |
+  Usage data.
+
+Contacts_and_relationships._KEY: |
+  Contacts and relationships.
+
+Location_data._KEY: |
+  Location data.
+
+Content_like_emails_instant_messages_caller_list_audio_and_video_recordings._KEY: |
+  Content like emails, instant messages, caller list, audio and video recordings.
+
+Your_data_can_be_shared._KEY: |
+  Your data can be shared.
+
+When_downloading_Windows_10_you_are_authorizing_Microsoft_to_share_any_of_abovementioned_data_with_any_thirdparty_with_or_without_your_consent._KEY: |
+  When downloading Windows 10, you are authorizing Microsoft to share any of above-mentioned data with any third-party, with or without your consent.
+
+httpswww.winprivacy.deenglishhome_KEY: |
+  https://www.winprivacy.de/english-home/
+
+Download_W10Privacy_KEY: |
+  Download: W10Privacy
+
+This_tool_uses_some_known_methods_that_attempt_to_disable_major_tracking_features_in_Windows_10._KEY: |
+  This tool uses some known methods that attempt to disable major tracking features in Windows 10.
+
+httpsprivacy.microsoft.comenusprivacystatement_KEY: |
+  https://privacy.microsoft.com/en-us/privacystatement
+
+Microsoft_Privacy_Statement_KEY: |
+  Microsoft Privacy Statement
+
+Microsoft_collects_uses_and_discloses_personal_information_as_described_here._This_allows_OneDrive_data_Cortana_searches_and_MS_browser_history_to_b_KEY: |
+  Microsoft collects, uses and discloses personal information as described here. This allows OneDrive data, Cortana searches, and MS browser history to be sold to third parties.
+
+httpssupport.microsoft.comenushelp4468233cortanaandprivacymicrosoftprivacy_KEY: |
+  https://support.microsoft.com/en-us/help/4468233/cortana-and-privacy-microsoft-privacy
+
+Cortana_and_privacy_KEY: |
+  Cortana and privacy
+
+To_personalize_your_experience_and_provide_the_best_possible_suggestions_Cortana_accesses_your_email_and_other_communications_and_collects_data_about__KEY: |
+  To personalize your experience and provide the best possible suggestions, Cortana accesses your email and other communications and collects data about your contacts (People), like their title, suffix, first name, last name, middle name, nicknames, and company name. If you call, email, or text someone or they call, email, or text you, Cortana collects that person’s email address or phone number.
+
+Some_good_news_KEY: |
+  Some good news
+
+httpsgithub.comcrazymaxWindowsSpyBlockerreleases_KEY: |
+  https://github.com/crazy-max/WindowsSpyBlocker/releases
+
+WindowsSpyBlocker_KEY: |
+  WindowsSpyBlocker
+
+Opensource_tool_that_blocks_data_collection._KEY: |
+  Open-source tool that blocks data collection.
+
+httpswww.ghacks.net20150814comparisonofwindows10privacytools_KEY: |
+  https://www.ghacks.net/2015/08/14/comparison-of-windows-10-privacy-tools/
+
+Comparison_of_Windows_10_Privacy_tools_KEY: |
+  Comparison of Windows 10 Privacy tools
+
+More_bad_news_KEY: |
+  More bad news
+
+Windows_10_Sends_Your_Data_5500_Times_Every_Day_Even_After_Tweaking_Privacy_Settings_KEY: |
+  Windows 10 Sends Your Data 5500 Times Every Day Even After Tweaking Privacy Settings
+
+The_Hacker_News._KEY: |
+  The Hacker News.
+
+httpsarstechnica.cominformationtechnology201508evenwhentoldnottowindows10justcantstoptalkingtomicrosoft_KEY: |
+  https://arstechnica.com/information-technology/2015/08/even-when-told-not-to-windows-10-just-cant-stop-talking-to-microsoft/
+
+Even_when_told_not_to_Windows_10_just_cant_stop_talking_to_Microsoft._Its_no_wonder_that_privacy_activists_are_up_in_arms._KEY: |
+  Even when told not to, Windows 10 just can't stop talking to Microsoft. It's no wonder that privacy activists are up in arms.
+
+httpswww.techdirt.comarticles2015082006171332012windows10reservesrighttoblockpiratedgamesunauthorizedhardware.shtml_KEY: |
+  https://www.techdirt.com/articles/20150820/06171332012/windows-10-reserves-right-to-block-pirated-games-unauthorized-hardware.shtml
+
+Windows_10_Reserves_The_Right_To_Block_Pirated_Games_And_Unauthorized_Hardware._KEY: |
+  Windows 10 Reserves The Right To Block Pirated Games And 'Unauthorized' Hardware.
 
 What_does_the_US_government_know_about_you?_KEY: |
   What does the US government know about you?
