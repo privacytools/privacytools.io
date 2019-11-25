@@ -23,8 +23,8 @@ Self_Hosted_Cloud_KEY: |
 Discover_how_to_securely_and_privately_selfhost_your_cloud_with_opensource_software_KEY: |
   Discover how to securely and privately self-host your cloud with open-source software.
 
-DNS__Domain_Providers_KEY: |
-  DNS / Domain Providers
+Encrypted_DNS_Resolvers_KEY: |
+  Encrypted DNS Resolvers
 
 Dont_let_Google_see_all_your_DNS_traffic_Discover_privacycentric_alternatives_to_the_traditional_DNS_providers_KEY: |
   Don't let Google see all your DNS traffic. Discover privacy-centric alternatives to the traditional DNS providers.
@@ -421,6 +421,9 @@ Translation_status_KEY: |
 
 Help_translate_PrivacyTools_on_Weblate!_KEY: |
   Help translate PrivacyTools on Weblate!
+
+NonEnglish_translated_versions_of_PrivacyTools_are_crowdsourced_and_provided_on_an_asis_basis_and_we_make_no_guarantees_towards_the_accuracy_of_ea_KEY: |
+  Non-English (translated) versions of PrivacyTools are crowdsourced and provided on an as-is basis, and we make no guarantees towards the accuracy of each translated site.
 
 No_Ads_No_Google_Analytics_No_Affiliates_No_CrossSite_Requests_KEY: |
   No Ads, No Google Analytics, No Affiliates, No Cross-Site Requests.
@@ -1160,20 +1163,23 @@ providersemail__translate_page__KEY: |
 EteSync_KEY: |
   EteSync
 
-strongEteSyncstrong_is_a_secure_endtoend_encrypted_and_journaled_personal_information_eg_contacts_and_calendar_cloud_synchronization_and_b_KEY: |
-  <strong>EteSync</strong> is a secure, end-to-end encrypted, and journaled personal information (e.g. contacts and calendar) cloud synchronization and backup for Android and any OS that supports CalDAV/CardDAV. It costs $24 per year to use, or you can host the server yourself for free.
+strongEteSyncstrong_is_a_secure_endtoend_encrypted_and_privacyrespecting_cloud_backup_and_synchronization_software_for_your_personal_informat_KEY: |
+  <strong>EteSync</strong> is a secure, end-to-end encrypted, and privacy-respecting cloud backup and synchronization software for your personal information (e.g. contacts and calendars). There are native clients for Android, iOS, and the web, and an adapter layer for most desktop clients. It costs $24 per year to use, or you can host the server yourself for free.
 
 httpswwwetesynccom_KEY: |
   https://www.etesync.com/
 
-httpsgithubcometesyncetesyncdavblobmasterREADMEmdinstallation_KEY: |
-  https://github.com/etesync/etesync-dav/blob/master/README.md#installation
+httpswwwetesynccominstalldav_KEY: |
+  https://www.etesync.com/install/dav/
 
 httpsfdroidorgpackagescometesyncsyncadapter_KEY: |
   https://f-droid.org/packages/com.etesync.syncadapter/
 
 httpsplaygooglecomstoreappsdetailsidcometesyncsyncadapter_KEY: |
   https://play.google.com/store/apps/details?id=com.etesync.syncadapter
+
+httpswwwetesynccominstallios_KEY: |
+  https://www.etesync.com/install/ios/
 
 httpsclientetesynccom_KEY: |
   https://client.etesync.com/
@@ -1253,47 +1259,14 @@ CryptPad_KEY: |
 An_opensource_and_endtoend_encrypted_realtime_collaborative_editor_that_lets_you_share_folders_media_and_documents_KEY: |
   An open-source and end-to-end encrypted real-time collaborative editor that lets you share folders, media, and documents.
 
-Domain_Name_System_DNS_KEY: |
-  Domain Name System (DNS)
-
-Njalla__Domain_Registration_KEY: |
-  Njalla - Domain Registration
-
-Njalla_is_a_privacyaware_domain_registration_service_based_in_Nevis_that_only_needs_your_email_or_XMPP_address_in_order_to_register_a_domain_name_for__KEY: |
-  Njalla is a privacy-aware domain registration service based in Nevis that only needs your email or XMPP address in order to register a domain name for you. It is created by people from The Pirate Bay and IPredator VPN. Accepted payments: Bitcoin, Litecoin, Monero, DASH, Bitcoin Cash and PayPal.
-
-httpsnjalla_KEY: |
-  https://njal.la/
-
-DNSCryptProxy__Tool_KEY: |
-  DNSCrypt-Proxy - Tool
-
-DNSCryptProxy_is_a_commandline_DNS_proxy_with_support_for_the_encrypted_DNS_protocols_DNS_over_HTTPS_and_DNSCrypt_Can_cache_results_to_improve_spee_KEY: |
-  DNSCrypt-Proxy is a command-line DNS proxy with support for the encrypted DNS protocols, DNS over HTTPS and DNSCrypt. Can cache results to improve speed, and allows filtering, forwarding, and cloaking.
-
-httpsgithubcomjedisct1dnscryptproxy_KEY: |
-  https://github.com/jedisct1/dnscrypt-proxy/
-
-httpsgithubcomjedisct1dnscryptproxyreleases_KEY: |
-  https://github.com/jedisct1/dnscrypt-proxy/releases
-
-httpswwwfreshportsorgdnsdnscryptproxy2_KEY: |
-  https://www.freshports.org/dns/dnscrypt-proxy2/
-
-httpopenportssenetdnscryptproxy_KEY: |
-  http://openports.se/net/dnscrypt-proxy
-
-httppkgsrcsenetdnscryptproxy2_KEY: |
-  http://pkgsrc.se/net/dnscrypt-proxy2
-
-Encrypted_ICANN_DNS_Providers_KEY: |
-  Encrypted ICANN DNS Providers
+Encrypted_Domain_Name_System_DNS_Resolvers_KEY: |
+  Encrypted Domain Name System (DNS) Resolvers
 
 Note_Using_an_encrypted_DNS_resolver_will_not_make_you_anonymous_nor_hide_your_internet_traffic_from_your_Internet_Service_Provider_But_it_will_prev_KEY: |
   Note: Using an encrypted DNS resolver will not make you anonymous, nor hide your internet traffic from your Internet Service Provider. But it will prevent DNS hijacking, and make your DNS requests harder for third parties to eavesdrop on and tamper with. If you are currently using Google's DNS resolver, you should pick an alternative here.
 
-ICANN_DNS_Provider_KEY: |
-  ICANN DNS Provider
+DNS_Provider_KEY: |
+  DNS Provider
 
 Server_Locations_KEY: |
   Server Locations
@@ -1712,8 +1685,8 @@ DNSSEC__Check_a_hrefhttpsdnssecvsuniduedeDNSSEC_Resolver_Test_by_Matthus_Wandera
 QNAME_Minimization__Run_codedig_short_txt_qnamemintestinternetnlcode_from_the_commandline_taken_from_a_hrefhttpsnlnetlabsnldownloads_KEY: |
   QNAME Minimization - Run <code>dig +short txt qnamemintest.internet.nl</code> from the command-line (taken from <a href="https://nlnetlabs.nl/downloads/presentations/unbound_qnamemin_oarc24.pdf">this NLnet Labs presentation</a>). If you are on Windows 10, run <code>Resolve-DnsName -Type TXT -Name qnamemintest.internet.nl</code> from the PowerShell. You should see this display: <code>"HOORAY - QNAME minimisation is enabled on your resolver :)!"</code>
 
-Worth_Mentioning_and_Additional_Information_KEY: |
-  Worth Mentioning and Additional Information
+Software_Suggestions_and_Additional_Information_KEY: |
+  Software Suggestions and Additional Information
 
 Encrypted_DNS_clients_for_desktop_KEY: |
   Encrypted DNS clients for desktop:
@@ -2483,6 +2456,9 @@ VPS__Domain_Njalla_KEY: |
 Njalla_is_a_privacyaware_domain_registration_service_and_VPS_provider_based_in_Nevis_with_VPS_data_centers_in_Sweden_It_is_created_by_people_from_T_KEY: |
   Njalla is a privacy-aware domain registration service and VPS provider based in Nevis (with VPS data centers in Sweden). It is created by people from The Pirate Bay and IPredator VPN. Accepted payments: Bitcoin, Litecoin, Monero, DASH, Bitcoin Cash and PayPal.
 
+httpsnjalla_KEY: |
+  https://njal.la/
+
 Colocation_DataCell_KEY: |
   Colocation: DataCell
 
@@ -3072,7 +3048,7 @@ Standard_Notes_KEY: |
   Standard Notes
 
 Standard_Notes_is_a_simple_and_private_notes_app_that_makes_your_notes_easy_and_available_everywhere_you_are_Features_endtoend_encryption_on_every_p_KEY: |
-  Standard Notes is a simple and private notes app that makes your notes easy and available everywhere you are. Features end-to-end encryption on every platform, and a powerful desktop experience with themes and custom editors.
+  Standard Notes is a simple and private notes app that makes your notes easy and available everywhere you are. Features end-to-end encryption on every platform, and a powerful desktop experience with themes and custom editors. It has also been <a href="https://s3.amazonaws.com/standard-notes/security/Report-SN-Audit.pdf">independently audited (PDF)</a>.
 
 httpsstandardnotesorg_KEY: |
   https://standardnotes.org/
@@ -3713,36 +3689,6 @@ httpsappsapplecomusappsignalprivatemessengerid874139669_KEY: |
 httpsgithubcomsignalapp_KEY: |
   https://github.com/signalapp
 
-Wire_KEY: |
-  Wire
-
-Wire_is_a_free_and_endtoend_encrypted_chatting_application_that_supports_instant_messaging_voice_and_video_calls_Full_source_code_is_available_KEY: |
-  Wire is a free and end-to-end encrypted chatting application that supports instant messaging, voice, and video calls. Full source code is available.
-
-Wire_stores_some_plaintext_metadata_about_its_users_on_their_servers_This_data_includes_profile_names_profile_pictures_usernames_and_users_lists_o_KEY: |
-  Wire stores some plaintext metadata about its users on their servers. This data includes profile names, profile pictures, usernames, and users' lists of connections and conversations.
-
-a_hrefwwwvicecomen_usarticlegvzw5xsecuremessagingappwirestoreseveryoneyouveevercontactedinplaintextWarninga_KEY: |
-  <a href=//www.vice.com/en_us/article/gvzw5x/secure-messaging-app-wire-stores-everyone-youve-ever-contacted-in-plain-text>Warning</a>
-
-httpswirecom_KEY: |
-  https://wire.com/
-
-httpswirecomendownload_KEY: |
-  https://wire.com/en/download
-
-httpsplaygooglecomstoreappsdetailsidcomwire_KEY: |
-  https://play.google.com/store/apps/details?id=com.wire
-
-httpsitunesapplecomappwireid930944768mt8_KEY: |
-  https://itunes.apple.com/app/wire/id930944768?mt=8
-
-httpsappwirecom_KEY: |
-  https://app.wire.com
-
-httpsgithubcomwireapp_KEY: |
-  https://github.com/wireapp/
-
 Complete_Comparison_KEY: |
   Complete Comparison
 
@@ -3908,11 +3854,8 @@ Advanced_users_with_special_needs_can_download_the_Signal_APK_directly_Most_user
 Independent_security_audits_KEY: |
   Independent security audits
 
-a_hrefhttpseprintiacrorg20161013pdf_A_Formal_Security_Analysis_of_the_Signal_Messaging_Protocol_2019a_by_Katriel_CohnGordon_Cas_Cre_KEY: |
-  <a href="https://eprint.iacr.org/2016/1013.pdf"> A Formal Security Analysis of the Signal Messaging Protocol (2019)</a> by Katriel Cohn-Gordon, Cas Cremers, Benjamin Dowling, Luke Garratt and Douglas Stebila
-
-a_hrefhttpswirecomensecurityauditsIndependent_security_auditsa_on_Wires_website_KEY: |
-  <a href="https://wire.com/en/security/#audits">Independent security audits</a> on Wire's website
+a_hrefhttpseprintiacrorg20161013pdfA_Formal_Security_Analysis_of_the_Signal_Messaging_Protocol_2019a_by_Katriel_CohnGordon_Cas_Crem_KEY: |
+  <a href="https://eprint.iacr.org/2016/1013.pdf">A Formal Security Analysis of the Signal Messaging Protocol (2019)</a> by Katriel Cohn-Gordon, Cas Cremers, Benjamin Dowling, Luke Garratt and Douglas Stebila
 
 a_hrefhttpskeybaseiodocsassetsblogNCC_Group_Keybase_KB2018_Public_Report_20190227_v13pdfKeybases_Protocol_Security_Review_2019a__KEY: |
   <a href="https://keybase.io/docs-assets/blog/NCC_Group_Keybase_KB2018_Public_Report_2019-02-27_v1.3.pdf">Keybase's Protocol Security Review (2019)</a> by <a href="https://www.nccgroup.trust/">NCC Group</a>
@@ -4099,18 +4042,6 @@ httpskeybaseio_downloadkeybaseforios_KEY: |
 
 httpsgithubcomKeybase_KEY: |
   https://github.com/Keybase
-
-Wire_Pro_KEY: |
-  Wire Pro
-
-Paid_team_communication_with_E2EE_KEY: |
-  Paid team communication with E2EE.
-
-While_the_free_edition_of_Wire_is_a_recommended_platform_we_have_not_tested_the_Pro_edition_KEY: |
-  While the free edition of Wire is a recommended platform, we have not tested the Pro edition.
-
-Untested_KEY: |
-  Untested
 
 Encrypted_Cloud_Storage_Services_KEY: |
   Encrypted Cloud Storage Services
@@ -4767,8 +4698,8 @@ Remember_to_check_CPU_vulnerability_mitigations_KEY: |
 a_href_httpssupportmicrosoftcomenushelp4073757protectwindowsdevicesfromspeculativeexecutionsidechannelattackThis_also_affects_Wi_KEY: |
   <a href=" https://support.microsoft.com/en-us/help/4073757/protect-windows-devices-from-speculative-execution-side-channel-attack">This also affects Windows 10</a>, but it doesn't expose this information or mitigation instructions as easily. MacOS users check <a href="https://support.apple.com/en-us/HT210108">How to enable full mitigation for Microarchitectural Data Sampling (MDS) vulnerabilities on Apple Support</a>.
 
-When_running_a_enough_recent_Linux_kernel_you_can_check_the_CPU_vulnerabilities_it_detects_by_codetail_n_1_sysdevicessystemcpuvulnerabilities_KEY: |
-  When running a enough recent Linux kernel, you can check the CPU vulnerabilities it detects by <code>tail -n +1 /sys/devices/system/cpu/vulnerabilities/*</code>. By using <code>tail -n +1</code> instead of <code>cat</code>, the file names are also visible.
+When_running_a_recent_enough_Linux_kernel_you_can_check_the_CPU_vulnerabilities_it_detects_by_codetail_n_1_sysdevicessystemcpuvulnerabilities_KEY: |
+  When running a recent enough Linux kernel, you can check the CPU vulnerabilities it detects by <code>tail -n +1 /sys/devices/system/cpu/vulnerabilities/*</code>. By using <code>tail -n +1</code> instead of <code>cat</code>, the file names are also visible.
 
 In_case_you_have_an_Intel_CPU_you_may_notice_SMT_vulnerable_display_after_running_the_codetailcode_command_To_mitigate_this_disable_a_href_KEY: |
   In case you have an Intel CPU, you may notice "SMT vulnerable" display after running the <code>tail</code> command. To mitigate this, disable <a href="https://en.wikipedia.org/wiki/Hyper-threading">hyper-threading</a> from the UEFI/BIOS.
