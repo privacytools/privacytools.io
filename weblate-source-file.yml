@@ -95,6 +95,12 @@ Pastebin_hosting_services_25_KEY: |
 Find_a_pastebin_provider_that_wont_read_your_content_to_share_sensitive_code_or_other_informationP_99_KEY: |
   Find a pastebin provider that won't read your content to share sensitive code or other information.
 
+Privacy_QampA_15_KEY: |
+  Privacy Q&amp;A
+
+This_Privacy_Statement_explains_what_information_PrivacyTools_and_its_related_entities_collect_about_its_users_what_we_do_with_that_information_and_h_215_KEY: |
+  This Privacy Statement explains what information PrivacyTools and its related entities collect about its users, what we do with that information, and how we handle the content you place in our products and services.
+
 Productivity_Tools_18_KEY: |
   Productivity Tools
 
@@ -1382,6 +1388,9 @@ Germany_8_KEY: |
 Japan_6_KEY: |
   Japan
 
+No_logsP_11_KEY: |
+  "No logs."
+
 Hobby_Project_14_KEY: |
   Hobby Project
 
@@ -1706,6 +1715,9 @@ If_using_Firefoxs_trusted_recursive_resolver_TRR_navigate_to_codeaboutnetworking
 Some_fields_will_say_false_depending_on_the_the_value_of_networkPtrrPmode_in_aboutconfig_92_KEY: |
   Some fields will say "false" depending on the the value of network.trr.mode in about:config
 
+httpswikiPmozillaPorgTrusted_Recursive_Resolver_52_KEY: |
+  https://wiki.mozilla.org/Trusted_Recursive_Resolver
+
 dnscryptproxy__Check_a_hrefhttpsgithubPcomjedisct1dnscryptproxywikiCheckingdnscryptproxys_wiki_on_how_to_verify_that_your_DNS_is_encry_160_KEY: |
   dnscrypt-proxy - Check <a href="https://github.com/jedisct1/dnscrypt-proxy/wiki/Checking">dnscrypt-proxy's wiki on how to verify that your DNS is encrypted</a>.
 
@@ -1811,6 +1823,9 @@ Pihole_8_KEY: |
 A_networkwide_DNS_server_mainly_for_the_Raspberry_PiP_Blocks_ads_tracking_and_malicious_domains_for_all_devices_on_your_networkP_132_KEY: |
   A network-wide DNS server mainly for the Raspberry Pi. Blocks ads, tracking, and malicious domains for all devices on your network.
 
+httpsgitlabPcomquidsupnotrack_35_KEY: |
+  https://gitlab.com/quidsup/notrack
+
 NoTrack_8_KEY: |
   NoTrack
 
@@ -1822,9 +1837,6 @@ Further_reading_17_KEY: |
 
 On_Firefox_DoH_and_ESNI_25_KEY: |
   On Firefox, DoH and ESNI
-
-httpswikiPmozillaPorgTrusted_Recursive_Resolver_52_KEY: |
-  https://wiki.mozilla.org/Trusted_Recursive_Resolver
 
 Trusted_Recursive_Resolver_DoH_on_MozillaWiki_48_KEY: |
   Trusted Recursive Resolver (DoH) on MozillaWiki
@@ -2531,7 +2543,7 @@ start_search_13_KEY: |
 Privacy_Tools_14_KEY: |
   Privacy Tools
 
-Prefer_the_classic_siteQ_View_a_singlepage_layoutP_51_KEY: |
+Prefer_the_classic_siteQ_View_a_singlepage_layoutP_52_KEY: |
   Prefer the classic site? View a single-page layout.
 
 Discover_privacycentric_online_services_including_email_providers_VPN_operators_DNS_administrators_and_moreE_113_KEY: |
@@ -3041,8 +3053,8 @@ GNUnet_7_KEY: |
 GNUnet_provides_a_strong_foundation_of_free_software_for_a_global_distributed_network_that_provides_security_and_privacyP_123_KEY: |
   GNUnet provides a strong foundation of free software for a global, distributed network that provides security and privacy.
 
-httpsipfsPioIPFSa_emandem_a_hrefhttpsgithubPcomipfsshipyardipfscompanionIPFS_Companiona_116_KEY: |
-  https://ipfs.io/">IPFS</a> <em>and</em> <a href="https://github.com/ipfs-shipyard/ipfs-companion">IPFS Companion</a>
+a_hrefhttpsipfsPioIPFSa_emandem_a_hrefhttpsgithubPcomipfsshipyardipfscompanionIPFS_Companiona_125_KEY: |
+  <a href="https://ipfs.io/">IPFS</a> <em>and</em> <a href="https://github.com/ipfs-shipyard/ipfs-companion">IPFS Companion</a>
 
 A_peertopeer_hypermedia_protocol_to_make_the_web_faster_safer_and_more_openP_IPFS_Companion_is_a_browser_extension_for_redirecting_queries_to_a_gat_189_KEY: |
   A peer-to-peer hypermedia protocol to make the web faster, safer, and more open. IPFS Companion is a browser extension for redirecting queries to a gateway of your choice (generally local).
@@ -3193,6 +3205,9 @@ Orgmode_9_KEY: |
 
 A_major_mode_for_GNU_EmacsP_Orgmode_is_for_keeping_notes_maintaining_TODO_lists_planning_projects_and_authoring_documents_with_a_fast_and_effective_171_KEY: |
   A major mode for GNU Emacs. Org-mode is for keeping notes, maintaining TODO lists, planning projects, and authoring documents with a fast and effective plain-text system.
+
+We_will_try_and_keep_this_page_uptodate_with_added_sections_and_other_content_but_to_be_guaranteed_the_latest_recommendations_we_recommend_you_chec_232_KEY: |
+  We will try and keep this page up-to-date with added sections and other content, but to be guaranteed the latest recommendations, we recommend you check out our new Providers, Browsers, Software, and OS pages in the navbar above :)
 
 Global_Mass_Surveillance__The_Fourteen_Eyes_45_KEY: |
   Global Mass Surveillance - The Fourteen Eyes
@@ -3911,8 +3926,14 @@ Jami_formerly_RingSFLphone_30_KEY: |
 Gives_you_full_control_over_your_communications_and_an_unmatched_level_of_privacyP_Jami_has_text_messaging_video_and_audio_calls_file_transfer_and_v_170_KEY: |
   Gives you full control over your communications and an unmatched level of privacy. Jami has text messaging, video and audio calls, file transfer, and video conferencing.
 
+httpsfirstlookPorgtheintercept20150714communicatingsecretwatched_76_KEY: |
+  https://firstlook.org/theintercept/2015/07/14/communicating-secret-watched/
+
 Chatting_in_Secret_While_Were_All_Being_Watched__firstlookPorg_65_KEY: |
   Chatting in Secret While We're All Being Watched - firstlook.org
+
+httpssignalPorgandroidapk_32_KEY: |
+  https://signal.org/android/apk/
 
 Advanced_users_with_special_needs_can_download_the_Signal_APK_directlyP_Most_users_should_not_do_this_under_normal_circumstancesP_130_KEY: |
   Advanced users with special needs can download the Signal APK directly. Most users should not do this under normal circumstances.
@@ -5202,6 +5223,9 @@ Comparison_of_Windows_10_Privacy_tools_39_KEY: |
 More_bad_news_14_KEY: |
   More bad news
 
+httpsthehackernewsPcom201602microsoftwindows10privacyPhtml_67_KEY: |
+  https://thehackernews.com/2016/02/microsoft-windows10-privacy.html
+
 Windows_10_Sends_Your_Data_5500_Times_Every_Day_Even_After_Tweaking_Privacy_Settings_85_KEY: |
   Windows 10 Sends Your Data 5500 Times Every Day Even After Tweaking Privacy Settings
 
@@ -5214,11 +5238,215 @@ httpsarstechnicaPcominformationtechnology201508evenwhentoldnottowindows10justcan
 Even_when_told_not_to_Windows_10_just_cant_stop_talking_to_MicrosoftP_Its_no_wonder_that_privacy_activists_are_up_in_armsP_126_KEY: |
   Even when told not to, Windows 10 just can't stop talking to Microsoft. It's no wonder that privacy activists are up in arms.
 
+Ars_TechnicaP_14_KEY: |
+  Ars Technica.
+
 httpswwwPtechdirtPcomarticles2015082006171332012windows10reservesrighttoblockpiratedgamesunauthorizedhardwarePshtml_132_KEY: |
   https://www.techdirt.com/articles/20150820/06171332012/windows-10-reserves-right-to-block-pirated-games-unauthorized-hardware.shtml
 
 Windows_10_Reserves_The_Right_To_Block_Pirated_Games_And_Unauthorized_HardwareP_82_KEY: |
   Windows 10 Reserves The Right To Block Pirated Games And 'Unauthorized' Hardware.
+
+TechdirtP_10_KEY: |
+  Techdirt.
+
+Who_is__sitePname_Q_24_KEY: |
+  Who is {{ site.name }}?
+
+_sitePname__is_an_unincorporated_community_developing_this_website_and_a_number_of_privacyfriendly_servicesP_The_current_list_of_public_team_membe_350_KEY: |
+  {{ site.name }} is an unincorporated community developing this website and a number of privacy-friendly services. The current list of public team members [can be found on GitHub](https://github.com/orgs/privacytoolsIO/people). In order to operate these services, {{ site.name }} receives hosting and administration services from Aragon Ventures LLC.
+
+How_does__sitePname__collect_data_about_meQ_48_KEY: |
+  How does {{ site.name }} collect data about me?
+
+We_collect_data_17_KEY: |
+  We collect data:
+
+When_you_browse_a_website_forum_or_other__sitePname__serviceP_68_KEY: |
+  When you browse a website, forum, or other {{ site.name }} service.
+
+When_you_create_an_account_on_a__sitePname__serviceP_57_KEY: |
+  When you create an account on a {{ site.name }} service.
+
+When_you_post_send_private_messages_or_otherwise_participate_on_a__sitePname__serviceP_93_KEY: |
+  When you post, send private messages, or otherwise participate on a {{ site.name }} service.
+
+This_data_will_be_collected_regardless_of_browser_device_or_app_used_to_access_our_servicesP_We_do_not_buy_or_otherwise_receive_data_from_data_broker_154_KEY: |
+  This data will be collected regardless of browser, device, or app used to access our services. We do not buy or otherwise receive data from data brokers.
+
+What_data_do_you_collect_and_whyQ_34_KEY: |
+  What data do you collect and why?
+
+We_collect_data_about_visits_to_our_websitesP_46_KEY: |
+  We collect data about visits to our websites.
+
+When_you_visit_a__sitePname__website_or_service_regardless_of_whether_you_have_an_account_or_not_the_website_may_use_cookies_server_logs_and_ot_194_KEY: |
+  When you visit a {{ site.name }} website or service, regardless of whether you have an account or not, the website may use cookies, server logs, and other methods to collect the following data:
+
+What_pages_you_visit_22_KEY: |
+  What pages you visit,
+
+What_actions_you_take_on_our_website_38_KEY: |
+  What actions you take on our website,
+
+What_browser_operating_system_and_device_you_use_52_KEY: |
+  What browser, operating system, and device you use,
+
+Search_terms_you_use_22_KEY: |
+  Search terms you use,
+
+Your_anonymized_IP_address_We_anonymize_the_last_3_bytes_of_your_IP_ePgP_192PxxxPxxxPxxxP_92_KEY: |
+  Your anonymized IP address: We anonymize the last 3 bytes of your IP, e.g. 192.xxx.xxx.xxx.
+
+We_use_this_data_to_21_KEY: |
+  We use this data to:
+
+Optimize_websites_and_services_so_that_they_are_quick_and_easy_to_use_72_KEY: |
+  Optimize websites and services, so that they are quick and easy to use,
+
+Diagnose_and_debug_technical_errors_37_KEY: |
+  Diagnose and debug technical errors,
+
+Defend_websites_and_services_from_abuse_and_technical_attacks_63_KEY: |
+  Defend websites and services from abuse and technical attacks,
+
+Compile_statistics_on_the_popularity_of_a_website_page_post_topic_etcP_and_80_KEY: |
+  Compile statistics on the popularity of a website, page, post, topic, etc., and
+
+Compile_statistics_on_the_kinds_of_software_and_computers_visitors_useP_72_KEY: |
+  Compile statistics on the kinds of software and computers visitors use.
+
+This_data_is_processed_under_our_Legitimate_InteresthttpsicoPorgPukfororganisationsguidetodataprotectionguidetothegeneraldataprotecti_379_KEY: |
+  This data is processed under our [Legitimate Interest](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/legitimate-interests/when-can-we-rely-on-legitimate-interests/) to provide our services to you in a an efficient and secure manner and to ensure the legal compliance and proper administration of our business.
+
+Raw_data_such_as_pages_visited_anonymized_visitor_IPs_and_visitor_actions_will_be_retained_for_60_daysP_In_special_circumstancessuch_as_extended_inv_417_KEY: |
+  Raw data such as pages visited, anonymized visitor IPs, and visitor actions will be retained for 60 days. In special circumstances—such as extended investigations regarding a technical attack—we may preserve logged data for longer periods for analysis. We store aggregate statistics about use of the websites and services we host indefinitely, but those statistics do not include data identifiable to you personally.
+
+You_can_opt_out_of_some_website_tracking_we_do_with_Matomo_using_the_form_belowP_Our_Matomo_instance_is_blocked_by_most_adblockers_so_users_blocking__514_KEY: |
+  You can opt out of some website tracking we do with Matomo using the form below. Our Matomo instance is blocked by most ad-blockers, so users blocking the domain `stats.privacytools.io` will not need to separately opt-out with the form below. Our Matomo instance also respects the Do Not Track (DNT) setting in your browser, so users with DNT enabled will not need to complete this form. Limited data may still be collected via server-side logs after opting out here, but this data cannot be used to identify you.
+
+We_collect_account_dataP_25_KEY: |
+  We collect account data.
+
+On_some_websites_and_services_we_provide_many_features_may_require_an_accountP_For_example_on_forumPprivacytoolsPio_an_account_is_required_to_post_an_170_KEY: |
+  On some websites and services we provide, many features may require an account. For example, on forum.privacytools.io an account is required to post and reply to topics.
+
+To_sign_up_for_most_accounts_we_will_collect_a_name_username_email_and_passwordP_In_the_event_a_website_requires_more_information_than_just_that_da_236_KEY: |
+  To sign up for most accounts, we will collect a name, username, email, and password. In the event a website requires more information than just that data, that will be clearly marked and noted in a separate privacy statement, per-site.
+
+We_use_your_account_data_to_identify_you_on_the_website_and_to_create_pages_specific_to_you_such_as_your_profile_pageP_We_will_also_use_your_account__209_KEY: |
+  We use your account data to identify you on the website, and to create pages specific to you, such as your profile page. We will also use your account data to publish a public profile for you on our services.
+
+We_use_your_email_to_22_KEY: |
+  We use your email to:
+
+Notify_you_about_posts_and_other_activity_on_the_websites_or_servicesP_71_KEY: |
+  Notify you about posts and other activity on the websites or services.
+
+Reset_your_password_and_help_keep_your_account_secureP_55_KEY: |
+  Reset your password and help keep your account secure.
+
+Contact_you_in_special_circumstances_related_to_your_accountP_62_KEY: |
+  Contact you in special circumstances related to your account.
+
+Contact_you_about_legal_requests_such_as_DMCA_takedown_requestsP_66_KEY: |
+  Contact you about legal requests, such as DMCA takedown requests.
+
+On_some_websites_and_services_you_may_provide_additional_information_for_your_account_such_as_a_short_biography_avatar_your_location_or_your_birthd_345_KEY: |
+  On some websites and services you may provide additional information for your account, such as a short biography, avatar, your location, or your birthday. We make that information available to everyone who can access the website or service in question. This information is not required to use any of our services, and can be erased at any time.
+
+We_will_store_your_account_data_as_long_as_your_account_remains_openP_After_closing_an_account_we_may_retain_some_or_all_of_your_account_data_in_the_f_197_KEY: |
+  We will store your account data as long as your account remains open. After closing an account, we may retain some or all of your account data in the form of backups or archives for up to 90 days.
+
+Who_is_my_data_shared_withQ_28_KEY: |
+  Who is my data shared with?
+
+When_you_use_services_provided_by__sitePname__your_data_is_shared_with_Aragon_Ventures_LLC_in_order_to_facilitate_their_hosting_obligationsP_Arago_308_KEY: |
+  When you use services provided by {{ site.name }} your data is shared with Aragon Ventures LLC, in order to facilitate their hosting obligations. Aragon Ventures LLC may collect and use your data as described in their privacy statement at [https://aragon.ventures/privacy](https://aragon.ventures/privacy/).
+
+Your_account_data_posts_and_other_activities_on__sitePname__services_is_shared_with_others_as_mentioned_in_the_section_about_account_dataP_145_KEY: |
+  Your account data, posts, and other activities on {{ site.name }} services is shared with others as mentioned in the section about account data.
+
+Where_is_my_data_storedQ_25_KEY: |
+  Where is my data stored?
+
+Your_data_is_stored_on_servers_provided_by_Aragon_Ventures_LLC_a_company_incorporated_in_Minnesota_United_StatesP_The_primary_datacenter_for__siteP_322_KEY: |
+  Your data is stored on servers provided by Aragon Ventures LLC, a company incorporated in Minnesota, United States. The primary datacenter for {{ site.name }} is located in France. Some websites, services, or backups may reside in datacenters in multiple jurisdictions, including the United States and the European Union.
+
+Is__sitePname__GDPR_compliantQ_35_KEY: |
+  Is {{ site.name }} GDPR compliant?
+
+We_respect_privacy_rights_under_Regulation_EU_2016679httpseurlexPeuropaPeulegalcontentENTXTQuriuriservOJPL_P2016P119P01P0001P01PENG__296_KEY: |
+  We respect privacy rights under [Regulation (EU) 2016/679](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.L_.2016.119.01.0001.01.ENG), the European Union’s General Data Protection Regulation (GDPR). Information that GDPR requires us to give can be found throughout this document.
+
+What_are_my_data_protection_rightsQ_36_KEY: |
+  What are my data protection rights?
+
+We_would_like_to_make_sure_you_are_fully_aware_of_all_of_your_data_protection_rightsP_Every_user_is_entitled_to_the_following_127_KEY: |
+  We would like to make sure you are fully aware of all of your data protection rights. Every user is entitled to the following:
+
+The_right_to_access_20_KEY: |
+  The right to access
+
+You_have_the_right_to_request_access_to_your_personal_data_or_copies_of_your_personal_data_from_usP_We_may_charge_you_a_small_fee_for_providing_a_copy_166_KEY: |
+  You have the right to request access to your personal data, or copies of your personal data from us. We may charge you a small fee for providing a copy of your data.
+
+The_right_to_rectification_27_KEY: |
+  The right to rectification
+
+You_have_the_right_to_request_that_we_correct_any_information_you_believe_is_inaccurate_or_incompleteP_103_KEY: |
+  You have the right to request that we correct any information you believe is inaccurate or incomplete.
+
+The_right_to_erasure_21_KEY: |
+  The right to erasure
+
+You_have_the_right_to_request_that_we_erase_your_personal_data_under_certain_conditionsP_90_KEY: |
+  You have the right to request that we erase your personal data, under certain conditions.
+
+The_right_to_restrict_processing_33_KEY: |
+  The right to restrict processing
+
+You_have_the_right_to_request_that_we_restrict_the_processing_of_your_personal_data_under_certain_conditionsP_111_KEY: |
+  You have the right to request that we restrict the processing of your personal data, under certain conditions.
+
+The_right_to_object_to_processing_34_KEY: |
+  The right to object to processing
+
+You_have_the_right_to_object_to_our_processing_of_your_personal_data_under_certain_conditionsP_96_KEY: |
+  You have the right to object to our processing of your personal data, under certain conditions.
+
+The_right_to_data_portability_30_KEY: |
+  The right to data portability
+
+You_have_the_right_to_request_that_we_transfer_the_data_that_we_have_collected_to_another_organization_or_directly_to_you_under_certain_conditionsP_150_KEY: |
+  You have the right to request that we transfer the data that we have collected to another organization, or directly to you, under certain conditions.
+
+How_can_I_contact_the__sitePname__team_about_privacyQ_58_KEY: |
+  How can I contact the {{ site.name }} team about privacy?
+
+The__sitePname__team_generally_does_not_have_access_to_personal_data_outside_of_limited_access_granted_via_some_moderation_panelsP_Inquiries_regard_269_KEY: |
+  The {{ site.name }} team generally does not have access to personal data outside of limited access granted via some moderation panels. Inquiries regarding your personal information should be sent directly to the data controller for these services, Aragon Ventures LLC:
+
+or_write_to_12_KEY: |
+  or write to
+
+For_all_other_inquiries_you_can_contact_the_team_via_methods_described_on_our_contact_page_sitePproduction_url_contactP_131_KEY: |
+  For all other inquiries, you can contact the team via methods described on our [contact page]({{ site.production_url }}/contact/).
+
+For_complaints_under_GDPR_more_generally_European_Union_users_may_lodge_complaints_with_their_local_data_protection_supervisory_authoritiesP_142_KEY: |
+  For complaints under GDPR more generally, European Union users may lodge complaints with their local data protection supervisory authorities.
+
+How_can_I_find_out_about_changes_to_this_documentQ_51_KEY: |
+  How can I find out about changes to this document?
+
+This_version_of_our_privacy_statement_took_effect_October_9th_2019P_69_KEY: |
+  This version of our privacy statement took effect October 9th, 2019.
+
+We_will_post_any_new_versions_of_this_statement_at__sitePproduction_url_privacy_sitePproduction_url_privacyP_We_may_change_how_we_annou_432_KEY: |
+  We will post any new versions of this statement at [{{ site.production_url }}/privacy/]({{ site.production_url }}/privacy/). We may change how we announce changes in future versions of this document. In the meantime we may update our contact information at any time without announcing a change. Please refer to [{{ site.production_url }}/privacy/]({{ site.production_url }}/privacy/) for the latest contact information at any time.
+
+A_full_revision_historyhttpsgithubPcomprivacytoolsIOprivacytoolsPiocommitsmasterpagesprivacyPmd_for_this_page_can_be_found_on_GitHubP_147_KEY: |
+  A full [revision history](https://github.com/privacytoolsIO/privacytools.io/commits/master/pages/privacy.md) for this page can be found on GitHub.
 
 Services_8_KEY: |
   Services
