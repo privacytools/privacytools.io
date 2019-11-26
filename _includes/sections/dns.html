@@ -76,7 +76,7 @@
           </span>
         </td>
         <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title='"\No logs."'>
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title='{% t "No logs." %}'>
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
           </a>
         </td>
@@ -305,7 +305,7 @@
           </span>
         </td>
         <td>
-          <a data-toggle="tooltip" data-placement="bottom" data-original-title="{5 t https://git.nixnet.xyz/NixNet/dns %}" href="{% t https://git.nixnet.xyz/NixNet/dns %}">
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title="{% t https://git.nixnet.xyz/NixNet/dns %}" href="{% t https://git.nixnet.xyz/NixNet/dns %}">
             <img alt="WWW" src="/assets/img/layout/www.png" width="35" height="35">
           </a>
         </td>
@@ -505,7 +505,7 @@
     <ul>
       <li>{% t Check <a href="https://www.dnsleaktest.com/">DNSLeakTest.com</a>.%} <span class="badge badge-warning" data-toggle="tooltip" data-placement="bottom" data-original-title="{% t Your DNS provider may not appear with their own name, so compare the responses to what you know or can find about your DNS provider. Just ensure you don't see your ISP or old unencrypted DNS provider.%}"><i class="fas fa-exclamation-triangle"></i></span></li>
       <li>{% t Check the website of your DNS provider. They may have a page for telling "you are using our DNS." Examples include <a href="https://adguard.com/en/adguard-dns/overview.html">AdGuard</a> and <a href="https://1.1.1.1/help">Cloudflare</a>.%}</li>
-      <li>{% t If using Firefox's trusted recursive resolver (TRR), navigate to <code>about:networking#dns</code>. If the TRR column says "true" for some fields, you are using DoH.%} <span class="badge badge-warning" data-toggle="tooltip" data-placement="bottom" data-original-title='{% t Some fields will say "false" depending on the the value of network.trr.mode in about:config %}'><a href="https://wiki.mozilla.org/Trusted_Recursive_Resolver"><i class="fas fa-exclamation-triangle"></i></a></span></li>
+      <li>{% t If using Firefox's trusted recursive resolver (TRR), navigate to <code>about:networking#dns</code>. If the TRR column says "true" for some fields, you are using DoH.%} <span class="badge badge-warning" data-toggle="tooltip" data-placement="bottom" data-original-title='{% t Some fields will say "false" depending on the the value of network.trr.mode in about:config %}'><a href="{% t https://wiki.mozilla.org/Trusted_Recursive_Resolver %}"><i class="fas fa-exclamation-triangle"></i></a></span></li>
     </ul>
   </li>
   <li>{% t dnscrypt-proxy - Check <a href="https://github.com/jedisct1/dnscrypt-proxy/wiki/Checking">dnscrypt-proxy's wiki on how to verify that your DNS is encrypted</a>.%}</li>
@@ -547,7 +547,7 @@
   <li><strong>{% t Network-wide DNS servers:%}</strong>
     <ul>
       <li><em><a href="{% t https://pi-hole.net/%}">{% t Pi-hole %}</a></em> - {% t A network-wide DNS server mainly for the Raspberry Pi. Blocks ads, tracking, and malicious domains for all devices on your network. %}</li>
-      <li><em><a href="https://gitlab.com/quidsup/notrack">{% t NoTrack %}</a></em> - {% t A network-wide DNS server like Pi-hole for blocking ads, tracking, and malicious domains. %}</li>
+      <li><em><a href="{% t https://gitlab.com/quidsup/notrack %}">{% t NoTrack %}</a></em> - {% t A network-wide DNS server like Pi-hole for blocking ads, tracking, and malicious domains. %}</li>
     </ul>
   </li>
   <li><strong>{% t Further reading: %}</strong>
