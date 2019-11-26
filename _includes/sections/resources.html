@@ -1,6 +1,6 @@
-<h1 id="os" class="anchor">Privacy Tools</h1>
+<h1 id="os" class="anchor">{% t Privacy Tools %}</h1>
 
-<p><a href="/classic/"><i class="fas fa-info-circle"></i> Prefer the classic site? View a single-page layout.</a></p>
+<p><a href="/{% if page.language %}{{ page.language }}/{% endif %}classic/"><i class="fas fa-info-circle"></i> {% t Prefer the classic site? View a single-page layout.%}</a></p>
 
 <div class="row">
 
@@ -35,6 +35,7 @@
   page="/operating-systems/"
   description="Find out how your operating system is compromising your privacy, and what simple alternatives exist."
   %}
+
 
   {% include card.html color="secondary"
   title="PrivacyTools Services"

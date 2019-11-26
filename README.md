@@ -3,6 +3,7 @@
 _Encryption Against Global Mass Surveillance._
 
 [![Build Status](https://travis-ci.com/privacytoolsIO/privacytools.io.svg?branch=master)](https://travis-ci.com/privacytoolsIO/privacytools.io)
+[![Translation status](https://weblate.nablahost.com/widgets/privacytoolsio/-/website/svg-badge.svg)](https://weblate.nablahost.com/engage/privacytoolsio/?utm_source=widget)
 
 # Contributing
 

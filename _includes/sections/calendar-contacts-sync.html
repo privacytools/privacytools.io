@@ -1,7 +1,7 @@
-<h1 id="calendar_contacts" class="anchor"><a href="#calendar_contacts"><i class="fas fa-link anchor-icon"></i></a> Calendar and Contacts Sync</h1>
+<h1 id="calendar_contacts" class="anchor"><a href="#calendar_contacts"><i class="fas fa-link anchor-icon"></i></a> {% t Calendar and Contacts Sync %}</h1>
 
 <div class="alert alert-warning" role="alert">
-  <strong>If you are currently using a calendar and or contacts synchronization service like Google Sync or iCloud, you should pick an alternative here.</strong>
+  <strong>{% t If you are currently using a calendar and or contacts synchronization service like Google Sync or iCloud, you should pick an alternative here. %}</strong>
 </div>
 
 {%
@@ -22,12 +22,15 @@
   ios="https://nextcloud.com/install/"
 %}
 
+{% capture email_providers_desc %}Many email providers also offer calendar and or contacts sync services. Refer to the <a href="{{'/providers/email' | translate_page }}">Email Providers section</a> to choose an email provider and check if they also offer calendar and/or contacts sync.{% endcapture %}
+{% capture email_providers_link %}{{'/providers/email' | translate_page }}{% endcapture %}
+
 {%
   include cardv2.html
   title="Email Providers"
   image="/assets/img/misc/email.png"
-  description='Many email providers also offer calendar and or contacts sync services. Refer to the <a href="/providers/email">Email Providers section</a> to choose an email provider and check if they also offer calendar and/or contacts sync.'
-  website="/providers/email"
+  description="Many email providers also offer calendar and or contacts sync services. Refer to the <a href=\"{{'/providers/email' | translate_page }}\">Email Providers section</a> to choose an email provider and check if they also offer calendar and/or contacts sync."
+  website="{{'/providers/email' | translate_page }}"
 %}
 
 {%
@@ -50,14 +53,14 @@
   ios="https://www.etesync.com/install/ios/"
 %}
 
-<h3>Worth Mentioning</h3>
+<h3>{% t Worth Mentioning %}</h3>
 
 <ul>
   <li>
-    <a href="https://fruux.com/">fruux</a> - A unified contacts/calendaring system that works across platforms and devices.
+    <a href="{% t https://fruux.com/ %}">{% t fruux %}</a> - {% t A unified contacts/calendaring system that works across platforms and devices. %}
   </li>
 
   <li>
-    <a href="../cloud">cloud backups</a> - Consider regularly exporting your calendar and or contacts and backing them up on a separate storage drive or uploading them to cloud storage (ideally after <a href="../encryption-tools/">encrypting</a> them).
+    <a href="../cloud">{% t cloud backups %}</a> - {% t Consider regularly exporting your calendar and or contacts and backing them up on a separate storage drive or uploading them to cloud storage (ideally after <a href="../encryption-tools/">encrypting</a> them).%}
   </li>
 </ul>

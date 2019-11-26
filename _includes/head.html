@@ -9,7 +9,9 @@
   <meta name="msapplication-TileImage" content="/assets/img/favicons/mstile-144x144.png">
   <meta name="msapplication-config" content="/assets/img/favicons/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
-  <link rel="canonical" href="{{ site.production_url }}{{ page.url | replace:'index.html',''}}">
+  <link rel="canonical" href="{{ page.permalink | prepend: site.production_url }}">
+  <link rel="alternate" hreflang="en" href="https://www.privacytools.io/" />
+  <link rel="alternate" hreflang="x-default" href="https://www.privacytools.io/" />
 
   <!-- title -->
   {% if page.title %}
@@ -20,10 +22,10 @@
   <meta property="og:title" content="{{ site.title }}" />
   {% endif %}
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="{{ page.permalink | prepend: site.url }}" />
+  <meta property="og:url" content="{{ page.permalink | prepend: site.production_url }}" />
   <meta property="og:image" content="{{ site.production_url }}/assets/img/layout/ogimage.jpg" />
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
-  <meta property="og:locale" content="en_GB" />
+  <meta property="og:locale" content="{{ page.language | default: "en_GB" }}" />
   <meta property="og:site_name" content="{{ site.name }}" />
 
   {% if page.url == "/" or page.url == "/about/" %}
