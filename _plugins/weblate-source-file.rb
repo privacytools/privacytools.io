@@ -34,7 +34,7 @@ module Weblate
       def add_entry(weblate_id, source_text)
         unless id_already_exists?(weblate_id) or source_text.nil? or source_text.empty?
           new_entry = <<-YAML
-#{weblate_id}: |
+#{weblate_id}: |-
   #{source_text}
 
           YAML
@@ -44,7 +44,7 @@ module Weblate
       end
 
       def id_already_exists?(weblate_id)
-        File.readlines(weblate_source_location).grep(/^#{weblate_id}: \|$/).any?
+        File.readlines(weblate_source_location).grep(/^#{weblate_id}: \|-$/).any?
       end
 
       def refresh
