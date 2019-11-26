@@ -21,8 +21,11 @@ module Weblate
     def self.get(source_text)
       source_text.nil? or source_text.empty? ? source_text
                                              : source_text.strip[0..150]
-                                                          .gsub(/([^\w\d\s\!]|\n)/, '')
-                                                          .tr(' ', '_') << "_KEY"
+                                                          .gsub(/([^\w\d\s\.\?\!]|\n)/, '')
+                                                          .tr(' ', '_') 
+                                                          .tr('.', 'P')
+                                                          .tr('?', 'Q')
+                                                          .tr('!', 'E') << "_" << source_text.length.to_s << "_KEY"
     end
   end
 
