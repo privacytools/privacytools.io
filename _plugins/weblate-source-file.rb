@@ -19,13 +19,16 @@ module Weblate
 
   class ID
     def self.get(source_text)
-      source_text.nil? or source_text.empty? ? source_text
-                                             : source_text.strip[0..150]
-                                                          .gsub(/([^\w\d\s\.\?\!]|\n)/, '')
-                                                          .tr(' ', '_') 
-                                                          .tr('.', 'P')
-                                                          .tr('?', 'Q')
-                                                          .tr('!', 'E') << "_" << source_text.length.to_s << "_KEY"
+      if source_text.nil? or source_text.empty?
+        source_text
+      else
+        len_encoding = source_text.strip.length.to_s
+        source_text.strip[0..150].gsub(/([^\w\d\s\.\?\!]|\n)/, '')
+                                 .tr(' ', '_') 
+                                 .tr('.', 'P')
+                                 .tr('?', 'Q')
+                                 .tr('!', 'E') << "_" << len_encoding << "_KEY"
+      end
     end
   end
 
