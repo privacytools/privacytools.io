@@ -204,12 +204,19 @@ footer {
 
 
 .btn-icon {
+  display: flex;
+  justify-content: center;
   font-size: 1.5rem;
   padding: 0.5rem;
   border-radius: 0.25rem;
   display: flex;
   height: 2.4rem;
-  color: #ddd;
+  width: 2.4rem;
+  color: #eee;
+}
+.btn-icon:hover {
+  text-decoration: none;
+  color: #fff;
 }
 
 .btn-tor {
