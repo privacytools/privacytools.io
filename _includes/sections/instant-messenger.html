@@ -1,33 +1,31 @@
-<h1 id="im" class="anchor"><a href="#im"><i class="fas fa-link anchor-icon"></i></a> Encrypted Instant Messenger</h1>
+<h1 id="im" class="anchor"><a href="#im"><i class="fas fa-link anchor-icon"></i></a> Encrypted Instant Messengers</h1>
 
-<div>
-    <p>We only recommend instant messenger programs or apps that support <a href="https://en.wikipedia.org/wiki/End-to-end_encryption">end-to-end encryption (E2EE)</a>. When E2EE is used, all transmissions (messages, voice, video, etc.) are encrypted <strong>before</strong> they are sent from your device. E2EE protects both the authenticity and confidentiality of the transmission as they pass through any part of the network (servers, etc.).</p>
+<p>We only recommend instant messenger programs or apps that support <a href="https://en.wikipedia.org/wiki/End-to-end_encryption">end-to-end encryption (E2EE)</a>. When E2EE is used, all transmissions (messages, voice, video, etc.) are encrypted <strong>before</strong> they are sent from your device. E2EE protects both the authenticity and confidentiality of the transmission as they pass through any part of the network (servers, etc.).</p>
 
-    <p>All the client programs/apps we chose are <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software">free and open-source software</a> unless otherwise mentioned. This to ensure that the code can be independently verified by experts now and in the future.</p>
+<p>All the client programs/apps we chose are <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software">free and open-source software</a> unless otherwise mentioned. This to ensure that the code can be independently verified by experts now and in the future.</p>
 
-    <p>We have described the three main types of messaging programs that exist: Centralized, Federated and Peer-to-Peer (P2P), with the advantages and disadvantages of each.</p>
+<p>We have described the three main types of messaging programs that exist: Centralized, Federated and Peer-to-Peer (P2P), with the advantages and disadvantages of each.</p>
 
-    <h2 id="centralized" class="anchor"><a href="#centralized"><i class="fas fa-link anchor-icon"></i></a> Centralized</h2>
+<h2 id="centralized" class="anchor"><a href="#centralized"><i class="fas fa-link anchor-icon"></i></a> Centralized</h2>
 
-    <p>Centralized messengers are those where every participant is on the same server or network of servers controlled by the same organization.</p>
+<p>Centralized messengers are those where every participant is on the same server or network of servers controlled by the same organization.</p>
 
-    <h3>Advantages</h3>
+<h3>Advantages</h3>
+<ul>
+    <li>New features and changes can be implemented more quickly.</li>
+    <li>Easier to get started with and to find contacts.</li>
+</ul>
+
+<h3>Disadvantages</h3>
+<ul>
+    <li>Centralized services could be more susceptible to <a href="#exploiting-centralized-networks">legislation requiring backdoor access</a>.</li>
+    <li>Can include <a href="https://drewdevault.com/2018/08/08/Signal.html">restricted control or access</a>. This can include things like:</li>
     <ul>
-        <li>New features and changes can be implemented more quickly.</li>
-        <li>Easier to get started with and to find contacts.</li>
+        <li>Being <a href="https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165">forbidden from connecting third-party clients</a> to the centralized network that might provide for greater customization or better user experience. Often defined in Terms and Conditions of usage.</li>
+        <li>Poor or no documentation for third-party developers.</li>
     </ul>
-
-    <h3>Disadvantages</h3>
-    <ul>
-        <li>Centralized services could be more susceptible to <a href="#exploiting-centralized-networks">legislation requiring backdoor access</a>.</li>
-        <li>Can include <a href="https://drewdevault.com/2018/08/08/Signal.html">restricted control or access</a>. This can include things like:</li>
-        <ul>
-            <li>Being <a href="https://github.com/LibreSignal/LibreSignal/issues/37#issuecomment-217211165">forbidden from connecting third-party clients</a> to the centralized network that might provide for greater customization or better user experience. Often defined in Terms and Conditions of usage.</li>
-            <li>Poor or no documentation for third-party developers.</li>
-        </ul>
-        <li>The <a href="https://blog.privacytools.io/delisting-wire">ownership</a>, privacy policy, and operations of the service can change easily when a single entity controls it, potentially compromising the service later on.</li>
-    </ul>
-</div>
+    <li>The <a href="https://blog.privacytools.io/delisting-wire">ownership</a>, privacy policy, and operations of the service can change easily when a single entity controls it, potentially compromising the service later on.</li>
+</ul>
 
 <div class="alert alert-warning" role="alert">
   <strong>If you are currently using an Instant Messenger like Telegram, LINE, Viber, <a href="https://www.eff.org/deeplinks/2016/10/where-whatsapp-went-wrong-effs-four-biggest-security-concerns">WhatsApp</a>, or plain SMS, you should pick an alternative here.</strong></div>
@@ -125,7 +123,6 @@
             <li>Other <a href="https://omemo.top">OMEMO</a> capable clients for XMPP.</li>
         </ul>
         <li><a href="https://www.kontalk.org">Kontalk</a> is a community-driven instant messaging network based on XMPP.</li>
-        </ul>
     </ul>
 
     <h2 id="peer-to-peer" class="anchor"><a href="#peer-to-peer"><i class="fas fa-link anchor-icon"></i></a> Peer to Peer (P2P)</h2>
@@ -194,71 +191,9 @@
   linux="https://tox.chat/download.html#oses"
 %}
 
-<div>
-    <h4>Worth Mentioning</h4>
+<h4>Worth Mentioning</h4>
 
-    <ul>
-        <li><a href="https://status.im">Status.im</a> - Encrypted instant messenger with an integrated <a href="https://en.wikipedia.org/wiki/Ethereum">Ethereum</a> wallet (cryptocurrency) that also includes support for <a href="https://our.status.im/tag/dapps">DApps (decentralized apps)</a> (web apps in a curated store). Uses the <a href="https://blog.enuma.io/update/2018/08/08/decentralized-application-messaging-with-whisper.html">Whisper protocol</a> for P2P communication. <span class="badge badge-warning">Experimental</span></li>
-        <li><a href="https://retroshare.cc">Retroshare</a> - Encrypted instant messaging and voice/video call client. RetroShare supports both <a href="https://www.torproject.org/">Tor</a> and <a href="https://geti2p.net">I2P</a>.</li>
-    </ul>
-
-    <h3 id="exploiting-centralized-networks" class="anchor">
-        <a href="#exploiting-centralized-networks">
-            <i class="fas fa-link anchor-icon"></i>
-    </a>
-        Recent news about breaking E2EE on centralized instant messengers
-    </h3>
-
-    <h5>November 2019</h5>
-    <ul>
-        <li><a href="https://www.reuters.com/article/us-interpol-encryption-exclusive-idUSKBN1XR0S7">Exclusive: Interpol plans to condemn encryption spread, citing predators, sources say (Reuters)</a></li>
-        <li><a href="https://arstechnica.com/tech-policy/2019/11/think-of-the-children-fbi-sought-interpol-statement-against-end-to-end-crypto/">Think of the children: FBI sought Interpol statement against end-to-end crypto (ArsTechnica)</a></li>
-    </ul>
-
-    <h5>October 2019</h5>
-    <ul>
-        <li><a href="https://www.eff.org/deeplinks/2019/10/open-letter-governments-us-uk-and-australia-facebook-all-out-attack-encryption">The Open Letter from the Governments of US, UK, and Australia to Facebook is An All-Out Attack on Encryption (EFF)</a></li>
-        <li><a href="https://arstechnica.com/tech-policy/2019/10/the-broken-record-why-barrs-call-against-end-to-end-encryption-is-nuts/">The broken record: Why Barr’s call against end-to-end encryption is nuts (ArsTechnica)</a></li>
-        <li><a href="https://arstechnica.com/information-technology/2019/10/ag-barr-is-pushing-facebook-to-backdoor-whatsapp-and-halt-encryption-plans">US wants Facebook to backdoor WhatsApp and halt encryption plans (ArsTechnica)</a></li>
-    </ul>
-
-    <h5>August 2019</h5>
-    <ul>
-        <li><a href="https://arstechnica.com/tech-policy/2019/08/post-snowden-tech-became-more-secure-but-is-govt-really-at-risk-of-going-dark">Post Snowden tech became more secure, but is government really at risk of going dark? (ArsTechnica)</a></li>
-    </ul>
-
-    <h5>July 2019</h5>
-    <ul>
-        <li><a href="https://techcrunch.com/2019/07/23/william-barr-consumers-security-risks-backdoors/">US attorney general William Barr says Americans should accept security risks of encryption backdoors (TechCrunch)</a></li>
-        <li><a href="https://www.theregister.co.uk/2019/07/23/us_encryption_backdoor/">Low Barr: Don't give me that crap about security, just put the backdoors in the encryption, roars US Attorney General (The Register)</a></li>
-    </ul>
-
-    <h5>May 2019</h5>
-    <ul>
-        <li><a href="https://www.theguardian.com/uk-news/2019/may/30/apple-and-whatsapp-condemn-gchq-plans-to-eavesdrop-on-encrypted-chats">Apple and WhatsApp condemn GCHQ plans to eavesdrop on encrypted chats (The Guardian)</a></li>
-    </ul>
-
-    <h5>January 2019</h5>
-    <ul>
-        <li><a href="https://www.justsecurity.org/62114/give-ghost-backdoor/">Give Up the Ghost: A Backdoor by Another Name (Just Security)</a></li>
-    </ul>
-
-    <h5>December 2018</h5>
-    <ul>
-        <li><a href="https://www.zdnet.com/article/whats-actually-in-australias-encryption-laws-everything-you-need-to-know/">What's actually in Australia's encryption laws? Everything you need to know (ZDnet)</a></li>
-    </ul>
-
-    <h3>Complete Comparison</h3>
-    <ul>
-        <li><a href="https://securechatguide.org/effguide.html">securechatguide.org</a> - Guide to Choosing a Messenger.</li>
-        <li><a href="https://www.securemessagingapps.com/">securemessagingapps.com</a> - Secure Messaging Apps Comparison.</li>
-    </ul>
-
-    <h3 id="#rtc-independent-security-audits">Independent security audits</h3>
-    <ul>
-        <li><a href="https://eprint.iacr.org/2016/1013.pdf">A Formal Security Analysis of the Signal Messaging Protocol (2019)</a> by Katriel Cohn-Gordon, Cas Cremers, Benjamin Dowling, Luke Garratt and Douglas Stebila</li>
-        <li><a href="https://keybase.io/docs-assets/blog/NCC_Group_Keybase_KB2018_Public_Report_2019-02-27_v1.3.pdf">Keybase's Protocol Security Review (2019)</a> by <a href="https://www.nccgroup.trust/">NCC Group</a></li>
-        <li><a href="https://www.nccgroup.trust/us/our-research/matrix-olm-cryptographic-review/">Matrix Olm Cryptographic Review</a></li>
-        <li><a href="https://briarproject.org/news/2017-beta-released-security-audit">Briar - Darknet Messenger Releases Beta, Passes Security Audit</a></li>
-    </ul>
-</div>
+<ul>
+    <li><a href="https://status.im">Status.im</a> - Encrypted instant messenger with an integrated <a href="https://en.wikipedia.org/wiki/Ethereum">Ethereum</a> wallet (cryptocurrency) that also includes support for <a href="https://our.status.im/tag/dapps">DApps (decentralized apps)</a> (web apps in a curated store). Uses the <a href="https://blog.enuma.io/update/2018/08/08/decentralized-application-messaging-with-whisper.html">Whisper protocol</a> for P2P communication. <span class="badge badge-warning">Experimental</span></li>
+    <li><a href="https://retroshare.cc">Retroshare</a> - Encrypted instant messaging and voice/video call client. RetroShare supports both <a href="https://www.torproject.org/">Tor</a> and <a href="https://geti2p.net">I2P</a>.</li>
+</ul>

@@ -1,13 +1,13 @@
 <h1 id="addons" class="anchor"><a href="#addons"><i class="fas fa-link anchor-icon"></i></a> Recommended Browser Add-ons</h1>
 
-<div class="alert alert-primary" role="alert">
-  <strong>Improve your privacy with these browser add-ons.</strong>
+<div class="alert alert-secondary" role="alert">
+  Not all of these add-ons are necessary, and many provide redundant functionality. Choose the ones you need, and <a class="alert-link" href="https://blog.privacytools.io/firefox-privacy-an-introduction-to-safe/">learn more with our guide to Firefox Privacy</a>.
 </div>
 
 {% include cardv2.html
 title="uBlock Origin: Block Ads and Trackers"
 image="/assets/img/addons/ublock-origin.png"
-description="<strong>uBlock Origin</strong> is an efficient <a href=https://github.com/gorhill/uBlock/wiki/Blocking-mode>wide-spectrum blocker</a> that's easy on memory, and yet can load and enforce thousands more filters than other popular blockers out there. It has no monetization strategy and is completely open source."
+description="<strong>uBlock Origin</strong> is an efficient <a href=https://github.com/gorhill/uBlock/wiki/Blocking-mode>wide-spectrum blocker</a> that is easy on memory, and yet can load and enforce thousands more filters than other popular blockers out there. It has no monetization strategy and is completely open source."
 website="https://addons.mozilla.org/firefox/addon/ublock-origin/"
 forum="https://forum.privacytools.io/t/discussion-ublock-origin/266"
 github="https://github.com/gorhill/uBlock/"
@@ -18,20 +18,9 @@ edge="https://www.microsoft.com/en-us/p/ublock-origin/9nblggh444l4"
 %}
 
 {% include cardv2.html
-title="Cookie AutoDelete: Automatically Delete Cookies"
-image="/assets/img/addons/cookie-autodelete.png"
-description="<strong>Cookie AutoDelete</strong> automatically removes cookies when they are no longer used by open browser tabs. With the cookies, lingering sessions, as well as information used to spy on you, will be expunged."
-website="https://addons.mozilla.org/firefox/addon/cookie-autodelete/"
-forum="https://forum.privacytools.io/t/discussion-cookie-autodelete/267"
-github="https://github.com/Cookie-AutoDelete/Cookie-AutoDelete"
-firefox="https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete"
-chrome="https://chrome.google.com/webstore/detail/cookie-autodelete/fhcgjolkccmbidfldomjliifgaodjagh"
-%}
-
-{% include cardv2.html
 title="HTTPS Everywhere: Secure Connections"
 image="/assets/img/addons/https-everywhere.png"
-description="<strong>HTTPS Everywhere</strong> encrypts your communications with many major websites, making your browsing more secure. A collaboration between The Tor Project and the Electronic Frontier Foundation."
+description="<strong>HTTPS Everywhere</strong> enables encryption of your connections to many major websites, making your browsing more secure. It is a collaboration between The Tor Project and the Electronic Frontier Foundation."
 website="https://www.eff.org/https-everywhere"
 forum="https://forum.privacytools.io/t/discussion-https-everywhere/268"
 github="https://github.com/EFForg/https-everywhere"
@@ -43,7 +32,7 @@ opera="https://addons.opera.com/en/extensions/details/https-everywhere"
 {% include cardv2.html
 title="Decentraleyes: Block Content Delivery Networks"
 image="/assets/img/addons/decentraleyes.png"
-description="<strong>Decentraleyes</strong> emulates Content Delivery Networks locally by intercepting requests, finding the required resource, and injecting it into the environment. This all happens instantaneously, automatically, and no prior configuration is required."
+description="<strong>Decentraleyes</strong> emulates Content Delivery Networks locally by intercepting requests, finding the required resource locally, and injecting it into the environment. This all happens instantaneously and automatically, with no configuration required."
 website="https://decentraleyes.org/"
 forum="https://forum.privacytools.io/t/discussion-decentraleyes/269"
 gitlab="https://git.synz.io/Synzvato/decentraleyes"
@@ -53,9 +42,20 @@ opera="https://addons.opera.com/en/extensions/details/decentraleyes"
 %}
 
 {% include cardv2.html
+title="Cookie AutoDelete: Automatically Delete Cookies"
+image="/assets/img/addons/cookie-autodelete.png"
+description="<strong>Cookie AutoDelete</strong> automatically removes cookies, lingering sessions, and other information that can be used to spy on you when they are no longer used by open browser tabs."
+website="https://addons.mozilla.org/firefox/addon/cookie-autodelete/"
+forum="https://forum.privacytools.io/t/discussion-cookie-autodelete/267"
+github="https://github.com/Cookie-AutoDelete/Cookie-AutoDelete"
+firefox="https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete"
+chrome="https://chrome.google.com/webstore/detail/cookie-autodelete/fhcgjolkccmbidfldomjliifgaodjagh"
+%}
+
+{% include cardv2.html
 title="Terms of Service; Didn’t Read: Be Informed"
 image="/assets/img/addons/tosdr.png"
-description="<strong>Terms of Service; Didn’t Read</strong> is an addon that aims to fix how “I have read and agree to the Terms” is the biggest lie on the web by grading websites based on their terms of service agreements and privacy policies. It also gives short summaries of those agreements. The analysis and ratings are done transparently by a community of reviewers."
+description="<strong>Terms of Service; Didn’t Read</strong> is an addon that believes “I have read and agree to the Terms of Service” is the biggest lie on the web, and wants to fix it by grading websites based on their terms of service agreements and privacy policies. It also gives short summaries of those agreements. The analysis and ratings are published transparently by a community of reviewers."
 website="https://tosdr.org/"
 forum="https://forum.privacytools.io/t/discussion-terms-of-service-didn-t-read/270"
 github="https://github.com/tosdr/"
@@ -90,7 +90,7 @@ opera="https://addons.opera.com/en/extensions/details/privacy-badger/"
 <h2>For Power Users Only</h2>
 
 <div class="alert alert-warning" role="alert">
-  <strong>These addons require quite a lot of interaction from the user. Some sites will not work properly until you have configured the add-ons.</strong>
+  <strong>These addons require quite a lot of interaction from the user. Some sites may not work properly without careful configuration.</strong>
 </div>
 
 {% include cardv2.html

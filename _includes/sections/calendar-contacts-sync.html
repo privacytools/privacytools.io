@@ -24,14 +24,6 @@
 
 {%
   include cardv2.html
-  title="Email Providers"
-  image="/assets/img/misc/email.png"
-  description='Many email providers also offer calendar and or contacts sync services. Refer to the <a href="/providers/email">Email Providers section</a> to choose an email provider and check if they also offer calendar and/or contacts sync.'
-  website="/providers/email"
-%}
-
-{%
-  include cardv2.html
   title="EteSync"
   image="/assets/img/provider/etesync.png"
   description="<strong>EteSync</strong> is a secure, end-to-end encrypted, and privacy-respecting cloud backup and synchronization software for your personal information (e.g. contacts and calendars). There are native clients for Android, iOS, and the web, and an adapter layer for most desktop clients. It costs $24 per year to use, or you can host the server yourself for free."
@@ -50,6 +42,14 @@
   ios="https://www.etesync.com/install/ios/"
 %}
 
+{%
+  include cardv2.html
+  title="Email Providers"
+  image="/assets/img/misc/email.png"
+  description='Many email providers also offer calendar and or contacts sync services. Refer to our <a href="/providers/email">Email Provider recommendations</a> to choose an email provider and see if they also offer calendar and/or contacts sync.'
+  website="/providers/email"
+%}
+
 <h3>Worth Mentioning</h3>
 
 <ul>
@@ -58,9 +58,9 @@
   </li>
 
   <li>
-    <a href="../cloud">cloud backups</a> - Consider regularly exporting your calendar and or contacts and backing them up on a separate storage drive or uploading them to cloud storage (ideally after <a href="../encryption-tools/">encrypting</a> them).
+    <a href="../cloud">Cloud backups</a> - Consider regularly exporting your calendar and or contacts and backing them up on a separate storage drive or uploading them to cloud storage (ideally after <a href="../encryption-tools/">encrypting</a> them).
   </li>
-  
+
   <li>
     <a href="https://github.com/39aldo39/DecSync">DecSync</a> - DecSync can be used to synchronize RSS, contacts, and calendars without a server by using file synchronization software such as <a href="https://syncthing.net/">Syncthing</a>.
   </li>
