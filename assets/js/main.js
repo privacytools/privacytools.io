@@ -25,7 +25,11 @@ function navSectionsToggle() {
 
 function navSectionsClose(event) {
   // Hide all dropdowns when clicking in different place
-  if (event.target.matches(".nav-summary")) return;
+  if (
+    event.target.matches(".nav-summary") ||
+    event.target.parentNode.matches(".nav-summary")
+  )
+    return;
   navSections.forEach(navSection => {
     navSection.open = !open;
   });
