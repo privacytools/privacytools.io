@@ -8,6 +8,8 @@
 
 # Administration Related Files
 /pages/donate.html @JonahAragon @BurungHantu1605
+/pages/notices.md @JonahAragon
+/README.md @JonahAragon @BurungHantu1605
 /assets/js/redirects.js @JonahAragon
 /.well-known/ @JonahAragon
 /404.html @JonahAragon

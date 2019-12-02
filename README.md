@@ -38,6 +38,6 @@ You can submit your suggestions here on GitHub [(Issues)](https://github.com/pri
 - [Русский / Russian](https://privacytools.ru) - [GitHub](https://github.com/c0rdis/privacytools.ru)
 - [Português / Portuguese](https://www.privacidade.digital/) - [GitHub](https://github.com/PrivacidadeDigital/privacidade.digital)
 
-# License
+# License & Notices
 
-The content and original technology of this website is made available under the [Creative Commons Zero v1.0 Universal](https://www.privacytools.io/LICENSE.txt) license text. Some files or folders may include works from other projects with separate licenses, and will be marked as such. By contributing to this repository, contributors do not necessarily agree to sign a CLA or legally transfer their copyright to the project, but they do at a minimum agree to license their work under the current license of this repository: In this case, the Creative Commons Zero v1.0 Universal.
+Please visit [https://www.privacytools.io/notices/](https://www.privacytools.io/notices/) for license information and other disclaimers. PrivacyTools is provided on an "as-is" basis, without warranty, and disclaiming liability for damages. By contributing to this repository you agree to license your work under the terms of the [license](https://github.com/privacytoolsIO/privacytools.io/blob/master/LICENSE.txt) in this repository.
