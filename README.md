@@ -1,4 +1,6 @@
-[![privacytools](./assets/img/layout/logo.png)](https://www.privacytools.io/)
+<a href="https://www.privacytools.io">
+	<img src="assets/img/svg/layout/brand/horizontal.svg" width="500px" alt="PrivacyTools" />
+</a>
 
 _Encryption Against Global Mass Surveillance._
 
