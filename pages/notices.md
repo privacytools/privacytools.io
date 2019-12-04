@@ -36,7 +36,7 @@ Code, including source files and code samples if any in the content, is released
 
 Portions of this notice itself were adopted from [opensource.guide](https://github.com/github/opensource.guide/blob/master/notices.md) on GitHub, released under [CC-BY-4.0](https://github.com/github/opensource.guide/blob/master/LICENSE).
 
-This means that you can use the code and content in this repository **except** for the PrivacyTools trademarks in your own projects. PrivacyTools's trademarks include the "PrivacyTools" wordmark and shield logo.
+This means that you can use the code and content in this repository **except** for the PrivacyTools [branding](https://github.com/privacytoolsIO/brand) in your own projects. PrivacyTools's brand trademarks include the "PrivacyTools" wordmark and shield logo. More information on the use of PrivacyTools's branding can be found on our [branding guidelines page](https://github.com/privacytoolsIO/brand).
 
 We believe that the logos and other images in `assets` from third-party providers are either in the public domain or **fair use**. In a nutshell, legal [fair use doctrine](https://en.wikipedia.org/wiki/Fair_use) allows the use of copyrighted image in order to identify the subject matter for purposes of public comment. However, these logos and other images may still be subject to trademark laws in one or more jurisdictions. Before using this content, please ensure that it is used to identify the entity or organization that owns the trademark and that you have the right to use it under the laws which apply in the circumstances of your intended use. *You are solely responsible for ensuring that you do not infringe someone else's trademark or copyright.*
 
