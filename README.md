@@ -4,7 +4,7 @@
 
 _Encryption Against Global Mass Surveillance._
 
-[![Build Status](https://travis-ci.com/privacytoolsIO/privacytools.io.svg?branch=master)](https://travis-ci.com/privacytoolsIO/privacytools.io)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/afd98777-c205-4928-a301-f57a1448113f/deploy-status)](https://app.netlify.com/sites/privacytools-io/deploys)
 
 # Contributing
 
