@@ -5,10 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="keywords" content="privacy, anonymity, privacy tools, surveillance, encryption">
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="msapplication-TileImage" content="/assets/img/favicons/mstile-144x144.png">
-  <meta name="msapplication-config" content="/assets/img/favicons/browserconfig.xml">
-  <meta name="theme-color" content="#ffffff">
   <link rel="canonical" href="{{ site.production_url }}{{ page.url | replace:'index.html',''}}">
 
   <!-- title -->
@@ -21,7 +17,7 @@
   {% endif %}
   <meta property="og:type" content="website" />
   <meta property="og:url" content="{{ page.permalink | prepend: site.url }}" />
-  <meta property="og:image" content="{{ site.production_url }}/assets/img/layout/ogimage.jpg" />
+  <meta property="og:image" content="{{ site.production_url }}/assets/img/svg/layout/brand/square-transparent.svg" />
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"/>
   <meta property="og:locale" content="en_GB" />
   <meta property="og:site_name" content="{{ site.name }}" />
@@ -39,7 +35,7 @@
       "privacytoolsIO"
     ],
     "url": "{{ site.production_url }}",
-    "logo": "{{ site.production_url }}/assets/img/png/layout/shield.png",
+    "logo": "{{ site.production_url }}/assets/img/svg/layout/brand/square-transparent.svg",
     "sameAs": [
       "https://blog.privacytools.io",
       "https://twitter.com/privacytoolsIO",
@@ -52,20 +48,16 @@
   {% endif %}
 
   <!-- icons -->
-  <link rel="apple-touch-icon" sizes="57x57" href="/assets/img/png/favicons/apple-touch-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/png/favicons/apple-touch-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/assets/img/png/favicons/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/png/favicons/apple-touch-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/assets/img/png/favicons/apple-touch-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/assets/img/png/favicons/apple-touch-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/assets/img/png/favicons/apple-touch-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/png/favicons/apple-touch-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/png/favicons/apple-touch-icon-180x180.png">
-  <link rel="icon" type="image/png" href="/assets/img/png/favicons/favicon-32x32.png" sizes="32x32">
-  <link rel="icon" type="image/png" href="/assets/img/png/favicons/android-chrome-192x192.png" sizes="192x192">
-  <link rel="icon" type="image/png" href="/assets/img/png/favicons/favicon-96x96.png" sizes="96x96">
-  <link rel="icon" type="image/png" href="/assets/img/png/favicons/favicon-16x16.png" sizes="16x16">
-  <link rel="manifest" href="/assets/img/png/favicons/manifest.json">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/png/favicons/apple-touch-icon.png?v=2">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/png/favicons/favicon-32x32.png?v=2">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/img/png/favicons/favicon-16x16.png?v=2">
+  <link rel="manifest" href="/assets/img/png/favicons/site.webmanifest?v=2">
+  <link rel="mask-icon" href="/assets/img/png/favicons/safari-pinned-tab.svg?v=2" color="#3498db">
+  <link rel="shortcut icon" href="/assets/img/png/favicons/favicon.ico?v=2">
+  <meta name="msapplication-TileColor" content="#3498db">
+  <meta name="msapplication-config" content="/assets/img/png/favicons/browserconfig.xml?v=2">
+  <meta name="theme-color" content="#ffffff">
+
 
   <!-- CSS stylesheets -->
   <link href="/assets/css/style.css?v=9" rel="stylesheet">
