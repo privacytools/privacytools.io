@@ -1,14 +1,16 @@
-[![privacytools](./assets/img/layout/logo.png)](https://www.privacytools.io/)
+<a href="https://www.privacytools.io">
+	<img src="assets/img/svg/layout/brand/horizontal.svg" width="500px" alt="PrivacyTools" />
+</a>
 
 _Encryption Against Global Mass Surveillance._
 
-[![Build Status](https://travis-ci.com/privacytoolsIO/privacytools.io.svg?branch=master)](https://travis-ci.com/privacytoolsIO/privacytools.io)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/afd98777-c205-4928-a301-f57a1448113f/deploy-status)](https://app.netlify.com/sites/privacytools-io/deploys)
 
 # Contributing
 
-It's important for a website like privacytools.io to be up-to-date. Keep an eye on software updates of the applications listed here. Follow recent news about providers that are recommended. We try our best to keep up but we're not perfect and the internet is changing fast. So if you find an error, or you think a provider should not be listed here, or a qualified service provider is missing or a browser plugin is not the best choice anymore or anything else...
+It's important for a website like PrivacyTools to be up-to-date. Keep an eye on software updates of the applications listed here. Follow recent news about providers that are recommended. We try our best to keep up but we're not perfect and the internet is changing fast. So if you find an error, or you think a provider should not be listed here, or a qualified service provider is missing or a browser plugin is not the best choice anymore or anything else...
 
-**Talk to us please.** Join our [subreddit](https://www.reddit.com/r/privacytoolsIO/) and start a discussion. This is a community project and we're aiming to deliver the best information available for a better privacy. Thank you for participating.
+**Talk to us please.** Join our [subreddit](https://www.reddit.com/r/privacytoolsIO/) or [our Discourse community](https://forum.privacytools.io/) and start a discussion. This is a community project and we're aiming to deliver the best information available for a better privacy. Thank you for participating.
 
 You can submit your suggestions here on GitHub [(Issues)](https://github.com/privacytoolsIO/privacytools.io/issues) and also in our [subreddit](https://www.reddit.com/r/privacytoolsIO/). Please refer to the [Contributing Guidelines](.github/CONTRIBUTING.md) before submitting. Thank you.
 
@@ -24,7 +26,7 @@ You can submit your suggestions here on GitHub [(Issues)](https://github.com/pri
 - [Donate.](https://www.privacytools.io/donate/)
 - [Liberapay](https://liberapay.com/privacytools.io/donate) or [Patreon.](https://www.patreon.com/privacytools)
 - [Spread the word.](https://www.privacytools.io/#participate)
-- [Join our Discourse community](https://forum.privacytools.io/)
+- [Join our Discourse community.](https://forum.privacytools.io/)
 - [Make suggestions on reddit.](https://www.reddit.com/r/privacytoolsIO/)
 - View and edit our website source code here on GitHub.
 
@@ -38,5 +40,6 @@ You can submit your suggestions here on GitHub [(Issues)](https://github.com/pri
 - [Русский / Russian](https://privacytools.ru) - [GitHub](https://github.com/c0rdis/privacytools.ru)
 - [Português / Portuguese](https://www.privacidade.digital/) - [GitHub](https://github.com/PrivacidadeDigital/privacidade.digital)
 
-# License
-[Creative Commons Zero v1.0 Universal](https://www.privacytools.io/LICENSE.txt)
+# License & Notices
+
+Please visit [https://www.privacytools.io/notices/](https://www.privacytools.io/notices/) for license information and other disclaimers. PrivacyTools is provided on an "as-is" basis, without warranty, and disclaiming liability for damages. By contributing to this repository you agree to license your work under the terms of the [license](https://github.com/privacytoolsIO/privacytools.io/blob/master/LICENSE.txt) in this repository.

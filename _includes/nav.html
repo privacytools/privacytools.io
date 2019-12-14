@@ -1,14 +1,14 @@
-<div class="fixed-top bg-dark">
-  <nav id="navbar">
-
+<nav class="fixed-top bg-dark">
+  <div id="navbar" class="d-flex flex-wrap justify-content-between align-items-center">
+    <div class="w-50">
+      <a id="nav-home-mobile" class="nav-anchor" href="/index.html">
+        <img src="/assets/img/svg/layout/brand/horizontal.svg" width="150px" />
+      </a>
+    </div>
     <input type="checkbox" id="nav-toggle" checked />
     <label for="nav-toggle" id="nav-toggle-label" class="fas fa-bars fa-lg"></label>
-    <a id="nav-home-mobile" class="nav-anchor" href="/index.html">
-      <img src="/assets/img/layout/logo_smaller.png" width="148px" height="22px" />
-    </a>
 
-    <div class="menu">
-
+    <div class="menu w-100">
       <div id="nav-left" class="position-relative flex-col">
         <a class="nav-anchor" href="/index.html">
           <span id="nav-home" class="fas fa-home fa-fw"></span>
@@ -64,14 +64,14 @@
           <span class="nav-dropdown">
             <a class="dropdown-item" href="/software/calendar-contacts/"><span class="fas fa-calendar fa-fw"></span> Calendar/Contacts Sync Tools</a>
             <a class="dropdown-item" href="/software/notebooks/"><span class="far fa-sticky-note fa-fw"></span> Digital Notebook</a>
-            <a class="dropdown-item" href="/software/email/#messaging"><span class="fas fa-random fa-fw"></span> Email Alternatives</a>
             <a class="dropdown-item" href="/software/email/"><span class="fas fa-envelope fa-fw"></span> Email Clients</a>
             <a class="dropdown-item" href="/software/encryption-tools/"><span class="fas fa-lock fa-fw"></span> File Encryption</a>
             <a class="dropdown-item" href="/software/file-sharing/"><span class="fas fa-file-export fa-fw"></span> File Sharing</a>
+            <a class="dropdown-item" href="/software/file-sync/"><span class="fas fa-copy fa-fw"></span> File Sync</a>
+            <a class="dropdown-item" href="/software/productivity/#metadata-removal-tools"><span class="far fa-eye-slash fa-fw"></span> Metadata Removal Tools</a>
             <a class="dropdown-item" href="/software/passwords/"><span class="fas fa-user-lock fa-fw"></span> Password Manager</a>
             <a class="dropdown-item" href="/software/productivity/"><span class="fas fa-briefcase fa-fw"></span> Productivity Tools</a>
             <a class="dropdown-item" href="/software/real-time-communication/"><span class="fas fa-comments fa-fw"></span> Real-Time Communication</a>
-            <a class="dropdown-item" href="/software/file-sync/"><span class="fas fa-copy fa-fw"></span> Secure File Sync</a>
             <a class="dropdown-item" href="/software/networks/"><span class="fas fa-user-secret fa-fw"></span> Self-contained Networks</a>
             <a class="dropdown-item" href="/software/cloud/"><span class="fas fa-hdd fa-fw"></span> Self-Hosted Cloud Server</a>
           </span>
@@ -100,54 +100,45 @@
 
       <!-- Language -->
       <div id="nav-right">
+
+        <a href="/services/" class="nav-anchor">
+          Services
+        </a>
+        <a href="https://blog.privacytools.io/" class="nav-anchor">
+          Blog
+        </a>
+        <a href="/sponsors/" class="nav-anchor">
+          Sponsors
+        </a>
+        <a href="/about/" class="nav-anchor">
+          About Us
+        </a>
+        <span id="nav-switch-theme" class="nav-anchor">
+          <span class="nav-theme-icon fas fa-fw" aria-hidden="true" title="Theme"></span>
+          <span class="sr-only">Toggle Theme</span>
+        </span>
+
         <details class="nav-details">
           <summary>
             <span class="nav-summary">
-              <span class="fas fa-language text-danger fa-fw"></span>
-              Language
+              <span class="fas fa-language text-danger fa-fw" aria-hidden="true" title="Language"></span>
+              <span class="sr-only">Language Selection</span>
               <span class="dropdown-toggle"></span>
             </span>
           </summary>
           <span class="nav-dropdown">
-            <a href="https://privacytools.io/" class="dropdown-item">English</a>
-            <a href="https://privacytools.twngo.xyz/" class="dropdown-item">繁體中文</a>
-            <a href="https://victorhck.gitlab.io/privacytools-es/" class="dropdown-item">Español</a>
-            <a href="https://pl.privacytools.io/" class="dropdown-item">Polski</a>
-            <a href="https://www.privacidade.digital/" class="dropdown-item">Português</a>
-            <a href="https://privacytools.it-sec.rocks/" class="dropdown-item">Deutsch</a>
-            <a href="https://privacytools-it.github.io/" class="dropdown-item">Italiano</a>
-            <a href="https://privacytools.ru" class="dropdown-item">Русский</a>
-            <a href="https://privacytools.dreads-unlock.fr" class="dropdown-item">Français</a>
+            <a href="https://www.privacytools.io/" class="dropdown-item">English</a>
+            <a href="https://privacytools.twngo.xyz/" rel="nofollow noopener" class="dropdown-item">繁體中文</a>
+            <a href="https://victorhck.gitlab.io/privacytools-es/" rel="nofollow noopener" class="dropdown-item">Español</a>
+            <a href="https://pl.privacytools.io/" rel="nofollow noopener" class="dropdown-item">Polski</a>
+            <a href="https://www.privacidade.digital/" rel="nofollow noopener" class="dropdown-item">Português</a>
+            <a href="https://privacytools.it-sec.rocks/" rel="nofollow noopener" class="dropdown-item">Deutsch</a>
+            <a href="https://privacytools-it.github.io/" rel="nofollow noopener" class="dropdown-item">Italiano</a>
+            <a href="https://privacytools.ru" rel="nofollow noopener" class="dropdown-item">Русский</a>
+            <a href="https://privacytools.dreads-unlock.fr" rel="nofollow noopener" class="dropdown-item">Français</a>
           </span>
         </details>
-
-        <!-- Services -->
-        <details class="nav-details">
-          <summary>
-            <span class="nav-summary">
-              Services
-              <span class="dropdown-toggle"></span>
-            </span>
-          </summary>
-          <span class="nav-dropdown">
-            <a class="dropdown-item" href="https://forum.privacytools.io/"><span class="fab fa-discourse fa-fw"></span> Discourse - Forum</a>
-            <a class="dropdown-item" href="https://git.privacytools.io/"><span class="fab fa-git fa-fw"></span> Gitea - Git-Repository Manager</a>
-            <a class="dropdown-item" href="https://social.privacytools.io/"><span class="fas fa-retweet fa-fw"></span> Mastodon - Social Network</a>
-            <a class="dropdown-item" href="https://chat.privacytools.io/"><span class="fas fa-comment fa-fw"></span> Matrix - Federated Chat</a>
-            <a class="dropdown-item" href="https://bin.privacytools.io/"><span class="fas fa-clipboard fa-fw"></span> PrivateBin - Encrypted Pastebin</a>
-            <a class="dropdown-item" href="https://search.privacytools.io/"><span class="fas fa-search fa-fw"></span> Searx - Privacy Friendly Search</a>
-            <a class="dropdown-item" href="https://write.privacytools.io/"><span class="fas fa-pen-alt fa-fw"></span> Write Freely - Federated Blog</a>
-          </span>
-        </details>
-
-        <a href="https://blog.privacytools.io/" class="nav-anchor">Blog </a>
-        <a href="/donate/" class="nav-anchor">
-          Donate <span class="fas fa-heart text-danger fa-fw"></span>
-        </a>
-        <a id="nav-switch-theme" class="nav-anchor" href="javascript:void(0)" onClick="changeColorScheme()">
-          Theme <span class="nav-theme-icon fas fa-fw"></span>
-        </a>
       </div>
     </div>
-  </nav>
-</div>
+  </div>
+</nav>

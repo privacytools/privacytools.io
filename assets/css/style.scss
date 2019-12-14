@@ -127,6 +127,10 @@ h2, h3:not(.h5), h4, h5 {
   font-size: 5.5em;
 }
 
+.panel-font {
+  font-size: 120px;
+}
+
 .share-btn {
   border: 0;
   box-shadow: $share-btn-shadow;
@@ -158,7 +162,7 @@ h2, h3:not(.h5), h4, h5 {
 .twitter { background: $twitter; }
 .mastodon { background: $mastodon; }
 .facebook { background: $facebook; }
-.stumbleupon { background: $stumbleupon; }
+.mix { background: $mix; }
 .reddit { background: $reddit; }
 .linkedin    { background: $linkedin; }
 .email { background: $email; }
@@ -182,13 +186,6 @@ h2, h3:not(.h5), h4, h5 {
   white-space: nowrap;
 }
 
-footer {
-  img,
-  i {
-    margin-right: 1rem;
-  }
-}
-
 .hover-text-decoration-none:hover {
   text-decoration: none;
   -webkit-text-decoration-skip: object;
@@ -197,6 +194,46 @@ footer {
 .table td, .table th {
   vertical-align: middle;
 }
+
+
+.btn-icon {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  display: flex;
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #eee;
+}
+.btn-icon:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn-tor {
+  background: $tor;
+}
+.btn-tor:hover {
+  background: darken($tor, 5%);
+}
+
+
+
+/*
+ * Bootstrap 4.2+ features
+ */
+
+.text-decoration-none {
+  text-decoration: none !important;
+}
+
+.mx-n2 {
+  margin-left: -0.5rem;
+  margin-right: -0.5rem;
+}
+
 
 
 /*
@@ -291,6 +328,7 @@ input#nav-toggle,
   /* We will make it visible with JavaScript
    * as it does not work without it */
   display: none;
+  cursor: pointer;
 }
 
 /*
@@ -318,8 +356,7 @@ input#nav-toggle,
   input#nav-toggle + label {
     display: block;
     cursor: pointer;
-    margin-top: 0.25rem;
-    float: right;
+    margin-bottom: 0;
   }
   .nav-dropdown {
     display: block;

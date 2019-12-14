@@ -1,6 +1,10 @@
 $(function() {
   $("[data-toggle='tooltip']").tooltip();
 });
+document.querySelectorAll(".onclick-select").forEach(element => {
+  element.addEventListener("click", element.select);
+});
+
 
 // Navbar dropdowns
 const navSections = document.querySelectorAll(".nav-details");
@@ -21,7 +25,11 @@ function navSectionsToggle() {
 
 function navSectionsClose(event) {
   // Hide all dropdowns when clicking in different place
-  if (event.target.matches(".nav-summary")) return;
+  if (
+    event.target.matches(".nav-summary") ||
+    event.target.parentNode.matches(".nav-summary")
+  )
+    return;
   navSections.forEach(navSection => {
     navSection.open = !open;
   });
@@ -30,6 +38,7 @@ function navSectionsClose(event) {
 
 // Dark/Light color scheme switch button
 document.querySelector("#nav-switch-theme").style.display = "inline";
+document.querySelector("#nav-switch-theme").addEventListener("click", changeColorScheme);
 
 function changeColorScheme() {
   // Use whatever users want
@@ -66,6 +75,24 @@ function changeColorScheme() {
     document.querySelector("#dark-css").removeAttribute("media");
     localStorage.setItem("colorScheme", "dark");
   }
+  fixThemeImages();
+}
+
+
+// Fix images in dark theme
+function fixThemeImages() {
+  document.querySelectorAll('[data-theme-src]').forEach(function(image) {
+    tempSrc = image.src;
+    image.src = image.getAttribute("data-theme-src");
+    image.setAttribute("data-theme-src", tempSrc);
+  });
+}
+if (
+  (localStorage.getItem("colorScheme") === "dark") ||
+  (window.matchMedia("(prefers-color-scheme: dark)").matches ^
+    localStorage.getItem("colorScheme") === "light")
+) {
+  fixThemeImages();
 }
 
 
@@ -78,6 +105,7 @@ _paq.push(["enableLinkTracking"]);
   var u = "https://stats.privacytools.io/";
   _paq.push(["setTrackerUrl", u + "matomo.php"]);
   _paq.push(["setSiteId", "1"]);
+  _paq.push(['setSecureCookie', true]);
   var d = document,
     g = d.createElement("script"),
     s = d.getElementsByTagName("script")[0];

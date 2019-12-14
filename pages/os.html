@@ -7,6 +7,41 @@ description: "Even your own computer could be compromising your privacy. Discove
 
 {% include sections/operating-systems.html %}
 
+<h3>Warning</h3>
+
+<ul>
+  <li><a href="#win10"><i class="fas fa-link"></i> Don't use Windows 10 - It's a privacy nightmare</a></li>
+</ul>
+
+<h4 id="cpuvulns">Remember to check CPU vulnerability mitigations</h4>
+
+<p><em><a href="https://support.microsoft.com/en-us/help/4073757/protect-windows-devices-from-speculative-execution-side-channel-attack">This also affects Windows 10</a>, but it doesn't expose this information or mitigation instructions as easily. MacOS users check <a href="https://support.apple.com/en-us/HT210108">How to enable full mitigation for Microarchitectural Data Sampling (MDS) vulnerabilities on Apple Support</a>.</em></p>
+
+<p>When running a recent enough Linux kernel, you can check the CPU vulnerabilities it detects by <code>tail -n +1 /sys/devices/system/cpu/vulnerabilities/*</code>. By using <code>tail -n +1</code> instead of <code>cat</code>, the file names are also visible.</p>
+
+<p>
+    In case you have an Intel CPU, you may notice "SMT vulnerable" display after running the <code>tail</code> command. To mitigate this, disable <a href="https://en.wikipedia.org/wiki/Hyper-threading">hyper-threading</a> from the UEFI/BIOS. You can also take the following mitigation steps below if your system/distribution uses GRUB and supports <code>/etc/default/grub.d/</code>:
+</p>
+
+<ol>
+  <li><code>sudo mkdir /etc/default/grub.d/</code> to create a directory for additional grub configuration</li>
+  <li><code>echo GRUB_CMDLINE_LINUX_DEFAULT="$GRUB_CMDLINE_LINUX_DEFAULT l1tf=full,force mds=full,nosmt mitigations=auto,nosmt nosmt=force" | sudo tee /etc/default/grub.d/mitigations.cfg</code> to create a new grub config file source with the echoed content</li>
+  <li><code>sudo grub-mkconfig -o /boot/grub/grub.cfg</code> to generate a new grub config file including these new kernel boot flags</li>
+  <li><code>sudo reboot</code> to reboot</li>
+  <li>after the reboot, check <code>tail -n +1 /sys/devices/system/cpu/vulnerabilities/*</code> again to see that everything referring to SMT now says "SMT disabled."</li>
+</ol>
+
+<h5>Further reading</h5>
+
+<ul>
+  <li><a href="https://cpu.fail/">CPU.fail</a></li>
+  <li><a href="https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/">Hardware vulnerabilities index on The Linux kernel user's and administrator's guide</a></li>
+  <li><a href="https://www.cyberciti.biz/faq/install-update-intel-microcode-firmware-linux/">How to install/update CPU microcode firmware on Linux</a> - Regardless of your CPU manufacturer, you should always install the latest microcode packages available to be protected from CPU vulnerabilities, especially if the command above reports <strong>no microcode</strong> in its output.</li>
+  <li><a href="https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/mds.html">MDS - Microarchitectural Data Sampling on The Linux kernel user's and administrator's guide</a></li>
+  <li><a href="https://mdsattacks.com/">RIDL and Fallout: MDS attacks on mdsattacks.com</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Simultaneous_multithreading">Simultaneous multithreading on Wikipedia</a></li>
+</ul>
+
 {% include sections/live-operating-systems.html %}
 
 {% include sections/mobile-operating-systems.html %}

@@ -10,6 +10,7 @@ This font contains icons we need, which Font Awesome does not have.
 | OpenBSD     | `ptio-openbsd`        | https://github.com/FortAwesome/Font-Awesome/issues/5345  |
 | NetBSD      | `ptio-netbsd`         | https://github.com/FortAwesome/Font-Awesome/issues/15496 |
 | Sailfish OS | `ptio-sailfish-os`    | https://github.com/FortAwesome/Font-Awesome/issues/15498 |
+| I2P         | `ptio-i2p-garlic`     | https://github.com/FortAwesome/Font-Awesome/issues/15772 |
 
 We also have custom Linux icon (`ptio-linux`), because I (@dawidpotocki) made it before and looks cleaner.
 And since we are bundling additional font anyway, why not.

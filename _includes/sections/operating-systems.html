@@ -1,12 +1,12 @@
 <h1 id="os" class="anchor"><a href="#os"><i class="fas fa-link anchor-icon"></i></a> PC Operating Systems</h1>
 
 <div class="alert alert-warning" role="alert">
-  <strong>If you are currently using a operating system like Windows 10, you should pick an alternative here.</strong>
+  <strong>If you are currently using an operating system like Windows 10, you should pick an alternative here.</strong>
 </div>
 
 {% include cardv2.html
 title="Qubes OS"
-image="/assets/img/tools/Qubes-OS.png"
+image="/assets/img/svg/3rd-party/qubes_os.svg"
 description='Qubes is an open-source operating system designed to provide strong security for desktop computing. Qubes is based on Xen, the X Window System, and Linux, and can run most Linux applications and utilize most of the Linux drivers.'
 badges="info:Xen"
 labels="warning:contrib:This software may depend on or recommend non-free software."
@@ -17,7 +17,7 @@ tor="http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion/"
 
 {% include cardv2.html
 title="Fedora Workstation"
-image="/assets/img/tools/Fedora.png"
+image="/assets/img/svg/3rd-party/fedora.svg"
 description='Fedora is a Linux distribution developed by the Fedora Project and sponsored by Red Hat. Fedora Workstation is a secure, reliable, and user-friendly edition developed for desktops and laptops, using GNOME as the default desktop environment.'
 badges="info:GNU/Linux"
 labels="warning:contrib:This software may depend on or recommend non-free software."
@@ -27,46 +27,13 @@ git="https://src.fedoraproject.org/"
 
 {% include cardv2.html
 title="Debian"
-image="/assets/img/tools/Debian.png"
+image="/assets/img/svg/3rd-party/debian.svg"
 description='Debian is a Unix-like computer operating system and a Linux distribution that is composed entirely of free and open-source software, most of which is under the GNU General Public License, and packaged by a group of individuals known as the Debian project.'
 badges="info:GNU/Linux"
 website="https://www.debian.org/"
 tor="http://sejnfjrq6szgca7v.onion"
 gitlab="https://salsa.debian.org/qa/debsources"
 %}
-
-<h3>Warning</h3>
-
-<ul>
-  <li><a href="#win10"><i class="fas fa-link"></i> Don't use Windows 10 - It's a privacy nightmare</a></li>
-</ul>
-
-<h4 id="cpuvulns">Remember to check CPU vulnerability mitigations</h4>
-
-<p><em><a href="https://support.microsoft.com/en-us/help/4073757/protect-windows-devices-from-speculative-execution-side-channel-attack">This also affects Windows 10</a>, but it doesn't expose this information or mitigation instructions as easily. MacOS users check <a href="https://support.apple.com/en-us/HT210108">How to enable full mitigation for Microarchitectural Data Sampling (MDS) vulnerabilities on Apple Support</a>.</em></p>
-
-<p>When running a enough recent kernel, you can check the CPU vulnerabilities it detects by <code>tail -n +1 /sys/devices/system/cpu/vulnerabilities/*</code>. By using <code>tail -n +1</code> instead of <code>cat</code>, the file names are also visible.</p>
-
-<p>
-    In case you have an Intel CPU, you may notice "SMT vulnerable" display after running the <code>tail</code> command. To mitigate this, disable <a href="https://en.wikipedia.org/wiki/Hyper-threading">hyper-threading</a> from the UEFI/BIOS. You can also take the following mitigation steps below if your system/distribution uses GRUB and supports <code>/etc/default/grub.d/</code>:
-</p>
-
-<ol>
-  <li><code>sudo mkdir /etc/default/grub.d/</code> to create a directory for additional grub configuration</li>
-  <li><code>echo GRUB_CMDLINE_LINUX_DEFAULT="$GRUB_CMDLINE_LINUX_DEFAULT mds=full,nosmt" | sudo tee /etc/default/grub.d/mds.conf</code> to create a new grub config file source with the echoed content</li>
-  <li><code>sudo grub-mkconfig -o /boot/grub/grub.cfg</code> to generate a new grub config file including this new kernel boot flag</li>
-  <li><code>sudo reboot</code> to reboot</li>
-  <li>after the reboot, check <code>tail -n +1 /sys/devices/system/cpu/vulnerabilities/*</code> again to see that MDS now says "SMT disabled."</li>
-</ol>
-
-<h5>Further reading</h5>
-
-<ul>
-  <li><a href="https://cpu.fail/">CPU.fail</a></li>
-  <li><a href="https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/mds.html">MDS - Microarchitectural Data Sampling on The Linux kernel user's and administrator's guide</a></li>
-  <li><a href="https://mdsattacks.com/">RIDL and Fallout: MDS attacks on mdsattacks.com</a></li>
-  <li><a href="https://en.wikipedia.org/wiki/Simultaneous_multithreading">Simultaneous multithreading on Wikipedia</a></li>
-</ul>
 
 <h3>Worth Mentioning</h3>
 

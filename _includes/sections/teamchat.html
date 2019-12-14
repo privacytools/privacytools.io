@@ -1,15 +1,34 @@
 <h1 id="teamchat" class="anchor"><a href="#teamchat"><i class="fas fa-link anchor-icon"></i></a> Team Chat Platforms</h1>
 
 <div class="alert alert-warning" role="alert">
-        <strong>If your project or organization currently uses a platform like <a href="https://web.archive.org/web/20171029114027/https://feedback.discordapp.com/forums/326712-discord-dream-land/suggestions/17094256-implement-whispersystems-encryption-for-voice-and">Discord</a> or <a href="https://drewdevault.com/2015/11/01/Please-stop-using-slack.html">Slack</a> you should pick an alternative here.</strong>
+        <strong>If your project or organization currently uses a platform like <a href="https://tosdr.org/#discord">Discord</a> or <a href="https://drewdevault.com/2015/11/01/Please-stop-using-slack.html">Slack</a> you should pick an alternative here.</strong>
 </div>
 
 {%
   include cardv2.html
+  title="Matrix"
+  image="/assets/img/svg/3rd-party/matrix.svg"
+  image-dark="/assets/img/svg/3rd-party/matrix-dark.svg"
+  description='<a href="https://matrix.org/docs/guides/introduction">Matrix</a> is an open-source project that publishes the <a href="https://matrix.org/docs/spec">Matrix open standard</a> for secure, decentralized, real-time communication.<br />
+  <a href="https://en.wikipedia.org/wiki/Riot.im">Riot.im</a> is the popular reference client produced by the Matrix.org team. It offers optional E2EE for 1:1 and group conversations that <strong>must</strong> be turned on by the user. (This can be done by clicking on the toggle switch which is accessed by clicking the room name or user name of the chat → Security &amp; Privacy → Encrypted). In the future it will be <a href="https://github.com/vector-im/riot-web/issues/6779">on by default.</a>'
+  website="https://about.riot.im/"
+  forum="https://forum.privacytools.io/t/discussion-riot-im/665/"
+  github="https://github.com/vector-im/riot-web/"
+  windows="https://riot.im/download/desktop/"
+  mac="https://riot.im/download/desktop/"
+  linux="https://riot.im/download/desktop/"
+  fdroid="https://f-droid.org/repository/browse/?fdid=im.vector.alpha"
+  googleplay="https://play.google.com/store/apps/details?id=im.vector.app"
+  ios="https://itunes.apple.com/app/vector.im/id1083446067"
+  web="https://riot.im/app/"
+%}
+
+{%
+  include cardv2.html
   title="Rocket.chat"
-  image="/assets/img/tools/rocket.chat.png"
+  image="/assets/img/svg/3rd-party/rocketchat.svg"
   description="Rocket.chat is an self-hostable open source platform for team communication. It has optional federation and experimental E2EE."
-  labels="warning:<a href=//rocket.chat/docs/user-guides/end-to-end-encryption/>Experimental</a>:Regarding E2EE their documentation states 'This feature is currently in alpha. It's also not yet supported on mobile'. There is no forward secrecy so compromised decryption password would leak all messages. The federation was also added afterwards potentially causing room for mistakes."
+  labels="warning:<a href=//rocket.chat/docs/user-guides/end-to-end-encryption/>Experimental E2EE</a>:Regarding E2EE their documentation states 'This feature is currently in alpha. It's also not yet supported on mobile'. There is no forward secrecy so compromised decryption password would leak all messages. Federation was also added afterwards, potentially causing room for mistakes."
   website="https://rocket.chat/"
   forum="https://forum.privacytools.io/t/discussion-rocket-chat/1223"
   github="https://github.com/rocketchat/"
@@ -24,9 +43,9 @@
 {%
   include cardv2.html
   title="Keybase"
-  image="/assets/img/tools/keybase.png"
-  description='Keybase provides a hosted team chat with end-to-end encryption. It has also been <a href="https://keybase.io/docs-assets/blog/NCC_Group_Keybase_KB2018_Public_Report_2019-02-27_v1.3.pdf">indepedently audited (PDF)</a>.'
-  labels="warning:<a href=//github.com/keybase/client/issues/6374>Warning</a>:The server side of Keybase runs on proprietary code and is centralized."
+  image="/assets/img/svg/3rd-party/keybase.svg"
+  description='Keybase provides a hosted team chat with E2EE. Its protocol has also been <a href="https://keybase.io/docs-assets/blog/NCC_Group_Keybase_KB2018_Public_Report_2019-02-27_v1.3.pdf">indepedently audited (PDF)</a>. Keybase can help you prove you own social media accounts though the use of cryptographic signing of "<a href="https://en.wikipedia.org/wiki/Keybase#Identity_proofs">identity proofs</a>".'
+  labels="warning:<a href=github.com/keybase/client/issues/6374>Warning</a>:This software relies on a closed-source central server."
   website="https://keybase.io/"
   forum="https://forum.privacytools.io/t/discussion-keybase/1224"
   tor="http://keybase5wmilwokqirssclfnsqrjdsi7jdir5wy7y7iu3tanwmtp6oid.onion/"
@@ -35,16 +54,8 @@
   mac="https://keybase.io/docs/the_app/install_macos"
   linux="https://keybase.io/docs/the_app/install_linux"
   freebsd="https://www.freshports.org/security/keybase/"
-  googleplay="https://play.google.com/store/apps/details?id=io.keybase.ossifrage&hl=en_US"
-  ios="https://keybase.io/_/download/keybase-for-ios"
-  firefox="https://addons.mozilla.org/en-US/firefox/addon/keybase-for-firefox/"
+  googleplay="https://play.google.com/store/apps/details?id=io.keybase.ossifrage"
+  ios="https://apps.apple.com/app/keybase-crypto-for-everyone/id1044461770"
+  firefox="https://addons.mozilla.org/firefox/addon/keybase-for-firefox/"
   chrome="https://chrome.google.com/webstore/detail/keybase-for-reddit/ognfafcpbkogffpmmdglhbjboeojlefj"
-  web="https://keybase.io/"
 %}
-
-
-<h3>Worth Mentioning</h3>
-
-<ul>
-  <li><a href="https://wire.com/en/products/pro-secure-team-collaboration/">Wire Pro</a> - Paid team communication with E2EE. <span class="badge badge-warning" data-toggle="tooltip" title="While the free edition of Wire is a recommended platform, we have not tested the Pro edition.">Untested <i class="far fa-question-circle"></i></span></li>
-</ul>

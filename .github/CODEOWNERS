@@ -4,13 +4,17 @@
 /pages/ @privacytoolsIO/editorial
 /_includes/sections/ @privacytoolsIO/editorial
 /index.html @privacytoolsIO/editorial
+/font/ @dawidpotocki
 
 # Administration Related Files
-/donate.html @JonahAragon @BurungHantu1605
+/pages/donate.html @JonahAragon @BurungHantu1605
+/pages/notices.md @JonahAragon
+/README.md @JonahAragon @BurungHantu1605
 /assets/js/redirects.js @JonahAragon
 /.well-known/ @JonahAragon
 /404.html @JonahAragon
-/.github/ @JonahAragon @BurungHantu1605
+/.github/CODEOWNERS @JonahAragon @BurungHantu1605
+/.github/FUNDING.yml @JonahAragon @BurungHantu1605
 /LICENSE.txt @JonahAragon @BurungHantu1605
 /.travis.yml @JonahAragon @Shifterovich @nitrohorse
 /CNAME @JonahAragon

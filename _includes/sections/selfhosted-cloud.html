@@ -4,37 +4,39 @@
   <strong>If you are currently using a Cloud Storage Services like Dropbox, Google Drive, Microsoft OneDrive or Apple iCloud, you should think about hosting it on your own.</strong>
 </div>
 
-<div class="row mb-2">
+{% include cardv2.html
+title="Nextcloud"
+image="/assets/img/svg/3rd-party/nextcloud.svg"
+description="<strong>Nextcloud</strong> is a suite of client-server software for creating your own file hosting services on a private server you control. Nextcloud is free and open-source, and supports end-to-end encryption with many of its clients. The only limits on storage and bandwidth are the limits on the <a href=\"/providers/hosting\">server provider</a> you choose."
+website="https://nextcloud.com/"
+forum="https://forum.privacytools.io/t/discussion-nextcloud/287"
+windows="https://nextcloud.com/install/#install-clients"
+mac="https://nextcloud.com/install/#install-clients"
+linux="https://nextcloud.com/install/#install-clients"
+freebsd="https://www.freshports.org/www/nextcloud/"
+openbsd="http://openports.se/www/nextcloud"
+netbsd="http://pkgsrc.se/www/php-nextcloud"
+fdroid="https://f-droid.org/packages/com.nextcloud.client/"
+googleplay="https://play.google.com/store/apps/details?id=com.nextcloud.client"
+ios="https://itunes.apple.com/us/app/nextcloud/id1125420102?mt=8"
+github="https://github.com/nextcloud"
+%}
 
-  {% include card.html color="success"
-  title="Pydio"
-  image="/assets/img/tools/Pydio.png"
-  url="https://pydio.com/"
-  footer="OS: Windows, macOS, Linux, iOS, Android."
-  description="Pydio is open source software that turns instantly any server (on-premise, NAS, cloud IaaS or PaaS) into a file sharing platform for your company. It is an alternative
-  to SaaS Boxes and Drives, with more control, safety and privacy, and favorable TCOs."
-  %}
-
-  {% include card.html color="primary"
-  title="Tahoe-LAFS"
-  image="/assets/img/tools/Tahoe-LAFS.png"
-  url="https://www.tahoe-lafs.org/"
-  footer="OS: Windows, macOS, Linux."
-  description="Tahoe-LAFS is a Free and Open decentralized cloud storage system. It distributes your data across multiple servers. Even if some of the servers fail or are
-  taken over by an attacker, the entire file store continues to function correctly, preserving your privacy and security."
-  %}
-
-  {% include card.html color="warning"
-  title="Nextcloud"
-  image="/assets/img/provider/Nextcloud.png"
-  url="https://nextcloud.com/"
-  footer="Client OS: Windows, macOS, Linux, BSD, Unix, iOS, Android, Fire OS. Server: Linux."
-  description="Similar functionally to the widely used Dropbox, with the difference being that Nextcloud is free and open-source, and thereby allowing anyone to install and operate it without charge on a private server, with no limits on storage space or the number of connected clients."
-  %}
-
-</div>
+{% include cardv2.html
+title="Tahoe-LAFS"
+image="/assets/img/svg/3rd-party/tahoe-lafs.svg"
+image-dark="/assets/img/svg/3rd-party/tahoe-lafs-dark.svg"
+website="https://www.tahoe-lafs.org/"
+forum="https://forum.privacytools.io/t/discussion-tahoe-lafs/1662"
+description="Tahoe-LAFS is a free and open decentralized cloud storage system. It distributes your data across multiple servers. Even if some of the servers fail or are taken over by an attacker, the entire file store continues to function correctly, preserving your privacy and security."
+windows="https://github.com/tahoe-lafs/tahoe-lafs#via-pip"
+mac="https://github.com/tahoe-lafs/tahoe-lafs#via-pip"
+linux="https://github.com/tahoe-lafs/tahoe-lafs#using-os-packages"
+netbsd="http://pkgsrc.se/filesystems/tahoe-lafs"
+git="https://www.tahoe-lafs.org/trac/tahoe-lafs/browser"
+%}
 
 <h3>Worth Mentioning</h3>
 <ul>
-  <li><a href="https://github.com/xwiki-labs/cryptpad/">CryptPad</a> - End-to-end encrypted real time collaboration sharing folders, media, and documents (open-source).</li>
+  <li><a href="https://github.com/xwiki-labs/cryptpad/">CryptPad</a> - An open-source and end-to-end encrypted real-time collaborative editor that lets you share folders, media, and documents.</li>
 </ul>
