@@ -30,6 +30,10 @@ You can submit your suggestions here on GitHub [(Issues)](https://github.com/pri
 - [Make suggestions on reddit.](https://www.reddit.com/r/privacytoolsIO/)
 - View and edit our website source code here on GitHub.
 
+# Sponsors
+
+- [Safing](https://safing.io/)
+
 # Community Translations
 - [繁体中文 / Chinese](https://privacytools.twngo.xyz/) - [GitHub](https://github.com/twngo/privacytools-zh)
 - [Español / Spanish](https://victorhck.gitlab.io/privacytools-es/) - [GitLab](https://gitlab.com/victorhck/privacytools-es)
