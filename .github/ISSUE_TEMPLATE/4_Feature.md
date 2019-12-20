@@ -5,5 +5,5 @@ title: "✨ Feature Suggestion | "
 labels: ✨ enhancement
 ---
 
-## Description:
+## Description
 
