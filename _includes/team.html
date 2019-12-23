@@ -16,7 +16,7 @@
       <p class="card-text" {% if include.bio %}itemprop="description"{% endif %}>{{ include.bio | default: "<i>Hmm, this user hasn't written a bio quite yet :(</i>" }}</p>
       <div class="mx-n2">
         {% if include.email %}
-        <a href="mailto:{{ include.email }}" aria-label="Email" class="mx-2 text-decoration-none" itemprop="email">
+        <a href="{{ include.email }}" aria-label="Email" class="mx-2 text-decoration-none" itemprop="email">
           <i class="fas fa-envelope" aria-hidden="true" title="{{ include.email }}"></i>
         </a>
         {% endif %}

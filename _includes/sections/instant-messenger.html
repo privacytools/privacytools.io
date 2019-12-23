@@ -1,5 +1,8 @@
 <h1 id="im" class="anchor"><a href="#im"><i class="fas fa-link anchor-icon"></i></a> Encrypted Instant Messengers</h1>
 
+<div class="alert alert-warning" role="alert">
+  <strong>If you are currently using an Instant Messenger like Telegram, LINE, Viber, <a href="https://www.eff.org/deeplinks/2016/10/where-whatsapp-went-wrong-effs-four-biggest-security-concerns">WhatsApp</a>, or plain SMS, you should pick an alternative here.</strong></div>
+
 <p>We only recommend instant messenger programs or apps that support <a href="https://en.wikipedia.org/wiki/End-to-end_encryption">end-to-end encryption (E2EE)</a>. When E2EE is used, all transmissions (messages, voice, video, etc.) are encrypted <strong>before</strong> they are sent from your device. E2EE protects both the authenticity and confidentiality of the transmission as they pass through any part of the network (servers, etc.).</p>
 
 <p>All the client programs/apps we chose are <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software">free and open-source software</a> unless otherwise mentioned. This to ensure that the code can be independently verified by experts now and in the future.</p>
@@ -26,9 +29,6 @@
     </ul>
     <li>The <a href="https://blog.privacytools.io/delisting-wire">ownership</a>, privacy policy, and operations of the service can change easily when a single entity controls it, potentially compromising the service later on.</li>
 </ul>
-
-<div class="alert alert-warning" role="alert">
-  <strong>If you are currently using an Instant Messenger like Telegram, LINE, Viber, <a href="https://www.eff.org/deeplinks/2016/10/where-whatsapp-went-wrong-effs-four-biggest-security-concerns">WhatsApp</a>, or plain SMS, you should pick an alternative here.</strong></div>
 
 {%
    include cardv2.html
@@ -115,7 +115,7 @@
 
     <ul>
         <li>Other <a href="https://matrix.org/clients">Matrix</a> clients, that may however be less feature complete than Riot.im.</li>
-        <li><a href="https://xmpp.org/about">XMPP</a> (Extensible Messaging and Presence Protocol) is an open-source communications protocol that began development in 1999. Since then, XMPP has been extended by the publishing of XEPs (XMPP Extension Protocols). <a href="https://conversations.im/omemo/">OMEMO</a> is the most popular XEP (XMPP extension) for E2EE. Unlike Matrix, clients are only developed by the community and not by the foundation itself. <span class="badge badge-warning" data-toggle="tooltip" title="VoIP and file transfers/names may not be end-to-end encrypted.">Inconsistent E2EE</span></li>
+        <li><a href="https://xmpp.org/about">XMPP</a> (Extensible Messaging and Presence Protocol) is an open-source communications protocol that began development in 1999. Since then, XMPP has been extended by the publishing of XEPs (XMPP Extension Protocols). <a href="https://conversations.im/omemo/">OMEMO</a> is the most popular XEP (XMPP extension) for E2EE. Clients are developed by the community and not by the XSF (XMPP Standards Foundation). <span class="badge badge-warning" data-toggle="tooltip" title="VoIP and file transfers/names may not be end-to-end encrypted.">Inconsistent E2EE</span></li>
         <ul>
             <li><a href="https://gajim.org/">Gajim</a></li>
             <li><a href="https://conversations.im">Conversations</a></li>
@@ -178,17 +178,22 @@
 
 {%
   include cardv2.html
-  title="qTox"
+  title="Tox"
   image="/assets/img/svg/3rd-party/tox.svg"
   image-dark="/assets/img/svg/3rd-party/tox-dark.svg"
   description='Encrypted instant messaging and video calling software. Uses its <a href="https://toktok.ltd/spec.html"> own encryption protocol</a> that has not yet been officially audited by cryptographers.'
   labels="warning:<a href=//tox.chat/download.html#warning>Experimental</a>:Encryption has not been audited by professional cryptographers|success:VoIP"
   website="https://tox.chat"
   forum="https://forum.privacytools.io/t/discussion-tox/2115"
-  github="https://github.com/qTox/qTox"
   windows="https://tox.chat/download.html#oses"
   mac="https://tox.chat/download.html#oses"
   linux="https://tox.chat/download.html#oses"
+  freebsd="https://tox.chat/download.html#oses"
+  openbsd="http://openports.se/search.php?so=tox"
+  netbsd="http://pkgsrc.se/search.php?so=tox"
+  fdroid="https://tox.chat/download.html#oses"
+  googleplay="https://tox.chat/download.html#oses"
+  ios="https://tox.chat/download.html#oses"
 %}
 
 <h4>Worth Mentioning</h4>
