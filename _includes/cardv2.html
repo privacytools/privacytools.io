@@ -78,6 +78,19 @@
             Forum
           </a>
         {% endif %}
+        {% if include.requirements %}
+          <a
+             href="{{include.requirements}}"
+             rel=""
+             class="hover-text-decoration mt-1 mr-1"
+             data-toggle="tooltip"
+             data-placement="bottom"
+             data-original-title="System Requirements to run this program."
+             class="btn btn-danger mt-1 mr-1">
+             <i class="fas fa-external-linkalt fa-fw"></i>
+             System Requirements
+          </a>
+        {% endif %}
         {% if include.tor %}
           <a
             href="{{include.tor}}"
