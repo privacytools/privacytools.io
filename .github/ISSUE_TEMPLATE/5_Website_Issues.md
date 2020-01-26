@@ -2,7 +2,7 @@
 name: "🌐 Website Issue"
 about: Report an issue with the website.
 title: "🌐 Website Issue | "
-labels: 🌐 website issue, high priority
+labels: 🌐 website issue
 ---
 
 ## Description
