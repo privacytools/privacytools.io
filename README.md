@@ -17,7 +17,7 @@ You can submit your suggestions here on GitHub [(Issues)](https://github.com/pri
 ## Developing
 
 1. Install the latest stable version of [Ruby](https://www.ruby-lang.org/en/downloads/).
-1. Install [Bundler](https://bundler.io/):
+1. Install [Bundler](https://bundler.io/) (at least v2.0.1):
 	* `gem install bundler`
 1. Install the required dependencies:
 	* `bundle install`
