@@ -24,7 +24,7 @@ You can submit your suggestions here on GitHub [(Issues)](https://github.com/pri
 1. Build the website (the output can be found in the `_site` directory):
 	* `bundle exec jekyll build`
 1. Serve the website locally with live reloading:
-	* `bundle exec jekyll serve --livereload`
+	* `bundle exec jekyll serve --incremental --livereload`
 
 # Support
 
