@@ -1,0 +1,87 @@
+<h1 id="mobile" class="anchor"><a href="#mobile"><i class="fas fa-link anchor-icon"></i></a> Mobile Hardware</h1>
+
+<p><em><strong>A note from the team:</strong> It is important to remember that you can only truly have privacy if the devices you use are secure. This includes security against both remote and physical attackers, and passive and active attacks. In the mobile computing space this dramatically limits your available options to devices that many would consider to be unsafe by default. You will need to make both software and lifestyle modifications to make these devices privacy-respecting. If you are unable or unwilling to do so, consider using mobile devices as little as possible, as they are at odds with your privacy almost by design. Please understand that we will never recommend any "privacy-respecting" mobile hardware that sacrifices your security.</em></p>
+
+<div class="container-fluid">
+
+  <div class="row mb-2">
+    <div class="col-lg-3 col-sm-12 pt-lg-5">
+      <img
+        src="/assets/img/png/3rd-party/pixel-3-xl.png"
+        data-theme-src="/assets/img/png/3rd-party/pixel-3-xl.png"
+        height="70"
+        width="200"
+        class="img-fluid d-block mr-auto ml-auto align-middle"
+        alt="Pixel 3 XL">
+    </div>
+    <div class="col">
+    <h2>Google Pixel</h2>
+    <p>The <strong>Google Pixel 3/3 XL</strong> and the <strong>Google Pixel 3a/3a XL</strong> are the only secure Android devices currently on the market that can be made privacy-respecting. They have hardware-backed keystores, verified boot functionality <em>with custom ROMs</em>, attestation support, as well as proper ongoing support for their firmware and proper ongoing support for software specific to the hardware used in the device, which is necessary for <em>complete</em> security updates.</p>
+
+    <h5><span class="badge badge-danger">Google OS</span></h5>
+    <p>Google Pixel devices come with a modified version of Android specific to Pixel devices. This software comes with added functionality specific to Pixel devices, but also is heavily linked with Google and Google Play Services. Using the stock ROM on a Google Pixel device is <em>strongly discouraged</em>. We recommend the use of either GrapheneOS or LineageOS to "de-Google" your device.</p>
+
+    <h5><span class="badge badge-success">GrapheneOS Support</span></h5>
+    <p>The Google Pixel supports GrapheneOS, the free and open-source mobile operating system <a href="/operating-systems/#mobile_os">we currently recommend</a> for use on mobile devices.</p>
+    <p>Note that using a custom Android operating system means you have to make the compromise between app availibility and stability, and having decent security and privacy. This operating system does not come with Google Play Services by default, nor is it possible to install Google Play Services or microG. We recommend using F-Droid for app installations as needed, and to avoid third-party apps as much as possible. For this reason, a Pixel with GrapheneOS may not be the best choice for less technical users and users requiring the use of many third-party apps.</p>
+    </div>
+  </div>
+
+  <div class="row mb-2">
+    <div class="col-lg-3 col-sm-12 pt-lg-5">
+      <img
+        src="/assets/img/png/3rd-party/iphone-11-pro.png"
+        data-theme-src="/assets/img/png/3rd-party/iphone-11-pro.png"
+        height="70"
+        width="200"
+        class="img-fluid d-block mr-auto ml-auto align-middle"
+        alt="Mullvad">
+    </div>
+    <div class="col">
+    <h2>iPhone 11</h2>
+    <p>The <strong>iPhone 11 Pro</strong> and the <strong>iPhone 11</strong> are the most secure and tested mobile devices on the market. They support verified boot, strong sandboxing, and strong hardware security (Secure Enclave). They also receive regular and frequent security updates, and they will receive updates far longer than competing Android devices.</p>
+    <p>An iPhone does not make people compromise between the avalibility of third-party apps and having strong security and privacy from their device.
+
+    <h5><span class="badge badge-danger">iCloud</span></h5>
+    <p>It is important to note that iOS comes with numerous iCloud integrations, many of which are enabled by default. We recommend advoiding the use of iCloud whenever possible to avoid your personal information being stored on Apple's servers, and we only recommend the use of an Apple ID for App Store use.</p>
+    <p>Contrary to popular belief, iCloud device backups are currently <strong>not</strong> End-to-End Encrypted. You should only backup your device using iTunes.</p>
+
+    <h5><span class="badge badge-success">No Known Exploits</span></h5>
+    <p>There are no <em>known, major hardware</em> exploits for the iPhone 11 series, making them a safer choice over older iPhone models. All iPhone models up to and including the iPhone X are affected by <strong>checkm8</strong>, a permanent unpatchable bootrom exploit that <em>may</em> compromise your device's security.</p>
+    </div>
+  </div>
+
+</div>
+
+<h3>Worth Mentioning</h3>
+
+<ul>
+  <li><a href="https://devices.ubuntu-touch.io/device/FP2">Fairphone 2</a> <span class="badge badge-info">Ubuntu Touch</span> - The Fairphone 2 is an interesting look into modular, ethical, and sustainable mobile devices with an emphasis on open source. This our preferred hardware if you wish to run Ubuntu Touch, however using older and less tested hardware like this inherently forces you to make significant security compromises.</li>
+  <li><a href="https://redmine.replicant.us/projects/replicant/wiki/GalaxyS3I9300">Samsung Galaxy S3</a> <span class="badge badge-info">ReplicantOS</span> - This is the best hardware available if you wish to run ReplicantOS, however using older hardware like this inherently forces you to make significant security and usability compromises.</li>
+</ul>
+
+<h1 id="u2f" class="anchor"><a href="#u2f"><i class="fas fa-link anchor-icon"></i></a> U2F Security Keys</h1>
+
+{% include cardv2.html
+title="YubiKey 5"
+image="/assets/img/png/3rd-party/yubikey-5c.png"
+description='The YubiKey 5 is a multi-protocol security key, providing strong two-factor, multi-factor and passwordless authentication, and seamless touch-to-sign. It supports FIDO2, FIDO U2F, one-time password (OTP), OpenPGP, and smart card functionality. It is available in a variety of form factors for desktop or laptop.'
+website="https://www.yubico.com/products/yubikey-5-overview/"
+github="https://github.com/yubico"
+%}
+
+{% include cardv2.html
+title="Yubico Security Key"
+image="/assets/img/png/3rd-party/yubico-security-key.png"
+description='The Yubico Security Key is a budget option for secure two-factor authentication, supporting the U2F and FIDO2 protocols to protect your accounts against remote takeovers.'
+website="https://www.yubico.com/products/security-key/"
+github="https://github.com/yubico"
+%}
+
+{% include cardv2.html
+title="SoloKeys"
+image="/assets/img/png/3rd-party/solokey.png"
+description='The SoloKey is the "first open-source FIDO2 security key", available in both USB-A and USB-C variants with optional NFC capability for mobile devices.'
+website="https://solokeys.com/"
+github="https://github.com/solokeys"
+%}
