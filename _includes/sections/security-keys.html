@@ -3,16 +3,8 @@
 {% include cardv2.html
 title="YubiKey 5"
 image="/assets/img/png/3rd-party/yubikey-5c.png"
-description='The YubiKey 5 is a multi-protocol security key, providing strong two-factor, multi-factor and passwordless authentication, and seamless touch-to-sign. It supports FIDO2, FIDO U2F, one-time password (OTP), abd OpenPGP smart card functionality. It is available in a variety of form factors for desktop or laptop.'
+description='The YubiKey 5 is a multi-protocol security key, providing strong two-factor, multi-factor and passwordless authentication, and seamless touch-to-sign. It supports FIDO2, FIDO U2F, one-time password (OTP), and OpenPGP smart card functionality. It is available in a variety of form factors for desktop or laptop.'
 website="https://www.yubico.com/products/yubikey-5-overview/"
-github="https://github.com/yubico"
-%}
-
-{% include cardv2.html
-title="Yubico Security Key"
-image="/assets/img/png/3rd-party/yubico-security-key.png"
-description='The Yubico Security Key is a budget option for secure two-factor authentication, supporting the U2F and FIDO2 protocols to protect your accounts against remote takeovers.'
-website="https://www.yubico.com/products/security-key/"
 github="https://github.com/yubico"
 %}
 
@@ -28,4 +20,5 @@ github="https://github.com/solokeys"
 
 <ul>
   <li><a href="https://onlykey.io/">OnlyKey</a> - Another open-source option, OnlyKey supports TOTP codes, YubiKey compatible OTP, and U2F, making it very compatible with most websites. It also has a hardware PIN lock in case the device is lost or stolen. We would like to see GPG smart card support and a variety of form factors (USB-C, NFC) before recommending it for general use.</li>
+  <li><a href="https://www.nitrokey.com/">Nitrokey</a> - A variety of security key products for different workloads. All Nitrokey products are open-source and customizable. The <a href="https://www.nitrokey.com/sites/default/files/NitrokeyFirmwareSecurityAuditReport05-2015.pdf">firmware</a> and <a href="https://www.nitrokey.com/sites/default/files/NitrokeyHardwareSecurityAuditReport08-2015.pdf">hardware</a> have been independently assessed by Cure53 in 2015. We have found that there is no best overall product (the <em>Pro 2</em> lacks Curve25519 while the lower-end <em>Start</em> supports it, for example) and they are lacking a variety of form factors such as USB-C and NFC that would be more convenient for many users.</li>
 </ul>
