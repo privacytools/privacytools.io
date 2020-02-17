@@ -1,0 +1,31 @@
+<h1 id="u2f" class="anchor"><a href="#u2f"><i class="fas fa-link anchor-icon"></i></a> U2F Security Keys</h1>
+
+{% include cardv2.html
+title="YubiKey 5"
+image="/assets/img/png/3rd-party/yubikey-5c.png"
+description='The YubiKey 5 is a multi-protocol security key, providing strong two-factor, multi-factor and passwordless authentication, and seamless touch-to-sign. It supports FIDO2, FIDO U2F, one-time password (OTP), abd OpenPGP smart card functionality. It is available in a variety of form factors for desktop or laptop.'
+website="https://www.yubico.com/products/yubikey-5-overview/"
+github="https://github.com/yubico"
+%}
+
+{% include cardv2.html
+title="Yubico Security Key"
+image="/assets/img/png/3rd-party/yubico-security-key.png"
+description='The Yubico Security Key is a budget option for secure two-factor authentication, supporting the U2F and FIDO2 protocols to protect your accounts against remote takeovers.'
+website="https://www.yubico.com/products/security-key/"
+github="https://github.com/yubico"
+%}
+
+{% include cardv2.html
+title="SoloKeys"
+image="/assets/img/png/3rd-party/solokey.png"
+description='The SoloKey is the "first open-source FIDO2 security key", available in both USB-A and USB-C variants with optional NFC capability for mobile devices. It is less feature-rich compared to the YubiKey 5 lineup, but at $20 it is a great starting point for securing your accounts, or backup U2F authenticator.'
+website="https://solokeys.com/"
+github="https://github.com/solokeys"
+%}
+
+<h3>Worth Mentioning</h3>
+
+<ul>
+  <li><a href="https://onlykey.io/">OnlyKey</a> - Another open-source option, OnlyKey supports TOTP codes, YubiKey compatible OTP, and U2F, making it very compatible with most websites. It also has a hardware PIN lock in case the device is lost or stolen. We would like to see GPG smart card support and a variety of form factors (USB-C, NFC) before recommending it for general use.</li>
+</ul>
