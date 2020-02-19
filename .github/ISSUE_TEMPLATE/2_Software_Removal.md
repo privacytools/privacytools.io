@@ -18,4 +18,4 @@ labels: ❌ software removal
 
 <!-- Are you the author? Competitor? Just hating the software with passsion for some reason? -->
 
-- [ ] I will keep the issue up-to-date if something I have said changes or I remember a connection with the software.
+- [ ] I will keep the issue up-to-date if something I have said changes or I remember a connection with the software.

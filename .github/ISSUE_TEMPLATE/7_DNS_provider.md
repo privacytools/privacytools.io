@@ -9,14 +9,14 @@ labels: 🌐 website issue, 🗄️ DNS
 
 ## Basic Information
 
-**Name:** 
+**Name:**
 **Filtering:** <!-- What is being filtered? Is it opt-in with separate address or not? -->
 **Privacy policy:** <!-- Link, especially when there is logging -->
 **Protocols:** <!-- at least DoH or DoT? DNSCrypt? -->
 **Server/Location:** <!-- Where is the provider based? Where are their servers located? Anycast if there are multiple servers answering to the same address -->
 **Source:** <!-- link to the source code, preferred, but optional -->
 **Type:** <!-- Non-profit, commercial, hobby project? -->
-**Website:** 
+**Website:**
 
 ## Description
 
@@ -44,4 +44,4 @@ labels: 🌐 website issue, 🗄️ DNS
 
 <!-- Are you the author? Enthustiastic or early adopter? Friends with the author or requested by them to open the isue? An employee of the software maker? -->
 
-- [ ] I will keep the issue up-to-date if something I have said changes or I remember a connection with the software.
+- [ ] I will keep the issue up-to-date if something I have said changes or I remember a connection with the software.

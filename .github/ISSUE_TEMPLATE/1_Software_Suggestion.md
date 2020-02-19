@@ -24,4 +24,4 @@ labels: 🆕 software suggestion
 
 <!-- Are you the author? Enthustiastic or early adopter? Friends with the author or requested by them to open the isue? An employee of the software maker? -->
 
-- [ ] I will keep the issue up-to-date if something I have said changes or I remember a connection with the software.
+- [ ] I will keep the issue up-to-date if something I have said changes or I remember a connection with the software.
