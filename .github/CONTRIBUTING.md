@@ -95,8 +95,9 @@ See https://www.privacytools.io/providers/vpn/#criteria for more details.
 
 ## Images
 
-- Provider logos are 200px x 70px ([example](https://github.com/privacytoolsIO/privacytools.io/blob/master/assets/img/provider/Mullvad.png))
-- Tool logos are 120px x 120px ([example](https://github.com/privacytoolsIO/privacytools.io/blob/master/assets/img/tools/Firefox.png))
+- SVG file format is strongly preferred. PNG files can be used as a fallback if images are too complex or otherwise unsuitable as a vector format.
+- Provider logo dimensions are 384px x 128px ([example](https://github.com/privacytoolsIO/privacytools.io/blob/master/assets/img/svg/3rd-party/mullvad.svg))
+- Tool logo dimensions are 120px x 120px ([SVG example](https://github.com/privacytoolsIO/privacytools.io/blob/master/assets/img/svg/3rd-party/firefox_browser.svg), [PNG example](https://github.com/privacytoolsIO/privacytools.io/blob/master/assets/img/png/3rd-party/claws_mail.png))
 
 ## Licensing
 
