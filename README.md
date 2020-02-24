@@ -14,14 +14,19 @@ It's important for a website like PrivacyTools to be up-to-date. Keep an eye on 
 
 You can submit your suggestions here on GitHub [(Issues)](https://github.com/privacytoolsIO/privacytools.io/issues) and also in our [subreddit](https://www.reddit.com/r/privacytoolsIO/). Please refer to the [Contributing Guidelines](.github/CONTRIBUTING.md) before submitting. Thank you.
 
-## Building
+## Developing
 
-1. Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
-1. Install [bundler](https://bundler.io/) by running `gem install bundler`.
-1. Run `bundle install` to install the required dependencies.
-1. Use `bundle exec jekyll build` to build the website. The output can be found in the `_site` directory.  Live preview is also possible by running `bundle exec jekyll serve`
+1. Install the latest stable version of [Ruby](https://www.ruby-lang.org/en/downloads/).
+1. Install [Bundler](https://bundler.io/) v2.0.1:
+	* `gem install bundler -v 2.0.1`
+1. Install the required dependencies:
+	* `bundle install`
+1. Build the website (the output can be found in the `_site` directory):
+	* `bundle exec jekyll build`
+1. Serve the website locally with live reloading:
+	* `bundle exec jekyll serve --incremental --livereload`
 
-# Support privacytools.io
+# Support
 
 - [Donate.](https://www.privacytools.io/donate/)
 - [Liberapay](https://liberapay.com/privacytools.io/donate) or [Patreon.](https://www.patreon.com/privacytools)
