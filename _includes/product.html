@@ -1,0 +1,12 @@
+<div class="col-md-4">
+  <div class="card m-3">
+    <img src="/assets/img/png/merch/{{include.image}}" class="card-img-top">
+    <div class="card-body">
+      <h5 class="card-title mt-1">{{include.title}}</h5>
+      <h6 class="card-subtitle mb-2 text-muted">{% if include.sale %}<strong>{{include.sale}}</strong> <del>{% endif %}{{include.price}}{% if include.sale %}</del>{% endif %}</h6>
+      <p class="card-text">{{include.description}}</p>
+      <a href="{{include.link}}" class="btn btn-primary">Purchase</a>
+      <p class="card-text mt-3">Fulfilled by <span class="badge badge-secondary">{{include.vendor}}</span></p>
+    </div>
+  </div>
+</div>
