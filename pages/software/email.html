@@ -5,14 +5,7 @@ title: "Email Clients"
 description: "Discover free, open-source, and secure email clients, along with some email alternatives you may not have considered."
 ---
 
-<div class="card border-danger">
-  <div class="card-header text-danger"><i class="fas fa-exclamation-circle fa-fw"></i> Warning</div>
-  <div class="card-body">
-    <p class="card-text text-danger">Even when using end-to-end encryption technology like GPG, email is inherently insecure and should not be trusted for sensitive communications. Metadata is always communicated in plaintext, and even when encryption is used correctly it is very easy for either party to accidentally respond to or forward a previously encrypted message in plaintext in many clients. GPG also does not easily support modern crypto functionality such as key rotation and forward secrecy.</p>
-    <p class="card-text text-secondary">We recommend the following email providers for routine notifications and messages from other services that require an email address. For communications that <strong>need</strong> to be safe and secure, you should use a dedicated instant messaging tool, such as Signal.</p>
-    <a href="/software/real-time-communication/" class="btn btn-outline-secondary">Recommended Instant Messengers</a>
-  </div>
-</div>
+{% include sections/email-warning.html %}
 
 {% include sections/email-clients.html %}
 
