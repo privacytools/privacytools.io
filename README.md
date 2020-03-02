@@ -10,9 +10,9 @@ _Encryption Against Global Mass Surveillance._
 
 It's important for a website like PrivacyTools to be up-to-date. Keep an eye on software updates of the applications listed here. Follow recent news about providers that are recommended. We try our best to keep up but we're not perfect and the internet is changing fast. So if you find an error, or you think a provider should not be listed here, or a qualified service provider is missing or a browser plugin is not the best choice anymore or anything else...
 
-**Talk to us please.** Join our [subreddit](https://www.reddit.com/r/privacytoolsIO/) or [our Discourse community](https://forum.privacytools.io/) and start a discussion. This is a community project and we're aiming to deliver the best information available for a better privacy. Thank you for participating.
+**Talk to us!** If you want to help make privacytools.io the best website it can be, join our Matrix discussion chat at [`#dev:privacytools.io`](https://matrix.to/#/#dev:privacytools.io), where we talk about open issues and PRs in this repo, and changes to the site. You may submit any website suggestions here on GitHub [Issues](https://github.com/privacytoolsIO/privacytools.io/issues). Please refer to the [contribution guidelines](.github/CONTRIBUTING.md) and consider stopping by our chat room before submitting. Thank you.
 
-You can submit your suggestions here on GitHub [(Issues)](https://github.com/privacytoolsIO/privacytools.io/issues) and also in our [subreddit](https://www.reddit.com/r/privacytoolsIO/). Please refer to the [Contributing Guidelines](.github/CONTRIBUTING.md) before submitting. Thank you.
+If you want to discuss privacy in general, a new tool, or just something else, feel free to join [our Discourse community](https://forum.privacytools.io/) or our general Matrix room at [`#general:privacytools.io`](https://matrix.to/#/#general:privacytools.io) and start a discussion! This is a community project and we're aiming to deliver the best information available. Thank you for participating.
 
 ## Developing
 
