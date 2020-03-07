@@ -38,10 +38,24 @@
 <a class="btn btn-primary" target="_blank" rel="noopener noreferrer" href="https://ipleak.net">Test your Browser again</a>
 </p>
 
-<h3>How to fix the WebRTC Leak in Google Chrome?</h3>
+<h3>How to disable WebRTC in Safari?</h3>
+
+<ol class="long-string-list">
+  <li>Open the browser and click on the Safari tab in the menu tab.</li>
+  <li>On the Advanced tab, check the box at the bottom that says "Show the Develop menu in menu bar".</li>
+  <li>Come back to the main menu and go to the Develop tab.</li>
+  <li>In the drop-down menu, go to Experimental Features and check "Remove Legacy WebRTC API"</li>
+  <li>Done. Do the WebRTC leak test again.</li>
+</ol>
+
+<p>
+<a class="btn btn-primary" target="_blank" rel="noopener noreferrer" href="https://ipleak.net">Test your Browser again</a>
+</p>
+
+<h3>How to disable WebRTC in Google Chrome?</h3>
 
 <p>WebRTC cannot be fully disabled in Chrome; however, it is possible to change its routing settings (and prevent leaks) using an extension. Two open-source solutions include <a href="https://chrome.google.com/webstore/detail/webrtc-leak-prevent/eiadekoaikejlgdbkbdfeijglgfdalml">WebRTC Leak Prevent</a> (options may need to be changed depending on the scenario), and <a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm">uBlock Origin</a> (select "Prevent WebRTC from leaking local IP addresses" in Settings).</p>
 
 <h3>What about other browsers?</h3>
 
-<p>Chrome on iOS, Internet Explorer and Safari does not implement WebRTC yet. <a href="#browser"><i class="fas fa-link"></i> But we recommend using Firefox on all devices.</a></p>
+<p>Chrome on iOS and Internet Explorer does not implement WebRTC yet. <a href="#browser"><i class="fas fa-link"></i> But we recommend using Firefox on all devices.</a></p>
