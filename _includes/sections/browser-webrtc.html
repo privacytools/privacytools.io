@@ -40,12 +40,13 @@
 
 <h3>How to disable WebRTC in Safari?</h3>
 
+<p>Safari is far stricter with WebRTC than other major browsers, and it does not leak your IP address in its default configuration. If you'd like, you can follow these steps just to double-check your browser:</p>
+
 <ol class="long-string-list">
-  <li>Open the browser and click on the Safari tab in the menu tab.</li>
-  <li>On the Advanced tab, check the box at the bottom that says "Show the Develop menu in menu bar".</li>
-  <li>Come back to the main menu and go to the Develop tab.</li>
-  <li>In the drop-down menu, go to Experimental Features and check "Remove Legacy WebRTC API"</li>
-  <li>Done. Do the WebRTC leak test again.</li>
+  <li>Choose "Preferences" under the Safari menu in your menu bar.</li>
+  <li>Select the Advanced tab and check the "Show Develop menu in menu bar" box.</li>
+  <li>Exit Preferences and open the Develop menu in your menu bar.</li>
+  <li>In the drop-down menu, open the "WebRTC" submenu and ensure "Enable Legacy WebRTC API" is unchecked. If it's grayed out, even better.</li>
 </ol>
 
 <p>
