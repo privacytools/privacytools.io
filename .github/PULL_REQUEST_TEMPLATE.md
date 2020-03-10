@@ -1,4 +1,4 @@
-<!-- PLEASE READ OUR CODE OF CONDUCT (https://github.com/privacytoolsIO/privacytools.io/blob/master/CODE_OF_CONDUCT.md) AND CONTRIBUTING GUIDELINES (https://github.com/privacytoolsIO/privacytools.io/blob/master/.github/CONTRIBUTING.md) BEFORE SUBMITTING -->
+<!-- PLEASE READ OUR CODE OF CONDUCT (https://wiki.privacytools.io/view/PrivacyTools:Code_of_Conduct) AND CONTRIBUTING GUIDELINES (https://github.com/privacytoolsIO/privacytools.io/blob/master/.github/CONTRIBUTING.md) BEFORE SUBMITTING -->
 
 ## Description
 
