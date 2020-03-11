@@ -26,13 +26,10 @@
   <dd>[FF67+] Blocks CryptoMining</dd>
 
   <dt>privacy.trackingprotection.enabled = true</dt>
-  <dd>This is Mozilla's new built-in tracking protection. It uses Disconnect.me filter list, which is redundant if you are already using uBlock Origin 3rd party filters, therefore you should set it to false if you are using the add-on functionalities.</dd>
+  <dd>This is Mozilla's new built-in tracking protection. One of it's benefits is blocking tracking (i.e. Google Analytics) on <a href="https://github.com/gorhill/uMatrix/wiki/Privileged-Pages">privileged pages</a> where add-ons that usually do that are disabled.</dd>
 
   <dt>browser.send_pings = false</dt>
   <dd>The attribute would be useful for letting websites track visitors' clicks.</dd>
-
-  <dt>browser.sessionstore.max_tabs_undo = 0</dt>
-  <dd>Even with Firefox set to not remember history, your closed tabs are stored temporarily at Menu -&gt; History -&gt; Recently Closed Tabs.</dd>
 
   <dt>browser.urlbar.speculativeConnect.enabled = false</dt>
   <dd>Disable preloading of autocomplete URLs. Firefox preloads URLs that autocomplete when a user types into the address bar, which is a concern if URLs are suggested that the user does not want to connect to. <a href="https://www.ghacks.net/2017/07/24/disable-preloading-firefox-autocomplete-urls/">Source</a></dd>
@@ -85,9 +82,6 @@
   </ul>
   </dd>
 
-  <dt>Looking for TRR, DoH or ESNI?</dt>
-  <dd>They have moved to <a href="/providers/dns/#icanndns">our DNS page</a>.</dd>
-
   <dt>webgl.disabled = true</dt>
   <dd>WebGL is a potential security risk. <a href="https://security.stackexchange.com/questions/13799/is-webgl-a-security-concern">Source</a></dd>
 
@@ -101,14 +95,32 @@
   </ul>
   </dd>
 
+  <dt>beacon.enabled = false</dt>
+  <dd>Disables sending additional analytics to web servers. <a href="https://developer.mozilla.org/en-US/docs/Web/API/Navigator/sendBeacon">Details</a></dd>
+
+  <dt>browser.safebrowsing.downloads.remote.enabled = false</dt>
+  <dd>Prevents Firefox from sending information about downloaded executable files to Google Safe Browsing to determine whether it should be blocked for safety reasons. <a href="https://support.mozilla.org/en-US/kb/how-does-phishing-and-malware-protection-work#w_what-information-is-sent-to-mozilla-or-its-partners-when-phishing-and-malware-protection-are-enabled">Details</a></dd>
+
+  <dt>Disable Firefox prefetching pages it thinks you will visit next:</dt>
+  <dd>
+  Prefetching causes cookies from the prefetched site to be loaded and other potentially unwanted behavior. Details <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Link_prefetching_FAQ">here</a> and <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-DNS-Prefetch-Control">here</a>.
+  <ul>
+    <li>network.dns.disablePrefetch = true</li>
+    <li>network.dns.disablePrefetchFromHTTPS = true</li>
+    <li>network.predictor.enabled = false</li>
+    <li>network.predictor.enable-prefetch = false</li>
+    <li>network.prefetch-next = false</li>
+  </dd>
 
   <dt>network.IDN_show_punycode = true</dt>
   <dd>Not rendering IDNs as their Punycode equivalent leaves you open to phishing attacks that can be very difficult to notice. <a href="https://krebsonsecurity.com/2018/03/look-alike-domains-and-visual-confusion/#more-42636">Source</a></dd>
 
+  <dt>Looking for TRR, DoH or ESNI?</dt>
+  <dd>They have moved to <a href="/providers/dns/#dns">our DNS page</a>.</dd>
 
 <h3 id="user.js">Firefox user.js Templates</h3>
 <ul>
-	<li><a href="https://github.com/ghacksuserjs/ghacks-user.js">ghacks-user.js</a> - An ongoing comprehensive user.js template for configuring and hardening Firefox privacy, security and anti-fingerprinting.</li>
+   <li><a href="https://github.com/ghacksuserjs/ghacks-user.js">ghacks-user.js</a> - An ongoing comprehensive user.js template for configuring and hardening Firefox privacy, security and anti-fingerprinting.</li>
 </ul>
 
 
@@ -117,7 +129,6 @@
 <ul>
   <li><a href="https://blog.privacytools.io/firefox-privacy-an-introduction-to-safe/">Firefox Privacy: Tips and Tricks for Better Browsing</a> - A good starting guide for users looking to keep their data private and secure.</li>
   <li><a href="https://ffprofile.com/">ffprofile.com</a> - Helps you to create a Firefox profile with the defaults you like.</li>
-  <li><a href="http://kb.mozillazine.org/Category:Security_and_privacy-related_preferences">mozillazine.org</a> - Security and privacy-related preferences. </li>
   <li><a href="https://addons.mozilla.org/firefox/addon/privacy-settings/">Privacy Settings</a> - A Firefox add-on to alter built-in privacy settings easily with a toolbar panel.</li>
   <li><a href="https://12bytes.org/articles/tech/firefox/the-firefox-privacy-guide-for-dummies/">Firefox Privacy Guide For Dummies</a> - Guide on ways (already discussed and others) to improve your privacy and safety on Firefox.</li>
 </ul>
