@@ -104,7 +104,7 @@
     <p>Posteo supports <a href="https://posteo.de/en/help/what-is-two-factor-authentication-and-how-do-i-set-it-up">two factor authentication</a> for their webmail only. You can use either <a href="https://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm">TOTP</a> a <a href="https://en.wikipedia.org/wiki/YubiKey">Yubikey</a> with TOTP. Web standards such as <a href="https://en.wikipedia.org/wiki/Universal_2nd_Factor">U2F</a> and <a href="https://en.wikipedia.org/wiki/WebAuthn">WebAuthn</a> are not yet supported.</p>
 
     <h5><span class="badge badge-warning">Data Security</span></h5>
-    <p>Posteo has <a href="https://posteo.de/en/site/encryption#cryptomailstorage">zero access encryption</a> for email storage. This means the messages stored in your account are only readable by you. </p>
+    <p>Posteo has <a href="https://posteo.de/en/site/encryption#cryptomailstorage">zero access encryption</a> for email storage. This means the messages stored in your account are only readable by you.</p>
     <p>Posteo also supports the encryption of your <a href="https://posteo.de/en/site/features#featuresaddressbook">address book contacts</a> and <a href="https://posteo.de/en/site/features#featurescalendar">calendars</a> at rest. However, Posteo still uses standard <a href="https://en.wikipedia.org/wiki/CalDAV">CalDAV</a> and <a href="https://en.wikipedia.org/wiki/CardDAV">CardDAV</a> for calendars and contacts. These protocols do not support <a href="https://en.wikipedia.org/wiki/End-to-end_encryption">E2EE (End-To-End Encryption)</a>. A <a href="/software/calendar-contacts/">standalone option</a> may be more appropiate.</p>
 
     <h5><span class="badge badge-success">Email Encryption</span></h5>
@@ -230,6 +230,44 @@
     <p>Tutanota offers the business version of <a href="https://tutanota.com/blog/posts/secure-email-for-non-profit">Tutanota to non-profit organizations</a> for free or with a heavy discount.</p>
 
     <p>Tutanota also has a business feature called <a href="https://tutanota.com/secure-connect/">Secure Connect</a>. This ensures customer contact to the business uses E2EE. The feature costs €240/y.</p>
+    </div>
+  </div>
+  <div class="row mb-2">
+    <div class="col-lg-3 col-sm-12 pt-lg-5">
+      <img
+        src="/assets/img/svg/3rd-party/startmail.svg"
+        data-theme-src="/assets/img/svg/3rd-party/startmail-dark.svg"
+        height="70"
+        width="200"
+        class="img-fluid d-block mr-auto ml-auto align-middle"
+        alt="StartMail">
+    </div>
+    <div class="col">
+    <h2 id="startmail" class="anchor"><a href="#startmail"><i class="fas fa-link anchor-icon"></i></a> StartMail <span class="badge badge-info">Personal USD $59.95/y</span></h2>
+    <p><strong><a href="https://startmail.com">StartMail.com</a></strong> is an email service with a focus on security and privacy through the use of standard OpenPGP encryption. StartMail has been in operation since <strong>2014</strong> and is based in Boulevard 11, Zeist <span class="flag-icon flag-icon-nl"></span> Netherlands. Accounts start with 10GB. They offer a 30-day trial.</p>
+
+    <h5><span class="badge badge-success">Domains and Aliases</span></h5>
+    <p>Personal accounts can use <a href="https://support.startmail.com/hc/en-us/articles/360007297457-Aliases">Custom or Generated</a> aliases. Business accounts can use <a href="https://support.startmail.com/hc/en-us/articles/360006840058">Domain aliases</a>.</p>
+
+    <h5><span class="badge badge-warning">Payment Methods</span></h5>
+    <p>StartMail accepts Visa, MasterCard, American Express and Paypal. StartMail also has other <a href="https://support.startmail.com/hc/en-us/articles/360006620637-Payment-methods">payment options</a> such as Bitcoin (currently only for Personal accounts) and SEPA Direct Debit for accounts older than a year.</p>
+
+    <h5><span class="badge badge-success">Account Security</span></h5>
+    <p>StartMail supports <a href="https://en.wikipedia.org/wiki/Time-based_One-time_Password_Algorithm">TOTP</a> two factor authentication <a href="https://support.startmail.com/hc/en-us/articles/360006682158-Two-factor-authentication-2FA">for webmail only</a>. They do not allow <a href="https://en.wikipedia.org/wiki/Universal_2nd_Factor">U2F</a> security key authentication.</p>
+
+    <h5><span class="badge badge-warning">Data Security</span></h5>
+    <p>StartMail has <a href="https://www.startmail.com/en/whitepaper/#_Toc458527835">zero access encryption at rest</a>, using their "user vault" system. When a user logs in, the vault is opened, and the email is then moved to the vault out of the queue where it is decrypted by the corresponding private key.</p>
+
+    <p>StartMail supports importing <a href="https://support.startmail.com/hc/en-us/articles/360006495557-Import-contacts">contacts</a> however, they are only accessible in the webmail and not through protocols such as <a href="https://en.wikipedia.org/wiki/CalDAV">CalDAV</a>. Contacts are also not stored using zero knowledge encryption, so a <a href="/software/calendar-contacts/">standalone option</a> may be more appropriate.</p>
+
+    <h5><span class="badge badge-success">Email Encryption</span></h5>
+    <p>StartMail has <a href="https://support.startmail.com/hc/en-us/sections/360001889078-Encryption">integrated encryption</a> in their webmail, which simplifies sending messages to users with public OpenPGP keys.</p>
+
+    <h5><span class="badge badge-danger">.onion Service</span></h5>
+    <p>StartMail does not operate a .onion service.</p>
+
+    <h5><span class="badge badge-info">Extra Functionality</span></h5>
+    <p>StartMail allows for proxying of images within emails. If a user allows the remote image to be loaded, the sender won't know what the user's IP address is.</p>
     </div>
   </div>
 </div>
