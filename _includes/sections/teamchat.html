@@ -1,16 +1,20 @@
-<h1 id="teamchat" class="anchor"><a href="#teamchat"><i class="fas fa-link anchor-icon"></i></a> Team Chat Platforms</h1>
+<h1 id="teamchat" class="anchor">
+  <a href="#teamchat">
+    <i class="fas fa-link anchor-icon"></i>
+  </a> Team Chat Platforms
+</h1>
 
 <div class="alert alert-warning" role="alert">
-        <strong>If your project or organization currently uses a platform like <a href="https://tosdr.org/#discord">Discord</a> or <a href="https://drewdevault.com/2015/11/01/Please-stop-using-slack.html">Slack</a> you should pick an alternative here.</strong>
+  <strong>If your project or organization currently uses a platform like <a href="https://tosdr.org/#discord">Discord</a> or <a href="https://drewdevault.com/2015/11/01/Please-stop-using-slack.html">Slack</a> you should pick an alternative here.</strong>
 </div>
 
 {%
   include cardv2.html
-  title="Matrix"
-  image="/assets/img/svg/3rd-party/matrix.svg"
-  image-dark="/assets/img/svg/3rd-party/matrix-dark.svg"
-  description='<a href="https://matrix.org/docs/guides/introduction">Matrix</a> is an open-source project that publishes the <a href="https://matrix.org/docs/spec">Matrix open standard</a> for secure, decentralized, real-time communication.<br />
-  <a href="https://en.wikipedia.org/wiki/Riot.im">Riot.im</a> is the popular reference client produced by the Matrix.org team. It offers optional E2EE for 1:1 and group conversations that <strong>must</strong> be turned on by the user. (This can be done by clicking on the toggle switch which is accessed by clicking the room name or user name of the chat → Security &amp; Privacy → Encrypted). In the future it will be <a href="https://github.com/vector-im/riot-web/issues/6779">on by default.</a>'
+  title="Riot"
+  image="/assets/img/svg/3rd-party/riotim.svg"
+  description='<a href="//about.riot.im">Riot.im</a> is the reference client for the <a href="//matrix.org/docs/guides/introduction">Matrix</a> network. The <a href="//matrix.org/docs/spec">Matrix open standard</a> is an open-source standard for secure, decentralized, real-time communication.<br />'
+  labels="warning:<a href=//github.com/vector-im/riot-web/issues/6779>Warning</a>:Riot offers optional E2EE for 1&#x3a;1 and group conversations that must be turned on by the user.
+  (This can be done by clicking on the toggle switch which is accessed by clicking the room name or user name of the chat → Security &amp; Privacy → Encrypted).|success:VoIP"
   website="https://about.riot.im/"
   forum="https://forum.privacytools.io/t/discussion-riot-im/665/"
   github="https://github.com/vector-im/riot-web/"
@@ -28,7 +32,7 @@
   title="Rocket.chat"
   image="/assets/img/svg/3rd-party/rocketchat.svg"
   description="Rocket.chat is an self-hostable open source platform for team communication. It has optional federation and experimental E2EE."
-  labels="warning:<a href=//rocket.chat/docs/user-guides/end-to-end-encryption/>Experimental E2EE</a>:Regarding E2EE their documentation states 'This feature is currently in alpha. It's also not yet supported on mobile'. There is no forward secrecy so compromised decryption password would leak all messages. Federation was also added afterwards, potentially causing room for mistakes."
+  labels="warning:<a href=//rocket.chat/docs/user-guides/end-to-end-encryption/>Experimental E2EE</a>:Regarding E2EE their documentation states 'This feature is currently in alpha. It's also not yet supported on mobile'. There is no forward secrecy so compromised decryption password would leak all messages. Federation was also added afterwards, potentially causing room for mistakes.|success:VoIP"
   website="https://rocket.chat/"
   forum="https://forum.privacytools.io/t/discussion-rocket-chat/1223"
   github="https://github.com/rocketchat/"
