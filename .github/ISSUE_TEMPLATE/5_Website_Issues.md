@@ -1,9 +1,18 @@
 ---
 name: "🌐 Website Issue"
-about: Report an issue with the website.
+about: Report a bug with the website. (NO CONTENT ISSUES)
 title: "🌐 Website Issue | "
-labels: 🌐 website issue, high priority
+labels: 🌐 website issue
 ---
+
+<!--
+
+READ ME FIRST:
+This is NOT the place to request changes to the content of the website.
+This is NOT the place to report issues with our services. (That is https://github.com/privacytoolsIO/services/issues/new)
+This is ONLY for reporting bugs or technical issues with www.privacytools.io.
+
+-->
 
 ## Description
 

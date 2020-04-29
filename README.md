@@ -10,18 +10,23 @@ _Encryption Against Global Mass Surveillance._
 
 It's important for a website like PrivacyTools to be up-to-date. Keep an eye on software updates of the applications listed here. Follow recent news about providers that are recommended. We try our best to keep up but we're not perfect and the internet is changing fast. So if you find an error, or you think a provider should not be listed here, or a qualified service provider is missing or a browser plugin is not the best choice anymore or anything else...
 
-**Talk to us please.** Join our [subreddit](https://www.reddit.com/r/privacytoolsIO/) or [our Discourse community](https://forum.privacytools.io/) and start a discussion. This is a community project and we're aiming to deliver the best information available for a better privacy. Thank you for participating.
+**Talk to us!** If you want to help make privacytools.io the best website it can be, join our Matrix discussion chat at [`#dev:privacytools.io`](https://matrix.to/#/#dev:privacytools.io), where we talk about open issues and PRs in this repo, and changes to the site. You may submit any website suggestions here on GitHub [Issues](https://github.com/privacytoolsIO/privacytools.io/issues). Please refer to the [contribution guidelines](.github/CONTRIBUTING.md) and consider stopping by our chat room before submitting. Thank you.
 
-You can submit your suggestions here on GitHub [(Issues)](https://github.com/privacytoolsIO/privacytools.io/issues) and also in our [subreddit](https://www.reddit.com/r/privacytoolsIO/). Please refer to the [Contributing Guidelines](.github/CONTRIBUTING.md) before submitting. Thank you.
+If you want to discuss privacy in general, a new tool, or just something else, feel free to join [our Discourse community](https://forum.privacytools.io/) or our general Matrix room at [`#general:privacytools.io`](https://matrix.to/#/#general:privacytools.io) and start a discussion! This is a community project and we're aiming to deliver the best information available. Thank you for participating.
 
-## Building
+## Developing
 
-1. Install [Ruby](https://www.ruby-lang.org/en/documentation/installation/)
-1. Install [bundler](https://bundler.io/) by running `gem install bundler`.
-1. Run `bundle install` to install the required dependencies.
-1. Use `bundle exec jekyll build` to build the website. The output can be found in the `_site` directory.  Live preview is also possible by running `bundle exec jekyll serve`
+1. Install the latest stable version of [Ruby](https://www.ruby-lang.org/en/downloads/).
+1. Install [Bundler](https://bundler.io/) v2.0.1:
+	* `gem install bundler -v 2.0.1`
+1. Install the required dependencies:
+	* `bundle install`
+1. Build the website (the output can be found in the `_site` directory):
+	* `bundle exec jekyll build`
+1. Serve the website locally with live reloading:
+	* `bundle exec jekyll serve --incremental --livereload`
 
-# Support privacytools.io
+# Support
 
 - [Donate.](https://www.privacytools.io/donate/)
 - [Liberapay](https://liberapay.com/privacytools.io/donate) or [Patreon.](https://www.patreon.com/privacytools)
@@ -29,6 +34,10 @@ You can submit your suggestions here on GitHub [(Issues)](https://github.com/pri
 - [Join our Discourse community.](https://forum.privacytools.io/)
 - [Make suggestions on reddit.](https://www.reddit.com/r/privacytoolsIO/)
 - View and edit our website source code here on GitHub.
+
+# Sponsors
+
+- [Safing](https://safing.io/)
 
 # Community Translations
 - [繁体中文 / Chinese](https://privacytools.twngo.xyz/) - [GitHub](https://github.com/twngo/privacytools-zh)
