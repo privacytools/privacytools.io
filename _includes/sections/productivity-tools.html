@@ -6,6 +6,7 @@
   image="/assets/img/svg/3rd-party/cryptpad.svg"
   description="<strong>CryptPad</strong> is a private-by-design alternative to popular office tools and cloud services. All content is end-to-end encrypted. It is free and open-source, enabling anyone to verify its security by auditing the code. The development team is supported by donations and grants. No registration is required, and it can be used anonymously via Tor Browser."
   website="https://cryptpad.fr/"
+  privacy-policy="https://cryptpad.fr/privacy.html"
   forum="https://forum.privacytools.io/t/discussion-cryptpad-productivity-tools/1537"
   github="https://github.com/xwiki-labs/cryptpad"
   web="https://cryptpad.fr/"
@@ -35,6 +36,7 @@
   image-dark="/assets/img/svg/3rd-party/writeas-dark.svg"
   description="<strong>Write.as</strong> is a cross-platform, privacy-oriented blogging platform. It's anonymous by default, letting you publish without signing up. If you create an account, it doesn't require any personal information. No ads, distraction-free, and built on a sustainable business model."
   website="https://write.as/"
+  privacy-policy="https://write.as/privacy"
   forum="https://forum.privacytools.io/t/discussion-write-as-productivity-tools/1539"
   tor="http://writeas7pm7rcdqg.onion"
   git="https://code.as/writeas"
@@ -56,7 +58,7 @@
   <li><a href="https://dudle.inf.tu-dresden.de/anonymous/">dudle</a> - An online scheduling application, free and open-source. Schedule meetings or make small online polls. No email collection or the need of registration.</li>
   <li><a href="https://framadate.org/">Framadate</a> - A free and open-source online service for planning an appointment or making a decision quickly and easily. No registration is required.</li>
   <li><a href="https://www.libreoffice.org/">LibreOffice</a> - Free and open-source office suite.</li>
-  <li><a href="https://vscodium.com/">VSCodium</a> - Fork of Microsoft's Visual Studio Code editor without branding or telemetry.</li>
+  <li><a href="https://vscodium.com/">VSCodium</a> - Scripts to automatically build Microsoft's Visual Studio Code editor without branding or telemetry.</li>
 </ul>
 
 <h1 id="metadata-removal-tools" class="anchor">
@@ -65,7 +67,6 @@
   </a> Metadata Removal Tools
 </h1>
 
-<div class="row mb-2">
 {%
   include cardv2.html
   title="MAT2"
@@ -81,4 +82,16 @@
   openbsd="https://pypi.org/project/mat2/"
   netbsd="https://pypi.org/project/mat2/"
 %}
-</div>
+
+{%
+  include cardv2.html
+  title="ExifCleaner"
+  image="/assets/img/svg/3rd-party/exifcleaner.svg"
+  description='<strong>ExifCleaner</strong> is a freeware, open source graphical app that uses <a href="https://exiftool.org/">ExifTool</a> to remove <a href="https://en.wikipedia.org/wiki/Exif">exif</a> metadata from images, videos, and PDF documents using a simple drag and drop interface. It supports multi-core batch processing and dark mode.'
+  website="https://exifcleaner.com"
+  forum="https://forum.privacytools.io/t/discussion-mat/TODOADDTHIS"
+  github="https://github.com/szTheory/exifcleaner"
+  windows="https://github.com/szTheory/exifcleaner/releases"
+  mac="https://github.com/szTheory/exifcleaner/releases"
+  linux="https://github.com/szTheory/exifcleaner/releases"
+%}

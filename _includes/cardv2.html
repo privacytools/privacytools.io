@@ -61,7 +61,7 @@
       {% endif %}
     </p>
     <div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
-      <div class="d-flex flex-shrink-0 mr-1">
+      <div class="flow-root flex-shrink-0 mr-1">
         <a
           href="{{include.website}}"
           rel="noopener"
@@ -69,6 +69,15 @@
           <i class="fas fa-external-link-alt fa-fw"></i>
           Website
         </a>
+        {% if include.privacy-policy %}
+        <a
+          href="{{include.privacy-policy}}"
+          rel="noopener"
+          class="btn btn-warning mt-1 mr-1">
+          <i class="fas fa-book fa-fw"></i>
+          Privacy Policy
+        </a>
+        {% endif %}
         {% if include.forum %}
           <a
             href="{{include.forum}}"
@@ -82,7 +91,7 @@
           <a
             href="{{include.tor}}"
             rel="noopener"
-            class="hover-text-decoration-none mt-1 mr-1"
+            class="btn icon-btn hover-text-decoration-none mt-1 mr-1"
             data-toggle="tooltip"
             data-placement="bottom"
             data-original-title="Requires specific software to access: torproject.org">
@@ -93,7 +102,7 @@
           <a
             href="{{include.i2p}}"
             rel="noopener"
-            class="hover-text-decoration-none mt-1 mr-1"
+            class="btn icon-btn hover-text-decoration-none mt-1 mr-1"
             data-toggle="tooltip"
             data-placement="bottom"
             data-original-title="Requires specific software to access: geti2p.net">

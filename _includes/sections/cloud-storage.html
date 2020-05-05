@@ -4,22 +4,43 @@
   <strong>If you are currently using Dropbox, Google Drive, Microsoft OneDrive or Apple iCloud, you should pick an alternative here.</strong>
 </div>
 
+{%
+  include cardv2.html
+  title="Keybase KBFS"
+  image="/assets/img/svg/3rd-party/keybase.svg"
+  description='Keybase provides 250GB of E2EE cloud storage for free. Its protocol has also been <a href="https://keybase.io/docs-assets/blog/NCC_Group_Keybase_KB2018_Public_Report_2019-02-27_v1.3.pdf">indepedently audited (PDF)</a>. Keybase allows you to share files with any Keybase user, or social media user through the use of "<a href="https://en.wikipedia.org/wiki/Keybase#Identity_proofs">identity proofs</a>". They currently do not offer additional space above your quota.'
+  labels="warning:<a href=//github.com/keybase/client/issues/6374>Warning</a>:This software relies on a closed-source central server."
+  website="https://book.keybase.io/docs/files"
+  privacy-policy="https://keybase.io/docs/privacypolicy"
+  forum="https://forum.privacytools.io/t/discussion-keybase/1224"
+  tor="http://keybase5wmilwokqirssclfnsqrjdsi7jdir5wy7y7iu3tanwmtp6oid.onion/"
+  github="https://github.com/keybase/client/tree/master/go/kbfs"
+  windows="https://keybase.io/docs/the_app/install_windows"
+  mac="https://keybase.io/docs/the_app/install_macos"
+  linux="https://keybase.io/docs/the_app/install_linux"
+  freebsd="https://www.freshports.org/security/keybase/"
+  googleplay="https://play.google.com/store/apps/details?id=io.keybase.ossifrage"
+  ios="https://apps.apple.com/app/keybase-crypto-for-everyone/id1044461770"
+%}
+
 {% include cardv2.html
-title="Nextcloud - Choose your hoster"
-image="/assets/img/svg/3rd-party/nextcloud.svg"
-description="<strong>Nextcloud</strong> is a suite of client-server software for creating your own file hosting services on a private server you control. Nextcloud is free and open-source, and supports end-to-end encryption with many of its clients. The only limits on storage and bandwidth are the limits on the <a href=\"/providers/hosting\">server provider</a> you choose."
-website="https://nextcloud.com/"
-forum="https://forum.privacytools.io/t/discussion-nextcloud/287"
-github="https://github.com/nextcloud"
-windows="https://nextcloud.com/install/#install-clients"
-mac="https://nextcloud.com/install/#install-clients"
-linux="https://nextcloud.com/install/#install-clients"
-freebsd="https://www.freshports.org/www/nextcloud/"
-openbsd="http://openports.se/www/nextcloud"
-netbsd="http://pkgsrc.se/www/php-nextcloud"
-ios="https://itunes.apple.com/us/app/nextcloud/id1125420102?mt=8"
-fdroid="https://f-droid.org/packages/com.nextcloud.client/"
-googleplay="https://play.google.com/store/apps/details?id=com.nextcloud.client"
+  title="Nextcloud - Choose your hoster"
+  image="/assets/img/svg/3rd-party/nextcloud.svg"
+  description="<strong>Nextcloud</strong> is a suite of free and open-source client-server software for creating your own file hosting services on a private server you control. The only limits on storage and bandwidth are the limits on the <a href=\"/providers/hosting\">server provider</a> you choose."
+  labels="warning:<a href=//github.com/nextcloud/end_to_end_encryption/issues/111>Experimental E2EE</a>:Regarding E2EE their description states 'End-to-end encryption is still in alpha state, don't use this in production and only with test data!'."
+  website="https://nextcloud.com/"
+  privacy-policy="https://nextcloud.com/privacy/"
+  forum="https://forum.privacytools.io/t/discussion-nextcloud/287"
+  windows="https://nextcloud.com/install/#install-clients"
+  mac="https://nextcloud.com/install/#install-clients"
+  linux="https://nextcloud.com/install/#install-clients"
+  freebsd="https://www.freshports.org/www/nextcloud/"
+  openbsd="http://openports.se/www/nextcloud"
+  netbsd="http://pkgsrc.se/www/php-nextcloud"
+  fdroid="https://f-droid.org/packages/com.nextcloud.client/"
+  googleplay="https://play.google.com/store/apps/details?id=com.nextcloud.client"
+  ios="https://itunes.apple.com/us/app/nextcloud/id1125420102"
+  github="https://github.com/nextcloud"
 %}
 
 
