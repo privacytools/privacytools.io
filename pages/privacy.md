@@ -7,7 +7,7 @@ description: "This Privacy Statement explains what information PrivacyTools and 
 
 ## Who is {{ site.name }}?
 
-{{ site.name }} is an unincorporated community developing this website and a number of privacy-friendly services. The current list of public team members [can be found on GitHub](https://github.com/orgs/privacytoolsIO/people). In order to operate these services, {{ site.name }} receives hosting and administration services from Aragon Ventures LLC.
+{{ site.name }} is an unincorporated community developing this website and a number of privacy-friendly services. The current list of public team members [can be found on GitHub](https://github.com/orgs/privacytools/people). In order to operate these services, {{ site.name }} receives hosting and administration services from Aragon Ventures LLC.
 
 ## How does {{ site.name }} collect data about me?
 
@@ -120,4 +120,4 @@ This version of our privacy statement took effect October 9th, 2019.
 
 We will post any new versions of this statement at [{{ site.production_url }}/privacy/]({{ site.production_url }}/privacy/). We may change how we announce changes in future versions of this document. In the meantime we may update our contact information at any time without announcing a change. Please refer to [{{ site.production_url }}/privacy/]({{ site.production_url }}/privacy/) for the latest contact information at any time.
 
-A full [revision history](https://github.com/privacytoolsIO/privacytools.io/commits/master/pages/privacy.md) for this page can be found on GitHub.
+A full [revision history](https://github.com/privacytools/privacytools.io/commits/master/pages/privacy.md) for this page can be found on GitHub.
