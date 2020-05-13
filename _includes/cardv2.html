@@ -60,7 +60,7 @@
           {% endfor %}
         {% if link %}
         <a
-          href="{{ link }}" class="badge badge-{{ color }}"
+          href="{{ link }}" class="badge badge-{{ color | default: "info" }}"
           {% if tooltip %}
           data-toggle="tooltip"
           title="{{ tooltip }}"><i class="{{ icon | default: "far fa-question-circle"}}"></i> {{ text }}
@@ -68,7 +68,7 @@
         </a>
         {% else %}
         <span
-          class="badge badge-{{ color }}"
+          class="badge badge-{{ color | default: "info" }}"
           {% if tooltip %}
             data-toggle="tooltip"
             title="{{ tooltip }}"
