@@ -45,7 +45,7 @@
         {% assign label_data = label | split:"::" %}
           {% for label_attr in label_data %}
             {% assign attr = label_attr | split:"==" %}
-            {% if attr[0] == "color" }
+            {% if attr[0] == "color" %}
               {% assign color = attr[1] %}
             {% elsif attr[0] == "link" %}
               {% assign link = attr[1] %}
@@ -57,26 +57,13 @@
               {% assign tooltip = attr[1] %}
             {% endif %}
           {% endfor %}
-        {% if link %}
-        <a
-          href="{{ link }}" class="badge badge-{{ color | default: "info" }}"
-          {% if tooltip %}
-          data-toggle="tooltip"
-          title="{{ tooltip }}"><i class="{{ icon | default: "far fa-question-circle"}}"></i> {{ text }}
-        {% else %}><i class="{{ icon | default: "fas fa-external-link-alt"}}"></i> {{ text }}{% endif %}
-        </a>
-        {% else %}
-        <span
-          class="badge badge-{{ color | default: "info" }}"
-          {% if tooltip %}
-            data-toggle="tooltip"
-            title="{{ tooltip }}"
-            > <i class="{{ icon | default: "far fa-question-circle"}}"> {{text}}
-          {% else %}
-            > {% if icon %}<i class="{{ icon }}"></i>{% endif %} {{text}}
-          {% endif %}
-        </span>
-        {% endif %}
+        {% include badge.html
+          link=link
+          color=color
+          text=text
+          icon=icon
+          tooltip=tooltip
+        %}
       {% endfor %}
       {% endif %}
     </p>
