@@ -46,16 +46,16 @@
         {% assign label_attr = label_data | split:"==" %}
           {% for attr in label_attr %}
             {% assign i = forloop.index %}
-            {% if label_attr == "color" }
-              {% assign color = label_attr[i] %}
-            {% elsif label_attr == "link" %}
-              {% assign link = label_attr[i] %}
-            {% elsif label_attr == "text" %}
-              {% assign text = label_attr[i] %}
-            {% elsif label_attr == "icon" %}
-              {% assign icon = label_attr[i] %}
-            {% elsif label_attr == "tooltip" %}
-              {% assign tooltip = label_attr[i] %}
+            {% if attr == "color" }
+              {% assign color = attr[i] %}
+            {% elsif attr == "link" %}
+              {% assign link = attr[i] %}
+            {% elsif attr == "text" %}
+              {% assign text = attr[i] %}
+            {% elsif attr == "icon" %}
+              {% assign icon = attr[i] %}
+            {% elsif attr == "tooltip" %}
+              {% assign tooltip = attr[i] %}
             {% endif %}
           {% endfor %}
         {% if link %}
