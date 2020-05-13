@@ -43,19 +43,18 @@
       {% assign labels = include.labels | split:"|" %}
       {% for label in labels %}
         {% assign label_data = label | split:"::" %}
-        {% assign label_attr = label_data | split:"==" %}
-          {% for attr in label_attr %}
-            {% assign i = forloop.index %}
-            {% if attr == "color" }
-              {% assign color = attr[i] %}
-            {% elsif attr == "link" %}
-              {% assign link = attr[i] %}
-            {% elsif attr == "text" %}
-              {% assign text = attr[i] %}
-            {% elsif attr == "icon" %}
-              {% assign icon = attr[i] %}
-            {% elsif attr == "tooltip" %}
-              {% assign tooltip = attr[i] %}
+          {% for label_attr in label_data %}
+            {% assign attr = label_attr | split:"==" %}
+            {% if attr[0] == "color" }
+              {% assign color = attr[1] %}
+            {% elsif attr[0] == "link" %}
+              {% assign link = attr[1] %}
+            {% elsif attr[0] == "text" %}
+              {% assign text = attr[1] %}
+            {% elsif attr[0] == "icon" %}
+              {% assign icon = attr[1] %}
+            {% elsif attr[0] == "tooltip" %}
+              {% assign tooltip = attr[1] %}
             {% endif %}
           {% endfor %}
         {% if link %}
