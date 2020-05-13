@@ -41,23 +41,44 @@
       {{ include.description }}
       {% if include.labels %}
       {% assign labels = include.labels | split:"|" %}
-        {% for label in labels %}
-          {% assign label_data = label | split:":" %}
-          {% assign color = label_data[0] %}
-          {% assign text = label_data[1] %}
-          {% assign tooltip = label_data[2] | default: false %}
-          {% assign help_icon = '<i class="far fa-question-circle"></i>' %}
-          <span
-            class="badge badge-{{color}}"
-            {% if tooltip %}
-              data-toggle="tooltip"
-              title="{{ tooltip }}"
-              > {{text}} {{ help_icon }}
-            {% else %}
-              > {{text}}
-            {% endif %}
-          </span>
-        {% endfor %}
+      {% for label in labels %}
+        {% assign label_data = label | split:"::" %}
+        {% assign label_attr = include.label_data | split:"==" %}
+          {% for attr in label_attr %}
+          {% assign i = forloop.index %}
+          {% if label_attr[i] = "color" }
+            {% assign color = label_attr[i+1] %}
+          {% elsif label_attr[i] = "link" %}
+            {% assign link = label_attr[i+1] %}
+          {% elsif label_attr[i] = "text" %}
+            {% assign text = label_attr[i+1] %}
+          {% elsif label_attr[i] = "icon" %}
+            {% assign icon = label_attr[i+1] %}
+          {% elsif label_attr[i] = "tooltip" %}
+            {% assign tooltip = label_attr[i+1] %}
+          {% endif %}
+          {% endfor %}
+        {% if link %}
+        <a
+          href="{{ link }}" class="badge badge-{{ color }}"
+          {% if tooltip %}
+          data-toggle="tooltip"
+          title="{{ tooltip }}"><i class="{{ icon | default: "far fa-question-circle"}}"></i> {{ text }}
+        {% else %}><i class="{{ icon | default: "fas fa-external-link-alt"}}"></i> {{ text }}{% endif %}
+        </a>
+        {% else %}
+        <span
+          class="badge badge-{{ color }}"
+          {% if tooltip %}
+            data-toggle="tooltip"
+            title="{{ tooltip }}"
+            > <i class="{{ icon | default: "far fa-question-circle"}}"> {{text}}
+          {% else %}
+            > {% if icon %}<i class="{{ icon }}"></i>{% endif %} {{text}}
+          {% endif %}
+        </span>
+        {% endif %}
+      {% endfor %}
       {% endif %}
     </p>
     <div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">
