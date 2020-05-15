@@ -1,6 +1,6 @@
 {% if include.link %}
 <a
-  href="{{ link }}" class="badge badge-{{ include.color | default: "info" }}"
+  href="{{ include.link }}" class="badge badge-{{ include.color | default: "info" }}"
   {% if include.tooltip %}
   data-toggle="tooltip"
   title="{{ include.tooltip }}"><i class="{{ include.icon | default: "far fa-question-circle"}}"></i> {{ include.text }}
