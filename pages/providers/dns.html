@@ -13,10 +13,21 @@ breadcrumb: "DNS"
 <ul>
   <li>DNS-over-TLS (DoT) - A security protocol for encrypted DNS on a dedicated port 853. Some providers support port 443 which generally works everywhere while port 853 is often blocked by restrictive firewalls. DoT has two modes:</li>
     <ul>
-        <li>Oppurtunistic mode: the client attempts to form a DNS-over-TLS connection to the server on port 853 without performing certificate validation. If it fails, it will use unencrypted DNS. <span class="badge badge-warning" data-toggle="tooltip" data-original-title="In other words automatic mode leaves your DNS traffic vulnerable to SSL strip and MITM attacks"><i class="fas fa-exclamation-triangle"></i></span></li>
+        <li>Oppurtunistic mode: the client attempts to form a DNS-over-TLS connection to the server on port 853 without performing certificate validation. If it fails, it will use unencrypted DNS.
+        {% include badge.html
+        color="warning"
+        icon="fas fa-exclamation-triangle"
+        tooltip="In other words automatic mode leaves your DNS traffic vulnerable to SSL strip and MITM attacks."
+        %}</li>
         <li>Strict mode: the client connects to a specific hostname and performs certificate validation for it. If it fails, no DNS queries are made until it succeeds.</li>
     </ul>
-  <li>DNS-over-HTTPS (DoH) - Similar to DoT, but uses HTTPS instead, being indistinguishable from "normal" HTTPS traffic on port 443. <span class="badge badge-warning" data-toggle="tooltip" data-original-title="DoH contains metadata such as user-agent (which may include system information) that is sent to the DNS server."><a href="https://tools.ietf.org/html/rfc8484#section-8.2"><i class="fas fa-exclamation-triangle"></i></a></span></li>
+  <li>DNS-over-HTTPS (DoH) - Similar to DoT, but uses HTTPS instead, being indistinguishable from "normal" HTTPS traffic on port 443.
+    {% include badge.html
+    color="warning"
+    icon="fas fa-exclamation-triangle"
+    link="https://tools.ietf.org/html/rfc8484#section-8.2"
+    tooltip="DoH contains metadata such as user-agent (which may include system information) that is sent to the DNS server."
+    %}</li>
   <li>DNSCrypt - An older yet robust method of encrypting DNS.</li>
 </ul>
 
@@ -25,9 +36,20 @@ breadcrumb: "DNS"
 <ul>
   <li>DoH / DoT
     <ul>
-      <li>Check <a href="https://www.dnsleaktest.com/">DNSLeakTest.com</a>. <span class="badge badge-warning" data-toggle="tooltip" data-placement="bottom" data-original-title="Your DNS provider may not appear with their own name, so compare the responses to what you know or can find about your DNS provider. Just ensure you don't see your ISP or old unencrypted DNS provider."><i class="fas fa-exclamation-triangle"></i></span></li>
+      <li>Check <a href="https://www.dnsleaktest.com/">DNSLeakTest.com</a>.
+        {% include badge.html
+        color="warning"
+        icon="fas fa-exclamation-triangle"
+        tooltip="Your DNS provider may not appear with their own name, so compare the responses to what you know or can find about your DNS provider. Just ensure you don't see your ISP or old unencrypted DNS provider."
+        %}</li>
       <li>Check the website of your DNS provider. They may have a page for telling "you are using our DNS." Examples include <a href="https://adguard.com/en/adguard-dns/overview.html">AdGuard</a> and <a href="https://1.1.1.1/help">Cloudflare</a>.</li>
-      <li>If using Firefox's trusted recursive resolver (TRR), navigate to <code>about:networking#dns</code>. If the TRR column says "true" for some fields, you are using DoH. <span class="badge badge-warning" data-toggle="tooltip" data-placement="bottom" data-original-title='Some fields will say "false" depending on the the value of network.trr.mode in about:config'><a href="https://wiki.mozilla.org/Trusted_Recursive_Resolver"><i class="fas fa-exclamation-triangle"></i></a></span></li>
+      <li>If using Firefox's trusted recursive resolver (TRR), navigate to <code>about:networking#dns</code>. If the TRR column says "true" for some fields, you are using DoH.
+        {% include badge.html
+        color="warning"
+        icon="fas fa-exclamation-triangle"
+        link="https://wiki.mozilla.org/Trusted_Recursive_Resolver"
+        tooltip="Some fields will say 'false' depending on the the value of network.trr.mode in about:config"
+        %}</li>
     </ul>
   </li>
   <li>dnscrypt-proxy - Check <a href="https://github.com/jedisct1/dnscrypt-proxy/wiki/Checking">dnscrypt-proxy's wiki on how to verify that your DNS is encrypted</a>.</li>
@@ -40,7 +62,14 @@ breadcrumb: "DNS"
 <ul>
   <li><strong>Encrypted DNS clients for desktop:</strong>
     <ul>
-      <li><em>Firefox</em> comes with built-in DoH support with Cloudflare set as the default resolver, but can be configured to use any DoH resolver. <span class="badge badge-warning" data-toggle="tooltip" data-placement="bottom" data-original-title='"Cloudflare has agreed to collect only a limited amount of data about the DNS requests that are sent to the Cloudflare Resolver for Firefox via the Firefox browser."'><a href="https://developers.cloudflare.com/1.1.1.1/commitment-to-privacy/privacy-policy/firefox/"><i class="fas fa-exclamation-triangle"></i></a></span> Currently Mozilla is <a href="https://blog.mozilla.org/futurereleases/2019/07/31/dns-over-https-doh-update-detecting-managed-networks-and-user-choice/">conducting studies</a> before enabling DoH by default for all US-based Firefox users.</li>
+      <li><em>Firefox</em> comes with built-in DoH support with Cloudflare set as the default resolver, but can be configured to use any DoH resolver.
+        {% include badge.html
+        color="warning"
+        icon="fas fa-exclamation-triangle"
+        link="https://developers.cloudflare.com/1.1.1.1/commitment-to-privacy/privacy-policy/firefox/"
+        tooltip="&quot;Cloudflare has agreed to collect only a limited amount of data about the DNS requests that are sent to the Cloudflare Resolver for Firefox via the Firefox browser.&quot;"
+        %}
+        Currently Mozilla is <a href="https://blog.mozilla.org/futurereleases/2019/07/31/dns-over-https-doh-update-detecting-managed-networks-and-user-choice/">conducting studies</a> before enabling DoH by default for all US-based Firefox users.</li>
           <ul>
               <li>DNS over HTTPS can be enabled in Menu -> Preferences (<code>about:preferences</code>) -> Network Settings -> Enable DNS over HTTPS. Set "Use Provider" to "Custom", and enter your DoH provider's address.</li>
               <li>Advanced users may enable it in <code>about:config</code> by setting <code>network.trr.custom_uri</code> and <code>network.trr.uri</code> as the address you find from the documentation of your DoH provider and <code>network.trr.mode</code> as <code>2</code>. It may also be desirable to set <code>network.security.esni.enabled</code> to <code>True</code> in order to enable encrypted SNI and make sites supporting ESNI a bit more difficult to track.</li>
@@ -49,9 +78,20 @@ breadcrumb: "DNS"
   </li>
   <li><strong>Encrypted DNS clients for mobile:</strong>
     <ul>
-      <li><em>Android 9</em> comes with a DoT client by <a href="https://support.google.com/android/answer/9089903">default</a>. <span class="badge badge-warning" data-toggle="tooltip" data-original-title="...but with some caveats"><a href="https://www.quad9.net/private-dns-quad9-android9/"><i class="fas fa-exclamation-triangle"></i></a></span></li>
+      <li><em>Android 9</em> comes with a DoT client by <a href="https://support.google.com/android/answer/9089903">default</a>.
+        {% include badge.html
+        color="warning"
+        icon="fas fa-exclamation-triangle"
+        link="https://www.quad9.net/private-dns-quad9-android9/"
+        tooltip="...but with some caveats"
+        %}</li>
         <ul>
-          <li>We recommend selecting <em>Private DNS provider hostname</em> and entering the DoT address from documentation of your DoT provider to enable strict mode (see Terms above). <span class="badge badge-warning" data-toggle="tooltip" data-original-title="If you are on a network blocking access to port 853, Android will error about the network not having internet connectivity."><i class="fas fa-exclamation-triangle"></i></span></li>
+          <li>We recommend selecting <em>Private DNS provider hostname</em> and entering the DoT address from documentation of your DoT provider to enable strict mode (see Terms above).
+            {% include badge.html
+            color="warning"
+            icon="fas fa-exclamation-triangle"
+            tooltip="If you are on a network blocking access to port 853, Android will error about the network not having internet connectivity."
+            %}</li>
         </ul>
       <li><em><a href="https://apps.apple.com/app/id1452162351">DNSCloak</a></em> - An <a href="https://github.com/s-s/dnscloak">open-source</a> DNSCrypt and DoH client for iOS by <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"A charitable non-profit host organization for international Free Software projects."' href="https://techcultivation.org/">the Center for the Cultivation of Technology gemeinnuetzige GmbH</a>.</li>
       <li><em><a href="https://git.frostnerd.com/PublicAndroidApps/smokescreen/blob/master/README.md">Nebulo</a></em> - An open-source application for Android supporting DoH and DoT. It also supports caching DNS responses and locally logging DNS queries.</li>

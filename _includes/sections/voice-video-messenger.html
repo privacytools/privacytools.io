@@ -39,17 +39,24 @@ ios="https://apps.apple.com/us/app/mumble/id443472808?ls=1"
 <ul>
   <li>
     <a href="https://jitsi.org/jitsi-meet/">Jitsi Meet</a> - Jitsi Meet is a free and open-source multiplatform voice (VoIP), video conferencing, and instant messaging application.
-    <span class="badge badge-warning"
-      data-toggle="tooltip"
-      title="Our Firefox tweaks recommend disabling WebRTC as it can be used to leak your IP address even behind a VPN, which is why Tor Browser disables it.">Requires WebRTC
-    </span>
-    <span class="badge badge-warning">
-      <a href="https://jitsi.org/security">Multiparty meetings are not E2EE</a>
-    </span>
+
+    {% include badge.html
+    color="warning"
+    icon="fas fa-exclamation-triangle"
+    text="Requires WebRTC"
+    tooltip="Our Firefox tweaks recommend disabling WebRTC as it can be used to leak your IP address even behind a VPN, which is why Tor Browser disables it."
+    %}
+
+    {% include badge.html
+    color="warning"
+    icon="fas fa-exclamation-triangle"
+    link="https://jitsi.org/security"
+    text="Multiparty meetings are not E2EE"
+    %}
+
     See also <a href="https://github.com/jitsi/jitsi-meet/wiki/Jitsi-Meet-Instances">list of public Jitsi Meet instances</a>.
   </li>
 </ul>
-
 <h3>Related Information</h3>
 
 <ul>
