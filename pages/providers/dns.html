@@ -18,8 +18,8 @@ breadcrumb: "DNS"
   include cardv2.html
   title="Firefox's built-in DNS-over-HTTPS resolver"
   image="/assets/img/svg/3rd-party/firefox_browser.svg"
-  description='Firefox comes with built-in DoH support with Cloudflare set as the default resolver, but can be configured to use any DoH resolver.'
-  labels="warning:<a href=//developers.cloudflare.com/1.1.1.1/privacy/firefox>Warning</a>:Cloudflare has agreed to collect only a limited amount of data about the DNS requests that are sent to the Cloudflare Resolver for Firefox via the Firefox browser."
+  description='Firefox comes with built-in DNS-over-HTTPS support with <a href="https://blog.mozilla.org/blog/2020/02/25/firefox-continues-push-to-bring-dns-over-https-by-default-for-us-users/">NextDNS and Cloudflare</a> set as the default resolver, but can be configured to use any DNS-over-HTTPS resolver.'
+  labels="color==warning::icon==fas fa-exclamation-triangle::link==https://developers.cloudflare.com/1.1.1.1/privacy/firefox::text==Warning::tooltip==Cloudflare has agreed to collect only a limited amount of data about the DNS requests that are sent to the Cloudflare Resolver for Firefox via the Firefox browser."
   website="//support.mozilla.org/en-US/kb/firefox-dns-over-https#w_about-dns-over-https"
   privacy-policy="//wiki.mozilla.org/Security/DOH-resolver-policy"
   forum="TBD"
@@ -56,14 +56,14 @@ breadcrumb: "DNS"
   title="Android 9's built-in DNS-over-TLS resolver"
   image=""
   description='Android 9 (Pie) comes with built-in DNS-over-TLS support.'
-  labels="warning:<a href=//android-developers.googleblog.com/2018/04/dns-over-tls-support-in-android-p.html>Warning</a>:However, apps that perform their own DNS queries, instead of using the system's APIs, must ensure that they do not send insecure DNS queries when the system has a secure connection."
+  labels="color==warning::icon==fas fa-exclamation-triangle::link==https://android-developers.googleblog.com/2018/04/dns-over-tls-support-in-android-p.html::text==Warning::tooltip==However, apps that perform their own DNS queries, instead of using the system's APIs, must ensure that they do not send insecure DNS queries when the system has a secure connection."
 %}
 
 {%
   include cardv2.html
   title="Nebulo"
   image="/assets/img/png/3rd-party/nebulo.png"
-  description='An open-source application for Android supporting DNS-over-HTTPS and DNS-over-TLS. It also supports caching DNS responses and locally logging DNS queries.'
+  description='An open-source application for Android supporting DNS-over-HTTPS and DNS-over-TLS, caching DNS responses, and locally logging DNS queries.'
   website="//git.frostnerd.com/PublicAndroidApps/smokescreen/-/blob/master/README.md"
   privacy-policy="//smokescreen.app/privacypolicy"
   forum="TBD"
@@ -82,11 +82,11 @@ breadcrumb: "DNS"
   include cardv2.html
   title="DNSCloak"
   image="/assets/img/png/3rd-party/dnscloak.png"
-  description='An open-source DNSCrypt and DNS-over-HTTPS client by <a data-toggle="tooltip" data-placement="bottom" data-original-title="A charitable non-profit host organization for international Free Software projects." href="//techcultivation.org/">the Center for the Cultivation of Technology gemeinnuetzige GmbH</a>. Can be described as <a href="//github.com/DNSCrypt/dnscrypt-proxy">dnscrypt-proxy</a> for iOS.'
+  description='An open-source <a href="//github.com/DNSCrypt/dnscrypt-proxy">dnscrypt-proxy</a> client by <a data-toggle="tooltip" data-placement="bottom" data-original-title="A charitable non-profit host organization for international Free Software projects." href="//techcultivation.org/">the Center for the Cultivation of Technology gemeinnuetzige GmbH</a>, supporting DNSCrypt and DNS-over-HTTPS.'
   website="https://github.com/s-s/dnscloak/blob/master/README.md"
-  privacy-policy="//drive.google.com/file/d/1050No_pU74CAWUS5-BwQWyO2x_aiMzWc/view"
+  privacy-policy="https://drive.google.com/file/d/1050No_pU74CAWUS5-BwQWyO2x_aiMzWc/view"
   ios="https://apps.apple.com/app/id1452162351"
-  github="//github.com/s-s/dnscloak"
+  github="https://github.com/s-s/dnscloak"
 %}
 
 <h2 id="dns-further-reading">Further Reading</h2>

@@ -1,9 +1,9 @@
 # Editorial Team
-*.md @privacytoolsIO/editorial
-/assets/ @privacytoolsIO/editorial
-/pages/ @privacytoolsIO/editorial
-/_includes/sections/ @privacytoolsIO/editorial
-/index.html @privacytoolsIO/editorial
+*.md @privacytools/editorial
+/assets/ @privacytools/editorial
+/pages/ @privacytools/editorial
+/_includes/sections/ @privacytools/editorial
+/index.html @privacytools/editorial
 /font/ @dawidpotocki
 
 # Administration Related Files

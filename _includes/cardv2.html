@@ -41,23 +41,35 @@
       {{ include.description }}
       {% if include.labels %}
       {% assign labels = include.labels | split:"|" %}
-        {% for label in labels %}
-          {% assign label_data = label | split:":" %}
-          {% assign color = label_data[0] %}
-          {% assign text = label_data[1] %}
-          {% assign tooltip = label_data[2] | default: false %}
-          {% assign help_icon = '<i class="far fa-question-circle"></i>' %}
-          <span
-            class="badge badge-{{color}}"
-            {% if tooltip %}
-              data-toggle="tooltip"
-              title="{{ tooltip }}"
-              > {{text}} {{ help_icon }}
-            {% else %}
-              > {{text}}
+      {% for label in labels %}
+        {% assign label_data = label | split:"::" %}
+          {% for label_attr in label_data %}
+            {% assign attr = label_attr | split:"==" %}
+            {% if attr[0] == "color" %}
+              {% assign color = attr[1] %}
+            {% elsif attr[0] == "link" %}
+              {% assign link = attr[1] %}
+            {% elsif attr[0] == "text" %}
+              {% assign text = attr[1] %}
+            {% elsif attr[0] == "icon" %}
+              {% assign icon = attr[1] %}
+            {% elsif attr[0] == "tooltip" %}
+              {% assign tooltip = attr[1] %}
             {% endif %}
-          </span>
-        {% endfor %}
+          {% endfor %}
+        {% include badge.html
+          link=link
+          color=color
+          text=text
+          icon=icon
+          tooltip=tooltip
+        %}
+        {% assign color = nil %}
+        {% assign link = nil %}
+        {% assign text = nil %}
+        {% assign icon = nil %}
+        {% assign tooltip = nil %}
+      {% endfor %}
       {% endif %}
     </p>
     <div class="d-flex justify-content-between flex-column flex-md-row align-items-start align-items-md-center">

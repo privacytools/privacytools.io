@@ -122,7 +122,12 @@
           </span>
           <span class="no-text-wrap">
             malicious domains
-            <span class="badge badge-warning" data-toggle="tooltip" data-original-title="And some wildcard and IDN domains."><a href="https://github.com/ookangzheng/blahdns#default-blocked-wildcard-domain"><i class="fas fa-exclamation-triangle"></i></a></span>
+            {% include badge.html
+            link="https://github.com/ookangzheng/blahdns#default-blocked-wildcard-domain"
+            color="warning"
+            icon="fas fa-exclamation-triangle"
+            tooltip="And some wildcard and IDN domains."
+            %}
           </span>
         </td>
         <td>
@@ -147,7 +152,13 @@
 
       <tr>
         <td data-value="Cloudflare">
-          <a href="https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/">Cloudflare</a> <span class="badge badge-warning" data-toggle="tooltip" title="Cloudflare is one of the world's largest networks, and a problem considering anonymity and decentralization."><a href="https://codeberg.org/crimeflare/cloudflare-tor/"><i class="fas fa-exclamation-triangle"></i></a></span>
+          <a href="https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/">Cloudflare</a>
+          {% include badge.html
+          link="https://codeberg.org/crimeflare/cloudflare-tor/"
+          color="warning"
+          icon="fas fa-exclamation-triangle"
+          tooltip="Cloudflare is one of the world's largest networks, and a problem considering anonymity and decentralization."
+          %}
         </td>
         <td>Anycast (based in
           <span class="no-text-wrap">
@@ -365,7 +376,12 @@
 
       <tr>
         <td data-value="Quad9">
-          <a href="https://quad9.net/">Quad9</a> <span class="badge badge-warning" data-toggle="tooltip" title="Founders include the Global Cyber Alliance, composed of the City of London Police and Manhattan District Attorney's Office"><i class="fas fa-exclamation-triangle"></i></span>
+          <a href="https://quad9.net/">Quad9</a>
+          {% include badge.html
+          color="warning"
+          icon="fas fa-exclamation-triangle"
+          tooltip="Founders include the Global Cyber Alliance, composed of the City of London Police and Manhattan District Attorney's Office."
+          %}
         </td>
         <td>Anycast (based in
           <span class="no-text-wrap">

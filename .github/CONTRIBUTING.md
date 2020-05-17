@@ -25,7 +25,7 @@ Please read this document in full before contributing.
 - Be constructive.
 - Please feel free to *review changes* in the *files changed* tab of any
   pull request at any time.
-- See also our [Code of Conduct](https://github.com/privacytoolsIO/.github/blob/master/CODE_OF_CONDUCT.md)
+- See also our [Code of Conduct](https://github.com/privacytools/.github/blob/master/CODE_OF_CONDUCT.md)
 
 ## Quality over Quantity
 
@@ -96,8 +96,8 @@ See https://www.privacytools.io/providers/vpn/#criteria for more details.
 ## Images
 
 - SVG file format is strongly preferred. PNG files can be used as a fallback if images are too complex or otherwise unsuitable as a vector format.
-- Provider logo dimensions are 384px x 128px ([example](https://github.com/privacytoolsIO/privacytools.io/blob/master/assets/img/svg/3rd-party/mullvad.svg))
-- Tool logo dimensions are 120px x 120px ([SVG example](https://github.com/privacytoolsIO/privacytools.io/blob/master/assets/img/svg/3rd-party/firefox_browser.svg), [PNG example](https://github.com/privacytoolsIO/privacytools.io/blob/master/assets/img/png/3rd-party/claws_mail.png))
+- Provider logo dimensions are 384px x 128px ([example](https://github.com/privacytools/privacytools.io/blob/master/assets/img/svg/3rd-party/mullvad.svg))
+- Tool logo dimensions are 120px x 120px ([SVG example](https://github.com/privacytools/privacytools.io/blob/master/assets/img/svg/3rd-party/firefox_browser.svg), [PNG example](https://github.com/privacytools/privacytools.io/blob/master/assets/img/png/3rd-party/claws_mail.png))
 
 ## Licensing
 
@@ -111,4 +111,4 @@ If you do not have a GitHub account, you may submit software recommendations or 
 
 This repository uses [@fire-bot](https://github.com/fire-bot), [a service](https://fire.fundersclub.com) from FundersClub that converts incoming emails to GitHub issues. By sending a message to the email address above, you will be sharing your email address and message content with FundersClub. FundersClub has a privacy policy at [https://fundersclub.com/catalyst-privacy-policy/](https://fundersclub.com/catalyst-privacy-policy/) you should review before using this service. Any attachments you send via this service may be stored indefinitely by FundersClub for the purpose of making them available within the submitted GitHub issue.
 
-You can view an example of the created issues' format at [#1444](https://github.com/privacytoolsIO/privacytools.io/issues/1444).
+You can view an example of the created issues' format at [#1444](https://github.com/privacytools/privacytools.io/issues/1444).

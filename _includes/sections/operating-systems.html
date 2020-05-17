@@ -7,44 +7,80 @@
 {% include cardv2.html
 title="Qubes OS"
 image="/assets/img/svg/3rd-party/qubes_os.svg"
-description='Qubes is an open-source operating system designed to provide strong security for desktop computing. Qubes is based on Xen, the X Window System, and Linux, and can run most Linux applications and utilize most of the Linux drivers.'
-badges="info:Xen"
-labels="warning:contrib:This software may depend on or recommend non-free software."
-website="https://www.qubes-os.org/"
-privacy-policy="https://www.qubes-os.org/privacy/"
-github="https://github.com/QubesOS"
-tor="http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion/"
+  description='Qubes is an open-source operating system designed to provide strong security for desktop computing. Qubes is based on Xen, the X Window System, and Linux, and can run most Linux applications and utilize most of the Linux drivers.'
+  badges="info:Xen"
+  labels="color==warning::text==contrib::tooltip==This software may depend on or recommend non-free software."
+  website="https://www.qubes-os.org/"
+  privacy-policy="https://www.qubes-os.org/privacy/"
+  github="https://github.com/QubesOS"
+  tor="http://qubesosfasa4zl44o4tws22di6kepyzfeqv3tg4e3ztknltfxqrymdad.onion/"
 %}
 
 {% include cardv2.html
-title="Fedora Workstation"
-image="/assets/img/svg/3rd-party/fedora.svg"
-description='Fedora is a Linux distribution developed by the Fedora Project and sponsored by Red Hat. Fedora Workstation is a secure, reliable, and user-friendly edition developed for desktops and laptops, using GNOME as the default desktop environment.'
-badges="info:GNU/Linux"
-labels="warning:contrib:This software may depend on or recommend non-free software."
-website="https://getfedora.org/"
-privacy-policy="https://fedoraproject.org/wiki/Legal:PrivacyPolicy?rd=Legal/PrivacyPolicy"
-git="https://src.fedoraproject.org/"
+  title="Fedora Workstation"
+  image="/assets/img/svg/3rd-party/fedora.svg"
+  description='Fedora is a Linux distribution developed by the Fedora Project and sponsored by Red Hat. Fedora Workstation is a secure, reliable, and user-friendly edition developed for desktops and laptops, using GNOME as the default desktop environment.'
+  badges="info:GNU/Linux"
+  labels="color==warning::text==contrib::tooltip==This software may depend on or recommend non-free software."
+  website="https://getfedora.org/"
+  privacy-policy="https://fedoraproject.org/wiki/Legal:PrivacyPolicy?rd=Legal/PrivacyPolicy"
+  git="https://src.fedoraproject.org/"
 %}
 
 {% include cardv2.html
-title="Debian"
-image="/assets/img/svg/3rd-party/debian.svg"
-description='Debian is a Unix-like computer operating system and a Linux distribution that is composed entirely of free and open-source software, most of which is under the GNU General Public License, and packaged by a group of individuals known as the Debian project.'
-badges="info:GNU/Linux"
-website="https://www.debian.org/"
-privacy-policy="https://www.debian.org/legal/privacy"
-tor="http://sejnfjrq6szgca7v.onion"
-gitlab="https://salsa.debian.org/qa/debsources"
+  title="Debian"
+  image="/assets/img/svg/3rd-party/debian.svg"
+  description='Debian is a Unix-like computer operating system and a Linux distribution that is composed entirely of free and open-source software, most of which is under the GNU General Public License, and packaged by a group of individuals known as the Debian project.'
+  badges="info:GNU/Linux"
+  website="https://www.debian.org/"
+  privacy-policy="https://www.debian.org/legal/privacy"
+  tor="http://sejnfjrq6szgca7v.onion"
+  gitlab="https://salsa.debian.org/qa/debsources"
 %}
 
 <h3>Worth Mentioning</h3>
 
 <ul>
-  <li><a href="https://www.openbsd.org/">OpenBSD</a> <span class="badge badge-info">BSD</span> - A project that produces a free, multi-platform 4.4BSD-based UNIX-like operating system. Emphasizes portability, standardization, correctness, proactive security and integrated cryptography.</li>
-  <li><a href="https://www.archlinux.org/">Arch Linux</a> <span class="badge badge-info">GNU/Linux</span> <span class="badge badge-warning" data-toggle="tooltip" title="This software may depend on or recommend non-free software.">contrib <i class="far fa-question-circle"></i></span> - A simple, lightweight Linux distribution. It is composed predominantly of free and open-source software, and supports community involvement. <a href="https://www.parabola.nu/">Parabola</a> is a
-    completely open source version of Arch Linux.</li>
-  <li><a href="https://trisquel.info/">Trisquel</a> <span class="badge badge-info">GNU/Linux</span> - Derived from Ubuntu, this project aims for a fully free software system without proprietary software or firmware and uses Linux-libre, a version of the Linux kernel with the non-free code (binary blobs) removed.</li>
-  <li><a href="https://www.whonix.org/">Whonix</a> <span class="badge badge-info">GNU/Linux</span> - A Debian-based security-focused Linux distribution. It aims to provide privacy, security and anonymity on the internet. The operating system consists of two virtual machines, a "Workstation"
-    and a Tor "Gateway". All communication are forced through the Tor network to accomplish this.</li>
+  <li><a href="https://www.openbsd.org/">OpenBSD</a>
+    {% include badge.html
+    color="info"
+    text="BSD"
+    %}
+    - A project that produces a free, multi-platform 4.4BSD-based UNIX-like operating system. Emphasizes portability, standardization, correctness, proactive security and integrated cryptography.
+  </li>
+
+  <li>
+    <a href="https://www.archlinux.org/">Arch Linux</a>
+    {% include badge.html
+    color="info"
+    text="GNU/Linux"
+    %}
+    {% include badge.html
+    color="warning"
+    icon="far fa-question-circle"
+    text="contrib"
+    tooltip="This software may depend on or recommend non-free software."
+    %}
+    - A simple, lightweight Linux distribution. It is composed predominantly of free and open-source software, and supports community involvement. <a href="https://www.parabola.nu/">Parabola</a> is a
+    completely open source version of Arch Linux.
+  </li>
+
+  <li>
+    <a href="https://trisquel.info/">Trisquel</a>
+    {% include badge.html
+    color="info"
+    text="GNU/Linux"
+    %}
+    - Derived from Ubuntu, this project aims for a fully free software system without proprietary software or firmware and uses Linux-libre, a version of the Linux kernel with the non-free code (binary blobs) removed.
+  </li>
+
+  <li>
+    <a href="https://www.whonix.org/">Whonix</a>
+    {% include badge.html
+    color="info"
+    text="GNU/Linux"
+    %}
+    - A Debian-based security-focused Linux distribution. It aims to provide privacy, security and anonymity on the internet. The operating system consists of two virtual machines, a "Workstation"
+    and a Tor "Gateway". All communication are forced through the Tor network to accomplish this.
+  </li>
 </ul>

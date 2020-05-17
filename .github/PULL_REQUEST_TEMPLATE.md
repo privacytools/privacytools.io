@@ -1,4 +1,4 @@
-<!-- PLEASE READ OUR CODE OF CONDUCT (https://wiki.privacytools.io/view/PrivacyTools:Code_of_Conduct) AND CONTRIBUTING GUIDELINES (https://github.com/privacytoolsIO/privacytools.io/blob/master/.github/CONTRIBUTING.md) BEFORE SUBMITTING -->
+<!-- PLEASE READ OUR CODE OF CONDUCT (https://wiki.privacytools.io/view/PrivacyTools:Code_of_Conduct) AND CONTRIBUTING GUIDELINES (https://github.com/privacytools/privacytools.io/blob/master/.github/CONTRIBUTING.md) BEFORE SUBMITTING -->
 
 ## Description
 
@@ -8,7 +8,7 @@ Resolves: #none <!-- A link to the (discussion) issue resolved by this pull requ
 
 - [ ] I understand that by not opening an issue about a software/service/similar addition/removal, this pull request will be closed without merging.
 
-- [ ] I have read and understand [the contributing guidelines](https://github.com/privacytoolsIO/privacytools.io/blob/master/.github/CONTRIBUTING.md).
+- [ ] I have read and understand [the contributing guidelines](https://github.com/privacytools/privacytools.io/blob/master/.github/CONTRIBUTING.md).
 
 - [ ] The project is [Free Libre](https://en.wikipedia.org/wiki/Free_software) and/or [Open Source](https://en.wikipedia.org/wiki/Open-source_software) Software
 
