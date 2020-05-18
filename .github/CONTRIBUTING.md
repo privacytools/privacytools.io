@@ -69,9 +69,27 @@ See https://www.privacytools.io/providers/vpn/#criteria for more details.
 
 ### Email
 
-- Outside of USA
-- Support SMTP SSL
-- Accessible Using Open Source Software (e.g. allows IMAP)
+- Operating outside the USA or other Five Eyes countries.
+- Encrypts account data at rest.
+- Integrated webmail encryption provides convenience to users who want improve on having no E2EE encryption.
+- Protect sender's IP address. Filter it from showing in the Received header field.
+- Don't require personally identifiable information (PII) besides username and password.
+- Privacy policy that meets the requirements defined by the GDPR
+- Protection of webmail with two-factor authentication (2FA), such as TOTP.
+- DNSSEC support.
+- No TLS errors/vulnerabilities when being profiled by tools such as Hardenize, testssl.sh or Qualys SSL Labs
+- A valid MTA-STS and TLS-RPT policy.
+- Valid DANE records.
+- Valid SPF, DKIM and DMARC, with the policy p value set to either none, quarantine or reject.
+- A server suite preference of TLS 1.2 or later and a plan for Deprecating TLSv1.0 and TLSv1.1.
+- SMTPS submission, assuming SMTP is used.
+- Website security standards such as:
+  HTTP Strict Transport Security
+  Subresource Integrity if loading things from external domains.
+- Public-facing leadership or ownership.
+- Must self host analytics (no Google Analytics etc) along with compling with DNT (Do Not Track).
+- No claims of 'anonymity 100%' or 'unbreakable encryption'
+
 
 ### Hardware
 
