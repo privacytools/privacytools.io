@@ -11,7 +11,11 @@
 </ul>
 
 <div class="alert alert-warning" role="alert">
-  <strong>Note: Using a DNS-over-HTTPS, DNS-over-TLS, or DNSCrypt resolver will not make you anonymous, nor hide your internet traffic from your Internet Service Provider. But, it will prevent DNS hijacking, and make your DNS requests harder for third parties to eavesdrop on and tamper with. If you are currently using Google's DNS resolver, you should pick an alternative here.</strong>
+  Using a DNS-over-HTTPS, DNS-over-TLS, or DNSCrypt resolver will not make you anonymous, nor hide your internet traffic from your Internet Service Provider. But, it will prevent DNS hijacking, and make your DNS requests harder for third parties to eavesdrop on and tamper with. If you are currently using Google's DNS resolver, you should pick an alternative here.
+</div>
+
+<div class="alert alert-success" role="alert">
+  <a href="https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS">Anonymized DNS</a> is a lightweight protocol that hides the client IP address by using pre-configured relays to forward encrypted DNS data. Keep in mind this is a relatively new protocol currently only supported by <a href="#dns-desktop-clients">dnscrypt-proxy</a> and a limited number of <a href="https://github.com/DNSCrypt/dnscrypt-resolvers/blob/master/v2/relays.md">relays</a>.
 </div>
 
 <div class="table-responsive">
@@ -175,7 +179,11 @@
         <td>DoH, DoT</td>
         <td>Yes</td>
         <td>Yes</td>
-        <td>No</td>
+        <td>
+          <span class="no-text-wrap">
+            Based on server choice
+          </span>
+        </td>
         <td>?</td>
         <td>Self</td>
       </tr>
