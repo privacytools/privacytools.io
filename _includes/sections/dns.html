@@ -2,23 +2,33 @@
   <a href="#dns"><i class="fas fa-link anchor-icon"></i></a> Encrypted DNS Resolvers
 </h1>
 
-<h4>Terms</h4>
+<h3 id="dns-terms">Terms</h3>
 
-<ul>
-  <li><strong>DNS-over-TLS (DoT)</strong> - A security protocol for encrypted DNS on a dedicated port 853. Some providers support port 443 which generally works everywhere while port 853 is often blocked by restrictive firewalls.
-  <li><strong>DNS-over-HTTPS (DoH)</strong> - Similar to DoT, but uses HTTPS instead, being indistinguishable from "normal" HTTPS traffic on port 443. <span class="badge badge-warning" data-toggle="tooltip" data-original-title="DoH contains metadata such as user-agent (which may include system information) that is sent to the DNS server."><a href="https://tools.ietf.org/html/rfc8484#section-8.2"><i class="fas fa-exclamation-triangle"></i></a></span></li>
-  <li><strong>DNSCrypt</strong> - An older yet robust method of encrypting DNS.</li>
-</ul>
+<h4>DNS-over-TLS (DoT)</h4>
+<p>
+  A security protocol for encrypted DNS on a dedicated port 853. Some providers support port 443 which generally works everywhere while port 853 is often blocked by restrictive firewalls.
+</p>
+
+<h4>DNS-over-HTTPS (DoH)</h4>
+<p>
+  Similar to DoT, but uses HTTPS instead, being indistinguishable from "normal" HTTPS traffic on port 443 and more difficult to block. {% include badge.html color="warning" text="Warning" tooltip="DoH contains metadata such as user-agent (which may include system information) that is sent to the DNS server." link="https://tools.ietf.org/html/rfc8484#section-8.2" icon="fas fa-exclamation-triangle" %}
+</p>
+
+<h4>DNSCrypt</h4>
+<p>
+  With an <a href="https://dnscrypt.info/protocol/">open specification</a>, DNSCrypt is an older, yet robust method for encrypting DNS.
+</p>
+
+<h4>Anonymized DNSCrypt</h4>
+<p>
+  A <a href="https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS">lightweight protocol</a> that hides the client IP address by using pre-configured relays to forward encrypted DNS data. This is a relatively new protocol created in 2019 currently only supported by <a href="#dns-desktop-clients">dnscrypt-proxy</a> and a limited number of <a href="https://github.com/DNSCrypt/dnscrypt-resolvers/blob/master/v2/relays.md">relays</a>.
+</p>
 
 <div class="alert alert-warning" role="alert">
-  Using a DNS-over-HTTPS, DNS-over-TLS, or DNSCrypt resolver will not make you anonymous, nor hide your internet traffic from your Internet Service Provider. But, it will prevent DNS hijacking, and make your DNS requests harder for third parties to eavesdrop on and tamper with. If you are currently using Google's DNS resolver, you should pick an alternative here.
+  DNS-over-HTTPS, DNS-over-TLS, and DNSCrypt resolvers will not make you anonymous. Using Anonymized DNSCrypt hides <i>only</i> your DNS traffic from your Internet Service Provider. However, using any of these protocols will prevent DNS hijacking, and make your DNS requests harder for third parties to eavesdrop on and tamper with. If you are currently using Google's DNS resolver, you should pick an alternative here.
 </div>
 
-<div class="alert alert-success" role="alert">
-  <a href="https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS">Anonymized DNS</a> is a lightweight protocol that hides the client IP address by using pre-configured relays to forward encrypted DNS data. Keep in mind this is a relatively new protocol currently only supported by <a href="#dns-desktop-clients">dnscrypt-proxy</a> and a limited number of <a href="https://github.com/DNSCrypt/dnscrypt-resolvers/blob/master/v2/relays.md">relays</a>.
-</div>
-
-<div class="table-responsive">
+<div id="dns-table" class="table-responsive">
   <table class="table sortable-theme-bootstrap" data-sortable>
     <thead>
       <tr>
