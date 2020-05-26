@@ -9,8 +9,8 @@
   <div class="row mb-2">
     <div class="col-lg-3 col-sm-12 pt-lg-5">
       <img
-        src="/assets/img/svg/3rd-party/mullvad.svg"
-        data-theme-src="/assets/img/svg/3rd-party/mullvad-dark.svg"
+        src="{% if jekyll.environment == "production" and site.pull_cdn %}{{site.pull_cdn}}{% endif %}/assets/img/svg/3rd-party/mullvad.svg"
+        data-theme-src="{% if jekyll.environment == "production" and site.pull_cdn %}{{site.pull_cdn}}{% endif %}/assets/img/svg/3rd-party/mullvad-dark.svg"
         height="70"
         width="200"
         class="img-fluid d-block mr-auto ml-auto align-middle"
@@ -48,7 +48,7 @@
   </div>
   <div class="row mb-2">
     <div class="col-lg-3 col-sm-12 pt-lg-5">
-      <img src="/assets/img/svg/3rd-party/protonvpn.svg" height="70" width="200" class="img-fluid d-block mr-auto ml-auto align-middle" alt="ProtonVPN">
+      <img src="{% if jekyll.environment == "production" and site.pull_cdn %}{{site.pull_cdn}}{% endif %}/assets/img/svg/3rd-party/protonvpn.svg" height="70" width="200" class="img-fluid d-block mr-auto ml-auto align-middle" alt="ProtonVPN">
     </div>
     <div class="col">
     <h2 id="protonvpn" class="anchor">
@@ -77,7 +77,7 @@
   </div>
   <div class="row mb-2">
     <div class="col-lg-3 col-sm-12 pt-lg-5">
-      <img src="/assets/img/svg/3rd-party/ivpn.svg" height="70" width="200" class="img-fluid d-block mr-auto ml-auto align-middle" alt="IVPN">
+      <img src="{% if jekyll.environment == "production" and site.pull_cdn %}{{site.pull_cdn}}{% endif %}/assets/img/svg/3rd-party/ivpn.svg" height="70" width="200" class="img-fluid d-block mr-auto ml-auto align-middle" alt="IVPN">
     </div>
     <div class="col">
     <h2 id="ivpn" class="anchor">
