@@ -90,3 +90,29 @@ breadcrumb: "DNS"
 	ios="https://apps.apple.com/app/id1452162351"
 	github="https://github.com/s-s/dnscloak"
 %}
+
+<h2 id="dns-terms" class="anchor">
+	<a href="#dns-terms">
+		<i class="fas fa-link anchor-icon"></i>
+	</a> Terms
+</h2>
+
+<h4>DNS-over-TLS (DoT)</h4>
+<p>
+  A security protocol for encrypted DNS on a dedicated port 853. Some providers support port 443 which generally works everywhere while port 853 is often blocked by restrictive firewalls.
+</p>
+
+<h4>DNS-over-HTTPS (DoH)</h4>
+<p>
+  Similar to DoT, but uses HTTPS instead, being indistinguishable from "normal" HTTPS traffic on port 443 and more difficult to block. {% include badge.html color="warning" text="Warning" tooltip="DoH contains metadata such as user-agent (which may include system information) that is sent to the DNS server." link="https://tools.ietf.org/html/rfc8484#section-8.2" icon="fas fa-exclamation-triangle" %}
+</p>
+
+<h4>DNSCrypt</h4>
+<p>
+  With an <a href="https://dnscrypt.info/protocol/">open specification</a>, DNSCrypt is an older, yet robust method for encrypting DNS.
+</p>
+
+<h4>Anonymized DNSCrypt</h4>
+<p>
+  A <a href="https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS">lightweight protocol</a> that hides the client IP address by using pre-configured relays to forward encrypted DNS data. This is a relatively new protocol created in 2019 currently only supported by <a href="#dns-desktop-clients">dnscrypt-proxy</a> and a limited number of <a href="https://github.com/DNSCrypt/dnscrypt-resolvers/blob/master/v2/relays.md">relays</a>.
+</p>
