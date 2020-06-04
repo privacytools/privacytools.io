@@ -1,10 +1,12 @@
-<h1 id="dns" class="anchor"><a href="#dns"><i class="fas fa-link anchor-icon"></i></a> Encrypted Domain Name System (DNS) Resolvers</h1>
+<h1 id="dns" class="anchor">
+  <a href="#dns"><i class="fas fa-link anchor-icon"></i></a> Encrypted DNS Resolvers
+</h1>
 
 <div class="alert alert-warning" role="alert">
-  <strong>Note: Using an encrypted DNS resolver will not make you anonymous, nor hide your internet traffic from your Internet Service Provider. But, it will prevent DNS hijacking, and make your DNS requests harder for third parties to eavesdrop on and tamper with. If you are currently using Google's DNS resolver, you should pick an alternative here.</strong>
+  DNS-over-HTTPS, DNS-over-TLS, and DNSCrypt resolvers will not make you anonymous. Using Anonymized DNSCrypt hides <i>only</i> your DNS traffic from your Internet Service Provider. However, using any of these protocols will prevent DNS hijacking, and make your DNS requests harder for third parties to eavesdrop on and tamper with. If you are currently using Google's DNS resolver, you should pick an alternative here. See the <a href="#dns-definitions">definitions</a> below.
 </div>
 
-<div class="table-responsive">
+<div id="dns-table" class="table-responsive">
   <table class="table sortable-theme-bootstrap" data-sortable>
     <thead>
       <tr>
@@ -46,10 +48,7 @@
         <td>Yes</td>
         <td>
           <span class="no-text-wrap">
-            Ads, trackers,
-          </span>
-          <span class="no-text-wrap">
-            malicious domains
+            Based on server choice
           </span>
         </td>
         <td>
@@ -60,6 +59,9 @@
           </a>
         </td>
         <td>
+          <span class="no-text-wrap">
+            <a href="https://www.choopa.com/">Choopa, LLC</a>,
+          </span>
           <span class="no-text-wrap">
             <a href="https://flops.ru/en/about.html">Serveroid, LLC</a>
           </span>
@@ -168,7 +170,11 @@
         <td>DoH, DoT</td>
         <td>Yes</td>
         <td>Yes</td>
-        <td>No</td>
+        <td>
+          <span class="no-text-wrap">
+            Based on server choice
+          </span>
+        </td>
         <td>?</td>
         <td>Self</td>
       </tr>
@@ -236,6 +242,51 @@
         <td>
           <span class="no-text-wrap">
             <a href="https://www.ipax.at/">IPAX OG</a>
+          </span>
+        </td>
+      </tr>
+
+      <tr>
+        <td data-value="LibreDNS">
+          <a href="https://libredns.gr/">LibreDNS</a>
+        </td>
+        <td>
+          <span class="no-text-wrap">
+            <span class="flag-icon flag-icon-de"></span>
+            Germany
+          </span>
+        </td>
+        <td>
+          <a
+            class="btn-secondary btn-icon"
+            href="https://libreops.cc/terms.html">
+            <span class="fas fa-globe"></span>
+          </a>
+        </td>
+        <td>
+          <a data-toggle="tooltip" data-placement="bottom" data-original-title="Part of LibreHosters, &quot;a network of cooperation and solidarity that uses free software to encourage decentralisation through federation and distributed platforms.&quot;" href="https://libreho.st/">
+            Informal collective
+          </a>
+        </td>
+        <td>No</td>
+        <td>DoH, DoT</td>
+        <td>Yes</td>
+        <td>Yes</td>
+        <td>
+          <span class="no-text-wrap">
+            Based on server choice only for DoH
+          </span>
+        </td>
+        <td>
+          <a
+            class="btn-secondary btn-icon"
+            href="https://gitlab.com/libreops/libredns">
+            <span class="fas fa-globe"></span>
+          </a>
+        </td>
+        <td>
+          <span class="no-text-wrap">
+            <a href="https://www.hetzner.com/">Hetzner Online GmbH</a>
           </span>
         </td>
       </tr>

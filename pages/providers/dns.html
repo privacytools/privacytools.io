@@ -8,121 +8,122 @@ breadcrumb: "DNS"
 
 {% include sections/dns.html %}
 
-<h4>Terms</h4>
+<h1 id="dns-desktop-clients" class="anchor">
+  <a href="#dns-desktop-clients">
+    <i class="fas fa-link anchor-icon"></i>
+  </a> Encrypted DNS Client Recommendations for Desktop
+</h1>
 
-<ul>
-  <li>DNS-over-TLS (DoT) - A security protocol for encrypted DNS on a dedicated port 853. Some providers support port 443 which generally works everywhere while port 853 is often blocked by restrictive firewalls. DoT has two modes:</li>
-    <ul>
-        <li>Oppurtunistic mode: the client attempts to form a DNS-over-TLS connection to the server on port 853 without performing certificate validation. If it fails, it will use unencrypted DNS.
-        {% include badge.html
-        color="warning"
-        icon="fas fa-exclamation-triangle"
-        tooltip="In other words automatic mode leaves your DNS traffic vulnerable to SSL strip and MITM attacks."
-        %}</li>
-        <li>Strict mode: the client connects to a specific hostname and performs certificate validation for it. If it fails, no DNS queries are made until it succeeds.</li>
-    </ul>
-  <li>DNS-over-HTTPS (DoH) - Similar to DoT, but uses HTTPS instead, being indistinguishable from "normal" HTTPS traffic on port 443.
-    {% include badge.html
-    color="warning"
-    icon="fas fa-exclamation-triangle"
-    link="https://tools.ietf.org/html/rfc8484#section-8.2"
-    tooltip="DoH contains metadata such as user-agent (which may include system information) that is sent to the DNS server."
-    %}</li>
-  <li>DNSCrypt - An older yet robust method of encrypting DNS.</li>
-</ul>
+{%
+	include cardv2.html
+	title="Unbound"
+	image="/assets/img/svg/3rd-party/unbound.svg"
+	description='A validating, recursive, caching DNS resolver, supporting DNS-over-TLS, and has been <a href="https://ostif.org/our-audit-of-unbound-dns-by-x41-d-sec-full-results/">independently audited</a>.'
+	website="https://nlnetlabs.nl/projects/unbound/about/"
+	forum="https://forum.privacytools.io/t/discussion-unbound/3563"
+	github="https://github.com/NLnetLabs/unbound"
+%}
 
-<h4>How to verify DNS is encrypted</h4>
+{%
+	include cardv2.html
+	title="dnscrypt-proxy"
+	image="/assets/img/svg/3rd-party/dnscrypt-proxy.svg"
+	description='A DNS proxy with support for DNSCrypt, DNS-over-HTTPS, and <a href="https://github.com/DNSCrypt/dnscrypt-protocol/blob/master/ANONYMIZED-DNSCRYPT.txt">Anonymized DNSCrypt</a>, a <a href="https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS">relay-based protocol that the hides client IP address.</a>'
+	website="https://github.com/DNSCrypt/dnscrypt-proxy/wiki"
+	forum="https://forum.privacytools.io/t/discussion-dnscrypt-proxy/1498"
+	github="https://github.com/DNSCrypt/dnscrypt-proxy"
+%}
 
-<ul>
-  <li>DoH / DoT
-    <ul>
-      <li>Check <a href="https://www.dnsleaktest.com/">DNSLeakTest.com</a>.
-        {% include badge.html
-        color="warning"
-        icon="fas fa-exclamation-triangle"
-        tooltip="Your DNS provider may not appear with their own name, so compare the responses to what you know or can find about your DNS provider. Just ensure you don't see your ISP or old unencrypted DNS provider."
-        %}</li>
-      <li>Check the website of your DNS provider. They may have a page for telling "you are using our DNS." Examples include <a href="https://adguard.com/en/adguard-dns/overview.html">AdGuard</a> and <a href="https://1.1.1.1/help">Cloudflare</a>.</li>
-      <li>If using Firefox's trusted recursive resolver (TRR), navigate to <code>about:networking#dns</code>. If the TRR column says "true" for some fields, you are using DoH.
-        {% include badge.html
-        color="warning"
-        icon="fas fa-exclamation-triangle"
-        link="https://wiki.mozilla.org/Trusted_Recursive_Resolver"
-        tooltip="Some fields will say 'false' depending on the the value of network.trr.mode in about:config"
-        %}</li>
-    </ul>
-  </li>
-  <li>dnscrypt-proxy - Check <a href="https://github.com/jedisct1/dnscrypt-proxy/wiki/Checking">dnscrypt-proxy's wiki on how to verify that your DNS is encrypted</a>.</li>
-  <li>DNSSEC - Check <a href="https://dnssec.vs.uni-due.de/">DNSSEC Resolver Test by Matthäus Wander</a>.</li>
-  <li>QNAME Minimization - Run <code>dig +short txt qnamemintest.internet.nl</code> from the command-line (taken from <a href="https://nlnetlabs.nl/downloads/presentations/unbound_qnamemin_oarc24.pdf">this NLnet Labs presentation</a>). If you are on Windows 10, run <code>Resolve-DnsName -Type TXT -Name qnamemintest.internet.nl</code> from the PowerShell. You should see this display: <code>"HOORAY - QNAME minimisation is enabled on your resolver :)!"</code></li>
-</ul>
+{%
+	include cardv2.html
+	title="Stubby"
+	image="/assets/img/png/3rd-party/stubby.png"
+	description='An application that acts as a local DNS-over-TLS stub resolver. Stubby can be used in <a href="https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Clients#DNSPrivacyClients-Unbound/Stubbycombination">combination with Unbound</a> by managing the upstream TLS connections (since Unbound cannot yet re-use TCP/TLS connections) with Unbound providing a local cache.'
+	website="https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby"
+	forum="https://forum.privacytools.io/t/discussion-stubby/3582"
+	github="https://github.com/getdnsapi/stubby"
+%}
 
-<h3 id="clients">Software suggestions and Additional Information</h3>
+{%
+	include cardv2.html
+	title="Firefox's built-in DNS-over-HTTPS resolver"
+	image="/assets/img/svg/3rd-party/firefox_browser.svg"
+	description='Firefox comes with built-in DNS-over-HTTPS support for <a href="https://blog.mozilla.org/blog/2020/02/25/firefox-continues-push-to-bring-dns-over-https-by-default-for-us-users/">NextDNS and Cloudflare</a> but users can manually any other DoH resolver.'
+	labels="color==warning::icon==fas fa-exclamation-triangle::link==https://developers.cloudflare.com/1.1.1.1/privacy/firefox::text==Warning::tooltip==Cloudflare logs a limited amount of data about the DNS requests that are sent to their custom resolver for Firefox."
+	website="https://support.mozilla.org/en-US/kb/firefox-dns-over-https"
+	privacy-policy="https://wiki.mozilla.org/Security/DOH-resolver-policy"
+	forum="https://forum.privacytools.io/t/discussion-firefox-s-built-in-dns-over-https-resolver/3564"
+%}
 
-<ul>
-  <li><strong>Encrypted DNS clients for desktop:</strong>
-    <ul>
-      <li><em>Firefox</em> comes with built-in DoH support with Cloudflare set as the default resolver, but can be configured to use any DoH resolver.
-        {% include badge.html
-        color="warning"
-        icon="fas fa-exclamation-triangle"
-        link="https://developers.cloudflare.com/1.1.1.1/commitment-to-privacy/privacy-policy/firefox/"
-        tooltip="&quot;Cloudflare has agreed to collect only a limited amount of data about the DNS requests that are sent to the Cloudflare Resolver for Firefox via the Firefox browser.&quot;"
-        %}
-        Currently Mozilla is <a href="https://blog.mozilla.org/futurereleases/2019/07/31/dns-over-https-doh-update-detecting-managed-networks-and-user-choice/">conducting studies</a> before enabling DoH by default for all US-based Firefox users.</li>
-          <ul>
-              <li>DNS over HTTPS can be enabled in Menu -> Preferences (<code>about:preferences</code>) -> Network Settings -> Enable DNS over HTTPS. Set "Use Provider" to "Custom", and enter your DoH provider's address.</li>
-              <li>Advanced users may enable it in <code>about:config</code> by setting <code>network.trr.custom_uri</code> and <code>network.trr.uri</code> as the address you find from the documentation of your DoH provider and <code>network.trr.mode</code> as <code>2</code>. It may also be desirable to set <code>network.security.esni.enabled</code> to <code>True</code> in order to enable encrypted SNI and make sites supporting ESNI a bit more difficult to track.</li>
-          </ul>
-    </ul>
-  </li>
-  <li><strong>Encrypted DNS clients for mobile:</strong>
-    <ul>
-      <li><em>Android 9</em> comes with a DoT client by <a href="https://support.google.com/android/answer/9089903">default</a>.
-        {% include badge.html
-        color="warning"
-        icon="fas fa-exclamation-triangle"
-        link="https://www.quad9.net/private-dns-quad9-android9/"
-        tooltip="...but with some caveats"
-        %}</li>
-        <ul>
-          <li>We recommend selecting <em>Private DNS provider hostname</em> and entering the DoT address from documentation of your DoT provider to enable strict mode (see Terms above).
-            {% include badge.html
-            color="warning"
-            icon="fas fa-exclamation-triangle"
-            tooltip="If you are on a network blocking access to port 853, Android will error about the network not having internet connectivity."
-            %}</li>
-        </ul>
-      <li><em><a href="https://apps.apple.com/app/id1452162351">DNSCloak</a></em> - An <a href="https://github.com/s-s/dnscloak">open-source</a> DNSCrypt and DoH client for iOS by <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"A charitable non-profit host organization for international Free Software projects."' href="https://techcultivation.org/">the Center for the Cultivation of Technology gemeinnuetzige GmbH</a>.</li>
-      <li><em><a href="https://git.frostnerd.com/PublicAndroidApps/smokescreen/blob/master/README.md">Nebulo</a></em> - An open-source application for Android supporting DoH and DoT. It also supports caching DNS responses and locally logging DNS queries.</li>
-    </ul>
-  </li>
-  <li><strong>Local DNS servers:</strong>
-    <ul>
-      <li><em><a href="https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby">Stubby</a></em> - An open-source application for Linux, macOS, and Windows that acts as a local DNS Privacy stub resolver using DoT.</li>
-      <li><em><a href="https://nlnetlabs.nl/projects/unbound/about/">Unbound</a></em> - a validating, recursive, caching DNS resolver. It can also be ran network-wide and has supported DNS-over-TLS since version 1.7.3.</li>
-      <ul>
-          <li>See also <a href="https://www.ctrl.blog/entry/unbound-tls-forwarding.html">Actually secure DNS over TLS in Unbound on ctrl.blog</a>.</li>
-      </ul>
-    </ul>
-  </li>
-  <li><strong>Network wide DNS servers:</strong>
-    <ul>
-      <li><em><a href="https://pi-hole.net/">Pi-hole</a></em> - A network-wide DNS server mainly for the Raspberry Pi. Blocks ads, tracking, and malicious domains for all devices on your network.</li>
-      <li><em><a href="https://gitlab.com/quidsup/notrack">NoTrack</a></em> - A network-wide DNS server like Pi-hole for blocking ads, tracking, and malicious domains.</li>
-    </ul>
-  </li>
-  <li><strong>Further reading:</strong>
-    <ul>
-      <li>On Firefox, DoH and ESNI</li>
-          <ul>
-              <li><a href="https://wiki.mozilla.org/Trusted_Recursive_Resolver">Trusted Recursive Resolver (DoH) on MozillaWiki</a></li>
-              <li><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1500289">Firefox bug report requesting the ability to use ESNI without DoH</a></li>
-              <li><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1542754">Firefox bug report requesting the ability to use Android 9+'s Private DNS (DoT) and benefit from encrypted SNI without having to enable DoH</a></li>
-              <li><a href="https://blog.cloudflare.com/encrypted-sni/">Encrypt it or lose it: how encrypted SNI works on Cloudflare blog</a></li>
-          </ul>
-      <li><a href="https://www.isc.org/blogs/qname-minimization-and-privacy/">QNAME Minimization and Your Privacy</a> by the Internet Systems Consortium (ISC)</li>
-      <li><a href="https://www.isc.org/dnssec/">DNSSEC and BIND 9</a> by the ISC</li>
-    </ul>
-  </li>
-</ul>
+<h1 id="dns-android-clients" class="anchor">
+	<a href="#dns-android-clients">
+		<i class="fas fa-link anchor-icon"></i>
+	</a> Encrypted DNS Client Recommendations for Android
+</h1>
+
+{%
+	include cardv2.html
+	title="Android 9's built-in DNS-over-TLS resolver"
+	image="/assets/img/svg/3rd-party/android.svg"
+	description="Android 9 (Pie) comes with built-in DNS-over-TLS support without the need for a 3rd-party application."
+	labels="color==warning::icon==fas fa-exclamation-triangle::link==https://developers.google.com/speed/public-dns/docs/using#android_9_pie_or_later::text==Warning::tooltip==Android 9's DoT settings have no effect when used concurrently with VPN-based apps which override the DNS."
+	website="https://support.google.com/android/answer/9089903#private_dns"
+	forum="https://forum.privacytools.io/t/discussion-android-9s-built-in-dns-over-tls-resolver/3562"
+%}
+
+{%
+	include cardv2.html
+	title="Nebulo"
+	image="/assets/img/png/3rd-party/nebulo.png"
+	description='An open-source Android client supporting DNS-over-HTTPS and DNS-over-TLS, caching DNS responses, and locally logging DNS queries.'
+	website="https://git.frostnerd.com/PublicAndroidApps/smokescreen/-/blob/master/README.md"
+	privacy-policy="https://smokescreen.app/privacypolicy"
+	forum="https://forum.privacytools.io/t/discussion-nebulo/3565"
+	fdroid="https://git.frostnerd.com/PublicAndroidApps/smokescreen#f-droid"
+	googleplay="https://play.google.com/store/apps/details?id=com.frostnerd.smokescreen"
+	source="https://git.frostnerd.com/PublicAndroidApps/smokescreen"
+%}
+
+<h1 id="dns-ios-clients" class="anchor">
+	<a href="#dns-ios-clients">
+		<i class="fas fa-link anchor-icon"></i>
+	</a> Encrypted DNS Client Recommendations for iOS
+</h1>
+
+{%
+	include cardv2.html
+	title="DNSCloak"
+	image="/assets/img/png/3rd-party/dnscloak.png"
+	description='An open-source iOS client supporting DNS-over-HTTPS, DNSCrypt, and <a href="https://github.com/DNSCrypt/dnscrypt-proxy/wiki">dnscrypt-proxy</a> options such as caching DNS responses, locally logging DNS queries, and custom block lists. Users can <a href="https://blog.privacytools.io/adding-custom-dns-over-https-resolvers-to-dnscloak/">add custom resolvers by DNS stamp</a>.'
+	website="https://github.com/s-s/dnscloak/blob/master/README.md"
+	privacy-policy="https://drive.google.com/file/d/1050No_pU74CAWUS5-BwQWyO2x_aiMzWc/view"
+	forum="https://forum.privacytools.io/t/discussion-dnscloak/3566"
+	ios="https://apps.apple.com/app/id1452162351"
+	github="https://github.com/s-s/dnscloak"
+%}
+
+<h2 id="dns-definitions" class="anchor">
+	<a href="#dns-definitions">
+		<i class="fas fa-link anchor-icon"></i>
+	</a> Definitions
+</h2>
+
+<h4>DNS-over-TLS (DoT)</h4>
+<p>
+  A security protocol for encrypted DNS on a dedicated port 853. Some providers support port 443 which generally works everywhere while port 853 is often blocked by restrictive firewalls.
+</p>
+
+<h4>DNS-over-HTTPS (DoH)</h4>
+<p>
+  Similar to DoT, but uses HTTPS instead, being indistinguishable from "normal" HTTPS traffic on port 443 and more difficult to block. {% include badge.html color="warning" text="Warning" tooltip="DoH contains metadata such as user-agent (which may include system information) that is sent to the DNS server." link="https://tools.ietf.org/html/rfc8484#section-8.2" icon="fas fa-exclamation-triangle" %}
+</p>
+
+<h4>DNSCrypt</h4>
+<p>
+  With an <a href="https://dnscrypt.info/protocol/">open specification</a>, DNSCrypt is an older, yet robust method for encrypting DNS.
+</p>
+
+<h4>Anonymized DNSCrypt</h4>
+<p>
+  A <a href="https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS">lightweight protocol</a> that hides the client IP address by using pre-configured relays to forward encrypted DNS data. This is a relatively new protocol created in 2019 currently only supported by <a href="#dns-desktop-clients">dnscrypt-proxy</a> and a limited number of <a href="https://github.com/DNSCrypt/dnscrypt-resolvers/blob/master/v2/relays.md">relays</a>.
+</p>
