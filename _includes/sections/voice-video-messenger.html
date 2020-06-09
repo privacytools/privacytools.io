@@ -5,23 +5,6 @@
 </div>
 
 {% include cardv2.html
-  title="Jitsi Meet"
-  image="/assets/img/svg/3rd-party/jitsi-meet-blue.svg"
-  website="https://jitsi.org/jitsi-meet/"
-  privacy-policy="https://jitsi.org/security/"
-  description='Jitsi Meet is a free and open-source multiplatform voice (VoIP), video conferencing, and instant messaging application with optional E2EE. It can be used from the browser or from a desktop app. Additional features include screen sharing for presentations and an always-on-top floating call window when minimized. See the <a href="https://github.com/jitsi/jitsi-meet/wiki/Jitsi-Meet-Instances">list of public Jitsi Meet instances</a>.'
-  labels="color==warning::text==Requires WebRTC::tooltip==Our Firefox tweaks recommend disabling WebRTC as it can be used to leak your IP address even behind a VPN, which is why Tor Browser disables it."
-  forum="https://forum.privacytools.io/t/discussion-jitsi-meet/1577"
-  github="https://github.com/jitsi/jitsi-meet"
-  windows="https://github.com/jitsi/jitsi-meet-electron/releases"
-  linux="https://github.com/jitsi/jitsi-meet-electron/releases"
-  mac="https://github.com/jitsi/jitsi-meet-electron/releases"
-  fdroid="https://f-droid.org/en/packages/org.jitsi.meet/"
-  googleplay="https://play.google.com/store/apps/details?id=org.jitsi.meet"
-  ios="https://apps.apple.com/us/app/jitsi-meet/id1165103905"
-%}
-
-{% include cardv2.html
   title="Linphone"
   image="/assets/img/svg/3rd-party/linphone.svg"
   website="https://www.linphone.org/"
@@ -35,6 +18,23 @@
   fdroid="https://f-droid.org/packages/org.linphone"
   googleplay="https://play.google.com/store/apps/details?id=org.linphone"
   ios="https://apps.apple.com/us/app/linphone/id360065638"
+%}
+
+{% include cardv2.html
+  title="Jitsi Meet"
+  image="/assets/img/svg/3rd-party/jitsi-meet-blue.svg"
+  website="https://jitsi.org/jitsi-meet/"
+  privacy-policy="https://jitsi.org/security/"
+  description='Jitsi Meet is a free and open-source multiplatform voice (VoIP), video conferencing, and instant messaging application with optional E2EE. It can be used from the browser or from a desktop app. Additional features include screen sharing for presentations and an always-on-top floating call window when minimized. See the <a href="https://github.com/jitsi/jitsi-meet/wiki/Jitsi-Meet-Instances">list of public Jitsi Meet instances</a>.'
+  labels="color==warning::text==Requires WebRTC::tooltip==Our Firefox tweaks recommend disabling WebRTC as it can be used to leak your IP address even behind a VPN, which is why Tor Browser disables it.|color==warning::link==https://github.com/jitsi/lib-jitsi-meet/blob/master/doc/e2ee.md::text==Experimental E2EE::tooltip==E2EE in Jitsi Meet is dependent on Insertable Streams, which is currently support in Chrome but not Firefox. The mobile apps also do not support E2EE for the moment."
+  forum="https://forum.privacytools.io/t/discussion-jitsi-meet/1577"
+  github="https://github.com/jitsi/jitsi-meet"
+  windows="https://github.com/jitsi/jitsi-meet-electron/releases"
+  linux="https://github.com/jitsi/jitsi-meet-electron/releases"
+  mac="https://github.com/jitsi/jitsi-meet-electron/releases"
+  fdroid="https://f-droid.org/en/packages/org.jitsi.meet/"
+  googleplay="https://play.google.com/store/apps/details?id=org.jitsi.meet"
+  ios="https://apps.apple.com/us/app/jitsi-meet/id1165103905"
 %}
 
 {% include cardv2.html
