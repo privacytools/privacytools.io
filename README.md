@@ -1,10 +1,17 @@
+<div align="center">
 <a href="https://www.privacytools.io">
 	<img src="assets/img/svg/layout/brand/horizontal.svg" width="500px" alt="PrivacyTools" />
 </a>
-
-_Encryption Against Global Mass Surveillance._
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/afd98777-c205-4928-a301-f57a1448113f/deploy-status)](https://app.netlify.com/sites/privacytools-io/deploys)
+<p>
+	<em>Encryption Against Global Mass Surveillance.</em>
+</p>
+<a href="https://opencollective.com/privacytools#support">
+	<img src="https://opencollective.com/privacytools/tiers/badge.svg">
+</a>
+<a href="https://app.netlify.com/sites/privacytools-io/deploys">
+	<img src="https://api.netlify.com/api/v1/badges/afd98777-c205-4928-a301-f57a1448113f/deploy-status">
+</a>
+</div>
 
 # Contributing
 
@@ -28,17 +35,26 @@ If you want to discuss privacy in general, a new tool, or just something else, f
 
 # Support
 
-- [Donate.](https://www.privacytools.io/donate/)
-- [Spread the word.](https://www.privacytools.io/#participate)
-- [Join our Discourse community.](https://forum.privacytools.io/)
-- [Make suggestions on reddit.](https://www.reddit.com/r/privacytoolsIO/)
+- [Donate](https://www.privacytools.io/sponsors/)
+- [Spread the word](https://www.privacytools.io/#participate)
+- [Join our Discourse community](https://forum.privacytools.io/)
+- [Make suggestions on reddit](https://www.reddit.com/r/privacytoolsIO/)
 - View and edit our website source code here on GitHub.
 
-# Sponsors
+## Backers
 
-- [Safing](https://safing.io/)
+Like what we're doing? [Become a backer](https://opencollective.com/privacytools) and show your support for our project.
 
-# Community Translations
+![](https://opencollective.com/privacytools/tiers/sponsor.svg?avatarHeight=64&width=890)
+
+## Sponsors
+
+Are you working with a privacy focused company? Ask your manager or marketing team if your company would be interested in supporting our project. Your support will help us continue to develop this website, promote privacy-respecting tools and services, and reach out to thousands of data privacy newcomers every month. Also, your company's logo will show on GitHub and [our site](https://www.privacytools.io/sponsors/), and who doesn't like a little extra exposure?
+
+[![](https://opencollective.com/privacytools/tiers/gold.svg?avatarHeight=64&width=890&button=false)](https://opencollective.com/privacytools/contribute/gold-12312)
+[![](https://opencollective.com/privacytools/tiers/silver.svg?avatarHeight=64&width=890&button=false)](https://opencollective.com/privacytools/contribute/silver-12311)
+
+## Community Translations
 - [繁体中文 / Chinese](https://privacytools.twngo.xyz/) - [GitHub](https://github.com/twngo/privacytools-zh)
 - [Español / Spanish](https://victorhck.gitlab.io/privacytools-es/) - [GitLab](https://gitlab.com/victorhck/privacytools-es)
 - [Polski / Polish](https://pl.privacytools.io) - [Gitea](https://git.privacytools.io/pl-privacytoolsIO/pl.privacytools.io)
