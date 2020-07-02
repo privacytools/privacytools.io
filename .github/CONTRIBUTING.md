@@ -96,6 +96,7 @@ See https://www.privacytools.io/providers/vpn/#criteria for more details.
 ## Images
 
 - SVG file format is strongly preferred. PNG files can be used as a fallback if images are too complex or otherwise unsuitable as a vector format.
+- We like to optimize all SVGs we add to the site. [This](https://github.com/privacytools/privacytools.io/pull/1968#issuecomment-652773633) is a helpful guide as to how we do it with [Inkscape](https://inkscape.org/)
 - Provider logo dimensions are 384px x 128px ([example](https://github.com/privacytools/privacytools.io/blob/master/assets/img/svg/3rd-party/mullvad.svg))
 - Tool logo dimensions are 120px x 120px ([SVG example](https://github.com/privacytools/privacytools.io/blob/master/assets/img/svg/3rd-party/firefox_browser.svg), [PNG example](https://github.com/privacytools/privacytools.io/blob/master/assets/img/png/3rd-party/claws_mail.png))
 
