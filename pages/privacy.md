@@ -26,26 +26,17 @@ This data will be collected regardless of browser, device, or app used to access
 When you visit a {{ site.name }} website or service, regardless of whether you have an account or not, the website may use cookies, server logs, and other methods to collect the following data:
 
 * What pages you visit,
-* What actions you take on our website,
-* What browser, operating system, and device you use,
-* Search terms you use,
 * Your anonymized IP address: We anonymize the last 3 bytes of your IP, e.g. 192.xxx.xxx.xxx.
 
 We use this data to:
 
 * Optimize websites and services, so that they are quick and easy to use,
 * Diagnose and debug technical errors,
-* Defend websites and services from abuse and technical attacks,
-* Compile statistics on the popularity of a website, page, post, topic, etc., and
-* Compile statistics on the kinds of software and computers visitors use.
+* Defend websites and services from abuse and technical attacks.
 
 This data is processed under our [Legitimate Interest](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/legitimate-interests/when-can-we-rely-on-legitimate-interests/) to provide our services to you in a an efficient and secure manner and to ensure the legal compliance and proper administration of our business.
 
 Raw data such as pages visited, anonymized visitor IPs, and visitor actions will be retained for 60 days. In special circumstances—such as extended investigations regarding a technical attack—we may preserve logged data for longer periods for analysis. We store aggregate statistics about use of the websites and services we host indefinitely, but those statistics do not include data identifiable to you personally.
-
-You can opt out of some website tracking we do with Matomo using the form below. Our Matomo instance is blocked by most ad-blockers, so users blocking the domain `stats.privacytools.io` will not need to separately opt-out with the form below. Our Matomo instance also respects the Do Not Track (DNT) setting in your browser, so users with DNT enabled will not need to complete this form. Limited data may still be collected via server-side logs after opting out here, but this data cannot be used to identify you.
-
-<iframe style="border: 1; height: 120px; width: 100%;" src="https://stats.privacytools.io/index.php?module=CoreAdminHome&action=optOut&language=en&backgroundColor=ffffff&fontColor=212529&fontSize=1rem&fontFamily=-apple-system%2CBlinkMacSystemFont%2C%22Segoe%20UI%22%2CRoboto%2C%22Helvetica%20Neue%22%2CArial%2Csans-serif%2C%22Apple%20Color%20Emoji%22%2C%22Segoe%20UI%20Emoji%22%2C%22Segoe%20UI%20Symbol%22%2C%22Noto%20Color%20Emoji%22"></iframe>
 
 ### We collect account data.
 
