@@ -1,4 +1,4 @@
-<h1 id="clients" class="anchor"><a href="#clients"><i class="fas fa-link anchor-icon"></i></a> Email Clients</h1>
+<h1 id="desktopclients" class="anchor"><a href="#desktopclients"><i class="fas fa-link anchor-icon"></i></a>Desktop Email Clients</h1>
 
 {% include cardv2.html
   title="Thunderbird"
@@ -17,35 +17,40 @@
 %}
 
 {% include cardv2.html
-  title="Claws Mail"
-  image="/assets/img/png/3rd-party/claws_mail.png"
-  description="Claws Mail is a free and open source, GTK-based email and news client. It offers easy configuration and an abundance of features. It is included with Gpg4win, an encryption suite for Windows."
-  website="https://www.claws-mail.org/"
-  forum="https://forum.privacytools.io/t/discussion-claws-mail/660"
-  git="https://git.claws-mail.org/"
-  windows="https://www.claws-mail.org/win32/"
-  mac="https://www.claws-mail.org/faq/index.php/Installation_and_Configuration#What_do_I_need_to_compile_Claws_Mail.3F"
-  linux="https://www.claws-mail.org/downloads.php?section=downloads"
-  freebsd="https://www.freshports.org/mail/claws-mail/"
-  openbsd="http://openports.se/mail/claws-mail"
-  netbsd="http://pkgsrc.se/mail/claws-mail"
+  title="Mailpile"
+  image="/assets/img/png/3rd-party/mailpile.svg"
+  description="A modern, fast web-mail client with user-friendly encryption and privacy features."
+  website="https://www.mailpile.is/"
+  tor="clgs64523yi2bkhz.onion"
+  forum="https://forum.privacytools.io/t/"
+  github="https://github.com/mailpile/Mailpile"
+  linux="https://www.mailpile.is/download/linux.html"
 %}
 
 
-<h3>Privacy Email Tools</h3>
+<h1 id="mobileclients" class="anchor"><a href="#mobileclients"><i class="fas fa-link anchor-icon"></i></a>Mobile Email Clients</h1>
 
-<ul>
-  <li><a href="https://www.gpg4usb.org/">gpg4usb</a> - A very easy to use and small portable editor to encrypt and decrypt any text-message or -file. For Windows and Linux. <a href="https://theprivacyguide.org/tutorials/gpg.html">GPG tutorial</a>.</li>
-  <li><a href="https://www.mailvelope.com/">Mailvelope</a> - A browser extension that enables the exchange of encrypted emails following the <a href="https://theprivacyguide.org/tutorials/pgp.html">OpenPGP encryption standard</a>.</li>
-  <li><a href="https://www.enigmail.net/">Enigmail</a> - A security extension to Thunderbird and Seamonkey. It enables you to write and receive email messages signed and/or encrypted with the <a href="https://theprivacyguide.org/tutorials/pgp.html">OpenPGP standard</a>.</li>
-  <li><a href="https://addons.thunderbird.net/thunderbird/addon/torbirdy/">TorBirdy</a> - TorBirdy configures Thunderbird to make connections over the Tor anonymity network. This extension is in beta and should be considered experimental.</li>
-  <li><a href="https://www.emailprivacytester.com/">Email Privacy Tester</a> - This tool will send an Email to your address and perform privacy-related tests.</li>
-</ul>
 
-<h3>Worth Mentioning</h3>
+{% include cardv2.html
+  title="FairMail"
+  image="/assets/img/svg/3rd-party/fairmail.svg"
+  description="Fully featured, open source, privacy oriented email app for Android"
+  website="https://email.faircode.eu/"
+  privacy-policy="https://github.com/M66B/FairEmail/blob/master/PRIVACY.md"
+  forum="https://forum.privacytools.io/t/"
+  source="https://github.com/M66B/FairEmail"
+  f-droid="https://f-droid.org/en/packages/eu.faircode.email/"
+  
+%}
 
-<ul>
-  <li><a href="https://github.com/k9mail/k-9/releases">K-9 Mail</a> - An independent mail application for Android. It supports both POP3 and IMAP mailboxes, but only supports push mail for IMAP.</li>
-  <li><a href="https://www.gnupg.org/">GNU Privacy Guard</a> - Email Encryption. GnuPG is a GPL Licensed alternative to the PGP suite of cryptographic software. <a href="https://theprivacyguide.org/tutorials/gpg.html">Tutorial.</a> Use <a href="https://gpgtools.org/">GPGTools for macOS.</a></li>
-  <li><a href="https://www.mailpile.is/">Mailpile (Beta)</a> - A modern, fast web-mail client with user-friendly encryption and privacy features.</li>
-</ul>
+{% include cardv2.html
+  title="K-9 Mail"
+  image="/assets/img/png/3rd-party/k-9-mail.svg"
+  description="An independent mail application for Android. It supports both POP3 and IMAP mailboxes, but only supports push mail for IMAP."
+  website="https://k9mail.app/"
+  forum="https://forum.privacytools.io/t/"
+  github="https://github.com/k9mail"
+  f-droid="https://f-droid.org/packages/com.fsck.k9/"
+%}
+
+
