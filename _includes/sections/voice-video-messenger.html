@@ -17,7 +17,24 @@
   mac="https://www.linphone.org/technical-corner/linphone?qt-technical_corner=2#qt-technical_corner"
   fdroid="https://f-droid.org/packages/org.linphone"
   googleplay="https://play.google.com/store/apps/details?id=org.linphone"
-  ios="https://itunes.apple.com/us/app/linphone/id360065638?mt=8"
+  ios="https://apps.apple.com/us/app/linphone/id360065638"
+%}
+
+{% include cardv2.html
+  title="Jitsi Meet"
+  image="/assets/img/svg/3rd-party/jitsi.svg"
+  website="https://jitsi.org/jitsi-meet/"
+  privacy-policy="https://jitsi.org/security/"
+  description='Jitsi Meet is a free and open-source multiplatform voice (VoIP), video conferencing, and instant messaging application with optional E2EE. It can be used from the browser, in <a href="https://github.com/jitsi/jitsi-meet-electron/releases">desktop applications</a> or on smartphones. Additional features include screen sharing for presentations and an always-on-top floating call window when minimized. See the <a href="https://github.com/jitsi/jitsi-meet/wiki/Jitsi-Meet-Instances">list of public Jitsi Meet instances</a>.'
+  labels="color==warning::text==Requires WebRTC::tooltip==Our Firefox tweaks recommend disabling WebRTC as it can be used to leak your IP address even behind a VPN, which is why Tor Browser disables it.|color==warning::link==https://github.com/jitsi/lib-jitsi-meet/blob/master/doc/e2ee.md::text==Experimental E2EE::tooltip==E2EE in Jitsi Meet is dependent on Insertable Streams, which is currently supported in Chrome but not Firefox. The mobile apps also do not support E2EE for the moment. Prefer to use the desktop apps instead."
+  forum="https://forum.privacytools.io/t/discussion-jitsi-meet/1577"
+  github="https://github.com/jitsi/jitsi-meet"
+  windows="https://github.com/jitsi/jitsi-meet-electron/releases"
+  linux="https://github.com/jitsi/jitsi-meet-electron/releases"
+  mac="https://github.com/jitsi/jitsi-meet-electron/releases"
+  fdroid="https://f-droid.org/en/packages/org.jitsi.meet/"
+  googleplay="https://play.google.com/store/apps/details?id=org.jitsi.meet"
+  ios="https://apps.apple.com/us/app/jitsi-meet/id1165103905"
 %}
 
 {% include cardv2.html
@@ -34,29 +51,6 @@
   ios="https://apps.apple.com/us/app/mumble/id443472808?ls=1"
 %}
 
-<h3>Worth Mentioning</h3>
-
-<ul>
-  <li>
-    <a href="https://jitsi.org/jitsi-meet/">Jitsi Meet</a> - Jitsi Meet is a free and open-source multiplatform voice (VoIP), video conferencing, and instant messaging application.
-
-    {% include badge.html
-    color="warning"
-    icon="fas fa-exclamation-triangle"
-    text="Requires WebRTC"
-    tooltip="Our Firefox tweaks recommend disabling WebRTC as it can be used to leak your IP address even behind a VPN, which is why Tor Browser disables it."
-    %}
-
-    {% include badge.html
-    color="warning"
-    icon="fas fa-exclamation-triangle"
-    link="https://jitsi.org/security"
-    text="Multiparty meetings are not E2EE"
-    %}
-
-    See also <a href="https://github.com/jitsi/jitsi-meet/wiki/Jitsi-Meet-Instances">list of public Jitsi Meet instances</a>.
-  </li>
-</ul>
 <h3>Related Information</h3>
 
 <ul>
