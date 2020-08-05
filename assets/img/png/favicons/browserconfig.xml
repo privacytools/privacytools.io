@@ -2,7 +2,7 @@
 <browserconfig>
     <msapplication>
         <tile>
-            <square150x150logo src="/assets/img/png/favicons/mstile-150x150.png"/>
+            <square150x150logo src="{% if jekyll.environment == "production" and site.pull_cdn %}{{site.pull_cdn}}{% endif %}/assets/img/png/favicons/mstile-150x150.png"/>
             <TileColor>#3498db</TileColor>
         </tile>
     </msapplication>

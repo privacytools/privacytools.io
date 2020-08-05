@@ -1,8 +1,8 @@
-<script src="/assets/js/jquery-3.3.1.min.js?v=4"></script>
-<script src="/assets/js/popper.min.js?v=4"></script>
-<script src="/assets/js/bootstrap.min.js?v=4"></script>
-<script src="/assets/js/sortable.min.js?v=4"></script>
-<script src="/assets/js/main.js?v=5"></script>
+<script src="{% if jekyll.environment == "production" and site.pull_cdn %}{{site.pull_cdn}}{% endif %}/assets/js/jquery-3.3.1.min.js?v=4" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+<script src="{% if jekyll.environment == "production" and site.pull_cdn %}{{site.pull_cdn}}{% endif %}/assets/js/popper.min.js?v=4" integrity="sha384-yipEjruz9xikSpiIi+F8+G+OvmOYvx/hY06pr3eA26265pJ8+Lbc3sZ2uBgBG7b7" crossorigin="anonymous"></script>
+<script src="{% if jekyll.environment == "production" and site.pull_cdn %}{{site.pull_cdn}}{% endif %}/assets/js/bootstrap.min.js?v=4" integrity="sha384-uz42m69OOLo5hnP147/k7qYaV16ebylNguXL8G7Z/iBMtapgaUSOwgo/9MopjS46" crossorigin="anonymous"></script>
+<script src="{% if jekyll.environment == "production" and site.pull_cdn %}{{site.pull_cdn}}{% endif %}/assets/js/sortable.min.js?v=4" integrity="sha384-tukxl0r6OP6AB7mHv3RINgYu4i6IvHr1bdnypIcYez2WQzZKq08BXyFEZCW//Juc" crossorigin="anonymous"></script>
+<script src="{% if jekyll.environment == "production" and site.pull_cdn %}{{site.pull_cdn}}{% endif %}/assets/js/main.js?v=5" integrity="sha384-7Cn7Co5qrN1jU/2wfO5Kn0M/FR/UtrkM1+rLAEIUteTqmzgMPLXjm9H2c5NsnSxp" crossorigin="anonymous"></script>
 
 <!--
   Matomo is the leading open-source analytics platform:

@@ -217,15 +217,15 @@ description: "Find a secure email provider that will keep your privacy in mind. 
 <h1 id="cloaking" class="anchor"><a href="#cloaking"><i class="fas fa-link anchor-icon"></i></a> Email cloaking services</h1>
 <div class="container">
   <a href="https://anonaddy.com">
-    <img src="/assets/img/svg/3rd-party/anonaddy.svg"
-        data-theme-src="/assets/img/svg/3rd-party/anonaddy-dark.svg"
+    <img src="{% if jekyll.environment == "production" and site.pull_cdn %}{{site.pull_cdn}}{% endif %}/assets/img/svg/3rd-party/anonaddy.svg"
+        data-theme-src="{% if jekyll.environment == "production" and site.pull_cdn %}{{site.pull_cdn}}{% endif %}/assets/img/svg/3rd-party/anonaddy-dark.svg"
          width="180rem" class="img-fluid float-left mr-3"
          alt="AnonAddy">
   </a>
   <br>
   <p><strong><a href="https://anonaddy.com">AnonAddy</a></strong> lets users create aliases that forward to their email address. Can be self-hosted. <a href="https://github.com/anonaddy/anonaddy">Source code on GitHub</a>.</p>
   <a href="https://simplelogin.io">
-    <img src="/assets/img/svg/3rd-party/simplelogin.svg"
+    <img src="{% if jekyll.environment == "production" and site.pull_cdn %}{{site.pull_cdn}}{% endif %}/assets/img/svg/3rd-party/simplelogin.svg"
          width="180rem" class="img-fluid float-left mr-3"
          alt="SimpleLogin">
   </a>
@@ -238,14 +238,14 @@ description: "Find a secure email provider that will keep your privacy in mind. 
   <p>Advanced users may consider setting up their own email server. Mailservers require attention and continuous maintenance in order to keep things secure and mail delivery reliable.</p>
   <h3>Combined software solutions</h3>
   <a href="https://mailinabox.email/">
-    <img src="/assets/img/svg/3rd-party/mail-in-a-box.svg"
+    <img src="{% if jekyll.environment == "production" and site.pull_cdn %}{{site.pull_cdn}}{% endif %}/assets/img/svg/3rd-party/mail-in-a-box.svg"
          width="80rem" class="img-fluid float-left mr-3"
          alt="Mail-in-a-Box">
   </a>
   <br>
   <p><strong><a href="https://mailinabox.email">Mail-in-a-Box</a></strong> is an automated setup script for deploying a mail server on Ubuntu. Its goal is to make it easier for users to set up their own mail server.</p>
   <a href="https://mailcow.email/">
-    <img src="/assets/img/svg/3rd-party/mailcow.svg"
+    <img src="{% if jekyll.environment == "production" and site.pull_cdn %}{{site.pull_cdn}}{% endif %}/assets/img/svg/3rd-party/mailcow.svg"
          width="80rem" class="img-fluid float-left mr-3"
          alt="Mailcow">
   </a>
