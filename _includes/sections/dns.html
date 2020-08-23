@@ -147,12 +147,6 @@ We also log how many times this or that tracker has been blocked. We need this i
       <tr>
         <td data-value="Cloudflare">
           <a href="https://developers.cloudflare.com/1.1.1.1/setting-up-1.1.1.1/">Cloudflare</a>
-          {% include badge.html
-          link="https://codeberg.org/crimeflare/cloudflare-tor/"
-          color="warning"
-          icon="fas fa-exclamation-triangle"
-          tooltip="Cloudflare is one of the world's largest networks, and a problem considering anonymity and decentralization."
-          %}
         </td>
         <td>Anycast (based in
           <span class="no-text-wrap">
@@ -168,7 +162,7 @@ We also log how many times this or that tracker has been blocked. We need this i
           </a>
         </td>
         <td>Commercial</td>
-        <td><a data-toggle="tooltip" data-placement="bottom" data-original-title='"We will collect limited DNS query data that is sent to the resolvers. This data does not contain user IP addresses or any other personally identifiable information, and the bulk of the data is only stored for 24 hours."' href="https://developers.cloudflare.com/1.1.1.1/commitment-to-privacy/privacy-policy/privacy-policy/">Some</a></td>
+        <td><a data-toggle="tooltip" data-placement="bottom" data-original-title="Cloudflare collects and stores only the limited DNS query data that is sent to the 1.1.1.1 resolver. The 1.1.1.1 resolver service does not log personal data, and the bulk of the limited non-personally identifiable query data is only stored for 25 hours." href="https://developers.cloudflare.com/1.1.1.1/privacy/public-dns-resolver/">Some</a></td>
         <td>DoH, DoT</td>
         <td>Yes</td>
         <td>Yes</td>
@@ -420,11 +414,6 @@ We also log how many times this or that tracker has been blocked. We need this i
       <tr>
         <td data-value="Quad9">
           <a href="https://quad9.net/">Quad9</a>
-          {% include badge.html
-          color="warning"
-          icon="fas fa-exclamation-triangle"
-          tooltip="Founders include the Global Cyber Alliance, composed of the City of London Police and Manhattan District Attorney's Office."
-          %}
         </td>
         <td>Anycast (based in
           <span class="no-text-wrap">
