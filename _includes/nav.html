@@ -113,7 +113,7 @@
         </a>
         <a href="/about/" class="nav-anchor">
           About Us
-        </a>
+        </a>{% unless page.url == '/sponsors/' %}
         <span id="nav-switch-theme" class="nav-anchor">
           <span class="nav-theme-icon fas fa-fw" aria-hidden="true" title="Theme"></span>
           <span class="sr-only">Toggle Theme</span>
@@ -138,7 +138,7 @@
             <a href="https://privacytools.ru" rel="nofollow noopener" class="dropdown-item">Русский</a>
             <a href="https://privacytools.dreads-unlock.fr" rel="nofollow noopener" class="dropdown-item">Français</a>
           </span>
-        </details>
+        </details>{% endunless %}
       </div>
     </div>
   </div>

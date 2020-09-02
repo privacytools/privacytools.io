@@ -61,5 +61,5 @@
 
   <!-- CSS stylesheets -->
   <link href="/assets/css/style.css?v=9" rel="stylesheet">
-  <link id="dark-css" href="/assets/css/dark.css?v=4" rel="stylesheet" media="(prefers-color-scheme: dark)">
+  {% unless page.url == '/sponsors/' %}<link id="dark-css" href="/assets/css/dark.css?v=4" rel="stylesheet" media="(prefers-color-scheme: dark)">{% endunless %}
 </head>

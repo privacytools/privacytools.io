@@ -2,7 +2,7 @@
   <a class="m-3" href="https://safing.io" target="_blank" rel="noreferrer">
     <img
       src="/assets/img/svg/3rd-party/sponsors/safing.svg"
-      data-theme-src="/assets/img/svg/3rd-party/sponsors/safing-dark.svg"
+      {% unless page.url == '/sponsors/' %}data-theme-src="/assets/img/svg/3rd-party/sponsors/safing-dark.svg"{% endunless %}
       height="70rem"
       title="Safing Privacy Network - Launching on Kickstarter January 2nd, 2020"
       alt="Safing Privacy Network - Safing.io Logo" />
@@ -10,6 +10,7 @@
   <a class="m-3" href="https://www.oeck.com" target="_blank" rel="noreferrer">
     <img
       src="/assets/img/png/3rd-party/sponsors/oeck.png"
+      {% unless page.url == '/sponsors/' %}data-theme-src="/assets/img/png/3rd-party/sponsors/oeck-dark.png"{% endunless %}
       height="70rem"
       title="Oeck - A new type of VPN - Unique, fast and private."
       alt="Insurgo Logo" />
