@@ -6,11 +6,11 @@
 
 <ol>
   <li>Enter "about:config" in the firefox address bar and press enter.</li>
-  <li>Press the button "Accept the Risk and Continue" [FF71+] or "I accept the risk".</li>
-  <li>Copy and paste each of the preferences below (for example "webgl.disabled") into the search bar, and set each of them to the stated value (such as "true").</li>
+  <li>Press the button "Accept the Risk and Continue"</li>
+  <li>Copy and paste each of the preferences below (for example "<strong>webgl.disabled</strong>") into the search bar, and set each of them to the stated value (such as "true").</li>
 </ol>
 
-<h3>Getting started:</h3>
+<h4>Firefox Desktop:</h4>
 
 <dl class="long-string-list">
   <dt>privacy.firstparty.isolate = true</dt>
@@ -118,11 +118,25 @@
   <dt>Looking for TRR, DoH or ESNI?</dt>
   <dd>They have moved to <a href="/providers/dns/#dns">our DNS page</a>.</dd>
 
+
+<h4>Firefox Android (Fenix):</h4>
+
+  <dt>privacy.firstparty.isolate = true</dt>
+  <dd>A result of the <a href="https://wiki.mozilla.org/Security/Tor_Uplift">Tor Uplift</a> effort, this preference isolates all browser identifier sources (e.g. cookies) to the first party domain, with the goal of preventing tracking across different domains. (Don't do this if you are using the Firefox Addon "Cookie AutoDelete" with Firefox v58 or below.)</dd>
+
+  <dt>privacy.resistFingerprinting = true</dt>
+  <dd>A result of the <a href="https://wiki.mozilla.org/Security/Tor_Uplift">Tor Uplift</a> effort, this preference makes Firefox more resistant to browser fingerprinting.</dd>
+
+  <dt>webgl.disabled = true</dt>
+  <dd>WebGL is a potential security risk. <a href="https://security.stackexchange.com/questions/13799/is-webgl-a-security-concern">Source</a></dd>
+
+  <dt>Disable WebRTC</dt>
+  <dd>See <a href="#webrtc"><i class="fas fa-link"></i> WebRTC</a> section</dd>
+
 <h3 id="user.js">Firefox user.js Templates</h3>
 <ul>
-   <li><a href="https://github.com/arkenfox/user.js">arkenfox user.js</a> (formerly ghacks-user.js) - An ongoing comprehensive user.js template for configuring and hardening Firefox privacy, security and anti-fingerprinting.</li>
+  <li><a href="https://github.com/arkenfox/user.js">arkenfox user.js</a> An ongoing comprehensive user.js template for configuring and hardening Firefox privacy, security and anti-fingerprinting. <strong>Desktop Firefox Only</strong></li>
 </ul>
-
 
 <h3>Related Information</h3>
 
