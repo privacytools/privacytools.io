@@ -45,7 +45,9 @@ If you want to discuss privacy in general, a new tool, or just something else, f
 
 Like what we're doing? [Become a backer](https://opencollective.com/privacytools) and show your support for our project.
 
-![](https://opencollective.com/privacytools/tiers/sponsor.svg?avatarHeight=64&width=890)
+<a href="https://opencollective.com/privacytools">
+	<img src="https://opencollective.com/privacytools/tiers/sponsor.svg?avatarHeight=64&width=890" height="64px" width="890px" alt="opencollective.com" />
+</a>
 
 ## Sponsors
 
