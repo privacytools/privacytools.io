@@ -51,9 +51,6 @@ Like what we're doing? [Become a backer](https://opencollective.com/privacytools
 
 Are you working with a privacy focused company? Ask your manager or marketing team if your company would be interested in supporting our project. Your support will help us continue to develop this website, promote privacy-respecting tools and services, and reach out to thousands of data privacy newcomers every month. Also, your company's logo will show on GitHub and [our site](https://www.privacytools.io/sponsors/), and who doesn't like a little extra exposure?
 
-[![](https://opencollective.com/privacytools/tiers/gold.svg?avatarHeight=64&width=890&button=false)](https://opencollective.com/privacytools/contribute/gold-12312)
-[![](https://opencollective.com/privacytools/tiers/silver.svg?avatarHeight=64&width=890&button=false)](https://opencollective.com/privacytools/contribute/silver-12311)
-
 ## Community Translations
 - [繁体中文 / Chinese](https://privacytools.twngo.xyz/) - [GitHub](https://github.com/twngo/privacytools-zh)
 - [Español / Spanish](https://victorhck.gitlab.io/privacytools-es/) - [GitLab](https://gitlab.com/victorhck/privacytools-es)
