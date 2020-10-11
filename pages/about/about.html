@@ -25,21 +25,8 @@ hidedesc: true
     <h2>Team Members</h2>
   </div>
 </div>
-
+  
 <div class="row">
-{% include team.html
-avatar="jonah.png"
-name="Jonah Aragon"
-role="Administrator"
-bio="I run the website and services for PrivacyTools. My goal is to spread the word about data privacy as widely as possible."
-email="mailto:jonah@privacytools.io"
-website="https://www.jonaharagon.com"
-keys="https://keybase.io/jonaharagon"
-mastodon="https://social.privacytools.io/@jonah"
-twitter="JonahAragon"
-blog="jonah"
-%}
-
 {% include team.html
 avatar="burung.png"
 name="Burung Hantu"
@@ -150,6 +137,14 @@ nick="nitrohorse"
 website="https://nitrohorse.com/"
 keys="https://nitrohorse.com/keys"
 blog="nitrohorse"
+emeritus=true
+%}
+  
+ {% include team.html
+name="Jonah Aragon"
+website="https://www.jonaharagon.com"
+keys="https://keybase.io/jonaharagon"
+blog="jonah"
 emeritus=true
 %}
 </div>
