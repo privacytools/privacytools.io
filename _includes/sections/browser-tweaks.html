@@ -52,15 +52,13 @@
 
   <dt>network.cookie.cookieBehavior = 1</dt>
   <dd>
-  Disable cookies
+  Disable cookies. 2 is likely to break some sites. 4 is the default default. 1 is more strict than 4.
   <ul>
-    <li>0 = Accept all cookies by default</li>
     <li>1 = Only accept from the originating site (block third-party cookies)</li>
     <li>2 = Block all cookies by default</li>
+    <li>4 = Block Cross-site and social media trackers</li>
   </ul>
   </dd>
-
-
 
   <dt>network.http.referer.XOriginPolicy = 2</dt>
   <dd>
