@@ -538,97 +538,113 @@ We also log how many times this or that tracker has been blocked. We need this i
 </h1>
 
 {%
-	include cardv2.html
-	title="Unbound"
-	image="/assets/img/svg/3rd-party/unbound.svg"
-	description='A validating, recursive, caching DNS resolver, supporting DNS-over-TLS, and has been <a href="https://ostif.org/our-audit-of-unbound-dns-by-x41-d-sec-full-results/">independently audited</a>.'
-	website="https://nlnetlabs.nl/projects/unbound/about/"
-	forum="https://forum.privacytools.io/t/discussion-unbound/3563"
-	github="https://github.com/NLnetLabs/unbound"
+  include cardv2.html
+  title="Unbound"
+  image="/assets/img/svg/3rd-party/unbound.svg"
+  description='A validating, recursive, caching DNS resolver, supporting DNS-over-TLS, and has been <a href="https://ostif.org/our-audit-of-unbound-dns-by-x41-d-sec-full-results/">independently audited</a>.'
+  website="https://nlnetlabs.nl/projects/unbound/about/"
+  forum="https://forum.privacytools.io/t/discussion-unbound/3563"
+  github="https://github.com/NLnetLabs/unbound"
 %}
 
 {%
-	include cardv2.html
-	title="dnscrypt-proxy"
-	image="/assets/img/svg/3rd-party/dnscrypt-proxy.svg"
-	description='A DNS proxy with support for DNSCrypt, DNS-over-HTTPS, and <a href="https://github.com/DNSCrypt/dnscrypt-protocol/blob/master/ANONYMIZED-DNSCRYPT.txt">Anonymized DNSCrypt</a>, a <a href="https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS">relay-based protocol that the hides client IP address.</a>'
-	website="https://github.com/DNSCrypt/dnscrypt-proxy/wiki"
-	forum="https://forum.privacytools.io/t/discussion-dnscrypt-proxy/1498"
-	github="https://github.com/DNSCrypt/dnscrypt-proxy"
+  include cardv2.html
+  title="dnscrypt-proxy"
+  image="/assets/img/svg/3rd-party/dnscrypt-proxy.svg"
+  description='A DNS proxy with support for DNSCrypt, DNS-over-HTTPS, and <a href="https://github.com/DNSCrypt/dnscrypt-protocol/blob/master/ANONYMIZED-DNSCRYPT.txt">Anonymized DNSCrypt</a>, a <a href="https://github.com/DNSCrypt/dnscrypt-proxy/wiki/Anonymized-DNS">relay-based protocol that the hides client IP address.</a>'
+  website="https://github.com/DNSCrypt/dnscrypt-proxy/wiki"
+  forum="https://forum.privacytools.io/t/discussion-dnscrypt-proxy/1498"
+  github="https://github.com/DNSCrypt/dnscrypt-proxy"
 %}
 
 {%
-	include cardv2.html
-	title="Stubby"
-	image="/assets/img/png/3rd-party/stubby.png"
-	description='An application that acts as a local DNS-over-TLS stub resolver. Stubby can be used in <a href="https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Clients#DNSPrivacyClients-Unbound/Stubbycombination">combination with Unbound</a> by managing the upstream TLS connections (since Unbound cannot yet re-use TCP/TLS connections) with Unbound providing a local cache.'
-	website="https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby"
-	forum="https://forum.privacytools.io/t/discussion-stubby/3582"
-	github="https://github.com/getdnsapi/stubby"
+  include cardv2.html
+  title="Stubby"
+  image="/assets/img/png/3rd-party/stubby.png"
+  description='An application that acts as a local DNS-over-TLS stub resolver. Stubby can be used in <a href="https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Clients#DNSPrivacyClients-Unbound/Stubbycombination">combination with Unbound</a> by managing the upstream TLS connections (since Unbound cannot yet re-use TCP/TLS connections) with Unbound providing a local cache.'
+  website="https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby"
+  forum="https://forum.privacytools.io/t/discussion-stubby/3582"
+  github="https://github.com/getdnsapi/stubby"
 %}
 
 {%
-	include cardv2.html
-	title="Firefox's built-in DNS-over-HTTPS resolver"
-	image="/assets/img/svg/3rd-party/firefox_browser.svg"
-	description='Firefox comes with built-in DNS-over-HTTPS support for <a href="https://blog.mozilla.org/blog/2020/02/25/firefox-continues-push-to-bring-dns-over-https-by-default-for-us-users/">NextDNS and Cloudflare</a> but users can manually any other DoH resolver.'
-	labels="color==warning::icon==fas fa-exclamation-triangle::link==https://developers.cloudflare.com/1.1.1.1/privacy/firefox::text==Warning::tooltip==Cloudflare logs a limited amount of data about the DNS requests that are sent to their custom resolver for Firefox."
-	website="https://support.mozilla.org/en-US/kb/firefox-dns-over-https"
-	privacy-policy="https://wiki.mozilla.org/Security/DOH-resolver-policy"
-	forum="https://forum.privacytools.io/t/discussion-firefox-s-built-in-dns-over-https-resolver/3564"
+  include cardv2.html
+  title="Firefox's built-in DNS-over-HTTPS resolver"
+  image="/assets/img/svg/3rd-party/firefox_browser.svg"
+  description='Firefox comes with built-in DNS-over-HTTPS support for <a href="https://blog.mozilla.org/blog/2020/02/25/firefox-continues-push-to-bring-dns-over-https-by-default-for-us-users/">NextDNS and Cloudflare</a> but users can manually any other DoH resolver.'
+  labels="color==warning::icon==fas fa-exclamation-triangle::link==https://developers.cloudflare.com/1.1.1.1/privacy/firefox::text==Warning::tooltip==Cloudflare logs a limited amount of data about the DNS requests that are sent to their custom resolver for Firefox."
+  website="https://support.mozilla.org/en-US/kb/firefox-dns-over-https"
+  privacy-policy="https://wiki.mozilla.org/Security/DOH-resolver-policy"
+  forum="https://forum.privacytools.io/t/discussion-firefox-s-built-in-dns-over-https-resolver/3564"
 %}
 
 <h1 id="dns-android-clients" class="anchor">
-	<a href="#dns-android-clients">
-		<i class="fas fa-link anchor-icon"></i>
-	</a> Encrypted DNS Client Recommendations for Android
+  <a href="#dns-android-clients">
+    <i class="fas fa-link anchor-icon"></i>
+  </a> Encrypted DNS Client Recommendations for Android
 </h1>
 
 {%
-	include cardv2.html
-	title="Android 9's built-in DNS-over-TLS resolver"
-	image="/assets/img/svg/3rd-party/android.svg"
-	description="Android 9 (Pie) comes with built-in DNS-over-TLS support without the need for a 3rd-party application."
-	labels="color==warning::icon==fas fa-exclamation-triangle::link==https://developers.google.com/speed/public-dns/docs/using#android_9_pie_or_later::text==Warning::tooltip==Android 9's DoT settings have no effect when used concurrently with VPN-based apps which override the DNS."
-	website="https://support.google.com/android/answer/9089903#private_dns"
-	forum="https://forum.privacytools.io/t/discussion-android-9s-built-in-dns-over-tls-resolver/3562"
+  include cardv2.html
+  title="Android 9's built-in DNS-over-TLS resolver"
+  image="/assets/img/svg/3rd-party/android.svg"
+  description="Android 9 (Pie) comes with built-in DNS-over-TLS support without the need for a 3rd-party application."
+  labels="color==warning::icon==fas fa-exclamation-triangle::link==https://developers.google.com/speed/public-dns/docs/using#android_9_pie_or_later::text==Warning::tooltip==Android 9's DoT settings have no effect when used concurrently with VPN-based apps which override the DNS."
+  website="https://support.google.com/android/answer/9089903#private_dns"
+  forum="https://forum.privacytools.io/t/discussion-android-9s-built-in-dns-over-tls-resolver/3562"
 %}
 
 {%
-	include cardv2.html
-	title="Nebulo"
-	image="/assets/img/png/3rd-party/nebulo.png"
-	description='An open-source Android client supporting DNS-over-HTTPS and DNS-over-TLS, caching DNS responses, and locally logging DNS queries.'
-	website="https://git.frostnerd.com/PublicAndroidApps/smokescreen/-/blob/master/README.md"
-	privacy-policy="https://smokescreen.app/privacypolicy"
-	forum="https://forum.privacytools.io/t/discussion-nebulo/3565"
-	fdroid="https://git.frostnerd.com/PublicAndroidApps/smokescreen#f-droid"
-	googleplay="https://play.google.com/store/apps/details?id=com.frostnerd.smokescreen"
-	source="https://git.frostnerd.com/PublicAndroidApps/smokescreen"
+  include cardv2.html
+  title="Nebulo"
+  image="/assets/img/png/3rd-party/nebulo.png"
+  description='An open-source Android client supporting DNS-over-HTTPS and DNS-over-TLS, caching DNS responses, and locally logging DNS queries.'
+  website="https://git.frostnerd.com/PublicAndroidApps/smokescreen/-/blob/master/README.md"
+  privacy-policy="https://smokescreen.app/privacypolicy"
+  forum="https://forum.privacytools.io/t/discussion-nebulo/3565"
+  fdroid="https://git.frostnerd.com/PublicAndroidApps/smokescreen#f-droid"
+  googleplay="https://play.google.com/store/apps/details?id=com.frostnerd.smokescreen"
+  source="https://git.frostnerd.com/PublicAndroidApps/smokescreen"
 %}
 
 <h1 id="dns-ios-clients" class="anchor">
-	<a href="#dns-ios-clients">
-		<i class="fas fa-link anchor-icon"></i>
-	</a> Encrypted DNS Client Recommendations for iOS
+  <a href="#dns-ios-clients">
+    <i class="fas fa-link anchor-icon"></i>
+  </a> Encrypted DNS Client Recommendations for iOS
 </h1>
 
 {%
-	include cardv2.html
-	title="DNSCloak"
-	image="/assets/img/png/3rd-party/dnscloak.png"
-	description='An open-source iOS client supporting DNS-over-HTTPS, DNSCrypt, and <a href="https://github.com/DNSCrypt/dnscrypt-proxy/wiki">dnscrypt-proxy</a> options such as caching DNS responses, locally logging DNS queries, and custom block lists. Users can <a href="https://blog.privacytools.io/adding-custom-dns-over-https-resolvers-to-dnscloak/">add custom resolvers by DNS stamp</a>.'
-	website="https://github.com/s-s/dnscloak/blob/master/README.md"
-	privacy-policy="https://drive.google.com/file/d/1050No_pU74CAWUS5-BwQWyO2x_aiMzWc/view"
-	forum="https://forum.privacytools.io/t/discussion-dnscloak/3566"
-	ios="https://apps.apple.com/app/id1452162351"
-	github="https://github.com/s-s/dnscloak"
+  include cardv2.html
+  title="DNSCloak"
+  image="/assets/img/png/3rd-party/dnscloak.png"
+  description='An open-source iOS client supporting DNS-over-HTTPS, DNSCrypt, and <a href="https://github.com/DNSCrypt/dnscrypt-proxy/wiki">dnscrypt-proxy</a> options such as caching DNS responses, locally logging DNS queries, and custom block lists. Users can <a href="https://blog.privacytools.io/adding-custom-dns-over-https-resolvers-to-dnscloak/">add custom resolvers by DNS stamp</a>.'
+  website="https://github.com/s-s/dnscloak/blob/master/README.md"
+  privacy-policy="https://drive.google.com/file/d/1050No_pU74CAWUS5-BwQWyO2x_aiMzWc/view"
+  forum="https://forum.privacytools.io/t/discussion-dnscloak/3566"
+  ios="https://apps.apple.com/app/id1452162351"
+  github="https://github.com/s-s/dnscloak"
 %}
 
+<h2 id="appledns" class="anchor">
+  <a href="#appledns">
+    <i class="fas fa-link anchor-icon"></i>
+  </a>Apple's native support
+</h2>
+
+<p>
+  In iOS, iPadOS, tvOS 14 and macOS 11, DoT and DoH were introduced. DoT and DoH are supported natively by installation of profiles (through mobileconfig files opened in <em>Safari</em>).
+  After installation, the encrypted DNS server can be selected in <em>Settings &rarr; General &rarr; VPN and Network &rarr; DNS</em>.
+</p>
+
+<ul>
+  <li><strong>Signed profiles</strong> are offered by <a href="https://adguard.com/en/blog/encrypted-dns-ios-14.html">AdGuard</a> and <a href="https://apple.nextdns.io/">NextDNS</a>.</li>
+  <li>User contributed <strong>unsigned profiles</strong> for several DNS providers are hosted by <a href="https://encrypted-dns.party/">encrypted-dns.party</a>.</li>
+</ul>
+
 <h2 id="dns-definitions" class="anchor">
-	<a href="#dns-definitions">
-		<i class="fas fa-link anchor-icon"></i>
-	</a> Definitions
+  <a href="#dns-definitions">
+    <i class="fas fa-link anchor-icon"></i>
+  </a> Definitions
 </h2>
 
 <h4>DNS-over-TLS (DoT)</h4>
