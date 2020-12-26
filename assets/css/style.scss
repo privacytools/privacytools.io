@@ -408,7 +408,7 @@ input#nav-toggle,
 }
 
 /* Vanilla CSS implementation for tooltip */
-[data-toggle="tooltip"] {
+[data-toggle="tooltip"]:hover {
   cursor: pointer;
   position: relative;
   z-index: 1337;
@@ -435,6 +435,7 @@ input#nav-toggle,
   padding: 7px;
   position: absolute;
   text-align: center;
+  white-space: break-spaces;
   width: 200px;
 }
 
