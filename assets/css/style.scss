@@ -408,9 +408,12 @@ input#nav-toggle,
 }
 
 /* Vanilla CSS implementation for tooltip */
-[data-toggle="tooltip"]:hover {
+[data-toggle="tooltip"] {
   cursor: pointer;
   position: relative;
+}
+
+[data-toggle="tooltip"]:hover {
   z-index: 1337;
 }
 
@@ -428,6 +431,7 @@ input#nav-toggle,
   content: attr(data-original-title);
   color: #fff;
   font-size: 14px;
+  font-weight: normal;
   left: 50%;
   line-height: 1.2;
   margin-bottom: 5px;
@@ -436,7 +440,6 @@ input#nav-toggle,
   position: absolute;
   text-align: center;
   white-space: break-spaces;
-  font-weight: normal;
   width: 200px;
 }
 
