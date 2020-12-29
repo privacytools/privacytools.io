@@ -1,0 +1,64 @@
+<h1 id="easy_tweaks" class="anchor"><a href="#easy_tweaks"><i class="fas fa-link anchor-icon"></i></a> Firefox: Easy Privacy Enhancing Tweaks</h1>
+
+<div class="alert alert-success" role="alert">With <a href="https://blog.mozilla.org/blog/2020/08/04/latest-firefox-rolls-out-enhanced-tracking-protection-2-0-blocking-redirect-trackers-by-default/">Enhanced Tracking Protection (ETP)</a> that Firefox offers, you can <a href="https://blog.mozilla.org/blog/2019/09/03/todays-firefox-blocks-third-party-tracking-cookies-and-cryptomining-by-default/">control cookies</a> and data saved on your device.</div>
+
+<h2>Enhanced Tracking Protection</h2>
+<p>ETP can be made more strict by clicking on the main menu (or Edit) and then <strong>Preferences</strong>. From the side menu select <strong>&#128274; Privacy &amp; Security</strong>.</p>
+
+<p>We recommend that <strong>All third-party cookies</strong> be blocked. The only pages likely to break under this configuration are <a href="https://en.wikipedia.org/wiki/Social_login">social logins</a> (i.e. authentication with services using your Google, Facebook account etc). Social logins are terrible for privacy and they link all services you use to a single identity, that is mostly used for advertising purposes, such as targeted advertising.
+
+<p>When you use a social login you also run the risk of being locked out of services you use, if you lose access to the account. We recommend creating <strong>individual accounts</strong> with <strong>separate passwords</strong>. Passwords can be managed with a <a href="software/passwords/">Password Manager</a>.</p>
+
+For more information about <a href="https://support.mozilla.org/kb/trackers-and-scripts-firefox-blocks-enhanced-track">Enhanced Tracking Protection</a>, see Mozilla's for <a href="https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-desktop">Desktop</a> and <a href="https://support.mozilla.org/kb/enhanced-tracking-protection-firefox-android">Android</a>.
+
+The only suggestion we would make is to switch from <strong>standard</strong> to <strong>custom</strong> with the configuration listed below.
+
+<h5>Custom</h5>
+<ul class="checkmark">
+  <li><img src="/assets/img/svg/etp/3rdpartycookies-disabled.svg"
+       class="mx-3" width="15" height="15"
+       title="3rd Party Cookies disabled"
+       alt="3rd Party Cookies disabled">
+    Cookies: <strong>All third-party cookies (may cause websites to break)</strong>
+  </li>
+  <li><img src="/assets/img/svg/etp/tracker-image-disabled.svg"
+       class="mx-3" width="15" height="15"
+       title="Tracking content disabled"
+       alt="Tracking content disabled">
+    Tracking content: <strong> In all windows</strong>
+  </li>
+  <li><img src="/assets/img/svg/etp/cryptominers-disabled.svg"
+       class="mx-3" width="15" height="15"
+       title="Cryptominers disabled"
+       alt="Cryptominers disabled">
+    Cryptominers
+  </li>
+  <li><img src="/assets/img/svg/etp/fingerprinters-disabled.svg"
+       class="mx-3" width="15" height="15"
+       title="Fingerprinters disabled"
+       alt="Fingerprinters disabled">
+    Fingerprinters
+  </li>
+</ul>
+
+<p>The <strong>strict</strong> setting will only block known cross-site and/or social media trackers. This may still let through third party cookies that can be used for tracking.</p>
+
+<h2>Firefox sessions and saved data</h2>
+<p>We also suggest clearing history, and persistent data upon close of your browser. If you wish to remain logged in for some websites we suggest <a href="https://support.mozilla.org/kb/block-websites-storing-cookies-site-data-firefox">setting some exceptions</a>. For desktop users we suggest using the <a href="/browsers/#psaddons">Persistent storage management</a> addons.</p>
+
+<h5>History</h5>
+Firefox will <strong>Use custom settings for history</strong>
+<ul class="checkmark">
+  <li>Remember browsing and download history</li>
+  <li>Clear history when Firefox closes</li><br>
+  Next select <strong>Settings&#8230;</strong> the <strong>Settings for Clearing History</strong> will load. Make sure there is a checkmark next to each item:
+  <ul class="checkmark">
+    <li>Browsing &amp; Download History</li>
+    <li>Active Logins</li>
+    <li>Form &amp; Search History</li>
+    <li>Cookies</li>
+    <li>Cache</li>
+    <li>Data</li>
+    <li>Offline Website Data</li>
+  </ul>
+</ul>
