@@ -1,33 +1,38 @@
-if (window.location == 'https://www.privacytools.io/#ukusa') {	window.location = 'https://www.privacytools.io/providers/';}
-if (window.location == 'https://www.privacytools.io/#vpn') {	window.location = 'https://www.privacytools.io/providers/vpn/';}
-if (window.location == 'https://www.privacytools.io/#email') {	window.location = 'https://www.privacytools.io/providers/email/';}
-if (window.location == 'https://www.privacytools.io/#cloud') {	window.location = 'https://www.privacytools.io/providers/cloud-storage/';}
-if (window.location == 'https://www.privacytools.io/#social') {	window.location = 'https://www.privacytools.io/providers/social-networks/';}
-if (window.location == 'https://www.privacytools.io/#dns') {	window.location = 'https://www.privacytools.io/providers/dns/';}
-if (window.location == 'https://www.privacytools.io/#search') {	window.location = 'https://www.privacytools.io/providers/search-engines/';}
-if (window.location == 'https://www.privacytools.io/#host') {	window.location = 'https://www.privacytools.io/providers/hosting/';}
-if (window.location == 'https://www.privacytools.io/#paste') {	window.location = 'https://www.privacytools.io/providers/paste';}
-if (window.location == 'https://www.privacytools.io/#browser') {	window.location = 'https://www.privacytools.io/browsers/';}
-if (window.location == 'https://www.privacytools.io/#fingerprint') {	window.location = 'https://www.privacytools.io/browsers/#fingerprint';}
-if (window.location == 'https://www.privacytools.io/#webrtc') {	window.location = 'https://www.privacytools.io/browsers/#webrtc';}
-if (window.location == 'https://www.privacytools.io/#addons') {	window.location = 'https://www.privacytools.io/browsers/#addons';}
-if (window.location == 'https://www.privacytools.io/#about_config') {	window.location = 'https://www.privacytools.io/browsers/#about_config';}
-if (window.location == 'https://www.privacytools.io/#clients') {	window.location = 'https://www.privacytools.io/software/email/';}
-if (window.location == 'https://www.privacytools.io/#messaging') {	window.location = 'https://www.privacytools.io/software/email/#messaging';}
-if (window.location == 'https://www.privacytools.io/#im') {	window.location = 'https://www.privacytools.io/software/im/';}
-if (window.location == 'https://www.privacytools.io/#voip') {	window.location = 'https://www.privacytools.io/software/voip/';}
-if (window.location == 'https://www.privacytools.io/#filesharing') {	window.location = 'https://www.privacytools.io/software/file-sharing/';}
-if (window.location == 'https://www.privacytools.io/#mycloud') {	window.location = 'https://www.privacytools.io/software/cloud/';}
-if (window.location == 'https://www.privacytools.io/#sync') {	window.location = 'https://www.privacytools.io/software/file-sync/';}
-if (window.location == 'https://www.privacytools.io/#pw') {	window.location = 'https://www.privacytools.io/software/passwords/';}
-if (window.location == 'https://www.privacytools.io/#calendar_contacts') {	window.location = 'https://www.privacytools.io/software/calendar-contacts/';}
-if (window.location == 'https://www.privacytools.io/#encrypt') {	window.location = 'https://www.privacytools.io/software/encryption-tools/';}
-if (window.location == 'https://www.privacytools.io/#darknets') {	window.location = 'https://www.privacytools.io/software/networks/';}
-if (window.location == 'https://www.privacytools.io/#notebook') {	window.location = 'https://www.privacytools.io/software/notebooks/';}
-if (window.location == 'https://www.privacytools.io/#productivity') {	window.location = 'https://www.privacytools.io/software/productivity/';}
-if (window.location == 'https://www.privacytools.io/#os') {	window.location = 'https://www.privacytools.io/operating-systems/';}
-if (window.location == 'https://www.privacytools.io/#live_os') {	window.location = 'https://www.privacytools.io/operating-systems/#live_os';}
-if (window.location == 'https://www.privacytools.io/#mobile_os') {	window.location = 'https://www.privacytools.io/operating-systems/#mobile_os';}
-if (window.location == 'https://www.privacytools.io/#aaddons') {	window.location = 'https://www.privacytools.io/operating-systems/#aaddons';}
-if (window.location == 'https://www.privacytools.io/#firmware') {	window.location = 'https://www.privacytools.io/operating-systems/#firmware';}
-if (window.location == 'https://www.privacytools.io/#win10') {	window.location = 'https://www.privacytools.io/operating-systems/#win10';}
+const redirectLinks = {
+    'https://www.privacytools.io/#ukusa': 'https://www.privacytools.io/providers/',
+    'https://www.privacytools.io/#vpn': 'https://www.privacytools.io/providers/vpn/',
+    'https://www.privacytools.io/#email': 'https://www.privacytools.io/providers/email/',
+    'https://www.privacytools.io/#cloud': 'https://www.privacytools.io/providers/cloud-storage/',
+    'https://www.privacytools.io/#social': 'https://www.privacytools.io/providers/social-networks/',
+    'https://www.privacytools.io/#dns': 'https://www.privacytools.io/providers/dns/',
+    'https://www.privacytools.io/#search': 'https://www.privacytools.io/providers/search-engines/',
+    'https://www.privacytools.io/#host': 'https://www.privacytools.io/providers/hosting/',
+    'https://www.privacytools.io/#paste': 'https://www.privacytools.io/providers/paste',
+    'https://www.privacytools.io/#browser': 'https://www.privacytools.io/browsers/',
+    'https://www.privacytools.io/#fingerprint': 'https://www.privacytools.io/browsers/#fingerprint',
+    'https://www.privacytools.io/#webrtc': 'https://www.privacytools.io/browsers/#webrtc',
+    'https://www.privacytools.io/#addons': 'https://www.privacytools.io/browsers/#addons',
+    'https://www.privacytools.io/#about_config': 'https://www.privacytools.io/browsers/#about_config',
+    'https://www.privacytools.io/#clients': 'https://www.privacytools.io/software/email/',
+    'https://www.privacytools.io/#messaging': 'https://www.privacytools.io/software/email/#messaging',
+    'https://www.privacytools.io/#im': 'https://www.privacytools.io/software/im/',
+    'https://www.privacytools.io/#voip': 'https://www.privacytools.io/software/voip/',
+    'https://www.privacytools.io/#filesharing': 'https://www.privacytools.io/software/file-sharing/',
+    'https://www.privacytools.io/#mycloud': 'https://www.privacytools.io/software/cloud/',
+    'https://www.privacytools.io/#sync': 'https://www.privacytools.io/software/file-sync/',
+    'https://www.privacytools.io/#pw': 'https://www.privacytools.io/software/passwords/',
+    'https://www.privacytools.io/#calendar_contacts': 'https://www.privacytools.io/software/calendar-contacts/',
+    'https://www.privacytools.io/#encrypt': 'https://www.privacytools.io/software/encryption-tools/',
+    'https://www.privacytools.io/#darknets': 'https://www.privacytools.io/software/networks/',
+    'https://www.privacytools.io/#notebook': 'https://www.privacytools.io/software/notebooks/',
+    'https://www.privacytools.io/#productivity': 'https://www.privacytools.io/software/productivity/',
+    'https://www.privacytools.io/#os': 'https://www.privacytools.io/operating-systems/',
+    'https://www.privacytools.io/#live_os': 'https://www.privacytools.io/operating-systems/#live_os',
+    'https://www.privacytools.io/#mobile_os': 'https://www.privacytools.io/operating-systems/#mobile_os',
+    'https://www.privacytools.io/#aaddons': 'https://www.privacytools.io/operating-systems/#aaddons',
+    'https://www.privacytools.io/#firmware': 'https://www.privacytools.io/operating-systems/#firmware',
+    'https://www.privacytools.io/#win10': 'https://www.privacytools.io/operating-systems/#win10'
+}
+if (redirectLinks[window.location]) {
+    window.location = redirectLinks[window.location];
+}
