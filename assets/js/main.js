@@ -5,11 +5,6 @@ document.querySelectorAll(".onclick-select").forEach((element) => {
 // Navbar dropdowns
 const navSections = document.querySelectorAll(".nav-details");
 
-navSections.forEach(navSection => {
-  navSection.addEventListener("toggle", navSectionsToggle);
-});
-document.addEventListener("click", navSectionsClose);
-
 const navSectionsToggle = () => {
   // When opening next dropdown, hide previous
   if (this.open) {
@@ -20,6 +15,12 @@ const navSectionsToggle = () => {
     });
   }
 }
+
+navSections.forEach(navSection => {
+  navSection.addEventListener("toggle", navSectionsToggle);
+});
+document.addEventListener("click", navSectionsClose);
+
 
 const navSectionsClose = (event) => {
   // Hide all dropdowns when clicking in different place
