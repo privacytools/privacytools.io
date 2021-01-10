@@ -16,12 +16,6 @@ const navSectionsToggle = () => {
   }
 }
 
-navSections.forEach(navSection => {
-  navSection.addEventListener("toggle", navSectionsToggle);
-});
-document.addEventListener("click", navSectionsClose);
-
-
 const navSectionsClose = (event) => {
   // Hide all dropdowns when clicking in different place
   if (
@@ -34,6 +28,11 @@ const navSectionsClose = (event) => {
   });
 }
 
+
+navSections.forEach(navSection => {
+  navSection.addEventListener("toggle", navSectionsToggle);
+});
+document.addEventListener("click", navSectionsClose);
 
 // Dark/Light color scheme switch button
 document.querySelector("#nav-switch-theme").style.display = "inline";
