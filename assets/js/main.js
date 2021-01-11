@@ -5,11 +5,11 @@ document.querySelectorAll(".onclick-select").forEach((element) => {
 // Navbar dropdowns
 const navSections = document.querySelectorAll(".nav-details");
 
-const navSectionsToggle = () => {
+const navSectionsToggle = (event) => {
   // When opening next dropdown, hide previous
-  if (this.open) {
+  if (event.target.open) {
     navSections.forEach((navSection) => {
-      if (navSection != this && navSection.open) {
+      if (navSection != event.target && navSection.open) {
         navSection.open = !open;
       }
     });
@@ -28,15 +28,14 @@ const navSectionsClose = (event) => {
   });
 }
 
-
-navSections.forEach(navSection => {
-  navSection.addEventListener("toggle", navSectionsToggle);
-});
-document.addEventListener("click", navSectionsClose);
-
-// Dark/Light color scheme switch button
-document.querySelector("#nav-switch-theme").style.display = "inline";
-document.querySelector("#nav-switch-theme").addEventListener("click", changeColorScheme);
+// Fix images in dark theme
+function fixThemeImages() {
+  document.querySelectorAll('[data-theme-src]').forEach((image) => {
+    const tempSrc = image.src;
+    image.src = image.getAttribute("data-theme-src");
+    image.setAttribute("data-theme-src", tempSrc);
+  });
+}
 
 const changeColorScheme = () => {
   // Use whatever users want
@@ -76,15 +75,15 @@ const changeColorScheme = () => {
   fixThemeImages();
 }
 
+navSections.forEach(navSection => {
+  navSection.addEventListener("toggle", navSectionsToggle);
+});
+document.addEventListener("click", navSectionsClose);
 
-// Fix images in dark theme
-function fixThemeImages() {
-  document.querySelectorAll('[data-theme-src]').forEach((image) => {
-    const tempSrc = image.src;
-    image.src = image.getAttribute("data-theme-src");
-    image.setAttribute("data-theme-src", tempSrc);
-  });
-}
+// Dark/Light color scheme switch button
+document.querySelector("#nav-switch-theme").style.display = "inline";
+document.querySelector("#nav-switch-theme").addEventListener("click", changeColorScheme);
+
 if (localStorage.getItem("colorScheme") === "dark" ||
     window.matchMedia("(prefers-color-scheme: dark)").matches ^
     localStorage.getItem("colorScheme") === "light"
