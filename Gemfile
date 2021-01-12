@@ -1,12 +1,10 @@
 source "https://rubygems.org"
 
 # Install github-pages gem (https://jekyllrb.com/docs/github-pages/)
-gem "github-pages", group: :jekyll_plugins
+gem "github-pages"
 
-# Plugins
-group :jekyll_plugins do
-  # example: gem "jekyll-feed", "~> 0.6"
-end
+# Install jekyll-brotli gem (https://github.com/philnash/jekyll-brotli/)
+gem 'jekyll-brotli'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
