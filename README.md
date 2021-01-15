@@ -23,7 +23,10 @@ If you want to discuss privacy in general, a new tool, or just something else, f
 
 ## Developing
 
-1. Install the latest stable version of [Ruby](https://www.ruby-lang.org/en/downloads/).
+1. Install the version of [Ruby](https://www.ruby-lang.org/en/downloads/) currently specified by [`.ruby-version`](.ruby-version)
+	* With [rbenv](https://github.com/rbenv/rbenv) (**recommended!**): `rbenv install`
+	* With [RVM](https://rvm.io): `rvm install "ruby-$(cat .ruby-version)"`
+	* [Manually](https://www.ruby-lang.org/en/downloads/)
 1. Install [Bundler](https://bundler.io/) v2.0.1:
 	* `gem install bundler -v 2.0.1`
 1. Install the required dependencies:
