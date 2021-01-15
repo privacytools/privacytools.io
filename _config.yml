@@ -6,7 +6,9 @@ production_url: "https://www.privacytools.io"
 sass:
   style: compressed
 plugins:
+  - github-pages
   - jekyll-sitemap
+  - jekyll-brotli
 sitemap:
 file: "/sitemap.xml"
 include: [".well-known"]
