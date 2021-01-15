@@ -27,8 +27,8 @@ If you want to discuss privacy in general, a new tool, or just something else, f
 	* With [rbenv](https://github.com/rbenv/rbenv) (**recommended!**): `rbenv install`
 	* With [RVM](https://rvm.io): `rvm install "ruby-$(cat .ruby-version)"`
 	* [Manually](https://www.ruby-lang.org/en/downloads/)
-1. Install [Bundler](https://bundler.io/) v2.0.1:
-	* `gem install bundler -v 2.0.1`
+1. Install [Bundler](https://bundler.io/) v2.2.5:
+	* `gem install bundler:2.2.5`
 1. Install the required dependencies:
 	* `bundle install`
 1. Build the website (the output can be found in the `_site` directory):
