@@ -1,47 +1,47 @@
-document.querySelectorAll(".onclick-select").forEach(element => {
+document.querySelectorAll(".onclick-select").forEach((element) => {
   element.addEventListener("click", element.select);
 });
-
 
 // Navbar dropdowns
 const navSections = document.querySelectorAll(".nav-details");
 
-navSections.forEach(navSection => {
-  navSection.addEventListener("toggle", navSectionsToggle);
-});
-document.addEventListener("click", navSectionsClose);
-
-function navSectionsToggle() {
+const navSectionsToggle = (event) => {
   // When opening next dropdown, hide previous
-  if (this.open) {
-    navSections.forEach(navSection => {
-      if (navSection != this && navSection.open) navSection.open = !open;
+  if (event.target.open) {
+    navSections.forEach((navSection) => {
+      if (navSection != event.target && navSection.open) {
+        navSection.open = !open;
+      }
     });
   }
 }
 
-function navSectionsClose(event) {
+const navSectionsClose = (event) => {
   // Hide all dropdowns when clicking in different place
   if (
     event.target.matches(".nav-summary") ||
     event.target.parentNode.matches(".nav-summary")
   )
     return;
-  navSections.forEach(navSection => {
+  navSections.forEach((navSection) => {
     navSection.open = !open;
   });
 }
 
+// Fix images in dark theme
+function fixThemeImages() {
+  document.querySelectorAll('[data-theme-src]').forEach((image) => {
+    const tempSrc = image.src;
+    image.src = image.getAttribute("data-theme-src");
+    image.setAttribute("data-theme-src", tempSrc);
+  });
+}
 
-// Dark/Light color scheme switch button
-document.querySelector("#nav-switch-theme").style.display = "inline";
-document.querySelector("#nav-switch-theme").addEventListener("click", changeColorScheme);
-
-function changeColorScheme() {
+const changeColorScheme = () => {
   // Use whatever users want
   if (localStorage.getItem("colorScheme") === "dark") {
     // Change to light theme
-    if (window.matchMedia("(prefers-color-scheme: dark)").matches === false) {
+    if (!window.matchMedia("(prefers-color-scheme: dark)").matches) {
       document.querySelector("#dark-css").setAttribute("media", "(prefers-color-scheme: dark)");
       localStorage.removeItem("colorScheme");
     } else {
@@ -52,7 +52,7 @@ function changeColorScheme() {
   }
   // Change to dark theme
   else if (localStorage.getItem("colorScheme") === "light") {
-    if (window.matchMedia("(prefers-color-scheme: dark)").matches === true) {
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
       document.querySelector("#dark-css").setAttribute("media", "(prefers-color-scheme: dark)");
       localStorage.removeItem("colorScheme");
     } else {
@@ -63,7 +63,7 @@ function changeColorScheme() {
   }
 
   // Just use whatever browsers want
-  else if (window.matchMedia("(prefers-color-scheme: dark)").matches === true) {
+  else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
     // Change to light Theme
     document.querySelector("#dark-css").setAttribute("media", "invalid");
     localStorage.setItem("colorScheme", "light");
@@ -75,19 +75,18 @@ function changeColorScheme() {
   fixThemeImages();
 }
 
+navSections.forEach(navSection => {
+  navSection.addEventListener("toggle", navSectionsToggle);
+});
+document.addEventListener("click", navSectionsClose);
 
-// Fix images in dark theme
-function fixThemeImages() {
-  document.querySelectorAll('[data-theme-src]').forEach(function(image) {
-    tempSrc = image.src;
-    image.src = image.getAttribute("data-theme-src");
-    image.setAttribute("data-theme-src", tempSrc);
-  });
-}
-if (
-  (localStorage.getItem("colorScheme") === "dark") ||
-  (window.matchMedia("(prefers-color-scheme: dark)").matches ^
-    localStorage.getItem("colorScheme") === "light")
-) {
+// Dark/Light color scheme switch button
+document.querySelector("#nav-switch-theme").style.display = "inline";
+document.querySelector("#nav-switch-theme").addEventListener("click", changeColorScheme);
+
+if (localStorage.getItem("colorScheme") === "dark" ||
+    window.matchMedia("(prefers-color-scheme: dark)").matches ^
+    localStorage.getItem("colorScheme") === "light"
+ ) {
   fixThemeImages();
 }
