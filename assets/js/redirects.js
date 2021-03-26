@@ -29,5 +29,6 @@ if (window.location == 'https://www.privacytools.io/#os') {	window.location = 'h
 if (window.location == 'https://www.privacytools.io/#live_os') {	window.location = 'https://www.privacytools.io/operating-systems/#live_os';}
 if (window.location == 'https://www.privacytools.io/#mobile_os') {	window.location = 'https://www.privacytools.io/operating-systems/#mobile_os';}
 if (window.location == 'https://www.privacytools.io/#aaddons') {	window.location = 'https://www.privacytools.io/operating-systems/#aaddons';}
+if (window.location == 'https://www.privacytools.io/#iaddons') {	window.location = 'https://www.privacytools.io/operating-systems/#iaddons';}
 if (window.location == 'https://www.privacytools.io/#firmware') {	window.location = 'https://www.privacytools.io/operating-systems/#firmware';}
 if (window.location == 'https://www.privacytools.io/#win10') {	window.location = 'https://www.privacytools.io/operating-systems/#win10';}
