@@ -3,7 +3,7 @@
 	<img src="assets/img/svg/layout/brand/horizontal.svg" width="500px" alt="PrivacyTools" />
 </a>
 <p>
-	<em>Encryption Against Global Mass Surveillance.</em>
+	<i>Encryption Against Global Mass Surveillance.</i>
 </p>
 <a href="https://opencollective.com/privacytools#support">
 	<img src="https://opencollective.com/privacytools/tiers/badge.svg">
