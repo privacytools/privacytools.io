@@ -12,36 +12,36 @@
       {% endif %}
 
       <h6 class="card-subtitle mb-2 text-muted" itemprop="jobTitle">{% if include.role %}{{ include.role }}{% elsif include.emeritus %}Former Contributor{% else %}Contributor{% endif %}</h6>
-      {% if include.bio %}<p class="card-text" itemprop="description">{{ include.bio | default: "<i>Hmm, this user hasn't written a bio quite yet :(</i>" }}</p>{% endif %}
+      {% if include.bio %}<p class="card-text" itemprop="description">{{ include.bio | default: "<em>Hmm, this user hasn't written a bio quite yet :(</em>" }}</p>{% endif %}
       <div class="mx-n2">
         {% if include.email %}
         <a href="{{ include.email }}" aria-label="Email" class="mx-2 text-decoration-none" itemprop="email">
-          <i class="fas fa-envelope" aria-hidden="true" title="{{ include.email }}"></i>
+          <em class="fas fa-envelope" aria-hidden="true" title="{{ include.email }}"></em>
         </a>
         {% endif %}
         {% if include.website %}
         <a href="{{ include.website }}" aria-label="Website" class="mx-2 text-decoration-none" itemprop="url">
-          <i class="fas fa-link" aria-hidden="true" title="Website"></i>
+          <em class="fas fa-link" aria-hidden="true" title="Website"></em>
         </a>
         {% endif %}
         {% if include.keys %}
         <a href="{{ include.keys }}" aria-label="Keys" class="mx-2 text-decoration-none" itemprop="sameAs">
-          <i class="fas fa-key" aria-hidden="true" title="Keys"></i>
+          <em class="fas fa-key" aria-hidden="true" title="Keys"></em>
         </a>
         {% endif %}
         {% if include.mastodon %}
         <a href="{{ include.mastodon }}" aria-label="Mastodon" class="mx-2 text-decoration-none" itemprop="sameAs">
-          <i class="fab fa-mastodon" aria-hidden="true" title="Mastodon Profile"></i>
+          <em class="fab fa-mastodon" aria-hidden="true" title="Mastodon Profile"></em>
         </a>
         {% endif %}
         {% if include.twitter %}
         <a href="https://twitter.com/{{ include.twitter }}" aria-label="Twitter" class="mx-2 text-decoration-none" itemprop="sameAs">
-          <i class="fab fa-twitter" aria-hidden="true" title="Twitter Profile"></i>
+          <em class="fab fa-twitter" aria-hidden="true" title="Twitter Profile"></em>
         </a>
         {% endif %}
         {% if include.blog %}
         <a href="https://blog.privacytools.io/author/{{ include.blog }}" aria-label="Blog" class="mx-2 text-decoration-none" itemprop="sameAs">
-          <i class="fas fa-pen-nib" aria-hidden="true" title="PrivacyTools Blog Author"></i>
+          <em class="fas fa-pen-nib" aria-hidden="true" title="PrivacyTools Blog Author"></em>
         </a>
         {% endif %}
       </div>
