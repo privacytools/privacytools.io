@@ -3,8 +3,8 @@
   href="{{ include.link }}" class="badge badge-{{ include.color | default: "info" }}"
   {% if include.tooltip %}
   data-toggle="tooltip"
-  data-original-title="{{ include.tooltip }}"><i class="{{ include.icon | default: "far fa-question-circle"}}"></i> {{ include.text }}
-{% else %}><i class="{{ include.icon | default: "fas fa-external-link-alt"}}"></i> {{ include.text }}{% endif %}
+  data-original-title="{{ include.tooltip }}"><em class="{{ include.icon | default: "far fa-question-circle"}}"></em> {{ include.text }}
+{% else %}><em class="{{ include.icon | default: "fas fa-external-link-alt"}}"></em> {{ include.text }}{% endif %}
 </a>
 {% else %}
 <span
@@ -12,9 +12,9 @@
   {% if include.tooltip %}
     data-toggle="tooltip"
     data-original-title="{{ include.tooltip }}"
-    > <i class="{{ include.icon | default: "far fa-question-circle"}}"></i> {{include.text}}
+    > <em class="{{ include.icon | default: "far fa-question-circle"}}"></em> {{include.text}}
   {% else %}
-    > {% if include.icon %}<i class="{{ include.icon }}"></i>{% endif %} {{include.text}}
+    > {% if include.icon %}<em class="{{ include.icon }}"></em>{% endif %} {{include.text}}
   {% endif %}
 </span>
 {% endif %}
