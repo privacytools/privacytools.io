@@ -9,7 +9,7 @@
           {% assign color = badge_data[0] %}
           {% assign text = badge_data[1] %}
           {% assign tooltip = badge_data[2] | default: false %}
-          {% assign help_icon = '<em class="far fa-question-circle"></em>' %}
+          {% assign help_icon = '<i class="far fa-question-circle"></i>' %}
           <span
             class="badge badge-{{color}}"
             {% if tooltip %}
@@ -78,7 +78,7 @@
           href="{{include.website}}"
           rel="noopener"
           class="btn btn-primary mt-1 mr-1">
-          <em class="fas fa-external-link-alt fa-fw"></em>
+          <i class="fas fa-external-link-alt fa-fw"></i>
           Website
         </a>
         {% if include.privacy-policy %}
@@ -86,7 +86,7 @@
           href="{{include.privacy-policy}}"
           rel="noopener"
           class="btn btn-warning mt-1 mr-1">
-          <em class="fas fa-book fa-fw"></em>
+          <i class="fas fa-book fa-fw"></i>
           Privacy Policy
         </a>
         {% endif %}
@@ -95,7 +95,7 @@
             href="{{include.forum}}"
             rel="noopener"
             class="btn btn-success mt-1 mr-1">
-            <em class="fab fa-discourse fa-fw"></em>
+            <i class="fab fa-discourse fa-fw"></i>
             Forum
           </a>
         {% endif %}
@@ -127,170 +127,170 @@
           {% if include.windows %}
             {% if include.windows != "" %}
               <a href="{{ include.windows }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
-                <em class="fab fa-windows fa-2x fa-fw d-inline pr-1"></em>
+                <i class="fab fa-windows fa-2x fa-fw d-inline pr-1"></i>
               </a>
             {% else %}
-              <em class="fab fa-windows fa-2x fa-fw d-inline pr-1"></em>
+              <i class="fab fa-windows fa-2x fa-fw d-inline pr-1"></i>
             {% endif %}
           {% endif %}
 
           {% if include.mac %}
             {% if include.mac != "" %}
               <a href="{{ include.mac }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
-                <em class="ptio-macos fa-2x fa-fw d-inline pr-1"></em>
+                <i class="ptio-macos fa-2x fa-fw d-inline pr-1"></i>
               </a>
             {% else %}
-              <em class="ptio-macos fa-2x fa-fw d-inline pr-1"></em>
+              <i class="ptio-macos fa-2x fa-fw d-inline pr-1"></i>
             {% endif %}
           {% endif %}
 
           {% if include.linux %}
             {% if include.linux != "" %}
               <a href="{{ include.linux }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
-                <em class="ptio-linux fa-2x fa-fw d-inline pr-1"></em>
+                <i class="ptio-linux fa-2x fa-fw d-inline pr-1"></i>
               </a>
             {% else %}
-              <em class="ptio-linux fa-2x fa-fw d-inline pr-1"></em>
+              <i class="ptio-linux fa-2x fa-fw d-inline pr-1"></i>
             {% endif %}
           {% endif %}
 
           {% if include.freebsd %}
             {% if include.freebsd != "" %}
               <a href="{{ include.freebsd }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
-                <em class="fab fa-freebsd fa-2x fa-fw d-inline pr-1"></em>
+                <i class="fab fa-freebsd fa-2x fa-fw d-inline pr-1"></i>
               </a>
             {% else %}
-              <em class="fab fa-freebsd fa-2x fa-fw d-inline pr-1"></em>
+              <i class="fab fa-freebsd fa-2x fa-fw d-inline pr-1"></i>
             {% endif %}
           {% endif %}
 
           {% if include.openbsd %}
             {% if include.openbsd != "" %}
               <a href="{{ include.openbsd }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
-                <em class="ptio-openbsd fa-2x fa-fw d-inline pr-1"></em>
+                <i class="ptio-openbsd fa-2x fa-fw d-inline pr-1"></i>
               </a>
             {% else %}
-              <em class="ptio-openbsd fa-2x fa-fw d-inline pr-1"></em>
+              <i class="ptio-openbsd fa-2x fa-fw d-inline pr-1"></i>
             {% endif %}
           {% endif %}
 
           {% if include.netbsd %}
             {% if include.netbsd != "" %}
               <a href="{{ include.netbsd }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
-                <em class="ptio-netbsd fa-2x fa-fw d-inline pr-1"></em>
+                <i class="ptio-netbsd fa-2x fa-fw d-inline pr-1"></i>
               </a>
             {% else %}
-              <em class="ptio-netbsd fa-2x fa-fw d-inline pr-1"></em>
+              <i class="ptio-netbsd fa-2x fa-fw d-inline pr-1"></i>
             {% endif %}
           {% endif %}
 
           {% if include.firefox %}
             {% if include.firefox != "" %}
               <a href="{{ include.firefox }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
-                <em class="fab fa-firefox fa-2x fa-fw d-inline pr-1"></em>
+                <i class="fab fa-firefox fa-2x fa-fw d-inline pr-1"></i>
               </a>
             {% else %}
-              <em class="fab fa-firefox fa-2x fa-fw d-inline pr-1"></em>
+              <i class="fab fa-firefox fa-2x fa-fw d-inline pr-1"></i>
             {% endif %}
           {% endif %}
 
           {% if include.chrome %}
             {% if include.chrome != "" %}
               <a href="{{ include.chrome }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
-                <em class="fab fa-chrome fa-2x fa-fw d-inline pr-1"></em>
+                <i class="fab fa-chrome fa-2x fa-fw d-inline pr-1"></i>
               </a>
             {% else %}
-              <em class="fab fa-chrome fa-2x fa-fw d-inline pr-1"></em>
+              <i class="fab fa-chrome fa-2x fa-fw d-inline pr-1"></i>
             {% endif %}
           {% endif %}
 
           {% if include.safari %}
             {% if include.safari != "" %}
               <a href="{{ include.safari }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
-                <em class="fab fa-safari fa-2x fa-fw d-inline pr-1"></em>
+                <i class="fab fa-safari fa-2x fa-fw d-inline pr-1"></i>
               </a>
             {% else %}
-              <em class="fab fa-safari fa-2x fa-fw d-inline pr-1"></em>
+              <i class="fab fa-safari fa-2x fa-fw d-inline pr-1"></i>
             {% endif %}
           {% endif %}
 
           {% if include.opera %}
             {% if include.opera != "" %}
               <a href="{{ include.opera }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
-                <em class="fab fa-opera fa-2x fa-fw d-inline pr-1"></em>
+                <i class="fab fa-opera fa-2x fa-fw d-inline pr-1"></i>
               </a>
             {% else %}
-              <em class="fab fa-opera fa-2x fa-fw d-inline pr-1"></em>
+              <i class="fab fa-opera fa-2x fa-fw d-inline pr-1"></i>
             {% endif %}
           {% endif %}
 
           {% if include.edge %}
             {% if include.edge != "" %}
               <a href="{{ include.edge }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
-                <em class="fab fa-edge fa-2x fa-fw d-inline pr-1"></em>
+                <i class="fab fa-edge fa-2x fa-fw d-inline pr-1"></i>
               </a>
             {% else %}
-              <em class="fab fa-edge fa-2x fa-fw d-inline pr-1"></em>
+              <i class="fab fa-edge fa-2x fa-fw d-inline pr-1"></i>
             {% endif %}
           {% endif %}
 
           {% if include.fdroid %}
             {% if include.fdroid != "" %}
               <a href="{{ include.fdroid }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
-                <em class="ptio-f-droid fa-2x fa-fw d-inline pr-1"></em>
+                <i class="ptio-f-droid fa-2x fa-fw d-inline pr-1"></i>
               </a>
             {% else %}
-              <em class="ptio-f-droid fa-2x fa-fw d-inline pr-1"></em>
+              <i class="ptio-f-droid fa-2x fa-fw d-inline pr-1"></i>
             {% endif %}
           {% endif %}
 
           {% if include.googleplay %}
             {% if include.googleplay != "" %}
               <a href="{{ include.googleplay }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
-                <em class="fab fa-google-play fa-2x fa-fw d-inline pr-1"></em>
+                <i class="fab fa-google-play fa-2x fa-fw d-inline pr-1"></i>
               </a>
             {% else %}
-              <em class="fab fa-google-play fa-2x fa-fw d-inline pr-1"></em>
+              <i class="fab fa-google-play fa-2x fa-fw d-inline pr-1"></i>
             {% endif %}
           {% endif %}
 
           {% if include.android %}
             {% if include.android != "" %}
               <a href="{{ include.android }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
-                <em class="fab fa-android fa-2x fa-fw d-inline pr-1"></em>
+                <i class="fab fa-android fa-2x fa-fw d-inline pr-1"></i>
               </a>
             {% else %}
-              <em class="fab fa-android fa-2x fa-fw d-inline pr-1"></em>
+              <i class="fab fa-android fa-2x fa-fw d-inline pr-1"></i>
             {% endif %}
           {% endif %}
 
           {% if include.ios %}
             {% if include.ios != "" %}
               <a href="{{ include.ios }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
-                <em class="ptio-ios fa-2x fa-fw d-inline pr-1"></em>
+                <i class="ptio-ios fa-2x fa-fw d-inline pr-1"></i>
               </a>
             {% else %}
-              <em class="ptio-ios fa-2x fa-fw d-inline pr-1"></em>
+              <i class="ptio-ios fa-2x fa-fw d-inline pr-1"></i>
             {% endif %}
           {% endif %}
 
           {% if include.sailfish %}
             {% if include.sailfish != "" %}
               <a href="{{ include.sailfish }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
-                <em class="ptio-sailfish-os fa-2x fa-fw d-inline pr-1"></em>
+                <i class="ptio-sailfish-os fa-2x fa-fw d-inline pr-1"></i>
               </a>
             {% else %}
-              <em class="ptio-sailfish-os fa-2x fa-fw d-inline pr-1"></em>
+              <i class="ptio-sailfish-os fa-2x fa-fw d-inline pr-1"></i>
             {% endif %}
           {% endif %}
 
           {% if include.web %}
             {% if include.web != "" %}
               <a href="{{ include.web }}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
-                <em class="fas fa-globe-americas fa-2x fa-fw d-inline pr-1"></em>
+                <i class="fas fa-globe-americas fa-2x fa-fw d-inline pr-1"></i>
               </a>
             {% else %}
-              <em class="fas fa-globe-americas fa-2x fa-fw d-inline pr-1"></em>
+              <i class="fas fa-globe-americas fa-2x fa-fw d-inline pr-1"></i>
             {% endif %}
           {% endif %}
 
@@ -300,25 +300,25 @@
 
           {% if include.github %}
             <a href="{{include.github}}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
-              <em class="fab fa-github fa-2x fa-fw d-inline"></em>
+              <i class="fab fa-github fa-2x fa-fw d-inline"></i>
             </a>
           {% endif %}
 
           {% if include.gitlab %}
             <a href="{{include.gitlab}}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
-              <em class="fab fa-gitlab fa-2x fa-fw d-inline"></em>
+              <i class="fab fa-gitlab fa-2x fa-fw d-inline"></i>
             </a>
           {% endif %}
 
           {% if include.git %}
             <a href="{{include.git}}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
-              <em class="fab fa-git-square fa-2x fa-fw d-inline"></em>
+              <i class="fab fa-git-square fa-2x fa-fw d-inline"></i>
             </a>
           {% endif %}
 
           {% if include.source %}
             <a href="{{include.source}}" rel="noopener" class="text-decoration-none hover-text-decoration-none">
-              <em class="fas fa-code-branch fa-2x fa-fw d-inline"></em>
+              <i class="fas fa-code-branch fa-2x fa-fw d-inline"></i>
             </a>
           {% endif %}
 
