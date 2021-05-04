@@ -16,7 +16,7 @@
                     {% assign color = label_data[0] %}
                     {% assign text = label_data[1] %}
                     {% assign tooltip = label_data[2] | default: "" %}
-                    {% assign help_icon = '<em class="far fa-question-circle"></em>' %}
+                    {% assign help_icon = '<i class="far fa-question-circle"></i>' %}
                     <span class="badge badge-{{color}}" {% if tooltip %} data-toggle="tooltip" data-original-title="{{ tooltip }}">{{text}} {{ help_icon
                         }}
                         {% else %}
@@ -30,7 +30,7 @@
               {% if include.image %}
               <img src="{{include.image}}" width="120" height="120" alt="{{include.title}}" class="panel-item">
               {% elsif include.icon %}
-              <em class="{{ include.icon }} panel-icon{% if include.iconcolor %} text-{{include.iconcolor}}{% endif %}"></em>
+              <i class="{{ include.icon }} panel-icon{% if include.iconcolor %} text-{{include.iconcolor}}{% endif %}"></i>
               {% elsif include.font %}
               <span class="{{ include.font }} panel-item panel-font" alt="{{ include.title }}"></span>
               {% endif %}
