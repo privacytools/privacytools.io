@@ -22,6 +22,6 @@ labels: 🆕 software suggestion
 
 ## My connection with the software
 
-<!-- Are you the author? Enthustiastic or early adopter? Friends with the author or requested by them to open the isue? An employee of the software maker? -->
+<!-- Are you the author? Enthusiastic or early adopter? Friends with the author or requested by them to open the issue? An employee of the software maker? -->
 
 - [ ] I will keep the issue up-to-date if something I have said changes or I remember a connection with the software.
