@@ -67,12 +67,12 @@
 <div>
   <h2 id="federated" class="anchor">
     <a href="#federated"><i class="fas fa-link anchor-icon"></i></a>
-    Federated (decentralized)
+    Federated
   </h2>
 
   <div class="clearfix">
     <img src="/assets/img/svg/layout/network-decentralized.svg" width="200" class="img-fluid float-left ml-2" alt="Decentralized network" />
-    <p>Federated messengers use multiple, independent servers that are able to talk to each other (email is one example of a federated service). Federation allows system administrators to control their own server and still be a part of the larger communications network.</p>
+    <p>Federated messengers use multiple, independent, decentralized servers that are able to talk to each other (email is one example of a federated service). Federation allows system administrators to control their own server and still be a part of the larger communications network.</p>
   </div>
 
 {%
@@ -125,29 +125,19 @@
   <ul>
     <li><a href="https://status.im">Status.im</a> - Encrypted instant messenger with an integrated <a href="https://en.wikipedia.org/wiki/Ethereum">Ethereum</a> wallet (cryptocurrency) that also includes support for <a href="https://our.status.im/tag/dapps">DApps (decentralized apps)</a> (web apps in a curated store). Uses the <a href="https://our.status.im/status-launches-private-peer-to-peer-messaging-protocol/">Waku protocol (a fork of Whisper)</a> for P2P communication. Only available for iOS and Android.</li>
   </ul>
+</div>
 
-  <h2 id="distributed" class="anchor">
-    <a href="#distributed"><i class="fas fa-link anchor-icon"></i></a>
-    Distributed
+  <h2 id="peer-to-peer" class="anchor">
+    <a href="#peer-to-peer"><i class="fas fa-link anchor-icon"></i></a>
+    Peer-to-Peer (P2P)
   </h2>
 
   <div class="clearfix">
     <p>
       <img src="/assets/img/svg/layout/network-distributed.svg" width="150" height="150" class="img-fluid float-left ml-2" alt="Distributed network" />
-      Distributed network messengers connect through a network of nodes that relay messages to the recipient without a third-party server. Connection can then be established directly as with <a href="https://en.wikipedia.org/wiki/Peer-to-peer">peer-to-peer networks</a>, or indirectly through a rendez-vu node as in <a href="https://en.wikipedia.org/wiki/Onion_routing">onion routing networks</a>.
+      <a href="https://en.wikipedia.org/wiki/Peer-to-peer">Peer-to-peer</a> messengers connect to a <a href="https://en.wikipedia.org/wiki/Distributed_networking">distributed network</a> of nodes to relay messages to the recipient without a third-party server. Clients (peers) usually find each other through the use of a <a href="https://en.wikipedia.org/wiki/Distributed_computing">distributed computing</a> network. Examples of this include <a href="https://en.wikipedia.org/wiki/Distributed_hash_table">DHT (distributed hash table)</a> (used with technologies like <a href="https://en.wikipedia.org/wiki/BitTorrent_(protocol)">torrents</a> and <a href="https://en.wikipedia.org/wiki/InterPlanetary_File_System">IPFS</a>, for example). Another approach is proximity based networks, where a connection is established over WiFi or Bluetooth (for example, Briar or the <a href="https://www.scuttlebutt.nz">Scuttlebutt</a> social networking protocol). Once a peer has found a route to its contact via any of these methods, a direct connection between them is made.
     </p>
-  
-    <p>Peer-to-Peer instant messengers connect directly to each other without requiring third-party servers. Clients (peers) usually find each other through the use of a <a href="https://en.wikipedia.org/wiki/Distributed_computing">distributed computing</a> network. Examples of this include <a href="https://en.wikipedia.org/wiki/Distributed_hash_table">DHT (distributed hash table)</a> (used with technologies like <a href="https://en.wikipedia.org/wiki/BitTorrent_(protocol)">torrents</a> and <a href="https://en.wikipedia.org/wiki/InterPlanetary_File_System">IPFS</a>, for example). Another approach is proximity based networks, where a connection is established over WiFi or Bluetooth (for example, Briar or the <a href="https://www.scuttlebutt.nz">Scuttlebutt</a> social networking protocol). Once a peer has found a route to its contact via any of these methods, a direct connection between them is made.</p>
-  
-    <p>Non peer-to-peer distributed networks route encrypted messages through a network of user operated nodes. The sender and recipient never interact directly, and hence there is no leak of IP addresses. With onion routing (e.g., <a href="https://en.wikipedia.org/wiki/Tor_(anonymity_network)">Tor</a>), nodes cannot decrypt messages, only the recipient can. Another example is <a href="https://en.wikipedia.org/wiki/Distributed_ledger">distributed ledger technology</a> (e.g., <a href="https://en.wikipedia.org/wiki/Blockchain">blockchains</a>), although there is no guarantee of anonymity.</p>
-  
-    <p>Softwares can combine multiple approaches, such as Briar using peer-to-peer for local network and Tor for remote connections over the internet, whereas Session always uses onion routing over a blockchain to incentivize nodes.</p>
   </div>
-
-  <h3 id="peer-to-peer" class="anchor">
-    <a href="#peer-to-peer"><i class="fas fa-link anchor-icon"></i></a>
-    Peer-to-Peer (P2P)
-  </h3>
 
 {%
   include cardv2.html
@@ -203,16 +193,23 @@
   </div>
 </div>
 
-  <h3 id="Non peer-to-peer" class="anchor">
-    <a href="#non-peer-to-peer"><i class="fas fa-link anchor-icon"></i></a>
-    Non Peer-to-Peer
-  </h3>
+  <h2 id="Anonymous Routing" class="anchor">
+    <a href="#anonymous-routing"><i class="fas fa-link anchor-icon"></i></a>
+    Anonymous Routing
+  </h2>
+
+  <div class="clearfix">
+    <p>
+      <img src="/assets/img/svg/layout/network-anonymous-routing.svg" width="150" height="150" class="img-fluid float-left ml-2" alt="Anonymous routing network" />
+      A messenger using <a href="https://doi.org/10.1007/978-1-4419-5906-5_628">anonymous routing</a> communicates encrypted messages through a virtual <a href="https://en.wikipedia.org/wiki/Overlay_network">overlay network</a> that hides the location of each node as well as the recipient and sender of each message. The sender and recipient never interact directly, and only meet through a secret rendez-vu node, so that there is no leak of IP addresses nor physical location. With <a href="https://en.wikipedia.org/wiki/Onion_routing">onion routing networks</a> (e.g., <a href="https://en.wikipedia.org/wiki/Tor_(anonymity_network)">Tor</a>), nodes cannot decrypt messages nor the final destination, only the recipient can. Each intermediary node can only decrypt a part that indicates where to send the still encrypted message next, until it arrives at the recipient who can fully decrypt it, hence the "onion layers".
+    </p>
+  </div>
 
 {%
   include cardv2.html
   title="Session"
   image="/assets/img/svg/3rd-party/session.svg"
-  description="Encrypted instant messenger using 3-hop onion routing to transmit communications via <a href=//oxen.io/>Oxen blockchain</a>'s nodes that are <a href=//oxendashboard.com/#5>distributed worldwide</a>. All communications are E2EE encrypted by default, supporting 1-on-1, private group and public group textual chatrooms. The protocol was independently <a href=//getsession.org/session-code-audit/>audited</a> (<a href=//arxiv.org/abs/2002.04609>whitepaper</a>)."
+  description="Encrypted instant messenger using 3-hops onion routing to transmit communications via <a href=//oxen.io/>Oxen blockchain</a>'s nodes that are <a href=//oxendashboard.com/#5>distributed worldwide</a>. All communications are E2EE encrypted by default, supporting 1-on-1, private group and public group textual chatrooms. The protocol was independently <a href=//getsession.org/session-code-audit/>audited</a> (<a href=//arxiv.org/abs/2002.04609>whitepaper</a>)."
   website="https://getsession.org/"
   privacy-policy="https://getsession.org/privacy-policy/"
   github="https://github.com/oxen-io/session-desktop"
