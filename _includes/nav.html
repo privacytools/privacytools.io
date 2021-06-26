@@ -1,17 +1,19 @@
 <nav class="fixed-top bg-dark">
   <div id="navbar" class="d-flex flex-wrap justify-content-between align-items-center">
     <div class="w-50">
-      <a id="nav-home-mobile" class="nav-anchor" href="/">
-        <img src="/assets/img/svg/layout/brand/horizontal.svg" width="150px" />
+      <a id="nav-home-mobile" aria-label="Go to homepage" class="nav-anchor" href="/">
+        <img src="/assets/img/svg/layout/brand/horizontal.svg" alt="PrivacyTools.io" width="150px" />
       </a>
     </div>
     <input type="checkbox" id="nav-toggle" checked />
-    <label for="nav-toggle" id="nav-toggle-label" class="fas fa-bars fa-lg"></label>
+    <label for="nav-toggle" id="nav-toggle-label" class="fas fa-bars fa-lg">
+      <span hidden>Menu Button</span>
+    </label>
 
     <div class="menu w-100">
       <div id="nav-left" class="position-relative flex-col">
-        <a class="nav-anchor" href="/">
-          <span id="nav-home" class="fas fa-home fa-fw"></span>
+        <a class="nav-anchor" href="/" aria-label="Go to homepage">
+          <span id="nav-home" aria-hidden="true" class="fas fa-home fa-fw"></span>
         </a>
 
         <!-- Provider -->
@@ -115,7 +117,7 @@
         <a href="/about/" class="nav-anchor">
           About Us
         </a>{% unless page.url == '/sponsors/' %}
-        <span id="nav-switch-theme" class="nav-anchor">
+        <span id="nav-switch-theme" class="nav-anchor" tabindex="0">
           <span class="nav-theme-icon fas fa-fw" aria-hidden="true" title="Theme"></span>
           <span class="sr-only">Toggle Theme</span>
         </span>

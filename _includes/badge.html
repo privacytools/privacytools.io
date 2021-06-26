@@ -1,20 +1,25 @@
 {% if include.link %}
-<a
-  href="{{ include.link }}" class="badge badge-{{ include.color | default: "info" }}"
-  {% if include.tooltip %}
-  data-toggle="tooltip"
-  data-original-title="{{ include.tooltip }}"><i class="{{ include.icon | default: "far fa-question-circle"}}"></i> {{ include.text }}
-{% else %}><i class="{{ include.icon | default: "fas fa-external-link-alt"}}"></i> {{ include.text }}{% endif %}
+<a href="{{ include.link }}" class="badge badge-{{ include.color | default: " info" }}" {% if include.tooltip %} {% if
+  include.text == null or include.text == "" %} aria-label="{{include.tooltip}}" {% endif %} data-toggle="tooltip"
+  data-original-title="{{ include.tooltip }}"><i aria-hidden="true" class="{{ include.icon | default: " far
+    fa-question-circle"}}"></i> {{ include.text }}
+  {% else %}
+  {% if include.text == null or include.text == "" %}
+  aria-label="{{include.link}}"
+  {% endif %}
+  ><i aria-hidden="true" class="{{ include.icon | default: " fas fa-external-link-alt"}}"></i> {{ include.text }}{%
+  endif %}
 </a>
 {% else %}
-<span
-  class="badge badge-{{ include.color | default: "info" }}"
-  {% if include.tooltip %}
-    data-toggle="tooltip"
-    data-original-title="{{ include.tooltip }}"
-    > <i class="{{ include.icon | default: "far fa-question-circle"}}"></i> {{include.text}}
+<span class="badge badge-{{ include.color | default: " info" }}" {% if include.tooltip %}
+  {% if include.text == null or include.text == "" %} aria-label="{{include.tooltip}}" {% endif %} 
+  data-toggle="tooltip" data-original-title="{{ include.tooltip }}"> <i
+    class="{{ include.icon | default: " far fa-question-circle"}}"></i> {{include.text}}
   {% else %}
-    > {% if include.icon %}<i class="{{ include.icon }}"></i>{% endif %} {{include.text}}
+  {% if include.text == null or include.text == "" %}
+  aria-label="{{include.link}}"
+  {% endif %}
+  > {% if include.icon %}<i class="{{ include.icon }}"></i>{% endif %} {{include.text}}
   {% endif %}
 </span>
 {% endif %}

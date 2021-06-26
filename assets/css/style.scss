@@ -94,6 +94,22 @@ a,
   }
 }
 
+ol.breadcrumb > li.breadcrumb-item > a > span {
+  color: #0065D1;
+}
+
+ol.breadcrumb > li.breadcrumb-item.active > span {
+  color: #616A70;
+}
+
+div.alert.alert-warning a {
+  color: #006ADB;
+}
+
+div.alert.alert-success a {
+  color: #0063CC;
+}
+
 h2, h3:not(.h5), h4, h5 {
   margin-top: 1.5rem;
   margin-bottom: 1rem;
