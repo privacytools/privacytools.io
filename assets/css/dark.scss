@@ -213,6 +213,21 @@ div.alert.alert-success a {
   content: "\f185";
 }
 
+*:focus:not(.dropdown-item) {
+  outline: 2px solid yellow;
+  outline-offset: 0.1em;
+}
+
+button:focus {
+  outline: 2px solid yellow !important;
+  outline-offset: 0.1em !important;
+}
+
+div.alert.alert-warning a {
+  outline: 2px solid #000289 !important;
+  outline-offset: 0.1em !important;
+}
+
 .twitter { background: desaturate($twitter, 25%); }
 .mastodon { background: desaturate($mastodon, 25%); }
 .facebook { background: desaturate($facebook, 25%); }

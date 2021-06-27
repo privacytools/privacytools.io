@@ -479,3 +479,30 @@ input#nav-toggle,
 [data-toggle="tooltip"]:hover:after {
   opacity: .9;
 }
+
+// Focus style
+
+nav *:focus:not(.dropdown-item) {
+  outline: 2px solid yellow;
+  outline-offset: 0.1em;
+}
+
+footer div > a:focus {
+  outline: 4px solid #0100ff !important;
+  z-index: 3000;
+}
+
+*:focus:not(.dropdown-item) {
+  outline: 2px solid #0100ff;
+  outline-offset: 0.1em;
+}
+
+button:focus {
+  outline: 2px solid #0100ff !important;
+  outline-offset: 0.1em !important;
+}
+
+div.alert.alert-warning a {
+  outline: 2px solid #0100ff !important;
+  outline-offset: 0.1em !important;
+}

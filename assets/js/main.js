@@ -36,7 +36,18 @@ function navSectionsClose(event) {
 // Dark/Light color scheme switch button
 document.querySelector("#nav-switch-theme").style.display = "inline";
 document.querySelector("#nav-switch-theme").addEventListener("click", changeColorScheme);
-document.querySelector("#nav-switch-theme").addEventListener("keydown", handleBtnKeyDown);
+document.querySelector("#nav-switch-theme").addEventListener("keydown", e => {
+  if (e.key === " " || e.key === "Enter" || e.key === "Spacebar") {
+    e.preventDefault();
+    changeColorScheme();
+  }
+});
+document.querySelector("#nav-toggle-label").addEventListener("keydown", e => {
+  if (e.key === " " || e.key === "Enter" || e.key === "Spacebar") {
+    e.preventDefault();
+    document.getElementById('nav-toggle').checked = !document.getElementById('nav-toggle').checked;
+  }
+});
 
 function changeColorScheme() {
   // Use whatever users want
@@ -91,13 +102,4 @@ if (
     localStorage.getItem("colorScheme") === "light")
 ) {
   fixThemeImages();
-}
-
-function handleBtnKeyDown(event) {
-  // Check to see if space or enter were pressed
-  if (event.key === " " || event.key === "Enter" || event.key === "Spacebar") { // "Spacebar" for IE11 support
-    // Prevent the default action to stop scrolling when space is pressed
-    event.preventDefault();
-    changeColorScheme();
-  }
 }
