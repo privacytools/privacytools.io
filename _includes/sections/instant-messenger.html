@@ -26,8 +26,8 @@
   include cardv2.html
   title="Signal"
   image="/assets/img/svg/3rd-party/signal.svg"
-  description='Signal is a mobile app developed by Signal Messenger LLC. The app provides instant messaging, as well as voice and video calling. All communications are E2EE unless you choose to send as SMS. Its protocol has also been <a href="https://eprint.iacr.org/2016/1013.pdf">indepedently audited (PDF)</a>'
-  labels="color==warning::text==Requires phone number::tooltip==Signal requires your phone number as an personal identifier which means anyone you communicate with will see it.|text==VoIP"
+  description='Signal is a mobile app developed by Signal Messenger LLC. The app provides instant messaging, as well as voice and video calling. All communications are E2EE unless you choose to send as SMS.'
+  labels="color==warning::text==Requires phone number::tooltip==Signal requires your phone number as an personal identifier which means anyone you communicate with will see it.|color==info::icon==fas fa-info-circle::text==Audited::link==https://eprint.iacr.org/2016/1013.pdf::tooltip==The protocol was independently audited.|text==VoIP"
   website="https://signal.org/"
   privacy-policy="https://signal.org/legal/"
   forum="https://forum.privacytools.io/t/discussion-signal/664"
@@ -80,7 +80,7 @@
   title="Element"
   image="/assets/img/svg/3rd-party/element.svg"
   description='<a href="https://element.io">Element</a> (formerly <a href="https://element.io/blog/welcome-to-element/">Riot</a>) is the reference client for the <a href="https://matrix.org/docs/guides/introduction">Matrix</a> network. The <a href="https://matrix.org/docs/spec">Matrix open standard</a> is an open-source standard for secure, decentralized, real-time communication.'
-  labels="text==VoIP"
+  labels="color==info::icon==fas fa-info-circle::text==Audited::link==https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last::tooltip==The protocol was independently audited.|text==VoIP"
   website="https://element.io"
   privacy-policy="https://element.io/privacy"
   forum="https://forum.privacytools.io/t/discussion-element-io/665"
@@ -144,6 +144,7 @@
   title="Briar"
   image="/assets/img/svg/3rd-party/briar.svg"
   description="Encrypted instant messenger that connects to contacts via Wi-Fi, Bluetooth, or Tor over the internet to synchronize messages. Technology such as this has proven to be useful when Internet availability is an issue, such as in times of crisis."
+  labels="color==warning::text==Warning::tooltip==If local mesh network is not needed, disable Wi-Fi and Bluetooth connections in Briar's options for maximal anonymity by only connecting through the Tor network.|color==info::icon==fas fa-info-circle::text==Audited::link==https://briarproject.org/news/2017-beta-released-security-audit/::tooltip==The client software was independently audited."
   website="https://briarproject.org"
   privacy-policy="https://briarproject.org/privacy-policy/"
   forum="https://forum.privacytools.io/t/discussion-briar/2114"
@@ -207,9 +208,24 @@
 
 {%
   include cardv2.html
+  title="Briar"
+  image="/assets/img/svg/3rd-party/briar.svg"
+  description="Encrypted instant messenger that connects to contacts via Wi-Fi, Bluetooth, or Tor over the internet to synchronize messages. Technology such as this has proven to be useful when Internet availability is an issue, such as in times of crisis."
+  labels="color==warning::text==Warning::tooltip==If local mesh network is not needed, disable Wi-Fi and Bluetooth connections in Briar's options for maximal anonymity by only connecting through the Tor network.|color==info::icon==fas fa-info-circle::text==Audited::link==https://briarproject.org/news/2017-beta-released-security-audit/::tooltip==The client software was independently audited."
+  website="https://briarproject.org"
+  privacy-policy="https://briarproject.org/privacy-policy/"
+  forum="https://forum.privacytools.io/t/discussion-briar/2114"
+  gitlab="https://code.briarproject.org/briar/briar"
+  fdroid="https://f-droid.org/packages/org.briarproject.briar.android/"
+  googleplay="https://play.google.com/store/apps/details?id=org.briarproject.briar.android"
+%}
+
+{%
+  include cardv2.html
   title="Session"
   image="/assets/img/svg/3rd-party/session.svg"
-  description="Encrypted instant messenger using 3-hops onion routing to transmit communications via <a href=//oxen.io/>Oxen blockchain</a>'s nodes that are <a href=//oxendashboard.com/#5>distributed worldwide</a>. All communications are E2EE encrypted by default, supporting 1-on-1, private group and public group textual chatrooms. The protocol was independently <a href=//getsession.org/session-code-audit/>audited</a> (<a href=//arxiv.org/abs/2002.04609>whitepaper</a>)."
+  description="Encrypted instant messenger using 3-hops onion routing to transmit communications via <a href=//oxen.io/>Oxen blockchain</a>'s nodes that are <a href=//oxendashboard.com/#5>distributed worldwide</a>. All communications are E2EE encrypted by default, supporting 1-on-1, private group and public group textual chatrooms."
+  labels="color==info::icon==fas fa-info-circle::text==Audited::link==https://getsession.org/session-code-audit/::tooltip==The client softwares on all platforms were independently audited.|color==info::icon==fas fa-info-circle::text==Whitepaper::link==https://arxiv.org/abs/2002.04609"
   website="https://getsession.org/"
   privacy-policy="https://getsession.org/privacy-policy/"
   github="https://github.com/oxen-io/session-desktop"
