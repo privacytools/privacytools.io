@@ -6,25 +6,28 @@
 <div class="alert alert-warning" role="alert">
   <strong>If you are currently using an Instant Messenger like Telegram, LINE, Viber, <a href="https://www.eff.org/deeplinks/2016/10/where-whatsapp-went-wrong-effs-four-biggest-security-concerns">WhatsApp</a>, or plain SMS, you should pick an alternative here.</strong></div>
 
-<p>We only recommend instant messenger programs or apps that support <a href="https://en.wikipedia.org/wiki/End-to-end_encryption">end-to-end encryption (E2EE)</a>. When E2EE is used, all transmissions (messages, voice, video, etc.) are encrypted <strong>before</strong> they are sent from your device. E2EE protects both the authenticity and confidentiality of the transmission as they pass through any part of the network (servers, etc.).</p>
+  <p>We only recommend instant messenger programs or apps that support <a href="https://en.wikipedia.org/wiki/End-to-end_encryption">end-to-end encryption (E2EE)</a>. When E2EE is used, all transmissions (messages, voice, video, etc.) are encrypted <strong>before</strong> they are sent from your device. E2EE protects both the authenticity and confidentiality of the transmission as they pass through any part of the network (servers, etc.).</p>
 
-<p>All the client programs/apps we chose are <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software">free and open-source software</a> unless otherwise mentioned. This to ensure that the code can be independently verified by experts now and in the future.</p>
+  <p>All the client programs/apps we chose are <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software">free and open-source software</a> unless otherwise mentioned. This to ensure that the code can be independently verified by experts now and in the future.</p>
 
-<p>We have described the three main types of messaging programs that exist: Centralized, Federated and Peer-to-Peer (P2P), with the advantages and disadvantages of each.</p>
+  <p>We have described the three main types of messaging programs that exist: Centralized, Federated and Peer-to-Peer (P2P), with the advantages and disadvantages of each.</p>
 
-<h2 id="centralized" class="anchor">
-  <a href="#centralized"><i class="fas fa-link anchor-icon"></i></a>
-  Centralized
-</h2>
+  <h2 id="centralized" class="anchor">
+    <a href="#centralized"><i class="fas fa-link anchor-icon"></i></a>
+    Centralized
+  </h2>
 
-<p>Centralized messengers are those where every participant is on the same server or network of servers controlled by the same organization.</p>
+  <div class="clearfix">
+    <img src="/assets/img/svg/layout/network-centralized.svg" width="150" height="150" class="img-fluid float-left ml-2" alt="Centralized network" />
+    <p>Centralized messengers are those where every participant is on the same server or network of servers controlled by the same organization.</p>
+  </div>
 
 {%
   include cardv2.html
   title="Signal"
   image="/assets/img/svg/3rd-party/signal.svg"
-  description='Signal is a mobile app developed by Signal Messenger LLC. The app provides instant messaging, as well as voice and video calling. All communications are E2EE unless you choose to send as SMS. Its protocol has also been <a href="https://eprint.iacr.org/2016/1013.pdf">indepedently audited (PDF)</a>'
-  labels="color==warning::text==Requires phone number::tooltip==Signal requires your phone number as an personal identifier which means anyone you communicate with will see it.|text==VoIP"
+  description='Signal is a mobile app developed by Signal Messenger LLC. The app provides instant messaging, as well as voice and video calling. All communications are E2EE unless you choose to send as SMS.'
+  labels="color==warning::text==Requires phone number::tooltip==Signal requires your phone number as an personal identifier which means anyone you communicate with will see it.|color==info::icon==fas fa-info-circle::text==Audited::link==https://eprint.iacr.org/2016/1013.pdf::tooltip==The protocol was independently audited.|text==VoIP"
   website="https://signal.org/"
   privacy-policy="https://signal.org/legal/"
   forum="https://forum.privacytools.io/t/discussion-signal/664"
@@ -67,14 +70,17 @@
     Federated
   </h2>
 
-  <p>Federated messengers use multiple, independent servers that are able to talk to each other (email is one example of a federated service). Federation allows system administrators to control their own server and still be a part of the larger communications network.</p>
+  <div class="clearfix">
+    <img src="/assets/img/svg/layout/network-decentralized.svg" width="200" class="img-fluid float-left ml-2" alt="Decentralized network" />
+    <p>Federated messengers use multiple, independent, decentralized servers that are able to talk to each other (email is one example of a federated service). Federation allows system administrators to control their own server and still be a part of the larger communications network.</p>
+  </div>
 
 {%
   include cardv2.html
   title="Element"
   image="/assets/img/svg/3rd-party/element.svg"
   description='<a href="https://element.io">Element</a> (formerly <a href="https://element.io/blog/welcome-to-element/">Riot</a>) is the reference client for the <a href="https://matrix.org/docs/guides/introduction">Matrix</a> network. The <a href="https://matrix.org/docs/spec">Matrix open standard</a> is an open-source standard for secure, decentralized, real-time communication.'
-  labels="text==VoIP"
+  labels="color==info::icon==fas fa-info-circle::text==Audited::link==https://matrix.org/blog/2016/11/21/matrixs-olm-end-to-end-encryption-security-assessment-released-and-implemented-cross-platform-on-riot-at-last::tooltip==The protocol was independently audited.|text==VoIP"
   website="https://element.io"
   privacy-policy="https://element.io/privacy"
   forum="https://forum.privacytools.io/t/discussion-element-io/665"
@@ -119,19 +125,26 @@
   <ul>
     <li><a href="https://status.im">Status.im</a> - Encrypted instant messenger with an integrated <a href="https://en.wikipedia.org/wiki/Ethereum">Ethereum</a> wallet (cryptocurrency) that also includes support for <a href="https://our.status.im/tag/dapps">DApps (decentralized apps)</a> (web apps in a curated store). Uses the <a href="https://our.status.im/status-launches-private-peer-to-peer-messaging-protocol/">Waku protocol (a fork of Whisper)</a> for P2P communication. Only available for iOS and Android.</li>
   </ul>
+</div>
 
   <h2 id="peer-to-peer" class="anchor">
     <a href="#peer-to-peer"><i class="fas fa-link anchor-icon"></i></a>
-    Peer to Peer (P2P)
+    Peer-to-Peer (P2P)
   </h2>
 
-  <p>Peer-to-Peer instant messengers connect directly to each other without requiring third-party servers. Clients (peers) usually find each other through the use of a <a href="https://en.wikipedia.org/wiki/Distributed_computing">distributed computing</a> network. Examples of this include <a href="https://en.wikipedia.org/wiki/Distributed_hash_table">DHT (distributed hash table)</a> (used with technologies like <a href="https://en.wikipedia.org/wiki/BitTorrent_(protocol)">torrents</a> and <a href="https://en.wikipedia.org/wiki/InterPlanetary_File_System">IPFS</a>, for example). Another approach is proximity based networks, where a connection is established over WiFi or Bluetooth (for example, Briar or the <a href="https://www.scuttlebutt.nz">Scuttlebutt</a> social networking protocol). Once a peer has found a route to its contact via any of these methods, a direct connection between them is made.</p>
+  <div class="clearfix">
+    <p>
+      <img src="/assets/img/svg/layout/network-distributed.svg" width="150" height="150" class="img-fluid float-left ml-2" alt="Distributed network" />
+      <a href="https://en.wikipedia.org/wiki/Peer-to-peer">Peer-to-peer</a> messengers connect to a <a href="https://en.wikipedia.org/wiki/Distributed_networking">distributed network</a> of nodes to relay messages to the recipient without a third-party server. Clients (peers) usually find each other through the use of a <a href="https://en.wikipedia.org/wiki/Distributed_computing">distributed computing</a> network. Examples of this include <a href="https://en.wikipedia.org/wiki/Distributed_hash_table">DHT (distributed hash table)</a> (used with technologies like <a href="https://en.wikipedia.org/wiki/BitTorrent_(protocol)">torrents</a> and <a href="https://en.wikipedia.org/wiki/InterPlanetary_File_System">IPFS</a>, for example). Another approach is proximity based networks, where a connection is established over WiFi or Bluetooth (for example, Briar or the <a href="https://www.scuttlebutt.nz">Scuttlebutt</a> social networking protocol). Once a peer has found a route to its contact via any of these methods, a direct connection between them is made. Although messages are usually encrypted, an observer can still deduce the location and identity of the sender and recipient.
+    </p>
+  </div>
 
 {%
   include cardv2.html
   title="Briar"
   image="/assets/img/svg/3rd-party/briar.svg"
   description="Encrypted instant messenger that connects to contacts via Wi-Fi, Bluetooth, or Tor over the internet to synchronize messages. Technology such as this has proven to be useful when Internet availability is an issue, such as in times of crisis."
+  labels="color==warning::text==Warning::tooltip==If local mesh network is not needed, disable Wi-Fi and Bluetooth connections in Briar's options for maximal anonymity by only connecting through the Tor network.|color==info::icon==fas fa-info-circle::text==Audited::link==https://briarproject.org/news/2017-beta-released-security-audit/::tooltip==The client software was independently audited."
   website="https://briarproject.org"
   privacy-policy="https://briarproject.org/privacy-policy/"
   forum="https://forum.privacytools.io/t/discussion-briar/2114"
@@ -176,6 +189,68 @@
           <li>Generally increases battery usage on mobile devices, because the client must stay connected to the distributed network to learn about who is online.</li>
         </ul>
         <li>Your <a href="https://en.wikipedia.org/wiki/IP_address">IP address</a> and that of the contacts you're communicating with may be visible if you do not use the software in conjunction with a <a href="/software/networks">self contained network</a>, such as <a href="https://www.torproject.org">Tor</a> or <a href="https://geti2p.net/">I2P</a>. Many countries have some form of mass surveillance and/or metadata retention.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+  <h2 id="anonymous-routing" class="anchor">
+    <a href="#anonymous-routing"><i class="fas fa-link anchor-icon"></i></a>
+    Anonymous Routing
+  </h2>
+
+  <div class="clearfix">
+    <p>
+      <img src="/assets/img/svg/layout/network-anonymous-routing.svg" width="150" height="150" class="img-fluid float-left ml-2" alt="Anonymous routing network" />
+      A messenger using <a href="https://doi.org/10.1007/978-1-4419-5906-5_628">anonymous routing</a> communicates encrypted messages through a virtual <a href="https://en.wikipedia.org/wiki/Overlay_network">overlay network</a> that hides the location of each node as well as the recipient and sender of each message. The sender and recipient never interact directly, and only meet through a secret rendez-vu node, so that there is no leak of IP addresses nor physical location. With <a href="https://en.wikipedia.org/wiki/Onion_routing">onion routing networks</a> (e.g., <a href="https://en.wikipedia.org/wiki/Tor_(anonymity_network)">Tor</a>), nodes cannot decrypt messages nor the final destination, only the recipient can. Each intermediary node can only decrypt a part that indicates where to send the still encrypted message next, until it arrives at the recipient who can fully decrypt it, hence the "onion layers".
+    </p>
+  </div>
+
+{%
+  include cardv2.html
+  title="Briar"
+  image="/assets/img/svg/3rd-party/briar.svg"
+  description="Encrypted instant messenger that connects to contacts via Wi-Fi, Bluetooth, or Tor over the internet to synchronize messages. Technology such as this has proven to be useful when Internet availability is an issue, such as in times of crisis."
+  labels="color==warning::text==Warning::tooltip==If local mesh network is not needed, disable Wi-Fi and Bluetooth connections in Briar's options for maximal anonymity by only connecting through the Tor network.|color==info::icon==fas fa-info-circle::text==Audited::link==https://briarproject.org/news/2017-beta-released-security-audit/::tooltip==The client software was independently audited."
+  website="https://briarproject.org"
+  privacy-policy="https://briarproject.org/privacy-policy/"
+  forum="https://forum.privacytools.io/t/discussion-briar/2114"
+  gitlab="https://code.briarproject.org/briar/briar"
+  fdroid="https://f-droid.org/packages/org.briarproject.briar.android/"
+  googleplay="https://play.google.com/store/apps/details?id=org.briarproject.briar.android"
+%}
+
+{%
+  include cardv2.html
+  title="Session"
+  image="/assets/img/svg/3rd-party/session.svg"
+  description="Encrypted instant messenger using 3-hops onion routing to transmit communications via <a href=//oxen.io/>Oxen blockchain</a>'s nodes that are <a href=//oxendashboard.com/#5>distributed worldwide</a>. All communications are E2EE encrypted by default, supporting 1-on-1, private group and public group textual chatrooms."
+  labels="color==info::icon==fas fa-info-circle::text==Audited::link==https://getsession.org/session-code-audit/::tooltip==The client softwares on all platforms were independently audited.|color==info::icon==fas fa-info-circle::text==Whitepaper::link==https://arxiv.org/abs/2002.04609"
+  website="https://getsession.org/"
+  privacy-policy="https://getsession.org/privacy-policy/"
+  github="https://github.com/oxen-io/session-desktop"
+  googleplay="https://play.google.com/store/apps/details?id=network.loki.messenger"
+  ios="https://apps.apple.com/app/session-private-messenger/id1470168868"
+  windows="https://getsession.org/windows"
+  linux="https://www.getsession.org/linux"
+  mac="https://getsession.org/mac"
+%}
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+    <h3>Advantages</h3>
+    <ul>
+      <li>Minimal to no information is exposed to other parties, including recipients.</li>
+      <li>Messages can be relayed even if one of the parties is offline.</li>
+    </ul>
+    </div>
+    <div class="col-md-6">
+      <h3>Disadvantages</h3>
+      <ul>
+        <li>Slow messages propagation.</li>
+        <li>Less reliable due to the random nodes routing, some nodes may be very far from the sender and receiver, adding latency or even failing to transmit messages if one of the nodes goes offline.</li>
+        <li>More complex to use as it requires the creation and secured backup of a cryptographic private key.</li>
       </ul>
     </div>
   </div>
