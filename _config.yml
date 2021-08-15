@@ -3,6 +3,7 @@ name: PrivacyTools
 description: You are being watched. PrivacyTools provides knowledge, encryption, and software recommendations to protect you against global mass surveillance.
 url: "https://www.privacytools.io"
 production_url: "https://www.privacytools.io"
+repository: privacytools/privacytools.io
 sass:
   style: compressed
 plugins:
