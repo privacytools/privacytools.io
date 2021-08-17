@@ -55,10 +55,6 @@ Are you working with a privacy focused company? Ask your manager or marketing te
 
 ## Community Translations
 - [繁体中文 / Chinese](https://privacytools.twngo.xyz/) - [GitHub](https://github.com/twngo/privacytools-zh)
-- [Español / Spanish](https://victorhck.gitlab.io/privacytools-es/) - [GitLab](https://gitlab.com/victorhck/privacytools-es)
-- [Polski / Polish](https://pl.privacytools.io) - [Gitea](https://git.privacytools.io/pl-privacytoolsIO/pl.privacytools.io)
-- [Deutsch / German](https://privacytools.it-sec.rocks/) - [GitHub](https://github.com/Anon215/privacytools.it-sec.rocks)
-- [Français / French](https://privacytools.dreads-unlock.fr/) - [GitLab](https://gitlab.com/Booteille/privacytools)
 - [Italiano / Italian](https://privacytools-it.github.io/) - [GitHub](https://github.com/privacytools-it/privacytools-it.github.io)
 - [Русский / Russian](https://privacytools.ru) - [GitHub](https://github.com/c0rdis/privacytools.ru)
 - [Português / Portuguese](https://www.privacidade.digital/) - [GitHub](https://github.com/PrivacidadeDigital/privacidade.digital)
