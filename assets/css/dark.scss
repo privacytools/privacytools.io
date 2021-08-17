@@ -6,13 +6,13 @@ $dark-900: #181b21;
 $dark-800: #22262e;
 $dark-700: #343a46;
 $dark-600: #464f60;
-$light: #d8d8d8;
+$light: #f4f4eb;
 $primary: #345e8e;
 $danger: #b63f4a;
 $secondary: $dark-600;
 $success: #2c7f40;
 $warning: #c6a339;
-$info: #218899;
+$info: #008299;
 
 
 /*
@@ -169,6 +169,33 @@ table[data-sortable].sortable-theme-bootstrap th[data-sorted="true"][data-sorted
   border-top-color: $light;
 }
 
+.alert-link {
+  color: #00d7ff !important;
+}
+
+.blockquote-footer {
+  color: #7a848e;
+}
+
+.highlighter-rouge, code {
+  color: #E6418E;
+}
+
+ol.breadcrumb > li.breadcrumb-item > a > span {
+  color: #248EFF;
+}
+
+ol.breadcrumb > li.breadcrumb-item.active > span {
+  color: #879197;
+}
+
+div.alert.alert-warning a {
+  color: #000B85;
+}
+
+div.alert.alert-success a {
+  color: #0AD2FF;
+}
 
 /*
  * Other
@@ -184,6 +211,21 @@ table[data-sortable].sortable-theme-bootstrap th[data-sorted="true"][data-sorted
   color: $warning;
   font-size: 1em;
   content: "\f185";
+}
+
+*:focus:not(.dropdown-item) {
+  outline: 2px solid yellow;
+  outline-offset: 0.1em;
+}
+
+button:focus {
+  outline: 2px solid yellow !important;
+  outline-offset: 0.1em !important;
+}
+
+div.alert.alert-warning a {
+  outline: 2px solid #000289 !important;
+  outline-offset: 0.1em !important;
 }
 
 .twitter { background: desaturate($twitter, 25%); }

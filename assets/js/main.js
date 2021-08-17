@@ -36,6 +36,18 @@ function navSectionsClose(event) {
 // Dark/Light color scheme switch button
 document.querySelector("#nav-switch-theme").style.display = "inline";
 document.querySelector("#nav-switch-theme").addEventListener("click", changeColorScheme);
+document.querySelector("#nav-switch-theme").addEventListener("keydown", e => {
+  if (e.key === " " || e.key === "Enter" || e.key === "Spacebar") {
+    e.preventDefault();
+    changeColorScheme();
+  }
+});
+document.querySelector("#nav-toggle-label").addEventListener("keydown", e => {
+  if (e.key === " " || e.key === "Enter" || e.key === "Spacebar") {
+    e.preventDefault();
+    document.getElementById('nav-toggle').checked = !document.getElementById('nav-toggle').checked;
+  }
+});
 
 function changeColorScheme() {
   // Use whatever users want
