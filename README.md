@@ -11,7 +11,7 @@
 
 ## This project is archived.
 
-See our [Welcome to Privacy Guides](https://privacyguides.org/blog/2021/09/14/welcome-to-privacy-guides/) post for more information. Our project has now moved on to [Privacy Guides](https://privacyguides.org).
+See our [Welcome to Privacy Guides](https://blog.privacyguides.org/2021/09/14/welcome-to-privacy-guides/) post for more information. Our project has now moved on to [Privacy Guides](https://privacyguides.org).
 
 It's important for a website on privacy to be up-to-date. Keep an eye on software updates of the applications listed [here](https://github.com/privacyguides/). Follow recent news about providers that are recommended. We try our best to keep up but we're not perfect and the internet is changing fast. So if you find an error, or you think a provider should not be listed, or a qualified service provider is missing or a browser plugin is not the best choice anymore or anything else, feel free to open a [discussion](https://github.com/privacyguides/privacyguides.org/discussions) or [issue](https://github.com/privacyguides/privacyguides.org/issues) to correct errors.
 
